@@ -7648,8 +7648,8 @@ Source: www.kingbright.com</description>
 <part name="LED2" library="led" deviceset="LED" device="CHIPLED_1206"/>
 <part name="POS" library="formula electric" deviceset="CONN_1" device=""/>
 <part name="NEG" library="formula electric" deviceset="CONN_1" device=""/>
-<part name="C2" library="resistor" deviceset="C-US" device="C0805"/>
-<part name="C1" library="resistor" deviceset="C-US" device="C0805"/>
+<part name="C2" library="resistor" deviceset="C-US" device="C0805" value="10-40uF"/>
+<part name="C1" library="resistor" deviceset="C-US" device="C0805" value="15uF??"/>
 </parts>
 <sheets>
 <sheet>
@@ -7657,10 +7657,13 @@ Source: www.kingbright.com</description>
 <text x="71.12" y="0" size="1.778" layer="91">There are two pads that don't have anything connected to it here</text>
 <text x="-20.32" y="25.4" size="1.778" layer="95" rot="R90">VOLTAGE REF</text>
 <text x="43.18" y="20.32" size="1.778" layer="95">MCU</text>
-<text x="106.68" y="35.56" size="1.778" layer="95">TRANSISTOR???</text>
-<text x="0" y="78.74" size="1.778" layer="95">NO IDEA AT ALL</text>
 <text x="58.42" y="78.74" size="1.778" layer="95">MOSTFET N-CHANNEL</text>
-<text x="-35.56" y="60.96" size="1.778" layer="95">POTENTIALLY THERMISTOR</text>
+<text x="0" y="78.74" size="1.016" layer="95">DIODE FACING OPPOSITE OF VOLTAGE</text>
+<text x="-22.86" y="66.04" size="1.016" layer="95" rot="R270">DEFINITELY CAPACITOR</text>
+<text x="109.22" y="35.56" size="1.016" layer="95">N-CHANNEL MOSFET</text>
+<text x="109.22" y="38.1" size="1.016" layer="95">Saturates at ~3.3V</text>
+<text x="58.42" y="73.66" size="1.016" layer="95">saturates around 3-5v</text>
+<text x="0" y="81.28" size="1.016" layer="95">very sure it's just a reverse bias protection diode</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="45.72" y="78.74" rot="R90">
@@ -7703,7 +7706,7 @@ Source: www.kingbright.com</description>
 <instance part="R12" gate="G$1" x="-2.54" y="93.98"/>
 <instance part="UP" gate="G$1" x="129.54" y="33.02" rot="R270"/>
 <instance part="DOWN" gate="G$1" x="73.66" y="15.24"/>
-<instance part="LED2" gate="G$1" x="83.82" y="33.02" rot="R270"/>
+<instance part="LED2" gate="G$1" x="81.28" y="33.02" rot="R90"/>
 <instance part="POS" gate="G$1" x="-38.1" y="91.44"/>
 <instance part="NEG" gate="G$1" x="-25.4" y="5.08"/>
 <instance part="C2" gate="G$1" x="-5.08" y="12.7"/>
@@ -7728,8 +7731,8 @@ Source: www.kingbright.com</description>
 </segment>
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="88.9" y1="22.86" x2="96.52" y2="22.86" width="0.1524" layer="91"/>
-<label x="96.52" y="22.86" size="1.778" layer="95" rot="R270" xref="yes"/>
+<wire x1="88.9" y1="22.86" x2="91.44" y2="22.86" width="0.1524" layer="91"/>
+<label x="91.44" y="22.86" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="R6" gate="G$1" pin="2"/>
@@ -7770,11 +7773,6 @@ Source: www.kingbright.com</description>
 <junction x="22.86" y="58.42"/>
 </segment>
 <segment>
-<pinref part="LED2" gate="G$1" pin="A"/>
-<wire x1="86.36" y1="33.02" x2="93.98" y2="33.02" width="0.1524" layer="91"/>
-<label x="93.98" y="33.02" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="U$1" gate="G$1" pin="P$4"/>
 <wire x1="50.8" y1="93.98" x2="58.42" y2="93.98" width="0.1524" layer="91"/>
 <label x="58.42" y="93.98" size="1.778" layer="95" xref="yes"/>
@@ -7798,9 +7796,14 @@ Source: www.kingbright.com</description>
 <pinref part="U$2" gate="G$1" pin="ANODE"/>
 <wire x1="-15.24" y1="15.24" x2="-15.24" y2="7.62" width="0.1524" layer="91"/>
 <junction x="-15.24" y="7.62"/>
-<label x="43.18" y="10.16" size="1.778" layer="95" rot="R90" xref="yes"/>
-<wire x1="43.18" y1="10.16" x2="43.18" y2="7.62" width="0.1524" layer="91"/>
+<label x="43.18" y="12.7" size="1.778" layer="95" xref="yes"/>
+<wire x1="43.18" y1="12.7" x2="43.18" y2="7.62" width="0.1524" layer="91"/>
 <junction x="43.18" y="7.62"/>
+</segment>
+<segment>
+<pinref part="LED2" gate="G$1" pin="C"/>
+<wire x1="86.36" y1="33.02" x2="91.44" y2="33.02" width="0.1524" layer="91"/>
+<label x="91.44" y="33.02" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="DOWN" class="0">
@@ -7909,13 +7912,6 @@ Source: www.kingbright.com</description>
 <wire x1="33.02" y1="50.8" x2="30.48" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$12" class="0">
-<segment>
-<pinref part="R10" gate="G$1" pin="1"/>
-<pinref part="LED2" gate="G$1" pin="C"/>
-<wire x1="78.74" y1="33.02" x2="73.66" y2="33.02" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$1" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="CATHODE"/>
@@ -7946,6 +7942,13 @@ Source: www.kingbright.com</description>
 <pinref part="R11" gate="G$1" pin="1"/>
 <wire x1="22.86" y1="33.02" x2="22.86" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="40.64" x2="33.02" y2="40.64" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$8" class="0">
+<segment>
+<pinref part="R10" gate="G$1" pin="1"/>
+<pinref part="LED2" gate="G$1" pin="A"/>
+<wire x1="73.66" y1="33.02" x2="78.74" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
