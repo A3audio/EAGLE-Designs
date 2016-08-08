@@ -111,57 +111,6 @@
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
-<library name="formula electric">
-<packages>
-<package name="CONNECTOR_3">
-<pad name="1" x="0" y="0" drill="1.1" shape="square"/>
-<pad name="3" x="5" y="0" drill="1.1"/>
-<pad name="5" x="10" y="0" drill="1.1"/>
-<pad name="2" x="2.5" y="5" drill="1.1" shape="square"/>
-<pad name="4" x="7.5" y="5" drill="1.1"/>
-<pad name="6" x="12.5" y="5" drill="1.1"/>
-<wire x1="-2.75" y1="8.3" x2="-2.75" y2="-3.5" width="0.127" layer="21"/>
-<wire x1="-2.75" y1="-3.5" x2="-2.75" y2="-6.5" width="0.127" layer="21"/>
-<wire x1="-2.75" y1="-6.5" x2="0.25" y2="-6.5" width="0.127" layer="21"/>
-<wire x1="0.25" y1="-6.5" x2="13.75" y2="-6.5" width="0.127" layer="21"/>
-<wire x1="13.75" y1="-6.5" x2="13.75" y2="8.3" width="0.127" layer="21"/>
-<wire x1="13.75" y1="8.3" x2="-2.75" y2="8.3" width="0.127" layer="21"/>
-<text x="-3.81" y="-6.35" size="1.27" layer="25" rot="R90">&gt;Name</text>
-<wire x1="-2.75" y1="-3.5" x2="0.25" y2="-6.5" width="0.127" layer="21"/>
-</package>
-</packages>
-<symbols>
-<symbol name="CONNECTOR_3">
-<pin name="3" x="2.54" y="-5.08" visible="pin" length="short" rot="R180"/>
-<pin name="2" x="2.54" y="0" visible="pin" length="short" rot="R180"/>
-<pin name="1" x="2.54" y="5.08" visible="pin" length="short" rot="R180"/>
-<text x="-5.08" y="7.62" size="1.778" layer="95">&gt;Name</text>
-<wire x1="-5.08" y1="7.62" x2="0" y2="7.62" width="0.254" layer="94"/>
-<wire x1="0" y1="7.62" x2="0" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="0" y1="-7.62" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-7.62" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="CONN_3">
-<gates>
-<gate name="G$1" symbol="CONNECTOR_3" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="CONNECTOR_3">
-<connects>
-<connect gate="G$1" pin="1" pad="1 2"/>
-<connect gate="G$1" pin="2" pad="3 4"/>
-<connect gate="G$1" pin="3" pad="5 6"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="varistor">
 <description>&lt;b&gt;Varistors/Thermistors&lt;/b&gt;&lt;p&gt;
 Block, Siemens and generic&lt;p&gt;
@@ -3744,6 +3693,54 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tl331-q1.pdf"&gt; Data shee
 </deviceset>
 </devicesets>
 </library>
+<library name="wirepad">
+<description>&lt;b&gt;Single Pads&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="1,6/0,8">
+<description>&lt;b&gt;THROUGH-HOLE PAD&lt;/b&gt;</description>
+<wire x1="-0.762" y1="0.762" x2="-0.508" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-0.762" y1="0.762" x2="-0.762" y2="0.508" width="0.1524" layer="21"/>
+<wire x1="0.762" y1="0.762" x2="0.762" y2="0.508" width="0.1524" layer="21"/>
+<wire x1="0.762" y1="0.762" x2="0.508" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="0.762" y1="-0.508" x2="0.762" y2="-0.762" width="0.1524" layer="21"/>
+<wire x1="0.762" y1="-0.762" x2="0.508" y2="-0.762" width="0.1524" layer="21"/>
+<wire x1="-0.508" y1="-0.762" x2="-0.762" y2="-0.762" width="0.1524" layer="21"/>
+<wire x1="-0.762" y1="-0.762" x2="-0.762" y2="-0.508" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="0.635" width="0.1524" layer="51"/>
+<pad name="1" x="0" y="0" drill="0.8128" diameter="1.6002" shape="octagon"/>
+<text x="-0.762" y="1.016" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="0" y="0.6" size="0.0254" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="PAD">
+<wire x1="-1.016" y1="1.016" x2="1.016" y2="-1.016" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="-1.016" x2="1.016" y2="1.016" width="0.254" layer="94"/>
+<text x="-1.143" y="1.8542" size="1.778" layer="95">&gt;NAME</text>
+<text x="-1.143" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="P" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="1,6/0,8" prefix="PAD" uservalue="yes">
+<description>&lt;b&gt;THROUGH-HOLE PAD&lt;/b&gt;</description>
+<gates>
+<gate name="P" symbol="PAD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1,6/0,8">
+<connects>
+<connect gate="P" pin="P" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -3754,41 +3751,35 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tl331-q1.pdf"&gt; Data shee
 </class>
 </classes>
 <parts>
-<part name="OUTPUT" library="formula electric" deviceset="CONN_3" device=""/>
-<part name="INPUT" library="formula electric" deviceset="CONN_3" device=""/>
 <part name="R1" library="varistor" deviceset="THERMISTOR" device="-5"/>
 <part name="R2" library="resistor" deviceset="R-US_" device="R0805"/>
 <part name="IC2" library="linear" deviceset="TL331" device=""/>
+<part name="VCC_IN" library="wirepad" deviceset="1,6/0,8" device=""/>
+<part name="IPNUT" library="wirepad" deviceset="1,6/0,8" device=""/>
+<part name="GND_IN" library="wirepad" deviceset="1,6/0,8" device=""/>
+<part name="VCC_OUT" library="wirepad" deviceset="1,6/0,8" device=""/>
+<part name="OUTPUT" library="wirepad" deviceset="1,6/0,8" device=""/>
+<part name="GND_OUT" library="wirepad" deviceset="1,6/0,8" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<wire x1="22.86" y1="78.74" x2="53.34" y2="78.74" width="0.1524" layer="94"/>
-<wire x1="53.34" y1="78.74" x2="53.34" y2="35.56" width="0.1524" layer="94"/>
-<wire x1="53.34" y1="35.56" x2="22.86" y2="35.56" width="0.1524" layer="94"/>
-<wire x1="22.86" y1="35.56" x2="22.86" y2="78.74" width="0.1524" layer="94"/>
 </plain>
 <instances>
-<instance part="OUTPUT" gate="G$1" x="33.02" y="48.26"/>
-<instance part="INPUT" gate="G$1" x="33.02" y="66.04"/>
 <instance part="R1" gate="G$1" x="73.66" y="45.72" rot="R270"/>
 <instance part="R2" gate="G$1" x="73.66" y="66.04" rot="R90"/>
 <instance part="IC2" gate="G$1" x="93.98" y="53.34"/>
+<instance part="VCC_IN" gate="P" x="40.64" y="78.74"/>
+<instance part="IPNUT" gate="P" x="40.64" y="48.26"/>
+<instance part="GND_IN" gate="P" x="40.64" y="63.5"/>
+<instance part="VCC_OUT" gate="P" x="40.64" y="71.12"/>
+<instance part="OUTPUT" gate="P" x="40.64" y="40.64"/>
+<instance part="GND_OUT" gate="P" x="40.64" y="55.88"/>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="VCC" class="0">
-<segment>
-<pinref part="INPUT" gate="G$1" pin="1"/>
-<wire x1="35.56" y1="71.12" x2="38.1" y2="71.12" width="0.1524" layer="91"/>
-<label x="38.1" y="71.12" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="OUTPUT" gate="G$1" pin="1"/>
-<wire x1="35.56" y1="53.34" x2="38.1" y2="53.34" width="0.1524" layer="91"/>
-<label x="38.1" y="53.34" size="1.778" layer="95" xref="yes"/>
-</segment>
 <segment>
 <pinref part="IC2" gate="G$1" pin="V+"/>
 <wire x1="93.98" y1="60.96" x2="93.98" y2="63.5" width="0.1524" layer="91"/>
@@ -3799,18 +3790,19 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tl331-q1.pdf"&gt; Data shee
 <wire x1="73.66" y1="71.12" x2="73.66" y2="73.66" width="0.1524" layer="91"/>
 <label x="73.66" y="73.66" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
+<segment>
+<wire x1="48.26" y1="74.93" x2="51.308" y2="74.93" width="0.1524" layer="91"/>
+<label x="51.308" y="74.93" size="1.778" layer="95" xref="yes"/>
+<pinref part="VCC_IN" gate="P" pin="P"/>
+<wire x1="43.18" y1="78.74" x2="48.26" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="VCC_OUT" gate="P" pin="P"/>
+<wire x1="43.18" y1="71.12" x2="48.26" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="71.12" x2="48.26" y2="74.93" width="0.1524" layer="91"/>
+<junction x="48.26" y="74.93"/>
+<wire x1="48.26" y1="74.93" x2="48.26" y2="78.74" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="GND" class="0">
-<segment>
-<pinref part="INPUT" gate="G$1" pin="3"/>
-<wire x1="35.56" y1="60.96" x2="38.1" y2="60.96" width="0.1524" layer="91"/>
-<label x="38.1" y="60.96" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="OUTPUT" gate="G$1" pin="3"/>
-<wire x1="35.56" y1="43.18" x2="38.1" y2="43.18" width="0.1524" layer="91"/>
-<label x="38.1" y="43.18" size="1.778" layer="95" xref="yes"/>
-</segment>
 <segment>
 <pinref part="IC2" gate="G$1" pin="GND"/>
 <wire x1="93.98" y1="45.72" x2="93.98" y2="43.18" width="0.1524" layer="91"/>
@@ -3821,28 +3813,40 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tl331-q1.pdf"&gt; Data shee
 <wire x1="73.66" y1="40.64" x2="73.66" y2="38.1" width="0.1524" layer="91"/>
 <label x="73.66" y="38.1" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
+<segment>
+<wire x1="48.26" y1="59.182" x2="51.308" y2="59.182" width="0.1524" layer="91"/>
+<label x="51.308" y="59.182" size="1.778" layer="95" xref="yes"/>
+<pinref part="GND_IN" gate="P" pin="P"/>
+<wire x1="43.18" y1="63.5" x2="48.26" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="63.5" x2="48.26" y2="59.182" width="0.1524" layer="91"/>
+<pinref part="GND_OUT" gate="P" pin="P"/>
+<wire x1="48.26" y1="59.182" x2="48.26" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="55.88" x2="43.18" y2="55.88" width="0.1524" layer="91"/>
+<junction x="48.26" y="59.182"/>
+</segment>
 </net>
 <net name="INPUT" class="0">
-<segment>
-<pinref part="INPUT" gate="G$1" pin="2"/>
-<wire x1="35.56" y1="66.04" x2="38.1" y2="66.04" width="0.1524" layer="91"/>
-<label x="38.1" y="66.04" size="1.778" layer="95" xref="yes"/>
-</segment>
 <segment>
 <pinref part="IC2" gate="G$1" pin="-IN"/>
 <wire x1="86.36" y1="50.8" x2="83.82" y2="50.8" width="0.1524" layer="91"/>
 <label x="83.82" y="50.8" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
+<segment>
+<pinref part="IPNUT" gate="P" pin="P"/>
+<wire x1="43.18" y1="48.26" x2="50.8" y2="48.26" width="0.1524" layer="91"/>
+<label x="50.8" y="48.26" size="1.778" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="OUTPUT" class="0">
 <segment>
-<pinref part="OUTPUT" gate="G$1" pin="2"/>
-<wire x1="35.56" y1="48.26" x2="38.1" y2="48.26" width="0.1524" layer="91"/>
-<label x="38.1" y="48.26" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="IC2" gate="G$1" pin="OUT"/>
 <wire x1="101.6" y1="53.34" x2="104.14" y2="53.34" width="0.1524" layer="91"/>
+<label x="104.14" y="53.34" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="OUTPUT" gate="P" pin="P"/>
+<wire x1="43.18" y1="40.64" x2="50.8" y2="40.64" width="0.1524" layer="91"/>
+<label x="50.8" y="40.64" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$1" class="0">
