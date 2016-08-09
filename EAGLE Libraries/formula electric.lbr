@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.2.0">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1032,6 +1032,34 @@ chip</description>
 <rectangle x1="0.7" y1="0.85" x2="1.2" y2="1.5" layer="51"/>
 <rectangle x1="-1.2" y1="0.85" x2="-0.7" y2="1.5" layer="51"/>
 </package>
+<package name="0603">
+<smd name="P$1" x="-0.85" y="0" dx="1" dy="1.1" layer="1" rot="R180"/>
+<smd name="P$2" x="0.85" y="0" dx="1" dy="1.1" layer="1" rot="R180"/>
+<wire x1="-1.7" y1="-0.95" x2="1.7" y2="-0.95" width="0.127" layer="39"/>
+<wire x1="1.7" y1="-0.95" x2="1.7" y2="0.95" width="0.127" layer="39"/>
+<wire x1="1.7" y1="0.95" x2="-1.7" y2="0.95" width="0.127" layer="39"/>
+<wire x1="-1.7" y1="0.95" x2="-1.7" y2="-0.95" width="0.127" layer="39"/>
+<wire x1="0" y1="0.635" x2="0" y2="-0.635" width="0.254" layer="21"/>
+<text x="-2.54" y="1.27" size="0.8128" layer="25">&gt;NAME</text>
+<text x="-2.54" y="-2.54" size="0.8128" layer="27">&gt;VALUE</text>
+</package>
+<package name="SOT23-6">
+<wire x1="-0.3" y1="-1.27" x2="0.3" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="0.3" y1="-1.27" x2="0.3" y2="1.27" width="0.127" layer="21"/>
+<wire x1="0.3" y1="1.27" x2="-0.3" y2="1.27" width="0.127" layer="21"/>
+<wire x1="-0.3" y1="1.27" x2="-0.3" y2="-1.27" width="0.127" layer="21"/>
+<smd name="P$1" x="-1.0995" y="0.95" dx="1" dy="0.7" layer="1"/>
+<smd name="P$2" x="-1.0995" y="0" dx="1" dy="0.7" layer="1"/>
+<smd name="P$3" x="-1.0995" y="-0.95" dx="1" dy="0.7" layer="1"/>
+<smd name="P$4" x="1.0995" y="-0.95" dx="1" dy="0.7" layer="1"/>
+<smd name="P$5" x="1.0995" y="0" dx="1" dy="0.7" layer="1"/>
+<smd name="P$6" x="1.0995" y="0.95" dx="1" dy="0.7" layer="1"/>
+<wire x1="-0.8" y1="1.45" x2="0.8" y2="1.45" width="0.127" layer="51"/>
+<wire x1="0.8" y1="1.45" x2="0.8" y2="-1.45" width="0.127" layer="51"/>
+<wire x1="0.8" y1="-1.45" x2="-0.8" y2="-1.45" width="0.127" layer="51"/>
+<wire x1="-0.8" y1="-1.45" x2="-0.8" y2="1.45" width="0.127" layer="51"/>
+<wire x1="0.5" y1="1.6" x2="-0.5" y2="1.6" width="0.127" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="TRIMPOT">
@@ -1677,6 +1705,60 @@ chip</description>
 <pin name="3~16V_IN" x="-10.16" y="0" length="middle"/>
 <pin name="GND" x="12.7" y="-2.54" length="middle" rot="R180"/>
 <pin name="3.3V_OUT" x="12.7" y="2.54" length="middle" rot="R180"/>
+</symbol>
+<symbol name="THERMISTOR">
+<wire x1="-2.54" y1="-1.016" x2="2.54" y2="-1.016" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-1.016" x2="2.54" y2="0.762" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0.762" x2="-2.54" y2="0.762" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0.762" x2="-2.54" y2="-1.016" width="0.254" layer="94"/>
+<pin name="P$1" x="-5.08" y="0" visible="pad" length="short"/>
+<pin name="P$2" x="5.08" y="0" visible="pad" length="short" rot="R180"/>
+<wire x1="-1.27" y1="-2.032" x2="1.524" y2="1.524" width="0.254" layer="94"/>
+<text x="-2.54" y="2.54" size="1.27" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-3.556" size="1.27" layer="96">&gt;VALUE</text>
+<wire x1="1.524" y1="1.524" x2="2.54" y2="1.524" width="0.254" layer="94"/>
+</symbol>
+<symbol name="N_CHANNEL_MOSFET">
+<wire x1="-3.556" y1="0" x2="-1.016" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="-2.54" x2="-1.016" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="0" x2="-1.016" y2="2.54" width="0.254" layer="94"/>
+<wire x1="1.778" y1="3.81" x2="1.778" y2="2.54" width="0.254" layer="94"/>
+<wire x1="1.778" y1="2.54" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="1.778" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="1.778" y1="-2.54" x2="1.778" y2="-3.81" width="0.254" layer="94"/>
+<pin name="G$1" x="-6.096" y="0" visible="pad" length="short"/>
+<pin name="S$1" x="1.778" y="6.096" visible="pad" length="short" rot="R270"/>
+<pin name="D$1" x="1.778" y="-6.35" visible="pad" length="short" rot="R90"/>
+<wire x1="1.27" y1="3.81" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="3.81" width="0.254" layer="94"/>
+<text x="-10.16" y="7.62" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-7.62" y="2.54" size="1.778" layer="94">G</text>
+<text x="5.08" y="2.54" size="1.778" layer="94">S</text>
+<text x="5.08" y="-5.08" size="1.778" layer="94">D</text>
+</symbol>
+<symbol name="P_CHANNEL_MOSFET">
+<wire x1="-0.762" y1="2.54" x2="-0.762" y2="0" width="0.254" layer="94"/>
+<wire x1="-0.762" y1="0" x2="-0.762" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-3.302" y1="0" x2="-0.762" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="1.778" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="1.778" y1="-2.54" x2="1.778" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="1.778" y2="2.54" width="0.254" layer="94"/>
+<wire x1="1.778" y1="2.54" x2="1.778" y2="3.81" width="0.254" layer="94"/>
+<pin name="G$1" x="-5.842" y="0" visible="pad" length="short"/>
+<pin name="D$1" x="1.778" y="6.35" visible="pad" length="short" rot="R270"/>
+<pin name="S$1" x="1.778" y="-6.35" visible="pad" length="short" rot="R90"/>
+<wire x1="0.254" y1="-1.27" x2="0.254" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="0.254" y1="-3.81" x2="1.778" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="1.778" y1="-2.54" x2="0.254" y2="-1.27" width="0.254" layer="94"/>
+<text x="-10.16" y="10.16" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-7.62" y="2.54" size="1.778" layer="94">G</text>
+<text x="5.08" y="-5.08" size="1.778" layer="94">S</text>
+<text x="5.08" y="5.08" size="1.778" layer="94">D</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -2796,6 +2878,44 @@ Source: http://www.schrack.com/.. 5815.pdf</description>
 <technology name="">
 <attribute name="DIGIKEYPN" value="MCP1703T-3302E/CBCT-ND"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="THERMISTOR">
+<gates>
+<gate name="T$1" symbol="THERMISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="T$1" pin="P$1" pad="P$1"/>
+<connect gate="T$1" pin="P$2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DMG6602">
+<description>N and P Channel Mosfet</description>
+<gates>
+<gate name="N-CHANNEL" symbol="P_CHANNEL_MOSFET" x="0" y="-12.7"/>
+<gate name="P-CHANNEL" symbol="N_CHANNEL_MOSFET" x="0" y="12.7"/>
+</gates>
+<devices>
+<device name="" package="SOT23-6">
+<connects>
+<connect gate="N-CHANNEL" pin="D$1" pad="P$6"/>
+<connect gate="N-CHANNEL" pin="G$1" pad="P$1"/>
+<connect gate="N-CHANNEL" pin="S$1" pad="P$5"/>
+<connect gate="P-CHANNEL" pin="D$1" pad="P$4"/>
+<connect gate="P-CHANNEL" pin="G$1" pad="P$3"/>
+<connect gate="P-CHANNEL" pin="S$1" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
