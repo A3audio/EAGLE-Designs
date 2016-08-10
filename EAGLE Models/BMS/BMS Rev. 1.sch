@@ -7648,8 +7648,8 @@ Source: www.kingbright.com</description>
 <part name="LED2" library="led" deviceset="LED" device="CHIPLED_1206"/>
 <part name="POS" library="formula electric" deviceset="CONN_1" device=""/>
 <part name="NEG" library="formula electric" deviceset="CONN_1" device=""/>
-<part name="C2" library="resistor" deviceset="C-US" device="C0805" value="10-40uF"/>
-<part name="C1" library="resistor" deviceset="C-US" device="C0805" value="15uF??"/>
+<part name="C2" library="resistor" deviceset="C-US" device="C0805" value="100nF"/>
+<part name="C1" library="resistor" deviceset="C-US" device="C0805" value="17-20uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -7799,6 +7799,9 @@ Source: www.kingbright.com</description>
 <label x="43.18" y="12.7" size="1.778" layer="95" xref="yes"/>
 <wire x1="43.18" y1="12.7" x2="43.18" y2="7.62" width="0.1524" layer="91"/>
 <junction x="43.18" y="7.62"/>
+<pinref part="NEG" gate="G$1" pin="2"/>
+<wire x1="-25.4" y1="7.62" x2="-25.4" y2="2.54" width="0.1524" layer="91"/>
+<junction x="-25.4" y="7.62"/>
 </segment>
 <segment>
 <pinref part="LED2" gate="G$1" pin="C"/>
@@ -7815,6 +7818,9 @@ Source: www.kingbright.com</description>
 <wire x1="73.66" y1="22.86" x2="66.04" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="17.78" x2="73.66" y2="22.86" width="0.1524" layer="91"/>
 <junction x="73.66" y="22.86"/>
+<pinref part="DOWN" gate="G$1" pin="2"/>
+<wire x1="73.66" y1="12.7" x2="73.66" y2="17.78" width="0.1524" layer="91"/>
+<junction x="73.66" y="17.78"/>
 </segment>
 </net>
 <net name="UP" class="0">
@@ -7822,6 +7828,9 @@ Source: www.kingbright.com</description>
 <pinref part="UP" gate="G$1" pin="1"/>
 <pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="132.08" y1="33.02" x2="132.08" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="UP" gate="G$1" pin="2"/>
+<wire x1="132.08" y1="33.02" x2="127" y2="33.02" width="0.1524" layer="91"/>
+<junction x="132.08" y="33.02"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -7847,6 +7856,9 @@ Source: www.kingbright.com</description>
 <wire x1="-27.94" y1="93.98" x2="-7.62" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="-27.94" y1="73.66" x2="-27.94" y2="93.98" width="0.1524" layer="91"/>
 <junction x="-27.94" y="93.98"/>
+<pinref part="POS" gate="G$1" pin="2"/>
+<wire x1="-38.1" y1="88.9" x2="-38.1" y2="93.98" width="0.1524" layer="91"/>
+<junction x="-38.1" y="93.98"/>
 </segment>
 </net>
 <net name="N$9" class="0">
