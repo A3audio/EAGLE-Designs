@@ -33343,58 +33343,6 @@ Source: http://focus.ti.com/lit/ml/mpds029b/mpds029b.pdf / slma002.pdf</descript
 <text x="-5.588" y="23.241" size="1.016" layer="21" font="vector" ratio="10" align="center-right">9</text>
 <text x="-5.588" y="23.749" size="1.016" layer="21" font="vector" ratio="10" align="center-right">~</text>
 <text x="0.127" y="25.527" size="1.27" layer="21" font="vector" ratio="12" rot="R180" align="center">Pro</text>
-<attribute name="NAME" x="7.747" y="22.479" size="1.27" layer="25" rot="R270"/>
-<attribute name="VALUE" x="17.653" y="20.574" size="1.016" layer="27" font="vector" rot="R90"/>
-<attribute name="NAME" x="6.477" y="22.479" size="1.27" layer="25" rot="R270"/>
-<attribute name="VALUE" x="-1.524" y="14.224" size="1.016" layer="27" font="vector" rot="R90"/>
-<attribute name="NAME" x="9.652" y="19.304" size="1.27" layer="25" rot="R270"/>
-<attribute name="VALUE" x="-3.302" y="18.034" size="1.016" layer="27" font="vector" rot="R180"/>
-<attribute name="NAME" x="11.5176" y="18.272" size="1.016" layer="25" rot="R270"/>
-<attribute name="VALUE" x="12.4156" y="15.891" size="1.016" layer="27" font="vector" rot="R90"/>
-<attribute name="NAME" x="9.017" y="22.606" size="1.27" layer="25" rot="R270"/>
-<attribute name="VALUE" x="18.923" y="20.193" size="1.016" layer="27" font="vector" rot="R90"/>
-<attribute name="NAME" x="5.888" y="2.773" size="0.8128" layer="25" ratio="18"/>
-<attribute name="VALUE" x="5.859" y="-6.202" size="1.016" layer="27" font="vector" ratio="10"/>
-<attribute name="NAME" x="13.589" y="24.638" size="1.27" layer="25" rot="R270"/>
-<attribute name="VALUE" x="20.574" y="20.574" size="1.016" layer="27" font="vector" rot="R90"/>
-<attribute name="NAME" x="10.922" y="24.5745" size="1.27" layer="25" rot="R180"/>
-<attribute name="VALUE" x="12.8905" y="34.163" size="1.016" layer="27" font="vector" rot="R180"/>
-<attribute name="NAME" x="10.303" y="20.3122" size="0.4064" layer="25" rot="R90"/>
-<attribute name="VALUE" x="22.493" y="18.6612" size="1.016" layer="27" font="vector" rot="R90"/>
-<attribute name="NAME" x="4.064" y="15.621" size="0.8128" layer="25" ratio="18" rot="R270"/>
-<attribute name="VALUE" x="3.302" y="16.764" size="1.016" layer="27" font="vector" ratio="10" rot="R90"/>
-<attribute name="NAME" x="2.667" y="22.479" size="0.8128" layer="25" ratio="18" rot="R270"/>
-<attribute name="VALUE" x="-2.413" y="31.115" size="1.016" layer="27" font="vector" ratio="10" rot="R270"/>
-<attribute name="NAME" x="3.683" y="26.162" size="0.8128" layer="25" ratio="18"/>
-<attribute name="VALUE" x="2.54" y="32.639" size="1.016" layer="27" font="vector" ratio="10"/>
-<attribute name="NAME" x="10.93" y="33.639" size="0.8128" layer="25" ratio="18" rot="R180"/>
-<attribute name="VALUE" x="10.93" y="34.29" size="0.4064" layer="27" ratio="10" rot="R180"/>
-<attribute name="OC_NEWARK" value="15R0272" x="7.62" y="10.287" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="ATMEGA88PA-MU" x="7.62" y="10.287" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="" x="7.62" y="10.287" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="OC_FARNELL" value="1715491" x="7.62" y="10.287" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="10.16" y="7.112" size="1.27" layer="25" rot="R180"/>
-<attribute name="VALUE" x="10.795" y="6.985" size="1.016" layer="27" font="vector" rot="R180"/>
-<attribute name="NAME" x="1.8288" y="29.2862" size="1.27" layer="25" ratio="10" rot="R270"/>
-<attribute name="VALUE" x="-3.175" y="29.21" size="1.27" layer="27" rot="R270"/>
-<attribute name="NAME" x="-0.0762" y="-0.7112" size="1.27" layer="25" ratio="10"/>
-<attribute name="VALUE" x="0" y="-5.715" size="1.27" layer="27"/>
-<attribute name="NAME" x="10.922" y="10.922" size="0.4064" layer="25" rot="R90"/>
-<attribute name="VALUE" x="18.542" y="10.16" size="1.016" layer="27" font="vector" rot="R90"/>
-<attribute name="NAME" x="17.0688" y="29.2862" size="1.27" layer="25" ratio="10" rot="R270"/>
-<attribute name="VALUE" x="12.065" y="29.21" size="1.27" layer="27" rot="R270"/>
-<attribute name="NAME" x="4.826" y="14.351" size="0.8128" layer="25" font="vector" ratio="18"/>
-<attribute name="VALUE" x="-3.302" y="14.732" size="1.016" layer="27" font="vector" ratio="10" rot="R180"/>
-<attribute name="NAME" x="3.937" y="-0.254" size="0.8128" layer="25" font="vector" ratio="18" rot="R270"/>
-<attribute name="VALUE" x="-3.556" y="4.445" size="1.016" layer="27" font="vector" ratio="10" rot="R270"/>
-<attribute name="NAME" x="11.303" y="0" size="0.8128" layer="25" font="vector" ratio="18" rot="R270"/>
-<attribute name="VALUE" x="17.272" y="3.429" size="1.016" layer="27" font="vector" ratio="10" rot="R270"/>
-<attribute name="NAME" x="4.3688" y="14.0462" size="0.8128" layer="25" ratio="18" rot="R270"/>
-<attribute name="VALUE" x="-0.635" y="13.97" size="0.4064" layer="27" ratio="10" rot="R270"/>
-<attribute name="NAME" x="2.937" y="20.744" size="0.8128" layer="25" ratio="18" rot="R90"/>
-<attribute name="VALUE" x="-3.161" y="20.109" size="1.016" layer="27" ratio="10" rot="R90"/>
-<attribute name="NAME" x="10.525" y="22.436" size="0.8128" layer="25" ratio="18" rot="R270"/>
-<attribute name="VALUE" x="7.733" y="22.436" size="1.016" layer="27" ratio="10" rot="R270"/>
 <pad name="A5" x="-7.62" y="-4.699" drill="1.1"/>
 <pad name="A4" x="-7.62" y="-2.159" drill="1.1"/>
 <pad name="A3" x="-7.62" y="0.381" drill="1.1"/>
