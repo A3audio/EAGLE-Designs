@@ -2521,7 +2521,7 @@ Metric Code Size 5664</description>
 <part name="VCC_OUT" library="wirepad" deviceset="1,6/0,8" device=""/>
 <part name="OUTPUT" library="wirepad" deviceset="1,6/0,8" device=""/>
 <part name="G_OUT" library="wirepad" deviceset="1,6/0,8" device=""/>
-<part name="U$1" library="microchip" deviceset="MCP970X" device=""/>
+<part name="IC1" library="microchip" deviceset="MCP970X" device=""/>
 <part name="C1" library="adafruit" deviceset="C-US" device="C0603"/>
 </parts>
 <sheets>
@@ -2534,7 +2534,7 @@ Metric Code Size 5664</description>
 <instance part="VCC_OUT" gate="P" x="40.64" y="68.58"/>
 <instance part="OUTPUT" gate="P" x="40.64" y="38.1"/>
 <instance part="G_OUT" gate="P" x="40.64" y="53.34"/>
-<instance part="U$1" gate="G$1" x="91.44" y="60.96"/>
+<instance part="IC1" gate="G$1" x="91.44" y="60.96"/>
 <instance part="C1" gate="G$1" x="78.74" y="60.96"/>
 </instances>
 <busses>
@@ -2553,7 +2553,7 @@ Metric Code Size 5664</description>
 <wire x1="48.26" y1="72.39" x2="48.26" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="VDD"/>
+<pinref part="IC1" gate="G$1" pin="VDD"/>
 <wire x1="88.9" y1="55.88" x2="78.74" y2="55.88" width="0.1524" layer="91"/>
 <label x="76.2" y="55.88" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="C1" gate="G$1" pin="2"/>
@@ -2574,7 +2574,7 @@ Metric Code Size 5664</description>
 <wire x1="48.26" y1="53.34" x2="43.18" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="GND"/>
+<pinref part="IC1" gate="G$1" pin="GND"/>
 <wire x1="91.44" y1="66.04" x2="91.44" y2="71.12" width="0.1524" layer="91"/>
 <label x="91.44" y="71.12" size="1.778" layer="95" rot="R90" xref="yes"/>
 <pinref part="C1" gate="G$1" pin="1"/>
@@ -2591,7 +2591,7 @@ Metric Code Size 5664</description>
 </segment>
 <segment>
 <wire x1="101.6" y1="55.88" x2="93.98" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="VOUT"/>
+<pinref part="IC1" gate="G$1" pin="VOUT"/>
 <label x="101.6" y="55.88" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>

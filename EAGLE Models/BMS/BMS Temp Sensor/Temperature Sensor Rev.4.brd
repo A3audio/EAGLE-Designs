@@ -1439,8 +1439,8 @@ design rules under a new name.</description>
 <element name="G_IN" library="wirepad" package="1,6/0,8" value="" x="2.54" y="15.875"/>
 <element name="G_OUT" library="wirepad" package="1,6/0,8" value="" x="2.54" y="3.81"/>
 <element name="OUTPUT" library="wirepad" package="1,6/0,8" value="" x="12.7" y="3.81"/>
-<element name="R2" library="resistor" package="R0603" value="" x="4.445" y="11.43" rot="R90"/>
-<element name="T$1" library="formula electric" package="0603" value="THERMISTOR" x="9.525" y="11.43" rot="R270"/>
+<element name="R2" library="resistor" package="R0603" value="10k" x="4.445" y="11.43" rot="R90"/>
+<element name="T$1" library="formula electric" package="0603" value="10k" x="9.525" y="11.43" rot="R270"/>
 <element name="VCC_IN" library="wirepad" package="1,6/0,8" value="" x="7.62" y="15.875"/>
 <element name="VCC_OUT" library="wirepad" package="1,6/0,8" value="" x="7.62" y="3.81"/>
 </elements>

@@ -3632,8 +3632,8 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="VCC_OUT" library="wirepad" deviceset="1,6/0,8" device=""/>
 <part name="OUTPUT" library="wirepad" deviceset="1,6/0,8" device=""/>
 <part name="G_OUT" library="wirepad" deviceset="1,6/0,8" device=""/>
-<part name="T$1" library="formula electric" deviceset="THERMISTOR" device=""/>
-<part name="R2" library="resistor" deviceset="R-US_" device="R0603"/>
+<part name="T$1" library="formula electric" deviceset="THERMISTOR" device="" value="10k"/>
+<part name="R2" library="resistor" deviceset="R-US_" device="R0603" value="10k"/>
 </parts>
 <sheets>
 <sheet>
@@ -3643,7 +3643,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <instance part="VCC_IN" gate="P" x="40.64" y="76.2"/>
 <instance part="G_IN" gate="P" x="40.64" y="60.96"/>
 <instance part="VCC_OUT" gate="P" x="40.64" y="68.58"/>
-<instance part="OUTPUT" gate="P" x="40.64" y="38.1"/>
+<instance part="OUTPUT" gate="P" x="40.64" y="45.72"/>
 <instance part="G_OUT" gate="P" x="40.64" y="53.34"/>
 <instance part="T$1" gate="T$1" x="73.66" y="45.72" rot="R270"/>
 <instance part="R2" gate="G$1" x="73.66" y="66.04" rot="R270"/>
@@ -3690,8 +3690,8 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <net name="OUTPUT" class="0">
 <segment>
 <pinref part="OUTPUT" gate="P" pin="P"/>
-<wire x1="43.18" y1="38.1" x2="50.8" y2="38.1" width="0.1524" layer="91"/>
-<label x="50.8" y="38.1" size="1.778" layer="95" xref="yes"/>
+<wire x1="43.18" y1="45.72" x2="48.26" y2="45.72" width="0.1524" layer="91"/>
+<label x="48.26" y="45.72" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
 <wire x1="86.36" y1="55.88" x2="73.66" y2="55.88" width="0.1524" layer="91"/>

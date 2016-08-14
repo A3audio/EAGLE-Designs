@@ -191,6 +191,36 @@
 <text x="-5.08" y="6.35" size="1.27" layer="25">&gt;NAME</text>
 <text x="-5.08" y="-7.62" size="1.27" layer="27">&gt;VALUE</text>
 </package>
+<package name="1812">
+<smd name="P$1" x="2.54" y="0" dx="1.778" dy="3.5052" layer="1"/>
+<smd name="P$2" x="-2.54" y="0" dx="1.778" dy="3.5052" layer="1"/>
+<wire x1="-2.25" y1="1.6" x2="-2.25" y2="-1.6" width="0.127" layer="51"/>
+<wire x1="-2.25" y1="-1.6" x2="2.25" y2="-1.6" width="0.127" layer="51"/>
+<wire x1="2.25" y1="-1.6" x2="2.25" y2="1.6" width="0.127" layer="51"/>
+<wire x1="2.25" y1="1.6" x2="-2.25" y2="1.6" width="0.127" layer="51"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="-1.27" x2="1.27" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="1.27" y1="-1.27" x2="1.27" y2="1.27" width="0.127" layer="21"/>
+<wire x1="1.27" y1="1.27" x2="-1.27" y2="1.27" width="0.127" layer="21"/>
+<text x="-3.81" y="2.54" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-3.81" y="-3.81" size="0.6096" layer="27">&gt;VALUE</text>
+</package>
+<package name="2_PIN_AMPHENOL">
+<pad name="P$1" x="0" y="0" drill="1.3" shape="square"/>
+<pad name="P$2" x="0" y="-7.62" drill="1.3"/>
+<pad name="P$3" x="5.08" y="0" drill="1.3"/>
+<pad name="P$4" x="5.08" y="-7.62" drill="1.3"/>
+<wire x1="-1.905" y1="1.905" x2="9.525" y2="1.905" width="0.127" layer="21"/>
+<wire x1="9.525" y1="1.905" x2="9.525" y2="-10.795" width="0.127" layer="21"/>
+<wire x1="9.525" y1="-10.795" x2="-1.905" y2="-10.795" width="0.127" layer="21"/>
+<wire x1="-1.905" y1="-10.795" x2="-1.905" y2="1.905" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="1.5" x2="10.08" y2="1.5" width="0.127" layer="51"/>
+<wire x1="10.08" y1="1.5" x2="10.08" y2="-11.8" width="0.127" layer="51"/>
+<wire x1="10.08" y1="-11.8" x2="-2.5" y2="-11.8" width="0.127" layer="51"/>
+<wire x1="-2.5" y1="-11.8" x2="-2.5" y2="1.5" width="0.127" layer="51"/>
+<text x="-3.81" y="-8.89" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="12.7" y="-8.89" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="SDM40E20LS">
@@ -300,6 +330,35 @@
 <pin name="GPIO1" x="12.7" y="22.86" length="short" rot="R180"/>
 <text x="-10.16" y="25.4" size="1.778" layer="95">&gt;NAME</text>
 <text x="-10.16" y="-27.94" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="PTC_FUSE">
+<wire x1="-5.08" y1="-1.27" x2="5.08" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-1.27" x2="5.08" y2="1.524" width="0.254" layer="94"/>
+<wire x1="5.08" y1="1.524" x2="-5.08" y2="1.524" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="1.524" x2="-5.08" y2="-1.27" width="0.254" layer="94"/>
+<pin name="P$1" x="-10.16" y="0" visible="off" length="middle"/>
+<pin name="P$2" x="10.16" y="0" visible="off" length="middle" rot="R180"/>
+<wire x1="3.81" y1="2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<text x="0" y="-3.556" size="1.778" layer="94">+t</text>
+<text x="-5.08" y="2.54" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="2_PIB_CONN">
+<wire x1="0" y1="7.62" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-7.62" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
+<pin name="P$1" x="0" y="7.62" visible="pad" length="point" function="clk" rot="R180"/>
+<pin name="P$2" x="0" y="2.54" visible="pad" length="point" function="clk" rot="R180"/>
+<pin name="P$3" x="0" y="-2.54" visible="pad" length="point" function="clk" rot="R180"/>
+<pin name="P$4" x="0" y="-7.62" visible="pad" length="point" function="clk" rot="R180"/>
+<text x="-7.62" y="7.62" size="1.778" layer="94">1</text>
+<text x="-7.62" y="2.54" size="1.778" layer="94">2</text>
+<text x="-7.62" y="-2.54" size="1.778" layer="94">3</text>
+<text x="-7.62" y="-7.62" size="1.778" layer="94">4</text>
+<text x="-7.62" y="10.16" size="1.27" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-10.16" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -461,6 +520,41 @@
 <connect gate="G$1" pin="SCLK" pad="P$32"/>
 <connect gate="G$1" pin="SDI" pad="P$33"/>
 <connect gate="G$1" pin="SDO" pad="P$34"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="0ZCG0160BF2C" prefix="F">
+<gates>
+<gate name="G$1" symbol="PTC_FUSE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1812">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FCI20020302" prefix="X">
+<description>2 Pin Connector Veritcal Mount</description>
+<gates>
+<gate name="G$1" symbol="2_PIB_CONN" x="2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="2_PIN_AMPHENOL">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+<connect gate="G$1" pin="P$3" pad="P$3"/>
+<connect gate="G$1" pin="P$4" pad="P$4"/>
 </connects>
 <technologies>
 <technology name=""/>
