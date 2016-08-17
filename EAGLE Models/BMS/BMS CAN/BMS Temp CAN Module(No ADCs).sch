@@ -16385,7 +16385,7 @@ Revised By Daniel Baron</text>
 <label x="78.74" y="-177.8" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="5VREF" class="0">
+<net name="ADC5VREF" class="0">
 <segment>
 <pinref part="U$4V5V" gate="G$1" pin="P6"/>
 <wire x1="241.3" y1="96.52" x2="248.92" y2="96.52" width="0.1524" layer="91"/>

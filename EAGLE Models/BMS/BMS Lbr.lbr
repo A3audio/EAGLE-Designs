@@ -100,7 +100,7 @@
 <text x="-3.81" y="3.81" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3.81" y="-5.08" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="TSOP-8">
+<package name="TSSOP-8(ATMEL)">
 <wire x1="-2.2" y1="-1.5" x2="-2.2" y2="1.5" width="0.127" layer="51"/>
 <wire x1="-2.2" y1="1.5" x2="2.2" y2="1.5" width="0.127" layer="51"/>
 <wire x1="2.2" y1="1.5" x2="2.2" y2="-1.5" width="0.127" layer="51"/>
@@ -126,15 +126,16 @@
 <wire x1="-1.55" y1="0.5875" x2="1.55" y2="0.5875" width="0.127" layer="51"/>
 <wire x1="1.55" y1="0.5875" x2="1.55" y2="-0.5875" width="0.127" layer="51"/>
 <wire x1="1.55" y1="-0.5875" x2="-1.55" y2="-0.5875" width="0.127" layer="51"/>
-<smd name="P$1" x="-0.95" y="-1.181" dx="0.4825" dy="1.473" layer="1" rot="R180"/>
-<smd name="P$2" x="0" y="-1.181" dx="0.4825" dy="1.473" layer="1" rot="R180"/>
-<smd name="P$3" x="0.95" y="-1.181" dx="0.4825" dy="1.473" layer="1" rot="R180"/>
-<smd name="P$4" x="0.95" y="1.181" dx="0.4825" dy="1.473" layer="1" rot="R180"/>
-<smd name="P$5" x="0" y="1.181" dx="0.4825" dy="1.473" layer="1" rot="R180"/>
-<smd name="P$6" x="-0.95" y="1.181" dx="0.4825" dy="1.473" layer="1" rot="R180"/>
+<smd name="P$1" x="-0.95" y="-1.31" dx="0.62" dy="1.22" layer="1" rot="R180"/>
+<smd name="P$2" x="0" y="-1.31" dx="0.62" dy="1.22" layer="1" rot="R180"/>
+<smd name="P$3" x="0.95" y="-1.31" dx="0.62" dy="1.22" layer="1" rot="R180"/>
+<smd name="P$4" x="0.95" y="1.31" dx="0.62" dy="1.22" layer="1" rot="R180"/>
+<smd name="P$5" x="0" y="1.31" dx="0.62" dy="1.22" layer="1" rot="R180"/>
+<smd name="P$6" x="-0.95" y="1.31" dx="0.62" dy="1.22" layer="1" rot="R180"/>
 <wire x1="-1.905" y1="0" x2="1.27" y2="0" width="0.127" layer="21"/>
 <wire x1="-1.905" y1="0.635" x2="-1.905" y2="0" width="0.127" layer="21"/>
 <wire x1="-1.905" y1="0" x2="-1.905" y2="-0.635" width="0.127" layer="21"/>
+<circle x="-1.27" y="-0.25" radius="0.145" width="0.127" layer="21"/>
 </package>
 <package name="TSSOP-38">
 <smd name="P$1" x="-2.8" y="4.5" dx="0.25" dy="1.55" layer="1" rot="R90"/>
@@ -221,18 +222,37 @@
 <text x="-3.81" y="-8.89" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 <text x="12.7" y="-8.89" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
 </package>
+<package name="TSSOP-8(TI)">
+<wire x1="-1.27" y1="-1.27" x2="1.27" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="1.27" y1="-1.27" x2="1.27" y2="1.27" width="0.127" layer="21"/>
+<wire x1="1.27" y1="1.27" x2="-1.27" y2="1.27" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="1.5" x2="1.5" y2="1.5" width="0.127" layer="51"/>
+<wire x1="1.5" y1="1.5" x2="1.5" y2="-1.5" width="0.127" layer="51"/>
+<wire x1="1.5" y1="-1.5" x2="-1.5" y2="-1.5" width="0.127" layer="51"/>
+<wire x1="-1.5" y1="-1.5" x2="-1.5" y2="1.5" width="0.127" layer="51"/>
+<smd name="P$1" x="-0.925" y="-2.2" dx="0.45" dy="1.45" layer="1"/>
+<smd name="P$2" x="-0.325" y="-2.2" dx="0.45" dy="1.45" layer="1"/>
+<smd name="P$3" x="0.325" y="-2.2" dx="0.45" dy="1.45" layer="1"/>
+<smd name="P$4" x="0.925" y="-2.2" dx="0.45" dy="1.45" layer="1"/>
+<smd name="P$5" x="0.925" y="2.2" dx="0.45" dy="1.45" layer="1"/>
+<smd name="P$6" x="0.325" y="2.2" dx="0.45" dy="1.45" layer="1"/>
+<smd name="P$7" x="-0.325" y="2.2" dx="0.45" dy="1.45" layer="1"/>
+<smd name="P$8" x="-0.925" y="2.2" dx="0.45" dy="1.45" layer="1"/>
+<circle x="-1" y="-0.75" radius="0.25" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
-<symbol name="SDM40E20LS">
-<wire x1="-7.62" y1="-10.16" x2="-7.62" y2="10.16" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="10.16" x2="7.62" y2="10.16" width="0.254" layer="94"/>
-<wire x1="7.62" y1="10.16" x2="7.62" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-10.16" x2="-7.62" y2="-10.16" width="0.254" layer="94"/>
-<pin name="IN" x="-12.7" y="7.62" length="middle"/>
-<pin name="OUT" x="-12.7" y="-7.62" length="middle"/>
-<pin name="BETWEEN" x="12.7" y="0" length="middle" rot="R180"/>
-<text x="-7.62" y="12.7" size="1.778" layer="95">&gt;NAME</text>
-<text x="-7.62" y="-12.7" size="1.778" layer="96">&gt;VALUE</text>
+<symbol name="2N7002P">
+<wire x1="-5.08" y1="-5.08" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<pin name="GATE" x="-7.62" y="2.54" length="short"/>
+<pin name="DRAIN" x="10.16" y="0" length="short" rot="R180"/>
+<pin name="SOURCE" x="-7.62" y="-2.54" length="short"/>
+<text x="-5.08" y="5.08" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 <symbol name="LM285-1.2-DPACK">
 <wire x1="-10.16" y1="2.54" x2="12.7" y2="2.54" width="0.254" layer="94"/>
@@ -271,17 +291,17 @@
 <text x="-10.16" y="7.62" size="1.778" layer="95">&gt;NAME</text>
 <text x="-10.16" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
-<symbol name="PLACE_HOLDER_SOT23-6">
+<symbol name="6_PIN_SINGLE_MOSFET">
 <wire x1="-10.16" y1="-7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
 <wire x1="-10.16" y1="7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
 <wire x1="10.16" y1="7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="10.16" y1="-7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
-<pin name="P$1" x="-15.24" y="5.08" length="middle"/>
-<pin name="P$2" x="-15.24" y="0" length="middle"/>
+<pin name="D1" x="-15.24" y="5.08" length="middle"/>
+<pin name="D2" x="-15.24" y="0" length="middle"/>
 <pin name="GATE" x="-15.24" y="-5.08" length="middle"/>
-<pin name="P$4" x="15.24" y="-5.08" length="middle" rot="R180"/>
-<pin name="P$5" x="15.24" y="0" length="middle" rot="R180"/>
-<pin name="P$6" x="15.24" y="5.08" length="middle" rot="R180"/>
+<pin name="SOURCE" x="15.24" y="-5.08" length="middle" rot="R180"/>
+<pin name="D3" x="15.24" y="0" length="middle" rot="R180"/>
+<pin name="D4" x="15.24" y="5.08" length="middle" rot="R180"/>
 <text x="-10.16" y="10.16" size="1.778" layer="95">&gt;NAME</text>
 <text x="-10.16" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
@@ -344,7 +364,7 @@
 <text x="-5.08" y="2.54" size="1.778" layer="95">&gt;NAME</text>
 <text x="-5.08" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
-<symbol name="2_PIB_CONN">
+<symbol name="2_PIN_CONN">
 <wire x1="0" y1="7.62" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
 <wire x1="0" y1="2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
 <wire x1="0" y1="-2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
@@ -360,6 +380,22 @@
 <text x="-7.62" y="10.16" size="1.27" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-10.16" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
+<symbol name="REF5020">
+<wire x1="-7.62" y1="-7.62" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="5.08" x2="10.16" y2="5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="5.08" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
+<pin name="DNC0" x="-12.7" y="2.54" length="middle"/>
+<pin name="VIN" x="-12.7" y="0" length="middle"/>
+<pin name="TEMP" x="-12.7" y="-2.54" length="middle"/>
+<pin name="GND" x="-12.7" y="-5.08" length="middle"/>
+<pin name="TRIM" x="15.24" y="-5.08" length="middle" rot="R180"/>
+<pin name="VOUT" x="15.24" y="-2.54" length="middle" rot="R180"/>
+<pin name="NC" x="15.24" y="0" length="middle" rot="R180"/>
+<pin name="DNC1" x="15.24" y="2.54" length="middle" rot="R180"/>
+<text x="-7.62" y="5.08" size="1.27" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-10.16" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="T45V-10X-UP">
@@ -368,7 +404,7 @@
 <gate name="G$1" symbol="T45V-10XU-P" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="TSOP-8">
+<device name="" package="TSSOP-8(ATMEL)">
 <connects>
 <connect gate="G$1" pin="GND" pad="P$4"/>
 <connect gate="G$1" pin="PB0" pad="P$5"/>
@@ -436,20 +472,20 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="23-T">
-<description>A Transistor or switch of some sort.</description>
+<deviceset name="FDC637BNZ">
+<description>Logic Level N-Channel MOSFET for controlling balancing</description>
 <gates>
-<gate name="G$1" symbol="PLACE_HOLDER_SOT23-6" x="0" y="0"/>
+<gate name="G$1" symbol="6_PIN_SINGLE_MOSFET" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="SOT-23-6">
 <connects>
+<connect gate="G$1" pin="D1" pad="P$1"/>
+<connect gate="G$1" pin="D2" pad="P$2"/>
+<connect gate="G$1" pin="D3" pad="P$5"/>
+<connect gate="G$1" pin="D4" pad="P$6"/>
 <connect gate="G$1" pin="GATE" pad="P$3"/>
-<connect gate="G$1" pin="P$1" pad="P$1"/>
-<connect gate="G$1" pin="P$2" pad="P$2"/>
-<connect gate="G$1" pin="P$4" pad="P$4"/>
-<connect gate="G$1" pin="P$5" pad="P$5"/>
-<connect gate="G$1" pin="P$6" pad="P$6"/>
+<connect gate="G$1" pin="SOURCE" pad="P$4"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -457,17 +493,17 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="KSW">
-<description>May be a temperature sensing IC</description>
+<deviceset name="2N7002P" prefix="IC">
+<description>Low Current, Logic Level, N-Channel Mosfet</description>
 <gates>
-<gate name="G$1" symbol="SDM40E20LS" x="0" y="0"/>
+<gate name="G$1" symbol="2N7002P" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="SOT23-3">
 <connects>
-<connect gate="G$1" pin="BETWEEN" pad="P$2"/>
-<connect gate="G$1" pin="IN" pad="P$1"/>
-<connect gate="G$1" pin="OUT" pad="P$3"/>
+<connect gate="G$1" pin="DRAIN" pad="P$3"/>
+<connect gate="G$1" pin="GATE" pad="P$1"/>
+<connect gate="G$1" pin="SOURCE" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -546,7 +582,7 @@
 <deviceset name="FCI20020302" prefix="X">
 <description>2 Pin Connector Veritcal Mount</description>
 <gates>
-<gate name="G$1" symbol="2_PIB_CONN" x="2.54" y="0"/>
+<gate name="G$1" symbol="2_PIN_CONN" x="2.54" y="0"/>
 </gates>
 <devices>
 <device name="" package="2_PIN_AMPHENOL">
@@ -555,6 +591,29 @@
 <connect gate="G$1" pin="P$2" pad="P$2"/>
 <connect gate="G$1" pin="P$3" pad="P$3"/>
 <connect gate="G$1" pin="P$4" pad="P$4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="REF5025">
+<description>2.5V Voltage Reference</description>
+<gates>
+<gate name="G$1" symbol="REF5020" x="2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="TSSOP-8(TI)">
+<connects>
+<connect gate="G$1" pin="DNC0" pad="P$1"/>
+<connect gate="G$1" pin="DNC1" pad="P$8"/>
+<connect gate="G$1" pin="GND" pad="P$4"/>
+<connect gate="G$1" pin="NC" pad="P$7"/>
+<connect gate="G$1" pin="TEMP" pad="P$3"/>
+<connect gate="G$1" pin="TRIM" pad="P$5"/>
+<connect gate="G$1" pin="VIN" pad="P$2"/>
+<connect gate="G$1" pin="VOUT" pad="P$6"/>
 </connects>
 <technologies>
 <technology name=""/>
