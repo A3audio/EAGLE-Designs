@@ -150,7 +150,7 @@
 <wire x1="-0.762" y1="-0.762" x2="-0.762" y2="-0.508" width="0.1524" layer="21"/>
 <circle x="0" y="0" radius="0.635" width="0.1524" layer="51"/>
 <pad name="1" x="0" y="0" drill="0.8128" diameter="1.6002" shape="octagon"/>
-<text x="-0.762" y="1.016" size="0.8128" layer="25" ratio="10">&gt;NAME</text>
+<text x="-0.762" y="1.016" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="0" y="0.6" size="0.0254" layer="27">&gt;VALUE</text>
 </package>
 </packages>
@@ -173,76 +173,6 @@
 <device name="" package="1,6/0,8">
 <connects>
 <connect gate="P" pin="P" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="microchip">
-<description>&lt;b&gt;Microchip PIC Microcontrollers and other Devices&lt;/b&gt;&lt;p&gt;
-Based on the following sources :
-&lt;ul&gt;
-&lt;li&gt;Microchip Data Book, 1993
-&lt;li&gt;THE EMERGING WORLD STANDARD, 1995/1996
-&lt;li&gt;Microchip, Technical Library CD-ROM, June 1998
-&lt;li&gt;www.microchip.com
-&lt;/ul&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="SOT23">
-<description>&lt;b&gt;SMALL OUTLINE TRANSISTOR&lt;/b&gt;&lt;p&gt;
-reflow soldering</description>
-<wire x1="-1.973" y1="1.983" x2="1.973" y2="1.983" width="0.0508" layer="39"/>
-<wire x1="1.973" y1="-1.983" x2="-1.973" y2="-1.983" width="0.0508" layer="39"/>
-<wire x1="-1.973" y1="-1.983" x2="-1.973" y2="1.983" width="0.0508" layer="39"/>
-<wire x1="1.973" y1="1.983" x2="1.973" y2="-1.983" width="0.0508" layer="39"/>
-<wire x1="1.422" y1="0.66" x2="1.422" y2="-0.66" width="0.1524" layer="51"/>
-<wire x1="1.422" y1="-0.66" x2="-1.422" y2="-0.66" width="0.1524" layer="51"/>
-<wire x1="-1.422" y1="-0.66" x2="-1.422" y2="0.66" width="0.1524" layer="51"/>
-<wire x1="-1.422" y1="0.66" x2="1.422" y2="0.66" width="0.1524" layer="51"/>
-<smd name="3" x="0" y="1.1" dx="1" dy="1.4" layer="1"/>
-<smd name="2" x="0.95" y="-1.1" dx="1" dy="1.4" layer="1"/>
-<smd name="1" x="-0.95" y="-1.1" dx="1" dy="1.4" layer="1"/>
-<text x="-1.905" y="1.905" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.905" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.2286" y1="0.7112" x2="0.2286" y2="1.2954" layer="51"/>
-<rectangle x1="0.7112" y1="-1.2954" x2="1.1684" y2="-0.7112" layer="51"/>
-<rectangle x1="-1.1684" y1="-1.2954" x2="-0.7112" y2="-0.7112" layer="51"/>
-<rectangle x1="-0.5001" y1="-0.3" x2="0.5001" y2="0.3" layer="35"/>
-</package>
-</packages>
-<symbols>
-<symbol name="MCP9701">
-<wire x1="-5.08" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
-<pin name="GND" x="0" y="5.08" visible="pad" length="short" rot="R270"/>
-<pin name="VDD" x="-2.54" y="-5.08" visible="pad" length="short" rot="R90"/>
-<pin name="VOUT" x="2.54" y="-5.08" visible="pad" length="short" rot="R90"/>
-<text x="1.27" y="1.778" size="1.016" layer="94" rot="R180">GND</text>
-<text x="-1.016" y="-1.27" size="1.016" layer="94" rot="R180">VDD</text>
-<text x="4.572" y="-1.27" size="1.016" layer="94" rot="R180">VOUT</text>
-<text x="-5.08" y="7.62" size="1.016" layer="95">&gt;NAME</text>
-<text x="-5.08" y="-10.16" size="1.016" layer="96">&gt;VALUE</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="MCP970X">
-<description>Temperature Sensor IC</description>
-<gates>
-<gate name="G$1" symbol="MCP9701" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOT23">
-<connects>
-<connect gate="G$1" pin="GND" pad="3"/>
-<connect gate="G$1" pin="VDD" pad="1"/>
-<connect gate="G$1" pin="VOUT" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -295,8 +225,7 @@ chip</description>
 <wire x1="1.473" y1="0.983" x2="1.473" y2="-0.983" width="0.0508" layer="39"/>
 <wire x1="1.473" y1="-0.983" x2="-1.473" y2="-0.983" width="0.0508" layer="39"/>
 <wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
-<wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
+<wire x1="0" y1="0.508" x2="0" y2="-0.508" width="0.1016" layer="21"/>
 <smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
 <smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
 <text x="-0.889" y="0.762" size="1.27" layer="25">&gt;NAME</text>
@@ -2506,6 +2435,102 @@ Metric Code Size 5664</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="microchip">
+<description>&lt;b&gt;Microchip PIC Microcontrollers and other Devices&lt;/b&gt;&lt;p&gt;
+Based on the following sources :
+&lt;ul&gt;
+&lt;li&gt;Microchip Data Book, 1993
+&lt;li&gt;THE EMERGING WORLD STANDARD, 1995/1996
+&lt;li&gt;Microchip, Technical Library CD-ROM, June 1998
+&lt;li&gt;www.microchip.com
+&lt;/ul&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="SOT23">
+<description>&lt;b&gt;SMALL OUTLINE TRANSISTOR&lt;/b&gt;&lt;p&gt;
+reflow soldering</description>
+<wire x1="-1.973" y1="1.983" x2="1.973" y2="1.983" width="0.0508" layer="39"/>
+<wire x1="1.973" y1="-1.983" x2="-1.973" y2="-1.983" width="0.0508" layer="39"/>
+<wire x1="-1.973" y1="-1.983" x2="-1.973" y2="1.983" width="0.0508" layer="39"/>
+<wire x1="1.973" y1="1.983" x2="1.973" y2="-1.983" width="0.0508" layer="39"/>
+<wire x1="1.422" y1="0.66" x2="1.422" y2="-0.66" width="0.1524" layer="51"/>
+<wire x1="1.422" y1="-0.66" x2="-1.422" y2="-0.66" width="0.1524" layer="51"/>
+<wire x1="-1.422" y1="-0.66" x2="-1.422" y2="0.66" width="0.1524" layer="51"/>
+<wire x1="-1.422" y1="0.66" x2="1.422" y2="0.66" width="0.1524" layer="51"/>
+<smd name="3" x="0" y="1.1" dx="1" dy="1.4" layer="1"/>
+<smd name="2" x="0.95" y="-1.1" dx="1" dy="1.4" layer="1"/>
+<smd name="1" x="-0.95" y="-1.1" dx="1" dy="1.4" layer="1"/>
+<text x="-1.905" y="1.905" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.905" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.2286" y1="0.7112" x2="0.2286" y2="1.2954" layer="51"/>
+<rectangle x1="0.7112" y1="-1.2954" x2="1.1684" y2="-0.7112" layer="51"/>
+<rectangle x1="-1.1684" y1="-1.2954" x2="-0.7112" y2="-0.7112" layer="51"/>
+<rectangle x1="-0.5001" y1="-0.3" x2="0.5001" y2="0.3" layer="35"/>
+<wire x1="-0.9525" y1="0.635" x2="-1.27" y2="0.635" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="0.635" x2="-1.27" y2="0" width="0.127" layer="21"/>
+<wire x1="0.9525" y1="0.635" x2="1.27" y2="0.635" width="0.127" layer="21"/>
+<wire x1="1.27" y1="0.635" x2="1.27" y2="0" width="0.127" layer="21"/>
+<wire x1="0.3175" y1="-0.635" x2="-0.3175" y2="-0.635" width="0.127" layer="21"/>
+</package>
+<package name="SC-70-5">
+<smd name="P$1" x="0.65" y="1.1" dx="0.45" dy="0.95" layer="1"/>
+<smd name="P$2" x="0.015" y="1.1" dx="0.45" dy="0.95" layer="1"/>
+<smd name="P$3" x="-0.65" y="1.1" dx="0.45" dy="0.95" layer="1"/>
+<smd name="P$4" x="-0.65" y="-1.1" dx="0.45" dy="0.95" layer="1"/>
+<smd name="P$5" x="0.65" y="-1.1" dx="0.45" dy="0.95" layer="1"/>
+<wire x1="-1.27" y1="0.635" x2="-1.5" y2="0.635" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="0.635" x2="-1.5" y2="0" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="-0.635" x2="-1.5" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="-1.27" x2="-1.27" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="1.5" y1="0" x2="1.5" y2="0.635" width="0.127" layer="21"/>
+<wire x1="1.5" y1="0.635" x2="1.27" y2="0.635" width="0.127" layer="21"/>
+<wire x1="1.27" y1="-1.27" x2="1.5" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="1.5" y1="-1.27" x2="1.5" y2="-0.635" width="0.127" layer="21"/>
+<circle x="1.27" y="1.27" radius="0.0625" width="0.127" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="MCP9701">
+<wire x1="-5.08" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<pin name="GND" x="0" y="5.08" visible="pad" length="short" rot="R270"/>
+<pin name="VDD" x="-2.54" y="-5.08" visible="pad" length="short" rot="R90"/>
+<pin name="VOUT" x="2.54" y="-5.08" visible="pad" length="short" rot="R90"/>
+<text x="1.27" y="1.778" size="1.016" layer="94" rot="R180">GND</text>
+<text x="-1.016" y="-1.27" size="1.016" layer="94" rot="R180">VDD</text>
+<text x="4.572" y="-1.27" size="1.016" layer="94" rot="R180">VOUT</text>
+<text x="-5.08" y="7.62" size="1.016" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-10.16" size="1.016" layer="96">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MCP970X">
+<description>Temperature Sensor IC</description>
+<gates>
+<gate name="G$1" symbol="MCP9701" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23">
+<connects>
+<connect gate="G$1" pin="GND" pad="3"/>
+<connect gate="G$1" pin="VDD" pad="1"/>
+<connect gate="G$1" pin="VOUT" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="9700" package="SC-70-5">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -2521,8 +2546,8 @@ Metric Code Size 5664</description>
 <part name="VCC_OUT" library="wirepad" deviceset="1,6/0,8" device=""/>
 <part name="OUTPUT" library="wirepad" deviceset="1,6/0,8" device=""/>
 <part name="G_OUT" library="wirepad" deviceset="1,6/0,8" device=""/>
-<part name="IC1" library="microchip" deviceset="MCP970X" device=""/>
 <part name="C1" library="adafruit" deviceset="C-US" device="C0603"/>
+<part name="U$1" library="microchip" deviceset="MCP970X" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2534,8 +2559,8 @@ Metric Code Size 5664</description>
 <instance part="VCC_OUT" gate="P" x="40.64" y="68.58"/>
 <instance part="OUTPUT" gate="P" x="40.64" y="38.1"/>
 <instance part="G_OUT" gate="P" x="40.64" y="53.34"/>
-<instance part="IC1" gate="G$1" x="91.44" y="60.96"/>
 <instance part="C1" gate="G$1" x="78.74" y="60.96"/>
+<instance part="U$1" gate="G$1" x="91.44" y="60.96"/>
 </instances>
 <busses>
 </busses>
@@ -2553,12 +2578,12 @@ Metric Code Size 5664</description>
 <wire x1="48.26" y1="72.39" x2="48.26" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="VDD"/>
 <wire x1="88.9" y1="55.88" x2="78.74" y2="55.88" width="0.1524" layer="91"/>
 <label x="76.2" y="55.88" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="C1" gate="G$1" pin="2"/>
 <wire x1="78.74" y1="55.88" x2="76.2" y2="55.88" width="0.1524" layer="91"/>
 <junction x="78.74" y="55.88"/>
+<pinref part="U$1" gate="G$1" pin="VDD"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -2574,12 +2599,12 @@ Metric Code Size 5664</description>
 <wire x1="48.26" y1="53.34" x2="43.18" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="GND"/>
 <wire x1="91.44" y1="66.04" x2="91.44" y2="71.12" width="0.1524" layer="91"/>
 <label x="91.44" y="71.12" size="1.778" layer="95" rot="R90" xref="yes"/>
 <pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="78.74" y1="63.5" x2="78.74" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="66.04" x2="91.44" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="GND"/>
 <junction x="91.44" y="66.04"/>
 </segment>
 </net>
@@ -2591,8 +2616,8 @@ Metric Code Size 5664</description>
 </segment>
 <segment>
 <wire x1="101.6" y1="55.88" x2="93.98" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G$1" pin="VOUT"/>
 <label x="101.6" y="55.88" size="1.778" layer="95" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="VOUT"/>
 </segment>
 </net>
 </nets>

@@ -1212,6 +1212,7 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <rectangle x1="0.4318" y1="-0.4318" x2="0.8382" y2="0.4318" layer="51"/>
 <rectangle x1="-0.8382" y1="-0.4318" x2="-0.4318" y2="0.4318" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
+<wire x1="0" y1="0.635" x2="0" y2="-0.635" width="0.127" layer="21"/>
 </package>
 <package name="R0805">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;</description>
@@ -3538,7 +3539,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="-0.762" y1="-0.762" x2="-0.762" y2="-0.508" width="0.1524" layer="21"/>
 <circle x="0" y="0" radius="0.635" width="0.1524" layer="51"/>
 <pad name="1" x="0" y="0" drill="0.8128" diameter="1.6002" shape="octagon"/>
-<text x="-0.762" y="1.016" size="0.8128" layer="25" ratio="10">&gt;NAME</text>
+<text x="-0.762" y="1.016" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="0" y="0.6" size="0.0254" layer="27">&gt;VALUE</text>
 </package>
 </packages>
@@ -3632,7 +3633,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="VCC_OUT" library="wirepad" deviceset="1,6/0,8" device=""/>
 <part name="OUTPUT" library="wirepad" deviceset="1,6/0,8" device=""/>
 <part name="G_OUT" library="wirepad" deviceset="1,6/0,8" device=""/>
-<part name="T$1" library="formula electric" deviceset="THERMISTOR" device="" value="10k"/>
+<part name="T1" library="formula electric" deviceset="THERMISTOR" device="" value="10k"/>
 <part name="R2" library="resistor" deviceset="R-US_" device="R0603" value="10k"/>
 </parts>
 <sheets>
@@ -3645,7 +3646,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <instance part="VCC_OUT" gate="P" x="40.64" y="68.58"/>
 <instance part="OUTPUT" gate="P" x="40.64" y="45.72"/>
 <instance part="G_OUT" gate="P" x="40.64" y="53.34"/>
-<instance part="T$1" gate="T$1" x="73.66" y="45.72" rot="R270"/>
+<instance part="T1" gate="T$1" x="73.66" y="45.72" rot="R270"/>
 <instance part="R2" gate="G$1" x="73.66" y="66.04" rot="R270"/>
 </instances>
 <busses>
@@ -3673,7 +3674,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <segment>
 <wire x1="73.66" y1="40.64" x2="73.66" y2="38.1" width="0.1524" layer="91"/>
 <label x="73.66" y="38.1" size="1.778" layer="95" rot="R270" xref="yes"/>
-<pinref part="T$1" gate="T$1" pin="P$2"/>
+<pinref part="T1" gate="T$1" pin="P$2"/>
 </segment>
 <segment>
 <wire x1="48.26" y1="56.642" x2="51.308" y2="56.642" width="0.1524" layer="91"/>
@@ -3698,7 +3699,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="73.66" y1="55.88" x2="73.66" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="55.88" x2="73.66" y2="60.96" width="0.1524" layer="91"/>
 <junction x="73.66" y="55.88"/>
-<pinref part="T$1" gate="T$1" pin="P$1"/>
+<pinref part="T1" gate="T$1" pin="P$1"/>
 <pinref part="R2" gate="G$1" pin="2"/>
 <label x="86.36" y="55.88" size="1.778" layer="95" xref="yes"/>
 </segment>

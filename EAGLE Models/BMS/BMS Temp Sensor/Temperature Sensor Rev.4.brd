@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="mm" style="lines" multiple="1" display="no" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -111,16 +111,15 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="16" y2="0" width="0" layer="20"/>
-<wire x1="16" y1="0" x2="16" y2="22.03" width="0" layer="20"/>
-<wire x1="16" y1="22.03" x2="0" y2="22" width="0" layer="20"/>
-<wire x1="0" y1="22" x2="0" y2="0" width="0" layer="20"/>
+<wire x1="0" y1="0" x2="12.7" y2="0" width="0" layer="20"/>
+<wire x1="12.7" y1="0" x2="12.7" y2="15.875" width="0" layer="20"/>
+<wire x1="12.7" y1="15.875" x2="0" y2="15.875" width="0" layer="20"/>
+<wire x1="0" y1="15.875" x2="0" y2="0" width="0" layer="20"/>
 <hole x="2.54" y="1.27" drill="0.6"/>
-<hole x="7.62" y="1.27" drill="0.6"/>
-<hole x="12.7" y="1.27" drill="0.6"/>
-<hole x="12.065" y="19.685" drill="0.6"/>
-<hole x="7.62" y="19.685" drill="0.6"/>
-<hole x="2.54" y="19.685" drill="0.6"/>
+<hole x="6.35" y="1.27" drill="0.6"/>
+<hole x="10.16" y="1.27" drill="0.6"/>
+<hole x="6.35" y="14.605" drill="0.6"/>
+<hole x="2.54" y="14.605" drill="0.6"/>
 </plain>
 <libraries>
 <library name="wirepad">
@@ -139,7 +138,7 @@
 <wire x1="-0.762" y1="-0.762" x2="-0.762" y2="-0.508" width="0.1524" layer="21"/>
 <circle x="0" y="0" radius="0.635" width="0.1524" layer="51"/>
 <pad name="1" x="0" y="0" drill="0.8128" diameter="1.6002" shape="octagon"/>
-<text x="-0.762" y="1.016" size="0.8128" layer="25" ratio="10">&gt;NAME</text>
+<text x="-0.762" y="1.016" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="0" y="0.6" size="0.0254" layer="27">&gt;VALUE</text>
 </package>
 </packages>
@@ -1229,6 +1228,7 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <rectangle x1="0.4318" y1="-0.4318" x2="0.8382" y2="0.4318" layer="51"/>
 <rectangle x1="-0.8382" y1="-0.4318" x2="-0.4318" y2="0.4318" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
+<wire x1="0" y1="0.635" x2="0" y2="-0.635" width="0.127" layer="21"/>
 </package>
 </packages>
 </library>
@@ -1256,7 +1256,7 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules name="default">
+<designrules name="default *">
 <description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
 Die Standard-Design-Rules sind so gewählt, dass sie für 
@@ -1274,22 +1274,22 @@ design rules under a new name.</description>
 <param name="layerSetup" value="(1*16)"/>
 <param name="mtCopper" value="0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"/>
 <param name="mtIsolate" value="1.5mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
-<param name="mdWireWire" value="8mil"/>
-<param name="mdWirePad" value="8mil"/>
-<param name="mdWireVia" value="8mil"/>
-<param name="mdPadPad" value="8mil"/>
-<param name="mdPadVia" value="8mil"/>
-<param name="mdViaVia" value="8mil"/>
-<param name="mdSmdPad" value="8mil"/>
-<param name="mdSmdVia" value="8mil"/>
-<param name="mdSmdSmd" value="8mil"/>
+<param name="mdWireWire" value="6mil"/>
+<param name="mdWirePad" value="6mil"/>
+<param name="mdWireVia" value="6mil"/>
+<param name="mdPadPad" value="6mil"/>
+<param name="mdPadVia" value="6mil"/>
+<param name="mdViaVia" value="6mil"/>
+<param name="mdSmdPad" value="6mil"/>
+<param name="mdSmdVia" value="6mil"/>
+<param name="mdSmdSmd" value="6mil"/>
 <param name="mdViaViaSameLayer" value="8mil"/>
 <param name="mnLayersViaInSmd" value="2"/>
 <param name="mdCopperDimension" value="40mil"/>
 <param name="mdDrill" value="8mil"/>
 <param name="mdSmdStop" value="0mil"/>
-<param name="msWidth" value="10mil"/>
-<param name="msDrill" value="24mil"/>
+<param name="msWidth" value="6mil"/>
+<param name="msDrill" value="13mil"/>
 <param name="msMicroVia" value="9.99mm"/>
 <param name="msBlindViaRatio" value="0.5"/>
 <param name="rvPadTop" value="0.25"/>
@@ -1328,7 +1328,7 @@ design rules under a new name.</description>
 <param name="srRoundness" value="0"/>
 <param name="srMinRoundness" value="0mil"/>
 <param name="srMaxRoundness" value="0mil"/>
-<param name="slThermalIsolate" value="10mil"/>
+<param name="slThermalIsolate" value="6mil"/>
 <param name="slThermalsForVias" value="0"/>
 <param name="dpMaxLengthDifference" value="10mm"/>
 <param name="dpGapFactor" value="2.5"/>
@@ -1436,50 +1436,92 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="G_IN" library="wirepad" package="1,6/0,8" value="" x="2.54" y="15.875"/>
-<element name="G_OUT" library="wirepad" package="1,6/0,8" value="" x="2.54" y="3.81"/>
-<element name="OUTPUT" library="wirepad" package="1,6/0,8" value="" x="12.7" y="3.81"/>
-<element name="R2" library="resistor" package="R0603" value="10k" x="4.445" y="11.43" rot="R90"/>
-<element name="T$1" library="formula electric" package="0603" value="10k" x="9.525" y="11.43" rot="R270"/>
-<element name="VCC_IN" library="wirepad" package="1,6/0,8" value="" x="7.62" y="15.875"/>
-<element name="VCC_OUT" library="wirepad" package="1,6/0,8" value="" x="7.62" y="3.81"/>
+<element name="G_IN" library="wirepad" package="1,6/0,8" value="" x="2.54" y="12.065" smashed="yes" rot="R90">
+<attribute name="NAME" x="1.524" y="10.668" size="0.6096" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="1.94" y="12.065" size="0.0254" layer="27" rot="R90"/>
+</element>
+<element name="G_OUT" library="wirepad" package="1,6/0,8" value="" x="2.54" y="3.81" smashed="yes" rot="R90">
+<attribute name="NAME" x="1.524" y="3.048" size="0.6096" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="1.94" y="3.81" size="0.0254" layer="27" rot="R90"/>
+</element>
+<element name="OUTPUT" library="wirepad" package="1,6/0,8" value="" x="10.16" y="3.81" smashed="yes" rot="R90">
+<attribute name="NAME" x="9.144" y="3.048" size="0.6096" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="9.56" y="3.81" size="0.0254" layer="27" rot="R90"/>
+</element>
+<element name="R2" library="resistor" package="R0603" value="10k" x="8.89" y="6.985" smashed="yes">
+<attribute name="NAME" x="8.255" y="5.715" size="0.6096" layer="25" rot="R180"/>
+<attribute name="VALUE" x="10.795" y="7.62" size="0.6096" layer="27" rot="R270"/>
+</element>
+<element name="T1" library="formula electric" package="0603" value="10k" x="8.89" y="9.525" smashed="yes" rot="R180">
+<attribute name="NAME" x="8.89" y="10.795" size="0.6096" layer="25"/>
+<attribute name="VALUE" x="10.795" y="10.16" size="0.6096" layer="27" rot="R270"/>
+</element>
+<element name="VCC_IN" library="wirepad" package="1,6/0,8" value="" x="6.35" y="12.065" smashed="yes" rot="R90">
+<attribute name="NAME" x="6.604" y="8.128" size="0.6096" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="5.75" y="12.065" size="0.0254" layer="27" rot="R90"/>
+</element>
+<element name="VCC_OUT" library="wirepad" package="1,6/0,8" value="" x="6.35" y="3.81" smashed="yes" rot="R90">
+<attribute name="NAME" x="4.699" y="2.413" size="0.6096" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="5.75" y="3.81" size="0.0254" layer="27" rot="R90"/>
+</element>
 </elements>
 <signals>
 <signal name="VCC">
 <contactref element="R2" pad="1"/>
 <contactref element="VCC_IN" pad="1"/>
 <contactref element="VCC_OUT" pad="1"/>
-<wire x1="4.445" y1="10.58" x2="7.62" y2="15.875" width="0" layer="19" extent="16-16"/>
-<wire x1="7.62" y1="3.81" x2="4.445" y2="10.58" width="0" layer="19" extent="16-16"/>
+<wire x1="6.35" y1="3.81" x2="6.35" y2="5.295" width="0.4064" layer="1"/>
+<wire x1="6.35" y1="5.295" x2="8.04" y2="6.985" width="0.4064" layer="1"/>
+<wire x1="8.04" y1="6.985" x2="6.35" y2="8.675" width="0.4064" layer="1"/>
+<wire x1="6.35" y1="8.675" x2="6.35" y2="12.065" width="0.4064" layer="1"/>
 </signal>
 <signal name="GND">
-<contactref element="T$1" pad="P$2"/>
+<contactref element="T1" pad="P$2"/>
 <contactref element="G_IN" pad="1"/>
 <contactref element="G_OUT" pad="1"/>
 <polygon width="0.4064" layer="1" isolate="0.3048">
 <vertex x="0" y="0"/>
-<vertex x="16" y="0"/>
-<vertex x="16" y="22"/>
-<vertex x="0" y="22"/>
+<vertex x="12.7" y="0"/>
+<vertex x="12.7" y="15.875"/>
+<vertex x="0" y="15.875"/>
 </polygon>
 <polygon width="0.4064" layer="16" isolate="0.3048">
 <vertex x="0" y="0"/>
-<vertex x="16" y="0"/>
-<vertex x="16" y="22"/>
-<vertex x="0" y="22"/>
+<vertex x="12.7" y="0"/>
+<vertex x="12.7" y="15.875"/>
+<vertex x="0" y="15.875"/>
 </polygon>
-<wire x1="9.525" y1="10.58" x2="2.54" y2="15.875" width="0" layer="19" extent="1-1"/>
-<wire x1="2.54" y1="3.81" x2="9.525" y2="10.58" width="0" layer="19" extent="1-1"/>
+<via x="2.54" y="10.16" extent="1-16" drill="0.5"/>
+<via x="2.54" y="8.89" extent="1-16" drill="0.5"/>
+<via x="2.54" y="7.62" extent="1-16" drill="0.5"/>
+<via x="2.54" y="6.35" extent="1-16" drill="0.5"/>
+<via x="5.08" y="6.35" extent="1-16" drill="0.5"/>
+<via x="5.08" y="7.62" extent="1-16" drill="0.5"/>
+<via x="5.08" y="8.89" extent="1-16" drill="0.5"/>
+<via x="5.08" y="10.16" extent="1-16" drill="0.5"/>
+<via x="8.255" y="12.065" extent="1-16" drill="0.5"/>
+<via x="9.525" y="12.065" extent="1-16" drill="0.5"/>
+<via x="10.795" y="12.065" extent="1-16" drill="0.5"/>
 </signal>
 <signal name="OUTPUT">
 <contactref element="OUTPUT" pad="1"/>
-<contactref element="T$1" pad="P$1"/>
+<contactref element="T1" pad="P$1"/>
 <contactref element="R2" pad="2"/>
-<wire x1="4" y1="12" x2="4.445" y2="12.28" width="0.254" layer="1"/>
-<wire x1="9.525" y1="12.28" x2="12.7" y2="3.81" width="0" layer="19" extent="1-1"/>
-<wire x1="9.525" y1="12.28" x2="4.445" y2="12.28" width="0" layer="19" extent="1-16"/>
+<wire x1="10.16" y1="3.81" x2="10.16" y2="5.295" width="0.4064" layer="1"/>
+<wire x1="10.16" y1="5.295" x2="9.74" y2="6.985" width="0.4064" layer="1"/>
+<wire x1="9.74" y1="6.985" x2="9.74" y2="9.525" width="0.4064" layer="1"/>
 </signal>
 </signals>
+<errors>
+<approved hash="18,29,4eda2e99d5b15723"/>
+<approved hash="18,29,825f381457dbaaf5"/>
+<approved hash="18,29,5a1ea14f4e0bbe8f"/>
+<approved hash="18,29,8b764aeccb38a89d"/>
+<approved hash="18,29,726f5a475c13db11"/>
+<approved hash="18,29,65ab55a6c6c1b0e2"/>
+<approved hash="18,29,ae5cbc6d779c2b23"/>
+<approved hash="18,29,d328bd7e9cba5938"/>
+</errors>
 </board>
 </drawing>
 </eagle>
