@@ -306,6 +306,25 @@
 <wire x1="-8.89" y1="5.08" x2="8.89" y2="5.08" width="0.127" layer="21"/>
 <wire x1="8.89" y1="5.08" x2="8.89" y2="-5.08" width="0.127" layer="21"/>
 </package>
+<package name="6_PIN_MOLEX">
+<pad name="P$1" x="4.2" y="-2.75" drill="1.8" shape="square"/>
+<pad name="P$2" x="0" y="-2.75" drill="1.8"/>
+<pad name="P$3" x="-4.2" y="-2.75" drill="1.8"/>
+<pad name="P$4" x="4.2" y="2.75" drill="1.8"/>
+<pad name="P$5" x="0" y="2.75" drill="1.8"/>
+<pad name="P$6" x="-4.2" y="2.75" drill="1.8"/>
+<wire x1="-6.35" y1="5.08" x2="6.35" y2="5.08" width="0.127" layer="21"/>
+<wire x1="6.35" y1="5.08" x2="6.35" y2="-5.12" width="0.127" layer="21"/>
+<wire x1="7.62" y1="-5.12" x2="6.35" y2="-5.12" width="0.127" layer="21"/>
+<wire x1="6.35" y1="-5.12" x2="-6.35" y2="-5.12" width="0.127" layer="21"/>
+<wire x1="-7.62" y1="-5.12" x2="-6.35" y2="-5.12" width="0.127" layer="21"/>
+<wire x1="-6.35" y1="-5.12" x2="-6.35" y2="5.08" width="0.127" layer="21"/>
+<wire x1="-7.62" y1="-5.12" x2="-7.62" y2="-16.65" width="0.127" layer="21"/>
+<wire x1="-7.62" y1="-16.65" x2="7.62" y2="-16.65" width="0.127" layer="21"/>
+<wire x1="7.62" y1="-16.65" x2="7.62" y2="-5.12" width="0.127" layer="21"/>
+<hole x="4.2" y="-10.05" drill="3"/>
+<hole x="-4.2" y="-10.05" drill="3"/>
+</package>
 </packages>
 <symbols>
 <symbol name="2N7002P">
@@ -728,6 +747,19 @@
 </technologies>
 </device>
 <device name="TE_IDC" package="2178710_IDC">
+<connects>
+<connect gate="/1" pin="$/1" pad="P$1"/>
+<connect gate="/2" pin="$/1" pad="P$2"/>
+<connect gate="/3" pin="$/1" pad="P$3"/>
+<connect gate="/4" pin="$/1" pad="P$4"/>
+<connect gate="/5" pin="$/1" pad="P$5"/>
+<connect gate="/6" pin="$/1" pad="P$6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="MOLEX_HORI" package="6_PIN_MOLEX">
 <connects>
 <connect gate="/1" pin="$/1" pad="P$1"/>
 <connect gate="/2" pin="$/1" pad="P$2"/>
