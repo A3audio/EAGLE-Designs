@@ -325,6 +325,22 @@
 <hole x="4.2" y="-10.05" drill="3"/>
 <hole x="-4.2" y="-10.05" drill="3"/>
 </package>
+<package name="4_PIN_MOLEX">
+<wire x1="-4.8" y1="-4.445" x2="-4.445" y2="-4.445" width="0.127" layer="21"/>
+<wire x1="-4.445" y1="-4.445" x2="4.445" y2="-4.445" width="0.127" layer="21"/>
+<wire x1="4.8" y1="-4.445" x2="4.445" y2="-4.445" width="0.127" layer="21"/>
+<wire x1="4.445" y1="-4.445" x2="4.445" y2="4.445" width="0.127" layer="21"/>
+<wire x1="4.445" y1="4.445" x2="-4.445" y2="4.445" width="0.127" layer="21"/>
+<wire x1="-4.445" y1="4.445" x2="-4.445" y2="-4.445" width="0.127" layer="21"/>
+<pad name="P$1" x="2.1" y="-2.25" drill="1.8" shape="square"/>
+<pad name="P$2" x="2.1" y="2.25" drill="1.8"/>
+<pad name="P$3" x="-2.1" y="-2.25" drill="1.8"/>
+<pad name="P$4" x="-2.1" y="2.25" drill="1.8"/>
+<wire x1="-4.8" y1="-4.445" x2="-4.8" y2="-16.15" width="0.127" layer="21"/>
+<wire x1="-4.8" y1="-16.15" x2="4.8" y2="-16.15" width="0.127" layer="21"/>
+<wire x1="4.8" y1="-16.15" x2="4.8" y2="-4.445" width="0.127" layer="21"/>
+<hole x="0" y="-9.55" drill="3"/>
+</package>
 </packages>
 <symbols>
 <symbol name="2N7002P">
@@ -483,6 +499,8 @@
 <symbol name="CONN_PIN">
 <pin name="$/1" x="2.54" y="0" visible="off" length="short" function="clk" rot="R180"/>
 <text x="-7.62" y="-0.762" size="1.27" layer="95">&gt;NAME</text>
+</symbol>
+<symbol name="4_PIN_MOLEX">
 </symbol>
 </symbols>
 <devicesets>
@@ -796,6 +814,27 @@
 <connect gate="/6" pin="$/1" pad="P$6"/>
 <connect gate="/7" pin="$/1" pad="P$7"/>
 <connect gate="/8" pin="$/1" pad="P$8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="4_PIN_CONN" prefix="X" uservalue="yes">
+<gates>
+<gate name="/1" symbol="CONN_PIN" x="0" y="0"/>
+<gate name="/2" symbol="CONN_PIN" x="0" y="-2.54"/>
+<gate name="/3" symbol="CONN_PIN" x="0" y="-5.08"/>
+<gate name="/4" symbol="CONN_PIN" x="0" y="-7.62"/>
+</gates>
+<devices>
+<device name="" package="4_PIN_MOLEX">
+<connects>
+<connect gate="/1" pin="$/1" pad="P$1"/>
+<connect gate="/2" pin="$/1" pad="P$2"/>
+<connect gate="/3" pin="$/1" pad="P$3"/>
+<connect gate="/4" pin="$/1" pad="P$4"/>
 </connects>
 <technologies>
 <technology name=""/>
