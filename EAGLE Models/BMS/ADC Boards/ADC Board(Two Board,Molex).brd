@@ -2985,7 +2985,6 @@ design rules under a new name.</description>
 <via x="95.5675" y="36.195" extent="1-16" drill="0.6"/>
 <wire x1="70.86" y1="28.67" x2="72.8025" y2="28.67" width="0.254" layer="1"/>
 <wire x1="72.8025" y1="28.67" x2="73.3425" y2="29.21" width="0.3048" layer="1"/>
-<wire x1="73.3425" y1="29.21" x2="73.66" y2="29.21" width="0.3048" layer="1"/>
 </signal>
 <signal name="SCLK">
 <contactref element="IC1" pad="P$32"/>
