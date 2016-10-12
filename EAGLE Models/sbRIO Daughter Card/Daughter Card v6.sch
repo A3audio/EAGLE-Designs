@@ -9323,31 +9323,6 @@ for Latched Components</text>
 <label x="378.46" y="48.26" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="SHTDWN_CONN" gate="G$1" pin="4"/>
 </segment>
-<segment>
-<pinref part="PWR_CONN" gate="G$1" pin="1"/>
-<wire x1="535.94" y1="-45.72" x2="541.02" y2="-45.72" width="0.1524" layer="91"/>
-<label x="541.02" y="-45.72" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="F3" gate="G$1" pin="2"/>
-<wire x1="754.38" y1="-114.3" x2="764.54" y2="-114.3" width="0.1524" layer="91"/>
-<label x="764.54" y="-114.3" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="BSPD_U4" gate="G$1" pin="SW_1"/>
-<wire x1="736.6" y1="25.4" x2="736.6" y2="17.78" width="0.1524" layer="91"/>
-<label x="736.6" y="25.4" size="1.778" layer="95" rot="R90" xref="yes"/>
-</segment>
-<segment>
-<pinref part="SBRIO_U1" gate="G$1" pin="SW_1"/>
-<wire x1="650.24" y1="20.32" x2="650.24" y2="25.4" width="0.1524" layer="91"/>
-<label x="650.24" y="25.4" size="1.778" layer="95" rot="R90" xref="yes"/>
-</segment>
-<segment>
-<pinref part="AMS_U5" gate="G$1" pin="C-"/>
-<wire x1="723.9" y1="-15.24" x2="728.98" y2="-15.24" width="0.1524" layer="91"/>
-<label x="723.9" y="-15.24" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
 </net>
 <net name="N$4" class="0">
 <segment>
@@ -11115,6 +11090,33 @@ for Latched Components</text>
 <pinref part="SBRIO_CONN" gate="G$1" pin="4"/>
 <wire x1="543.56" y1="-78.74" x2="535.94" y2="-78.74" width="0.1524" layer="91"/>
 <label x="543.56" y="-78.74" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="GLV+" class="0">
+<segment>
+<pinref part="PWR_CONN" gate="G$1" pin="1"/>
+<wire x1="535.94" y1="-45.72" x2="541.02" y2="-45.72" width="0.1524" layer="91"/>
+<label x="541.02" y="-45.72" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="F3" gate="G$1" pin="2"/>
+<wire x1="754.38" y1="-114.3" x2="764.54" y2="-114.3" width="0.1524" layer="91"/>
+<label x="764.54" y="-114.3" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="BSPD_U4" gate="G$1" pin="SW_1"/>
+<wire x1="736.6" y1="25.4" x2="736.6" y2="17.78" width="0.1524" layer="91"/>
+<label x="736.6" y="25.4" size="1.778" layer="95" rot="R90" xref="yes"/>
+</segment>
+<segment>
+<pinref part="SBRIO_U1" gate="G$1" pin="SW_1"/>
+<wire x1="650.24" y1="20.32" x2="650.24" y2="25.4" width="0.1524" layer="91"/>
+<label x="650.24" y="25.4" size="1.778" layer="95" rot="R90" xref="yes"/>
+</segment>
+<segment>
+<pinref part="AMS_U5" gate="G$1" pin="C-"/>
+<wire x1="723.9" y1="-15.24" x2="728.98" y2="-15.24" width="0.1524" layer="91"/>
+<label x="723.9" y="-15.24" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$14" class="0">
