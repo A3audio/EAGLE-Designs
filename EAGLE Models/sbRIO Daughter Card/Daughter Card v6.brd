@@ -2512,33 +2512,11 @@ design rules under a new name.</description>
 <attribute name="MPN" value="" x="-114.3" y="88.9" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="-114.3" y="88.9" size="1.778" layer="27" display="off"/>
 </element>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<element name="IC3" library="infineon" package="PG-DSO-20" value="BTS716G" x="43.18" y="59.69">
-<attribute name="MF" value="" x="43.18" y="59.69" size="1.778" layer="27" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="43.18" y="59.69" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="43.18" y="59.69" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="43.18" y="59.69" size="1.778" layer="27" display="off"/>
-=======
-<element name="IC3" library="infineon" package="PG-DSO-20" value="BTS716G" x="40.64" y="62.23">
-<attribute name="MF" value="" x="40.64" y="62.23" size="1.778" layer="27" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="40.64" y="62.23" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="40.64" y="62.23" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="40.64" y="62.23" size="1.778" layer="27" display="off"/>
->>>>>>> origin/master
-=======
-=======
->>>>>>> parent of 8fa8d95... Initiated grouping
 <element name="IC3" library="infineon" package="PG-DSO-20" value="BTS716G" x="-20.32" y="102.87">
 <attribute name="MF" value="" x="-20.32" y="102.87" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="-20.32" y="102.87" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="-20.32" y="102.87" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="-20.32" y="102.87" size="1.778" layer="27" display="off"/>
-<<<<<<< HEAD
->>>>>>> parent of 8fa8d95... Initiated grouping
-=======
->>>>>>> parent of 8fa8d95... Initiated grouping
 </element>
 <element name="IMD_U6" library="formula electric" package="HE3621A1250_SPST" value="HE3621A1250_SPST" x="-22.86" y="124.46"/>
 <element name="INTERLOCKS_U3" library="formula electric" package="HE3621A1250_SPST" value="HE3621A1250_SPST" x="-43.18" y="124.46"/>
@@ -2574,29 +2552,11 @@ design rules under a new name.</description>
 <element name="R8" library="resistor" package="R0402" value="10k" x="-113.03" y="137.16"/>
 <element name="R9" library="resistor" package="R0402" value="10k" x="-118.11" y="137.16"/>
 <element name="SAFETY_CONN" library="formula electric" package="CONNECTOR_5" value="CONN_5" x="-67.31" y="58.42"/>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<element name="SBRIO_ANALOG" library="formula electric" package="SBRIO_J502_J503" value="SBRIO_MIO" x="7.62" y="3.81"/>
-<element name="SBRIO_AUX" library="formula electric" package="SBRIO_J502_J503" value="SBRIO_AUX" x="49.53" y="76.2"/>
-<element name="SBRIO_CAN" library="formula electric" package="SBRIO_W" value="SBRIO_W500" x="87.63" y="10.16"/>
-=======
-<element name="SBRIO_ANALOG" library="formula electric" package="SBRIO_J502_J503" value="SBRIO_MIO" x="-101.6" y="101.6"/>
-<element name="SBRIO_AUX" library="formula electric" package="SBRIO_J502_J503" value="SBRIO_AUX" x="-66.04" y="114.3"/>
-<element name="SBRIO_CAN" library="formula electric" package="SBRIO_W" value="SBRIO_W500" x="119.38" y="82.55"/>
->>>>>>> origin/master
-=======
 <element name="SBRIO_ANALOG" library="formula electric" package="SBRIO_J502_J503" value="SBRIO_MIO" x="-101.6" y="101.6"/>
 <element name="SBRIO_AUX" library="formula electric" package="SBRIO_J502_J503" value="SBRIO_AUX" x="-66.04" y="114.3"/>
 <element name="SBRIO_CAN" library="formula electric" package="SBRIO_W" value="SBRIO_W500" x="-38.1" y="101.6"/>
->>>>>>> parent of 8fa8d95... Initiated grouping
-=======
-<element name="SBRIO_ANALOG" library="formula electric" package="SBRIO_J502_J503" value="SBRIO_MIO" x="-101.6" y="101.6"/>
-<element name="SBRIO_AUX" library="formula electric" package="SBRIO_J502_J503" value="SBRIO_AUX" x="-66.04" y="114.3"/>
-<element name="SBRIO_CAN" library="formula electric" package="SBRIO_W" value="SBRIO_W500" x="-38.1" y="101.6"/>
->>>>>>> parent of 8fa8d95... Initiated grouping
 <element name="SBRIO_CONN" library="formula electric" package="CONNECTOR_5" value="CONN_5" x="-97.79" y="58.42"/>
-<element name="SBRIO_MEZZANINE" library="SEAM-40-XX.X-XX-06-X-A" package="SEAM-40-XX.X-XX-06-X-A" value="SBRIO_RMC" x="40.0304" y="96.7486" rot="MR0"/>
+<element name="SBRIO_MEZZANINE" library="SEAM-40-XX.X-XX-06-X-A" package="SEAM-40-XX.X-XX-06-X-A" value="SBRIO_RMC" x="40.0304" y="96.7486" locked="yes" rot="MR0"/>
 <element name="SBRIO_U1" library="formula electric" package="HE3621A1250_SPST" value="HE3621A1250_SPST" x="-63.5" y="124.46"/>
 <element name="SBRIO_U2" library="formula electric" package="HE3621A1250_SPST" value="HE3621A1250_SPST" x="-83.82" y="124.46"/>
 <element name="SHTDWN_CONN" library="formula electric" package="CONNECTOR_5" value="CONN_5" x="-36.83" y="73.66"/>
@@ -2865,39 +2825,6 @@ design rules under a new name.</description>
 <wire x1="-98.425" y1="84.3" x2="-103.505" y2="84.3" width="0" layer="19" extent="1-1"/>
 <wire x1="-113.665" y1="84.3" x2="-103.505" y2="84.3" width="0" layer="19" extent="1-1"/>
 <wire x1="-118.745" y1="84.3" x2="-113.665" y2="84.3" width="0" layer="19" extent="1-1"/>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<wire x1="55.88" y1="43.18" x2="-98.425" y2="84.3" width="0" layer="19" extent="1-1"/>
-<wire x1="-85.68" y1="83.4422" x2="55.88" y2="43.18" width="0" layer="19" extent="1-1"/>
-<wire x1="43.815" y1="55.09" x2="95.53" y2="78.2" width="0" layer="19" extent="1-1"/>
-<wire x1="38.735" y1="55.09" x2="43.815" y2="55.09" width="0" layer="19" extent="1-1"/>
-<wire x1="35.2" y1="45.64" x2="43.815" y2="55.09" width="0" layer="19" extent="1-1"/>
-<wire x1="32.7" y1="40.64" x2="35.2" y2="45.64" width="0" layer="19" extent="1-1"/>
-<wire x1="-19.33" y1="63.42" x2="32.7" y2="40.64" width="0" layer="19" extent="1-1"/>
-=======
-<wire x1="-91.44" y1="73.66" x2="-98.425" y2="84.3" width="0" layer="19" extent="1-1"/>
-<wire x1="-85.68" y1="83.4422" x2="-91.44" y2="73.66" width="0" layer="19" extent="1-1"/>
-<wire x1="41.275" y1="57.63" x2="-20.04" y2="116.3" width="0" layer="19" extent="1-1"/>
-<wire x1="36.195" y1="57.63" x2="41.275" y2="57.63" width="0" layer="19" extent="1-1"/>
-<wire x1="-14.33" y1="78.66" x2="41.275" y2="57.63" width="0" layer="19" extent="1-1"/>
-<wire x1="-16.83" y1="73.66" x2="-14.33" y2="78.66" width="0" layer="19" extent="1-1"/>
-<wire x1="-19.33" y1="63.42" x2="-16.83" y2="73.66" width="0" layer="19" extent="1-1"/>
->>>>>>> origin/master
-=======
-=======
->>>>>>> parent of 8fa8d95... Initiated grouping
-<wire x1="-91.44" y1="73.66" x2="-98.425" y2="84.3" width="0" layer="19" extent="1-1"/>
-<wire x1="-85.68" y1="83.4422" x2="-91.44" y2="73.66" width="0" layer="19" extent="1-1"/>
-<wire x1="-19.685" y1="98.27" x2="-20.04" y2="116.3" width="0" layer="19" extent="1-1"/>
-<wire x1="-24.765" y1="98.27" x2="-19.685" y2="98.27" width="0" layer="19" extent="1-1"/>
-<wire x1="-14.33" y1="78.66" x2="-19.685" y2="98.27" width="0" layer="19" extent="1-1"/>
-<wire x1="-16.83" y1="73.66" x2="-14.33" y2="78.66" width="0" layer="19" extent="1-1"/>
-<wire x1="-19.33" y1="63.42" x2="-16.83" y2="73.66" width="0" layer="19" extent="1-1"/>
-<<<<<<< HEAD
->>>>>>> parent of 8fa8d95... Initiated grouping
-=======
->>>>>>> parent of 8fa8d95... Initiated grouping
 <wire x1="-21.83" y1="58.42" x2="-19.33" y2="63.42" width="0" layer="19" extent="1-1"/>
 <wire x1="-44.57" y1="78.66" x2="-53.6" y2="101.6" width="0" layer="19" extent="1-1"/>
 <wire x1="-47.07" y1="73.66" x2="-44.57" y2="78.66" width="0" layer="19" extent="1-1"/>
@@ -2962,34 +2889,6 @@ design rules under a new name.</description>
 <wire x1="-93.56" y1="142.24" x2="-93.345" y2="93.5" width="0" layer="19" extent="1-1"/>
 <wire x1="-89.75" y1="142.24" x2="-93.56" y2="142.24" width="0" layer="19" extent="1-1"/>
 <wire x1="-58.42" y1="143.24" x2="-89.75" y2="142.24" width="0" layer="19" extent="1-1"/>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<wire x1="37.465" y1="64.29" x2="-58.42" y2="143.24" width="0" layer="19" extent="1-1"/>
-<wire x1="38.735" y1="64.29" x2="37.465" y2="64.29" width="0" layer="19" extent="1-1"/>
-<wire x1="42.545" y1="64.29" x2="38.735" y2="64.29" width="0" layer="19" extent="1-1"/>
-<wire x1="43.815" y1="64.29" x2="42.545" y2="64.29" width="0" layer="19" extent="1-1"/>
-<wire x1="47.625" y1="64.29" x2="43.815" y2="64.29" width="0" layer="19" extent="1-1"/>
-<wire x1="48.895" y1="64.29" x2="47.625" y2="64.29" width="0" layer="19" extent="1-1"/>
-<wire x1="48.895" y1="55.09" x2="48.895" y2="64.29" width="0" layer="19" extent="1-1"/>
-<wire x1="37.465" y1="55.09" x2="37.465" y2="64.29" width="0" layer="19" extent="1-1"/>
-<wire x1="30.2" y1="45.64" x2="48.895" y2="55.09" width="0" layer="19" extent="1-1"/>
-<wire x1="27.7" y1="40.64" x2="30.2" y2="45.64" width="0" layer="19" extent="1-1"/>
-=======
-<wire x1="34.925" y1="66.83" x2="-58.42" y2="143.24" width="0" layer="19" extent="1-1"/>
-<wire x1="36.195" y1="66.83" x2="34.925" y2="66.83" width="0" layer="19" extent="1-1"/>
-<wire x1="40.005" y1="66.83" x2="36.195" y2="66.83" width="0" layer="19" extent="1-1"/>
-<wire x1="41.275" y1="66.83" x2="40.005" y2="66.83" width="0" layer="19" extent="1-1"/>
-<wire x1="45.085" y1="66.83" x2="41.275" y2="66.83" width="0" layer="19" extent="1-1"/>
-<wire x1="46.355" y1="66.83" x2="45.085" y2="66.83" width="0" layer="19" extent="1-1"/>
-<wire x1="46.355" y1="57.63" x2="46.355" y2="66.83" width="0" layer="19" extent="1-1"/>
-<wire x1="34.925" y1="57.63" x2="34.925" y2="66.83" width="0" layer="19" extent="1-1"/>
-<wire x1="-19.33" y1="78.66" x2="46.355" y2="57.63" width="0" layer="19" extent="1-1"/>
-<wire x1="-21.83" y1="73.66" x2="-19.33" y2="78.66" width="0" layer="19" extent="1-1"/>
->>>>>>> origin/master
-=======
-=======
->>>>>>> parent of 8fa8d95... Initiated grouping
 <wire x1="-26.035" y1="107.47" x2="-58.42" y2="143.24" width="0" layer="19" extent="1-1"/>
 <wire x1="-24.765" y1="107.47" x2="-26.035" y2="107.47" width="0" layer="19" extent="1-1"/>
 <wire x1="-20.955" y1="107.47" x2="-24.765" y2="107.47" width="0" layer="19" extent="1-1"/>
@@ -3000,10 +2899,6 @@ design rules under a new name.</description>
 <wire x1="-26.035" y1="98.27" x2="-26.035" y2="107.47" width="0" layer="19" extent="1-1"/>
 <wire x1="-19.33" y1="78.66" x2="-14.605" y2="98.27" width="0" layer="19" extent="1-1"/>
 <wire x1="-21.83" y1="73.66" x2="-19.33" y2="78.66" width="0" layer="19" extent="1-1"/>
-<<<<<<< HEAD
->>>>>>> parent of 8fa8d95... Initiated grouping
-=======
->>>>>>> parent of 8fa8d95... Initiated grouping
 </signal>
 <signal name="N$4">
 <contactref element="5238B-7-F" pad="P$2"/>
@@ -3073,45 +2968,15 @@ design rules under a new name.</description>
 <contactref element="SBRIO_CAN" pad="P$7"/>
 <contactref element="ACCUMULATOR_CONN" pad="5"/>
 <contactref element="TUB_CONN" pad="9"/>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<wire x1="49.53" y1="12.7" x2="90.17" y2="8.89" width="0" layer="19" extent="1-1"/>
-<wire x1="-22.225" y1="15.24" x2="49.53" y2="12.7" width="0" layer="19" extent="1-1"/>
-=======
-<wire x1="-54.61" y1="38.1" x2="121.92" y2="81.28" width="0" layer="19" extent="1-1"/>
-<wire x1="-22.225" y1="15.24" x2="-54.61" y2="38.1" width="0" layer="19" extent="1-1"/>
->>>>>>> origin/master
-=======
 <wire x1="-54.61" y1="38.1" x2="-35.56" y2="100.33" width="0" layer="19" extent="1-1"/>
 <wire x1="-22.225" y1="15.24" x2="-54.61" y2="38.1" width="0" layer="19" extent="1-1"/>
->>>>>>> parent of 8fa8d95... Initiated grouping
-=======
-<wire x1="-54.61" y1="38.1" x2="-35.56" y2="100.33" width="0" layer="19" extent="1-1"/>
-<wire x1="-22.225" y1="15.24" x2="-54.61" y2="38.1" width="0" layer="19" extent="1-1"/>
->>>>>>> parent of 8fa8d95... Initiated grouping
 </signal>
 <signal name="CAN_L">
 <contactref element="SBRIO_CAN" pad="P$2"/>
 <contactref element="ACCUMULATOR_CONN" pad="4"/>
 <contactref element="TUB_CONN" pad="8"/>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<wire x1="46.99" y1="15.24" x2="82.55" y2="11.43" width="0" layer="19" extent="1-1"/>
-<wire x1="-23.495" y1="17.78" x2="46.99" y2="15.24" width="0" layer="19" extent="1-1"/>
-=======
-<wire x1="-57.15" y1="40.64" x2="114.3" y2="83.82" width="0" layer="19" extent="1-1"/>
-<wire x1="-23.495" y1="17.78" x2="-57.15" y2="40.64" width="0" layer="19" extent="1-1"/>
->>>>>>> origin/master
-=======
 <wire x1="-57.15" y1="40.64" x2="-43.18" y2="102.87" width="0" layer="19" extent="1-1"/>
 <wire x1="-23.495" y1="17.78" x2="-57.15" y2="40.64" width="0" layer="19" extent="1-1"/>
->>>>>>> parent of 8fa8d95... Initiated grouping
-=======
-<wire x1="-57.15" y1="40.64" x2="-43.18" y2="102.87" width="0" layer="19" extent="1-1"/>
-<wire x1="-23.495" y1="17.78" x2="-57.15" y2="40.64" width="0" layer="19" extent="1-1"/>
->>>>>>> parent of 8fa8d95... Initiated grouping
 </signal>
 <signal name="CAN_GND">
 <contactref element="SBRIO_CAN" pad="P$3"/>
@@ -3122,27 +2987,9 @@ design rules under a new name.</description>
 <contactref element="ACCUMULATOR_CONN" pad="S2"/>
 <contactref element="ACCUMULATOR_CONN" pad="S1"/>
 <contactref element="TUB_CONN" pad="10"/>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<wire x1="85.09" y1="8.89" x2="87.63" y2="11.43" width="0" layer="19" extent="1-1"/>
-<wire x1="49.53" y1="15.24" x2="85.09" y2="8.89" width="0" layer="19" extent="1-1"/>
-<wire x1="-30.988" y1="17.65" x2="49.53" y2="15.24" width="0" layer="19" extent="1-1"/>
-=======
-<wire x1="116.84" y1="81.28" x2="119.38" y2="83.82" width="0" layer="19" extent="1-1"/>
-<wire x1="-54.61" y1="40.64" x2="116.84" y2="81.28" width="0" layer="19" extent="1-1"/>
-<wire x1="-30.988" y1="17.65" x2="-54.61" y2="40.64" width="0" layer="19" extent="1-1"/>
->>>>>>> origin/master
-=======
 <wire x1="-40.64" y1="100.33" x2="-38.1" y2="102.87" width="0" layer="19" extent="1-1"/>
 <wire x1="-54.61" y1="40.64" x2="-40.64" y2="100.33" width="0" layer="19" extent="1-1"/>
 <wire x1="-30.988" y1="17.65" x2="-54.61" y2="40.64" width="0" layer="19" extent="1-1"/>
->>>>>>> parent of 8fa8d95... Initiated grouping
-=======
-<wire x1="-40.64" y1="100.33" x2="-38.1" y2="102.87" width="0" layer="19" extent="1-1"/>
-<wire x1="-54.61" y1="40.64" x2="-40.64" y2="100.33" width="0" layer="19" extent="1-1"/>
-<wire x1="-30.988" y1="17.65" x2="-54.61" y2="40.64" width="0" layer="19" extent="1-1"/>
->>>>>>> parent of 8fa8d95... Initiated grouping
 <wire x1="-27.305" y1="15.24" x2="-30.988" y2="17.65" width="0" layer="19" extent="1-1"/>
 <wire x1="-30.988" y1="5.842" x2="-27.305" y2="15.24" width="0" layer="19" extent="1-1"/>
 <wire x1="-14.732" y1="17.65" x2="-27.305" y2="15.24" width="0" layer="19" extent="1-1"/>
@@ -3152,23 +2999,8 @@ design rules under a new name.</description>
 <contactref element="SBRIO_CAN" pad="P$5"/>
 <contactref element="SBRIO_CAN" pad="P$10"/>
 <contactref element="ACCUMULATOR_CONN" pad="6"/>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<wire x1="87.63" y1="8.89" x2="92.71" y2="11.43" width="0" layer="19" extent="1-1"/>
-<wire x1="-20.955" y1="17.78" x2="87.63" y2="8.89" width="0" layer="19" extent="1-1"/>
-=======
-<wire x1="119.38" y1="81.28" x2="124.46" y2="83.82" width="0" layer="19" extent="1-1"/>
-<wire x1="-20.955" y1="17.78" x2="119.38" y2="81.28" width="0" layer="19" extent="1-1"/>
->>>>>>> origin/master
-=======
 <wire x1="-38.1" y1="100.33" x2="-33.02" y2="102.87" width="0" layer="19" extent="1-1"/>
 <wire x1="-20.955" y1="17.78" x2="-38.1" y2="100.33" width="0" layer="19" extent="1-1"/>
->>>>>>> parent of 8fa8d95... Initiated grouping
-=======
-<wire x1="-38.1" y1="100.33" x2="-33.02" y2="102.87" width="0" layer="19" extent="1-1"/>
-<wire x1="-20.955" y1="17.78" x2="-38.1" y2="100.33" width="0" layer="19" extent="1-1"/>
->>>>>>> parent of 8fa8d95... Initiated grouping
 </signal>
 <signal name="AI2">
 <contactref element="SBRIO_ANALOG" pad="P$8"/>
@@ -3249,53 +3081,17 @@ design rules under a new name.</description>
 <signal name="AMS_OUT">
 <contactref element="IC3" pad="17"/>
 <contactref element="TUB_CONN" pad="6"/>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<wire x1="44.45" y1="15.24" x2="41.275" y2="64.29" width="0" layer="19" extent="1-1"/>
-=======
-<wire x1="-59.69" y1="40.64" x2="38.735" y2="66.83" width="0" layer="19" extent="1-1"/>
->>>>>>> origin/master
-=======
 <wire x1="-59.69" y1="40.64" x2="-22.225" y2="107.47" width="0" layer="19" extent="1-1"/>
->>>>>>> parent of 8fa8d95... Initiated grouping
-=======
-<wire x1="-59.69" y1="40.64" x2="-22.225" y2="107.47" width="0" layer="19" extent="1-1"/>
->>>>>>> parent of 8fa8d95... Initiated grouping
 </signal>
 <signal name="IMD_OUT">
 <contactref element="IC3" pad="14"/>
 <contactref element="TUB_CONN" pad="5"/>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<wire x1="44.45" y1="12.7" x2="45.085" y2="64.29" width="0" layer="19" extent="1-1"/>
-=======
-<wire x1="-59.69" y1="38.1" x2="42.545" y2="66.83" width="0" layer="19" extent="1-1"/>
->>>>>>> origin/master
-=======
 <wire x1="-59.69" y1="38.1" x2="-18.415" y2="107.47" width="0" layer="19" extent="1-1"/>
->>>>>>> parent of 8fa8d95... Initiated grouping
-=======
-<wire x1="-59.69" y1="38.1" x2="-18.415" y2="107.47" width="0" layer="19" extent="1-1"/>
->>>>>>> parent of 8fa8d95... Initiated grouping
 </signal>
 <signal name="BSPD_OUT">
 <contactref element="IC3" pad="13"/>
 <contactref element="TUB_CONN" pad="4"/>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<wire x1="41.91" y1="15.24" x2="46.355" y2="64.29" width="0" layer="19" extent="1-1"/>
-=======
-<wire x1="-62.23" y1="40.64" x2="43.815" y2="66.83" width="0" layer="19" extent="1-1"/>
->>>>>>> origin/master
-=======
 <wire x1="-62.23" y1="40.64" x2="-17.145" y2="107.47" width="0" layer="19" extent="1-1"/>
->>>>>>> parent of 8fa8d95... Initiated grouping
-=======
-<wire x1="-62.23" y1="40.64" x2="-17.145" y2="107.47" width="0" layer="19" extent="1-1"/>
->>>>>>> parent of 8fa8d95... Initiated grouping
 </signal>
 <signal name="DIO23">
 <contactref element="SBRIO_MEZZANINE" pad="171"/>
@@ -3416,36 +3212,12 @@ design rules under a new name.</description>
 <signal name="DIO10">
 <contactref element="SBRIO_MEZZANINE" pad="138"/>
 <contactref element="IC3" pad="9"/>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<wire x1="43.2054" y1="93.5736" x2="47.625" y2="55.09" width="0" layer="19" extent="1-1"/>
-=======
-<wire x1="43.2054" y1="93.5736" x2="45.085" y2="57.63" width="0" layer="19" extent="1-1"/>
->>>>>>> origin/master
-=======
 <wire x1="43.2054" y1="93.5736" x2="-15.875" y2="98.27" width="0" layer="19" extent="1-1"/>
->>>>>>> parent of 8fa8d95... Initiated grouping
-=======
-<wire x1="43.2054" y1="93.5736" x2="-15.875" y2="98.27" width="0" layer="19" extent="1-1"/>
->>>>>>> parent of 8fa8d95... Initiated grouping
 </signal>
 <signal name="DIO11">
 <contactref element="SBRIO_MEZZANINE" pad="126"/>
 <contactref element="IC3" pad="3"/>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<wire x1="40.6654" y1="93.5736" x2="40.005" y2="55.09" width="0" layer="19" extent="1-1"/>
-=======
-<wire x1="40.6654" y1="93.5736" x2="37.465" y2="57.63" width="0" layer="19" extent="1-1"/>
->>>>>>> origin/master
-=======
 <wire x1="40.6654" y1="93.5736" x2="-23.495" y2="98.27" width="0" layer="19" extent="1-1"/>
->>>>>>> parent of 8fa8d95... Initiated grouping
-=======
-<wire x1="40.6654" y1="93.5736" x2="-23.495" y2="98.27" width="0" layer="19" extent="1-1"/>
->>>>>>> parent of 8fa8d95... Initiated grouping
 </signal>
 <signal name="DIO12">
 <contactref element="SBRIO_MEZZANINE" pad="120"/>
@@ -3554,19 +3326,7 @@ design rules under a new name.</description>
 <signal name="BUZZER_OUT">
 <contactref element="IC3" pad="18"/>
 <contactref element="TUB_CONN" pad="7"/>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<wire x1="46.99" y1="12.7" x2="40.005" y2="64.29" width="0" layer="19" extent="1-1"/>
-=======
-<wire x1="-57.15" y1="38.1" x2="37.465" y2="66.83" width="0" layer="19" extent="1-1"/>
->>>>>>> origin/master
-=======
 <wire x1="-57.15" y1="38.1" x2="-23.495" y2="107.47" width="0" layer="19" extent="1-1"/>
->>>>>>> parent of 8fa8d95... Initiated grouping
-=======
-<wire x1="-57.15" y1="38.1" x2="-23.495" y2="107.47" width="0" layer="19" extent="1-1"/>
->>>>>>> parent of 8fa8d95... Initiated grouping
 </signal>
 <signal name="IMD_OK_IN">
 <contactref element="ACCUMULATOR_CONN" pad="8"/>
@@ -3823,36 +3583,12 @@ design rules under a new name.</description>
 <signal name="DIO43">
 <contactref element="IC3" pad="5"/>
 <contactref element="SBRIO_MEZZANINE" pad="125"/>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<wire x1="40.6654" y1="94.8436" x2="42.545" y2="55.09" width="0" layer="19" extent="1-1"/>
-=======
-<wire x1="40.6654" y1="94.8436" x2="40.005" y2="57.63" width="0" layer="19" extent="1-1"/>
->>>>>>> origin/master
-=======
 <wire x1="40.6654" y1="94.8436" x2="-20.955" y2="98.27" width="0" layer="19" extent="1-1"/>
->>>>>>> parent of 8fa8d95... Initiated grouping
-=======
-<wire x1="40.6654" y1="94.8436" x2="-20.955" y2="98.27" width="0" layer="19" extent="1-1"/>
->>>>>>> parent of 8fa8d95... Initiated grouping
 </signal>
 <signal name="DIO42">
 <contactref element="IC3" pad="7"/>
 <contactref element="SBRIO_MEZZANINE" pad="131"/>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<wire x1="41.9354" y1="94.8436" x2="45.085" y2="55.09" width="0" layer="19" extent="1-1"/>
-=======
-<wire x1="41.9354" y1="94.8436" x2="42.545" y2="57.63" width="0" layer="19" extent="1-1"/>
->>>>>>> origin/master
-=======
 <wire x1="41.9354" y1="94.8436" x2="-18.415" y2="98.27" width="0" layer="19" extent="1-1"/>
->>>>>>> parent of 8fa8d95... Initiated grouping
-=======
-<wire x1="41.9354" y1="94.8436" x2="-18.415" y2="98.27" width="0" layer="19" extent="1-1"/>
->>>>>>> parent of 8fa8d95... Initiated grouping
 </signal>
 <signal name="DIO41">
 <contactref element="IC1" pad="5"/>
