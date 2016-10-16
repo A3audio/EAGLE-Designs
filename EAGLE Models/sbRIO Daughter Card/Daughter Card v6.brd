@@ -3447,44 +3447,14 @@ design rules under a new name.</description>
 </signal>
 <signal name="SHUTDOWN_3">
 <contactref element="IC2" pad="13"/>
-<contactref element="F1" pad="1"/>
-<wire x1="-111.125" y1="93.5" x2="-74.51" y2="132.08" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="SHUTDOWN_2">
-<contactref element="IC2" pad="14"/>
-<contactref element="F2" pad="1"/>
-<wire x1="-112.395" y1="93.5" x2="-82.13" y2="132.08" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SHUTDOWN_1">
 <contactref element="IC2" pad="17"/>
-<contactref element="F14" pad="1"/>
-<wire x1="-116.205" y1="93.5" x2="-97.37" y2="132.08" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="THROTTLE_OK_OUT">
 <contactref element="IC2" pad="18"/>
 <contactref element="F6" pad="2"/>
 <wire x1="-117.475" y1="93.5" x2="-88.05" y2="132.08" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$11">
-<contactref element="F1" pad="2"/>
-<contactref element="SHTDWN_CONN" pad="5"/>
-<contactref element="SHTDWN_CONN" pad="6"/>
-<wire x1="-24.33" y1="78.66" x2="-72.81" y2="132.08" width="0" layer="19" extent="1-1"/>
-<wire x1="-26.83" y1="73.66" x2="-24.33" y2="78.66" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$12">
-<contactref element="F2" pad="2"/>
-<contactref element="SHTDWN_CONN" pad="3"/>
-<contactref element="SHTDWN_CONN" pad="4"/>
-<wire x1="-29.33" y1="78.66" x2="-80.43" y2="132.08" width="0" layer="19" extent="1-1"/>
-<wire x1="-31.83" y1="73.66" x2="-29.33" y2="78.66" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$15">
-<contactref element="F14" pad="2"/>
-<contactref element="SHTDWN_CONN" pad="1"/>
-<contactref element="SHTDWN_CONN" pad="2"/>
-<wire x1="-36.83" y1="73.66" x2="-34.33" y2="78.66" width="0" layer="19" extent="1-1"/>
-<wire x1="-95.67" y1="132.08" x2="-34.33" y2="78.66" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DIO95">
 <contactref element="SBRIO_MEZZANINE" pad="97"/>
@@ -3670,8 +3640,10 @@ design rules under a new name.</description>
 <signal name="SBRIO_OK+_1">
 <contactref element="SBRIO_CONN" pad="1"/>
 <contactref element="SBRIO_CONN" pad="2"/>
-<contactref element="SBRIO_U1" pad="C+"/>
-<wire x1="-95.29" y1="63.42" x2="-66.04" y2="124.46" width="0" layer="19" extent="1-1"/>
+<contactref element="IC2" pad="14"/>
+<contactref element="F2" pad="1"/>
+<wire x1="-112.395" y1="93.5" x2="-82.13" y2="132.08" width="0" layer="19" extent="1-1"/>
+<wire x1="-95.29" y1="63.42" x2="-112.395" y2="93.5" width="0" layer="19" extent="1-1"/>
 <wire x1="-97.79" y1="58.42" x2="-95.29" y2="63.42" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$2">
@@ -3758,9 +3730,11 @@ design rules under a new name.</description>
 <contactref element="TSMS_CONN" pad="4"/>
 <contactref element="SBRIO_CONN" pad="7"/>
 <contactref element="SBRIO_CONN" pad="8"/>
-<wire x1="-80.29" y1="63.42" x2="-82.79" y2="58.42" width="0" layer="19" extent="1-1"/>
-<wire x1="-62.31" y1="73.66" x2="-80.29" y2="63.42" width="0" layer="19" extent="1-1"/>
-<wire x1="-59.81" y1="78.66" x2="-62.31" y2="73.66" width="0" layer="19" extent="1-1"/>
+<contactref element="F1" pad="1"/>
+<wire x1="-59.81" y1="78.66" x2="-74.51" y2="132.08" width="0" layer="19" extent="1-1"/>
+<wire x1="-62.31" y1="73.66" x2="-59.81" y2="78.66" width="0" layer="19" extent="1-1"/>
+<wire x1="-80.29" y1="63.42" x2="-62.31" y2="73.66" width="0" layer="19" extent="1-1"/>
+<wire x1="-82.79" y1="58.42" x2="-80.29" y2="63.42" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GLV+">
 <contactref element="PWR_CONN" pad="1"/>
@@ -3795,6 +3769,8 @@ design rules under a new name.</description>
 <contactref element="SBRIO_CONN" pad="3"/>
 <contactref element="SBRIO_CONN" pad="4"/>
 <contactref element="SBRIO_U2" pad="C+"/>
+<contactref element="F14" pad="1"/>
+<wire x1="-97.37" y1="132.08" x2="-86.36" y2="124.46" width="0" layer="19" extent="1-1"/>
 <wire x1="-90.29" y1="63.42" x2="-86.36" y2="124.46" width="0" layer="19" extent="1-1"/>
 <wire x1="-92.79" y1="58.42" x2="-90.29" y2="63.42" width="0" layer="19" extent="1-1"/>
 </signal>
@@ -3818,6 +3794,11 @@ design rules under a new name.</description>
 <contactref element="U$2" pad="P$1"/>
 <wire x1="-84.2" y1="11.37" x2="-66.04" y2="143.24" width="0" layer="19" extent="1-1"/>
 <wire x1="-57.6834" y1="4.1656" x2="-84.2" y2="11.37" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="SBRIO_OK+_1_RELAY_IN">
+<contactref element="F2" pad="2"/>
+<contactref element="SBRIO_U1" pad="C+"/>
+<wire x1="-80.43" y1="132.08" x2="-66.04" y2="124.46" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>
