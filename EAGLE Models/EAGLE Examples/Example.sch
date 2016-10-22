@@ -2364,6 +2364,108 @@ type 0309, grid 2.5 mm</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="TTelectronics">
+<packages>
+<package name="4-PLCC">
+<smd name="1" x="-1.24" y="1.24" dx="3.1" dy="3" layer="1"/>
+<smd name="2" x="2.54" y="2.54" dx="3.1" dy="3" layer="1"/>
+<smd name="3" x="2.54" y="-2.54" dx="3.1" dy="3" layer="1"/>
+<smd name="4" x="-2.54" y="-2.54" dx="3.1" dy="3" layer="1"/>
+<wire x1="-5.08" y1="5.08" x2="5.08" y2="5.08" width="0.127" layer="21"/>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="-5.08" width="0.127" layer="21"/>
+<wire x1="5.08" y1="-5.08" x2="-5.08" y2="-5.08" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="-5.08" x2="-5.08" y2="5.08" width="0.127" layer="21"/>
+<text x="-5.08" y="5.08" size="1.27" layer="25">&gt;NAME</text>
+<text x="-5.08" y="-6.35" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="LED">
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-7.62" x2="5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="5.08" y1="0" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="5.334" y2="4.826" width="0.254" layer="94"/>
+<wire x1="5.334" y1="4.826" x2="6.604" y2="3.556" width="0.254" layer="94"/>
+<wire x1="6.604" y1="3.556" x2="6.35" y2="6.858" width="0.254" layer="94"/>
+<wire x1="6.35" y1="6.858" x2="3.81" y2="6.35" width="0.254" layer="94"/>
+<wire x1="3.81" y1="6.35" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.334" y1="4.826" x2="5.334" y2="5.334" width="0.254" layer="94"/>
+<pin name="A" x="-5.08" y="0" length="short"/>
+<pin name="C" x="7.62" y="0" length="short" rot="R180"/>
+<text x="-2.54" y="7.62" size="1.27" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-10.16" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="OVSA1BBC" prefix="D">
+<gates>
+<gate name="G$1" symbol="LED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="4-PLCC">
+<connects>
+<connect gate="G$1" pin="A" pad="1 2"/>
+<connect gate="G$1" pin="C" pad="3 4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="SparkFun-Aesthetics">
+<description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
+In this library you'll find non-functional items- supply symbols, logos, notations, frame blocks, etc.&lt;br&gt;&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is the end user's responsibility to ensure correctness and suitablity for a given componet or application. If you enjoy using this library, please buy one of our products at www.sparkfun.com.
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; CC v3.0 Share-Alike You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+</packages>
+<symbols>
+<symbol name="DGND">
+<wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
+<text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
+</symbol>
+<symbol name="VCC2">
+<wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
+<text x="-1.016" y="3.556" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="VCC" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="GND" prefix="GND">
+<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<gates>
+<gate name="1" symbol="DGND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="VCC" prefix="SUPPLY">
+<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<gates>
+<gate name="1" symbol="VCC2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -2376,6 +2478,9 @@ type 0309, grid 2.5 mm</description>
 <parts>
 <part name="R1" library="adafruit" deviceset="R-US_" device="M0805" value="5K"/>
 <part name="Q1" library="adafruit" deviceset="MOSFET-N" device="REFLOW"/>
+<part name="D1" library="TTelectronics" deviceset="OVSA1BBC" device=""/>
+<part name="GND1" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="SUPPLY1" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2384,27 +2489,44 @@ type 0309, grid 2.5 mm</description>
 <instances>
 <instance part="R1" gate="G$1" x="5.08" y="7.62"/>
 <instance part="Q1" gate="G$1" x="17.78" y="10.16"/>
+<instance part="D1" gate="G$1" x="20.32" y="-5.08" rot="R270"/>
+<instance part="GND1" gate="1" x="20.32" y="-20.32"/>
+<instance part="SUPPLY1" gate="1" x="20.32" y="20.32"/>
 </instances>
 <busses>
 </busses>
 <nets>
-<net name="N$1" class="0">
+<net name="GATE" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
 <pinref part="Q1" gate="G$1" pin="G"/>
 <wire x1="10.16" y1="7.62" x2="15.24" y2="7.62" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$2" class="0">
-<segment>
-<pinref part="Q1" gate="G$1" pin="D"/>
-<wire x1="20.32" y1="15.24" x2="20.32" y2="20.32" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$3" class="0">
+<net name="DRIN" class="0">
 <segment>
 <pinref part="Q1" gate="G$1" pin="S"/>
 <wire x1="20.32" y1="5.08" x2="20.32" y2="0" width="0.1524" layer="91"/>
+<pinref part="D1" gate="G$1" pin="A"/>
+</segment>
+</net>
+<net name="GND" class="0">
+<segment>
+<pinref part="D1" gate="G$1" pin="C"/>
+<wire x1="20.32" y1="-12.7" x2="20.32" y2="-17.78" width="0.1524" layer="91"/>
+<pinref part="GND1" gate="1" pin="GND"/>
+</segment>
+</net>
+<net name="VCC" class="0">
+<segment>
+<pinref part="R1" gate="G$1" pin="1"/>
+<wire x1="0" y1="7.62" x2="-5.08" y2="7.62" width="0.1524" layer="91"/>
+<label x="-5.08" y="7.62" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="Q1" gate="G$1" pin="D"/>
+<wire x1="20.32" y1="15.24" x2="20.32" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="SUPPLY1" gate="1" pin="VCC"/>
 </segment>
 </net>
 </nets>
