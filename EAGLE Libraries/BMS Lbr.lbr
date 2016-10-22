@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="mil" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -704,35 +704,35 @@
 <symbol name="CD74HC4067">
 <description>High-Speed CMOS Logic
 16-Channel Analog Multiplexer/Demultiplexer</description>
-<wire x1="-10.16" y1="-10.16" x2="-10.16" y2="22.86" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="22.86" x2="10.16" y2="22.86" width="0.254" layer="94"/>
-<wire x1="10.16" y1="22.86" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-10.16" x2="-10.16" y2="-10.16" width="0.254" layer="94"/>
-<pin name="OUT" x="-15.24" y="20.32" length="middle"/>
-<pin name="I7" x="-15.24" y="17.78" length="middle"/>
-<pin name="I6" x="-15.24" y="15.24" length="middle"/>
-<pin name="I5" x="-15.24" y="12.7" length="middle"/>
-<pin name="I4" x="-15.24" y="10.16" length="middle"/>
-<pin name="I3" x="-15.24" y="7.62" length="middle"/>
-<pin name="I2" x="-15.24" y="5.08" length="middle"/>
-<pin name="I1" x="-15.24" y="2.54" length="middle"/>
-<pin name="I0" x="-15.24" y="0" length="middle"/>
-<pin name="S0" x="-15.24" y="-2.54" length="middle"/>
-<pin name="S1" x="-15.24" y="-5.08" length="middle"/>
-<pin name="GND" x="-15.24" y="-7.62" length="middle"/>
-<pin name="S3" x="15.24" y="-7.62" length="middle" rot="R180"/>
-<pin name="S2" x="15.24" y="-5.08" length="middle" rot="R180"/>
-<pin name="EN" x="15.24" y="-2.54" length="middle" rot="R180"/>
-<pin name="I15" x="15.24" y="0" length="middle" rot="R180"/>
-<pin name="I14" x="15.24" y="2.54" length="middle" rot="R180"/>
-<pin name="I13" x="15.24" y="5.08" length="middle" rot="R180"/>
-<pin name="I12" x="15.24" y="7.62" length="middle" rot="R180"/>
-<pin name="I11" x="15.24" y="10.16" length="middle" rot="R180"/>
-<pin name="I10" x="15.24" y="12.7" length="middle" rot="R180"/>
-<pin name="I9" x="15.24" y="15.24" length="middle" rot="R180"/>
-<pin name="I8" x="15.24" y="17.78" length="middle" rot="R180"/>
-<pin name="VCC" x="15.24" y="20.32" length="middle" rot="R180"/>
-<text x="-10.16" y="23.622" size="1.27" layer="94">&gt;NAME</text>
+<wire x1="-10.16" y1="-17.78" x2="-10.16" y2="15.24" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="15.24" x2="10.16" y2="15.24" width="0.254" layer="94"/>
+<wire x1="10.16" y1="15.24" x2="10.16" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-17.78" x2="-10.16" y2="-17.78" width="0.254" layer="94"/>
+<pin name="OUT" x="-15.24" y="12.7" length="middle"/>
+<pin name="I7" x="-15.24" y="10.16" length="middle"/>
+<pin name="I6" x="-15.24" y="7.62" length="middle"/>
+<pin name="I5" x="-15.24" y="5.08" length="middle"/>
+<pin name="I4" x="-15.24" y="2.54" length="middle"/>
+<pin name="I3" x="-15.24" y="0" length="middle"/>
+<pin name="I2" x="-15.24" y="-2.54" length="middle"/>
+<pin name="I1" x="-15.24" y="-5.08" length="middle"/>
+<pin name="I0" x="-15.24" y="-7.62" length="middle"/>
+<pin name="S0" x="-15.24" y="-10.16" length="middle"/>
+<pin name="S1" x="-15.24" y="-12.7" length="middle"/>
+<pin name="GND" x="-15.24" y="-15.24" length="middle"/>
+<pin name="S3" x="15.24" y="-15.24" length="middle" rot="R180"/>
+<pin name="S2" x="15.24" y="-12.7" length="middle" rot="R180"/>
+<pin name="EN" x="15.24" y="-10.16" length="middle" rot="R180"/>
+<pin name="I15" x="15.24" y="-7.62" length="middle" rot="R180"/>
+<pin name="I14" x="15.24" y="-5.08" length="middle" rot="R180"/>
+<pin name="I13" x="15.24" y="-2.54" length="middle" rot="R180"/>
+<pin name="I12" x="15.24" y="0" length="middle" rot="R180"/>
+<pin name="I11" x="15.24" y="2.54" length="middle" rot="R180"/>
+<pin name="I10" x="15.24" y="5.08" length="middle" rot="R180"/>
+<pin name="I9" x="15.24" y="7.62" length="middle" rot="R180"/>
+<pin name="I8" x="15.24" y="10.16" length="middle" rot="R180"/>
+<pin name="VCC" x="15.24" y="12.7" length="middle" rot="R180"/>
+<text x="-10.16" y="16.002" size="1.27" layer="94">&gt;NAME</text>
 </symbol>
 <symbol name="CONN_2-1586037-4_TYCO">
 <pin name="1" x="0" y="0" visible="pad" length="middle" direction="pas"/>
@@ -1396,7 +1396,7 @@
 <description>High-Speed CMOS Logic
 16-Channel Analog Multiplexer/Demultiplexer</description>
 <gates>
-<gate name="G$1" symbol="CD74HC4067" x="0" y="-5.08"/>
+<gate name="G$1" symbol="CD74HC4067" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="24-SOIC">

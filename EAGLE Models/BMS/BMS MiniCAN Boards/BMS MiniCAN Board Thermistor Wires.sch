@@ -16637,31 +16637,38 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <smd name="P$3" x="2.3" y="-2.9" dx="2.15" dy="0.95" layer="1" rot="R90"/>
 <smd name="P$4" x="0" y="2.9" dx="3.25" dy="2.15" layer="1" rot="R180"/>
 </package>
-<package name="16_SOIC">
-<smd name="P$1" x="0" y="0" dx="1.5" dy="0.6" layer="1" rot="R90"/>
-<smd name="P$2" x="1.27" y="0" dx="1.5" dy="0.6" layer="1" rot="R90"/>
-<smd name="P$3" x="2.54" y="0" dx="1.5" dy="0.6" layer="1" rot="R90"/>
-<smd name="P$4" x="3.81" y="0" dx="1.5" dy="0.6" layer="1" rot="R90"/>
-<smd name="P$5" x="5.08" y="0" dx="1.5" dy="0.6" layer="1" rot="R90"/>
-<smd name="P$6" x="6.35" y="0" dx="1.5" dy="0.6" layer="1" rot="R90"/>
-<smd name="P$7" x="7.62" y="0" dx="1.5" dy="0.6" layer="1" rot="R90"/>
-<smd name="P$8" x="8.89" y="0" dx="1.5" dy="0.6" layer="1" rot="R90"/>
-<smd name="P$9" x="8.89" y="5.4" dx="1.5" dy="0.6" layer="1" rot="R90"/>
-<smd name="P$10" x="7.62" y="5.4" dx="1.5" dy="0.6" layer="1" rot="R90"/>
-<smd name="P$11" x="6.35" y="5.4" dx="1.5" dy="0.6" layer="1" rot="R270"/>
-<smd name="P$12" x="5.08" y="5.4" dx="1.5" dy="0.6" layer="1" rot="R270"/>
-<smd name="P$13" x="3.81" y="5.4" dx="1.5" dy="0.6" layer="1" rot="R270"/>
-<smd name="P$14" x="2.54" y="5.4" dx="1.5" dy="0.6" layer="1" rot="R270"/>
-<smd name="P$15" x="1.27" y="5.4" dx="1.5" dy="0.6" layer="1" rot="R270"/>
-<smd name="P$16" x="0" y="5.4" dx="1.5" dy="0.6" layer="1" rot="R270"/>
-<wire x1="0" y1="3.81" x2="0" y2="1.27" width="0.127" layer="1"/>
-<wire x1="0" y1="1.27" x2="8.89" y2="1.27" width="0.127" layer="1"/>
-<wire x1="8.89" y1="1.27" x2="8.89" y2="3.81" width="0.127" layer="1"/>
-<wire x1="8.89" y1="3.81" x2="0" y2="3.81" width="0.127" layer="1"/>
-<circle x="0.635" y="1.905" radius="0.635" width="0.127" layer="1"/>
-<text x="-1.27" y="0" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="-1.27" y="0" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="11.43" y="0" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<package name="24-SOIC">
+<smd name="P$1" x="-6.985" y="-4.7" dx="2" dy="0.6" layer="1" rot="R90"/>
+<smd name="P$2" x="-5.715" y="-4.7" dx="2" dy="0.6" layer="1" rot="R90"/>
+<smd name="P$3" x="-4.445" y="-4.7" dx="2" dy="0.6" layer="1" rot="R90"/>
+<smd name="P$4" x="-3.175" y="-4.7" dx="2" dy="0.6" layer="1" rot="R90"/>
+<smd name="P$5" x="-1.905" y="-4.7" dx="2" dy="0.6" layer="1" rot="R90"/>
+<smd name="P$6" x="-0.635" y="-4.7" dx="2" dy="0.6" layer="1" rot="R90"/>
+<smd name="P$7" x="0.635" y="-4.7" dx="2" dy="0.6" layer="1" rot="R90"/>
+<smd name="P$8" x="1.905" y="-4.7" dx="2" dy="0.6" layer="1" rot="R90"/>
+<smd name="P$9" x="3.175" y="-4.7" dx="2" dy="0.6" layer="1" rot="R90"/>
+<smd name="P$10" x="4.445" y="-4.7" dx="2" dy="0.6" layer="1" rot="R90"/>
+<smd name="P$11" x="5.715" y="-4.7" dx="2" dy="0.6" layer="1" rot="R90"/>
+<smd name="P$12" x="6.985" y="-4.7" dx="2" dy="0.6" layer="1" rot="R90"/>
+<smd name="P$13" x="6.985" y="4.7" dx="2" dy="0.6" layer="1" rot="R90"/>
+<smd name="P$14" x="5.715" y="4.7" dx="2" dy="0.6" layer="1" rot="R90"/>
+<smd name="P$15" x="4.445" y="4.7" dx="2" dy="0.6" layer="1" rot="R90"/>
+<smd name="P$16" x="3.175" y="4.7" dx="2" dy="0.6" layer="1" rot="R90"/>
+<smd name="P$17" x="1.905" y="4.7" dx="2" dy="0.6" layer="1" rot="R90"/>
+<smd name="P$18" x="0.635" y="4.7" dx="2" dy="0.6" layer="1" rot="R90"/>
+<smd name="P$19" x="-0.635" y="4.7" dx="2" dy="0.6" layer="1" rot="R90"/>
+<smd name="P$20" x="-1.905" y="4.7" dx="2" dy="0.6" layer="1" rot="R90"/>
+<smd name="P$21" x="-3.175" y="4.7" dx="2" dy="0.6" layer="1" rot="R90"/>
+<smd name="P$22" x="-4.445" y="4.7" dx="2" dy="0.6" layer="1" rot="R90"/>
+<smd name="P$23" x="-5.715" y="4.7" dx="2" dy="0.6" layer="1" rot="R90"/>
+<smd name="P$24" x="-6.985" y="4.7" dx="2" dy="0.6" layer="1" rot="R90"/>
+<wire x1="-7.8" y1="3.8" x2="-7.8" y2="-3.8" width="0.127" layer="51"/>
+<wire x1="-7.8" y1="-3.8" x2="7.8" y2="-3.8" width="0.127" layer="51"/>
+<wire x1="7.8" y1="-3.8" x2="7.8" y2="3.8" width="0.127" layer="51"/>
+<wire x1="7.8" y1="3.8" x2="-7.8" y2="3.8" width="0.127" layer="51"/>
+<text x="-8.255" y="-3.175" size="1.27" layer="21" rot="R90">&gt;NAME</text>
+<text x="9.525" y="-3.175" size="1.27" layer="21" rot="R90">&gt;VALUE</text>
+<circle x="-5.715" y="-1.905" radius="0.898025" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -16700,29 +16707,38 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <pin name="OUT" x="10.16" y="2.54" length="short" rot="R180"/>
 <pin name="ADJ/GND" x="0" y="-7.62" length="short" rot="R90"/>
 </symbol>
-<symbol name="MCP3008T-I/SL">
-<text x="-2.54" y="12.7" size="1.27" layer="95">&gt;NAME</text>
-<text x="-5.08" y="-15.24" size="1.27" layer="96">&gt;VALUE</text>
-<wire x1="-7.62" y1="10.16" x2="-7.62" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-12.7" x2="7.62" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="10.16" x2="7.62" y2="10.16" width="0.254" layer="94"/>
-<wire x1="7.62" y1="10.16" x2="7.62" y2="-12.7" width="0.254" layer="94"/>
-<pin name="CH0" x="-12.7" y="7.62" length="middle"/>
-<pin name="CH1" x="-12.7" y="5.08" length="middle"/>
-<pin name="CH2" x="-12.7" y="2.54" length="middle"/>
-<pin name="CH3" x="-12.7" y="0" length="middle"/>
-<pin name="CH4" x="-12.7" y="-2.54" length="middle"/>
-<pin name="CH5" x="-12.7" y="-5.08" length="middle"/>
-<pin name="CH6" x="-12.7" y="-7.62" length="middle"/>
-<pin name="CH7" x="-12.7" y="-10.16" length="middle"/>
-<pin name="DGND" x="12.7" y="-10.16" length="middle" rot="R180"/>
-<pin name="CS/SHDN" x="12.7" y="-7.62" length="middle" rot="R180"/>
-<pin name="DIN" x="12.7" y="-5.08" length="middle" rot="R180"/>
-<pin name="DOUT" x="12.7" y="-2.54" length="middle" rot="R180"/>
-<pin name="CLK" x="12.7" y="0" length="middle" rot="R180"/>
-<pin name="AGND" x="12.7" y="2.54" length="middle" rot="R180"/>
-<pin name="VREF" x="12.7" y="5.08" length="middle" rot="R180"/>
-<pin name="VDD" x="12.7" y="7.62" length="middle" rot="R180"/>
+<symbol name="CD74HC4067">
+<description>High-Speed CMOS Logic
+16-Channel Analog Multiplexer/Demultiplexer</description>
+<wire x1="-10.16" y1="-17.78" x2="-10.16" y2="15.24" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="15.24" x2="10.16" y2="15.24" width="0.254" layer="94"/>
+<wire x1="10.16" y1="15.24" x2="10.16" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-17.78" x2="-10.16" y2="-17.78" width="0.254" layer="94"/>
+<pin name="OUT" x="-15.24" y="12.7" length="middle"/>
+<pin name="I7" x="-15.24" y="10.16" length="middle"/>
+<pin name="I6" x="-15.24" y="7.62" length="middle"/>
+<pin name="I5" x="-15.24" y="5.08" length="middle"/>
+<pin name="I4" x="-15.24" y="2.54" length="middle"/>
+<pin name="I3" x="-15.24" y="0" length="middle"/>
+<pin name="I2" x="-15.24" y="-2.54" length="middle"/>
+<pin name="I1" x="-15.24" y="-5.08" length="middle"/>
+<pin name="I0" x="-15.24" y="-7.62" length="middle"/>
+<pin name="S0" x="-15.24" y="-10.16" length="middle"/>
+<pin name="S1" x="-15.24" y="-12.7" length="middle"/>
+<pin name="GND" x="-15.24" y="-15.24" length="middle"/>
+<pin name="S3" x="15.24" y="-15.24" length="middle" rot="R180"/>
+<pin name="S2" x="15.24" y="-12.7" length="middle" rot="R180"/>
+<pin name="EN" x="15.24" y="-10.16" length="middle" rot="R180"/>
+<pin name="I15" x="15.24" y="-7.62" length="middle" rot="R180"/>
+<pin name="I14" x="15.24" y="-5.08" length="middle" rot="R180"/>
+<pin name="I13" x="15.24" y="-2.54" length="middle" rot="R180"/>
+<pin name="I12" x="15.24" y="0" length="middle" rot="R180"/>
+<pin name="I11" x="15.24" y="2.54" length="middle" rot="R180"/>
+<pin name="I10" x="15.24" y="5.08" length="middle" rot="R180"/>
+<pin name="I9" x="15.24" y="7.62" length="middle" rot="R180"/>
+<pin name="I8" x="15.24" y="10.16" length="middle" rot="R180"/>
+<pin name="VCC" x="15.24" y="12.7" length="middle" rot="R180"/>
+<text x="-10.16" y="16.002" size="1.27" layer="94">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -16860,29 +16876,39 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 </device>
 </devices>
 </deviceset>
-<deviceset name="MCP3008T-I/SL">
+<deviceset name="CD74HC4067">
+<description>High-Speed CMOS Logic
+16-Channel Analog Multiplexer/Demultiplexer</description>
 <gates>
-<gate name="G$1" symbol="MCP3008T-I/SL" x="0" y="2.54"/>
+<gate name="G$1" symbol="CD74HC4067" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="16_SOIC">
+<device name="" package="24-SOIC">
 <connects>
-<connect gate="G$1" pin="AGND" pad="P$14"/>
-<connect gate="G$1" pin="CH0" pad="P$1"/>
-<connect gate="G$1" pin="CH1" pad="P$2"/>
-<connect gate="G$1" pin="CH2" pad="P$3"/>
-<connect gate="G$1" pin="CH3" pad="P$4"/>
-<connect gate="G$1" pin="CH4" pad="P$5"/>
-<connect gate="G$1" pin="CH5" pad="P$6"/>
-<connect gate="G$1" pin="CH6" pad="P$7"/>
-<connect gate="G$1" pin="CH7" pad="P$8"/>
-<connect gate="G$1" pin="CLK" pad="P$13"/>
-<connect gate="G$1" pin="CS/SHDN" pad="P$10"/>
-<connect gate="G$1" pin="DGND" pad="P$9"/>
-<connect gate="G$1" pin="DIN" pad="P$11"/>
-<connect gate="G$1" pin="DOUT" pad="P$12"/>
-<connect gate="G$1" pin="VDD" pad="P$16"/>
-<connect gate="G$1" pin="VREF" pad="P$15"/>
+<connect gate="G$1" pin="EN" pad="P$15"/>
+<connect gate="G$1" pin="GND" pad="P$12"/>
+<connect gate="G$1" pin="I0" pad="P$9"/>
+<connect gate="G$1" pin="I1" pad="P$8"/>
+<connect gate="G$1" pin="I10" pad="P$21"/>
+<connect gate="G$1" pin="I11" pad="P$20"/>
+<connect gate="G$1" pin="I12" pad="P$19"/>
+<connect gate="G$1" pin="I13" pad="P$18"/>
+<connect gate="G$1" pin="I14" pad="P$17"/>
+<connect gate="G$1" pin="I15" pad="P$16"/>
+<connect gate="G$1" pin="I2" pad="P$7"/>
+<connect gate="G$1" pin="I3" pad="P$6"/>
+<connect gate="G$1" pin="I4" pad="P$5"/>
+<connect gate="G$1" pin="I5" pad="P$4"/>
+<connect gate="G$1" pin="I6" pad="P$3"/>
+<connect gate="G$1" pin="I7" pad="P$2"/>
+<connect gate="G$1" pin="I8" pad="P$23"/>
+<connect gate="G$1" pin="I9" pad="P$22"/>
+<connect gate="G$1" pin="OUT" pad="P$1"/>
+<connect gate="G$1" pin="S0" pad="P$10"/>
+<connect gate="G$1" pin="S1" pad="P$11"/>
+<connect gate="G$1" pin="S2" pad="P$14"/>
+<connect gate="G$1" pin="S3" pad="P$13"/>
+<connect gate="G$1" pin="VCC" pad="P$24"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -16974,7 +17000,7 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
 <part name="U$1" library="BMS Lbr" deviceset="LM117MPX-5.0" device=""/>
 <part name="C3" library="resistor" deviceset="C-US" device="C0805" value="10uF"/>
-<part name="U$4" library="BMS Lbr" deviceset="MCP3008T-I/SL" device=""/>
+<part name="U$4" library="BMS Lbr" deviceset="CD74HC4067" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -17136,7 +17162,7 @@ Revised By Daniel Baron</text>
 <instance part="GND13" gate="1" x="63.5" y="121.92" rot="R270"/>
 <instance part="U$1" gate="G$1" x="231.14" y="177.8"/>
 <instance part="C3" gate="G$1" x="248.92" y="177.8"/>
-<instance part="U$4" gate="G$1" x="27.94" y="119.38"/>
+<instance part="U$4" gate="G$1" x="0" y="116.84"/>
 </instances>
 <busses>
 </busses>
