@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -484,6 +484,38 @@
 <text x="-49.149" y="-0.635" size="1.27" layer="51" ratio="6" rot="SR0">13</text>
 <text x="0.762" y="-6.1468" size="1.27" layer="51" ratio="6" rot="SR0">12</text>
 <text x="0.762" y="-0.635" size="1.27" layer="51" ratio="6" rot="SR0">24</text>
+</package>
+<package name="1586041-6">
+<wire x1="-6.858" y1="6.477" x2="6.858" y2="6.477" width="0.127" layer="21"/>
+<wire x1="6.858" y1="6.477" x2="6.858" y2="-6.477" width="0.127" layer="21"/>
+<wire x1="6.858" y1="-6.477" x2="-6.858" y2="-6.477" width="0.127" layer="21"/>
+<wire x1="-6.858" y1="-6.477" x2="-6.858" y2="6.477" width="0.127" layer="21"/>
+<pad name="3" x="4.191" y="2.7559" drill="1.8034" shape="square"/>
+<pad name="2" x="0" y="2.7559" drill="1.8034" shape="square"/>
+<pad name="1" x="-4.191" y="2.7559" drill="1.8034" shape="square"/>
+<pad name="4" x="-4.191" y="-2.7559" drill="1.8034" shape="square"/>
+<pad name="5" x="0" y="-2.7559" drill="1.8034" shape="square"/>
+<pad name="6" x="4.191" y="-2.7559" drill="1.8034" shape="square"/>
+<text x="-7.0358" y="5.3848" size="1.27" layer="25">&gt;NAME
+</text>
+<text x="-0.2286" y="7.4168" size="1.27" layer="25">&gt;VALUE</text>
+</package>
+<package name="1586042-8">
+<wire x1="-9.017" y1="6.477" x2="9.017" y2="6.477" width="0.127" layer="21"/>
+<text x="-7.0358" y="5.3848" size="1.27" layer="25">&gt;NAME
+</text>
+<text x="-0.2286" y="7.4168" size="1.27" layer="25">&gt;VALUE</text>
+<wire x1="9.017" y1="6.477" x2="9.017" y2="-6.477" width="0.127" layer="21"/>
+<wire x1="9.017" y1="-6.477" x2="-9.017" y2="-6.477" width="0.127" layer="21"/>
+<wire x1="-9.017" y1="-6.477" x2="-9.017" y2="6.477" width="0.127" layer="21"/>
+<pad name="1" x="-6.2865" y="2.7559" drill="1.8034" shape="square"/>
+<pad name="2" x="-2.0955" y="2.7559" drill="1.8034" shape="square"/>
+<pad name="3" x="2.0955" y="2.7559" drill="1.8034" shape="square"/>
+<pad name="4" x="6.2865" y="2.7559" drill="1.8034" shape="square"/>
+<pad name="5" x="-6.2865" y="-2.7559" drill="1.8034" shape="square"/>
+<pad name="6" x="-2.0955" y="-2.7559" drill="1.8034" shape="square"/>
+<pad name="7" x="2.0955" y="-2.7559" drill="1.8034" shape="square"/>
+<pad name="8" x="6.2865" y="-2.7559" drill="1.8034" shape="square"/>
 </package>
 </packages>
 <symbols>
@@ -973,6 +1005,78 @@
 <wire x1="12.7" y1="2.54" x2="5.08" y2="2.54" width="0.1524" layer="94"/>
 <text x="4.1656" y="5.3086" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
 <text x="4.8006" y="-31.5214" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;Value</text>
+</symbol>
+<symbol name="1586041-6">
+<pin name="1" x="-5.08" y="25.4" visible="pad" length="middle" direction="pas"/>
+<pin name="2" x="-5.08" y="22.86" visible="pad" length="middle" direction="pas"/>
+<pin name="3" x="-5.08" y="20.32" visible="pad" length="middle" direction="pas"/>
+<pin name="4" x="-5.08" y="17.78" visible="pad" length="middle" direction="pas"/>
+<pin name="5" x="-5.08" y="15.24" visible="pad" length="middle" direction="pas"/>
+<pin name="6" x="-5.08" y="12.7" visible="pad" length="middle" direction="pas"/>
+<wire x1="5.08" y1="25.4" x2="0" y2="25.4" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="22.86" x2="0" y2="22.86" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="20.32" x2="0" y2="20.32" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="17.78" x2="0" y2="17.78" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="15.24" x2="0" y2="15.24" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="12.7" x2="0" y2="12.7" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="10.16" x2="0" y2="10.16" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="25.4" x2="3.81" y2="26.2382" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="22.86" x2="3.81" y2="23.6982" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="20.32" x2="3.81" y2="21.1582" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="17.78" x2="3.81" y2="18.6182" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="15.24" x2="3.81" y2="16.0782" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="12.7" x2="3.81" y2="13.5382" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="25.4" x2="3.81" y2="24.5618" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="22.86" x2="3.81" y2="22.0218" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="20.32" x2="3.81" y2="19.4818" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="17.78" x2="3.81" y2="16.9418" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="15.24" x2="3.81" y2="14.4018" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="12.7" x2="3.81" y2="11.8618" width="0.1524" layer="94"/>
+<wire x1="0" y1="27.94" x2="0" y2="10.16" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="10.16" x2="7.62" y2="27.94" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="27.94" x2="0" y2="27.94" width="0.1524" layer="94"/>
+<text x="-0.9144" y="30.7086" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
+<text x="-0.2794" y="6.5786" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;Value</text>
+</symbol>
+<symbol name="1586042-8">
+<pin name="1" x="-7.62" y="20.32" visible="pad" length="middle" direction="pas"/>
+<pin name="2" x="-7.62" y="17.78" visible="pad" length="middle" direction="pas"/>
+<pin name="3" x="-7.62" y="15.24" visible="pad" length="middle" direction="pas"/>
+<pin name="4" x="-7.62" y="12.7" visible="pad" length="middle" direction="pas"/>
+<pin name="5" x="-7.62" y="10.16" visible="pad" length="middle" direction="pas"/>
+<pin name="6" x="-7.62" y="7.62" visible="pad" length="middle" direction="pas"/>
+<pin name="7" x="-7.62" y="5.08" visible="pad" length="middle" direction="pas"/>
+<pin name="8" x="-7.62" y="2.54" visible="pad" length="middle" direction="pas"/>
+<wire x1="2.54" y1="20.32" x2="-2.54" y2="20.32" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="17.78" x2="-2.54" y2="17.78" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="15.24" x2="-2.54" y2="15.24" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="12.7" x2="-2.54" y2="12.7" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="10.16" x2="-2.54" y2="10.16" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="7.62" x2="-2.54" y2="7.62" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="5.08" x2="-2.54" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="-2.54" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="0" x2="-2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="20.32" x2="1.27" y2="21.1582" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="17.78" x2="1.27" y2="18.6182" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="15.24" x2="1.27" y2="16.0782" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="12.7" x2="1.27" y2="13.5382" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="10.16" x2="1.27" y2="10.9982" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="7.62" x2="1.27" y2="8.4582" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="5.08" x2="1.27" y2="5.9182" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="1.27" y2="3.3782" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="20.32" x2="1.27" y2="19.4818" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="17.78" x2="1.27" y2="16.9418" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="15.24" x2="1.27" y2="14.4018" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="12.7" x2="1.27" y2="11.8618" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="10.16" x2="1.27" y2="9.3218" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="7.62" x2="1.27" y2="6.7818" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="5.08" x2="1.27" y2="4.2418" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="1.27" y2="1.7018" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="22.86" x2="-2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="0" x2="5.08" y2="22.86" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="22.86" x2="-2.54" y2="22.86" width="0.1524" layer="94"/>
+<text x="-3.4544" y="25.6286" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
+<text x="-2.8194" y="-3.5814" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;Value</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -1479,7 +1583,57 @@
 </device>
 </devices>
 </deviceset>
+<deviceset name="1586041-6">
+<description>TE VAL-U-LOK TPA 6 Pin Header</description>
+<gates>
+<gate name="G$1" symbol="1586041-6" x="0" y="-17.78"/>
+</gates>
+<devices>
+<device name="" package="1586041-6">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1586042-8">
+<description>1586042-8 8 pin Val-U-Lock TPA</description>
+<gates>
+<gate name="G$1" symbol="1586042-8" x="2.54" y="-12.7"/>
+</gates>
+<devices>
+<device name="" package="1586042-8">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>
