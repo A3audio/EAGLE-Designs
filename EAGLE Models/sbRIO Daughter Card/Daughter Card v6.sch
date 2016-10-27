@@ -8557,7 +8557,6 @@ RJ45 Jack connectors&lt;br&gt;
 <part name="SBRIO_MEZZANINE" library="SEAM-40-XX.X-XX-06-X-A" deviceset="SBRIO_RMC" device=""/>
 <part name="5V_REG" library="formula electric" deviceset="V78XX-1500" device=""/>
 <part name="5238B-7-F" library="formula electric" deviceset="MMBZ5238B-7-F" device=""/>
-<part name="SHTDWN_CONN" library="formula electric" deviceset="CONN_5" device=""/>
 <part name="R36" library="resistor" deviceset="R-US_" device="R0402" value="4.7k"/>
 <part name="3.3V_REG" library="formula electric" deviceset="V7803-1000" device=""/>
 <part name="C10" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="10uF"/>
@@ -8760,7 +8759,6 @@ for Latched Components</text>
 <instance part="SBRIO_MEZZANINE" gate="G$1" x="60.96" y="-93.98"/>
 <instance part="5V_REG" gate="G$1" x="30.48" y="93.98" rot="R270"/>
 <instance part="5238B-7-F" gate="G$1" x="5.08" y="7.62" rot="R90"/>
-<instance part="SHTDWN_CONN" gate="G$1" x="411.48" y="43.18" rot="R180"/>
 <instance part="R36" gate="G$1" x="294.64" y="0" rot="R180"/>
 <instance part="3.3V_REG" gate="G$1" x="81.28" y="96.52"/>
 <instance part="C10" gate="G$1" x="63.5" y="91.44"/>
@@ -8835,7 +8833,7 @@ for Latched Components</text>
 <instance part="IC3" gate="G$2" x="271.78" y="-55.88"/>
 <instance part="F1" gate="G$1" x="396.24" y="43.18"/>
 <instance part="F2" gate="G$1" x="637.54" y="27.94"/>
-<instance part="F14" gate="G$1" x="396.24" y="33.02"/>
+<instance part="F14" gate="G$1" x="637.54" y="0"/>
 <instance part="IC2" gate="G$1" x="309.88" y="-124.46" rot="R270"/>
 <instance part="12VIN" gate="-1" x="284.48" y="-45.72" rot="R90"/>
 <instance part="12VIN" gate="-2" x="289.56" y="-45.72" rot="R90"/>
@@ -9035,11 +9033,6 @@ for Latched Components</text>
 <pinref part="IC3" gate="G$1" pin="GND3/4"/>
 <pinref part="IC3" gate="G$1" pin="GND1/2"/>
 <label x="335.28" y="-88.9" size="1.778" layer="95" rot="R90" xref="yes"/>
-</segment>
-<segment>
-<wire x1="406.4" y1="53.34" x2="378.46" y2="53.34" width="0.1524" layer="91"/>
-<label x="378.46" y="53.34" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="SHTDWN_CONN" gate="G$1" pin="5"/>
 </segment>
 <segment>
 <pinref part="SBRIO_MEZZANINE" gate="G$1" pin="GND"/>
@@ -9317,11 +9310,6 @@ for Latched Components</text>
 <junction x="347.98" y="-60.96"/>
 <junction x="347.98" y="-63.5"/>
 <junction x="347.98" y="-66.04"/>
-</segment>
-<segment>
-<wire x1="406.4" y1="48.26" x2="378.46" y2="48.26" width="0.1524" layer="91"/>
-<label x="378.46" y="48.26" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="SHTDWN_CONN" gate="G$1" pin="4"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -11112,14 +11100,9 @@ for Latched Components</text>
 <label x="543.56" y="-68.58" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="SBRIO_U2" gate="G$1" pin="C+"/>
-<wire x1="642.62" y1="-5.08" x2="637.54" y2="-5.08" width="0.1524" layer="91"/>
-<label x="637.54" y="-5.08" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<wire x1="378.46" y1="33.02" x2="391.16" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="624.84" y1="0" x2="632.46" y2="0" width="0.1524" layer="91"/>
 <pinref part="F14" gate="G$1" pin="1"/>
-<label x="378.46" y="33.02" size="1.778" layer="95" rot="R180" xref="yes"/>
+<label x="624.84" y="0" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="INTER_OK+" class="0">
@@ -11168,6 +11151,13 @@ for Latched Components</text>
 <pinref part="F2" gate="G$1" pin="2"/>
 <pinref part="SBRIO_U1" gate="G$1" pin="C+"/>
 <wire x1="642.62" y1="27.94" x2="642.62" y2="20.32" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="SBRIO_OK_2_RELAY" class="0">
+<segment>
+<pinref part="F14" gate="G$1" pin="2"/>
+<pinref part="SBRIO_U2" gate="G$1" pin="C+"/>
+<wire x1="642.62" y1="0" x2="642.62" y2="-5.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
