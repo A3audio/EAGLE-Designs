@@ -8634,7 +8634,6 @@ RJ45 Jack connectors&lt;br&gt;
 <part name="R25" library="resistor" deviceset="R-US_" device="R0402" value="10k"/>
 <part name="R26" library="resistor" deviceset="R-US_" device="R0402" value="10k"/>
 <part name="U1" library="adafruit" deviceset="TXS0102" device=""/>
-<part name="SBRIO_CONN" library="formula electric" deviceset="CONN_5" device=""/>
 <part name="PWR_CONN" library="formula electric" deviceset="CONN_2" device=""/>
 <part name="SAFETY_CONN" library="formula electric" deviceset="CONN_5" device=""/>
 <part name="LATCH_CONN" library="formula electric" deviceset="CONN_5" device=""/>
@@ -8873,7 +8872,6 @@ for Latched Components</text>
 <instance part="R25" gate="G$1" x="-96.52" y="-27.94" rot="R180"/>
 <instance part="R26" gate="G$1" x="-86.36" y="-27.94"/>
 <instance part="U1" gate="G$1" x="294.64" y="30.48"/>
-<instance part="SBRIO_CONN" gate="G$1" x="530.86" y="-73.66"/>
 <instance part="PWR_CONN" gate="G$1" x="530.86" y="-48.26"/>
 <instance part="SAFETY_CONN" gate="G$1" x="530.86" y="-106.68"/>
 <instance part="LATCH_CONN" gate="G$1" x="530.86" y="-137.16"/>
@@ -10884,11 +10882,6 @@ for Latched Components</text>
 </net>
 <net name="SBRIO_OK+_1" class="0">
 <segment>
-<pinref part="SBRIO_CONN" gate="G$1" pin="1"/>
-<wire x1="535.94" y1="-63.5" x2="543.56" y2="-63.5" width="0.1524" layer="91"/>
-<label x="543.56" y="-63.5" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
 <wire x1="307.34" y1="-137.16" x2="307.34" y2="-142.24" width="0.1524" layer="91"/>
 <label x="307.34" y="-142.24" size="1.778" layer="95" rot="R270" xref="yes"/>
 <pinref part="IC2" gate="G$1" pin="OUT3"/>
@@ -11008,11 +11001,6 @@ for Latched Components</text>
 <label x="543.56" y="-116.84" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="SBRIO_CONN" gate="G$1" pin="3"/>
-<wire x1="543.56" y1="-73.66" x2="535.94" y2="-73.66" width="0.1524" layer="91"/>
-<label x="543.56" y="-73.66" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="U$8" gate="G$1" pin="C"/>
 <wire x1="713.74" y1="-144.78" x2="713.74" y2="-124.46" width="0.1524" layer="91"/>
 <label x="713.74" y="-144.78" size="1.778" layer="95" rot="R270" xref="yes"/>
@@ -11024,11 +11012,6 @@ for Latched Components</text>
 <wire x1="541.02" y1="-27.94" x2="535.94" y2="-27.94" width="0.1524" layer="91"/>
 <label x="541.02" y="-27.94" size="1.778" layer="95" xref="yes"/>
 </segment>
-<segment>
-<pinref part="SBRIO_CONN" gate="G$1" pin="5"/>
-<wire x1="543.56" y1="-83.82" x2="535.94" y2="-83.82" width="0.1524" layer="91"/>
-<label x="543.56" y="-83.82" size="1.778" layer="95" xref="yes"/>
-</segment>
 </net>
 <net name="PRECHARGE_DONE+" class="0">
 <segment>
@@ -11037,7 +11020,6 @@ for Latched Components</text>
 <label x="541.02" y="-33.02" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="SBRIO_CONN" gate="G$1" pin="4"/>
 <wire x1="543.56" y1="-78.74" x2="535.94" y2="-78.74" width="0.1524" layer="91"/>
 <label x="543.56" y="-78.74" size="1.778" layer="95" xref="yes"/>
 </segment>
@@ -11094,11 +11076,6 @@ for Latched Components</text>
 </segment>
 </net>
 <net name="SBRIO_OK+_2" class="0">
-<segment>
-<pinref part="SBRIO_CONN" gate="G$1" pin="2"/>
-<wire x1="535.94" y1="-68.58" x2="543.56" y2="-68.58" width="0.1524" layer="91"/>
-<label x="543.56" y="-68.58" size="1.778" layer="95" xref="yes"/>
-</segment>
 <segment>
 <wire x1="624.84" y1="0" x2="632.46" y2="0" width="0.1524" layer="91"/>
 <pinref part="F14" gate="G$1" pin="1"/>

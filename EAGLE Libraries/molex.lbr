@@ -3979,6 +3979,7 @@ at 14/06/2012 11:09:42</description>
 <pad name="4" x="-2.10058125" y="2.7559" drill="0.8" diameter="1.8034"/>
 </package>
 <package name="TRIAL">
+<description>3 hole 2 pin power input</description>
 <hole x="0" y="-7.62" drill="0.6"/>
 <pad name="P$1" x="0" y="0" drill="1.4224" diameter="1.524"/>
 <pad name="P$2" x="0" y="5.08" drill="1.4224" diameter="1.524" shape="square"/>
@@ -3986,6 +3987,9 @@ at 14/06/2012 11:09:42</description>
 <wire x1="3.81" y1="6.35" x2="3.81" y2="-10.16" width="0.127" layer="21"/>
 <wire x1="3.81" y1="-10.16" x2="-3.81" y2="-10.16" width="0.127" layer="21"/>
 <wire x1="-3.81" y1="-10.16" x2="-3.81" y2="6.35" width="0.127" layer="21"/>
+<dimension x1="3.81" y1="-10.16" x2="3.81" y2="0" x3="10.16" y3="-5.08" textsize="1.27" layer="21" dtype="diameter"/>
+<dimension x1="-3.81" y1="-10.16" x2="-3.81" y2="6.35" x3="-11.43" y3="-1.905" textsize="1.27" layer="21"/>
+<dimension x1="-3.81" y1="6.35" x2="-3.81" y2="0" x3="-6.35" y3="3.175" textsize="1.27" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -9760,7 +9764,7 @@ at 14/06/2012 11:09:42</description>
 <gates>
 </gates>
 <devices>
-<device name="">
+<device name="GO" package="TRIAL">
 <technologies>
 <technology name=""/>
 </technologies>
