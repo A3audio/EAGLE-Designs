@@ -227,6 +227,35 @@ at 14/06/2012 11:09:42</description>
 </package>
 </packages>
 </library>
+<library name="relay">
+<description>&lt;b&gt;Relays&lt;/b&gt;&lt;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Eichhoff
+&lt;li&gt;Finder
+&lt;li&gt;Fujitsu
+&lt;li&gt;HAMLIN
+&lt;li&gt;OMRON
+&lt;li&gt;Matsushita
+&lt;li&gt;NAiS
+&lt;li&gt;Siemens
+&lt;li&gt;Schrack
+&lt;/ul&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="VCF4-1000">
+<pad name="NC" x="0.4064" y="0" drill="2.3368" shape="square"/>
+<pad name="COIL2" x="0" y="8.4455" drill="2.3368" shape="square" rot="R90"/>
+<pad name="COM" x="9.4996" y="0" drill="2.3368" shape="square"/>
+<pad name="COIL1" x="0" y="-8.4455" drill="2.3368" shape="square"/>
+<pad name="NO" x="-8.4074" y="0" drill="2.3368" shape="square" rot="R90"/>
+<text x="13.97" y="-1.27" size="1.27" layer="25" rot="R90">COM</text>
+<text x="-1.27" y="-1.27" size="1.27" layer="25" rot="R90">NC</text>
+<text x="-10.16" y="-1.27" size="1.27" layer="25" rot="R90">NO</text>
+<text x="3.81" y="-10.16" size="1.27" layer="25" rot="R90">Coil1</text>
+<text x="3.81" y="6.35" size="1.27" layer="25" rot="R90">Coil2</text>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -426,7 +455,6 @@ design rules under a new name.</description>
 <element name="U$3" library="panasonic" package="ACTP112" value="ACTP112ACTP112" x="-27.94" y="19.05"/>
 <element name="U$4" library="panasonic" package="ACTP112" value="ACTP112ACTP112" x="-53.34" y="19.05"/>
 <element name="U$5" library="panasonic" package="ACTP112" value="ACTP112ACTP112" x="-27.94" y="30.48"/>
-<element name="U$6" library="panasonic" package="ACTP112" value="ACTP112ACTP112" x="-53.34" y="30.48"/>
 <element name="U$7" library="panasonic" package="ACTP112" value="ACTP112ACTP112" x="-27.94" y="41.91"/>
 <element name="U$8" library="molex" package="15-97-7084" value="15-97-7084" x="-52.07" y="66.04"/>
 <element name="U$9" library="molex" package="15-97-8043" value="15-97-8043" x="-60.96" y="66.04"/>
@@ -434,7 +462,8 @@ design rules under a new name.</description>
 <element name="U$11" library="diodes-inc" package="SOT23-3" value="MMBD4448H-7-F" x="-69.85" y="-20.32"/>
 <element name="U$12" library="diodes-inc" package="SOT23-3" value="MMBD4448H-7-F" x="-69.85" y="-27.94"/>
 <element name="U$13" library="diodes-inc" package="SOT23-3" value="MMBD4448H-7-F" x="-69.85" y="-35.56"/>
-<element name="U$14" library="diodes-inc" package="SOT23-3" value="MMBD4448H-7-F" x="-69.85" y="-43.18"/>
+<element name="F1" library="Keystone" package="3568" value="3568" x="-55.88" y="-60.96"/>
+<element name="U$15" library="relay" package="VCF4-1000" value="VCF4-1000" x="-46.99" y="-100.33"/>
 </elements>
 <signals>
 <signal name="N$3">
@@ -536,25 +565,25 @@ design rules under a new name.</description>
 <contactref element="U$8" pad="6"/>
 <contactref element="U$8" pad="5"/>
 <contactref element="U$7" pad="COIL2"/>
-<contactref element="U$14" pad="1"/>
-<wire x1="-24.9555" y1="4.8641" x2="-70.8" y2="-44.28" width="0" layer="19" extent="1-1"/>
-<wire x1="-20.7645" y1="4.8641" x2="-24.9555" y2="4.8641" width="0" layer="19" extent="1-1"/>
-<wire x1="-16.5735" y1="4.8641" x2="-20.7645" y2="4.8641" width="0" layer="19" extent="1-1"/>
-<wire x1="-22.987" y1="42.5704" x2="-24.9555" y2="4.8641" width="0" layer="19" extent="1-1"/>
-<wire x1="-45.7835" y1="68.7959" x2="-22.987" y2="42.5704" width="0" layer="19" extent="1-1"/>
 <wire x1="-49.9745" y1="68.7959" x2="-45.7835" y2="68.7959" width="0" layer="19" extent="1-1"/>
 <wire x1="-54.1655" y1="68.7959" x2="-49.9745" y2="68.7959" width="0" layer="19" extent="1-1"/>
+<wire x1="-22.987" y1="42.5704" x2="-45.7835" y2="68.7959" width="0" layer="19" extent="1-1"/>
+<wire x1="-24.9555" y1="4.8641" x2="-22.987" y2="42.5704" width="0" layer="19" extent="1-1"/>
+<wire x1="-20.7645" y1="4.8641" x2="-24.9555" y2="4.8641" width="0" layer="19" extent="1-1"/>
+<wire x1="-16.5735" y1="4.8641" x2="-20.7645" y2="4.8641" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="BAT_+12">
 <contactref element="U$9" pad="2"/>
 <contactref element="U$9" pad="1"/>
-<contactref element="U$1" pad="1"/>
-<contactref element="U$6" pad="COM"/>
 <contactref element="U$7" pad="NO"/>
-<wire x1="-62.8396" y1="31.1404" x2="-46.101" y2="10.3759" width="0" layer="19" extent="1-1"/>
-<wire x1="-63.06058125" y1="63.2841" x2="-62.8396" y2="31.1404" width="0" layer="19" extent="1-1"/>
-<wire x1="-58.85941875" y1="63.2841" x2="-63.06058125" y2="63.2841" width="0" layer="19" extent="1-1"/>
-<wire x1="-31.4452" y1="45.72" x2="-58.85941875" y2="63.2841" width="0" layer="19" extent="1-1"/>
+<contactref element="F1" pad="1"/>
+<contactref element="F1" pad="2"/>
+<contactref element="U$15" pad="COM"/>
+<wire x1="-60.833" y1="-62.6618" x2="-37.4904" y2="-100.33" width="0" layer="19" extent="1-1"/>
+<wire x1="-60.833" y1="-59.2582" x2="-60.833" y2="-62.6618" width="0" layer="19" extent="1-1"/>
+<wire x1="-31.4452" y1="45.72" x2="-60.833" y2="-59.2582" width="0" layer="19" extent="1-1"/>
+<wire x1="-58.85941875" y1="63.2841" x2="-31.4452" y2="45.72" width="0" layer="19" extent="1-1"/>
+<wire x1="-63.06058125" y1="63.2841" x2="-58.85941875" y2="63.2841" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="BAT_GND">
 <contactref element="U$9" pad="4"/>
@@ -562,16 +591,14 @@ design rules under a new name.</description>
 <wire x1="-63.06058125" y1="68.7959" x2="-58.85941875" y2="68.7959" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CHARGE_CUT_IN">
-<contactref element="U$6" pad="COIL2"/>
 <contactref element="U$7" pad="COIL1"/>
-<wire x1="-48.387" y1="31.1404" x2="-22.987" y2="47.4218" width="0" layer="19" extent="1-1"/>
+<contactref element="U$15" pad="COIL2"/>
+<wire x1="-22.987" y1="47.4218" x2="-46.99" y2="-91.8845" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="MAIN_RELAY_IN">
 <contactref element="U$10" pad="3"/>
-<contactref element="U$6" pad="COIL1"/>
-<contactref element="U$14" pad="3"/>
-<wire x1="-69.85" y1="-11.6" x2="-69.85" y2="-42.08" width="0" layer="19" extent="1-1"/>
-<wire x1="-48.387" y1="35.9918" x2="-69.85" y2="-11.6" width="0" layer="19" extent="1-1"/>
+<contactref element="U$15" pad="COIL1"/>
+<wire x1="-69.85" y1="-11.6" x2="-46.99" y2="-108.7755" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="12V">
 <contactref element="F4" pad="1"/>
@@ -589,24 +616,31 @@ design rules under a new name.</description>
 <contactref element="U$3" pad="COIL2"/>
 <contactref element="U$11" pad="3"/>
 <contactref element="U$12" pad="3"/>
-<contactref element="U$6" pad="NO"/>
 <contactref element="U$13" pad="3"/>
+<contactref element="U$15" pad="NO"/>
+<wire x1="-69.85" y1="-34.46" x2="-55.3974" y2="-100.33" width="0" layer="19" extent="1-1"/>
 <wire x1="-69.85" y1="-26.84" x2="-69.85" y2="-34.46" width="0" layer="19" extent="1-1"/>
 <wire x1="-69.85" y1="-19.22" x2="-69.85" y2="-26.84" width="0" layer="19" extent="1-1"/>
 <wire x1="-48.387" y1="19.7104" x2="-69.85" y2="-19.22" width="0" layer="19" extent="1-1"/>
-<wire x1="-56.8452" y1="34.29" x2="-48.387" y2="19.7104" width="0" layer="19" extent="1-1"/>
-<wire x1="-59.563" y1="54.1782" x2="-56.8452" y2="34.29" width="0" layer="19" extent="1-1"/>
-<wire x1="-59.563" y1="57.5818" x2="-59.563" y2="54.1782" width="0" layer="19" extent="1-1"/>
-<wire x1="-43.053" y1="57.5818" x2="-59.563" y2="57.5818" width="0" layer="19" extent="1-1"/>
+<wire x1="-22.987" y1="19.7104" x2="-48.387" y2="19.7104" width="0" layer="19" extent="1-1"/>
+<wire x1="-22.987" y1="31.1404" x2="-22.987" y2="19.7104" width="0" layer="19" extent="1-1"/>
+<wire x1="-26.543" y1="54.1782" x2="-22.987" y2="31.1404" width="0" layer="19" extent="1-1"/>
+<wire x1="-26.543" y1="57.5818" x2="-26.543" y2="54.1782" width="0" layer="19" extent="1-1"/>
+<wire x1="-26.543" y1="64.3382" x2="-26.543" y2="57.5818" width="0" layer="19" extent="1-1"/>
+<wire x1="-26.543" y1="67.7418" x2="-26.543" y2="64.3382" width="0" layer="19" extent="1-1"/>
+<wire x1="-43.053" y1="67.7418" x2="-26.543" y2="67.7418" width="0" layer="19" extent="1-1"/>
+<wire x1="-43.053" y1="64.3382" x2="-43.053" y2="67.7418" width="0" layer="19" extent="1-1"/>
+<wire x1="-43.053" y1="57.5818" x2="-43.053" y2="64.3382" width="0" layer="19" extent="1-1"/>
 <wire x1="-43.053" y1="54.1782" x2="-43.053" y2="57.5818" width="0" layer="19" extent="1-1"/>
-<wire x1="-43.053" y1="64.3382" x2="-43.053" y2="57.5818" width="0" layer="19" extent="1-1"/>
-<wire x1="-43.053" y1="67.7418" x2="-43.053" y2="64.3382" width="0" layer="19" extent="1-1"/>
-<wire x1="-26.543" y1="67.7418" x2="-43.053" y2="67.7418" width="0" layer="19" extent="1-1"/>
-<wire x1="-26.543" y1="64.3382" x2="-26.543" y2="67.7418" width="0" layer="19" extent="1-1"/>
-<wire x1="-26.543" y1="57.5818" x2="-26.543" y2="64.3382" width="0" layer="19" extent="1-1"/>
-<wire x1="-26.543" y1="54.1782" x2="-26.543" y2="57.5818" width="0" layer="19" extent="1-1"/>
-<wire x1="-22.987" y1="31.1404" x2="-26.543" y2="54.1782" width="0" layer="19" extent="1-1"/>
-<wire x1="-22.987" y1="19.7104" x2="-22.987" y2="31.1404" width="0" layer="19" extent="1-1"/>
+<wire x1="-59.563" y1="54.1782" x2="-43.053" y2="54.1782" width="0" layer="19" extent="1-1"/>
+<wire x1="-59.563" y1="57.5818" x2="-59.563" y2="54.1782" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="BAT_+12_FUSED">
+<contactref element="U$1" pad="1"/>
+<contactref element="F1" pad="3"/>
+<contactref element="F1" pad="4"/>
+<wire x1="-50.927" y1="-59.2582" x2="-50.927" y2="-62.6618" width="0" layer="19" extent="1-1"/>
+<wire x1="-46.101" y1="10.3759" x2="-50.927" y2="-59.2582" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>
