@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1.27" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.3175" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -14576,58 +14576,6 @@ type 0309, grid 2.5 mm</description>
 <rectangle x1="3.175" y1="-0.3048" x2="4.0386" y2="0.3048" layer="21"/>
 <rectangle x1="-4.0386" y1="-0.3048" x2="-3.175" y2="0.3048" layer="21"/>
 </package>
-<package name="AVRISP">
-<wire x1="-2.54" y1="3.048" x2="-1.778" y2="3.81" width="0.127" layer="21"/>
-<wire x1="-1.778" y1="3.81" x2="1.778" y2="3.81" width="0.127" layer="21"/>
-<wire x1="1.778" y1="3.81" x2="2.54" y2="3.048" width="0.127" layer="21"/>
-<wire x1="2.54" y1="3.048" x2="2.54" y2="1.778" width="0.127" layer="21"/>
-<wire x1="2.54" y1="1.778" x2="2.032" y2="1.27" width="0.127" layer="21"/>
-<wire x1="2.032" y1="1.27" x2="2.54" y2="0.762" width="0.127" layer="21"/>
-<wire x1="2.54" y1="0.762" x2="2.54" y2="-0.762" width="0.127" layer="21"/>
-<wire x1="2.54" y1="-0.762" x2="2.032" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="2.032" y1="-1.27" x2="2.54" y2="-1.778" width="0.127" layer="21"/>
-<wire x1="2.54" y1="-1.778" x2="2.54" y2="-3.048" width="0.127" layer="21"/>
-<wire x1="2.54" y1="-3.048" x2="1.778" y2="-3.81" width="0.127" layer="21"/>
-<wire x1="1.778" y1="-3.81" x2="-1.778" y2="-3.81" width="0.127" layer="21"/>
-<wire x1="-1.778" y1="-3.81" x2="-2.54" y2="-3.048" width="0.127" layer="21"/>
-<wire x1="-2.54" y1="-3.048" x2="-2.54" y2="-1.778" width="0.127" layer="21"/>
-<wire x1="-2.54" y1="-1.778" x2="-2.032" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="-2.032" y1="-1.27" x2="-2.54" y2="-0.762" width="0.127" layer="21"/>
-<wire x1="-2.54" y1="-0.762" x2="-2.54" y2="0.762" width="0.127" layer="21"/>
-<wire x1="-2.54" y1="0.762" x2="-2.032" y2="1.27" width="0.127" layer="21"/>
-<wire x1="-2.032" y1="1.27" x2="-2.54" y2="1.778" width="0.127" layer="21"/>
-<wire x1="-2.54" y1="1.778" x2="-2.54" y2="3.048" width="0.127" layer="21"/>
-<pad name="3" x="-1.27" y="0" drill="0.9" diameter="1.6256"/>
-<pad name="4" x="1.27" y="0" drill="0.9" diameter="1.6256"/>
-<pad name="2" x="1.27" y="2.54" drill="0.9" diameter="1.6256"/>
-<pad name="1" x="-1.27" y="2.54" drill="0.9" diameter="1.6256"/>
-<pad name="5" x="-1.27" y="-2.54" drill="0.9" diameter="1.6256"/>
-<pad name="6" x="1.27" y="-2.54" drill="0.9" diameter="1.6256"/>
-<text x="-3.048" y="-3.048" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="-3.048" y="3.556" size="1.016" layer="21" font="vector">1</text>
-</package>
-<package name="AVRISP-BOX">
-<pad name="3" x="-1.143" y="0" drill="0.9" diameter="1.6256"/>
-<pad name="4" x="1.143" y="0" drill="0.9" diameter="1.6256"/>
-<pad name="2" x="1.397" y="2.54" drill="0.9" diameter="1.6256"/>
-<pad name="1" x="-1.397" y="2.54" drill="0.9" diameter="1.6256"/>
-<pad name="5" x="-1.397" y="-2.54" drill="0.9" diameter="1.6256"/>
-<pad name="6" x="1.397" y="-2.54" drill="0.9" diameter="1.6256"/>
-<text x="-6.048" y="-2.948" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<wire x1="-4.4" y1="7.6" x2="4.4" y2="7.6" width="0.127" layer="21"/>
-<wire x1="4.4" y1="7.6" x2="4.4" y2="-7.6" width="0.127" layer="21"/>
-<wire x1="4.4" y1="-7.6" x2="-4.4" y2="-7.6" width="0.127" layer="21"/>
-<wire x1="-4.4" y1="-7.6" x2="-4.4" y2="-1.5" width="0.127" layer="21"/>
-<wire x1="-4.4" y1="-1.5" x2="-4.4" y2="1.5" width="0.127" layer="21"/>
-<wire x1="-4.4" y1="1.5" x2="-4.4" y2="7.6" width="0.127" layer="21"/>
-<wire x1="-4.4" y1="1.5" x2="-3.3" y2="1.5" width="0.127" layer="21"/>
-<wire x1="-3.3" y1="1.5" x2="-3.3" y2="-1.5" width="0.127" layer="21"/>
-<wire x1="-3.3" y1="-1.5" x2="-4.4" y2="-1.5" width="0.127" layer="21"/>
-<wire x1="-3.2" y1="6.5" x2="3.2" y2="6.5" width="0.127" layer="21"/>
-<wire x1="3.2" y1="6.5" x2="3.2" y2="-6.5" width="0.127" layer="21"/>
-<wire x1="3.2" y1="-6.5" x2="-3.2" y2="-6.5" width="0.127" layer="21"/>
-<wire x1="-3.2" y1="-6.5" x2="-3.2" y2="6.5" width="0.127" layer="21"/>
-</package>
 </packages>
 <symbols>
 <symbol name="DIODE">
@@ -14655,19 +14603,6 @@ type 0309, grid 2.5 mm</description>
 <text x="-3.81" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
-</symbol>
-<symbol name="AVRISP">
-<wire x1="-7.62" y1="5.08" x2="10.16" y2="5.08" width="0.254" layer="94"/>
-<wire x1="10.16" y1="5.08" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
-<text x="-2.54" y="-7.62" size="1.778" layer="95">&gt;NAME</text>
-<pin name="MISO" x="-12.7" y="2.54" length="middle" direction="in"/>
-<pin name="SCK" x="-12.7" y="0" length="middle" direction="out"/>
-<pin name="RST" x="-12.7" y="-2.54" length="middle" direction="out"/>
-<pin name="GND" x="15.24" y="-2.54" length="middle" direction="pwr" rot="R180"/>
-<pin name="MOSI" x="15.24" y="0" length="middle" direction="out" rot="R180"/>
-<pin name="VCC" x="15.24" y="2.54" length="middle" direction="pwr" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -15421,42 +15356,6 @@ type 0309, grid 2.5 mm</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="AVRISP" prefix="ISP">
-<description>&lt;b&gt;AVR ISP HEADER&lt;/b&gt;
-&lt;br&gt;
-Standard 6 pin header for AVR programming</description>
-<gates>
-<gate name="G$1" symbol="AVRISP" x="-2.54" y="0"/>
-</gates>
-<devices>
-<device name="-6" package="AVRISP">
-<connects>
-<connect gate="G$1" pin="GND" pad="6"/>
-<connect gate="G$1" pin="MISO" pad="1"/>
-<connect gate="G$1" pin="MOSI" pad="4"/>
-<connect gate="G$1" pin="RST" pad="5"/>
-<connect gate="G$1" pin="SCK" pad="3"/>
-<connect gate="G$1" pin="VCC" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-BOX" package="AVRISP-BOX">
-<connects>
-<connect gate="G$1" pin="GND" pad="6"/>
-<connect gate="G$1" pin="MISO" pad="1"/>
-<connect gate="G$1" pin="MOSI" pad="4"/>
-<connect gate="G$1" pin="RST" pad="5"/>
-<connect gate="G$1" pin="SCK" pad="3"/>
-<connect gate="G$1" pin="VCC" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 </devicesets>
 </library>
 <library name="BMS Lbr">
@@ -15824,6 +15723,36 @@ Standard 6 pin header for AVR programming</description>
 <wire x1="20.32" y1="6.35" x2="20.32" y2="-6.35" width="0.127" layer="21"/>
 <wire x1="20.32" y1="-6.35" x2="-20.32" y2="-6.35" width="0.127" layer="21"/>
 </package>
+<package name="6_PIN_.1PITCH">
+<smd name="MISO" x="-2.73" y="2.54" dx="2.54" dy="1.27" layer="1" rot="R180"/>
+<smd name="SCK" x="-2.73" y="0" dx="2.54" dy="1.27" layer="1" rot="R180"/>
+<smd name="RESET" x="-2.73" y="-2.54" dx="2.54" dy="1.27" layer="1" rot="R180"/>
+<smd name="GND" x="2.73" y="-2.54" dx="2.54" dy="1.27" layer="1" rot="R180"/>
+<smd name="MOSI" x="2.73" y="0" dx="2.54" dy="1.27" layer="1" rot="R180"/>
+<smd name="VCC" x="2.73" y="2.54" dx="2.54" dy="1.27" layer="1" rot="R180"/>
+<text x="-3.81" y="3.81" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.81" y="-5.08" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="4.445" y1="-3.81" x2="-4.445" y2="-3.81" width="0.127" layer="27"/>
+<wire x1="-4.445" y1="3.81" x2="4.445" y2="3.81" width="0.127" layer="27"/>
+<wire x1="-5.08" y1="1.905" x2="-4.445" y2="1.27" width="0.127" layer="27"/>
+<wire x1="-4.445" y1="1.27" x2="-5.08" y2="0.635" width="0.127" layer="27"/>
+<wire x1="-5.08" y1="0.635" x2="-5.08" y2="-0.635" width="0.127" layer="27"/>
+<wire x1="-5.08" y1="-0.635" x2="-4.445" y2="-1.27" width="0.127" layer="27"/>
+<wire x1="-4.445" y1="-1.27" x2="-5.08" y2="-1.905" width="0.127" layer="27"/>
+<wire x1="-5.08" y1="-1.905" x2="-5.08" y2="-3.175" width="0.127" layer="27"/>
+<wire x1="-5.08" y1="-3.175" x2="-4.445" y2="-3.81" width="0.127" layer="27"/>
+<wire x1="-5.08" y1="1.905" x2="-5.08" y2="3.175" width="0.127" layer="27"/>
+<wire x1="-5.08" y1="3.175" x2="-4.445" y2="3.81" width="0.127" layer="27"/>
+<wire x1="4.445" y1="1.27" x2="5.08" y2="1.905" width="0.127" layer="27"/>
+<wire x1="5.08" y1="1.905" x2="5.08" y2="3.175" width="0.127" layer="27"/>
+<wire x1="5.08" y1="3.175" x2="4.445" y2="3.81" width="0.127" layer="27"/>
+<wire x1="4.445" y1="1.27" x2="5.08" y2="0.635" width="0.127" layer="27"/>
+<wire x1="5.08" y1="0.635" x2="5.08" y2="-0.635" width="0.127" layer="27"/>
+<wire x1="5.08" y1="-0.635" x2="4.445" y2="-1.27" width="0.127" layer="27"/>
+<wire x1="4.445" y1="-1.27" x2="5.08" y2="-1.905" width="0.127" layer="27"/>
+<wire x1="5.08" y1="-1.905" x2="5.08" y2="-3.175" width="0.127" layer="27"/>
+<wire x1="5.08" y1="-3.175" x2="4.445" y2="-3.81" width="0.127" layer="27"/>
+</package>
 </packages>
 <symbols>
 <symbol name="CON-1X24">
@@ -15859,6 +15788,20 @@ Standard 6 pin header for AVR programming</description>
 <text x="0" y="30.48" size="1.27" layer="94">&gt;NAME</text>
 <text x="0" y="-38.1" size="1.27" layer="94">&gt;VALUE</text>
 </symbol>
+<symbol name="95278-101A06LF">
+<wire x1="-7.62" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<pin name="MISO" x="-10.16" y="2.54" length="short"/>
+<pin name="SCK" x="-10.16" y="0" length="short"/>
+<pin name="RST" x="-10.16" y="-2.54" length="short"/>
+<pin name="VCC" x="10.16" y="2.54" length="short" rot="R180"/>
+<pin name="MOSI" x="10.16" y="0" length="short" rot="R180"/>
+<pin name="GND" x="10.16" y="-2.54" length="short" rot="R180"/>
+<text x="-7.62" y="5.08" size="1.27" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-7.62" size="1.27" layer="95">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="10127720-241LF">
@@ -15893,6 +15836,27 @@ Standard 6 pin header for AVR programming</description>
 <connect gate="G$1" pin="C7" pad="P$7"/>
 <connect gate="G$1" pin="C8" pad="P$8"/>
 <connect gate="G$1" pin="C9" pad="P$9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="95278">
+<description>SMD ISP Connector</description>
+<gates>
+<gate name="G$1" symbol="95278-101A06LF" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="6_PIN_.1PITCH">
+<connects>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="MISO" pad="MISO"/>
+<connect gate="G$1" pin="MOSI" pad="MOSI"/>
+<connect gate="G$1" pin="RST" pad="RESET"/>
+<connect gate="G$1" pin="SCK" pad="SCK"/>
+<connect gate="G$1" pin="VCC" pad="VCC"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -16041,9 +16005,9 @@ Standard 6 pin header for AVR programming</description>
 <part name="U$12" library="con-amphenol" deviceset="10127720-241LF" device=""/>
 <part name="D2" library="BMS Lbr" deviceset="DFLS1100" device=""/>
 <part name="U$13" library="BMS Lbr" deviceset="0039300040" device=""/>
-<part name="ISP1" library="adafruit" deviceset="AVRISP" device="-6"/>
 <part name="C10" library="rcl" deviceset="C-US" device="C0805" value="0.1uF"/>
 <part name="U$14" library="BMS Lbr" deviceset="AX-16.000MBGE-T" device=""/>
+<part name="ISP1" library="con-amphenol" deviceset="95278" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -16223,9 +16187,9 @@ Revised By Daniel Baron</text>
 <instance part="U$12" gate="G$1" x="-71.12" y="91.44"/>
 <instance part="D2" gate="G$1" x="195.58" y="180.34"/>
 <instance part="U$13" gate="G$1" x="81.28" y="55.88" rot="R180"/>
-<instance part="ISP1" gate="G$1" x="120.65" y="19.05"/>
 <instance part="C10" gate="G$1" x="294.64" y="160.02" rot="R90"/>
 <instance part="U$14" gate="G$1" x="306.07" y="171.45" rot="R90"/>
+<instance part="ISP1" gate="G$1" x="121.666" y="19.05"/>
 </instances>
 <busses>
 </busses>
@@ -16698,9 +16662,9 @@ Revised By Daniel Baron</text>
 <pinref part="U$8" gate="G$1" pin="VCC"/>
 </segment>
 <segment>
-<pinref part="ISP1" gate="G$1" pin="VCC"/>
-<wire x1="135.89" y1="21.59" x2="139.7" y2="21.59" width="0.1524" layer="91"/>
 <label x="139.7" y="21.59" size="1.778" layer="95"/>
+<pinref part="ISP1" gate="G$1" pin="VCC"/>
+<wire x1="131.826" y1="21.59" x2="139.7" y2="21.59" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="P+8" gate="VCC" pin="VCC"/>
@@ -17259,9 +17223,9 @@ Revised By Daniel Baron</text>
 <label x="-215.9" y="88.9" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="ISP1" gate="G$1" pin="GND"/>
-<wire x1="135.89" y1="16.51" x2="139.7" y2="16.51" width="0.1524" layer="91"/>
 <label x="139.7" y="16.51" size="1.778" layer="95"/>
+<pinref part="ISP1" gate="G$1" pin="GND"/>
+<wire x1="131.826" y1="16.51" x2="139.7" y2="16.51" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RESET" class="0">
@@ -17284,9 +17248,9 @@ Revised By Daniel Baron</text>
 <pinref part="IC1" gate="G$1" pin="RESET"/>
 </segment>
 <segment>
-<pinref part="ISP1" gate="G$1" pin="RST"/>
-<wire x1="107.95" y1="16.51" x2="104.14" y2="16.51" width="0.1524" layer="91"/>
+<wire x1="111.506" y1="16.51" x2="104.14" y2="16.51" width="0.1524" layer="91"/>
 <label x="96.52" y="16.51" size="1.778" layer="95"/>
+<pinref part="ISP1" gate="G$1" pin="RST"/>
 </segment>
 </net>
 <net name="PB6(PWM)" class="0">
@@ -17409,9 +17373,9 @@ Revised By Daniel Baron</text>
 <pinref part="IC1" gate="G$1" pin="(TXD0/PDO)PE1"/>
 </segment>
 <segment>
-<pinref part="ISP1" gate="G$1" pin="MOSI"/>
-<wire x1="135.89" y1="19.05" x2="139.7" y2="19.05" width="0.1524" layer="91"/>
 <label x="139.7" y="19.05" size="1.778" layer="95"/>
+<pinref part="ISP1" gate="G$1" pin="MOSI"/>
+<wire x1="131.826" y1="19.05" x2="139.7" y2="19.05" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RX" class="0">
@@ -17421,9 +17385,9 @@ Revised By Daniel Baron</text>
 <pinref part="IC1" gate="G$1" pin="(RXD0/PDI)PE0"/>
 </segment>
 <segment>
-<pinref part="ISP1" gate="G$1" pin="MISO"/>
-<wire x1="107.95" y1="21.59" x2="104.14" y2="21.59" width="0.1524" layer="91"/>
+<wire x1="111.506" y1="21.59" x2="104.14" y2="21.59" width="0.1524" layer="91"/>
 <label x="101.6" y="21.59" size="1.778" layer="95"/>
+<pinref part="ISP1" gate="G$1" pin="MISO"/>
 </segment>
 </net>
 <net name="RX1" class="0">
@@ -17490,9 +17454,9 @@ Revised By Daniel Baron</text>
 <pinref part="IC1" gate="G$1" pin="(SCK)PB1"/>
 </segment>
 <segment>
-<pinref part="ISP1" gate="G$1" pin="SCK"/>
-<wire x1="107.95" y1="19.05" x2="104.14" y2="19.05" width="0.1524" layer="91"/>
+<wire x1="111.506" y1="19.05" x2="104.14" y2="19.05" width="0.1524" layer="91"/>
 <label x="92.71" y="19.05" size="1.778" layer="95"/>
+<pinref part="ISP1" gate="G$1" pin="SCK"/>
 </segment>
 </net>
 <net name="INT_N" class="0">
@@ -19046,7 +19010,6 @@ Revised By Daniel Baron</text>
 <approved hash="103,1,317.5,134.62,IC1,GND_53,GND,,,"/>
 <approved hash="202,1,317.5,119.38,IC1,PG3(TOSC2),,,,"/>
 <approved hash="202,1,317.5,124.46,IC1,PG4(TOSC1),,,,"/>
-<approved hash="106,1,317.5,160.02,AREF,,,,,"/>
 <approved hash="106,1,368.3,134.62,AVR_CS,,,,,"/>
 <approved hash="106,1,368.3,142.24,AVR_MISO,,,,,"/>
 <approved hash="106,1,368.3,139.7,AVR_MOSI,,,,,"/>
@@ -19065,10 +19028,6 @@ Revised By Daniel Baron</text>
 <approved hash="106,1,368.3,152.4,PB7(PWM),,,,,"/>
 <approved hash="106,1,368.3,99.06,PD4,,,,,"/>
 <approved hash="106,1,368.3,106.68,PD7,,,,,"/>
-<approved hash="106,1,368.3,71.12,PE2,,,,,"/>
-<approved hash="106,1,368.3,73.66,PE3(PWM),,,,,"/>
-<approved hash="106,1,368.3,76.2,PE4(PWM),,,,,"/>
-<approved hash="106,1,368.3,78.74,PE5(PWM),,,,,"/>
 <approved hash="106,1,368.3,81.28,PE6,,,,,"/>
 <approved hash="209,1,317.5,101.6,PG0,,,,,"/>
 <approved hash="106,1,317.5,101.6,PG0,,,,,"/>
