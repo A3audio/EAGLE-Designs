@@ -1159,6 +1159,36 @@ Source: RCA-4-117-01x.pdf</description>
 <wire x1="20.32" y1="6.35" x2="20.32" y2="-6.35" width="0.127" layer="21"/>
 <wire x1="20.32" y1="-6.35" x2="-20.32" y2="-6.35" width="0.127" layer="21"/>
 </package>
+<package name="6_PIN_.1PITCH">
+<smd name="MISO" x="-2.73" y="2.54" dx="2.54" dy="1.27" layer="1" rot="R180"/>
+<smd name="SCK" x="-2.73" y="0" dx="2.54" dy="1.27" layer="1" rot="R180"/>
+<smd name="RESET" x="-2.73" y="-2.54" dx="2.54" dy="1.27" layer="1" rot="R180"/>
+<smd name="GND" x="2.73" y="-2.54" dx="2.54" dy="1.27" layer="1" rot="R180"/>
+<smd name="MOSI" x="2.73" y="0" dx="2.54" dy="1.27" layer="1" rot="R180"/>
+<smd name="VCC" x="2.73" y="2.54" dx="2.54" dy="1.27" layer="1" rot="R180"/>
+<text x="-3.81" y="3.81" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.81" y="-5.08" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="4.445" y1="-3.81" x2="-4.445" y2="-3.81" width="0.127" layer="27"/>
+<wire x1="-4.445" y1="3.81" x2="4.445" y2="3.81" width="0.127" layer="27"/>
+<wire x1="-5.08" y1="1.905" x2="-4.445" y2="1.27" width="0.127" layer="27"/>
+<wire x1="-4.445" y1="1.27" x2="-5.08" y2="0.635" width="0.127" layer="27"/>
+<wire x1="-5.08" y1="0.635" x2="-5.08" y2="-0.635" width="0.127" layer="27"/>
+<wire x1="-5.08" y1="-0.635" x2="-4.445" y2="-1.27" width="0.127" layer="27"/>
+<wire x1="-4.445" y1="-1.27" x2="-5.08" y2="-1.905" width="0.127" layer="27"/>
+<wire x1="-5.08" y1="-1.905" x2="-5.08" y2="-3.175" width="0.127" layer="27"/>
+<wire x1="-5.08" y1="-3.175" x2="-4.445" y2="-3.81" width="0.127" layer="27"/>
+<wire x1="-5.08" y1="1.905" x2="-5.08" y2="3.175" width="0.127" layer="27"/>
+<wire x1="-5.08" y1="3.175" x2="-4.445" y2="3.81" width="0.127" layer="27"/>
+<wire x1="4.445" y1="1.27" x2="5.08" y2="1.905" width="0.127" layer="27"/>
+<wire x1="5.08" y1="1.905" x2="5.08" y2="3.175" width="0.127" layer="27"/>
+<wire x1="5.08" y1="3.175" x2="4.445" y2="3.81" width="0.127" layer="27"/>
+<wire x1="4.445" y1="1.27" x2="5.08" y2="0.635" width="0.127" layer="27"/>
+<wire x1="5.08" y1="0.635" x2="5.08" y2="-0.635" width="0.127" layer="27"/>
+<wire x1="5.08" y1="-0.635" x2="4.445" y2="-1.27" width="0.127" layer="27"/>
+<wire x1="4.445" y1="-1.27" x2="5.08" y2="-1.905" width="0.127" layer="27"/>
+<wire x1="5.08" y1="-1.905" x2="5.08" y2="-3.175" width="0.127" layer="27"/>
+<wire x1="5.08" y1="-3.175" x2="4.445" y2="-3.81" width="0.127" layer="27"/>
+</package>
 </packages>
 <symbols>
 <symbol name="S">
@@ -1396,6 +1426,20 @@ Source: RCA-4-117-01x.pdf</description>
 <wire x1="7.62" y1="-35.56" x2="0" y2="-35.56" width="0.254" layer="94"/>
 <text x="0" y="30.48" size="1.27" layer="94">&gt;NAME</text>
 <text x="0" y="-38.1" size="1.27" layer="94">&gt;VALUE</text>
+</symbol>
+<symbol name="95278-101A06LF">
+<wire x1="-7.62" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<pin name="MISO" x="-10.16" y="2.54" length="short"/>
+<pin name="SCK" x="-10.16" y="0" length="short"/>
+<pin name="RST" x="-10.16" y="-2.54" length="short"/>
+<pin name="VCC" x="10.16" y="2.54" length="short" rot="R180"/>
+<pin name="MOSI" x="10.16" y="0" length="short" rot="R180"/>
+<pin name="GND" x="10.16" y="-2.54" length="short" rot="R180"/>
+<text x="-7.62" y="5.08" size="1.27" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-7.62" size="1.27" layer="95">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -1794,6 +1838,18 @@ Source: RCA-4-117-01x.pdf</description>
 <connect gate="G$1" pin="C8" pad="P$8"/>
 <connect gate="G$1" pin="C9" pad="P$9"/>
 </connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="95278">
+<description>SMD ISP Connector</description>
+<gates>
+</gates>
+<devices>
+<device name="">
 <technologies>
 <technology name=""/>
 </technologies>
