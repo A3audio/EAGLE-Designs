@@ -3978,7 +3978,7 @@ at 14/06/2012 11:09:42</description>
 <wire x1="8.89" y1="-5.08" x2="-8.89" y2="-5.08" width="0.127" layer="21"/>
 <wire x1="-8.89" y1="-5.08" x2="-8.89" y2="5.08" width="0.127" layer="21"/>
 <text x="-7.62" y="5.08" size="1.27" layer="25">&gt;NAME</text>
-<text x="0" y="5.08" size="1.27" layer="25">&gt;VAL</text>
+<text x="0" y="5.08" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 <package name="15-97-8043">
 <pad name="3" x="2.10058125" y="2.7559" drill="1.397" diameter="1.8288"/>
@@ -3990,7 +3990,7 @@ at 14/06/2012 11:09:42</description>
 <wire x1="5.08" y1="-5.08" x2="5.08" y2="5.08" width="0.127" layer="25"/>
 <wire x1="5.08" y1="5.08" x2="-5.08" y2="5.08" width="0.127" layer="25"/>
 <text x="-5.08" y="5.08" size="1.27" layer="25">&gt;NAME</text>
-<text x="1.27" y="5.08" size="1.27" layer="25">&gt;VAL</text>
+<text x="1.27" y="5.08" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 <package name="TRIAL">
 <description>3 hole 2 pin power input</description>
