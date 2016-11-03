@@ -4008,7 +4008,7 @@ at 14/06/2012 11:09:42</description>
 <dimension x1="-3.81" y1="-10.16" x2="-3.81" y2="6.35" x3="-11.43" y3="-1.905" textsize="1.27" layer="21"/>
 <dimension x1="-3.81" y1="6.35" x2="-3.81" y2="0" x3="-6.35" y3="3.175" textsize="1.27" layer="21"/>
 </package>
-<<<<<<< HEAD
+
 <package name="MOLEX_70553-0038">
 <description>DigiKey ID:
 WM4926-ND</description>
@@ -4033,7 +4033,8 @@ WM4926-ND</description>
 <wire x1="-2.7" y1="-12.8" x2="2.7" y2="-12.8" width="0.127" layer="21"/>
 <wire x1="2.7" y1="-12.8" x2="2.7" y2="7.39" width="0.127" layer="21"/>
 <wire x1="2.7" y1="7.39" x2="-2.7" y2="7.39" width="0.127" layer="21"/>
-=======
+
+</package>
 <package name="0015912060">
 <smd name="MISO" x="-2.22" y="2.54" dx="3.68" dy="1.27" layer="1" rot="R180"/>
 <smd name="SCK" x="-2.22" y="0" dx="3.68" dy="1.27" layer="1" rot="R180"/>
@@ -4063,7 +4064,6 @@ WM4926-ND</description>
 <wire x1="4.445" y1="-1.27" x2="5.08" y2="-1.905" width="0.127" layer="27"/>
 <wire x1="5.08" y1="-1.905" x2="5.08" y2="-3.175" width="0.127" layer="27"/>
 <wire x1="5.08" y1="-3.175" x2="4.445" y2="-3.81" width="0.127" layer="27"/>
->>>>>>> origin/master
 </package>
 </packages>
 <symbols>
@@ -6298,7 +6298,7 @@ WM4926-ND</description>
 <pin name="2" x="-5.08" y="-15.24" length="middle" rot="R90"/>
 <pin name="1" x="5.08" y="-15.24" length="middle" rot="R90"/>
 </symbol>
-<<<<<<< HEAD
+
 <symbol name="70553-0038">
 <description>DigiKey ID:
 	WM4926-ND</description>
@@ -6322,7 +6322,7 @@ WM4926-ND</description>
 <wire x1="5.08" y1="5.08" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
 <text x="-2.54" y="5.08" size="1.778" layer="95">&gt;NAME</text>
 <text x="-2.54" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
-=======
+</symbol>
 <symbol name="ISP">
 <wire x1="-7.62" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
 <wire x1="7.62" y1="5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
@@ -6336,7 +6336,7 @@ WM4926-ND</description>
 <pin name="GND" x="10.16" y="-2.54" length="short" rot="R180"/>
 <text x="-7.62" y="5.08" size="1.27" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-7.62" size="1.27" layer="95">&gt;VALUE</text>
->>>>>>> origin/master
+
 </symbol>
 </symbols>
 <devicesets>
@@ -9889,7 +9889,7 @@ WM4926-ND</description>
 </device>
 </devices>
 </deviceset>
-<<<<<<< HEAD
+
 <deviceset name="70553-0038" prefix="X">
 <gates>
 <gate name="G$1" symbol="70553-0038" x="0" y="0"/>
@@ -9917,7 +9917,10 @@ WM4926-ND</description>
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
-=======
+</connects>
+</device>
+</devices>
+</deviceset>
 <deviceset name="SMD_ISP_0015912060">
 <description>Digikey PN WM17449-ND</description>
 <gates>
@@ -9932,7 +9935,7 @@ WM4926-ND</description>
 <connect gate="G$1" pin="RST" pad="RESET"/>
 <connect gate="G$1" pin="SCK" pad="SCK"/>
 <connect gate="G$1" pin="VCC" pad="VCC"/>
->>>>>>> origin/master
+
 </connects>
 <technologies>
 <technology name=""/>
