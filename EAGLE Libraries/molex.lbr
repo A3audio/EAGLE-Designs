@@ -3973,7 +3973,7 @@ at 14/06/2012 11:09:42</description>
 <pad name="3" x="-2.0955" y="-2.7559" drill="1.397" shape="square"/>
 <pad name="2" x="2.0955" y="-2.7559" drill="1.397" shape="square"/>
 <pad name="1" x="6.2865" y="-2.7559" drill="1.397" shape="square"/>
-<<<<<<< HEAD
+
 <wire x1="-8.89" y1="5.08" x2="8.89" y2="5.08" width="0.127" layer="21"/>
 <wire x1="8.89" y1="5.08" x2="8.89" y2="-5.08" width="0.127" layer="21"/>
 <wire x1="8.89" y1="-5.08" x2="-8.89" y2="-5.08" width="0.127" layer="21"/>
@@ -3992,14 +3992,6 @@ at 14/06/2012 11:09:42</description>
 <wire x1="5.08" y1="5.08" x2="-5.08" y2="5.08" width="0.127" layer="25"/>
 <text x="-5.08" y="5.08" size="1.27" layer="25">&gt;NAME</text>
 <text x="1.27" y="5.08" size="1.27" layer="27">&gt;VALUE</text>
-=======
-</package>
-<package name="15-97-8043">
-<pad name="3" x="2.10058125" y="2.7559" drill="0.8" diameter="1.8288"/>
-<pad name="1" x="2.10058125" y="-2.7559" drill="0.8" diameter="1.8034"/>
-<pad name="2" x="-2.10058125" y="-2.7559" drill="0.8" diameter="1.8034"/>
-<pad name="4" x="-2.10058125" y="2.7559" drill="0.8" diameter="1.8034"/>
->>>>>>> origin/master
 </package>
 <package name="TRIAL">
 <description>3 hole 2 pin power input</description>
