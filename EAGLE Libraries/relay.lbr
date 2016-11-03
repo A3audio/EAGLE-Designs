@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.001" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -10216,6 +10216,8 @@ Source: &lt;a href="http://pewa.panasonic.com/assets/pcsd/catalog/pf-catalog.pdf
 <wire x1="-13.2715" y1="12.0015" x2="-13.2715" y2="-12.0015" width="0.127" layer="25"/>
 <wire x1="-13.2588" y1="-12.0142" x2="13.2842" y2="-12.0142" width="0.127" layer="25"/>
 <wire x1="13.2842" y1="-12.0142" x2="13.2842" y2="11.9888" width="0.127" layer="25"/>
+<text x="-11.43" y="12.7" size="1.27" layer="25">&gt;NAME</text>
+<text x="1.27" y="12.7" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>

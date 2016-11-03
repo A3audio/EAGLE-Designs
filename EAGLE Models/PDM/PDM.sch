@@ -169,15 +169,12 @@
 <pad name="4" x="-4.191" y="-2.7559" drill="1.8034"/>
 <pad name="5" x="0" y="-2.7559" drill="1.8034"/>
 <pad name="6" x="4.191" y="-2.7559" drill="1.8034"/>
-<text x="-7.0358" y="5.3848" size="1.27" layer="25">&gt;NAME
-</text>
-<text x="-0.2286" y="7.4168" size="1.27" layer="25">&gt;VALUE</text>
+<text x="-0.2286" y="7.4168" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-7.62" y="7.62" size="1.27" layer="25">&gt;NAME</text>
 </package>
 <package name="1586042-8">
 <wire x1="-9.017" y1="6.477" x2="9.017" y2="6.477" width="0.127" layer="21"/>
-<text x="-7.0358" y="5.3848" size="1.27" layer="25">&gt;NAME
-</text>
-<text x="-0.2286" y="7.4168" size="1.27" layer="25">&gt;VALUE</text>
+<text x="-0.2286" y="7.4168" size="1.27" layer="27">&gt;VALUE</text>
 <wire x1="9.017" y1="6.477" x2="9.017" y2="-6.477" width="0.127" layer="21"/>
 <wire x1="9.017" y1="-6.477" x2="-9.017" y2="-6.477" width="0.127" layer="21"/>
 <wire x1="-9.017" y1="-6.477" x2="-9.017" y2="6.477" width="0.127" layer="21"/>
@@ -189,6 +186,7 @@
 <pad name="6" x="-2.0955" y="-2.7559" drill="1.8034"/>
 <pad name="7" x="2.0955" y="-2.7559" drill="1.8034"/>
 <pad name="8" x="6.2865" y="-2.7559" drill="1.8034"/>
+<text x="-7.62" y="7.62" size="1.27" layer="25">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
@@ -433,7 +431,7 @@ at 14/06/2012 11:09:42</description>
 <wire x1="8.89" y1="-5.08" x2="-8.89" y2="-5.08" width="0.127" layer="21"/>
 <wire x1="-8.89" y1="-5.08" x2="-8.89" y2="5.08" width="0.127" layer="21"/>
 <text x="-7.62" y="5.08" size="1.27" layer="25">&gt;NAME</text>
-<text x="0" y="5.08" size="1.27" layer="25">&gt;VAL</text>
+<text x="0" y="5.08" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 <package name="15-97-8043">
 <pad name="3" x="2.10058125" y="2.7559" drill="1.397" diameter="1.8288"/>
@@ -445,7 +443,7 @@ at 14/06/2012 11:09:42</description>
 <wire x1="5.08" y1="-5.08" x2="5.08" y2="5.08" width="0.127" layer="25"/>
 <wire x1="5.08" y1="5.08" x2="-5.08" y2="5.08" width="0.127" layer="25"/>
 <text x="-5.08" y="5.08" size="1.27" layer="25">&gt;NAME</text>
-<text x="1.27" y="5.08" size="1.27" layer="25">&gt;VAL</text>
+<text x="1.27" y="5.08" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -585,15 +583,23 @@ at 14/06/2012 11:09:42</description>
 <packages>
 <package name="VCF4-1000">
 <pad name="NC" x="0.4064" y="0" drill="2.3368" shape="square"/>
-<pad name="COIL2" x="0" y="8.4455" drill="2.3368" shape="square" rot="R90"/>
-<pad name="COM" x="9.4996" y="0" drill="2.3368" shape="square"/>
-<pad name="COIL1" x="0" y="-8.4455" drill="2.3368" shape="square"/>
-<pad name="NO" x="-8.4074" y="0" drill="2.3368" shape="square" rot="R90"/>
+<pad name="COIL2" x="0" y="8.4455" drill="2.3368" rot="R90"/>
+<pad name="COM" x="9.4996" y="0" drill="2.3368"/>
+<pad name="COIL1" x="0" y="-8.4455" drill="2.3368"/>
+<pad name="NO" x="-8.4074" y="0" drill="2.3368" rot="R90"/>
 <text x="13.97" y="-1.27" size="1.27" layer="25" rot="R90">COM</text>
 <text x="-1.27" y="-1.27" size="1.27" layer="25" rot="R90">NC</text>
 <text x="-10.16" y="-1.27" size="1.27" layer="25" rot="R90">NO</text>
 <text x="3.81" y="-10.16" size="1.27" layer="25" rot="R90">Coil1</text>
 <text x="3.81" y="6.35" size="1.27" layer="25" rot="R90">Coil2</text>
+<hole x="-7.493" y="-6.5024" drill="2.1082"/>
+<hole x="6.5024" y="6.5024" drill="2.1082"/>
+<wire x1="13.2715" y1="12.0015" x2="-13.2715" y2="12.0015" width="0.127" layer="25"/>
+<wire x1="-13.2715" y1="12.0015" x2="-13.2715" y2="-12.0015" width="0.127" layer="25"/>
+<wire x1="-13.2588" y1="-12.0142" x2="13.2842" y2="-12.0142" width="0.127" layer="25"/>
+<wire x1="13.2842" y1="-12.0142" x2="13.2842" y2="11.9888" width="0.127" layer="25"/>
+<text x="-11.43" y="12.7" size="1.27" layer="25">&gt;NAME</text>
+<text x="1.27" y="12.7" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -812,9 +818,9 @@ at 14/06/2012 11:09:42</description>
 <wire x1="-30.48" y1="-83.82" x2="-30.48" y2="-88.9" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$8" gate="G$1" pin="4"/>
-<wire x1="55.88" y1="-119.38" x2="60.96" y2="-119.38" width="0.1524" layer="91"/>
-<label x="60.96" y="-119.38" size="1.27" layer="95" xref="yes"/>
+<pinref part="U$8" gate="G$1" pin="2"/>
+<wire x1="55.88" y1="-109.22" x2="60.96" y2="-109.22" width="0.1524" layer="91"/>
+<label x="60.96" y="-109.22" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="IGNITION" class="0">
@@ -824,9 +830,9 @@ at 14/06/2012 11:09:42</description>
 <label x="-30.48" y="-48.26" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$8" gate="G$1" pin="3"/>
-<wire x1="55.88" y1="-116.84" x2="60.96" y2="-116.84" width="0.1524" layer="91"/>
-<label x="60.96" y="-116.84" size="1.27" layer="95" xref="yes"/>
+<pinref part="U$8" gate="G$1" pin="4"/>
+<wire x1="55.88" y1="-119.38" x2="60.96" y2="-119.38" width="0.1524" layer="91"/>
+<label x="60.96" y="-119.38" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="FUEL" class="0">
@@ -836,9 +842,9 @@ at 14/06/2012 11:09:42</description>
 <label x="-30.48" y="-12.7" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$8" gate="G$1" pin="2"/>
-<wire x1="55.88" y1="-109.22" x2="60.96" y2="-109.22" width="0.1524" layer="91"/>
-<label x="60.96" y="-109.22" size="1.27" layer="95" xref="yes"/>
+<pinref part="U$8" gate="G$1" pin="3"/>
+<wire x1="55.88" y1="-116.84" x2="60.96" y2="-116.84" width="0.1524" layer="91"/>
+<label x="60.96" y="-116.84" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="RECTIFIER" class="0">
@@ -1026,7 +1032,6 @@ at 14/06/2012 11:09:42</description>
 <pinref part="F6" gate="G$1" pin="1"/>
 <wire x1="7.62" y1="-45.72" x2="5.08" y2="-45.72" width="0.1524" layer="91"/>
 <label x="5.08" y="-45.72" size="1.27" layer="95" rot="R180" xref="yes"/>
-<label x="2.54" y="-50.8" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="F5" gate="G$1" pin="1"/>
@@ -1037,6 +1042,11 @@ at 14/06/2012 11:09:42</description>
 <wire x1="-2.54" y1="53.34" x2="-2.54" y2="60.96" width="0.1524" layer="91"/>
 <label x="-2.54" y="60.96" size="1.27" layer="95" rot="R90" xref="yes"/>
 <pinref part="U$15" gate="G$1" pin="NO"/>
+</segment>
+<segment>
+<pinref part="F7" gate="G$1" pin="1"/>
+<wire x1="2.54" y1="-50.8" x2="5.08" y2="-50.8" width="0.1524" layer="91"/>
+<label x="2.54" y="-50.8" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="BAT_+12_FUSED" class="0">
@@ -1059,21 +1069,9 @@ at 14/06/2012 11:09:42</description>
 <junction x="27.94" y="-50.8"/>
 </segment>
 </net>
-<net name="N$7" class="0">
-<segment>
-<pinref part="F7" gate="G$1" pin="1"/>
-<wire x1="5.08" y1="-50.8" x2="2.54" y2="-50.8" width="0.1524" layer="91"/>
-</segment>
-</net>
 </nets>
 </sheet>
 </sheets>
 </schematic>
 </drawing>
-<compatibility>
-<note version="6.3" minversion="6.2.2" severity="warning">
-Since Version 6.2.2 text objects can contain more than one line,
-which will not be processed correctly with this version.
-</note>
-</compatibility>
 </eagle>
