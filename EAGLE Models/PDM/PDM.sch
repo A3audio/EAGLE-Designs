@@ -701,8 +701,8 @@ at 14/06/2012 11:09:42</description>
 <wire x1="-71.12" y1="-111.76" x2="-71.12" y2="-5.08" width="0.3048" layer="94"/>
 <text x="-43.18" y="-7.62" size="1.778" layer="94">Relay</text>
 <text x="48.26" y="-45.72" size="1.27" layer="94">DASH +</text>
-<text x="48.26" y="-48.26" size="1.27" layer="94">ECU+</text>
-<text x="48.26" y="-50.8" size="1.27" layer="94">REAR+</text>
+<text x="48.26" y="-48.26" size="1.27" layer="94">REAR+</text>
+<text x="48.26" y="-50.8" size="1.27" layer="94">ECU+</text>
 <text x="48.26" y="-53.34" size="1.27" layer="94">12V+</text>
 <text x="48.26" y="-55.88" size="1.27" layer="94">GND</text>
 <text x="48.26" y="-58.42" size="1.27" layer="94">GND</text>
@@ -890,10 +890,10 @@ at 14/06/2012 11:09:42</description>
 <pinref part="U$2" gate="G$1" pin="1"/>
 <pinref part="F6" gate="G$1" pin="2"/>
 <wire x1="33.02" y1="-45.72" x2="30.48" y2="-45.72" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="3"/>
+<pinref part="U$2" gate="G$1" pin="2"/>
 <wire x1="30.48" y1="-45.72" x2="17.78" y2="-45.72" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="-50.8" x2="30.48" y2="-50.8" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="-50.8" x2="30.48" y2="-45.72" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="-48.26" x2="30.48" y2="-48.26" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="-48.26" x2="30.48" y2="-45.72" width="0.1524" layer="91"/>
 <junction x="30.48" y="-45.72"/>
 </segment>
 </net>
@@ -1058,14 +1058,13 @@ at 14/06/2012 11:09:42</description>
 </net>
 <net name="12V_FUSED_ECU" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="2"/>
 <pinref part="F7" gate="G$1" pin="2"/>
 <wire x1="15.24" y1="-50.8" x2="27.94" y2="-50.8" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="-50.8" x2="27.94" y2="-48.26" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="-48.26" x2="33.02" y2="-48.26" width="0.1524" layer="91"/>
 <pinref part="U$2" gate="G$1" pin="4"/>
 <wire x1="33.02" y1="-53.34" x2="27.94" y2="-53.34" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="-53.34" x2="27.94" y2="-50.8" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$1" pin="3"/>
+<wire x1="33.02" y1="-50.8" x2="27.94" y2="-50.8" width="0.1524" layer="91"/>
 <junction x="27.94" y="-50.8"/>
 </segment>
 </net>
