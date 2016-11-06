@@ -418,13 +418,13 @@ element14 CAD Library consolidation.ulp
 at 14/06/2012 11:09:42</description>
 <packages>
 <package name="15-97-7084">
-<pad name="7" x="-2.0955" y="2.7559" drill="1.397"/>
-<pad name="6" x="2.0955" y="2.7559" drill="1.397"/>
-<pad name="5" x="6.2865" y="2.7559" drill="1.397"/>
-<pad name="8" x="-6.2865" y="2.7559" drill="1.397"/>
-<pad name="4" x="-6.2865" y="-2.7559" drill="1.397"/>
-<pad name="3" x="-2.0955" y="-2.7559" drill="1.397"/>
-<pad name="2" x="2.0955" y="-2.7559" drill="1.397"/>
+<pad name="7" x="-2.0955" y="2.7559" drill="1.397" shape="square"/>
+<pad name="6" x="2.0955" y="2.7559" drill="1.397" shape="square"/>
+<pad name="5" x="6.2865" y="2.7559" drill="1.397" shape="square"/>
+<pad name="8" x="-6.2865" y="2.7559" drill="1.397" shape="square"/>
+<pad name="4" x="-6.2865" y="-2.7559" drill="1.397" shape="square"/>
+<pad name="3" x="-2.0955" y="-2.7559" drill="1.397" shape="square"/>
+<pad name="2" x="2.0955" y="-2.7559" drill="1.397" shape="square"/>
 <pad name="1" x="6.2865" y="-2.7559" drill="1.397" shape="square"/>
 <wire x1="-8.89" y1="5.08" x2="8.89" y2="5.08" width="0.127" layer="21"/>
 <wire x1="8.89" y1="5.08" x2="8.89" y2="-5.08" width="0.127" layer="21"/>
