@@ -727,7 +727,7 @@ at 14/06/2012 11:09:42</description>
 </plain>
 <instances>
 <instance part="F2" gate="G$1" x="-25.4" y="-33.02" rot="R90"/>
-<instance part="F3" gate="G$1" x="-25.4" y="-66.04" rot="R90"/>
+<instance part="F3" gate="G$1" x="-20.32" y="-66.04" rot="R90"/>
 <instance part="F4" gate="G$1" x="-25.4" y="-101.6" rot="R90"/>
 <instance part="F5" gate="G$1" x="15.24" y="-30.48"/>
 <instance part="F6" gate="G$1" x="12.7" y="-45.72"/>
@@ -753,7 +753,7 @@ at 14/06/2012 11:09:42</description>
 <busses>
 </busses>
 <nets>
-<net name="N$3" class="0">
+<net name="FAN_12V" class="0">
 <segment>
 <pinref part="U$3" gate="G$1" pin="COM"/>
 <pinref part="F4" gate="G$1" pin="2"/>
@@ -779,6 +779,7 @@ at 14/06/2012 11:09:42</description>
 <segment>
 <pinref part="U$4" gate="G$1" pin="COM"/>
 <pinref part="F3" gate="G$1" pin="2"/>
+<wire x1="-20.32" y1="-60.96" x2="-25.4" y2="-60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="FUEL_12V" class="0">
@@ -1004,12 +1005,12 @@ at 14/06/2012 11:09:42</description>
 </segment>
 <segment>
 <pinref part="F3" gate="G$1" pin="1"/>
-<wire x1="-25.4" y1="-71.12" x2="-25.4" y2="-73.66" width="0.1524" layer="91"/>
+<wire x1="-20.32" y1="-71.12" x2="-25.4" y2="-73.66" width="0.1524" layer="91"/>
 <label x="-25.4" y="-73.66" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="U$4" gate="G$1" pin="COIL2"/>
 <wire x1="-38.1" y1="-60.96" x2="-38.1" y2="-71.12" width="0.1524" layer="91"/>
-<wire x1="-38.1" y1="-71.12" x2="-25.4" y2="-71.12" width="0.1524" layer="91"/>
-<junction x="-25.4" y="-71.12"/>
+<wire x1="-38.1" y1="-71.12" x2="-20.32" y2="-71.12" width="0.1524" layer="91"/>
+<junction x="-20.32" y="-71.12"/>
 <pinref part="U$12" gate="G$1" pin="C"/>
 <wire x1="-50.8" y1="-58.42" x2="-50.8" y2="-71.12" width="0.1524" layer="91"/>
 <wire x1="-50.8" y1="-71.12" x2="-38.1" y2="-71.12" width="0.1524" layer="91"/>
