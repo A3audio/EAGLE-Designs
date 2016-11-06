@@ -775,13 +775,13 @@ at 14/06/2012 11:09:42</description>
 <label x="30.48" y="-25.4" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="N$5" class="0">
+<net name="IGN_12V" class="0">
 <segment>
 <pinref part="U$4" gate="G$1" pin="COM"/>
 <pinref part="F3" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="N$6" class="0">
+<net name="FUEL_12V" class="0">
 <segment>
 <pinref part="U$5" gate="G$1" pin="COM"/>
 <pinref part="F2" gate="G$1" pin="2"/>
