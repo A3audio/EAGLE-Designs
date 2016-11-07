@@ -2687,12 +2687,28 @@ design rules under a new name.</description>
 <via x="106.299" y="40.9956" extent="1-16" drill="0.6"/>
 <via x="79.1718" y="56.9214" extent="1-16" drill="0.6"/>
 <via x="71.1708" y="85.1154" extent="1-16" drill="0.6"/>
-<wire x1="53.70133125" y1="69.449359375" x2="44.4754" y2="69.4716" width="0" layer="19" extent="16-16"/>
-<wire x1="67.8434" y1="69.3192" x2="58.780953125" y2="69.387296875" width="0" layer="19" extent="16-16"/>
-<wire x1="31.623" y1="60.8076" x2="39.3954" y2="69.4716" width="0" layer="19" extent="16-16"/>
+<via x="32.385" y="66.04" extent="1-16" drill="0.6"/>
+<via x="32.385" y="67.31" extent="1-16" drill="0.6"/>
+<via x="32.385" y="64.77" extent="1-16" drill="0.6"/>
+<via x="39.37" y="67.31" extent="1-16" drill="0.6"/>
+<via x="39.37" y="66.04" extent="1-16" drill="0.6"/>
+<via x="39.37" y="64.77" extent="1-16" drill="0.6"/>
+<via x="43.815" y="67.31" extent="1-16" drill="0.6"/>
+<via x="43.815" y="66.04" extent="1-16" drill="0.6"/>
+<via x="43.815" y="64.77" extent="1-16" drill="0.6"/>
+<via x="54.61" y="67.31" extent="1-16" drill="0.6"/>
+<via x="54.61" y="66.04" extent="1-16" drill="0.6"/>
+<via x="54.61" y="64.77" extent="1-16" drill="0.6"/>
+<via x="61.595" y="67.31" extent="1-16" drill="0.6"/>
+<via x="61.595" y="66.04" extent="1-16" drill="0.6"/>
+<via x="61.595" y="64.77" extent="1-16" drill="0.6"/>
+<via x="69.85" y="67.31" extent="1-16" drill="0.6"/>
+<via x="69.85" y="66.04" extent="1-16" drill="0.6"/>
+<via x="69.85" y="64.77" extent="1-16" drill="0.6"/>
+<via x="59.8932" y="82.6008" extent="1-16" drill="0.6"/>
 <wire x1="20.1318" y1="60.6044" x2="20.1318" y2="58.5724" width="0" layer="19" extent="16-16"/>
 <wire x1="20.1318" y1="63.246" x2="20.1318" y2="60.6044" width="0" layer="19" extent="16-16"/>
-<wire x1="65.2154" y1="84.0994" x2="59.3344" y2="86.1958" width="0" layer="19" extent="16-16"/>
+<wire x1="65.2154" y1="84.0994" x2="59.8932" y2="82.6008" width="0" layer="19" extent="16-16"/>
 <wire x1="136.8298" y1="82.2602" x2="134.0358" y2="86.6036" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="12V">
@@ -5124,6 +5140,12 @@ design rules under a new name.</description>
 <signal name="N$11">
 </signal>
 <signal name="N$12">
+</signal>
+<signal name="N$15">
+</signal>
+<signal name="N$16">
+</signal>
+<signal name="N$17">
 </signal>
 </signals>
 </board>
