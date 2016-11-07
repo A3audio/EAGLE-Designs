@@ -566,9 +566,9 @@ design rules under a new name.</description>
 <vertex x="54.61" y="36.83"/>
 <vertex x="57.3278" y="36.8046"/>
 <vertex x="58.5978" y="35.5346"/>
-<vertex x="63.5" y="35.56"/>
-<vertex x="66.04" y="33.02"/>
-<vertex x="66.1162" y="13.7668"/>
+<vertex x="67.31" y="35.56"/>
+<vertex x="68.58" y="34.29"/>
+<vertex x="68.6562" y="20.1168"/>
 <vertex x="64.7954" y="11.9126"/>
 <vertex x="62.992" y="11.9126"/>
 <vertex x="62.0522" y="14.3256"/>
@@ -592,9 +592,8 @@ design rules under a new name.</description>
 <vertex x="93.98" y="35.56"/>
 <vertex x="96.52" y="38.1"/>
 <vertex x="96.52" y="40.64"/>
-<vertex x="95.25" y="41.91"/>
-<vertex x="92.71" y="41.91"/>
-<vertex x="91.44" y="40.64"/>
+<vertex x="95.25" y="43.18"/>
+<vertex x="92.71" y="43.18"/>
 <vertex x="88.9" y="35.56"/>
 </polygon>
 </signal>
@@ -783,16 +782,14 @@ design rules under a new name.</description>
 <vertex x="99.06" y="45.72"/>
 <vertex x="102.87" y="40.64"/>
 <vertex x="124.46" y="40.64"/>
-<vertex x="127" y="43.18"/>
-<vertex x="127" y="49.53"/>
-<vertex x="119.38" y="55.88"/>
-<vertex x="119.38" y="80.01"/>
-<vertex x="116.84" y="82.55"/>
+<vertex x="127" y="41.91"/>
+<vertex x="127" y="80.01"/>
+<vertex x="125.73" y="82.55"/>
 <vertex x="107.95" y="82.55"/>
 <vertex x="105.41" y="80.01"/>
 <vertex x="105.41" y="64.77"/>
-<vertex x="100.33" y="59.69"/>
-<vertex x="80.01" y="59.69"/>
+<vertex x="102.87" y="63.5"/>
+<vertex x="80.01" y="63.5"/>
 <vertex x="74.93" y="54.61"/>
 <vertex x="74.93" y="53.34"/>
 <vertex x="71.12" y="49.53"/>
