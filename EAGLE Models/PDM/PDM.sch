@@ -619,11 +619,19 @@ at 14/06/2012 11:09:42</description>
 <text x="48.26" y="-63.5" size="1.27" layer="94">GND</text>
 <text x="48.26" y="-27.94" size="1.27" layer="94">SHIFT</text>
 <text x="48.26" y="-30.48" size="1.27" layer="94">BRKSWT</text>
+<<<<<<< HEAD
 <text x="7.62" y="20.32" size="1.27" layer="94">Charge Cut Relay</text>
 <wire x1="-5.08" y1="-5.08" x2="-5.08" y2="-127" width="0.3048" layer="94"/>
 <wire x1="-5.08" y1="-127" x2="121.92" y2="-127" width="0.3048" layer="94"/>
 <wire x1="121.92" y1="-127" x2="121.92" y2="-5.08" width="0.3048" layer="94"/>
 <wire x1="121.92" y1="-5.08" x2="-5.08" y2="-5.08" width="0.3048" layer="94"/>
+=======
+<text x="35.56" y="15.24" size="1.27" layer="94">Charge Cut Relay</text>
+<wire x1="-5.08" y1="-5.08" x2="-5.08" y2="-127" width="0.3048" layer="94"/>
+<wire x1="-5.08" y1="-127" x2="116.84" y2="-127" width="0.3048" layer="94"/>
+<wire x1="116.84" y1="-127" x2="116.84" y2="-5.08" width="0.3048" layer="94"/>
+<wire x1="116.84" y1="-5.08" x2="-5.08" y2="-5.08" width="0.3048" layer="94"/>
+>>>>>>> refs/remotes/origin/PDM-w/out-main-relay
 <text x="38.1" y="-7.62" size="1.27" layer="94">Connectors</text>
 <text x="35.56" y="-73.66" size="1.27" layer="94">Battery Power In</text>
 <text x="35.56" y="-96.52" size="1.27" layer="94">High Power Out</text>
@@ -644,19 +652,31 @@ at 14/06/2012 11:09:42</description>
 <instance part="U$3" gate="G$1" x="-27.94" y="-91.44"/>
 <instance part="U$4" gate="G$1" x="-27.94" y="-55.88"/>
 <instance part="U$5" gate="G$1" x="-27.94" y="-22.86"/>
+<<<<<<< HEAD
 <instance part="U$7" gate="G$1" x="17.78" y="33.02"/>
+=======
+<instance part="U$7" gate="G$1" x="27.94" y="33.02"/>
+>>>>>>> refs/remotes/origin/PDM-w/out-main-relay
 <instance part="GND1" gate="1" x="30.48" y="-66.04"/>
 <instance part="U$8" gate="G$1" x="40.64" y="-109.22"/>
 <instance part="U$9" gate="G$1" x="40.64" y="-83.82" rot="R270"/>
 <instance part="GND2" gate="1" x="17.78" y="-101.6" rot="R270"/>
 <instance part="U$10" gate="G$1" x="-38.1" y="58.42"/>
+<<<<<<< HEAD
 <instance part="GND3" gate="1" x="7.62" y="17.78"/>
+=======
+<instance part="GND3" gate="1" x="17.78" y="17.78"/>
+>>>>>>> refs/remotes/origin/PDM-w/out-main-relay
 <instance part="U$11" gate="G$1" x="-53.34" y="-22.86" rot="R270"/>
 <instance part="U$12" gate="G$1" x="-50.8" y="-55.88" rot="R270"/>
 <instance part="U$13" gate="G$1" x="-50.8" y="-91.44" rot="R270"/>
 <instance part="F1" gate="G$1" x="17.78" y="-17.78"/>
 <instance part="F7" gate="G$1" x="10.16" y="-50.8"/>
+<<<<<<< HEAD
 <instance part="U$6" gate="G$1" x="83.82" y="-22.86"/>
+=======
+<instance part="U$6" gate="G$1" x="78.74" y="-22.86"/>
+>>>>>>> refs/remotes/origin/PDM-w/out-main-relay
 </instances>
 <busses>
 </busses>
@@ -759,9 +779,15 @@ at 14/06/2012 11:09:42</description>
 <net name="RECTIFIER" class="0">
 <segment>
 <pinref part="U$7" gate="G$1" pin="COM"/>
+<<<<<<< HEAD
 <wire x1="20.32" y1="27.94" x2="20.32" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="20.32" x2="43.18" y2="20.32" width="0.1524" layer="91"/>
 <label x="43.18" y="20.32" size="1.778" layer="95" xref="yes"/>
+=======
+<wire x1="30.48" y1="27.94" x2="30.48" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="17.78" x2="35.56" y2="17.78" width="0.1524" layer="91"/>
+<label x="35.56" y="17.78" size="1.778" layer="95" xref="yes"/>
+>>>>>>> refs/remotes/origin/PDM-w/out-main-relay
 </segment>
 <segment>
 <pinref part="U$8" gate="G$1" pin="1"/>
@@ -782,8 +808,13 @@ at 14/06/2012 11:09:42</description>
 </segment>
 <segment>
 <pinref part="U$6" gate="G$1" pin="1"/>
+<<<<<<< HEAD
 <wire x1="76.2" y1="-17.78" x2="73.66" y2="-17.78" width="0.1524" layer="91"/>
 <label x="73.66" y="-17.78" size="1.778" layer="95" rot="R180" xref="yes"/>
+=======
+<wire x1="71.12" y1="-17.78" x2="68.58" y2="-17.78" width="0.1524" layer="91"/>
+<label x="68.58" y="-17.78" size="1.778" layer="95" rot="R180" xref="yes"/>
+>>>>>>> refs/remotes/origin/PDM-w/out-main-relay
 </segment>
 </net>
 <net name="12V_SHIFT_OUT" class="0">
@@ -849,7 +880,11 @@ at 14/06/2012 11:09:42</description>
 </segment>
 <segment>
 <pinref part="U$7" gate="G$1" pin="COIL2"/>
+<<<<<<< HEAD
 <wire x1="7.62" y1="27.94" x2="7.62" y2="20.32" width="0.1524" layer="91"/>
+=======
+<wire x1="17.78" y1="27.94" x2="17.78" y2="20.32" width="0.1524" layer="91"/>
+>>>>>>> refs/remotes/origin/PDM-w/out-main-relay
 <pinref part="GND3" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -861,6 +896,7 @@ at 14/06/2012 11:09:42</description>
 <wire x1="60.96" y1="-88.9" x2="60.96" y2="-78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
+<<<<<<< HEAD
 <net name="BAT_+12" class="0">
 <segment>
 <pinref part="U$9" gate="G$1" pin="2"/>
@@ -891,6 +927,8 @@ at 14/06/2012 11:09:42</description>
 <wire x1="-30.48" y1="58.42" x2="-30.48" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
+=======
+>>>>>>> refs/remotes/origin/PDM-w/out-main-relay
 <net name="12V" class="0">
 <segment>
 <pinref part="F4" gate="G$1" pin="1"/>
@@ -946,6 +984,24 @@ at 14/06/2012 11:09:42</description>
 <wire x1="2.54" y1="-50.8" x2="5.08" y2="-50.8" width="0.1524" layer="91"/>
 <label x="2.54" y="-50.8" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<label x="25.4" y="43.18" size="1.27" layer="95" rot="R90" xref="yes"/>
+<pinref part="U$7" gate="G$1" pin="NO"/>
+<wire x1="25.4" y1="35.56" x2="25.4" y2="43.18" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$9" gate="G$1" pin="2"/>
+<wire x1="25.4" y1="-78.74" x2="20.32" y2="-78.74" width="0.1524" layer="91"/>
+<label x="20.32" y="-78.74" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$9" gate="G$1" pin="1"/>
+<wire x1="20.32" y1="-78.74" x2="20.32" y2="-88.9" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="-88.9" x2="25.4" y2="-88.9" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="F1" gate="G$1" pin="1"/>
+<wire x1="12.7" y1="-17.78" x2="10.16" y2="-17.78" width="0.1524" layer="91"/>
+<label x="10.16" y="-17.78" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="BAT_+12_FUSED" class="0">
 <segment>
@@ -964,6 +1020,15 @@ at 14/06/2012 11:09:42</description>
 <pinref part="U$2" gate="G$1" pin="3"/>
 <wire x1="33.02" y1="-50.8" x2="27.94" y2="-50.8" width="0.1524" layer="91"/>
 <junction x="27.94" y="-50.8"/>
+</segment>
+</net>
+<net name="CHARGE_CUT_IN" class="0">
+<segment>
+<pinref part="U$10" gate="G$1" pin="C"/>
+<wire x1="-35.56" y1="58.42" x2="-10.16" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="-10.16" y1="38.1" x2="17.78" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="U$7" gate="G$1" pin="COIL1"/>
+<wire x1="-10.16" y1="58.42" x2="-10.16" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
