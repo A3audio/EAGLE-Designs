@@ -861,6 +861,50 @@ at 14/06/2012 11:09:42</description>
 <wire x1="55.88" y1="-88.9" x2="60.96" y2="-88.9" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="-88.9" x2="60.96" y2="-78.74" width="0.1524" layer="91"/>
 </segment>
+<<<<<<< HEAD
+=======
+</net>
+<net name="BAT_+12" class="0">
+<segment>
+<pinref part="U$9" gate="G$1" pin="2"/>
+<wire x1="25.4" y1="-78.74" x2="20.32" y2="-78.74" width="0.1524" layer="91"/>
+<label x="20.32" y="-78.74" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$9" gate="G$1" pin="1"/>
+<wire x1="20.32" y1="-78.74" x2="20.32" y2="-88.9" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="-88.9" x2="25.4" y2="-88.9" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="2.54" y1="45.72" x2="2.54" y2="43.18" width="0.1524" layer="91"/>
+<label x="2.54" y="43.18" size="1.27" layer="95" xref="yes"/>
+<pinref part="U$7" gate="G$1" pin="NO"/>
+<wire x1="35.56" y1="30.48" x2="35.56" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="45.72" x2="2.54" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="U$15" gate="G$1" pin="COM"/>
+<junction x="2.54" y="45.72"/>
+</segment>
+<segment>
+<pinref part="F1" gate="G$1" pin="1"/>
+<wire x1="12.7" y1="-17.78" x2="10.16" y2="-17.78" width="0.1524" layer="91"/>
+<label x="10.16" y="-17.78" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="CHARGE_CUT_IN" class="0">
+<segment>
+<wire x1="-10.16" y1="45.72" x2="-10.16" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="-10.16" y1="38.1" x2="27.94" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="U$7" gate="G$1" pin="COIL1"/>
+<wire x1="27.94" y1="38.1" x2="27.94" y2="33.02" width="0.1524" layer="91"/>
+<pinref part="U$15" gate="G$1" pin="COIL2"/>
+</segment>
+</net>
+<net name="MAIN_RELAY_IN" class="0">
+<segment>
+<pinref part="U$10" gate="G$1" pin="C"/>
+<wire x1="-10.16" y1="58.42" x2="-10.16" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="-35.56" y1="58.42" x2="-10.16" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="U$15" gate="G$1" pin="COIL1"/>
+</segment>
+>>>>>>> parent of e0029b5... Updated rectifier plan, missing ground
 </net>
 <net name="12V" class="0">
 <segment>
