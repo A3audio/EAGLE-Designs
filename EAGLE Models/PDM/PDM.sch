@@ -418,13 +418,13 @@ element14 CAD Library consolidation.ulp
 at 14/06/2012 11:09:42</description>
 <packages>
 <package name="15-97-7084">
-<pad name="7" x="-2.0955" y="2.7559" drill="1.397" shape="square"/>
-<pad name="6" x="2.0955" y="2.7559" drill="1.397" shape="square"/>
-<pad name="5" x="6.2865" y="2.7559" drill="1.397" shape="square"/>
-<pad name="8" x="-6.2865" y="2.7559" drill="1.397" shape="square"/>
-<pad name="4" x="-6.2865" y="-2.7559" drill="1.397" shape="square"/>
-<pad name="3" x="-2.0955" y="-2.7559" drill="1.397" shape="square"/>
-<pad name="2" x="2.0955" y="-2.7559" drill="1.397" shape="square"/>
+<pad name="7" x="-2.0955" y="2.7559" drill="1.397"/>
+<pad name="6" x="2.0955" y="2.7559" drill="1.397"/>
+<pad name="5" x="6.2865" y="2.7559" drill="1.397"/>
+<pad name="8" x="-6.2865" y="2.7559" drill="1.397"/>
+<pad name="4" x="-6.2865" y="-2.7559" drill="1.397"/>
+<pad name="3" x="-2.0955" y="-2.7559" drill="1.397"/>
+<pad name="2" x="2.0955" y="-2.7559" drill="1.397"/>
 <pad name="1" x="6.2865" y="-2.7559" drill="1.397" shape="square"/>
 <wire x1="-8.89" y1="5.08" x2="8.89" y2="5.08" width="0.127" layer="21"/>
 <wire x1="8.89" y1="5.08" x2="8.89" y2="-5.08" width="0.127" layer="21"/>
@@ -898,12 +898,6 @@ at 14/06/2012 11:09:42</description>
 <junction x="30.48" y="-45.72"/>
 </segment>
 </net>
-<net name="N$19" class="0">
-<segment>
-<pinref part="U$2" gate="G$1" pin="5"/>
-<wire x1="33.02" y1="-55.88" x2="30.48" y2="-55.88" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="GND" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="6"/>
@@ -946,6 +940,10 @@ at 14/06/2012 11:09:42</description>
 <pinref part="U$9" gate="G$1" pin="3"/>
 <wire x1="55.88" y1="-88.9" x2="60.96" y2="-88.9" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="-88.9" x2="60.96" y2="-78.74" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="5"/>
+<wire x1="33.02" y1="-55.88" x2="30.48" y2="-55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="12V" class="0">
