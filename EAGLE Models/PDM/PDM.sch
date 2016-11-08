@@ -566,6 +566,97 @@ at 14/06/2012 11:09:42</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="relay">
+<description>&lt;b&gt;Relays&lt;/b&gt;&lt;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Eichhoff
+&lt;li&gt;Finder
+&lt;li&gt;Fujitsu
+&lt;li&gt;HAMLIN
+&lt;li&gt;OMRON
+&lt;li&gt;Matsushita
+&lt;li&gt;NAiS
+&lt;li&gt;Siemens
+&lt;li&gt;Schrack
+&lt;/ul&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="VCF4-1000">
+<pad name="NC" x="0.4064" y="0" drill="2.3368" shape="square"/>
+<pad name="COIL2" x="0" y="8.4455" drill="2.3368" rot="R90"/>
+<pad name="COM" x="9.4996" y="0" drill="2.3368"/>
+<pad name="COIL1" x="0" y="-8.4455" drill="2.3368"/>
+<pad name="NO" x="-8.4074" y="0" drill="2.3368" rot="R90"/>
+<text x="13.97" y="-1.27" size="1.27" layer="25" rot="R90">COM</text>
+<text x="-1.27" y="-1.27" size="1.27" layer="25" rot="R90">NC</text>
+<text x="-10.16" y="-1.27" size="1.27" layer="25" rot="R90">NO</text>
+<text x="3.81" y="-10.16" size="1.27" layer="25" rot="R90">Coil1</text>
+<text x="3.81" y="6.35" size="1.27" layer="25" rot="R90">Coil2</text>
+<hole x="-7.493" y="-6.5024" drill="2.1082"/>
+<hole x="6.5024" y="6.5024" drill="2.1082"/>
+<wire x1="13.2715" y1="12.0015" x2="-13.2715" y2="12.0015" width="0.127" layer="25"/>
+<wire x1="-13.2715" y1="12.0015" x2="-13.2715" y2="-12.0015" width="0.127" layer="25"/>
+<wire x1="-13.2588" y1="-12.0142" x2="13.2842" y2="-12.0142" width="0.127" layer="25"/>
+<wire x1="13.2842" y1="-12.0142" x2="13.2842" y2="11.9888" width="0.127" layer="25"/>
+<text x="-11.43" y="12.7" size="1.27" layer="25">&gt;NAME</text>
+<text x="1.27" y="12.7" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="VCF4-1000">
+<wire x1="-13.97" y1="-1.905" x2="-12.065" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="-6.35" y1="-1.905" x2="-6.35" y2="1.905" width="0.254" layer="94"/>
+<wire x1="-6.35" y1="1.905" x2="-8.255" y2="1.905" width="0.254" layer="94"/>
+<wire x1="-13.97" y1="1.905" x2="-13.97" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-2.54" x2="-10.16" y2="-1.905" width="0.1524" layer="94"/>
+<wire x1="-10.16" y1="-1.905" x2="-6.35" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="2.54" x2="-10.16" y2="1.905" width="0.1524" layer="94"/>
+<wire x1="-10.16" y1="1.905" x2="-13.97" y2="1.905" width="0.254" layer="94"/>
+<wire x1="-12.065" y1="-1.905" x2="-8.255" y2="1.905" width="0.1524" layer="94"/>
+<wire x1="-12.065" y1="-1.905" x2="-10.16" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="-8.255" y1="1.905" x2="-10.16" y2="1.905" width="0.254" layer="94"/>
+<text x="-17.399" y="3.81" size="1.778" layer="96" rot="R270">&gt;VALUE</text>
+<text x="-8.89" y="5.08" size="1.778" layer="95">&gt;PART</text>
+<pin name="COIL2" x="-10.16" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="COIL1" x="-10.16" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<wire x1="5.715" y1="2.54" x2="4.445" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-0.635" y1="2.54" x2="0.635" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-1.27" x2="5.08" y2="3.175" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-1.27" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<circle x="2.54" y="-1.27" radius="0.127" width="0.4064" layer="94"/>
+<text x="5.08" y="-2.54" size="1.778" layer="95">&gt;PART</text>
+<pin name="NC" x="7.62" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="NO" x="-2.54" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="COM" x="2.54" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<text x="-12.7" y="5.08" size="1.27" layer="95" rot="R90">Coil1</text>
+<text x="-12.7" y="-7.62" size="1.27" layer="95" rot="R90">Coil2</text>
+<text x="5.08" y="-7.62" size="1.27" layer="95" rot="R90">COM</text>
+<text x="7.62" y="5.08" size="1.27" layer="95" rot="R90">NC</text>
+<text x="-2.54" y="0" size="1.27" layer="95">NO</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="VCF4-1000">
+<gates>
+<gate name="G$1" symbol="VCF4-1000" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="VCF4-1000">
+<connects>
+<connect gate="G$1" pin="COIL1" pad="COIL1"/>
+<connect gate="G$1" pin="COIL2" pad="COIL2"/>
+<connect gate="G$1" pin="COM" pad="COM"/>
+<connect gate="G$1" pin="NC" pad="NC"/>
+<connect gate="G$1" pin="NO" pad="NO"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -598,12 +689,12 @@ at 14/06/2012 11:09:42</description>
 <part name="U$13" library="diodes-inc" deviceset="MMBD4448H-7-F" device=""/>
 <part name="F1" library="Keystone" deviceset="3568" device=""/>
 <part name="F7" library="Keystone" deviceset="3568" device=""/>
-<part name="U$6" library="BMS Lbr" deviceset="1586041-6" device=""/>
+<part name="U$14" library="relay" deviceset="VCF4-1000" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<text x="7.62" y="15.24" size="1.778" layer="91">charge cut</text>
+<text x="20.32" y="12.7" size="1.778" layer="91">charge cut</text>
 <wire x1="-71.12" y1="-5.08" x2="-10.16" y2="-5.08" width="0.3048" layer="94"/>
 <wire x1="-10.16" y1="-5.08" x2="-10.16" y2="-111.76" width="0.3048" layer="94"/>
 <wire x1="-10.16" y1="-111.76" x2="-71.12" y2="-111.76" width="0.3048" layer="94"/>
@@ -619,12 +710,11 @@ at 14/06/2012 11:09:42</description>
 <text x="48.26" y="-63.5" size="1.27" layer="94">GND</text>
 <text x="48.26" y="-27.94" size="1.27" layer="94">SHIFT</text>
 <text x="48.26" y="-30.48" size="1.27" layer="94">BRKSWT</text>
-
-<text x="35.56" y="15.24" size="1.27" layer="94">Charge Cut Relay</text>
+<text x="35.56" y="12.7" size="1.27" layer="94">Charge Cut Relay</text>
 <wire x1="-5.08" y1="-5.08" x2="-5.08" y2="-127" width="0.3048" layer="94"/>
-<wire x1="-5.08" y1="-127" x2="116.84" y2="-127" width="0.3048" layer="94"/>
-<wire x1="116.84" y1="-127" x2="116.84" y2="-5.08" width="0.3048" layer="94"/>
-<wire x1="116.84" y1="-5.08" x2="-5.08" y2="-5.08" width="0.3048" layer="94"/>
+<wire x1="-5.08" y1="-127" x2="81.28" y2="-127" width="0.3048" layer="94"/>
+<wire x1="81.28" y1="-127" x2="81.28" y2="-5.08" width="0.3048" layer="94"/>
+<wire x1="81.28" y1="-5.08" x2="-5.08" y2="-5.08" width="0.3048" layer="94"/>
 <text x="38.1" y="-7.62" size="1.27" layer="94">Connectors</text>
 <text x="35.56" y="-73.66" size="1.27" layer="94">Battery Power In</text>
 <text x="35.56" y="-96.52" size="1.27" layer="94">High Power Out</text>
@@ -633,6 +723,7 @@ at 14/06/2012 11:09:42</description>
 <wire x1="83.82" y1="10.16" x2="-63.5" y2="10.16" width="0.3048" layer="94"/>
 <wire x1="-63.5" y1="10.16" x2="-63.5" y2="68.58" width="0.3048" layer="94"/>
 <text x="0" y="66.04" size="1.27" layer="94">Main Relay and Charge Cut Relay</text>
+<text x="-22.86" y="40.64" size="1.778" layer="91">Main Relay</text>
 </plain>
 <instances>
 <instance part="F2" gate="G$1" x="-25.4" y="-33.02" rot="R90"/>
@@ -657,7 +748,7 @@ at 14/06/2012 11:09:42</description>
 <instance part="U$13" gate="G$1" x="-50.8" y="-91.44" rot="R270"/>
 <instance part="F1" gate="G$1" x="17.78" y="-17.78"/>
 <instance part="F7" gate="G$1" x="10.16" y="-50.8"/>
-<instance part="U$6" gate="G$1" x="78.74" y="-22.86"/>
+<instance part="U$14" gate="G$1" x="0" y="50.8"/>
 </instances>
 <busses>
 </busses>
@@ -781,11 +872,6 @@ at 14/06/2012 11:09:42</description>
 <wire x1="-40.64" y1="58.42" x2="-48.26" y2="58.42" width="0.1524" layer="91"/>
 <label x="-48.26" y="58.42" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
-<segment>
-<pinref part="U$6" gate="G$1" pin="1"/>
-<wire x1="71.12" y1="-17.78" x2="68.58" y2="-17.78" width="0.1524" layer="91"/>
-<label x="68.58" y="-17.78" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
 </net>
 <net name="12V_SHIFT_OUT" class="0">
 <segment>
@@ -878,8 +964,8 @@ at 14/06/2012 11:09:42</description>
 </segment>
 <segment>
 <pinref part="F3" gate="G$1" pin="1"/>
-<wire x1="-20.32" y1="-71.12" x2="-25.4" y2="-73.66" width="0.1524" layer="91"/>
-<label x="-25.4" y="-73.66" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="-20.32" y1="-71.12" x2="-20.32" y2="-76.2" width="0.1524" layer="91"/>
+<label x="-20.32" y="-76.2" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="U$4" gate="G$1" pin="COIL2"/>
 <wire x1="-38.1" y1="-60.96" x2="-38.1" y2="-71.12" width="0.1524" layer="91"/>
 <wire x1="-38.1" y1="-71.12" x2="-20.32" y2="-71.12" width="0.1524" layer="91"/>
@@ -918,22 +1004,9 @@ at 14/06/2012 11:09:42</description>
 <label x="2.54" y="-50.8" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<label x="25.4" y="43.18" size="1.27" layer="95" rot="R90" xref="yes"/>
-<pinref part="U$7" gate="G$1" pin="NO"/>
-<wire x1="25.4" y1="35.56" x2="25.4" y2="43.18" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="U$9" gate="G$1" pin="2"/>
-<wire x1="25.4" y1="-78.74" x2="20.32" y2="-78.74" width="0.1524" layer="91"/>
-<label x="20.32" y="-78.74" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$9" gate="G$1" pin="1"/>
-<wire x1="20.32" y1="-78.74" x2="20.32" y2="-88.9" width="0.1524" layer="91"/>
-<wire x1="20.32" y1="-88.9" x2="25.4" y2="-88.9" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="F1" gate="G$1" pin="1"/>
-<wire x1="12.7" y1="-17.78" x2="10.16" y2="-17.78" width="0.1524" layer="91"/>
-<label x="10.16" y="-17.78" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$14" gate="G$1" pin="COM"/>
+<wire x1="2.54" y1="45.72" x2="2.54" y2="43.18" width="0.1524" layer="91"/>
+<label x="2.54" y="43.18" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="BAT_+12_FUSED" class="0">
@@ -955,13 +1028,45 @@ at 14/06/2012 11:09:42</description>
 <junction x="27.94" y="-50.8"/>
 </segment>
 </net>
-<net name="CHARGE_CUT_IN" class="0">
+<net name="KILL_SWITCH_DIODE" class="0">
 <segment>
+<pinref part="U$14" gate="G$1" pin="COIL1"/>
+<wire x1="-10.16" y1="55.88" x2="-10.16" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="U$10" gate="G$1" pin="C"/>
 <wire x1="-35.56" y1="58.42" x2="-10.16" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="-10.16" y1="38.1" x2="17.78" y2="38.1" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="CHARGE_SIG" class="0">
+<segment>
+<pinref part="U$14" gate="G$1" pin="COIL2"/>
+<wire x1="-10.16" y1="45.72" x2="-10.16" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="U$7" gate="G$1" pin="COIL1"/>
-<wire x1="-10.16" y1="58.42" x2="-10.16" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="-10.16" y1="38.1" x2="17.78" y2="38.1" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="BAT_12V" class="0">
+<segment>
+<pinref part="U$14" gate="G$1" pin="NO"/>
+<wire x1="-2.54" y1="53.34" x2="-2.54" y2="60.96" width="0.1524" layer="91"/>
+<label x="-2.54" y="60.96" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="F1" gate="G$1" pin="1"/>
+<wire x1="12.7" y1="-17.78" x2="10.16" y2="-17.78" width="0.1524" layer="91"/>
+<label x="10.16" y="-17.78" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<label x="25.4" y="43.18" size="1.27" layer="95" rot="R90" xref="yes"/>
+<pinref part="U$7" gate="G$1" pin="NO"/>
+<wire x1="25.4" y1="35.56" x2="25.4" y2="43.18" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$9" gate="G$1" pin="2"/>
+<wire x1="25.4" y1="-78.74" x2="20.32" y2="-78.74" width="0.1524" layer="91"/>
+<label x="20.32" y="-78.74" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$9" gate="G$1" pin="1"/>
+<wire x1="20.32" y1="-78.74" x2="20.32" y2="-88.9" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="-88.9" x2="25.4" y2="-88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
