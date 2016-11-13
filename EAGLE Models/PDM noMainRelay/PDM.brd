@@ -116,6 +116,20 @@
 <hole x="83.3374" y="3.81" drill="3.175"/>
 <hole x="83.3374" y="71.7804" drill="3.556"/>
 <hole x="6.35" y="71.7804" drill="3.175"/>
+<text x="14.605" y="14.3002" size="1.016" layer="121">Rect</text>
+<text x="19.8882" y="14.1732" size="1.016" layer="121">FAN</text>
+<text x="23.9268" y="14.224" size="1.016" layer="121">FUEL</text>
+<text x="28.3718" y="14.224" size="1.016" layer="121">IGN</text>
+<text x="47.9552" y="15.7226" size="1.016" layer="121">12V_DAQ</text>
+<text x="58.3184" y="15.7988" size="1.016" layer="121">12V_ECU</text>
+<text x="65.7352" y="54.2798" size="1.016" layer="121">A24</text>
+<text x="66.7766" y="4.4958" size="1.27" layer="121" rot="R90">LC_2</text>
+<text x="69.5706" y="54.356" size="1.016" layer="121">KS_RTN</text>
+<text x="66.0908" y="39.5478" size="1.016" layer="121">A23</text>
+<text x="70.6628" y="39.5478" size="1.016" layer="121">SFT+</text>
+<text x="75.1332" y="39.6748" size="1.016" layer="121">BRK+</text>
+<text x="42.2402" y="50.7238" size="1.016" layer="121">12+</text>
+<text x="46.863" y="50.927" size="1.016" layer="121">12+</text>
 </plain>
 <libraries>
 <library name="Keystone">
@@ -171,11 +185,11 @@
 <library name="panasonic">
 <packages>
 <package name="ACTP112">
-<pad name="NC" x="0" y="0" drill="1.397" shape="square"/>
+<pad name="NC" x="0" y="0" drill="1.397"/>
 <pad name="COM" x="-9.4996" y="0.6604" drill="1.397" shape="square" rot="R90"/>
-<pad name="NO" x="-3.5052" y="3.81" drill="1.397" shape="square"/>
-<pad name="COIL2" x="4.953" y="0.6604" drill="1.0922" shape="square" rot="R90"/>
-<pad name="COIL1" x="4.953" y="5.5118" drill="1.0922" shape="square"/>
+<pad name="NO" x="-3.5052" y="3.81" drill="1.397"/>
+<pad name="COIL2" x="4.953" y="0.6604" drill="1.0922" rot="R90"/>
+<pad name="COIL1" x="4.953" y="5.5118" drill="1.0922"/>
 <wire x1="0" y1="-1.2954" x2="-10.7442" y2="-1.2954" width="0.127" layer="21"/>
 <wire x1="-10.795" y1="-1.27" x2="-10.8458" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="-10.8458" y1="-1.27" x2="-10.8458" y2="6.9342" width="0.127" layer="21"/>
@@ -430,31 +444,73 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="F2" library="Keystone" package="3568" value="3568" x="41.91" y="29.21" rot="R270"/>
-<element name="F3" library="Keystone" package="3568" value="3568" x="63.7286" y="29.2354" rot="R270"/>
-<element name="F4" library="Keystone" package="3568" value="3568" x="10.8712" y="27.5082" rot="R270"/>
-<element name="F5" library="Keystone" package="3568" value="3568" x="30.48" y="52.07"/>
-<element name="F6" library="Keystone" package="3568" value="3568" x="71.1962" y="29.2608" rot="R270"/>
-<element name="U$1" library="BMS Lbr" package="1586041-6" value="1586041-6" x="71.9074" y="47.3202"/>
-<element name="U$2" library="BMS Lbr" package="1586042-8" value="1586042-8" x="55.88" y="8.89"/>
-<element name="U$3" library="panasonic" package="ACTP112" value="ACTP112ACTP112" x="22.86" y="30.48" rot="R90"/>
-<element name="U$4" library="panasonic" package="ACTP112" value="ACTP112ACTP112" x="57.15" y="30.48" rot="R90"/>
-<element name="U$5" library="panasonic" package="ACTP112" value="ACTP112ACTP112" x="34.6964" y="30.48" rot="R90"/>
-<element name="U$7" library="panasonic" package="ACTP112" value="ACTP112ACTP112" x="13.97" y="44.45" rot="R359.9"/>
-<element name="U$8" library="molex" package="15-97-7084" value="15-97-7084" x="22.86" y="8.89" rot="R180"/>
-<element name="U$9" library="molex" package="15-97-8043" value="15-97-8043" x="45.72" y="57.15"/>
-<element name="U$10" library="diodes-inc" package="SOT23-3" value="MMBD4448H-7-F" x="21.4122" y="55.8546" rot="MR270"/>
-<element name="U$11" library="diodes-inc" package="SOT23-3" value="MMBD4448H-7-F" x="54.102" y="36.8554" rot="MR180"/>
-<element name="U$12" library="diodes-inc" package="SOT23-3" value="MMBD4448H-7-F" x="31.6484" y="36.8046" rot="MR180"/>
-<element name="U$13" library="diodes-inc" package="SOT23-3" value="MMBD4448H-7-F" x="19.7358" y="36.8046" rot="MR180"/>
-<element name="F7" library="Keystone" package="3568" value="3568" x="78.6892" y="29.21" rot="R270"/>
-<element name="U$6" library="diodes-inc" package="SOT23-3" value="MMBD4448H-7-F" x="21.59" y="46.99" rot="MR270"/>
+<element name="FUEL_F" library="Keystone" package="3568" value="3568" x="41.91" y="29.21" smashed="yes" rot="R270">
+<attribute name="NAME" x="39.0652" y="37.338" size="1.27" layer="25"/>
+<attribute name="VALUE" x="39.9034" y="31.0134" size="1.27" layer="27"/>
+</element>
+<element name="IGN_F" library="Keystone" package="3568" value="3568" x="63.7286" y="29.2354" smashed="yes" rot="R270">
+<attribute name="NAME" x="60.9092" y="37.2872" size="1.27" layer="25"/>
+<attribute name="VALUE" x="61.3664" y="31.3436" size="1.27" layer="27"/>
+</element>
+<element name="FAN_F" library="Keystone" package="3568" value="3568" x="10.8712" y="27.5082" smashed="yes" rot="R270">
+<attribute name="NAME" x="8.5598" y="35.8648" size="1.27" layer="25"/>
+<attribute name="VALUE" x="9.0678" y="29.2862" size="1.27" layer="27"/>
+</element>
+<element name="SHIFT_FUSE" library="Keystone" package="3568" value="3568" x="30.48" y="52.07" smashed="yes">
+<attribute name="NAME" x="26.8478" y="55.8038" size="1.27" layer="25"/>
+<attribute name="VALUE" x="29.464" y="50.1142" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="DAQ_F" library="Keystone" package="3568" value="3568" x="71.1962" y="29.2608" smashed="yes" rot="R270">
+<attribute name="NAME" x="68.961" y="37.5158" size="1.27" layer="25"/>
+<attribute name="VALUE" x="69.5452" y="31.4198" size="1.27" layer="27"/>
+</element>
+<element name="LC_1" library="BMS Lbr" package="1586041-6" value="1586041-6" x="71.9074" y="47.3202" smashed="yes">
+<attribute name="NAME" x="80.899" y="48.2092" size="1.27" layer="25" rot="R90"/>
+</element>
+<element name="LC_2" library="BMS Lbr" package="1586042-8" value="1586042-8" x="55.88" y="8.89" smashed="yes"/>
+<element name="FAN_R" library="panasonic" package="ACTP112" value="ACTP112ACTP112" x="22.86" y="30.48" smashed="yes" rot="R90">
+<attribute name="NAME" x="24.6126" y="34.8488" size="1.27" layer="25" rot="R270"/>
+</element>
+<element name="IGN_R" library="panasonic" package="ACTP112" value="ACTP112ACTP112" x="57.15" y="30.48" smashed="yes" rot="R90">
+<attribute name="NAME" x="49.7586" y="21.5392" size="1.27" layer="25" rot="R90"/>
+</element>
+<element name="FUEL_R" library="panasonic" package="ACTP112" value="ACTP112ACTP112" x="34.6964" y="30.48" smashed="yes" rot="R90">
+<attribute name="NAME" x="27.2542" y="20.9804" size="1.27" layer="25" rot="R90"/>
+</element>
+<element name="RECT_RELAY" library="panasonic" package="ACTP112" value="ACTP112ACTP112" x="13.97" y="44.45" smashed="yes" rot="R359.9">
+<attribute name="NAME" x="3.239334375" y="51.6821625" size="1.27" layer="25" rot="R359.9"/>
+</element>
+<element name="HC" library="molex" package="15-97-7084" value="15-97-7084" x="22.86" y="8.89" smashed="yes" rot="R180">
+<attribute name="NAME" x="29.9974" y="3.1496" size="1.27" layer="25" rot="R180"/>
+</element>
+<element name="BAT_SUP" library="molex" package="15-97-8043" value="15-97-8043" x="45.72" y="57.15" smashed="yes">
+<attribute name="NAME" x="52.9082" y="53.467" size="1.27" layer="25" rot="R90"/>
+</element>
+<element name="K_SWT_D" library="diodes-inc" package="SOT23-3" value="MMBD4448H-7-F" x="21.4122" y="55.8546" smashed="yes" rot="MR270">
+<attribute name="NAME" x="17.78" y="59.3852" size="1.27" layer="26" rot="MR180"/>
+</element>
+<element name="IGN_D" library="diodes-inc" package="SOT23-3" value="MMBD4448H-7-F" x="54.102" y="36.8554" smashed="yes" rot="MR180">
+<attribute name="NAME" x="51.816" y="40.4368" size="1.27" layer="26" rot="MR180"/>
+</element>
+<element name="FUEL_D" library="diodes-inc" package="SOT23-3" value="MMBD4448H-7-F" x="31.6484" y="36.8046" smashed="yes" rot="MR180">
+<attribute name="NAME" x="28.3464" y="40.3352" size="1.27" layer="26" rot="MR180"/>
+</element>
+<element name="FAN_D" library="diodes-inc" package="SOT23-3" value="MMBD4448H-7-F" x="19.7358" y="36.8046" smashed="yes" rot="MR180">
+<attribute name="NAME" x="17.4244" y="40.3352" size="1.27" layer="26" rot="MR180"/>
+</element>
+<element name="ECU_F" library="Keystone" package="3568" value="3568" x="78.6892" y="29.21" smashed="yes" rot="R270">
+<attribute name="NAME" x="76.4794" y="37.465" size="1.27" layer="25"/>
+<attribute name="VALUE" x="77.1398" y="31.3436" size="1.27" layer="27"/>
+</element>
+<element name="CC_D" library="diodes-inc" package="SOT23-3" value="MMBD4448H-7-F" x="21.59" y="46.99" smashed="yes" rot="MR270">
+<attribute name="NAME" x="25.5778" y="48.3108" size="1.27" layer="26" rot="MR270"/>
+</element>
 </elements>
 <signals>
 <signal name="FAN_12V">
-<contactref element="U$3" pad="COM"/>
-<contactref element="F4" pad="3"/>
-<contactref element="F4" pad="4"/>
+<contactref element="FAN_R" pad="COM"/>
+<contactref element="FAN_F" pad="3"/>
+<contactref element="FAN_F" pad="4"/>
 <polygon width="0.381" layer="1">
 <vertex x="8.7884" y="24.7904"/>
 <vertex x="6.858" y="24.0792"/>
@@ -467,9 +523,9 @@ design rules under a new name.</description>
 </polygon>
 </signal>
 <signal name="A23">
-<contactref element="U$3" pad="COIL1"/>
-<contactref element="U$1" pad="4"/>
-<contactref element="U$13" pad="1"/>
+<contactref element="FAN_R" pad="COIL1"/>
+<contactref element="LC_1" pad="4"/>
+<contactref element="FAN_D" pad="1"/>
 <wire x1="34.29" y1="46.99" x2="59.69" y2="46.99" width="0.381" layer="16"/>
 <wire x1="59.69" y1="46.99" x2="62.23" y2="44.45" width="0.381" layer="16"/>
 <wire x1="62.23" y1="44.45" x2="67.8307" y2="44.45" width="0.381" layer="16"/>
@@ -483,17 +539,17 @@ design rules under a new name.</description>
 <wire x1="18.7858" y1="36.8706" x2="18.7858" y2="37.9046" width="0.381" layer="16"/>
 </signal>
 <signal name="IGN_12V">
-<contactref element="U$4" pad="COM"/>
-<contactref element="F3" pad="3"/>
-<contactref element="F3" pad="4"/>
+<contactref element="IGN_R" pad="COM"/>
+<contactref element="IGN_F" pad="3"/>
+<contactref element="IGN_F" pad="4"/>
 <wire x1="56.4896" y1="20.9804" x2="59.7916" y2="24.2824" width="3.81" layer="1"/>
 <wire x1="59.7916" y1="24.2824" x2="62.0268" y2="24.2824" width="3.81" layer="1"/>
 <wire x1="65.4304" y1="24.2824" x2="62.0268" y2="24.2824" width="3.81" layer="1"/>
 </signal>
 <signal name="FUEL_12V">
-<contactref element="U$5" pad="COM"/>
-<contactref element="F2" pad="3"/>
-<contactref element="F2" pad="4"/>
+<contactref element="FUEL_R" pad="COM"/>
+<contactref element="FUEL_F" pad="3"/>
+<contactref element="FUEL_F" pad="4"/>
 <polygon width="0.381" layer="1">
 <vertex x="44.45" y="26.67"/>
 <vertex x="45.72" y="25.4"/>
@@ -509,8 +565,8 @@ design rules under a new name.</description>
 </polygon>
 </signal>
 <signal name="FAN">
-<contactref element="U$3" pad="NO"/>
-<contactref element="U$8" pad="2"/>
+<contactref element="FAN_R" pad="NO"/>
+<contactref element="HC" pad="2"/>
 <polygon width="0.381" layer="16">
 <vertex x="16.51" y="27.94"/>
 <vertex x="17.78" y="29.21"/>
@@ -529,8 +585,8 @@ design rules under a new name.</description>
 </polygon>
 </signal>
 <signal name="IGNITION">
-<contactref element="U$4" pad="NO"/>
-<contactref element="U$8" pad="4"/>
+<contactref element="IGN_R" pad="NO"/>
+<contactref element="HC" pad="4"/>
 <polygon width="0.508" layer="1" isolate="0.381">
 <vertex x="27.432" y="12.573"/>
 <vertex x="27.432" y="10.2108"/>
@@ -547,8 +603,8 @@ design rules under a new name.</description>
 </polygon>
 </signal>
 <signal name="FUEL">
-<contactref element="U$5" pad="NO"/>
-<contactref element="U$8" pad="3"/>
+<contactref element="FUEL_R" pad="NO"/>
+<contactref element="HC" pad="3"/>
 <polygon width="0.381" layer="16">
 <vertex x="23.2664" y="11.7602"/>
 <vertex x="24.13" y="10.16"/>
@@ -567,8 +623,8 @@ design rules under a new name.</description>
 </polygon>
 </signal>
 <signal name="RECTIFIER">
-<contactref element="U$7" pad="COM"/>
-<contactref element="U$8" pad="1"/>
+<contactref element="RECT_RELAY" pad="COM"/>
+<contactref element="HC" pad="1"/>
 <polygon width="0.381" layer="16" isolate="0.254">
 <vertex x="3.81" y="48.26"/>
 <vertex x="2.54" y="46.99"/>
@@ -584,10 +640,10 @@ design rules under a new name.</description>
 </polygon>
 </signal>
 <signal name="12V_SHIFT_OUT">
-<contactref element="U$1" pad="5"/>
-<contactref element="U$1" pad="6"/>
-<contactref element="F5" pad="3"/>
-<contactref element="F5" pad="4"/>
+<contactref element="LC_1" pad="5"/>
+<contactref element="LC_1" pad="6"/>
+<contactref element="SHIFT_FUSE" pad="3"/>
+<contactref element="SHIFT_FUSE" pad="4"/>
 <wire x1="35.433" y1="50.3682" x2="35.433" y2="53.7718" width="2.54" layer="16"/>
 <wire x1="63.5" y1="46.99" x2="69.4817" y2="46.99" width="1.524" layer="16"/>
 <wire x1="69.4817" y1="46.99" x2="71.9074" y2="44.5643" width="1.524" layer="16"/>
@@ -598,10 +654,10 @@ design rules under a new name.</description>
 <wire x1="76.0857" y1="44.5643" x2="76.0984" y2="44.5643" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="12V_DAQ_OUT">
-<contactref element="U$2" pad="1"/>
-<contactref element="F6" pad="3"/>
-<contactref element="F6" pad="4"/>
-<contactref element="U$2" pad="2"/>
+<contactref element="LC_2" pad="1"/>
+<contactref element="DAQ_F" pad="3"/>
+<contactref element="DAQ_F" pad="4"/>
+<contactref element="LC_2" pad="2"/>
 <wire x1="69.4944" y1="24.3078" x2="72.898" y2="24.3078" width="1.905" layer="1"/>
 <wire x1="49.5935" y1="11.6459" x2="53.7845" y2="11.6459" width="1.27" layer="1"/>
 <wire x1="53.7845" y1="11.6459" x2="53.7845" y2="11.8745" width="1.27" layer="1"/>
@@ -612,16 +668,16 @@ design rules under a new name.</description>
 <wire x1="68.58" y1="23.3934" x2="69.4944" y2="24.3078" width="1.27" layer="1"/>
 </signal>
 <signal name="GND">
-<contactref element="U$2" pad="6"/>
-<contactref element="U$2" pad="7"/>
-<contactref element="U$2" pad="8"/>
-<contactref element="U$8" pad="7"/>
-<contactref element="U$8" pad="6"/>
-<contactref element="U$8" pad="5"/>
-<contactref element="U$7" pad="COIL2"/>
-<contactref element="U$9" pad="4"/>
-<contactref element="U$9" pad="3"/>
-<contactref element="U$8" pad="8"/>
+<contactref element="LC_2" pad="6"/>
+<contactref element="LC_2" pad="7"/>
+<contactref element="LC_2" pad="8"/>
+<contactref element="HC" pad="7"/>
+<contactref element="HC" pad="6"/>
+<contactref element="HC" pad="5"/>
+<contactref element="RECT_RELAY" pad="COIL2"/>
+<contactref element="BAT_SUP" pad="4"/>
+<contactref element="BAT_SUP" pad="3"/>
+<contactref element="HC" pad="8"/>
 <via x="11.43" y="72.39" extent="1-16" drill="0.6"/>
 <polygon width="0.508" layer="1" rank="2">
 <vertex x="-1.016" y="76.7588"/>
@@ -635,7 +691,7 @@ design rules under a new name.</description>
 <vertex x="90.17" y="-1.27"/>
 <vertex x="-1.27" y="-1.27"/>
 </polygon>
-<contactref element="U$2" pad="5"/>
+<contactref element="LC_2" pad="5"/>
 <via x="16.51" y="72.39" extent="1-16" drill="0.6"/>
 <via x="21.59" y="72.39" extent="1-16" drill="0.6"/>
 <via x="26.67" y="72.39" extent="1-16" drill="0.6"/>
@@ -649,27 +705,27 @@ design rules under a new name.</description>
 <via x="67.31" y="72.39" extent="1-16" drill="0.6"/>
 <via x="72.39" y="72.39" extent="1-16" drill="0.6"/>
 <via x="77.47" y="72.39" extent="1-16" drill="0.6"/>
-<contactref element="U$6" pad="3"/>
+<contactref element="CC_D" pad="3"/>
 </signal>
 <signal name="12V">
-<contactref element="F4" pad="1"/>
-<contactref element="F4" pad="2"/>
-<contactref element="F3" pad="1"/>
-<contactref element="F3" pad="2"/>
-<contactref element="F2" pad="1"/>
-<contactref element="F2" pad="2"/>
-<contactref element="F6" pad="1"/>
-<contactref element="F6" pad="2"/>
-<contactref element="F5" pad="1"/>
-<contactref element="F5" pad="2"/>
-<contactref element="U$5" pad="COIL2"/>
-<contactref element="U$4" pad="COIL2"/>
-<contactref element="U$3" pad="COIL2"/>
-<contactref element="U$11" pad="3"/>
-<contactref element="U$12" pad="3"/>
-<contactref element="U$13" pad="3"/>
-<contactref element="F7" pad="2"/>
-<contactref element="F7" pad="1"/>
+<contactref element="FAN_F" pad="1"/>
+<contactref element="FAN_F" pad="2"/>
+<contactref element="IGN_F" pad="1"/>
+<contactref element="IGN_F" pad="2"/>
+<contactref element="FUEL_F" pad="1"/>
+<contactref element="FUEL_F" pad="2"/>
+<contactref element="DAQ_F" pad="1"/>
+<contactref element="DAQ_F" pad="2"/>
+<contactref element="SHIFT_FUSE" pad="1"/>
+<contactref element="SHIFT_FUSE" pad="2"/>
+<contactref element="FUEL_R" pad="COIL2"/>
+<contactref element="IGN_R" pad="COIL2"/>
+<contactref element="FAN_R" pad="COIL2"/>
+<contactref element="IGN_D" pad="3"/>
+<contactref element="FUEL_D" pad="3"/>
+<contactref element="FAN_D" pad="3"/>
+<contactref element="ECU_F" pad="2"/>
+<contactref element="ECU_F" pad="1"/>
 <wire x1="22.1996" y1="35.433" x2="22.1996" y2="35.8726" width="0.381" layer="16"/>
 <wire x1="54.102" y1="35.7554" x2="54.4244" y2="35.433" width="0.381" layer="16"/>
 <wire x1="54.4244" y1="35.433" x2="56.4896" y2="35.433" width="0.381" layer="16"/>
@@ -677,9 +733,9 @@ design rules under a new name.</description>
 <wire x1="33.7644" y1="35.7046" x2="34.036" y2="35.433" width="0.381" layer="16"/>
 <wire x1="19.7358" y1="35.7046" x2="21.928" y2="35.7046" width="0.381" layer="16"/>
 <wire x1="21.928" y1="35.7046" x2="22.1996" y2="35.433" width="0.381" layer="16"/>
-<contactref element="U$7" pad="NO"/>
-<contactref element="U$9" pad="2"/>
-<contactref element="U$9" pad="1"/>
+<contactref element="RECT_RELAY" pad="NO"/>
+<contactref element="BAT_SUP" pad="2"/>
+<contactref element="BAT_SUP" pad="1"/>
 <polygon width="0.4064" layer="1">
 <vertex x="7.62" y="53.34"/>
 <vertex x="10.16" y="57.15"/>
@@ -694,8 +750,8 @@ design rules under a new name.</description>
 <vertex x="86.36" y="40.64"/>
 <vertex x="87.63" y="39.37"/>
 <vertex x="87.63" y="30.48"/>
-<vertex x="86.36" y="29.21"/>
-<vertex x="60.96" y="29.21"/>
+<vertex x="85.4964" y="31.242"/>
+<vertex x="60.0964" y="31.242"/>
 <vertex x="58.42" y="31.75"/>
 <vertex x="55.88" y="31.75"/>
 <vertex x="54.61" y="30.48"/>
@@ -710,10 +766,10 @@ design rules under a new name.</description>
 </polygon>
 </signal>
 <signal name="12V_FUSED_ECU">
-<contactref element="F7" pad="3"/>
-<contactref element="F7" pad="4"/>
-<contactref element="U$2" pad="4"/>
-<contactref element="U$2" pad="3"/>
+<contactref element="ECU_F" pad="3"/>
+<contactref element="ECU_F" pad="4"/>
+<contactref element="LC_2" pad="4"/>
+<contactref element="LC_2" pad="3"/>
 <wire x1="76.9874" y1="24.257" x2="80.391" y2="24.257" width="1.905" layer="1"/>
 <wire x1="57.9755" y1="11.6459" x2="62.1665" y2="11.6459" width="1.27" layer="1"/>
 <wire x1="62.1665" y1="11.6459" x2="66.2559" y2="11.6459" width="1.27" layer="1"/>
@@ -722,27 +778,27 @@ design rules under a new name.</description>
 <wire x1="76.2" y1="23.4696" x2="76.9874" y2="24.257" width="1.27" layer="1"/>
 </signal>
 <signal name="KILL_SWITCH_DIODE">
-<contactref element="U$10" pad="3"/>
-<contactref element="U$7" pad="COIL1"/>
-<contactref element="U$6" pad="1"/>
+<contactref element="K_SWT_D" pad="3"/>
+<contactref element="RECT_RELAY" pad="COIL1"/>
+<contactref element="CC_D" pad="1"/>
 <wire x1="20.3122" y1="55.8546" x2="20.3122" y2="51.25965625" width="0.381" layer="16"/>
 <wire x1="20.3122" y1="51.25965625" x2="18.932609375" y2="49.953146875" width="0.381" layer="16"/>
 <wire x1="18.932609375" y1="49.953146875" x2="20.711634375" y2="49.918365625" width="0.381" layer="16"/>
 <wire x1="20.711634375" y1="49.918365625" x2="22.69" y2="47.94" width="0.381" layer="16"/>
 </signal>
 <signal name="A24">
-<contactref element="U$1" pad="1"/>
+<contactref element="LC_1" pad="1"/>
 </signal>
 <signal name="KILL_SWT_RTRN">
-<contactref element="U$1" pad="2"/>
-<contactref element="U$4" pad="COIL1"/>
-<contactref element="U$5" pad="COIL1"/>
-<contactref element="U$11" pad="1"/>
-<contactref element="U$12" pad="1"/>
+<contactref element="LC_1" pad="2"/>
+<contactref element="IGN_R" pad="COIL1"/>
+<contactref element="FUEL_R" pad="COIL1"/>
+<contactref element="IGN_D" pad="1"/>
+<contactref element="FUEL_D" pad="1"/>
 <wire x1="30.6984" y1="37.9046" x2="30.6984" y2="36.9468" width="0.381" layer="16"/>
 <wire x1="30.6984" y1="36.9468" x2="29.1846" y2="35.433" width="0.381" layer="16"/>
 <wire x1="30.6984" y1="37.9046" x2="30.6984" y2="38.3184" width="0.381" layer="16"/>
-<contactref element="U$10" pad="1"/>
+<contactref element="K_SWT_D" pad="1"/>
 <wire x1="22.5122" y1="56.8046" x2="23.7846" y2="56.8046" width="0.381" layer="16"/>
 <wire x1="23.7846" y1="56.8046" x2="25.4" y2="57.15" width="0.381" layer="16"/>
 <wire x1="25.4" y1="57.15" x2="68.58" y2="57.15" width="0.381" layer="16"/>
