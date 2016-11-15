@@ -913,13 +913,6 @@ at 14/06/2012 11:09:42</description>
 <wire x1="5.08" y1="43.18" x2="17.78" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="A24" class="0">
-<segment>
-<pinref part="LC_1" gate="G$1" pin="1"/>
-<wire x1="30.48" y1="-17.78" x2="33.02" y2="-17.78" width="0.1524" layer="91"/>
-<label x="30.48" y="-17.78" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
 <net name="KILL_SWT_RTRN" class="0">
 <segment>
 <pinref part="LC_1" gate="G$1" pin="2"/>

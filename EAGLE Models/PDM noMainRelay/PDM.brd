@@ -786,9 +786,6 @@ design rules under a new name.</description>
 <wire x1="18.932609375" y1="49.953146875" x2="20.711634375" y2="49.918365625" width="0.381" layer="16"/>
 <wire x1="20.711634375" y1="49.918365625" x2="22.69" y2="47.94" width="0.381" layer="16"/>
 </signal>
-<signal name="A24">
-<contactref element="LC_1" pad="1"/>
-</signal>
 <signal name="KILL_SWT_RTRN">
 <contactref element="LC_1" pad="2"/>
 <contactref element="IGN_R" pad="COIL1"/>

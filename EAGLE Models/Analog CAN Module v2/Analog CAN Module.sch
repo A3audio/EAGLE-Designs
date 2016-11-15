@@ -17953,8 +17953,8 @@ Revised By Daniel Baron</text>
 <instance part="D25" gate="G$1" x="91.44" y="-91.44"/>
 <instance part="D26" gate="G$1" x="73.66" y="-91.44"/>
 <instance part="C87" gate="G$1" x="112.268" y="-152.654" rot="R90"/>
-<instance part="U$4" gate="G$1" x="121.92" y="-142.24" rot="R270"/>
-<instance part="F3" gate="G$1" x="114.3" y="-139.7"/>
+<instance part="U$4" gate="G$1" x="111.76" y="-142.24" rot="R270"/>
+<instance part="F3" gate="G$1" x="121.92" y="-144.78"/>
 </instances>
 <busses>
 </busses>
@@ -19396,12 +19396,12 @@ Revised By Daniel Baron</text>
 <label x="78.74" y="-127" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
+<pinref part="X2" gate="/2" pin="1"/>
+<wire x1="106.68" y1="-129.54" x2="106.68" y2="-139.7" width="0.1524" layer="91"/>
 <pinref part="U$4" gate="G$1" pin="A"/>
+<wire x1="106.68" y1="-139.7" x2="111.76" y2="-139.7" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="-139.7" x2="127" y2="-139.7" width="0.1524" layer="91"/>
 <label x="127" y="-139.7" size="1.778" layer="95" xref="yes"/>
-<wire x1="121.92" y1="-139.7" x2="127" y2="-139.7" width="0.1524" layer="91"/>
-<pinref part="F3" gate="G$1" pin="1"/>
-<wire x1="121.92" y1="-139.7" x2="119.38" y2="-139.7" width="0.1524" layer="91"/>
-<junction x="121.92" y="-139.7"/>
 </segment>
 </net>
 <net name="XTAL1" class="0">
@@ -19638,20 +19638,9 @@ Revised By Daniel Baron</text>
 <junction x="182.88" y="58.42"/>
 </segment>
 <segment>
-<pinref part="X2" gate="/1" pin="1"/>
-<wire x1="104.14" y1="-129.54" x2="104.14" y2="-134.62" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="-152.654" x2="99.06" y2="-134.62" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="-134.62" x2="104.14" y2="-134.62" width="0.1524" layer="91"/>
-<junction x="104.14" y="-134.62"/>
-<wire x1="109.982" y1="-152.654" x2="109.728" y2="-152.654" width="0.1524" layer="91"/>
-<pinref part="C87" gate="G$1" pin="1"/>
-<junction x="109.728" y="-152.654"/>
-<wire x1="109.728" y1="-152.654" x2="99.06" y2="-152.654" width="0.1524" layer="91"/>
-<wire x1="104.14" y1="-134.62" x2="104.14" y2="-144.78" width="0.1524" layer="91"/>
-<pinref part="U$4" gate="G$1" pin="C"/>
-<wire x1="104.14" y1="-144.78" x2="121.92" y2="-144.78" width="0.1524" layer="91"/>
+<pinref part="F3" gate="G$1" pin="1"/>
+<wire x1="127" y1="-144.78" x2="129.54" y2="-144.78" width="0.1524" layer="91"/>
 <label x="129.54" y="-144.78" size="1.778" layer="95" xref="yes"/>
-<wire x1="121.92" y1="-144.78" x2="129.54" y2="-144.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$11" class="0">
@@ -21811,12 +21800,23 @@ Revised By Daniel Baron</text>
 <junction x="337.82" y="-50.8"/>
 </segment>
 </net>
-<net name="GND_PREPTC" class="0">
+<net name="12V_PREPTC" class="0">
 <segment>
-<pinref part="X2" gate="/2" pin="1"/>
-<wire x1="106.68" y1="-129.54" x2="106.68" y2="-139.7" width="0.1524" layer="91"/>
+<pinref part="X2" gate="/1" pin="1"/>
+<wire x1="104.14" y1="-129.54" x2="104.14" y2="-134.62" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="-152.654" x2="99.06" y2="-134.62" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="-134.62" x2="104.14" y2="-134.62" width="0.1524" layer="91"/>
+<junction x="104.14" y="-134.62"/>
+<wire x1="109.982" y1="-152.654" x2="109.728" y2="-152.654" width="0.1524" layer="91"/>
+<pinref part="C87" gate="G$1" pin="1"/>
+<junction x="109.728" y="-152.654"/>
+<wire x1="109.728" y1="-152.654" x2="99.06" y2="-152.654" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="-134.62" x2="104.14" y2="-144.78" width="0.1524" layer="91"/>
 <pinref part="F3" gate="G$1" pin="2"/>
-<wire x1="106.68" y1="-139.7" x2="109.22" y2="-139.7" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="-144.78" x2="111.76" y2="-144.78" width="0.1524" layer="91"/>
+<pinref part="U$4" gate="G$1" pin="C"/>
+<wire x1="111.76" y1="-144.78" x2="104.14" y2="-144.78" width="0.1524" layer="91"/>
+<junction x="111.76" y="-144.78"/>
 </segment>
 </net>
 </nets>
