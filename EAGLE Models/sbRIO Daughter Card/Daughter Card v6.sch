@@ -8536,7 +8536,7 @@ WM4926-ND</description>
 <part name="R13" library="resistor" deviceset="R-US_" device="R0402" value="10k"/>
 <part name="4401-7-F(1)" library="formula electric" deviceset="MMBT4401-7-F" device=""/>
 <part name="R12" library="resistor" deviceset="R-US_" device="R0402" value="4.7k"/>
-<part name="R15" library="resistor" deviceset="R-US_" device="R0402" value="4.7k"/>
+<part name="GND" library="resistor" deviceset="R-US_" device="R0402" value="4.7k"/>
 <part name="R11" library="resistor" deviceset="R-US_" device="R0402" value="4.7k"/>
 <part name="4401-7-F(2)" library="formula electric" deviceset="MMBT4401-7-F" device=""/>
 <part name="R16" library="resistor" deviceset="R-US_" device="R0402" value="4.7k"/>
@@ -8736,7 +8736,7 @@ for Latched Components</text>
 <instance part="R13" gate="G$1" x="5.08" y="-12.7" rot="R90"/>
 <instance part="4401-7-F(1)" gate="G$1" x="177.8" y="-93.98"/>
 <instance part="R12" gate="G$1" x="185.42" y="-88.9"/>
-<instance part="R15" gate="G$1" x="170.18" y="-93.98"/>
+<instance part="GND" gate="G$1" x="170.18" y="-93.98"/>
 <instance part="R11" gate="G$1" x="185.42" y="-58.42"/>
 <instance part="4401-7-F(2)" gate="G$1" x="177.8" y="-63.5"/>
 <instance part="R16" gate="G$1" x="170.18" y="-63.5"/>
@@ -10206,7 +10206,7 @@ for Latched Components</text>
 </net>
 <net name="N$60" class="0">
 <segment>
-<pinref part="R15" gate="G$1" pin="2"/>
+<pinref part="GND" gate="G$1" pin="2"/>
 <pinref part="4401-7-F(1)" gate="G$1" pin="B"/>
 </segment>
 </net>
@@ -10532,7 +10532,7 @@ for Latched Components</text>
 <segment>
 <wire x1="165.1" y1="-93.98" x2="162.56" y2="-93.98" width="0.1524" layer="91"/>
 <label x="162.56" y="-93.98" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="R15" gate="G$1" pin="1"/>
+<pinref part="GND" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="SBRIO_MEZZANINE" gate="G$1" pin="DIO45"/>
@@ -11082,7 +11082,6 @@ for Latched Components</text>
 </sheet>
 </sheets>
 <errors>
-<approved hash="204,1,33.02,-132.08,U$3,VCC,,,,"/>
 <approved hash="202,1,317.5,-111.76,IC2,ST1/2,,,,"/>
 <approved hash="202,1,304.8,-111.76,IC2,ST3/4,,,,"/>
 <approved hash="202,1,281.94,-111.76,IC1,ST1/2,,,,"/>
