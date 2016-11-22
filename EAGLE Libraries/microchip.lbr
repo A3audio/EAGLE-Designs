@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.0125" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -11968,6 +11968,18 @@ Source: www.microchip.com PIC16F1516.pdf</description>
 <text x="4.572" y="-1.27" size="1.016" layer="94" rot="R180">VOUT</text>
 <text x="-5.08" y="7.62" size="1.016" layer="95">&gt;NAME</text>
 <text x="-5.08" y="-10.16" size="1.016" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="MCP73826">
+<wire x1="-10.16" y1="5.08" x2="10.16" y2="5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="5.08" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-7.62" x2="-10.16" y2="5.08" width="0.254" layer="94"/>
+<pin name="SHDN" x="-12.7" y="2.54" length="short"/>
+<pin name="GND" x="-12.7" y="0" length="short"/>
+<pin name="V_BAT" x="-12.7" y="-2.54" length="short"/>
+<pin name="V_DRV" x="12.7" y="-2.54" length="short" rot="R180"/>
+<pin name="V_IN" x="12.7" y="0" length="short" rot="R180"/>
+<pin name="V_SNS" x="12.7" y="2.54" length="short" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -29538,6 +29550,26 @@ Source: 41634A.pdf</description>
 </technologies>
 </device>
 <device name="9700" package="SC-70-5">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MCP73826" prefix="PC">
+<gates>
+<gate name="G$1" symbol="MCP73826" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23-6">
+<connects>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="SHDN" pad="1"/>
+<connect gate="G$1" pin="V_BAT" pad="3"/>
+<connect gate="G$1" pin="V_DRV" pad="4"/>
+<connect gate="G$1" pin="V_IN" pad="5"/>
+<connect gate="G$1" pin="V_SNS" pad="6"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
