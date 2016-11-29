@@ -43486,7 +43486,7 @@ at 30/07/2012 14:34:29</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="NTF6P02">
+<deviceset name="NTF6P02" prefix="T">
 <gates>
 <gate name="G$1" symbol="P_CHANNEL" x="0" y="0"/>
 </gates>
