@@ -11621,7 +11621,7 @@ at 30/07/2012 11:22:31</description>
 <pinref part="H4" gate="G$1" pin="MOUNT"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="PMOS_OUT_1" class="0">
 <segment>
 <pinref part="T1" gate="G$1" pin="D"/>
 <wire x1="-167.64" y1="-60.96" x2="-162.56" y2="-60.96" width="0.1524" layer="91"/>
@@ -11629,7 +11629,7 @@ at 30/07/2012 11:22:31</description>
 <wire x1="-162.56" y1="-60.96" x2="-162.56" y2="-63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="PMOS_OUT_2" class="0">
 <segment>
 <pinref part="T2" gate="G$1" pin="D"/>
 <wire x1="-167.64" y1="-91.44" x2="-162.56" y2="-91.44" width="0.1524" layer="91"/>
