@@ -2049,291 +2049,291 @@ design rules under a new name.</description>
 <attribute name="NAME" x="22.225" y="26.035" size="1.27" layer="22" rot="MR90"/>
 <attribute name="VALUE" x="4.445" y="23.495" size="1.27" layer="22" rot="MR90"/>
 </element>
-<element name="R5" library="adafruit" package="R0603" value="" x="23.8125" y="40.64" smashed="yes" rot="MR90">
+<element name="R5" library="adafruit" package="R0603" value="10k" x="23.8125" y="40.64" smashed="yes" rot="MR90">
 <attribute name="NAME" x="24.7015" y="39.751" size="1.27" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="21.7805" y="39.751" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="R10" library="adafruit" package="R0603" value="" x="26.9875" y="40.64" smashed="yes" rot="MR90">
+<element name="R10" library="adafruit" package="R0603" value="10k" x="26.9875" y="40.64" smashed="yes" rot="MR90">
 <attribute name="NAME" x="27.8765" y="39.751" size="1.27" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="24.9555" y="39.751" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="R11" library="adafruit" package="R0603" value="" x="33.655" y="40.64" smashed="yes" rot="MR90">
+<element name="R11" library="adafruit" package="R0603" value="10k" x="33.655" y="40.64" smashed="yes" rot="MR90">
 <attribute name="NAME" x="34.544" y="39.751" size="1.27" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="31.623" y="39.751" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="R12" library="adafruit" package="R0603" value="" x="36.5125" y="40.64" smashed="yes" rot="MR90">
+<element name="R12" library="adafruit" package="R0603" value="10k" x="36.5125" y="40.64" smashed="yes" rot="MR90">
 <attribute name="NAME" x="37.4015" y="39.751" size="1.27" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="34.4805" y="39.751" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="R13" library="adafruit" package="R0603" value="" x="39.37" y="40.64" smashed="yes" rot="MR90">
+<element name="R13" library="adafruit" package="R0603" value="10k" x="39.37" y="40.64" smashed="yes" rot="MR90">
 <attribute name="NAME" x="40.259" y="39.751" size="1.27" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="37.338" y="39.751" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="R14" library="adafruit" package="R0603" value="" x="42.545" y="40.64" smashed="yes" rot="MR90">
+<element name="R14" library="adafruit" package="R0603" value="10k" x="42.545" y="40.64" smashed="yes" rot="MR90">
 <attribute name="NAME" x="43.434" y="39.751" size="1.27" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="40.513" y="39.751" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="R15" library="adafruit" package="R0603" value="" x="47.9425" y="40.64" smashed="yes" rot="MR90">
+<element name="R15" library="adafruit" package="R0603" value="10k" x="47.9425" y="40.64" smashed="yes" rot="MR90">
 <attribute name="NAME" x="48.8315" y="39.751" size="1.27" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="49.7205" y="38.481" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="R16" library="adafruit" package="R0603" value="" x="51.435" y="40.64" smashed="yes" rot="MR90">
+<element name="R16" library="adafruit" package="R0603" value="10k" x="51.435" y="40.64" smashed="yes" rot="MR90">
 <attribute name="NAME" x="52.324" y="39.751" size="1.27" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="52.197" y="38.989" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="R17" library="adafruit" package="R0603" value="" x="54.2925" y="40.64" smashed="yes" rot="MR90">
+<element name="R17" library="adafruit" package="R0603" value="10k" x="54.2925" y="40.64" smashed="yes" rot="MR90">
 <attribute name="NAME" x="55.1815" y="39.751" size="1.27" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="56.3245" y="42.799" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="R18" library="adafruit" package="R0603" value="" x="57.4675" y="40.64" smashed="yes" rot="MR90">
+<element name="R18" library="adafruit" package="R0603" value="10k" x="57.4675" y="40.64" smashed="yes" rot="MR90">
 <attribute name="NAME" x="58.3565" y="39.751" size="1.27" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="57.9755" y="37.211" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="R19" library="adafruit" package="R0603" value="" x="63.1825" y="40.64" smashed="yes" rot="MR90">
+<element name="R19" library="adafruit" package="R0603" value="10k" x="63.1825" y="40.64" smashed="yes" rot="MR90">
 <attribute name="NAME" x="64.0715" y="39.751" size="1.27" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="61.1505" y="39.751" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="R20" library="adafruit" package="R0603" value="" x="66.04" y="40.64" smashed="yes" rot="MR90">
+<element name="R20" library="adafruit" package="R0603" value="10k" x="66.04" y="40.64" smashed="yes" rot="MR90">
 <attribute name="NAME" x="66.929" y="39.751" size="1.27" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="64.008" y="38.481" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="R21" library="adafruit" package="R0603" value="" x="108.585" y="17.78" smashed="yes" rot="MR270">
+<element name="R21" library="adafruit" package="R0603" value="10k" x="108.585" y="17.78" smashed="yes" rot="MR270">
 <attribute name="NAME" x="107.696" y="18.669" size="1.27" layer="26" rot="MR270"/>
 <attribute name="VALUE" x="110.617" y="18.669" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="R22" library="adafruit" package="R0603" value="" x="105.41" y="17.78" smashed="yes" rot="MR270">
+<element name="R22" library="adafruit" package="R0603" value="10k" x="105.41" y="17.78" smashed="yes" rot="MR270">
 <attribute name="NAME" x="104.521" y="18.669" size="1.27" layer="26" rot="MR270"/>
 <attribute name="VALUE" x="107.442" y="18.669" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="R23" library="adafruit" package="R0603" value="" x="99.695" y="17.78" smashed="yes" rot="MR270">
+<element name="R23" library="adafruit" package="R0603" value="10k" x="99.695" y="17.78" smashed="yes" rot="MR270">
 <attribute name="NAME" x="98.806" y="18.669" size="1.27" layer="26" rot="MR270"/>
 <attribute name="VALUE" x="101.727" y="18.669" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="R24" library="adafruit" package="R0603" value="" x="96.52" y="17.78" smashed="yes" rot="MR270">
+<element name="R24" library="adafruit" package="R0603" value="10k" x="96.52" y="17.78" smashed="yes" rot="MR270">
 <attribute name="NAME" x="95.631" y="18.669" size="1.27" layer="26" rot="MR270"/>
 <attribute name="VALUE" x="98.552" y="18.669" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="R25" library="adafruit" package="R0603" value="" x="93.345" y="17.78" smashed="yes" rot="MR270">
+<element name="R25" library="adafruit" package="R0603" value="10k" x="93.345" y="17.78" smashed="yes" rot="MR270">
 <attribute name="NAME" x="92.456" y="18.669" size="1.27" layer="26" rot="MR270"/>
 <attribute name="VALUE" x="95.377" y="18.669" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="R26" library="adafruit" package="R0603" value="" x="90.17" y="17.78" smashed="yes" rot="MR270">
+<element name="R26" library="adafruit" package="R0603" value="10k" x="90.17" y="17.78" smashed="yes" rot="MR270">
 <attribute name="NAME" x="89.281" y="18.669" size="1.27" layer="26" rot="MR270"/>
 <attribute name="VALUE" x="92.202" y="18.669" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="R27" library="adafruit" package="R0603" value="" x="78.4225" y="17.78" smashed="yes" rot="MR270">
+<element name="R27" library="adafruit" package="R0603" value="10k" x="78.4225" y="17.78" smashed="yes" rot="MR270">
 <attribute name="NAME" x="77.5335" y="18.669" size="1.27" layer="26" rot="MR270"/>
 <attribute name="VALUE" x="80.4545" y="18.669" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="R28" library="adafruit" package="R0603" value="" x="75.2475" y="17.78" smashed="yes" rot="MR270">
+<element name="R28" library="adafruit" package="R0603" value="10k" x="75.2475" y="17.78" smashed="yes" rot="MR270">
 <attribute name="NAME" x="74.3585" y="18.669" size="1.27" layer="26" rot="MR270"/>
 <attribute name="VALUE" x="77.2795" y="18.669" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="R29" library="adafruit" package="R0603" value="" x="84.455" y="17.78" smashed="yes" rot="MR270">
+<element name="R29" library="adafruit" package="R0603" value="10k" x="84.455" y="17.78" smashed="yes" rot="MR270">
 <attribute name="NAME" x="83.566" y="18.669" size="1.27" layer="26" rot="MR270"/>
 <attribute name="VALUE" x="86.487" y="18.669" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="R30" library="adafruit" package="R0603" value="" x="81.28" y="17.78" smashed="yes" rot="MR270">
+<element name="R30" library="adafruit" package="R0603" value="10k" x="81.28" y="17.78" smashed="yes" rot="MR270">
 <attribute name="NAME" x="80.391" y="18.669" size="1.27" layer="26" rot="MR270"/>
 <attribute name="VALUE" x="83.312" y="18.669" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="R31" library="adafruit" package="R0603" value="" x="93.375" y="40.64" smashed="yes" rot="MR90">
+<element name="R31" library="adafruit" package="R0603" value="10k" x="93.375" y="40.64" smashed="yes" rot="MR90">
 <attribute name="NAME" x="94.264" y="39.751" size="1.27" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="91.343" y="39.751" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="R32" library="adafruit" package="R0603" value="" x="96.8575" y="40.64" smashed="yes" rot="MR90">
+<element name="R32" library="adafruit" package="R0603" value="10k" x="96.8575" y="40.64" smashed="yes" rot="MR90">
 <attribute name="NAME" x="97.7465" y="39.751" size="1.27" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="94.8255" y="39.751" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="R4" library="adafruit" package="R0603" value="" x="69.215" y="40.64" smashed="yes" rot="MR90">
+<element name="R4" library="adafruit" package="R0603" value="10k" x="69.215" y="40.64" smashed="yes" rot="MR90">
 <attribute name="NAME" x="70.104" y="39.751" size="1.27" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="67.183" y="39.751" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="R33" library="adafruit" package="R0603" value="" x="99.715" y="40.64" smashed="yes" rot="MR90">
+<element name="R33" library="adafruit" package="R0603" value="10k" x="99.715" y="40.64" smashed="yes" rot="MR90">
 <attribute name="NAME" x="100.604" y="39.751" size="1.27" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="97.683" y="39.751" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="R34" library="adafruit" package="R0603" value="" x="105.41" y="40.64" smashed="yes" rot="MR90">
+<element name="R34" library="adafruit" package="R0603" value="10k" x="105.41" y="40.64" smashed="yes" rot="MR90">
 <attribute name="NAME" x="106.299" y="39.751" size="1.27" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="103.378" y="39.751" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="R35" library="adafruit" package="R0603" value="" x="108.58" y="40.64" smashed="yes" rot="MR90">
+<element name="R35" library="adafruit" package="R0603" value="10k" x="108.58" y="40.64" smashed="yes" rot="MR90">
 <attribute name="NAME" x="109.469" y="39.751" size="1.27" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="106.548" y="39.751" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="R36" library="adafruit" package="R0603" value="" x="111.4375" y="40.64" smashed="yes" rot="MR90">
+<element name="R36" library="adafruit" package="R0603" value="10k" x="111.4375" y="40.64" smashed="yes" rot="MR90">
 <attribute name="NAME" x="112.3265" y="39.751" size="1.27" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="109.4055" y="39.751" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="R37" library="adafruit" package="R0603" value="" x="114.3" y="40.64" smashed="yes" rot="MR90">
+<element name="R37" library="adafruit" package="R0603" value="10k" x="114.3" y="40.64" smashed="yes" rot="MR90">
 <attribute name="NAME" x="115.189" y="39.751" size="1.27" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="112.268" y="39.751" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="R38" library="adafruit" package="R0603" value="" x="117.475" y="40.64" smashed="yes" rot="MR90">
+<element name="R38" library="adafruit" package="R0603" value="10k" x="117.475" y="40.64" smashed="yes" rot="MR90">
 <attribute name="NAME" x="118.364" y="39.751" size="1.27" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="115.443" y="39.751" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="R39" library="adafruit" package="R0603" value="" x="120.3325" y="40.64" smashed="yes" rot="MR90">
+<element name="R39" library="adafruit" package="R0603" value="10k" x="120.3325" y="40.64" smashed="yes" rot="MR90">
 <attribute name="NAME" x="121.2215" y="39.751" size="1.27" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="118.3005" y="39.751" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="R40" library="adafruit" package="R0603" value="" x="123.19" y="40.64" smashed="yes" rot="MR90">
+<element name="R40" library="adafruit" package="R0603" value="10k" x="123.19" y="40.64" smashed="yes" rot="MR90">
 <attribute name="NAME" x="124.079" y="39.751" size="1.27" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="121.158" y="39.751" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="R41" library="adafruit" package="R0603" value="" x="126.365" y="40.64" smashed="yes" rot="MR90">
+<element name="R41" library="adafruit" package="R0603" value="10k" x="126.365" y="40.64" smashed="yes" rot="MR90">
 <attribute name="NAME" x="127.254" y="39.751" size="1.27" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="124.333" y="39.751" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="R42" library="adafruit" package="R0603" value="" x="72.0725" y="40.64" smashed="yes" rot="MR90">
+<element name="R42" library="adafruit" package="R0603" value="10k" x="72.0725" y="40.64" smashed="yes" rot="MR90">
 <attribute name="NAME" x="72.9615" y="39.751" size="1.27" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="70.0405" y="38.481" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="R43" library="adafruit" package="R0603" value="" x="75.2475" y="40.64" smashed="yes" rot="MR90">
+<element name="R43" library="adafruit" package="R0603" value="10k" x="75.2475" y="40.64" smashed="yes" rot="MR90">
 <attribute name="NAME" x="76.1365" y="39.751" size="1.27" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="73.2155" y="39.751" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="R44" library="adafruit" package="R0603" value="" x="78.4225" y="40.64" smashed="yes" rot="MR90">
+<element name="R44" library="adafruit" package="R0603" value="10k" x="78.4225" y="40.64" smashed="yes" rot="MR90">
 <attribute name="NAME" x="79.3115" y="39.751" size="1.27" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="76.3905" y="38.481" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="R45" library="adafruit" package="R0603" value="" x="81.28" y="40.64" smashed="yes" rot="MR90">
+<element name="R45" library="adafruit" package="R0603" value="10k" x="81.28" y="40.64" smashed="yes" rot="MR90">
 <attribute name="NAME" x="83.439" y="42.799" size="1.27" layer="26" rot="MR270"/>
 <attribute name="VALUE" x="80.772" y="42.799" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="R46" library="adafruit" package="R0603" value="" x="84.455" y="40.64" smashed="yes" rot="MR90">
+<element name="R46" library="adafruit" package="R0603" value="10k" x="84.455" y="40.64" smashed="yes" rot="MR90">
 <attribute name="NAME" x="85.344" y="39.751" size="1.27" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="81.153" y="38.481" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="R47" library="adafruit" package="R0603" value="" x="72.0725" y="17.78" smashed="yes" rot="MR270">
+<element name="R47" library="adafruit" package="R0603" value="10k" x="72.0725" y="17.78" smashed="yes" rot="MR270">
 <attribute name="NAME" x="71.1835" y="18.669" size="1.27" layer="26" rot="MR270"/>
 <attribute name="VALUE" x="74.1045" y="18.669" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="R48" library="adafruit" package="R0603" value="" x="69.215" y="17.78" smashed="yes" rot="MR270">
+<element name="R48" library="adafruit" package="R0603" value="10k" x="69.215" y="17.78" smashed="yes" rot="MR270">
 <attribute name="NAME" x="68.326" y="18.669" size="1.27" layer="26" rot="MR270"/>
 <attribute name="VALUE" x="71.247" y="18.669" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="R49" library="adafruit" package="R0603" value="" x="90.2" y="40.64" smashed="yes" rot="MR90">
+<element name="R49" library="adafruit" package="R0603" value="10k" x="90.2" y="40.64" smashed="yes" rot="MR90">
 <attribute name="NAME" x="91.089" y="39.751" size="1.27" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="88.168" y="39.751" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="R50" library="adafruit" package="R0603" value="" x="20.955" y="40.64" smashed="yes" rot="MR90">
+<element name="R50" library="adafruit" package="R0603" value="10k" x="20.955" y="40.64" smashed="yes" rot="MR90">
 <attribute name="NAME" x="21.844" y="39.751" size="1.27" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="18.923" y="39.751" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="R51" library="adafruit" package="R0603" value="" x="18.0975" y="40.64" smashed="yes" rot="MR90">
+<element name="R51" library="adafruit" package="R0603" value="10k" x="18.0975" y="40.64" smashed="yes" rot="MR90">
 <attribute name="NAME" x="18.9865" y="39.751" size="1.27" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="16.0655" y="39.751" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="R52" library="adafruit" package="R0603" value="" x="15.24" y="40.64" smashed="yes" rot="MR90">
+<element name="R52" library="adafruit" package="R0603" value="10k" x="15.24" y="40.64" smashed="yes" rot="MR90">
 <attribute name="NAME" x="16.129" y="39.751" size="1.27" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="13.208" y="39.751" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="R53" library="adafruit" package="R0603" value="" x="12.065" y="40.64" smashed="yes" rot="MR90">
+<element name="R53" library="adafruit" package="R0603" value="10k" x="12.065" y="40.64" smashed="yes" rot="MR90">
 <attribute name="NAME" x="12.954" y="39.751" size="1.27" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="10.033" y="39.751" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="R54" library="adafruit" package="R0603" value="" x="8.89" y="40.64" smashed="yes" rot="MR90">
+<element name="R54" library="adafruit" package="R0603" value="10k" x="8.89" y="40.64" smashed="yes" rot="MR90">
 <attribute name="NAME" x="9.779" y="39.751" size="1.27" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="6.858" y="39.751" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="R55" library="adafruit" package="R0603" value="" x="6.0325" y="40.64" smashed="yes" rot="MR90">
+<element name="R55" library="adafruit" package="R0603" value="10k" x="6.0325" y="40.64" smashed="yes" rot="MR90">
 <attribute name="NAME" x="6.9215" y="39.751" size="1.27" layer="26" rot="MR90"/>
 <attribute name="VALUE" x="4.0005" y="39.751" size="1.27" layer="28" rot="MR90"/>
 </element>
-<element name="R56" library="adafruit" package="R0603" value="" x="111.4425" y="17.78" smashed="yes" rot="MR270">
+<element name="R56" library="adafruit" package="R0603" value="10k" x="111.4425" y="17.78" smashed="yes" rot="MR270">
 <attribute name="NAME" x="110.5535" y="18.669" size="1.27" layer="26" rot="MR270"/>
 <attribute name="VALUE" x="113.4745" y="18.669" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="R57" library="adafruit" package="R0603" value="" x="114.3" y="17.78" smashed="yes" rot="MR270">
+<element name="R57" library="adafruit" package="R0603" value="10k" x="114.3" y="17.78" smashed="yes" rot="MR270">
 <attribute name="NAME" x="113.411" y="18.669" size="1.27" layer="26" rot="MR270"/>
 <attribute name="VALUE" x="116.332" y="18.669" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="R58" library="adafruit" package="R0603" value="" x="117.475" y="17.78" smashed="yes" rot="MR270">
+<element name="R58" library="adafruit" package="R0603" value="10k" x="117.475" y="17.78" smashed="yes" rot="MR270">
 <attribute name="NAME" x="116.586" y="18.669" size="1.27" layer="26" rot="MR270"/>
 <attribute name="VALUE" x="119.507" y="18.669" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="R59" library="adafruit" package="R0603" value="" x="120.65" y="17.78" smashed="yes" rot="MR270">
+<element name="R59" library="adafruit" package="R0603" value="10k" x="120.65" y="17.78" smashed="yes" rot="MR270">
 <attribute name="NAME" x="119.761" y="18.669" size="1.27" layer="26" rot="MR270"/>
 <attribute name="VALUE" x="122.682" y="18.669" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="R60" library="adafruit" package="R0603" value="" x="123.5075" y="17.78" smashed="yes" rot="MR270">
+<element name="R60" library="adafruit" package="R0603" value="10k" x="123.5075" y="17.78" smashed="yes" rot="MR270">
 <attribute name="NAME" x="122.6185" y="18.669" size="1.27" layer="26" rot="MR270"/>
 <attribute name="VALUE" x="125.5395" y="18.669" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="R61" library="adafruit" package="R0603" value="" x="126.365" y="17.78" smashed="yes" rot="MR270">
+<element name="R61" library="adafruit" package="R0603" value="10k" x="126.365" y="17.78" smashed="yes" rot="MR270">
 <attribute name="NAME" x="125.476" y="18.669" size="1.27" layer="26" rot="MR270"/>
 <attribute name="VALUE" x="128.397" y="18.669" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="R62" library="adafruit" package="R0603" value="" x="66.3575" y="17.78" smashed="yes" rot="MR270">
+<element name="R62" library="adafruit" package="R0603" value="10k" x="66.3575" y="17.78" smashed="yes" rot="MR270">
 <attribute name="NAME" x="65.4685" y="18.669" size="1.27" layer="26" rot="MR270"/>
 <attribute name="VALUE" x="68.3895" y="18.669" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="R63" library="adafruit" package="R0603" value="" x="63.5" y="17.78" smashed="yes" rot="MR270">
+<element name="R63" library="adafruit" package="R0603" value="10k" x="63.5" y="17.78" smashed="yes" rot="MR270">
 <attribute name="NAME" x="62.611" y="18.669" size="1.27" layer="26" rot="MR270"/>
 <attribute name="VALUE" x="65.532" y="18.669" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="R64" library="adafruit" package="R0603" value="" x="57.15" y="17.78" smashed="yes" rot="MR270">
+<element name="R64" library="adafruit" package="R0603" value="10k" x="57.15" y="17.78" smashed="yes" rot="MR270">
 <attribute name="NAME" x="56.261" y="18.669" size="1.27" layer="26" rot="MR270"/>
 <attribute name="VALUE" x="59.182" y="18.669" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="R65" library="adafruit" package="R0603" value="" x="54.2925" y="17.78" smashed="yes" rot="MR270">
+<element name="R65" library="adafruit" package="R0603" value="10k" x="54.2925" y="17.78" smashed="yes" rot="MR270">
 <attribute name="NAME" x="53.4035" y="18.669" size="1.27" layer="26" rot="MR270"/>
 <attribute name="VALUE" x="56.3245" y="18.669" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="R66" library="adafruit" package="R0603" value="" x="51.435" y="17.78" smashed="yes" rot="MR270">
+<element name="R66" library="adafruit" package="R0603" value="10k" x="51.435" y="17.78" smashed="yes" rot="MR270">
 <attribute name="NAME" x="50.546" y="18.669" size="1.27" layer="26" rot="MR270"/>
 <attribute name="VALUE" x="53.467" y="18.669" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="R67" library="adafruit" package="R0603" value="" x="48.5775" y="17.78" smashed="yes" rot="MR270">
+<element name="R67" library="adafruit" package="R0603" value="10k" x="48.5775" y="17.78" smashed="yes" rot="MR270">
 <attribute name="NAME" x="47.6885" y="18.669" size="1.27" layer="26" rot="MR270"/>
 <attribute name="VALUE" x="50.6095" y="18.669" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="R68" library="adafruit" package="R0603" value="" x="41.91" y="17.78" smashed="yes" rot="MR270">
+<element name="R68" library="adafruit" package="R0603" value="10k" x="41.91" y="17.78" smashed="yes" rot="MR270">
 <attribute name="NAME" x="41.021" y="18.669" size="1.27" layer="26" rot="MR270"/>
 <attribute name="VALUE" x="43.942" y="18.669" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="R69" library="adafruit" package="R0603" value="" x="39.0525" y="17.78" smashed="yes" rot="MR270">
+<element name="R69" library="adafruit" package="R0603" value="10k" x="39.0525" y="17.78" smashed="yes" rot="MR270">
 <attribute name="NAME" x="38.1" y="18.7325" size="1.27" layer="26" rot="MR270"/>
 <attribute name="VALUE" x="41.0845" y="18.669" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="R70" library="adafruit" package="R0603" value="" x="36.195" y="17.78" smashed="yes" rot="MR270">
+<element name="R70" library="adafruit" package="R0603" value="10k" x="36.195" y="17.78" smashed="yes" rot="MR270">
 <attribute name="NAME" x="35.306" y="18.669" size="1.27" layer="26" rot="MR270"/>
 <attribute name="VALUE" x="38.227" y="18.669" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="R71" library="adafruit" package="R0603" value="" x="33.27" y="17.78" smashed="yes" rot="MR270">
+<element name="R71" library="adafruit" package="R0603" value="10k" x="33.27" y="17.78" smashed="yes" rot="MR270">
 <attribute name="NAME" x="32.381" y="18.669" size="1.27" layer="26" rot="MR270"/>
 <attribute name="VALUE" x="35.302" y="18.669" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="R72" library="adafruit" package="R0603" value="" x="27.305" y="17.78" smashed="yes" rot="MR270">
+<element name="R72" library="adafruit" package="R0603" value="10k" x="27.305" y="17.78" smashed="yes" rot="MR270">
 <attribute name="NAME" x="26.416" y="18.669" size="1.27" layer="26" rot="MR270"/>
 <attribute name="VALUE" x="29.337" y="18.669" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="R73" library="adafruit" package="R0603" value="" x="24.13" y="17.78" smashed="yes" rot="MR270">
+<element name="R73" library="adafruit" package="R0603" value="10k" x="24.13" y="17.78" smashed="yes" rot="MR270">
 <attribute name="NAME" x="23.241" y="18.669" size="1.27" layer="26" rot="MR270"/>
 <attribute name="VALUE" x="26.162" y="18.669" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="R74" library="adafruit" package="R0603" value="" x="21.2725" y="17.78" smashed="yes" rot="MR270">
+<element name="R74" library="adafruit" package="R0603" value="10k" x="21.2725" y="17.78" smashed="yes" rot="MR270">
 <attribute name="NAME" x="20.3835" y="18.669" size="1.27" layer="26" rot="MR270"/>
 <attribute name="VALUE" x="23.3045" y="18.669" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="R75" library="adafruit" package="R0603" value="" x="18.415" y="17.78" smashed="yes" rot="MR270">
+<element name="R75" library="adafruit" package="R0603" value="10k" x="18.415" y="17.78" smashed="yes" rot="MR270">
 <attribute name="NAME" x="17.526" y="18.669" size="1.27" layer="26" rot="MR270"/>
 <attribute name="VALUE" x="20.447" y="18.669" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="R76" library="adafruit" package="R0603" value="" x="15.24" y="17.78" smashed="yes" rot="MR270">
+<element name="R76" library="adafruit" package="R0603" value="10k" x="15.24" y="17.78" smashed="yes" rot="MR270">
 <attribute name="NAME" x="14.351" y="18.669" size="1.27" layer="26" rot="MR270"/>
 <attribute name="VALUE" x="17.272" y="18.669" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="R77" library="adafruit" package="R0603" value="" x="12.3825" y="17.78" smashed="yes" rot="MR270">
+<element name="R77" library="adafruit" package="R0603" value="10k" x="12.3825" y="17.78" smashed="yes" rot="MR270">
 <attribute name="NAME" x="11.4935" y="18.669" size="1.27" layer="26" rot="MR270"/>
 <attribute name="VALUE" x="14.4145" y="18.669" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="R78" library="adafruit" package="R0603" value="" x="9.2075" y="17.78" smashed="yes" rot="MR270">
+<element name="R78" library="adafruit" package="R0603" value="10k" x="9.2075" y="17.78" smashed="yes" rot="MR270">
 <attribute name="NAME" x="8.3185" y="18.669" size="1.27" layer="26" rot="MR270"/>
 <attribute name="VALUE" x="11.2395" y="18.669" size="1.27" layer="28" rot="MR270"/>
 </element>
-<element name="R79" library="adafruit" package="R0603" value="" x="6.35" y="17.78" smashed="yes" rot="MR270">
+<element name="R79" library="adafruit" package="R0603" value="10k" x="6.35" y="17.78" smashed="yes" rot="MR270">
 <attribute name="NAME" x="5.461" y="18.669" size="1.27" layer="26" rot="MR270"/>
 <attribute name="VALUE" x="8.382" y="18.669" size="1.27" layer="28" rot="MR270"/>
 </element>
