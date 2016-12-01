@@ -10349,9 +10349,6 @@ at 30/07/2012 11:22:31</description>
 <part name="R14" library="rcl" deviceset="R-US_" device="M0805" value="100k">
 <attribute name="PN" value="RL1220T-R039"/>
 </part>
-<part name="R17" library="rcl" deviceset="R-US_" device="M0805" value="100k">
-<attribute name="PN" value="RL1220T-R039"/>
-</part>
 <part name="LOAD_1" library="formula electric" deviceset="CONN_2" device="">
 <attribute name="PN" value="A104554-ND "/>
 </part>
@@ -10471,8 +10468,8 @@ at 30/07/2012 11:22:31</description>
 <wire x1="-68.58" y1="2.54" x2="-205.74" y2="2.54" width="0.1524" layer="94"/>
 <wire x1="-205.74" y1="2.54" x2="-205.74" y2="116.84" width="0.1524" layer="94"/>
 <text x="-187.96" y="93.98" size="1.27" layer="97" font="vector">Set Current: 1.12A</text>
-<wire x1="-208.28" y1="-114.3" x2="-205.74" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="-205.74" y1="-2.54" x2="-68.58" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-208.28" y1="-114.3" x2="-208.28" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-208.28" y1="-2.54" x2="-68.58" y2="-2.54" width="0.1524" layer="94"/>
 <wire x1="-68.58" y1="-2.54" x2="-68.58" y2="-114.3" width="0.1524" layer="94"/>
 <wire x1="-68.58" y1="-114.3" x2="-208.28" y2="-114.3" width="0.1524" layer="94"/>
 <text x="-109.22" y="-83.82" size="1.27" layer="94" font="vector" rot="R90">Load Resistor</text>
@@ -10483,7 +10480,7 @@ at 30/07/2012 11:22:31</description>
 <wire x1="15.24" y1="53.34" x2="-63.5" y2="53.34" width="0.1524" layer="94"/>
 <wire x1="-63.5" y1="53.34" x2="-63.5" y2="116.84" width="0.1524" layer="94"/>
 <text x="-132.08" y="-109.22" size="1.27" layer="94" font="vector">Gate Driver Needed for PWM</text>
-<text x="-208.28" y="-101.6" size="1.27" layer="94" font="vector" rot="R90">may not work due to decreasing Vgs due to battery voltage decrease</text>
+<text x="-205.74" y="-101.6" size="1.27" layer="94" font="vector" rot="R90">may not work due to decreasing Vgs due to battery voltage decrease</text>
 <wire x1="-355.6" y1="116.84" x2="-215.9" y2="116.84" width="0.1524" layer="94"/>
 <wire x1="-215.9" y1="116.84" x2="-215.9" y2="2.54" width="0.1524" layer="94"/>
 <wire x1="-215.9" y1="2.54" x2="-355.6" y2="2.54" width="0.1524" layer="94"/>
@@ -10508,6 +10505,12 @@ at 30/07/2012 11:22:31</description>
 <wire x1="-60.96" y1="-116.84" x2="-60.96" y2="-63.5" width="0.1524" layer="94"/>
 <text x="-20.32" y="-66.04" size="1.27" layer="94" font="vector">Temp Sense</text>
 <text x="-40.64" y="-81.28" size="1.27" layer="94" font="vector">22ga wire hole</text>
+<text x="-175.26" y="-129.54" size="1.778" layer="91">1. Laptop charger or 12V 2A adapter
+2. Schottky Diodes to protect against body diode conduction
+3. RVP
+4. move voltage sense to battery terminal to bypass enable transistor
+5. Switch to to-220 mosfets
+6. Add ftdi uart to usb driver</text>
 </plain>
 <instances>
 <instance part="U1" gate="G$1" x="-7.62" y="15.24"/>
@@ -10606,9 +10609,6 @@ at 30/07/2012 11:22:31</description>
 </instance>
 <instance part="R14" gate="G$1" x="-180.34" y="-99.06">
 <attribute name="PN" x="-180.34" y="-99.06" size="1.27" layer="96" font="vector" display="off"/>
-</instance>
-<instance part="R17" gate="G$1" x="-165.1" y="101.6" rot="R270">
-<attribute name="PN" x="-165.1" y="101.6" size="1.27" layer="96" font="vector" rot="R270" display="off"/>
 </instance>
 <instance part="LOAD_1" gate="G$1" x="-114.3" y="-76.2" rot="MR0">
 <attribute name="PN" x="-114.3" y="-76.2" size="1.778" layer="96" rot="MR0" display="off"/>
@@ -11098,8 +11098,6 @@ at 30/07/2012 11:22:31</description>
 <pinref part="PC1" gate="G$1" pin="V_IN"/>
 <wire x1="-154.94" y1="106.68" x2="-165.1" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="P+3" gate="VCC" pin="VCC"/>
-<pinref part="R17" gate="G$1" pin="1"/>
-<junction x="-165.1" y="106.68"/>
 </segment>
 <segment>
 <pinref part="U2" gate="A" pin="V+"/>
@@ -11297,12 +11295,8 @@ at 30/07/2012 11:22:31</description>
 <segment>
 <pinref part="PC1" gate="G$1" pin="V_DRV"/>
 <wire x1="-154.94" y1="104.14" x2="-160.02" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="-160.02" y1="104.14" x2="-160.02" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="-160.02" y1="104.14" x2="-160.02" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="T7" gate="G$1" pin="G"/>
-<pinref part="R17" gate="G$1" pin="2"/>
-<wire x1="-160.02" y1="96.52" x2="-160.02" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="-160.02" y1="96.52" x2="-165.1" y2="96.52" width="0.1524" layer="91"/>
-<junction x="-160.02" y="96.52"/>
 </segment>
 </net>
 <net name="SHDN_1" class="0">
@@ -11882,4 +11876,10 @@ at 30/07/2012 11:22:31</description>
 </sheets>
 </schematic>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>
