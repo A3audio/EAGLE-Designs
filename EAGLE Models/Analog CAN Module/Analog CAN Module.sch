@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.4.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -9,6 +9,10 @@
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
@@ -1607,8 +1611,8 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
 <smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
 <smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<text x="-0.635" y="0.635" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-0.635" y="-0.9906" size="0.4064" layer="27">&gt;VALUE</text>
+<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
 <rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
@@ -1623,8 +1627,8 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="1.973" y1="0.983" x2="1.973" y2="-0.983" width="0.0508" layer="39"/>
 <smd name="1" x="-0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
 <smd name="2" x="0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
-<text x="-1.27" y="0.9525" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-1.27" y="-1.27" size="0.4064" layer="27">&gt;VALUE</text>
+<text x="-1.27" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.27" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-1.0922" y1="-0.7239" x2="-0.3421" y2="0.7262" layer="51"/>
 <rectangle x1="0.3556" y1="-0.7239" x2="1.1057" y2="0.7262" layer="51"/>
 <rectangle x1="-0.1001" y1="-0.4001" x2="0.1001" y2="0.4001" layer="35"/>
@@ -2675,8 +2679,8 @@ Metric Code Size 4564</description>
 <wire x1="-1.973" y1="-0.983" x2="-1.973" y2="0.983" width="0.0508" layer="39"/>
 <smd name="1" x="-0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
 <smd name="2" x="0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
-<text x="-0.635" y="1.27" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-0.635" y="-1.27" size="0.4064" layer="27">&gt;VALUE</text>
+<text x="-0.635" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.635" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="0.4064" y1="-0.6985" x2="1.0564" y2="0.7015" layer="51"/>
 <rectangle x1="-1.0668" y1="-0.6985" x2="-0.4168" y2="0.7015" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.5001" x2="0.1999" y2="0.5001" layer="35"/>
@@ -3004,8 +3008,8 @@ MELF 0.10 W</description>
 <wire x1="0.7112" y1="-0.635" x2="-0.7112" y2="-0.635" width="0.1524" layer="51"/>
 <smd name="1" x="-0.95" y="0" dx="1.3" dy="1.6" layer="1"/>
 <smd name="2" x="0.95" y="0" dx="1.3" dy="1.6" layer="1"/>
-<text x="-1.27" y="0.9652" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-1.27" y="-1.3208" size="0.4064" layer="27">&gt;VALUE</text>
+<text x="-1.27" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.27" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-1.0414" y1="-0.7112" x2="-0.6858" y2="0.7112" layer="51"/>
 <rectangle x1="0.6858" y1="-0.7112" x2="1.0414" y2="0.7112" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.5999" x2="0.1999" y2="0.5999" layer="35"/>
@@ -8408,8 +8412,8 @@ Source: http://www.osram.convergy.de/ ... LG_R971.pdf</description>
 <circle x="-0.45" y="0.85" radius="0.103" width="0.1016" layer="51"/>
 <smd name="C" x="0" y="1.05" dx="1.2" dy="1.2" layer="1"/>
 <smd name="A" x="0" y="-1.05" dx="1.2" dy="1.2" layer="1"/>
-<text x="-0.9525" y="-1.27" size="0.4064" layer="25" rot="R90">&gt;NAME</text>
-<text x="1.27" y="-1.27" size="0.4064" layer="27" rot="R90">&gt;VALUE</text>
+<text x="-1.27" y="-1.27" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="2.54" y="-1.27" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
 <rectangle x1="0.3" y1="0.5" x2="0.625" y2="1" layer="51"/>
 <rectangle x1="-0.325" y1="0.5" x2="-0.175" y2="0.75" layer="51"/>
 <rectangle x1="0.175" y1="0.5" x2="0.325" y2="0.75" layer="51"/>
@@ -12966,8 +12970,8 @@ grid 27.5 mm, outline 17.3 x 31.6 mm</description>
 <wire x1="1.973" y1="0.983" x2="1.973" y2="-0.983" width="0.0508" layer="39"/>
 <smd name="1" x="-0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
 <smd name="2" x="0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
-<text x="-1.27" y="1.27" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-1.27" y="-1.5875" size="0.4064" layer="27">&gt;VALUE</text>
+<text x="-1.27" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.27" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-1.0922" y1="-0.7239" x2="-0.3421" y2="0.7262" layer="51"/>
 <rectangle x1="0.3556" y1="-0.7239" x2="1.1057" y2="0.7262" layer="51"/>
 <rectangle x1="-0.1001" y1="-0.4001" x2="0.1001" y2="0.4001" layer="35"/>
@@ -14363,6 +14367,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <smd name="A" x="-1" y="-1" dx="1" dy="1.2" layer="1"/>
 <smd name="NC" x="1" y="-1" dx="1" dy="1.2" layer="1"/>
 <text x="-1.397" y="1.794" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.524" y="-3.064" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-0.2" y1="0.6" x2="0.2" y2="1.25" layer="51"/>
 <rectangle x1="-1.2" y1="-1.25" x2="-0.8" y2="-0.6" layer="51"/>
 <rectangle x1="0.8" y1="-1.25" x2="1.2" y2="-0.6" layer="51"/>
@@ -15083,15 +15088,15 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <rectangle x1="-5.08" y1="7.62" x2="-2.54" y2="10.16" layer="94"/>
 </symbol>
 <symbol name="MUSBB">
-<pin name="P$1" x="-25.4" y="17.78" length="middle"/>
-<pin name="P$2" x="-25.4" y="15.24" length="middle"/>
-<pin name="P$3" x="-25.4" y="12.7" length="middle"/>
-<pin name="P$4" x="-25.4" y="10.16" length="middle"/>
-<pin name="P$5" x="-25.4" y="7.62" length="middle"/>
-<wire x1="-20.32" y1="20.32" x2="-20.32" y2="5.08" width="0.254" layer="94"/>
-<wire x1="-20.32" y1="5.08" x2="-12.7" y2="5.08" width="0.254" layer="94"/>
-<wire x1="-12.7" y1="5.08" x2="-12.7" y2="20.32" width="0.254" layer="94"/>
-<wire x1="-12.7" y1="20.32" x2="-20.32" y2="20.32" width="0.254" layer="94"/>
+<pin name="P$1" x="-7.62" y="5.08" length="middle"/>
+<pin name="P$2" x="-7.62" y="2.54" length="middle"/>
+<pin name="P$3" x="-7.62" y="0" length="middle"/>
+<pin name="P$4" x="-7.62" y="-2.54" length="middle"/>
+<pin name="P$5" x="-7.62" y="-5.08" length="middle"/>
+<wire x1="-2.54" y1="7.62" x2="-2.54" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-7.62" x2="5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="7.62" x2="-2.54" y2="7.62" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -15216,7 +15221,7 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 </deviceset>
 <deviceset name="MUSBB">
 <gates>
-<gate name="G$1" symbol="MUSBB" x="15.24" y="45.72"/>
+<gate name="G$1" symbol="MUSBB" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="MUSBB">
@@ -16654,7 +16659,7 @@ Revised By Daniel Baron</text>
 <instance part="R77" gate="G$1" x="327.66" y="-38.1"/>
 <instance part="R78" gate="G$1" x="383.54" y="-38.1"/>
 <instance part="R79" gate="G$1" x="393.7" y="-45.72" rot="R90"/>
-<instance part="U$14" gate="G$1" x="68.58" y="-241.3"/>
+<instance part="U$14" gate="G$1" x="53.34" y="-228.6"/>
 <instance part="X1" gate="/1" x="58.42" y="-124.46"/>
 <instance part="X1" gate="/2" x="58.42" y="-127"/>
 <instance part="X1" gate="/3" x="58.42" y="-129.54"/>
@@ -18019,7 +18024,7 @@ Revised By Daniel Baron</text>
 </segment>
 <segment>
 <pinref part="U$14" gate="G$1" pin="P$5"/>
-<wire x1="43.18" y1="-233.68" x2="38.1" y2="-233.68" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="-233.68" x2="38.1" y2="-233.68" width="0.1524" layer="91"/>
 <label x="38.1" y="-233.68" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
@@ -18692,7 +18697,7 @@ Revised By Daniel Baron</text>
 </segment>
 <segment>
 <pinref part="U$14" gate="G$1" pin="P$2"/>
-<wire x1="43.18" y1="-226.06" x2="35.56" y2="-226.06" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="-226.06" x2="35.56" y2="-226.06" width="0.1524" layer="91"/>
 <label x="35.56" y="-226.06" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
@@ -18704,7 +18709,7 @@ Revised By Daniel Baron</text>
 </segment>
 <segment>
 <pinref part="U$14" gate="G$1" pin="P$3"/>
-<wire x1="43.18" y1="-228.6" x2="40.64" y2="-228.6" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="-228.6" x2="40.64" y2="-228.6" width="0.1524" layer="91"/>
 <label x="40.64" y="-228.6" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
@@ -18720,7 +18725,7 @@ Revised By Daniel Baron</text>
 <net name="USB_V_IN" class="3">
 <segment>
 <pinref part="U$14" gate="G$1" pin="P$1"/>
-<wire x1="43.18" y1="-223.52" x2="40.64" y2="-223.52" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="-223.52" x2="40.64" y2="-223.52" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="-223.52" x2="38.1" y2="-220.98" width="0.1524" layer="91"/>
 <label x="38.1" y="-220.98" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
