@@ -10742,7 +10742,7 @@ for Latched Components</text>
 <label x="421.64" y="-40.64" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="PENIS" class="0">
+<net name="N$1" class="0">
 <segment>
 <wire x1="25.4" y1="22.86" x2="25.4" y2="20.32" width="0.1524" layer="91"/>
 </segment>
