@@ -144,6 +144,24 @@
 <hole x="95.646875" y="2.69875" drill="3.81"/>
 <dimension x1="0" y1="0" x2="98.25375" y2="0" x3="49.126875" y3="-6.429375" textsize="1.778" layer="1" unit="inch"/>
 <dimension x1="0" y1="80" x2="0" y2="0" x3="-5.23875" y3="40" textsize="1.778" layer="1" dtype="vertical" unit="inch"/>
+<dimension x1="2.701815625" y1="75.485628125" x2="2.695684375" y2="79.295621875" x3="-26.8986" y3="77.34299375" textsize="1.778" layer="1" dtype="diameter" unit="inch"/>
+<dimension x1="12.065" y1="47.14875" x2="-7.1374" y2="79.9338" x3="-9.2202" y3="63.541275" textsize="1.778" layer="1" dtype="vertical" unit="inch"/>
+<dimension x1="57.4675" y1="26.3525" x2="98.1075" y2="0.15875" x3="117.4242" y3="13.255625" textsize="1.778" layer="1" dtype="vertical" unit="inch"/>
+<dimension x1="57.4675" y1="26.3525" x2="98.25375" y2="0" x3="77.860625" y3="-17.3228" textsize="1.778" layer="1" dtype="horizontal" unit="inch"/>
+<dimension x1="12.065" y1="47.14875" x2="0" y2="80" x3="6.0325" y3="86.487" textsize="1.778" layer="1" dtype="horizontal" unit="inch"/>
+<dimension x1="0" y1="0" x2="2.619375" y2="2.69875" x3="1.3096875" y3="-14.6558" textsize="1.778" layer="1" dtype="horizontal" unit="inch"/>
+<dimension x1="0" y1="0" x2="2.619375" y2="2.69875" x3="-14.1986" y3="1.349375" textsize="1.778" layer="1" dtype="vertical" unit="inch"/>
+<dimension x1="98.25375" y1="0" x2="95.646875" y2="2.69875" x3="106.5022" y3="1.349375" textsize="1.778" layer="1" dtype="vertical" unit="inch"/>
+<dimension x1="0" y1="0" x2="45.1866" y2="14.0716" x3="-25.9842" y3="7.0358" textsize="1.778" layer="1" dtype="vertical" unit="inch"/>
+<dimension x1="0" y1="0" x2="45.1866" y2="14.0716" x3="22.5933" y3="-21.8948" textsize="1.778" layer="1" dtype="horizontal" unit="inch"/>
+<dimension x1="0" y1="0" x2="69.7484" y2="38.6334" x3="34.8742" y3="-34.798" textsize="1.778" layer="1" dtype="horizontal" unit="inch"/>
+<dimension x1="0.15875" y1="0.15875" x2="69.7484" y2="38.6334" x3="-40.3098" y3="19.396075" textsize="1.778" layer="1" dtype="vertical" unit="inch"/>
+<dimension x1="0" y1="0" x2="5.7404" y2="40.8178" x3="-46.2788" y3="20.4089" textsize="1.778" layer="1" dtype="vertical" unit="inch"/>
+<dimension x1="0" y1="0" x2="5.715" y2="40.8178" x3="2.8575" y3="91.059" textsize="1.778" layer="1" dtype="horizontal" unit="inch"/>
+<dimension x1="0" y1="0" x2="18.4404" y2="53.5178" x3="9.2202" y3="99.187" textsize="1.778" layer="1" dtype="horizontal" unit="inch"/>
+<dimension x1="0" y1="80" x2="18.4404" y2="53.467" x3="-41.3512" y3="66.7335" textsize="1.778" layer="1" dtype="vertical" unit="inch"/>
+<dimension x1="95.5675" y1="77.390625" x2="98.1075" y2="79.85125" x3="108.3056" y3="78.6209375" textsize="1.778" layer="1" dtype="vertical" unit="inch"/>
+<dimension x1="95.5675" y1="77.390625" x2="98.25375" y2="80" x3="96.910625" y3="88.8492" textsize="1.778" layer="1" dtype="horizontal" unit="inch"/>
 </plain>
 <libraries>
 <library name="rcl">
