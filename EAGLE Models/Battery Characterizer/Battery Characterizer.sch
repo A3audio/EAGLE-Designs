@@ -12920,8 +12920,8 @@ at 31/07/2012 09:37:13</description>
 <wire x1="1.3208" y1="0.254" x2="0.7112" y2="0.254" width="0" layer="51"/>
 <wire x1="0.3048" y1="1.524" x2="-0.3048" y2="1.524" width="0" layer="51" curve="-180"/>
 <text x="-1.9304" y="1.3716" size="1.27" layer="51" ratio="6" rot="SR0">*</text>
-<text x="-3.4544" y="2.54" size="1.27" layer="25" font="vector" ratio="10" rot="SR0">&gt;NAME</text>
-<text x="-3.4544" y="-3.175" size="1.27" layer="27" font="vector" ratio="10" rot="SR0">&gt;VALUE</text>
+<text x="-3.4544" y="2.54" size="1.016" layer="25" font="vector" rot="SR0">&gt;NAME</text>
+<text x="-3.4544" y="-3.175" size="1.016" layer="27" font="vector" rot="SR0">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -16420,8 +16420,8 @@ at 30/07/2012 09:47:05</description>
 <wire x1="1.3208" y1="0.254" x2="0.7112" y2="0.254" width="0" layer="51"/>
 <wire x1="0.3048" y1="1.524" x2="-0.3048" y2="1.524" width="0" layer="51" curve="-180"/>
 <text x="-1.9304" y="1.3716" size="1.27" layer="51" ratio="6" rot="SR0">*</text>
-<text x="-3.4544" y="2.54" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
-<text x="-3.4544" y="-4.445" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+<text x="-3.4544" y="2.54" size="1.016" layer="25" font="vector" rot="SR0">&gt;NAME</text>
+<text x="-3.4544" y="-4.445" size="1.016" layer="27" font="vector" rot="SR0">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
