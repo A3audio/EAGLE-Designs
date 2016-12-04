@@ -123,12 +123,12 @@
 <text x="28.3718" y="14.224" size="1.016" layer="121">IGN</text>
 <text x="47.9552" y="15.7226" size="1.016" layer="121">12V_DAQ</text>
 <text x="58.3184" y="15.7988" size="1.016" layer="121">12V_ECU</text>
-<text x="65.7352" y="54.2798" size="1.016" layer="121">A24</text>
-<text x="66.7766" y="4.4958" size="1.27" layer="121" rot="R90">LC_2</text>
-<text x="69.5706" y="54.356" size="1.016" layer="121">KS_RTN</text>
-<text x="66.0908" y="39.5478" size="1.016" layer="121">A23</text>
-<text x="70.6628" y="39.5478" size="1.016" layer="121">SFT+</text>
-<text x="75.1332" y="39.6748" size="1.016" layer="121">BRK+</text>
+<text x="62.611" y="54.0258" size="1.016" layer="121">A24</text>
+<text x="66.5734" y="5.8674" size="1.27" layer="121" rot="R90">LC_2</text>
+<text x="66.167" y="53.9496" size="1.016" layer="121">KS_RTN</text>
+<text x="62.6872" y="41.1988" size="1.016" layer="121">A23</text>
+<text x="66.7004" y="41.148" size="1.016" layer="121">SFT+</text>
+<text x="71.12" y="41.275" size="1.016" layer="121">BRK+</text>
 <text x="42.2402" y="50.7238" size="1.016" layer="121">12+</text>
 <text x="46.863" y="50.927" size="1.016" layer="121">12+</text>
 </plain>
