@@ -700,6 +700,7 @@ http://www.st.com&lt;p&gt;
 <wire x1="83.82" y1="10.16" x2="-63.5" y2="10.16" width="0.3048" layer="94"/>
 <wire x1="-63.5" y1="10.16" x2="-63.5" y2="68.58" width="0.3048" layer="94"/>
 <text x="0" y="66.04" size="1.27" layer="94">Main Relay and Charge Cut Relay</text>
+<text x="48.26" y="-25.4" size="1.27" layer="94">FAN</text>
 </plain>
 <instances>
 <instance part="FUEL_F" gate="G$1" x="-25.4" y="-33.02" rot="R90"/>
@@ -891,6 +892,16 @@ http://www.st.com&lt;p&gt;
 <wire x1="55.88" y1="-88.9" x2="60.96" y2="-88.9" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="-88.9" x2="60.96" y2="-78.74" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="LC_1" gate="G$1" pin="3"/>
+<wire x1="33.02" y1="-22.86" x2="30.48" y2="-22.86" width="0.1524" layer="91"/>
+<label x="30.48" y="-22.86" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="LC_1" gate="G$1" pin="2"/>
+<wire x1="33.02" y1="-20.32" x2="30.48" y2="-20.32" width="0.1524" layer="91"/>
+<label x="30.48" y="-20.32" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="12V" class="0">
 <segment>
@@ -987,11 +998,6 @@ http://www.st.com&lt;p&gt;
 </net>
 <net name="KILL_SWT_RTRN" class="0">
 <segment>
-<pinref part="LC_1" gate="G$1" pin="2"/>
-<wire x1="33.02" y1="-20.32" x2="30.48" y2="-20.32" width="0.1524" layer="91"/>
-<label x="30.48" y="-20.32" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <pinref part="IGN_R" gate="G$1" pin="COIL1"/>
 <wire x1="-38.1" y1="-50.8" x2="-50.8" y2="-50.8" width="0.1524" layer="91"/>
 <wire x1="-50.8" y1="-50.8" x2="-60.96" y2="-50.8" width="0.1524" layer="91"/>
@@ -1012,6 +1018,11 @@ http://www.st.com&lt;p&gt;
 <pinref part="K_SWT_D" gate="G$1" pin="A"/>
 <wire x1="-40.64" y1="58.42" x2="-48.26" y2="58.42" width="0.1524" layer="91"/>
 <label x="-48.26" y="58.42" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="LC_1" gate="G$1" pin="1"/>
+<wire x1="33.02" y1="-17.78" x2="30.48" y2="-17.78" width="0.1524" layer="91"/>
+<label x="30.48" y="-17.78" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="ECU_PROTECTED" class="0">
