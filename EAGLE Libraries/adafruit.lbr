@@ -297,6 +297,8 @@ diameter 2.54 mm, horizontal, grid 10.16 mm</description>
 <pad name="RING_SW" x="-4.6" y="-6.29" drill="3" diameter="4.8" rot="R180"/>
 <pad name="TIP" x="0.1" y="-9.29" drill="3" diameter="4.8" rot="R180"/>
 <pad name="RING" x="0.1" y="-3.39" drill="3" diameter="4.8" rot="R180"/>
+<text x="5.08" y="3.81" size="1.016" layer="25" font="vector" rot="R270">&gt;NAME</text>
+<text x="7.62" y="3.81" size="1.016" layer="27" font="vector" rot="R270">&gt;VALUE</text>
 </package>
 <package name="C0402">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
@@ -14472,7 +14474,7 @@ grid 2.54 mm, horinzontal</description>
 <pad name="1" x="-1.27" y="2.54" drill="0.9" diameter="1.6256"/>
 <pad name="5" x="-1.27" y="-2.54" drill="0.9" diameter="1.6256"/>
 <pad name="6" x="1.27" y="-2.54" drill="0.9" diameter="1.6256"/>
-<text x="-3.048" y="-3.048" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="-3.048" y="-3.048" size="1.016" layer="25" font="vector" rot="R90">&gt;NAME</text>
 <text x="-3.048" y="3.556" size="1.016" layer="21" font="vector">1</text>
 </package>
 <package name="SOT23-6">
