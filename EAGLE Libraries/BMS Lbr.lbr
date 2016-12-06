@@ -374,6 +374,8 @@
 <smd name="P$2" x="0" y="-2.9" dx="2.15" dy="0.95" layer="1" rot="R90"/>
 <smd name="P$3" x="2.3" y="-2.9" dx="2.15" dy="0.95" layer="1" rot="R90"/>
 <smd name="P$4" x="0" y="2.9" dx="3.25" dy="2.15" layer="1" rot="R180"/>
+<text x="-3.81" y="-2.54" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="5.08" y="-3.81" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
 </package>
 <package name="16_SOIC">
 <smd name="P$1" x="0" y="0" dx="1.5" dy="0.6" layer="1" rot="R90"/>
