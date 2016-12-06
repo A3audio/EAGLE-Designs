@@ -18323,9 +18323,9 @@ http://www.st.com&lt;p&gt;
 <junction x="-167.64" y="22.86"/>
 </segment>
 <segment>
-<label x="-40.64" y="63.5" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-<wire x1="-40.64" y1="63.5" x2="-38.1" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="U$7" gate="G$1" pin="IN2"/>
+<label x="-40.64" y="66.04" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="-40.64" y1="66.04" x2="-38.1" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="U$7" gate="G$1" pin="IN1"/>
 </segment>
 </net>
 <net name="I_SENSE_1" class="0">
@@ -18339,9 +18339,9 @@ http://www.st.com&lt;p&gt;
 <junction x="-157.48" y="-5.08"/>
 </segment>
 <segment>
-<label x="-40.64" y="60.96" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-<wire x1="-40.64" y1="60.96" x2="-38.1" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="U$7" gate="G$1" pin="IN3"/>
+<label x="-15.24" y="58.42" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="-15.24" y1="58.42" x2="-17.78" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="U$7" gate="G$1" pin="IN5"/>
 </segment>
 </net>
 <net name="CHARGE_SENSE_2" class="0">
@@ -18355,17 +18355,12 @@ http://www.st.com&lt;p&gt;
 <junction x="-350.52" y="22.86"/>
 </segment>
 <segment>
-<label x="-40.64" y="66.04" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-<wire x1="-40.64" y1="66.04" x2="-38.1" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="U$7" gate="G$1" pin="IN1"/>
+<label x="-40.64" y="68.58" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="-40.64" y1="68.58" x2="-38.1" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="U$7" gate="G$1" pin="IN0"/>
 </segment>
 </net>
 <net name="I_SENSE_2" class="0">
-<segment>
-<wire x1="-17.78" y1="63.5" x2="-15.24" y2="63.5" width="0.1524" layer="91"/>
-<label x="-15.24" y="63.5" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="U$7" gate="G$1" pin="IN7"/>
-</segment>
 <segment>
 <pinref part="U8" gate="A" pin="OUT"/>
 <wire x1="-345.44" y1="-5.08" x2="-340.36" y2="-5.08" width="0.1524" layer="91"/>
@@ -18374,6 +18369,11 @@ http://www.st.com&lt;p&gt;
 <wire x1="-340.36" y1="-5.08" x2="-327.66" y2="-5.08" width="0.1524" layer="91"/>
 <wire x1="-340.36" y1="-7.62" x2="-340.36" y2="-5.08" width="0.1524" layer="91"/>
 <junction x="-340.36" y="-5.08"/>
+</segment>
+<segment>
+<label x="-40.64" y="58.42" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="-40.64" y1="58.42" x2="-38.1" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="U$7" gate="G$1" pin="IN4"/>
 </segment>
 </net>
 <net name="BATT+_1" class="0">
@@ -18442,9 +18442,9 @@ http://www.st.com&lt;p&gt;
 <label x="-220.98" y="-22.86" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
-<label x="-40.64" y="58.42" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-<wire x1="-40.64" y1="58.42" x2="-38.1" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="U$7" gate="G$1" pin="IN4"/>
+<wire x1="-17.78" y1="60.96" x2="-15.24" y2="60.96" width="0.1524" layer="91"/>
+<label x="-15.24" y="60.96" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="U$7" gate="G$1" pin="IN6"/>
 </segment>
 </net>
 <net name="BATT_CONN_2_1" class="0">
@@ -18459,9 +18459,9 @@ http://www.st.com&lt;p&gt;
 <label x="-220.98" y="-66.04" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
-<wire x1="-17.78" y1="60.96" x2="-15.24" y2="60.96" width="0.1524" layer="91"/>
-<label x="-15.24" y="60.96" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="U$7" gate="G$1" pin="IN6"/>
+<wire x1="-17.78" y1="63.5" x2="-15.24" y2="63.5" width="0.1524" layer="91"/>
+<label x="-15.24" y="63.5" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="U$7" gate="G$1" pin="IN7"/>
 </segment>
 </net>
 <net name="BATT_EN_1_1" class="0">
@@ -19208,9 +19208,9 @@ http://www.st.com&lt;p&gt;
 <label x="-403.86" y="-66.04" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
-<label x="-15.24" y="58.42" size="1.27" layer="95" font="vector" xref="yes"/>
-<wire x1="-15.24" y1="58.42" x2="-17.78" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="U$7" gate="G$1" pin="IN5"/>
+<label x="-40.64" y="60.96" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="-40.64" y1="60.96" x2="-38.1" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="U$7" gate="G$1" pin="IN3"/>
 </segment>
 </net>
 <net name="BATT_CONN_1_2" class="0">
@@ -19224,9 +19224,9 @@ http://www.st.com&lt;p&gt;
 <label x="-403.86" y="-22.86" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
-<label x="-40.64" y="68.58" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-<wire x1="-40.64" y1="68.58" x2="-38.1" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="U$7" gate="G$1" pin="IN0"/>
+<label x="-40.64" y="63.5" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="-40.64" y1="63.5" x2="-38.1" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="U$7" gate="G$1" pin="IN2"/>
 </segment>
 </net>
 </nets>
