@@ -16280,78 +16280,78 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <part name="IC6" library="BMS Lbr" deviceset="CD74HC4067" device=""/>
 <part name="IC7" library="BMS Lbr" deviceset="CD74HC4067" device=""/>
 <part name="IC8" library="BMS Lbr" deviceset="CD74HC4067" device=""/>
-<part name="R5" library="adafruit" deviceset="R-US_" device="R0603"/>
-<part name="R10" library="adafruit" deviceset="R-US_" device="R0603"/>
-<part name="R11" library="adafruit" deviceset="R-US_" device="R0603"/>
-<part name="R12" library="adafruit" deviceset="R-US_" device="R0603"/>
-<part name="R13" library="adafruit" deviceset="R-US_" device="R0603"/>
-<part name="R14" library="adafruit" deviceset="R-US_" device="R0603"/>
-<part name="R15" library="adafruit" deviceset="R-US_" device="R0603"/>
-<part name="R16" library="adafruit" deviceset="R-US_" device="R0603"/>
-<part name="R17" library="adafruit" deviceset="R-US_" device="R0603"/>
-<part name="R18" library="adafruit" deviceset="R-US_" device="R0603"/>
-<part name="R19" library="adafruit" deviceset="R-US_" device="R0603"/>
-<part name="R20" library="adafruit" deviceset="R-US_" device="R0603"/>
-<part name="R21" library="adafruit" deviceset="R-US_" device="R0603"/>
-<part name="R22" library="adafruit" deviceset="R-US_" device="R0603"/>
-<part name="R23" library="adafruit" deviceset="R-US_" device="R0603"/>
-<part name="R24" library="adafruit" deviceset="R-US_" device="R0603"/>
-<part name="R25" library="adafruit" deviceset="R-US_" device="R0603"/>
-<part name="R26" library="adafruit" deviceset="R-US_" device="R0603"/>
-<part name="R27" library="adafruit" deviceset="R-US_" device="R0603"/>
-<part name="R28" library="adafruit" deviceset="R-US_" device="R0603"/>
-<part name="R29" library="adafruit" deviceset="R-US_" device="R0603"/>
-<part name="R30" library="adafruit" deviceset="R-US_" device="R0603"/>
-<part name="R31" library="adafruit" deviceset="R-US_" device="R0603"/>
-<part name="R32" library="adafruit" deviceset="R-US_" device="R0603"/>
-<part name="R4" library="adafruit" deviceset="R-US_" device="R0603"/>
-<part name="R33" library="adafruit" deviceset="R-US_" device="R0603"/>
-<part name="R34" library="adafruit" deviceset="R-US_" device="R0603"/>
-<part name="R35" library="adafruit" deviceset="R-US_" device="R0603"/>
-<part name="R36" library="adafruit" deviceset="R-US_" device="R0603"/>
-<part name="R37" library="adafruit" deviceset="R-US_" device="R0603"/>
-<part name="R38" library="adafruit" deviceset="R-US_" device="R0603"/>
-<part name="R39" library="adafruit" deviceset="R-US_" device="R0603"/>
-<part name="R40" library="adafruit" deviceset="R-US_" device="R0603"/>
-<part name="R41" library="adafruit" deviceset="R-US_" device="R0603"/>
-<part name="R42" library="adafruit" deviceset="R-US_" device="R0603"/>
-<part name="R43" library="adafruit" deviceset="R-US_" device="R0603"/>
-<part name="R44" library="adafruit" deviceset="R-US_" device="R0603"/>
-<part name="R45" library="adafruit" deviceset="R-US_" device="R0603"/>
-<part name="R46" library="adafruit" deviceset="R-US_" device="R0603"/>
-<part name="R47" library="adafruit" deviceset="R-US_" device="R0603"/>
-<part name="R48" library="adafruit" deviceset="R-US_" device="R0603"/>
-<part name="R49" library="adafruit" deviceset="R-US_" device="R0603"/>
-<part name="R50" library="adafruit" deviceset="R-US_" device="R0603"/>
-<part name="R51" library="adafruit" deviceset="R-US_" device="R0603"/>
-<part name="R52" library="adafruit" deviceset="R-US_" device="R0603"/>
-<part name="R53" library="adafruit" deviceset="R-US_" device="R0603"/>
-<part name="R54" library="adafruit" deviceset="R-US_" device="R0603"/>
-<part name="R55" library="adafruit" deviceset="R-US_" device="R0603"/>
-<part name="R56" library="adafruit" deviceset="R-US_" device="R0603"/>
-<part name="R57" library="adafruit" deviceset="R-US_" device="R0603"/>
-<part name="R58" library="adafruit" deviceset="R-US_" device="R0603"/>
-<part name="R59" library="adafruit" deviceset="R-US_" device="R0603"/>
-<part name="R60" library="adafruit" deviceset="R-US_" device="R0603"/>
-<part name="R61" library="adafruit" deviceset="R-US_" device="R0603"/>
-<part name="R62" library="adafruit" deviceset="R-US_" device="R0603"/>
-<part name="R63" library="adafruit" deviceset="R-US_" device="R0603"/>
-<part name="R64" library="adafruit" deviceset="R-US_" device="R0603"/>
-<part name="R65" library="adafruit" deviceset="R-US_" device="R0603"/>
-<part name="R66" library="adafruit" deviceset="R-US_" device="R0603"/>
-<part name="R67" library="adafruit" deviceset="R-US_" device="R0603"/>
-<part name="R68" library="adafruit" deviceset="R-US_" device="R0603"/>
-<part name="R69" library="adafruit" deviceset="R-US_" device="R0603"/>
-<part name="R70" library="adafruit" deviceset="R-US_" device="R0603"/>
-<part name="R71" library="adafruit" deviceset="R-US_" device="R0603"/>
-<part name="R72" library="adafruit" deviceset="R-US_" device="R0603"/>
-<part name="R73" library="adafruit" deviceset="R-US_" device="R0603"/>
-<part name="R74" library="adafruit" deviceset="R-US_" device="R0603"/>
-<part name="R75" library="adafruit" deviceset="R-US_" device="R0603"/>
-<part name="R76" library="adafruit" deviceset="R-US_" device="R0603"/>
-<part name="R77" library="adafruit" deviceset="R-US_" device="R0603"/>
-<part name="R78" library="adafruit" deviceset="R-US_" device="R0603"/>
-<part name="R79" library="adafruit" deviceset="R-US_" device="R0603"/>
+<part name="R5" library="adafruit" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R10" library="adafruit" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R11" library="adafruit" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R12" library="adafruit" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R13" library="adafruit" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R14" library="adafruit" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R15" library="adafruit" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R16" library="adafruit" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R17" library="adafruit" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R18" library="adafruit" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R19" library="adafruit" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R20" library="adafruit" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R21" library="adafruit" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R22" library="adafruit" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R23" library="adafruit" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R24" library="adafruit" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R25" library="adafruit" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R26" library="adafruit" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R27" library="adafruit" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R28" library="adafruit" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R29" library="adafruit" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R30" library="adafruit" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R31" library="adafruit" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R32" library="adafruit" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R4" library="adafruit" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R33" library="adafruit" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R34" library="adafruit" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R35" library="adafruit" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R36" library="adafruit" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R37" library="adafruit" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R38" library="adafruit" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R39" library="adafruit" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R40" library="adafruit" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R41" library="adafruit" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R42" library="adafruit" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R43" library="adafruit" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R44" library="adafruit" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R45" library="adafruit" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R46" library="adafruit" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R47" library="adafruit" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R48" library="adafruit" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R49" library="adafruit" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R50" library="adafruit" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R51" library="adafruit" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R52" library="adafruit" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R53" library="adafruit" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R54" library="adafruit" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R55" library="adafruit" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R56" library="adafruit" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R57" library="adafruit" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R58" library="adafruit" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R59" library="adafruit" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R60" library="adafruit" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R61" library="adafruit" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R62" library="adafruit" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R63" library="adafruit" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R64" library="adafruit" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R65" library="adafruit" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R66" library="adafruit" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R67" library="adafruit" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R68" library="adafruit" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R69" library="adafruit" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R70" library="adafruit" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R71" library="adafruit" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R72" library="adafruit" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R73" library="adafruit" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R74" library="adafruit" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R75" library="adafruit" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R76" library="adafruit" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R77" library="adafruit" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R78" library="adafruit" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R79" library="adafruit" deviceset="R-US_" device="R0603" value="10K"/>
 <part name="F1" library="BMS Lbr" deviceset="0ZCH0050FF2G" device=""/>
 <part name="C4" library="rcl" deviceset="C-US" device="C0805" value="0.1uF"/>
 <part name="C5" library="rcl" deviceset="C-US" device="C0805" value="0.1uF"/>
