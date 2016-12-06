@@ -16900,32 +16900,36 @@ http://www.st.com&lt;p&gt;
 <smd name="3" x="2.54" y="-10.16" dx="2.0828" dy="3.81" layer="1"/>
 <text x="-5.588" y="5.969" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3.81" y="-4.699" size="1.27" layer="27">&gt;VALUE</text>
-<polygon width="0.127" layer="1">
-<vertex x="-5.715" y="-3.175"/>
-<vertex x="5.715" y="-3.175"/>
-<vertex x="5.715" y="5.715"/>
-<vertex x="-5.715" y="5.715"/>
-</polygon>
-<pad name="4" x="-5.08" y="5.08" drill="1.1"/>
-<pad name="5" x="-2.54" y="5.08" drill="1.1"/>
-<pad name="6" x="0" y="5.08" drill="1.1"/>
-<pad name="7" x="2.54" y="5.08" drill="1.1"/>
-<pad name="8" x="5.08" y="5.08" drill="1.1"/>
-<pad name="9" x="5.08" y="2.54" drill="1.1"/>
-<pad name="10" x="2.54" y="2.54" drill="1.1"/>
-<pad name="11" x="0" y="2.54" drill="1.1"/>
-<pad name="12" x="-2.54" y="2.54" drill="1.1"/>
-<pad name="13" x="-5.08" y="2.54" drill="1.1"/>
-<pad name="14" x="-5.08" y="0" drill="1.1"/>
-<pad name="15" x="-2.54" y="0" drill="1.1"/>
-<pad name="16" x="0" y="0" drill="1.1"/>
-<pad name="17" x="2.54" y="0" drill="1.1"/>
-<pad name="18" x="5.08" y="0" drill="1.1"/>
-<pad name="19" x="5.08" y="-2.54" drill="1.1"/>
-<pad name="20" x="2.54" y="-2.54" drill="1.1"/>
-<pad name="21" x="0" y="-2.54" drill="1.1"/>
-<pad name="22" x="-2.54" y="-2.54" drill="1.1"/>
-<pad name="23" x="-5.08" y="-2.54" drill="1.1"/>
+<pad name="P$1" x="-5.08" y="5.08" drill="0.6"/>
+<pad name="P$2" x="-3.175" y="5.08" drill="0.6"/>
+<pad name="P$3" x="-1.27" y="5.08" drill="0.6"/>
+<pad name="P$4" x="0.635" y="5.08" drill="0.6"/>
+<pad name="P$5" x="2.54" y="5.08" drill="0.6"/>
+<pad name="P$6" x="4.445" y="5.08" drill="0.6"/>
+<pad name="P$7" x="4.445" y="3.175" drill="0.6"/>
+<pad name="P$8" x="2.54" y="3.175" drill="0.6"/>
+<pad name="P$9" x="0.635" y="3.175" drill="0.6"/>
+<pad name="P$10" x="-1.27" y="3.175" drill="0.6"/>
+<pad name="P$11" x="-3.175" y="3.175" drill="0.6"/>
+<pad name="P$12" x="-5.08" y="3.175" drill="0.6"/>
+<pad name="P$13" x="-5.08" y="1.27" drill="0.6"/>
+<pad name="P$14" x="-5.08" y="-0.635" drill="0.6"/>
+<pad name="P$15" x="-5.08" y="-2.54" drill="0.6"/>
+<pad name="P$16" x="-3.175" y="-2.54" drill="0.6"/>
+<pad name="P$17" x="-1.27" y="-2.54" drill="0.6"/>
+<pad name="P$18" x="0.635" y="-2.54" drill="0.6"/>
+<pad name="P$19" x="2.54" y="-2.54" drill="0.6"/>
+<pad name="P$20" x="4.445" y="-2.54" drill="0.6"/>
+<pad name="P$21" x="4.445" y="-0.635" drill="0.6"/>
+<pad name="P$22" x="4.445" y="1.27" drill="0.6"/>
+<pad name="P$23" x="2.54" y="1.27" drill="0.6"/>
+<pad name="P$24" x="0.635" y="1.27" drill="0.6"/>
+<pad name="P$25" x="-1.27" y="1.27" drill="0.6"/>
+<pad name="P$26" x="-3.175" y="1.27" drill="0.6"/>
+<pad name="P$27" x="-3.175" y="-0.635" drill="0.6"/>
+<pad name="P$28" x="-1.27" y="-0.635" drill="0.6"/>
+<pad name="P$29" x="0.635" y="-0.635" drill="0.6"/>
+<pad name="P$30" x="2.54" y="-0.635" drill="0.6"/>
 </package>
 </packages>
 <symbols>
@@ -16977,7 +16981,7 @@ http://www.st.com&lt;p&gt;
 <devices>
 <device name="" package="D2-PAK">
 <connects>
-<connect gate="G$1" pin="D" pad="2 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23"/>
+<connect gate="G$1" pin="D" pad="2 P$1 P$2 P$3 P$4 P$5 P$6 P$7 P$8 P$9 P$10 P$11 P$12 P$13 P$14 P$15 P$16 P$17 P$18 P$19 P$20 P$21 P$22 P$23 P$24 P$25 P$26 P$27 P$28 P$29 P$30"/>
 <connect gate="G$1" pin="G" pad="1"/>
 <connect gate="G$1" pin="S" pad="3"/>
 </connects>
@@ -18202,9 +18206,9 @@ http://www.st.com&lt;p&gt;
 <label x="-116.84" y="111.76" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="ADC6"/>
-<wire x1="17.78" y1="25.4" x2="22.86" y2="25.4" width="0.1524" layer="91"/>
-<label x="22.86" y="25.4" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="PB0(ICP)"/>
+<wire x1="17.78" y1="-5.08" x2="22.86" y2="-5.08" width="0.1524" layer="91"/>
+<label x="22.86" y="-5.08" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="DISC_EN_1" class="0">
@@ -18342,11 +18346,6 @@ http://www.st.com&lt;p&gt;
 </net>
 <net name="CHARGE_SENSE_2" class="0">
 <segment>
-<wire x1="-17.78" y1="60.96" x2="-15.24" y2="60.96" width="0.1524" layer="91"/>
-<label x="-15.24" y="60.96" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="U$7" gate="G$1" pin="IN6"/>
-</segment>
-<segment>
 <pinref part="U9" gate="A" pin="OUT"/>
 <wire x1="-347.98" y1="22.86" x2="-350.52" y2="22.86" width="0.1524" layer="91"/>
 <label x="-347.98" y="22.86" size="1.27" layer="95" font="vector" xref="yes"/>
@@ -18354,6 +18353,11 @@ http://www.st.com&lt;p&gt;
 <wire x1="-350.52" y1="22.86" x2="-353.06" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="-350.52" y1="20.32" x2="-350.52" y2="22.86" width="0.1524" layer="91"/>
 <junction x="-350.52" y="22.86"/>
+</segment>
+<segment>
+<label x="-40.64" y="66.04" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="-40.64" y1="66.04" x2="-38.1" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="U$7" gate="G$1" pin="IN1"/>
 </segment>
 </net>
 <net name="I_SENSE_2" class="0">
@@ -18429,11 +18433,6 @@ http://www.st.com&lt;p&gt;
 </net>
 <net name="BATT_CONN_1_1" class="0">
 <segment>
-<label x="-40.64" y="68.58" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-<wire x1="-40.64" y1="68.58" x2="-38.1" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="U$7" gate="G$1" pin="IN0"/>
-</segment>
-<segment>
 <pinref part="F2" gate="G$1" pin="2"/>
 <pinref part="BATT_1" gate="G$1" pin="1"/>
 <wire x1="-226.06" y1="-30.48" x2="-220.98" y2="-30.48" width="0.1524" layer="91"/>
@@ -18442,13 +18441,13 @@ http://www.st.com&lt;p&gt;
 <junction x="-220.98" y="-30.48"/>
 <label x="-220.98" y="-22.86" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
+<segment>
+<label x="-40.64" y="58.42" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="-40.64" y1="58.42" x2="-38.1" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="U$7" gate="G$1" pin="IN4"/>
+</segment>
 </net>
 <net name="BATT_CONN_2_1" class="0">
-<segment>
-<label x="-40.64" y="66.04" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-<wire x1="-40.64" y1="66.04" x2="-38.1" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="U$7" gate="G$1" pin="IN1"/>
-</segment>
 <segment>
 <pinref part="BATT_2" gate="G$1" pin="1"/>
 <pinref part="F1" gate="G$1" pin="2"/>
@@ -18458,6 +18457,11 @@ http://www.st.com&lt;p&gt;
 <wire x1="-223.52" y1="-66.04" x2="-220.98" y2="-66.04" width="0.1524" layer="91"/>
 <junction x="-223.52" y="-73.66"/>
 <label x="-220.98" y="-66.04" size="1.27" layer="95" font="vector" xref="yes"/>
+</segment>
+<segment>
+<wire x1="-17.78" y1="60.96" x2="-15.24" y2="60.96" width="0.1524" layer="91"/>
+<label x="-15.24" y="60.96" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="U$7" gate="G$1" pin="IN6"/>
 </segment>
 </net>
 <net name="BATT_EN_1_1" class="0">
@@ -18470,9 +18474,9 @@ http://www.st.com&lt;p&gt;
 <wire x1="-185.42" y1="-35.56" x2="-185.42" y2="-40.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="PB0(ICP)"/>
-<wire x1="17.78" y1="-5.08" x2="22.86" y2="-5.08" width="0.1524" layer="91"/>
-<label x="22.86" y="-5.08" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="ADC6"/>
+<wire x1="17.78" y1="25.4" x2="22.86" y2="25.4" width="0.1524" layer="91"/>
+<label x="22.86" y="25.4" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="BATT_EN_2_1" class="0">
@@ -18578,20 +18582,6 @@ http://www.st.com&lt;p&gt;
 <wire x1="-175.26" y1="-73.66" x2="-172.72" y2="-73.66" width="0.1524" layer="91"/>
 <wire x1="-175.26" y1="-68.58" x2="-175.26" y2="-73.66" width="0.1524" layer="91"/>
 <junction x="-175.26" y="-73.66"/>
-</segment>
-</net>
-<net name="BATT_CONN_4" class="0">
-<segment>
-<label x="-15.24" y="58.42" size="1.27" layer="95" font="vector" xref="yes"/>
-<wire x1="-15.24" y1="58.42" x2="-17.78" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="U$7" gate="G$1" pin="IN5"/>
-</segment>
-</net>
-<net name="BATT_CONN_3" class="0">
-<segment>
-<label x="-40.64" y="58.42" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-<wire x1="-40.64" y1="58.42" x2="-38.1" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="U$7" gate="G$1" pin="IN4"/>
 </segment>
 </net>
 <net name="12V" class="0">
@@ -19217,6 +19207,11 @@ http://www.st.com&lt;p&gt;
 <junction x="-406.4" y="-73.66"/>
 <label x="-403.86" y="-66.04" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
+<segment>
+<label x="-15.24" y="58.42" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="-15.24" y1="58.42" x2="-17.78" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="U$7" gate="G$1" pin="IN5"/>
+</segment>
 </net>
 <net name="BATT_CONN_1_2" class="0">
 <segment>
@@ -19227,6 +19222,11 @@ http://www.st.com&lt;p&gt;
 <wire x1="-403.86" y1="-30.48" x2="-403.86" y2="-22.86" width="0.1524" layer="91"/>
 <junction x="-403.86" y="-30.48"/>
 <label x="-403.86" y="-22.86" size="1.27" layer="95" font="vector" xref="yes"/>
+</segment>
+<segment>
+<label x="-40.64" y="68.58" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="-40.64" y1="68.58" x2="-38.1" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="U$7" gate="G$1" pin="IN0"/>
 </segment>
 </net>
 </nets>
