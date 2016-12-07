@@ -18218,9 +18218,9 @@ http://www.st.com&lt;p&gt;
 <label x="-106.68" y="-101.6" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="PD7(AIN1)"/>
-<wire x1="17.78" y1="0" x2="22.86" y2="0" width="0.1524" layer="91"/>
-<label x="22.86" y="0" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="PD5(T1)"/>
+<wire x1="17.78" y1="5.08" x2="22.86" y2="5.08" width="0.1524" layer="91"/>
+<label x="22.86" y="5.08" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="GATE_1" class="0">
@@ -18489,9 +18489,9 @@ http://www.st.com&lt;p&gt;
 <wire x1="-185.42" y1="-78.74" x2="-185.42" y2="-81.28" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="PD6(AIN0)"/>
-<wire x1="17.78" y1="2.54" x2="22.86" y2="2.54" width="0.1524" layer="91"/>
-<label x="22.86" y="2.54" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="PD7(AIN1)"/>
+<wire x1="17.78" y1="0" x2="22.86" y2="0" width="0.1524" layer="91"/>
+<label x="22.86" y="0" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="DISC_GATE_1" class="0">
@@ -18935,9 +18935,9 @@ http://www.st.com&lt;p&gt;
 <label x="-195.58" y="-53.34" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="PD5(T1)"/>
-<wire x1="17.78" y1="5.08" x2="22.86" y2="5.08" width="0.1524" layer="91"/>
-<label x="22.86" y="5.08" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="PD6(AIN0)"/>
+<wire x1="17.78" y1="2.54" x2="22.86" y2="2.54" width="0.1524" layer="91"/>
+<label x="22.86" y="2.54" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="CHARGE_1_1" class="0">
