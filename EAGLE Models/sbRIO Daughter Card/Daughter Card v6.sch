@@ -8209,12 +8209,12 @@ WM4926-ND</description>
 <part name="U1" library="adafruit" deviceset="TXS0102" device=""/>
 <part name="SAFETY_CONN" library="formula electric" deviceset="CONN_5" device=""/>
 <part name="LATCH_CONN" library="formula electric" deviceset="CONN_5" device=""/>
-<part name="SBRIO_U1" library="formula electric" deviceset="HE3621A1250_SPST" device=""/>
-<part name="SBRIO_U2" library="formula electric" deviceset="HE3621A1250_SPST" device=""/>
-<part name="INTERLOCKS_U3" library="formula electric" deviceset="HE3621A1250_SPST" device=""/>
-<part name="BSPD_U4" library="formula electric" deviceset="HE3621A1250_SPST" device=""/>
-<part name="AMS_U5" library="formula electric" deviceset="HE3621A1250_SPST" device=""/>
-<part name="IMD_U6" library="formula electric" deviceset="HE3621A1250_SPST" device=""/>
+<part name="K3" library="formula electric" deviceset="HE3621A1250_SPST" device=""/>
+<part name="K2" library="formula electric" deviceset="HE3621A1250_SPST" device=""/>
+<part name="K1" library="formula electric" deviceset="HE3621A1250_SPST" device=""/>
+<part name="K4" library="formula electric" deviceset="HE3621A1250_SPST" device=""/>
+<part name="K5" library="formula electric" deviceset="HE3621A1250_SPST" device=""/>
+<part name="K6" library="formula electric" deviceset="HE3621A1250_SPST" device=""/>
 <part name="LATCH_U7" library="formula electric" deviceset="JW2SN-DC12V" device=""/>
 <part name="U$8" library="formula electric" deviceset="RELAY" device=""/>
 <part name="TSMS_CONN" library="formula electric" deviceset="CONN_2" device=""/>
@@ -8442,12 +8442,12 @@ for Latched Components</text>
 <instance part="U1" gate="G$1" x="294.64" y="30.48"/>
 <instance part="SAFETY_CONN" gate="G$1" x="530.86" y="-106.68"/>
 <instance part="LATCH_CONN" gate="G$1" x="530.86" y="-137.16"/>
-<instance part="SBRIO_U1" gate="G$1" x="650.24" y="15.24"/>
-<instance part="SBRIO_U2" gate="G$1" x="650.24" y="-10.16"/>
-<instance part="INTERLOCKS_U3" gate="G$1" x="650.24" y="-33.02"/>
-<instance part="BSPD_U4" gate="G$1" x="736.6" y="12.7"/>
-<instance part="AMS_U5" gate="G$1" x="736.6" y="-10.16"/>
-<instance part="IMD_U6" gate="G$1" x="736.6" y="-33.02"/>
+<instance part="K3" gate="G$1" x="650.24" y="15.24"/>
+<instance part="K2" gate="G$1" x="650.24" y="-10.16"/>
+<instance part="K1" gate="G$1" x="650.24" y="-33.02"/>
+<instance part="K4" gate="G$1" x="736.6" y="12.7"/>
+<instance part="K5" gate="G$1" x="736.6" y="-10.16"/>
+<instance part="K6" gate="G$1" x="736.6" y="-33.02"/>
 <instance part="LATCH_U7" gate="G$1" x="627.38" y="-139.7" rot="R180"/>
 <instance part="U$8" gate="G$1" x="718.82" y="-124.46"/>
 <instance part="TSMS_CONN" gate="G$1" x="530.86" y="-30.48"/>
@@ -8693,27 +8693,27 @@ for Latched Components</text>
 <label x="695.96" y="-119.38" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="BSPD_U4" gate="G$1" pin="C-"/>
+<pinref part="K4" gate="G$1" pin="C-"/>
 <wire x1="728.98" y1="7.62" x2="723.9" y2="7.62" width="0.1524" layer="91"/>
 <label x="723.9" y="7.62" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IMD_U6" gate="G$1" pin="C-"/>
+<pinref part="K6" gate="G$1" pin="C-"/>
 <wire x1="723.9" y1="-38.1" x2="728.98" y2="-38.1" width="0.1524" layer="91"/>
 <label x="723.9" y="-38.1" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="SBRIO_U1" gate="G$1" pin="C-"/>
+<pinref part="K3" gate="G$1" pin="C-"/>
 <wire x1="642.62" y1="10.16" x2="637.54" y2="10.16" width="0.1524" layer="91"/>
 <label x="637.54" y="10.16" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="SBRIO_U2" gate="G$1" pin="C-"/>
+<pinref part="K2" gate="G$1" pin="C-"/>
 <wire x1="637.54" y1="-15.24" x2="642.62" y2="-15.24" width="0.1524" layer="91"/>
 <label x="637.54" y="-15.24" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="INTERLOCKS_U3" gate="G$1" pin="C-"/>
+<pinref part="K1" gate="G$1" pin="C-"/>
 <wire x1="642.62" y1="-38.1" x2="637.54" y2="-38.1" width="0.1524" layer="91"/>
 <label x="637.54" y="-38.1" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -10378,29 +10378,29 @@ for Latched Components</text>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="SBRIO_U1" gate="G$1" pin="SW_2"/>
-<pinref part="SBRIO_U2" gate="G$1" pin="SW_1"/>
+<pinref part="K3" gate="G$1" pin="SW_2"/>
+<pinref part="K2" gate="G$1" pin="SW_1"/>
 <wire x1="650.24" y1="10.16" x2="650.24" y2="-5.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
-<pinref part="SBRIO_U2" gate="G$1" pin="SW_2"/>
-<pinref part="INTERLOCKS_U3" gate="G$1" pin="SW_1"/>
+<pinref part="K2" gate="G$1" pin="SW_2"/>
+<pinref part="K1" gate="G$1" pin="SW_1"/>
 <wire x1="650.24" y1="-15.24" x2="650.24" y2="-27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$8" class="0">
+<net name="K4" class="0">
 <segment>
-<pinref part="BSPD_U4" gate="G$1" pin="SW_2"/>
-<pinref part="AMS_U5" gate="G$1" pin="SW_1"/>
+<pinref part="K4" gate="G$1" pin="SW_2"/>
+<pinref part="K5" gate="G$1" pin="SW_1"/>
 <wire x1="736.6" y1="7.62" x2="736.6" y2="-5.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$13" class="0">
 <segment>
-<pinref part="AMS_U5" gate="G$1" pin="SW_2"/>
-<pinref part="IMD_U6" gate="G$1" pin="SW_1"/>
+<pinref part="K5" gate="G$1" pin="SW_2"/>
+<pinref part="K6" gate="G$1" pin="SW_1"/>
 <wire x1="736.6" y1="-15.24" x2="736.6" y2="-27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -10409,11 +10409,6 @@ for Latched Components</text>
 <pinref part="LATCH_U7" gate="G$1" pin="IN_2"/>
 <wire x1="624.84" y1="-119.38" x2="624.84" y2="-127" width="0.1524" layer="91"/>
 <label x="624.84" y="-119.38" size="1.778" layer="95" rot="R90" xref="yes"/>
-</segment>
-<segment>
-<pinref part="IMD_U6" gate="G$1" pin="SW_2"/>
-<wire x1="736.6" y1="-38.1" x2="736.6" y2="-40.64" width="0.1524" layer="91"/>
-<label x="736.6" y="-40.64" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
 <pinref part="LATCH_CONN" gate="G$1" pin="2"/>
@@ -10449,7 +10444,7 @@ for Latched Components</text>
 <label x="619.76" y="-157.48" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
-<pinref part="INTERLOCKS_U3" gate="G$1" pin="SW_2"/>
+<pinref part="K1" gate="G$1" pin="SW_2"/>
 <wire x1="650.24" y1="-38.1" x2="650.24" y2="-43.18" width="0.1524" layer="91"/>
 <label x="650.24" y="-43.18" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
@@ -10461,7 +10456,7 @@ for Latched Components</text>
 <label x="543.56" y="-101.6" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="AMS_U5" gate="G$1" pin="C+"/>
+<pinref part="K5" gate="G$1" pin="C+"/>
 <wire x1="728.98" y1="-5.08" x2="723.9" y2="-5.08" width="0.1524" layer="91"/>
 <label x="723.9" y="-5.08" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -10473,7 +10468,7 @@ for Latched Components</text>
 <label x="543.56" y="-106.68" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IMD_U6" gate="G$1" pin="C+"/>
+<pinref part="K6" gate="G$1" pin="C+"/>
 <wire x1="728.98" y1="-27.94" x2="723.9" y2="-27.94" width="0.1524" layer="91"/>
 <label x="723.9" y="-27.94" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -10520,17 +10515,17 @@ for Latched Components</text>
 <label x="764.54" y="-114.3" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="BSPD_U4" gate="G$1" pin="SW_1"/>
+<pinref part="K4" gate="G$1" pin="SW_1"/>
 <wire x1="736.6" y1="25.4" x2="736.6" y2="17.78" width="0.1524" layer="91"/>
 <label x="736.6" y="25.4" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="SBRIO_U1" gate="G$1" pin="SW_1"/>
+<pinref part="K3" gate="G$1" pin="SW_1"/>
 <wire x1="650.24" y1="20.32" x2="650.24" y2="25.4" width="0.1524" layer="91"/>
 <label x="650.24" y="25.4" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="AMS_U5" gate="G$1" pin="C-"/>
+<pinref part="K5" gate="G$1" pin="C-"/>
 <wire x1="723.9" y1="-15.24" x2="728.98" y2="-15.24" width="0.1524" layer="91"/>
 <label x="723.9" y="-15.24" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -10549,7 +10544,7 @@ for Latched Components</text>
 <label x="543.56" y="-96.52" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="BSPD_U4" gate="G$1" pin="C+"/>
+<pinref part="K4" gate="G$1" pin="C+"/>
 <wire x1="723.9" y1="17.78" x2="728.98" y2="17.78" width="0.1524" layer="91"/>
 <label x="723.9" y="17.78" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -10568,7 +10563,7 @@ for Latched Components</text>
 <label x="543.56" y="-111.76" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="INTERLOCKS_U3" gate="G$1" pin="C+"/>
+<pinref part="K1" gate="G$1" pin="C+"/>
 <wire x1="642.62" y1="-27.94" x2="637.54" y2="-27.94" width="0.1524" layer="91"/>
 <label x="637.54" y="-27.94" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -10605,14 +10600,14 @@ for Latched Components</text>
 <net name="SBRIO_OK+_1_RELAY_IN" class="0">
 <segment>
 <pinref part="F2" gate="G$1" pin="2"/>
-<pinref part="SBRIO_U1" gate="G$1" pin="C+"/>
+<pinref part="K3" gate="G$1" pin="C+"/>
 <wire x1="642.62" y1="27.94" x2="642.62" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SBRIO_OK_2_RELAY" class="0">
 <segment>
 <pinref part="F14" gate="G$1" pin="2"/>
-<pinref part="SBRIO_U2" gate="G$1" pin="C+"/>
+<pinref part="K2" gate="G$1" pin="C+"/>
 <wire x1="642.62" y1="0" x2="642.62" y2="-5.08" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -10712,6 +10707,13 @@ for Latched Components</text>
 <segment>
 <pinref part="C13" gate="G$1" pin="1"/>
 <pinref part="R38" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="K5" class="0">
+<segment>
+<pinref part="K6" gate="G$1" pin="SW_2"/>
+<wire x1="736.6" y1="-38.1" x2="736.6" y2="-40.64" width="0.1524" layer="91"/>
+<label x="736.6" y="-40.64" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 </nets>
