@@ -16108,11 +16108,11 @@ Source: &lt;a href="http://www.littelfuse.com/products/resettable-ptcs.aspx"&gt;
 <smd name="3" x="4.1148" y="6.1722" dx="1.6764" dy="4.2672" layer="1"/>
 <text x="-5.08" y="9.525" size="1.016" layer="25" font="vector">&gt;NAME</text>
 <text x="-5.08" y="-5.08" size="1.016" layer="27" font="vector">&gt;VALUE</text>
-<wire x1="-5.08" y1="3.175" x2="5.08" y2="3.175" width="0.127" layer="27"/>
-<wire x1="-5.715" y1="8.89" x2="5.715" y2="8.89" width="0.127" layer="27"/>
-<wire x1="5.715" y1="8.89" x2="5.715" y2="-3.175" width="0.127" layer="27"/>
-<wire x1="5.715" y1="-3.175" x2="-5.715" y2="-3.175" width="0.127" layer="27"/>
-<wire x1="-5.715" y1="-3.175" x2="-5.715" y2="8.89" width="0.127" layer="27"/>
+<wire x1="-5.08" y1="3.175" x2="5.08" y2="3.175" width="0.127" layer="21"/>
+<wire x1="-5.715" y1="8.89" x2="5.715" y2="8.89" width="0.127" layer="21"/>
+<wire x1="5.715" y1="8.89" x2="5.715" y2="-3.175" width="0.127" layer="21"/>
+<wire x1="5.715" y1="-3.175" x2="-5.715" y2="-3.175" width="0.127" layer="21"/>
+<wire x1="-5.715" y1="-3.175" x2="-5.715" y2="8.89" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -17012,7 +17012,6 @@ http://www.st.com&lt;p&gt;
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="PC1" library="microchip" deviceset="MCP73826" device=""/>
-<part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="C3" library="rcl" deviceset="C-US" device="C0603" value="10uF"/>
 <part name="P+3" library="supply1" deviceset="VCC" device=""/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
@@ -17056,12 +17055,6 @@ http://www.st.com&lt;p&gt;
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
 <part name="R12" library="resistor" deviceset="R-US_" device="M1206" value="0R047">
 <attribute name="PN" value="MCR18EZHFSR047"/>
-</part>
-<part name="R15" library="resistor" deviceset="R-US_" device="R0603" value="18k">
-<attribute name="PN" value="RG1608P-183-B-T5"/>
-</part>
-<part name="R13" library="resistor" deviceset="R-US_" device="R0603" value="2.2k">
-<attribute name="PN" value="RG1608P-202-B-T5"/>
 </part>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
 <part name="P+8" library="supply1" deviceset="VCC" device=""/>
@@ -17169,7 +17162,6 @@ http://www.st.com&lt;p&gt;
 </part>
 <part name="P+13" library="supply1" deviceset="VCC" device=""/>
 <part name="PC2" library="microchip" deviceset="MCP73826" device=""/>
-<part name="GND20" library="supply1" deviceset="GND" device=""/>
 <part name="C26" library="rcl" deviceset="C-US" device="C0603" value="10uF"/>
 <part name="P+5" library="supply1" deviceset="VCC" device=""/>
 <part name="GND21" library="supply1" deviceset="GND" device=""/>
@@ -17213,12 +17205,6 @@ http://www.st.com&lt;p&gt;
 <part name="GND29" library="supply1" deviceset="GND" device=""/>
 <part name="R26" library="resistor" deviceset="R-US_" device="M1206" value="0R047">
 <attribute name="PN" value="MCR18EZHFSR047"/>
-</part>
-<part name="R27" library="resistor" deviceset="R-US_" device="R0603" value="18k">
-<attribute name="PN" value="RG1608P-183-B-T5"/>
-</part>
-<part name="R28" library="resistor" deviceset="R-US_" device="R0603" value="2.2k">
-<attribute name="PN" value="RG1608P-202-B-T5"/>
 </part>
 <part name="BATT_4" library="formula electric" deviceset="CONN_2" device="">
 <attribute name="PN" value="A104554-ND "/>
@@ -17283,7 +17269,6 @@ http://www.st.com&lt;p&gt;
 <wire x1="-68.58" y1="0" x2="-68.58" y2="-114.3" width="0.1524" layer="94"/>
 <wire x1="-68.58" y1="-114.3" x2="-246.38" y2="-114.3" width="0.1524" layer="94"/>
 <text x="-109.22" y="-83.82" size="1.27" layer="94" font="vector" rot="R90">Load Resistor</text>
-<text x="-198.12" y="60.96" size="1.27" layer="94" font="vector">0.54455 offset</text>
 <wire x1="-63.5" y1="86.36" x2="12.7" y2="86.36" width="0.1524" layer="94"/>
 <wire x1="12.7" y1="86.36" x2="12.7" y2="53.34" width="0.1524" layer="94"/>
 <wire x1="12.7" y1="53.34" x2="-63.5" y2="53.34" width="0.1524" layer="94"/>
@@ -17331,7 +17316,6 @@ http://www.st.com&lt;p&gt;
 <wire x1="-251.46" y1="0" x2="-251.46" y2="-114.3" width="0.1524" layer="94"/>
 <wire x1="-251.46" y1="-114.3" x2="-429.26" y2="-114.3" width="0.1524" layer="94"/>
 <text x="-292.1" y="-83.82" size="1.27" layer="94" font="vector" rot="R90">Load Resistor</text>
-<text x="-381" y="60.96" size="1.27" layer="94" font="vector">0.54455 offset</text>
 <text x="-314.96" y="-109.22" size="1.27" layer="94" font="vector">Gate Driver Needed for PWM</text>
 <text x="-426.72" y="-101.6" size="1.27" layer="94" font="vector" rot="R90">may not work due to decreasing Vgs due to battery voltage decrease</text>
 <text x="-335.28" y="-2.54" size="1.778" layer="94">Discharge Circuit</text>
@@ -17346,7 +17330,6 @@ http://www.st.com&lt;p&gt;
 <instance part="GND2" gate="1" x="-43.18" y="20.32"/>
 <instance part="GND1" gate="1" x="-35.56" y="-17.78"/>
 <instance part="PC1" gate="G$1" x="-142.24" y="106.68" rot="MR0"/>
-<instance part="GND3" gate="1" x="-187.96" y="66.04"/>
 <instance part="C3" gate="G$1" x="-187.96" y="83.82" rot="MR0"/>
 <instance part="P+3" gate="VCC" x="-165.1" y="109.22"/>
 <instance part="GND4" gate="1" x="-114.3" y="104.14"/>
@@ -17390,12 +17373,6 @@ http://www.st.com&lt;p&gt;
 <instance part="GND13" gate="1" x="-198.12" y="48.26"/>
 <instance part="R12" gate="G$1" x="-175.26" y="88.9">
 <attribute name="PN" x="-175.26" y="88.9" size="1.27" layer="96" font="vector" display="off"/>
-</instance>
-<instance part="R15" gate="G$1" x="-200.66" y="78.74" rot="R270">
-<attribute name="PN" x="-200.66" y="78.74" size="1.27" layer="96" font="vector" rot="R270" display="off"/>
-</instance>
-<instance part="R13" gate="G$1" x="-195.58" y="71.12">
-<attribute name="PN" x="-195.58" y="71.12" size="1.27" layer="96" font="vector" display="off"/>
 </instance>
 <instance part="GND15" gate="1" x="7.62" y="63.5"/>
 <instance part="P+8" gate="VCC" x="-5.08" y="78.74"/>
@@ -17504,7 +17481,6 @@ http://www.st.com&lt;p&gt;
 </instance>
 <instance part="P+13" gate="VCC" x="-203.2" y="-15.24"/>
 <instance part="PC2" gate="G$1" x="-325.12" y="106.68" rot="MR0"/>
-<instance part="GND20" gate="1" x="-370.84" y="66.04"/>
 <instance part="C26" gate="G$1" x="-370.84" y="83.82" rot="MR0"/>
 <instance part="P+5" gate="VCC" x="-347.98" y="109.22"/>
 <instance part="GND21" gate="1" x="-297.18" y="104.14"/>
@@ -17548,12 +17524,6 @@ http://www.st.com&lt;p&gt;
 <instance part="GND29" gate="1" x="-381" y="48.26"/>
 <instance part="R26" gate="G$1" x="-358.14" y="88.9">
 <attribute name="PN" x="-358.14" y="88.9" size="1.27" layer="96" font="vector" display="off"/>
-</instance>
-<instance part="R27" gate="G$1" x="-383.54" y="78.74" rot="R270">
-<attribute name="PN" x="-383.54" y="78.74" size="1.27" layer="96" font="vector" rot="R270" display="off"/>
-</instance>
-<instance part="R28" gate="G$1" x="-378.46" y="71.12">
-<attribute name="PN" x="-378.46" y="71.12" size="1.27" layer="96" font="vector" display="off"/>
 </instance>
 <instance part="BATT_4" gate="G$1" x="-414.02" y="-76.2">
 <attribute name="PN" x="-414.02" y="-76.2" size="1.778" layer="96" display="off"/>
@@ -17720,19 +17690,16 @@ http://www.st.com&lt;p&gt;
 <wire x1="-154.94" y1="48.26" x2="-154.94" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 <segment>
+<pinref part="C3" gate="G$1" pin="2"/>
 <pinref part="U3" gate="A" pin="GND"/>
 <pinref part="GND13" gate="1" pin="GND"/>
 <wire x1="-187.96" y1="58.42" x2="-198.12" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="-198.12" y1="58.42" x2="-198.12" y2="50.8" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="C3" gate="G$1" pin="2"/>
-<pinref part="GND3" gate="1" pin="GND"/>
-<wire x1="-187.96" y1="78.74" x2="-187.96" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="-187.96" y1="71.12" x2="-187.96" y2="68.58" width="0.1524" layer="91"/>
-<junction x="-187.96" y="71.12"/>
-<pinref part="R13" gate="G$1" pin="2"/>
-<wire x1="-187.96" y1="71.12" x2="-190.5" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="U3" gate="A" pin="REF"/>
+<wire x1="-182.88" y1="58.42" x2="-187.96" y2="58.42" width="0.1524" layer="91"/>
+<junction x="-187.96" y="58.42"/>
+<wire x1="-187.96" y1="78.74" x2="-187.96" y2="58.42" width="0.1524" layer="91"/>
+<junction x="-187.96" y="58.42"/>
 </segment>
 <segment>
 <pinref part="GND15" gate="1" pin="GND"/>
@@ -17920,19 +17887,15 @@ http://www.st.com&lt;p&gt;
 <wire x1="-337.82" y1="48.26" x2="-337.82" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 <segment>
+<pinref part="C26" gate="G$1" pin="2"/>
 <pinref part="U9" gate="A" pin="GND"/>
 <pinref part="GND29" gate="1" pin="GND"/>
 <wire x1="-370.84" y1="58.42" x2="-381" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="-381" y1="58.42" x2="-381" y2="50.8" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="C26" gate="G$1" pin="2"/>
-<pinref part="GND20" gate="1" pin="GND"/>
-<wire x1="-370.84" y1="78.74" x2="-370.84" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="-370.84" y1="71.12" x2="-370.84" y2="68.58" width="0.1524" layer="91"/>
-<junction x="-370.84" y="71.12"/>
-<pinref part="R28" gate="G$1" pin="2"/>
-<wire x1="-370.84" y1="71.12" x2="-373.38" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="-370.84" y1="78.74" x2="-370.84" y2="58.42" width="0.1524" layer="91"/>
+<junction x="-370.84" y="58.42"/>
+<pinref part="U9" gate="A" pin="REF"/>
+<wire x1="-365.76" y1="58.42" x2="-370.84" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="BATT_4" gate="G$1" pin="2"/>
@@ -18040,10 +18003,6 @@ http://www.st.com&lt;p&gt;
 <wire x1="-180.34" y1="88.9" x2="-180.34" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="R12" gate="G$1" pin="1"/>
 <junction x="-180.34" y="88.9"/>
-<pinref part="R15" gate="G$1" pin="1"/>
-<wire x1="-190.5" y1="88.9" x2="-200.66" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="-200.66" y1="88.9" x2="-200.66" y2="83.82" width="0.1524" layer="91"/>
-<junction x="-190.5" y="88.9"/>
 <pinref part="P+16" gate="VCC" pin="VCC"/>
 </segment>
 <segment>
@@ -18162,10 +18121,6 @@ http://www.st.com&lt;p&gt;
 <wire x1="-363.22" y1="88.9" x2="-363.22" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="R26" gate="G$1" pin="1"/>
 <junction x="-363.22" y="88.9"/>
-<pinref part="R27" gate="G$1" pin="1"/>
-<wire x1="-373.38" y1="88.9" x2="-383.54" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="-383.54" y1="88.9" x2="-383.54" y2="83.82" width="0.1524" layer="91"/>
-<junction x="-373.38" y="88.9"/>
 <pinref part="P+18" gate="VCC" pin="VCC"/>
 </segment>
 <segment>
@@ -18273,18 +18228,6 @@ http://www.st.com&lt;p&gt;
 <junction x="-172.72" y="73.66"/>
 </segment>
 </net>
-<net name="CHARGE_REF_1" class="0">
-<segment>
-<pinref part="U3" gate="A" pin="REF"/>
-<wire x1="-182.88" y1="58.42" x2="-182.88" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="R15" gate="G$1" pin="2"/>
-<pinref part="R13" gate="G$1" pin="1"/>
-<wire x1="-200.66" y1="71.12" x2="-200.66" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="-182.88" y1="60.96" x2="-200.66" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="-200.66" y1="60.96" x2="-200.66" y2="71.12" width="0.1524" layer="91"/>
-<junction x="-200.66" y="71.12"/>
-</segment>
-</net>
 <net name="V_SNS_1" class="0">
 <segment>
 <pinref part="PC1" gate="G$1" pin="V_SNS"/>
@@ -18323,9 +18266,9 @@ http://www.st.com&lt;p&gt;
 <junction x="-167.64" y="22.86"/>
 </segment>
 <segment>
-<label x="-40.64" y="66.04" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-<wire x1="-40.64" y1="66.04" x2="-38.1" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="U$7" gate="G$1" pin="IN1"/>
+<wire x1="-17.78" y1="63.5" x2="-15.24" y2="63.5" width="0.1524" layer="91"/>
+<label x="-15.24" y="63.5" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="U$7" gate="G$1" pin="IN7"/>
 </segment>
 </net>
 <net name="I_SENSE_1" class="0">
@@ -18339,9 +18282,9 @@ http://www.st.com&lt;p&gt;
 <junction x="-157.48" y="-5.08"/>
 </segment>
 <segment>
-<label x="-15.24" y="58.42" size="1.27" layer="95" font="vector" xref="yes"/>
-<wire x1="-15.24" y1="58.42" x2="-17.78" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="U$7" gate="G$1" pin="IN5"/>
+<label x="-40.64" y="60.96" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="-40.64" y1="60.96" x2="-38.1" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="U$7" gate="G$1" pin="IN3"/>
 </segment>
 </net>
 <net name="CHARGE_SENSE_2" class="0">
@@ -18442,9 +18385,9 @@ http://www.st.com&lt;p&gt;
 <label x="-220.98" y="-22.86" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
-<wire x1="-17.78" y1="60.96" x2="-15.24" y2="60.96" width="0.1524" layer="91"/>
-<label x="-15.24" y="60.96" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="U$7" gate="G$1" pin="IN6"/>
+<label x="-15.24" y="58.42" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="-15.24" y1="58.42" x2="-17.78" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="U$7" gate="G$1" pin="IN5"/>
 </segment>
 </net>
 <net name="BATT_CONN_2_1" class="0">
@@ -18459,9 +18402,9 @@ http://www.st.com&lt;p&gt;
 <label x="-220.98" y="-66.04" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
-<wire x1="-17.78" y1="63.5" x2="-15.24" y2="63.5" width="0.1524" layer="91"/>
-<label x="-15.24" y="63.5" size="1.27" layer="95" font="vector" xref="yes"/>
-<pinref part="U$7" gate="G$1" pin="IN7"/>
+<wire x1="-17.78" y1="60.96" x2="-15.24" y2="60.96" width="0.1524" layer="91"/>
+<label x="-15.24" y="60.96" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="U$7" gate="G$1" pin="IN6"/>
 </segment>
 </net>
 <net name="BATT_EN_1_1" class="0">
@@ -18865,9 +18808,9 @@ http://www.st.com&lt;p&gt;
 <wire x1="-368.3" y1="-78.74" x2="-368.3" y2="-81.28" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="PC1(ADC1)"/>
-<wire x1="17.78" y1="38.1" x2="22.86" y2="38.1" width="0.1524" layer="91"/>
-<label x="22.86" y="38.1" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="PC0(ADC0)"/>
+<wire x1="17.78" y1="40.64" x2="22.86" y2="40.64" width="0.1524" layer="91"/>
+<label x="22.86" y="40.64" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="CHARGE_EN_2" class="0">
@@ -18889,9 +18832,9 @@ http://www.st.com&lt;p&gt;
 <label x="-289.56" y="-101.6" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="ADC7"/>
-<wire x1="17.78" y1="22.86" x2="22.86" y2="22.86" width="0.1524" layer="91"/>
-<label x="22.86" y="22.86" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="PC1(ADC1)"/>
+<wire x1="17.78" y1="38.1" x2="22.86" y2="38.1" width="0.1524" layer="91"/>
+<label x="22.86" y="38.1" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="CHARGE_MAIN_1" class="0">
@@ -18986,9 +18929,9 @@ http://www.st.com&lt;p&gt;
 <label x="-378.46" y="-53.34" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="PC0(ADC0)"/>
-<wire x1="17.78" y1="40.64" x2="22.86" y2="40.64" width="0.1524" layer="91"/>
-<label x="22.86" y="40.64" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="ADC7"/>
+<wire x1="17.78" y1="22.86" x2="22.86" y2="22.86" width="0.1524" layer="91"/>
+<label x="22.86" y="22.86" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="GATE_2" class="0">
@@ -19039,18 +18982,6 @@ http://www.st.com&lt;p&gt;
 <wire x1="-360.68" y1="63.5" x2="-360.68" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="C7" gate="G$1" pin="2"/>
 <junction x="-355.6" y="68.58"/>
-</segment>
-</net>
-<net name="CHARGE_REF_2" class="0">
-<segment>
-<pinref part="U9" gate="A" pin="REF"/>
-<wire x1="-365.76" y1="58.42" x2="-365.76" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="R27" gate="G$1" pin="2"/>
-<pinref part="R28" gate="G$1" pin="1"/>
-<wire x1="-383.54" y1="71.12" x2="-383.54" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="-365.76" y1="60.96" x2="-383.54" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="-383.54" y1="60.96" x2="-383.54" y2="71.12" width="0.1524" layer="91"/>
-<junction x="-383.54" y="71.12"/>
 </segment>
 </net>
 <net name="V_SNS_2" class="0">
@@ -19208,9 +19139,9 @@ http://www.st.com&lt;p&gt;
 <label x="-403.86" y="-66.04" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
-<label x="-40.64" y="60.96" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-<wire x1="-40.64" y1="60.96" x2="-38.1" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="U$7" gate="G$1" pin="IN3"/>
+<label x="-40.64" y="63.5" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="-40.64" y1="63.5" x2="-38.1" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="U$7" gate="G$1" pin="IN2"/>
 </segment>
 </net>
 <net name="BATT_CONN_1_2" class="0">
@@ -19224,9 +19155,9 @@ http://www.st.com&lt;p&gt;
 <label x="-403.86" y="-22.86" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
-<label x="-40.64" y="63.5" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
-<wire x1="-40.64" y1="63.5" x2="-38.1" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="U$7" gate="G$1" pin="IN2"/>
+<label x="-40.64" y="66.04" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="-40.64" y1="66.04" x2="-38.1" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="U$7" gate="G$1" pin="IN1"/>
 </segment>
 </net>
 </nets>
