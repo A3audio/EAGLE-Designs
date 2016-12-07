@@ -8157,7 +8157,7 @@ WM4926-ND</description>
 <part name="SBRIO_ANALOG" library="formula electric" deviceset="SBRIO_MIO" device=""/>
 <part name="SBRIO_CAN" library="formula electric" deviceset="SBRIO_W500" device=""/>
 <part name="SBRIO_MEZZANINE" library="SEAM-40-XX.X-XX-06-X-A" deviceset="SBRIO_RMC" device=""/>
-<part name="5238B-7-F" library="formula electric" deviceset="MMBZ5238B-7-F" device=""/>
+<part name="D6" library="formula electric" deviceset="MMBZ5238B-7-F" device=""/>
 <part name="3.3V_REG" library="formula electric" deviceset="V7803-1000" device=""/>
 <part name="C10" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="10uF"/>
 <part name="C9" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="22uF"/>
@@ -8176,11 +8176,11 @@ WM4926-ND</description>
 <part name="F6" library="resistor" deviceset="R-EU_" device="R0603" value="250mA"/>
 <part name="F16" library="resistor" deviceset="R-EU_" device="R0603" value="0.5A PTC"/>
 <part name="F17" library="resistor" deviceset="R-EU_" device="R0603" value="1A PTC"/>
-<part name="4403-7-F" library="formula electric" deviceset="MMBT4403-7-F" device=""/>
-<part name="4403-7-F(2)" library="formula electric" deviceset="MMBT4403-7-F" device=""/>
+<part name="D1" library="formula electric" deviceset="MMBT4403-7-F" device=""/>
+<part name="D2" library="formula electric" deviceset="MMBT4403-7-F" device=""/>
 <part name="F18" library="resistor" deviceset="R-EU_" device="R0603" value="1A PTC"/>
-<part name="4401-7-F(1)" library="formula electric" deviceset="MMBT4401-7-F" device=""/>
-<part name="4401-7-F(2)" library="formula electric" deviceset="MMBT4401-7-F" device=""/>
+<part name="D4" library="formula electric" deviceset="MMBT4401-7-F" device=""/>
+<part name="D3" library="formula electric" deviceset="MMBT4401-7-F" device=""/>
 <part name="ACCUMULATOR_CONN" library="con-tycoelectronics" deviceset="RJ45*2" device="1-S" technology="-6L"/>
 <part name="AIO_PO_CONN" library="con-3m" deviceset="2516-" device="5"/>
 <part name="F15" library="resistor" deviceset="R-EU_" device="R0402" value="10mA PTC"/>
@@ -8217,8 +8217,8 @@ WM4926-ND</description>
 <part name="LATCH_U7" library="formula electric" deviceset="JW2SN-DC12V" device=""/>
 <part name="U$8" library="formula electric" deviceset="RELAY" device=""/>
 <part name="TSMS_CONN" library="formula electric" deviceset="CONN_2" device=""/>
-<part name="U$1" library="formula electric" deviceset="DIODE_MMBD4448" device=""/>
-<part name="U$2" library="formula electric" deviceset="DIODE_MMBD4448" device=""/>
+<part name="D7" library="formula electric" deviceset="DIODE_MMBD4448" device=""/>
+<part name="D8" library="formula electric" deviceset="DIODE_MMBD4448" device=""/>
 <part name="F3" library="SparkFun-Passives" deviceset="FUSE" device="X20MM"/>
 <part name="U$3" library="texas" deviceset="LM340MP-5.0" device=""/>
 <part name="U$4" library="molex" deviceset="70553-0038" device=""/>
@@ -8357,7 +8357,7 @@ for Latched Components</text>
 <instance part="SBRIO_ANALOG" gate="G$1" x="43.18" y="15.24" rot="R90"/>
 <instance part="SBRIO_CAN" gate="G$1" x="60.96" y="-167.64" rot="R270"/>
 <instance part="SBRIO_MEZZANINE" gate="G$1" x="60.96" y="-93.98"/>
-<instance part="5238B-7-F" gate="G$1" x="5.08" y="7.62" rot="R90"/>
+<instance part="D6" gate="G$1" x="5.08" y="7.62" rot="R90"/>
 <instance part="3.3V_REG" gate="G$1" x="81.28" y="96.52"/>
 <instance part="C10" gate="G$1" x="63.5" y="91.44"/>
 <instance part="C9" gate="G$1" x="101.6" y="91.44"/>
@@ -8376,11 +8376,11 @@ for Latched Components</text>
 <instance part="F6" gate="G$1" x="398.78" y="63.5" rot="MR0"/>
 <instance part="F16" gate="G$1" x="444.5" y="-101.6"/>
 <instance part="F17" gate="G$1" x="205.74" y="-63.5" rot="R180"/>
-<instance part="4403-7-F" gate="G$1" x="193.04" y="-58.42"/>
-<instance part="4403-7-F(2)" gate="G$1" x="193.04" y="-88.9"/>
+<instance part="D1" gate="G$1" x="193.04" y="-58.42"/>
+<instance part="D2" gate="G$1" x="193.04" y="-88.9"/>
 <instance part="F18" gate="G$1" x="205.74" y="-93.98" rot="R180"/>
-<instance part="4401-7-F(1)" gate="G$1" x="177.8" y="-93.98"/>
-<instance part="4401-7-F(2)" gate="G$1" x="177.8" y="-63.5"/>
+<instance part="D4" gate="G$1" x="177.8" y="-93.98"/>
+<instance part="D3" gate="G$1" x="177.8" y="-63.5"/>
 <instance part="ACCUMULATOR_CONN" gate="G$1" x="469.9" y="-152.4"/>
 <instance part="AIO_PO_CONN" gate="-1" x="467.36" y="-104.14" rot="R180"/>
 <instance part="AIO_PO_CONN" gate="-2" x="467.36" y="-101.6" rot="R180"/>
@@ -8450,8 +8450,8 @@ for Latched Components</text>
 <instance part="LATCH_U7" gate="G$1" x="627.38" y="-139.7" rot="R180"/>
 <instance part="U$8" gate="G$1" x="718.82" y="-124.46"/>
 <instance part="TSMS_CONN" gate="G$1" x="530.86" y="-30.48"/>
-<instance part="U$1" gate="G$1" x="640.08" y="-139.7" rot="R90"/>
-<instance part="U$2" gate="G$1" x="706.12" y="-129.54" rot="R270"/>
+<instance part="D7" gate="G$1" x="640.08" y="-139.7" rot="R90"/>
+<instance part="D8" gate="G$1" x="706.12" y="-129.54" rot="R270"/>
 <instance part="F3" gate="G$1" x="744.22" y="-114.3"/>
 <instance part="U$3" gate="G$1" x="30.48" y="93.98" rot="R270"/>
 <instance part="U$4" gate="G$1" x="233.68" y="-154.94"/>
@@ -8539,13 +8539,13 @@ for Latched Components</text>
 <pinref part="R37" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="4401-7-F(1)" gate="G$1" pin="E"/>
+<pinref part="D4" gate="G$1" pin="E"/>
 <wire x1="180.34" y1="-99.06" x2="182.88" y2="-99.06" width="0.1524" layer="91"/>
 <label x="182.88" y="-99.06" size="1.778" layer="95" xref="yes"/>
 <junction x="180.34" y="-99.06"/>
 </segment>
 <segment>
-<pinref part="4401-7-F(2)" gate="G$1" pin="E"/>
+<pinref part="D3" gate="G$1" pin="E"/>
 <wire x1="180.34" y1="-68.58" x2="182.88" y2="-68.58" width="0.1524" layer="91"/>
 <label x="182.88" y="-68.58" size="1.778" layer="95" xref="yes"/>
 <junction x="180.34" y="-68.58"/>
@@ -8674,7 +8674,7 @@ for Latched Components</text>
 <label x="294.64" y="12.7" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="A"/>
+<pinref part="D7" gate="G$1" pin="A"/>
 <wire x1="640.08" y1="-149.86" x2="640.08" y2="-142.24" width="0.1524" layer="91"/>
 <pinref part="LATCH_U7" gate="G$1" pin="C_1"/>
 <wire x1="645.16" y1="-149.86" x2="640.08" y2="-149.86" width="0.1524" layer="91"/>
@@ -8686,7 +8686,7 @@ for Latched Components</text>
 <pinref part="U$8" gate="G$1" pin="V1"/>
 <wire x1="695.96" y1="-119.38" x2="698.5" y2="-119.38" width="0.1524" layer="91"/>
 <wire x1="698.5" y1="-119.38" x2="716.28" y2="-119.38" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="A"/>
+<pinref part="D8" gate="G$1" pin="A"/>
 <wire x1="698.5" y1="-119.38" x2="706.12" y2="-127" width="0.1524" layer="91"/>
 <junction x="698.5" y="-119.38"/>
 <label x="695.96" y="-119.38" size="1.778" layer="95" rot="R180" xref="yes"/>
@@ -8812,7 +8812,7 @@ for Latched Components</text>
 </segment>
 <segment>
 <pinref part="U$3" gate="G$1" pin="INPUT"/>
-<pinref part="5238B-7-F" gate="G$1" pin="C"/>
+<pinref part="D6" gate="G$1" pin="C"/>
 <wire x1="5.08" y1="10.16" x2="5.08" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="111.76" x2="55.88" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="111.76" x2="55.88" y2="96.52" width="0.1524" layer="91"/>
@@ -8834,7 +8834,7 @@ for Latched Components</text>
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="5238B-7-F" gate="G$1" pin="A"/>
+<pinref part="D6" gate="G$1" pin="A"/>
 <pinref part="SBRIO_ANALOG" gate="G$1" pin="AI0"/>
 <wire x1="5.08" y1="5.08" x2="5.08" y2="-5.08" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="-5.08" x2="35.56" y2="-5.08" width="0.1524" layer="91"/>
@@ -8860,13 +8860,13 @@ for Latched Components</text>
 <label x="426.72" y="-101.6" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="4403-7-F" gate="G$1" pin="E"/>
+<pinref part="D1" gate="G$1" pin="E"/>
 <wire x1="195.58" y1="-53.34" x2="203.2" y2="-53.34" width="0.1524" layer="91"/>
 <label x="203.2" y="-53.34" size="1.778" layer="95" xref="yes"/>
 <junction x="195.58" y="-53.34"/>
 </segment>
 <segment>
-<pinref part="4403-7-F(2)" gate="G$1" pin="E"/>
+<pinref part="D2" gate="G$1" pin="E"/>
 <wire x1="195.58" y1="-83.82" x2="203.2" y2="-83.82" width="0.1524" layer="91"/>
 <label x="203.2" y="-83.82" size="1.778" layer="95" xref="yes"/>
 <junction x="195.58" y="-83.82"/>
@@ -9810,14 +9810,14 @@ for Latched Components</text>
 <net name="N$56" class="0">
 <segment>
 <pinref part="F17" gate="G$1" pin="2"/>
-<pinref part="4403-7-F" gate="G$1" pin="C"/>
+<pinref part="D1" gate="G$1" pin="C"/>
 <wire x1="200.66" y1="-63.5" x2="195.58" y2="-63.5" width="0.1524" layer="91"/>
 <junction x="195.58" y="-63.5"/>
 </segment>
 </net>
 <net name="N$58" class="0">
 <segment>
-<pinref part="4403-7-F(2)" gate="G$1" pin="B"/>
+<pinref part="D2" gate="G$1" pin="B"/>
 <wire x1="193.04" y1="-88.9" x2="190.5" y2="-88.9" width="0.1524" layer="91"/>
 <pinref part="R32" gate="G$1" pin="2"/>
 <junction x="190.5" y="-88.9"/>
@@ -9825,7 +9825,7 @@ for Latched Components</text>
 </net>
 <net name="N$57" class="0">
 <segment>
-<pinref part="4403-7-F(2)" gate="G$1" pin="C"/>
+<pinref part="D2" gate="G$1" pin="C"/>
 <pinref part="F18" gate="G$1" pin="2"/>
 <wire x1="195.58" y1="-93.98" x2="200.66" y2="-93.98" width="0.1524" layer="91"/>
 <junction x="195.58" y="-93.98"/>
@@ -10422,7 +10422,7 @@ for Latched Components</text>
 <wire x1="619.76" y1="-124.46" x2="645.16" y2="-124.46" width="0.1524" layer="91"/>
 <pinref part="LATCH_U7" gate="G$1" pin="C_2"/>
 <wire x1="645.16" y1="-124.46" x2="645.16" y2="-129.54" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="C"/>
+<pinref part="D7" gate="G$1" pin="C"/>
 <wire x1="640.08" y1="-137.16" x2="640.08" y2="-129.54" width="0.1524" layer="91"/>
 <wire x1="640.08" y1="-129.54" x2="645.16" y2="-129.54" width="0.1524" layer="91"/>
 <junction x="645.16" y="-129.54"/>
@@ -10589,7 +10589,7 @@ for Latched Components</text>
 <pinref part="U$8" gate="G$1" pin="V2"/>
 <wire x1="698.5" y1="-139.7" x2="716.28" y2="-139.7" width="0.1524" layer="91"/>
 <wire x1="716.28" y1="-139.7" x2="716.28" y2="-129.54" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="C"/>
+<pinref part="D8" gate="G$1" pin="C"/>
 <wire x1="706.12" y1="-132.08" x2="698.5" y2="-139.7" width="0.1524" layer="91"/>
 <wire x1="698.5" y1="-139.7" x2="698.5" y2="-142.24" width="0.1524" layer="91"/>
 <junction x="698.5" y="-139.7"/>
@@ -10674,31 +10674,31 @@ for Latched Components</text>
 </net>
 <net name="N$18" class="0">
 <segment>
-<pinref part="4401-7-F(1)" gate="G$1" pin="C"/>
+<pinref part="D4" gate="G$1" pin="C"/>
 <pinref part="R32" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$19" class="0">
 <segment>
-<pinref part="4401-7-F(1)" gate="G$1" pin="B"/>
+<pinref part="D4" gate="G$1" pin="B"/>
 <pinref part="R31" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$22" class="0">
 <segment>
-<pinref part="4401-7-F(2)" gate="G$1" pin="B"/>
+<pinref part="D3" gate="G$1" pin="B"/>
 <pinref part="R33" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$23" class="0">
 <segment>
-<pinref part="4403-7-F" gate="G$1" pin="B"/>
+<pinref part="D1" gate="G$1" pin="B"/>
 <pinref part="R34" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$24" class="0">
 <segment>
-<pinref part="4401-7-F(2)" gate="G$1" pin="C"/>
+<pinref part="D3" gate="G$1" pin="C"/>
 <pinref part="R34" gate="G$1" pin="1"/>
 </segment>
 </net>
