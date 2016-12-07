@@ -279,7 +279,7 @@
 <wire x1="0.25" y1="-6.5" x2="8.75" y2="-6.5" width="0.127" layer="21"/>
 <wire x1="8.75" y1="-6.5" x2="8.75" y2="8.3" width="0.127" layer="21"/>
 <wire x1="8.75" y1="8.3" x2="-2.75" y2="8.3" width="0.127" layer="21"/>
-<text x="-3.81" y="-6.35" size="1.27" layer="25" rot="R90">&gt;Name</text>
+<text x="-3.81" y="-6.35" size="1.016" layer="25" font="vector" rot="R90">&gt;Name</text>
 <wire x1="-2.75" y1="-3.5" x2="0.25" y2="-6.5" width="0.127" layer="21"/>
 </package>
 <package name="HE3621A1250_SPST">
@@ -328,7 +328,7 @@
 <smd name="P$1" x="0" y="1" dx="0.8" dy="0.9762" layer="1"/>
 <smd name="P$3" x="0.95" y="-1" dx="0.8" dy="0.9762" layer="1"/>
 <smd name="P$2" x="-0.95" y="-1" dx="0.8" dy="0.9762" layer="1"/>
-<text x="-1.27" y="1.524" size="0.3048" layer="25">&gt;NAME</text>
+<text x="-1.27" y="1.524" size="1.27" layer="25" font="vector">&gt;NAME</text>
 <wire x1="-1.4986" y1="0.7" x2="-1.4986" y2="-0.7" width="0.127" layer="21"/>
 <wire x1="1.5" y1="-0.7" x2="1.5" y2="0.7" width="0.127" layer="21"/>
 <wire x1="1.5" y1="0.7" x2="0.508" y2="0.7" width="0.127" layer="21"/>
@@ -486,6 +486,8 @@
 <pin name="3~16V_IN" x="-10.16" y="0" length="middle"/>
 <pin name="GND" x="12.7" y="-2.54" length="middle" rot="R180"/>
 <pin name="3.3V_OUT" x="12.7" y="2.54" length="middle" rot="R180"/>
+<text x="-5.08" y="5.08" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 <symbol name="CONNECTOR_2">
 <description>2 pin Wire-to-Board spring connector</description>
@@ -3855,23 +3857,6 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
 </package>
-<package name="M1206">
-<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
-MELF 0.25 W</description>
-<wire x1="-2.473" y1="1.483" x2="2.473" y2="1.483" width="0.0508" layer="39"/>
-<wire x1="2.473" y1="-1.483" x2="-2.473" y2="-1.483" width="0.0508" layer="39"/>
-<wire x1="-2.473" y1="-1.483" x2="-2.473" y2="1.483" width="0.0508" layer="39"/>
-<wire x1="2.473" y1="1.483" x2="2.473" y2="-1.483" width="0.0508" layer="39"/>
-<wire x1="1.143" y1="0.8382" x2="-1.143" y2="0.8382" width="0.1524" layer="51"/>
-<wire x1="1.143" y1="-0.8382" x2="-1.143" y2="-0.8382" width="0.1524" layer="51"/>
-<smd name="1" x="-1.4" y="0" dx="1.6" dy="2" layer="1"/>
-<smd name="2" x="1.4" y="0" dx="1.6" dy="2" layer="1"/>
-<text x="-1.27" y="1.27" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.27" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-1.7018" y1="-0.9144" x2="-1.1176" y2="0.9144" layer="51"/>
-<rectangle x1="1.1176" y1="-0.9144" x2="1.7018" y2="0.9144" layer="51"/>
-<rectangle x1="-0.3" y1="-0.8001" x2="0.3" y2="0.8001" layer="35"/>
-</package>
 <package name="M3216">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
 MELF 0.25 W</description>
@@ -4611,22 +4596,6 @@ type 0309, grid 2.5 mm</description>
 <rectangle x1="0.254" y1="-0.3048" x2="0.5588" y2="0.3048" layer="51"/>
 <rectangle x1="-0.635" y1="-0.3048" x2="-0.3302" y2="0.3048" layer="51"/>
 <rectangle x1="-0.3302" y1="-0.3048" x2="0.254" y2="0.3048" layer="21"/>
-</package>
-<package name="R0603@1">
-<description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
-<wire x1="-0.432" y1="-0.356" x2="0.432" y2="-0.356" width="0.1524" layer="51"/>
-<wire x1="0.432" y1="0.356" x2="-0.432" y2="0.356" width="0.1524" layer="51"/>
-<wire x1="-1.473" y1="0.983" x2="1.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="0.983" x2="1.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="-0.983" x2="-1.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.0508" layer="39"/>
-<smd name="1" x="-0.85" y="0" dx="1" dy="1.1" layer="1"/>
-<smd name="2" x="0.85" y="0" dx="1" dy="1.1" layer="1"/>
-<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
-<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="0.4318" y1="-0.4318" x2="0.8382" y2="0.4318" layer="51"/>
-<rectangle x1="-0.8382" y1="-0.4318" x2="-0.4318" y2="0.4318" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
 </package>
 <package name="R0805">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;</description>
@@ -5408,12 +5377,29 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.0508" layer="39"/>
 <smd name="1" x="-0.85" y="0" dx="1" dy="1.1" layer="1"/>
 <smd name="2" x="0.85" y="0" dx="1" dy="1.1" layer="1"/>
-<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
-<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-0.635" y="0.635" size="1.016" layer="25" font="vector">&gt;NAME</text>
+<text x="-0.635" y="-1.905" size="1.016" layer="27" font="vector">&gt;VALUE</text>
 <rectangle x1="0.4318" y1="-0.4318" x2="0.8382" y2="0.4318" layer="51"/>
 <rectangle x1="-0.8382" y1="-0.4318" x2="-0.4318" y2="0.4318" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
 <wire x1="0" y1="0.635" x2="0" y2="-0.635" width="0.127" layer="21"/>
+</package>
+<package name="M1206">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
+MELF 0.25 W</description>
+<wire x1="-2.473" y1="1.483" x2="2.473" y2="1.483" width="0.0508" layer="39"/>
+<wire x1="2.473" y1="-1.483" x2="-2.473" y2="-1.483" width="0.0508" layer="39"/>
+<wire x1="-2.473" y1="-1.483" x2="-2.473" y2="1.483" width="0.0508" layer="39"/>
+<wire x1="2.473" y1="1.483" x2="2.473" y2="-1.483" width="0.0508" layer="39"/>
+<wire x1="1.143" y1="0.8382" x2="-1.143" y2="0.8382" width="0.1524" layer="51"/>
+<wire x1="1.143" y1="-0.8382" x2="-1.143" y2="-0.8382" width="0.1524" layer="51"/>
+<smd name="1" x="-1.4" y="0" dx="1.6" dy="2" layer="1"/>
+<smd name="2" x="1.4" y="0" dx="1.6" dy="2" layer="1"/>
+<text x="-1.27" y="1.27" size="1.016" layer="25" font="vector">&gt;NAME</text>
+<text x="-1.27" y="-2.54" size="1.016" layer="27" font="vector">&gt;VALUE</text>
+<rectangle x1="-1.7018" y1="-0.9144" x2="-1.1176" y2="0.9144" layer="51"/>
+<rectangle x1="1.1176" y1="-0.9144" x2="1.7018" y2="0.9144" layer="51"/>
+<rectangle x1="-0.3" y1="-0.8001" x2="0.3" y2="0.8001" layer="35"/>
 </package>
 </packages>
 <symbols>
@@ -6232,7 +6218,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="R0603" package="R0603@1">
+<device name="R0603" package="R0603">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -8019,7 +8005,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <description>&lt;b&gt;Texas Instruments Devices&lt;/b&gt;&lt;p&gt;
  &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="SOT223-4">
+<package name="SOT-223-4">
 <smd name="4" x="0" y="2.9" dx="3.25" dy="2.15" layer="1"/>
 <smd name="1" x="-2.3" y="-2.9" dx="0.95" dy="2.15" layer="1"/>
 <smd name="2" x="0.24" y="-2.9" dx="0.95" dy="2.15" layer="1"/>
@@ -8033,8 +8019,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 </package>
 </packages>
 <symbols>
-<symbol name="LM340MP-5.0">
-<description>Digi Key ID: LM340MP-5.0/NOPBDKR-ND</description>
+<symbol name="SOT-223-4">
 <wire x1="-2.54" y1="3.81" x2="-2.54" y2="-3.81" width="0.254" layer="94"/>
 <wire x1="-2.54" y1="-3.81" x2="2.54" y2="-3.81" width="0.254" layer="94"/>
 <wire x1="2.54" y1="-3.81" x2="2.54" y2="3.81" width="0.254" layer="94"/>
@@ -8049,10 +8034,10 @@ We've spent an enormous amount of time creating and checking these footprints an
 <devicesets>
 <deviceset name="LM340MP-5.0">
 <gates>
-<gate name="G$1" symbol="LM340MP-5.0" x="0" y="0"/>
+<gate name="G$1" symbol="SOT-223-4" x="-2.54" y="0"/>
 </gates>
 <devices>
-<device name="" package="SOT223-4">
+<device name="" package="SOT-223-4">
 <connects>
 <connect gate="G$1" pin="GND" pad="2 4"/>
 <connect gate="G$1" pin="INPUT" pad="1"/>
@@ -8211,11 +8196,11 @@ WM4926-ND</description>
 <part name="F2" library="resistor" deviceset="R-EU_" device="R0603" value="250mA"/>
 <part name="F14" library="resistor" deviceset="R-EU_" device="R0603" value="250mA"/>
 <part name="LEVEL_SHIFTER" library="SparkFun-DigitalIC" deviceset="TXB0104PWR" device=""/>
-<part name="5525-3.3YM5-TR(2)" library="formula electric" deviceset="MIC5225-3.3YM5-TR" device=""/>
-<part name="5525-3.3YM5-TR(1)" library="formula electric" deviceset="MIC5225-3.3YM5-TR" device=""/>
-<part name="5225-3.3M5-TR(5)" library="formula electric" deviceset="MIC5225-3.3YM5-TR" device=""/>
-<part name="5525-3.3YM5-TR(4)" library="formula electric" deviceset="MIC5225-3.3YM5-TR" device=""/>
-<part name="5525-3.3YM5-TR(3)" library="formula electric" deviceset="MIC5225-3.3YM5-TR" device=""/>
+<part name="IC8" library="formula electric" deviceset="MIC5225-3.3YM5-TR" device=""/>
+<part name="IC9" library="formula electric" deviceset="MIC5225-3.3YM5-TR" device=""/>
+<part name="IC10" library="formula electric" deviceset="MIC5225-3.3YM5-TR" device=""/>
+<part name="IC11" library="formula electric" deviceset="MIC5225-3.3YM5-TR" device=""/>
+<part name="IC12" library="formula electric" deviceset="MIC5225-3.3YM5-TR" device=""/>
 <part name="C16" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="1uF"/>
 <part name="C17" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="1uF"/>
 <part name="C18" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="1uF"/>
@@ -8444,11 +8429,11 @@ for Latched Components</text>
 <instance part="F14" gate="G$1" x="637.54" y="0"/>
 <instance part="IC2" gate="G$1" x="309.88" y="-124.46" rot="R270"/>
 <instance part="LEVEL_SHIFTER" gate="G$1" x="195.58" y="-152.4"/>
-<instance part="5525-3.3YM5-TR(2)" gate="G$1" x="193.04" y="-22.86" rot="R180"/>
-<instance part="5525-3.3YM5-TR(1)" gate="G$1" x="193.04" y="-10.16" rot="R180"/>
-<instance part="5225-3.3M5-TR(5)" gate="G$1" x="193.04" y="2.54" rot="R180"/>
-<instance part="5525-3.3YM5-TR(4)" gate="G$1" x="193.04" y="15.24" rot="R180"/>
-<instance part="5525-3.3YM5-TR(3)" gate="G$1" x="193.04" y="27.94" rot="R180"/>
+<instance part="IC8" gate="G$1" x="193.04" y="-22.86" rot="R180"/>
+<instance part="IC9" gate="G$1" x="193.04" y="-10.16" rot="R180"/>
+<instance part="IC10" gate="G$1" x="193.04" y="2.54" rot="R180"/>
+<instance part="IC11" gate="G$1" x="193.04" y="15.24" rot="R180"/>
+<instance part="IC12" gate="G$1" x="193.04" y="27.94" rot="R180"/>
 <instance part="C16" gate="G$1" x="175.26" y="30.48" rot="R90"/>
 <instance part="C17" gate="G$1" x="175.26" y="17.78" rot="R90"/>
 <instance part="C18" gate="G$1" x="175.26" y="5.08" rot="R90"/>
@@ -8601,18 +8586,18 @@ for Latched Components</text>
 <junction x="195.58" y="-167.64"/>
 </segment>
 <segment>
-<pinref part="5525-3.3YM5-TR(2)" gate="G$1" pin="GND"/>
+<pinref part="IC8" gate="G$1" pin="GND"/>
 <wire x1="180.34" y1="-20.32" x2="177.8" y2="-20.32" width="0.1524" layer="91"/>
-<pinref part="5525-3.3YM5-TR(1)" gate="G$1" pin="GND"/>
+<pinref part="IC9" gate="G$1" pin="GND"/>
 <wire x1="177.8" y1="-20.32" x2="177.8" y2="-7.62" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="-7.62" x2="177.8" y2="-7.62" width="0.1524" layer="91"/>
-<pinref part="5225-3.3M5-TR(5)" gate="G$1" pin="GND"/>
+<pinref part="IC10" gate="G$1" pin="GND"/>
 <wire x1="177.8" y1="-7.62" x2="177.8" y2="5.08" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="5.08" x2="177.8" y2="5.08" width="0.1524" layer="91"/>
-<pinref part="5525-3.3YM5-TR(4)" gate="G$1" pin="GND"/>
+<pinref part="IC11" gate="G$1" pin="GND"/>
 <wire x1="177.8" y1="5.08" x2="177.8" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="17.78" x2="177.8" y2="17.78" width="0.1524" layer="91"/>
-<pinref part="5525-3.3YM5-TR(3)" gate="G$1" pin="GND"/>
+<pinref part="IC12" gate="G$1" pin="GND"/>
 <wire x1="177.8" y1="17.78" x2="177.8" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="30.48" x2="180.34" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="213.36" y1="-17.78" x2="213.36" y2="-5.08" width="0.1524" layer="91"/>
@@ -8926,7 +8911,7 @@ for Latched Components</text>
 <pinref part="SBRIO_MEZZANINE" gate="G$1" pin="DIO1"/>
 </segment>
 <segment>
-<pinref part="5525-3.3YM5-TR(3)" gate="G$1" pin="3.3V_OUT"/>
+<pinref part="IC12" gate="G$1" pin="3.3V_OUT"/>
 <wire x1="180.34" y1="25.4" x2="170.18" y2="25.4" width="0.1524" layer="91"/>
 <label x="162.56" y="25.4" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="C16" gate="G$1" pin="1"/>
@@ -8966,7 +8951,7 @@ for Latched Components</text>
 <label x="429.26" y="-157.48" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="5525-3.3YM5-TR(1)" gate="G$1" pin="3~16V_IN"/>
+<pinref part="IC9" gate="G$1" pin="3~16V_IN"/>
 <wire x1="203.2" y1="-10.16" x2="223.52" y2="-10.16" width="0.1524" layer="91"/>
 <label x="223.52" y="-10.16" size="1.778" layer="95" xref="yes"/>
 <wire x1="203.2" y1="-10.16" x2="203.2" y2="-5.08" width="0.1524" layer="91"/>
@@ -9212,7 +9197,7 @@ for Latched Components</text>
 <wire x1="114.3" y1="-99.06" x2="116.84" y2="-99.06" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="5525-3.3YM5-TR(2)" gate="G$1" pin="3.3V_OUT"/>
+<pinref part="IC8" gate="G$1" pin="3.3V_OUT"/>
 <wire x1="180.34" y1="-25.4" x2="170.18" y2="-25.4" width="0.1524" layer="91"/>
 <label x="162.56" y="-25.4" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="C20" gate="G$1" pin="1"/>
@@ -9504,7 +9489,7 @@ for Latched Components</text>
 <label x="375.92" y="83.82" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="5525-3.3YM5-TR(3)" gate="G$1" pin="3~16V_IN"/>
+<pinref part="IC12" gate="G$1" pin="3~16V_IN"/>
 <wire x1="203.2" y1="27.94" x2="223.52" y2="27.94" width="0.1524" layer="91"/>
 <label x="223.52" y="27.94" size="1.778" layer="95" xref="yes"/>
 <wire x1="203.2" y1="27.94" x2="203.2" y2="33.02" width="0.1524" layer="91"/>
@@ -9624,7 +9609,7 @@ for Latched Components</text>
 <wire x1="86.36" y1="-99.06" x2="83.82" y2="-99.06" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="5525-3.3YM5-TR(4)" gate="G$1" pin="3.3V_OUT"/>
+<pinref part="IC11" gate="G$1" pin="3.3V_OUT"/>
 <wire x1="180.34" y1="12.7" x2="170.18" y2="12.7" width="0.1524" layer="91"/>
 <label x="162.56" y="12.7" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="C17" gate="G$1" pin="1"/>
@@ -9795,7 +9780,7 @@ for Latched Components</text>
 <label x="447.04" y="-160.02" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="5225-3.3M5-TR(5)" gate="G$1" pin="3~16V_IN"/>
+<pinref part="IC10" gate="G$1" pin="3~16V_IN"/>
 <wire x1="203.2" y1="2.54" x2="223.52" y2="2.54" width="0.1524" layer="91"/>
 <label x="223.52" y="2.54" size="1.778" layer="95" xref="yes"/>
 <wire x1="203.2" y1="2.54" x2="203.2" y2="7.62" width="0.1524" layer="91"/>
@@ -9985,7 +9970,7 @@ for Latched Components</text>
 <wire x1="5.08" y1="-73.66" x2="0" y2="-73.66" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="5225-3.3M5-TR(5)" gate="G$1" pin="3.3V_OUT"/>
+<pinref part="IC10" gate="G$1" pin="3.3V_OUT"/>
 <wire x1="180.34" y1="0" x2="170.18" y2="0" width="0.1524" layer="91"/>
 <label x="162.56" y="0" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="C18" gate="G$1" pin="1"/>
@@ -10090,7 +10075,7 @@ for Latched Components</text>
 <wire x1="5.08" y1="-78.74" x2="2.54" y2="-78.74" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="5525-3.3YM5-TR(1)" gate="G$1" pin="3.3V_OUT"/>
+<pinref part="IC9" gate="G$1" pin="3.3V_OUT"/>
 <wire x1="180.34" y1="-12.7" x2="170.18" y2="-12.7" width="0.1524" layer="91"/>
 <label x="162.56" y="-12.7" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="C19" gate="G$1" pin="1"/>
@@ -10305,7 +10290,7 @@ for Latched Components</text>
 </net>
 <net name="E-STOP_OK" class="0">
 <segment>
-<pinref part="5525-3.3YM5-TR(4)" gate="G$1" pin="3~16V_IN"/>
+<pinref part="IC11" gate="G$1" pin="3~16V_IN"/>
 <wire x1="203.2" y1="15.24" x2="223.52" y2="15.24" width="0.1524" layer="91"/>
 <label x="223.52" y="15.24" size="1.778" layer="95" xref="yes"/>
 <wire x1="203.2" y1="15.24" x2="203.2" y2="20.32" width="0.1524" layer="91"/>
@@ -10325,7 +10310,7 @@ for Latched Components</text>
 <pinref part="AIO_PO_CONN" gate="-8" pin="KL"/>
 </segment>
 <segment>
-<pinref part="5525-3.3YM5-TR(2)" gate="G$1" pin="3~16V_IN"/>
+<pinref part="IC8" gate="G$1" pin="3~16V_IN"/>
 <wire x1="203.2" y1="-22.86" x2="223.52" y2="-22.86" width="0.1524" layer="91"/>
 <label x="223.52" y="-22.86" size="1.778" layer="95" xref="yes"/>
 <wire x1="203.2" y1="-22.86" x2="203.2" y2="-17.78" width="0.1524" layer="91"/>

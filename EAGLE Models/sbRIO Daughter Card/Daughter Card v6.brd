@@ -164,7 +164,7 @@
 <smd name="P$1" x="0" y="1" dx="0.8" dy="0.9762" layer="1"/>
 <smd name="P$3" x="0.95" y="-1" dx="0.8" dy="0.9762" layer="1"/>
 <smd name="P$2" x="-0.95" y="-1" dx="0.8" dy="0.9762" layer="1"/>
-<text x="-1.27" y="1.524" size="0.3048" layer="25">&gt;NAME</text>
+<text x="-1.27" y="1.524" size="1.27" layer="25" font="vector">&gt;NAME</text>
 <wire x1="-1.4986" y1="0.7" x2="-1.4986" y2="-0.7" width="0.127" layer="21"/>
 <wire x1="1.5" y1="-0.7" x2="1.5" y2="0.7" width="0.127" layer="21"/>
 <wire x1="1.5" y1="0.7" x2="0.508" y2="0.7" width="0.127" layer="21"/>
@@ -227,7 +227,7 @@
 <wire x1="0.25" y1="-6.5" x2="8.75" y2="-6.5" width="0.127" layer="21"/>
 <wire x1="8.75" y1="-6.5" x2="8.75" y2="8.3" width="0.127" layer="21"/>
 <wire x1="8.75" y1="8.3" x2="-2.75" y2="8.3" width="0.127" layer="21"/>
-<text x="-3.81" y="-6.35" size="1.27" layer="25" rot="R90">&gt;Name</text>
+<text x="-3.81" y="-6.35" size="1.016" layer="25" font="vector" rot="R90">&gt;Name</text>
 <wire x1="-2.75" y1="-3.5" x2="0.25" y2="-6.5" width="0.127" layer="21"/>
 </package>
 <package name="SBRIO_J502_J503">
@@ -1679,7 +1679,7 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 &lt;/table&gt;
 &lt;/BODY&gt;&lt;/HTML&gt;</description>
 <packages>
-<package name="R0603@1">
+<package name="R0603">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
 <wire x1="-0.432" y1="-0.356" x2="0.432" y2="-0.356" width="0.1524" layer="51"/>
 <wire x1="0.432" y1="0.356" x2="-0.432" y2="0.356" width="0.1524" layer="51"/>
@@ -1689,11 +1689,12 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.0508" layer="39"/>
 <smd name="1" x="-0.85" y="0" dx="1" dy="1.1" layer="1"/>
 <smd name="2" x="0.85" y="0" dx="1" dy="1.1" layer="1"/>
-<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
-<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-0.635" y="0.635" size="1.016" layer="25" font="vector">&gt;NAME</text>
+<text x="-0.635" y="-1.905" size="1.016" layer="27" font="vector">&gt;VALUE</text>
 <rectangle x1="0.4318" y1="-0.4318" x2="0.8382" y2="0.4318" layer="51"/>
 <rectangle x1="-0.8382" y1="-0.4318" x2="-0.4318" y2="0.4318" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
+<wire x1="0" y1="0.635" x2="0" y2="-0.635" width="0.127" layer="21"/>
 </package>
 <package name="R0402">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
@@ -1710,23 +1711,6 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.2951" layer="51"/>
 <rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
-</package>
-<package name="R0603">
-<description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
-<wire x1="-0.432" y1="-0.356" x2="0.432" y2="-0.356" width="0.1524" layer="51"/>
-<wire x1="0.432" y1="0.356" x2="-0.432" y2="0.356" width="0.1524" layer="51"/>
-<wire x1="-1.473" y1="0.983" x2="1.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="0.983" x2="1.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="-0.983" x2="-1.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.0508" layer="39"/>
-<smd name="1" x="-0.85" y="0" dx="1" dy="1.1" layer="1"/>
-<smd name="2" x="0.85" y="0" dx="1" dy="1.1" layer="1"/>
-<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
-<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="0.4318" y1="-0.4318" x2="0.8382" y2="0.4318" layer="51"/>
-<rectangle x1="-0.8382" y1="-0.4318" x2="-0.4318" y2="0.4318" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
-<wire x1="0" y1="0.635" x2="0" y2="-0.635" width="0.127" layer="21"/>
 </package>
 </packages>
 </library>
@@ -2151,7 +2135,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <description>&lt;b&gt;Texas Instruments Devices&lt;/b&gt;&lt;p&gt;
  &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="SOT223-4">
+<package name="SOT-223-4">
 <smd name="4" x="0" y="2.9" dx="3.25" dy="2.15" layer="1"/>
 <smd name="1" x="-2.3" y="-2.9" dx="0.95" dy="2.15" layer="1"/>
 <smd name="2" x="0.24" y="-2.9" dx="0.95" dy="2.15" layer="1"/>
@@ -2401,26 +2385,26 @@ design rules under a new name.</description>
 <element name="4403-7-F(2)" library="formula electric" package="SOT-23-3" value="MMBT4403-7-F" x="100.7364" y="50.9524" smashed="yes" rot="R270">
 <attribute name="NAME" x="102.5398" y="50.9016" size="1.27" layer="25" font="vector"/>
 </element>
-<element name="5225-3.3M5-TR(5)" library="formula electric" package="SOT-23-3" value="MIC5225-3.3YM5-TR" x="40.4114" y="43.4086" smashed="yes" rot="MR180">
+<element name="IC10" library="formula electric" package="SOT-23-3" value="MIC5225-3.3YM5-TR" x="40.4114" y="43.4086" smashed="yes" rot="MR180">
 <attribute name="DIGIKEYPN" value="MCP1703T-3302E/CBCT-ND" x="40.4114" y="43.4086" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="36.3728" y="33.274" size="1.27" layer="26" font="vector" rot="MR90"/>
 </element>
 <element name="5238B-7-F" library="formula electric" package="SOT-23-3" value="MMBZ5238B-7-F" x="114.0206" y="56.0324" smashed="yes" rot="MR180">
 <attribute name="NAME" x="112.7506" y="54.5084" size="1.27" layer="26" font="vector" rot="MR180"/>
 </element>
-<element name="5525-3.3YM5-TR(1)" library="formula electric" package="SOT-23-3" value="MIC5225-3.3YM5-TR" x="44.8818" y="43.4086" smashed="yes" rot="MR180">
+<element name="IC9" library="formula electric" package="SOT-23-3" value="MIC5225-3.3YM5-TR" x="44.8818" y="43.4086" smashed="yes" rot="MR180">
 <attribute name="DIGIKEYPN" value="MCP1703T-3302E/CBCT-ND" x="44.8818" y="43.4086" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="43.6118" y="41.8846" size="1.27" layer="26" font="vector" rot="MR180"/>
 </element>
-<element name="5525-3.3YM5-TR(2)" library="formula electric" package="SOT-23-3" value="MIC5225-3.3YM5-TR" x="55.2704" y="43.3324" smashed="yes" rot="MR180">
+<element name="IC8" library="formula electric" package="SOT-23-3" value="MIC5225-3.3YM5-TR" x="55.2704" y="43.3324" smashed="yes" rot="MR180">
 <attribute name="DIGIKEYPN" value="MCP1703T-3302E/CBCT-ND" x="55.2704" y="43.3324" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="54.0004" y="41.8084" size="1.27" layer="26" font="vector" rot="MR180"/>
 </element>
-<element name="5525-3.3YM5-TR(3)" library="formula electric" package="SOT-23-3" value="MIC5225-3.3YM5-TR" x="91.2368" y="98.5774" smashed="yes" rot="MR90">
+<element name="IC12" library="formula electric" package="SOT-23-3" value="MIC5225-3.3YM5-TR" x="91.2368" y="98.5774" smashed="yes" rot="MR90">
 <attribute name="DIGIKEYPN" value="MCP1703T-3302E/CBCT-ND" x="91.2368" y="98.5774" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="92.7608" y="97.3074" size="1.27" layer="26" font="vector" rot="MR90"/>
 </element>
-<element name="5525-3.3YM5-TR(4)" library="formula electric" package="SOT-23-3" value="MIC5225-3.3YM5-TR" x="49.6824" y="43.4086" smashed="yes" rot="MR180">
+<element name="IC11" library="formula electric" package="SOT-23-3" value="MIC5225-3.3YM5-TR" x="49.6824" y="43.4086" smashed="yes" rot="MR180">
 <attribute name="DIGIKEYPN" value="MCP1703T-3302E/CBCT-ND" x="49.6824" y="43.4086" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="48.4124" y="41.8846" size="1.27" layer="26" font="vector" rot="MR180"/>
 </element>
@@ -2497,25 +2481,25 @@ design rules under a new name.</description>
 <element name="C9" library="SparkFun-Passives" package="0603-CAP" value="22uF" x="72.8218" y="41.9354" smashed="yes" rot="R270">
 <attribute name="NAME" x="73.5838" y="42.8244" size="1.27" layer="25" font="vector" rot="R270"/>
 </element>
-<element name="F1" library="resistor" package="R0603@1" value="250mA" x="77.216" y="7.3152" smashed="yes" rot="MR270">
+<element name="F1" library="resistor" package="R0603" value="250mA" x="77.216" y="7.3152" smashed="yes" rot="MR270">
 <attribute name="NAME" x="76.581" y="7.9502" size="1.27" layer="26" font="vector" rot="MR270"/>
 </element>
-<element name="F14" library="resistor" package="R0603@1" value="250mA" x="121.92" y="27.2796" smashed="yes" rot="MR0">
+<element name="F14" library="resistor" package="R0603" value="250mA" x="121.92" y="27.2796" smashed="yes" rot="MR0">
 <attribute name="NAME" x="122.555" y="27.9146" size="1.27" layer="26" font="vector" rot="MR0"/>
 </element>
 <element name="F15" library="resistor" package="R0402" value="10mA PTC" x="136.5504" y="77.5716" smashed="yes">
 <attribute name="NAME" x="135.9154" y="78.2066" size="1.27" layer="25" font="vector"/>
 </element>
-<element name="F16" library="resistor" package="R0603@1" value="0.5A PTC" x="135.8392" y="90.7542" smashed="yes">
+<element name="F16" library="resistor" package="R0603" value="0.5A PTC" x="135.8392" y="90.7542" smashed="yes">
 <attribute name="NAME" x="135.2042" y="91.3892" size="1.27" layer="25" font="vector"/>
 </element>
-<element name="F17" library="resistor" package="R0603@1" value="1A PTC" x="103.8098" y="48.5648" smashed="yes" rot="R180">
+<element name="F17" library="resistor" package="R0603" value="1A PTC" x="103.8098" y="48.5648" smashed="yes" rot="R180">
 <attribute name="NAME" x="108.3564" y="49.2252" size="1.27" layer="25" font="vector" rot="R180"/>
 </element>
-<element name="F18" library="resistor" package="R0603@1" value="1A PTC" x="103.251" y="54.1274" smashed="yes" rot="R180">
+<element name="F18" library="resistor" package="R0603" value="1A PTC" x="103.251" y="54.1274" smashed="yes" rot="R180">
 <attribute name="NAME" x="104.902" y="53.4162" size="1.27" layer="25" font="vector"/>
 </element>
-<element name="F2" library="resistor" package="R0603@1" value="250mA" x="121.8946" y="30.6832" smashed="yes" rot="R270">
+<element name="F2" library="resistor" package="R0603" value="250mA" x="121.8946" y="30.6832" smashed="yes" rot="R270">
 <attribute name="NAME" x="122.5296" y="31.3182" size="1.27" layer="25" font="vector" rot="R270"/>
 </element>
 <element name="F20" library="resistor" package="R0402" value="10mA PTC" x="136.4488" y="75.6666" smashed="yes">
@@ -2528,7 +2512,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="135.8646" y="72.4916" size="1.27" layer="25" font="vector"/>
 </element>
 <element name="F3" library="SparkFun-Passives" package="FUSE_5MM" value="FUSEX20MM" x="55.1942" y="22.86" smashed="yes" rot="R180"/>
-<element name="F6" library="resistor" package="R0603@1" value="250mA" x="81.1784" y="88.392" smashed="yes" rot="MR270">
+<element name="F6" library="resistor" package="R0603" value="250mA" x="81.1784" y="88.392" smashed="yes" rot="MR270">
 <attribute name="NAME" x="80.5434" y="89.027" size="1.27" layer="26" font="vector" rot="MR270"/>
 </element>
 <element name="GYRO" library="SparkFun-Sensors" package="LGA16-4X4" value="L3G4200D" x="65.6844" y="88.138" smashed="yes" rot="MR180">
@@ -2620,7 +2604,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="99.706" y="39.2018" size="1.27" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="99.706" y="39.5518" size="0.254" layer="25" rot="R180"/>
 </element>
-<element name="U$3" library="texas" package="SOT223-4" value="LM340MP-5.0" x="66.0146" y="48.514" smashed="yes">
+<element name="U$3" library="texas" package="SOT-223-4" value="LM340MP-5.0" x="66.0146" y="48.514" smashed="yes">
 <attribute name="NAME" x="62.2046" y="45.974" size="1.27" layer="25" font="vector" rot="R90"/>
 </element>
 <element name="U$4" library="molex" package="MOLEX_70553-0038" value="70553-0038" x="117.8052" y="90.17" smashed="yes" rot="R180">
@@ -2765,11 +2749,11 @@ design rules under a new name.</description>
 <contactref element="IC2" pad="6"/>
 <contactref element="IC2" pad="2"/>
 <contactref element="LEVEL_SHIFTER" pad="7"/>
-<contactref element="5525-3.3YM5-TR(2)" pad="P$2"/>
-<contactref element="5525-3.3YM5-TR(1)" pad="P$2"/>
-<contactref element="5225-3.3M5-TR(5)" pad="P$2"/>
-<contactref element="5525-3.3YM5-TR(4)" pad="P$2"/>
-<contactref element="5525-3.3YM5-TR(3)" pad="P$2"/>
+<contactref element="IC8" pad="P$2"/>
+<contactref element="IC9" pad="P$2"/>
+<contactref element="IC10" pad="P$2"/>
+<contactref element="IC11" pad="P$2"/>
+<contactref element="IC12" pad="P$2"/>
 <contactref element="C16" pad="2"/>
 <contactref element="C17" pad="2"/>
 <contactref element="C18" pad="2"/>
@@ -3100,7 +3084,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="DIO1">
 <contactref element="SBRIO_MEZZANINE" pad="216"/>
-<contactref element="5525-3.3YM5-TR(3)" pad="P$3"/>
+<contactref element="IC12" pad="P$3"/>
 <contactref element="C16" pad="1"/>
 <wire x1="84.8208" y1="99.5274" x2="79.7052" y2="94.4118" width="0.254" layer="16"/>
 <wire x1="79.7052" y1="94.4118" x2="74.5236" y2="94.4118" width="0.254" layer="16"/>
@@ -3143,7 +3127,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="AMS_OK_IN">
 <contactref element="ACCUMULATOR_CONN" pad="7"/>
-<contactref element="5525-3.3YM5-TR(1)" pad="P$1"/>
+<contactref element="IC9" pad="P$1"/>
 <contactref element="R23" pad="1"/>
 <wire x1="46.57" y1="38.9382" x2="46.57" y2="40.7204" width="0.254" layer="16"/>
 <wire x1="46.57" y1="40.7204" x2="44.8818" y2="42.4086" width="0.254" layer="16"/>
@@ -3512,7 +3496,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="DIO7">
 <contactref element="SBRIO_MEZZANINE" pad="162"/>
-<contactref element="5525-3.3YM5-TR(2)" pad="P$3"/>
+<contactref element="IC8" pad="P$3"/>
 <contactref element="C20" pad="1"/>
 <via x="36.195" y="90.678" extent="1-16" drill="0.6"/>
 <wire x1="36.195" y1="90.678" x2="36.195" y2="94.869" width="0.254" layer="1"/>
@@ -3852,7 +3836,7 @@ design rules under a new name.</description>
 <signal name="BSPD_OK_IN">
 <contactref element="BSPD_CONN" pad="1"/>
 <contactref element="BSPD_CONN" pad="2"/>
-<contactref element="5525-3.3YM5-TR(3)" pad="P$1"/>
+<contactref element="IC12" pad="P$1"/>
 <wire x1="94.2688" y1="96.5454" x2="105.5878" y2="96.5454" width="0.254" layer="16"/>
 <wire x1="92.2622" y1="98.552" x2="92.2368" y2="98.5774" width="0.254" layer="16"/>
 <wire x1="105.5878" y1="96.5454" x2="106.7308" y2="95.4024" width="0.254" layer="16"/>
@@ -3994,7 +3978,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="DIO39">
 <contactref element="SBRIO_MEZZANINE" pad="161"/>
-<contactref element="5525-3.3YM5-TR(4)" pad="P$3"/>
+<contactref element="IC11" pad="P$3"/>
 <contactref element="C17" pad="1"/>
 <via x="34.5948" y="90.4494" extent="1-16" drill="0.6"/>
 <wire x1="34.5948" y1="90.4494" x2="34.5948" y2="94.0308" width="0.254" layer="1"/>
@@ -4209,7 +4193,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="IMD_OK_IN">
 <contactref element="ACCUMULATOR_CONN" pad="8"/>
-<contactref element="5225-3.3M5-TR(5)" pad="P$1"/>
+<contactref element="IC10" pad="P$1"/>
 <contactref element="R27" pad="1"/>
 <wire x1="40.8314" y1="38.9382" x2="40.4114" y2="39.3582" width="0.254" layer="16"/>
 <wire x1="40.4114" y1="39.3582" x2="40.4114" y2="42.4086" width="0.254" layer="16"/>
@@ -4367,7 +4351,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="DIO95">
 <contactref element="SBRIO_MEZZANINE" pad="97"/>
-<contactref element="5225-3.3M5-TR(5)" pad="P$3"/>
+<contactref element="IC10" pad="P$3"/>
 <contactref element="C18" pad="1"/>
 <wire x1="35.5854" y1="99.9236" x2="34.9504" y2="99.2886" width="0.254" layer="16"/>
 <wire x1="34.9504" y1="99.2886" x2="31.4706" y2="99.2886" width="0.254" layer="16"/>
@@ -4496,7 +4480,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="DIO94">
 <contactref element="SBRIO_MEZZANINE" pad="109"/>
-<contactref element="5525-3.3YM5-TR(1)" pad="P$3"/>
+<contactref element="IC9" pad="P$3"/>
 <contactref element="C19" pad="1"/>
 <wire x1="36.195" y1="98.9076" x2="36.576" y2="99.2886" width="0.254" layer="16"/>
 <wire x1="36.576" y1="99.2886" x2="37.4904" y2="99.2886" width="0.254" layer="16"/>
@@ -4797,7 +4781,7 @@ design rules under a new name.</description>
 <wire x1="136.867" y1="42.8244" x2="137.2362" y2="43.1936" width="0.3048" layer="1"/>
 </signal>
 <signal name="E-STOP_OK">
-<contactref element="5525-3.3YM5-TR(4)" pad="P$1"/>
+<contactref element="IC11" pad="P$1"/>
 <contactref element="AIO_PO_CONN" pad="4"/>
 <wire x1="71.7804" y1="38.4048" x2="78.0288" y2="44.6532" width="0.3048" layer="16"/>
 <wire x1="78.0288" y1="44.6532" x2="113.157" y2="44.6532" width="0.3048" layer="16"/>
@@ -4820,7 +4804,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="LATCH_OK">
 <contactref element="AIO_PO_CONN" pad="8"/>
-<contactref element="5525-3.3YM5-TR(2)" pad="P$1"/>
+<contactref element="IC8" pad="P$1"/>
 <wire x1="71.5518" y1="38.862" x2="77.8002" y2="45.1104" width="0.3048" layer="16"/>
 <wire x1="77.8002" y1="45.1104" x2="113.3856" y2="45.1104" width="0.3048" layer="16"/>
 <wire x1="113.3856" y1="45.1104" x2="123.6726" y2="34.8234" width="0.3048" layer="16"/>
