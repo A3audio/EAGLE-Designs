@@ -24,8 +24,8 @@
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
@@ -180,8 +180,8 @@
 <wire x1="-9.8552" y1="-2.8194" x2="9.8552" y2="-2.8194" width="0.127" layer="21"/>
 <wire x1="9.8552" y1="-2.8194" x2="9.8552" y2="2.8194" width="0.127" layer="21"/>
 <wire x1="9.8552" y1="2.8194" x2="-9.8552" y2="2.8194" width="0.127" layer="21"/>
-<text x="-9.525" y="3.175" size="0.635" layer="25">&gt;NAME</text>
-<text x="0.635" y="3.175" size="0.635" layer="25">&gt;VALUE</text>
+<text x="-9.525" y="3.175" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="0.635" y="3.175" size="1.27" layer="27" font="vector">&gt;VALUE</text>
 </package>
 <package name="CONNECTOR_5">
 <pad name="1" x="0" y="0" drill="1.1" shape="square"/>
@@ -1689,12 +1689,11 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.0508" layer="39"/>
 <smd name="1" x="-0.85" y="0" dx="1" dy="1.1" layer="1"/>
 <smd name="2" x="0.85" y="0" dx="1" dy="1.1" layer="1"/>
-<text x="-0.635" y="0.635" size="1.016" layer="25" font="vector">&gt;NAME</text>
-<text x="-0.635" y="-1.905" size="1.016" layer="27" font="vector">&gt;VALUE</text>
+<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="0.4318" y1="-0.4318" x2="0.8382" y2="0.4318" layer="51"/>
 <rectangle x1="-0.8382" y1="-0.4318" x2="-0.4318" y2="0.4318" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
-<wire x1="0" y1="0.635" x2="0" y2="-0.635" width="0.127" layer="21"/>
 </package>
 <package name="R0402">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
@@ -2425,17 +2424,11 @@ design rules under a new name.</description>
 <attribute name="OC_NEWARK" value="12P7055" x="142.24" y="81.28" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="139.4714" y="83.1342" size="1.27" layer="25" font="vector" rot="R90"/>
 </element>
-<element name="K5" library="formula electric" package="HE3621A1250_SPST" value="HE3621A1250_SPST" x="91.7448" y="27.305" smashed="yes" rot="R90">
-<attribute name="NAME" x="95.1484" y="17.018" size="1.27" layer="25" font="vector" rot="R180"/>
-<attribute name="VALUE" x="89.1032" y="26.6446" size="1.27" layer="25" font="vector" rot="R90"/>
-</element>
+<element name="K5" library="formula electric" package="HE3621A1250_SPST" value="HE3621A1250_SPST" x="91.7448" y="27.305" rot="R90"/>
 <element name="BSPD_CONN" library="formula electric" package="CONNECTOR_5" value="CONN_5" x="106.7308" y="95.4024" smashed="yes" rot="R180">
 <attribute name="NAME" x="99.2632" y="84.6328" size="1.27" layer="25" font="vector"/>
 </element>
-<element name="K4" library="formula electric" package="HE3621A1250_SPST" value="HE3621A1250_SPST" x="85.2932" y="27.305" smashed="yes" rot="R90">
-<attribute name="NAME" x="87.757" y="16.891" size="1.27" layer="25" font="vector" rot="R180"/>
-<attribute name="VALUE" x="81.8896" y="18.2626" size="1.27" layer="25" font="vector" rot="R90"/>
-</element>
+<element name="K4" library="formula electric" package="HE3621A1250_SPST" value="HE3621A1250_SPST" x="85.2932" y="27.305" rot="R90"/>
 <element name="C10" library="SparkFun-Passives" package="0603-CAP" value="10uF" x="66.8274" y="41.9354" smashed="yes" rot="R270">
 <attribute name="NAME" x="65.3796" y="40.3098" size="1.27" layer="25" font="vector" rot="R90"/>
 </element>
@@ -2539,14 +2532,8 @@ design rules under a new name.</description>
 <attribute name="OC_NEWARK" value="unknown" x="123.4948" y="47.879" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="NAME" x="117.2464" y="45.3136" size="1.27" layer="26" font="vector" rot="MR270"/>
 </element>
-<element name="K6" library="formula electric" package="HE3621A1250_SPST" value="HE3621A1250_SPST" x="98.0948" y="27.305" smashed="yes" rot="R90">
-<attribute name="NAME" x="101.6254" y="17.0434" size="1.27" layer="25" font="vector" rot="R180"/>
-<attribute name="VALUE" x="94.9198" y="27.94" size="1.27" layer="25" font="vector" rot="R90"/>
-</element>
-<element name="K1" library="formula electric" package="HE3621A1250_SPST" value="HE3621A1250_SPST" x="104.4702" y="27.2796" smashed="yes" rot="R90">
-<attribute name="NAME" x="101.2952" y="17.7546" size="1.27" layer="25" font="vector" rot="R90"/>
-<attribute name="VALUE" x="101.2952" y="27.9146" size="1.27" layer="25" font="vector" rot="R90"/>
-</element>
+<element name="K6" library="formula electric" package="HE3621A1250_SPST" value="HE3621A1250_SPST" x="98.0948" y="27.305" rot="R90"/>
+<element name="K1" library="formula electric" package="HE3621A1250_SPST" value="HE3621A1250_SPST" x="104.4702" y="27.2796" rot="R90"/>
 <element name="LATCH_CONN" library="formula electric" package="CONNECTOR_5" value="CONN_5" x="109.1184" y="6.4262" smashed="yes">
 <attribute name="NAME" x="106.1466" y="1.4478" size="1.27" layer="25" font="vector" rot="R90"/>
 </element>
@@ -2573,14 +2560,8 @@ design rules under a new name.</description>
 <attribute name="NAME" x="29.4386" y="89.3318" size="1.27" layer="52" font="vector" ratio="5" rot="MR0"/>
 <attribute name="NAME" x="40.0304" y="102.9716" size="1.27" layer="22" font="vector" ratio="5" rot="MR0"/>
 </element>
-<element name="K3" library="formula electric" package="HE3621A1250_SPST" value="HE3621A1250_SPST" x="117.1448" y="27.305" smashed="yes" rot="R270">
-<attribute name="NAME" x="120.3198" y="36.83" size="1.27" layer="25" font="vector" rot="R270"/>
-<attribute name="VALUE" x="120.3198" y="26.67" size="1.27" layer="25" font="vector" rot="R270"/>
-</element>
-<element name="K2" library="formula electric" package="HE3621A1250_SPST" value="HE3621A1250_SPST" x="110.7948" y="27.305" smashed="yes" rot="R90">
-<attribute name="NAME" x="107.6198" y="17.78" size="1.27" layer="25" font="vector" rot="R90"/>
-<attribute name="VALUE" x="107.6198" y="27.94" size="1.27" layer="25" font="vector" rot="R90"/>
-</element>
+<element name="K3" library="formula electric" package="HE3621A1250_SPST" value="HE3621A1250_SPST" x="117.1448" y="27.305" rot="R270"/>
+<element name="K2" library="formula electric" package="HE3621A1250_SPST" value="HE3621A1250_SPST" x="110.7948" y="27.305" rot="R90"/>
 <element name="TSMS_CONN" library="formula electric" package="CONNECTOR_2" value="CONN_2" x="67.564" y="6.4262" smashed="yes">
 <attribute name="NAME" x="63.9826" y="2.5908" size="1.27" layer="25" font="vector" rot="R90"/>
 </element>

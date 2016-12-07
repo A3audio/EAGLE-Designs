@@ -291,8 +291,8 @@
 <wire x1="-9.8552" y1="-2.8194" x2="9.8552" y2="-2.8194" width="0.127" layer="21"/>
 <wire x1="9.8552" y1="-2.8194" x2="9.8552" y2="2.8194" width="0.127" layer="21"/>
 <wire x1="9.8552" y1="2.8194" x2="-9.8552" y2="2.8194" width="0.127" layer="21"/>
-<text x="-9.525" y="3.175" size="0.635" layer="25">&gt;NAME</text>
-<text x="0.635" y="3.175" size="0.635" layer="25">&gt;VALUE</text>
+<text x="-9.525" y="3.175" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="0.635" y="3.175" size="1.27" layer="27" font="vector">&gt;VALUE</text>
 </package>
 <package name="DPDT_JW2_FORM_C">
 <wire x1="-14.3" y1="6.4" x2="-14.3" y2="-6.4" width="0.127" layer="21"/>
@@ -5377,12 +5377,11 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.0508" layer="39"/>
 <smd name="1" x="-0.85" y="0" dx="1" dy="1.1" layer="1"/>
 <smd name="2" x="0.85" y="0" dx="1" dy="1.1" layer="1"/>
-<text x="-0.635" y="0.635" size="1.016" layer="25" font="vector">&gt;NAME</text>
-<text x="-0.635" y="-1.905" size="1.016" layer="27" font="vector">&gt;VALUE</text>
+<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="0.4318" y1="-0.4318" x2="0.8382" y2="0.4318" layer="51"/>
 <rectangle x1="-0.8382" y1="-0.4318" x2="-0.4318" y2="0.4318" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
-<wire x1="0" y1="0.635" x2="0" y2="-0.635" width="0.127" layer="21"/>
 </package>
 <package name="M1206">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
@@ -5395,8 +5394,8 @@ MELF 0.25 W</description>
 <wire x1="1.143" y1="-0.8382" x2="-1.143" y2="-0.8382" width="0.1524" layer="51"/>
 <smd name="1" x="-1.4" y="0" dx="1.6" dy="2" layer="1"/>
 <smd name="2" x="1.4" y="0" dx="1.6" dy="2" layer="1"/>
-<text x="-1.27" y="1.27" size="1.016" layer="25" font="vector">&gt;NAME</text>
-<text x="-1.27" y="-2.54" size="1.016" layer="27" font="vector">&gt;VALUE</text>
+<text x="-1.27" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.27" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-1.7018" y1="-0.9144" x2="-1.1176" y2="0.9144" layer="51"/>
 <rectangle x1="1.1176" y1="-0.9144" x2="1.7018" y2="0.9144" layer="51"/>
 <rectangle x1="-0.3" y1="-0.8001" x2="0.3" y2="0.8001" layer="35"/>
