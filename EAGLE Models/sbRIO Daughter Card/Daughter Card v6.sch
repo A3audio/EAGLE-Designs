@@ -8887,9 +8887,9 @@ for Latched Components</text>
 <pinref part="R30" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="SBRIO_ANALOG" gate="G$1" pin="DIO_0"/>
-<wire x1="35.56" y1="-20.32" x2="53.34" y2="-20.32" width="0.1524" layer="91"/>
-<label x="53.34" y="-20.32" size="1.778" layer="95" xref="yes"/>
+<pinref part="SBRIO_ANALOG" gate="G$1" pin="AI1"/>
+<wire x1="45.72" y1="-2.54" x2="35.56" y2="-2.54" width="0.1524" layer="91"/>
+<label x="45.72" y="-2.54" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="DIO3" class="0">
@@ -9085,11 +9085,6 @@ for Latched Components</text>
 </segment>
 </net>
 <net name="AI1" class="0">
-<segment>
-<pinref part="SBRIO_ANALOG" gate="G$1" pin="AI1"/>
-<wire x1="45.72" y1="-2.54" x2="35.56" y2="-2.54" width="0.1524" layer="91"/>
-<label x="45.72" y="-2.54" size="1.778" layer="95" xref="yes"/>
-</segment>
 <segment>
 <pinref part="ACCUMULATOR_CONN" gate="G$1" pin="2"/>
 <wire x1="462.28" y1="-144.78" x2="447.04" y2="-144.78" width="0.1524" layer="91"/>
