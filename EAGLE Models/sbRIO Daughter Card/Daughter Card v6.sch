@@ -10450,9 +10450,9 @@ for Latched Components</text>
 <label x="543.56" y="-101.6" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="K5" gate="G$1" pin="C+"/>
-<wire x1="728.98" y1="-5.08" x2="723.9" y2="-5.08" width="0.1524" layer="91"/>
-<label x="723.9" y="-5.08" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="K5" gate="G$1" pin="C-"/>
+<wire x1="723.9" y1="-15.24" x2="728.98" y2="-15.24" width="0.1524" layer="91"/>
+<label x="723.9" y="-15.24" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="IMD_OK+" class="0">
@@ -10519,9 +10519,9 @@ for Latched Components</text>
 <label x="650.24" y="25.4" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="K5" gate="G$1" pin="C-"/>
-<wire x1="723.9" y1="-15.24" x2="728.98" y2="-15.24" width="0.1524" layer="91"/>
-<label x="723.9" y="-15.24" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="K5" gate="G$1" pin="C+"/>
+<wire x1="728.98" y1="-5.08" x2="723.9" y2="-5.08" width="0.1524" layer="91"/>
+<label x="723.9" y="-5.08" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$14" class="0">
