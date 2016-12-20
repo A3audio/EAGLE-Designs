@@ -17321,6 +17321,12 @@ http://www.st.com&lt;p&gt;
 <text x="-335.28" y="-2.54" size="1.778" layer="94">Discharge Circuit</text>
 <text x="-317.5" y="116.84" size="1.778" layer="94">Charge Circuit</text>
 <text x="-289.56" y="-81.28" size="1.27" layer="91" font="vector" rot="R90">HSA50R22J</text>
+<text x="35.052" y="32.004" size="1.778" layer="94">Jump to ADC7</text>
+<text x="34.798" y="34.798" size="1.778" layer="94">Jump to ADC6</text>
+<text x="36.576" y="1.778" size="1.778" layer="94">Jump to PC1</text>
+<text x="35.306" y="37.084" size="1.778" layer="94">Jump to PD6</text>
+<text x="38.354" y="24.892" size="1.778" layer="94">Jump to PC2</text>
+<text x="36.83" y="22.098" size="1.778" layer="94">Jump to PC3</text>
 </plain>
 <instances>
 <instance part="U1" gate="G$1" x="-7.62" y="15.24"/>
