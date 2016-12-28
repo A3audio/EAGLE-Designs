@@ -8886,6 +8886,11 @@ for Latched Components</text>
 <label x="314.96" y="0" size="1.778" layer="95" xref="yes"/>
 <pinref part="R30" gate="G$1" pin="2"/>
 </segment>
+<segment>
+<pinref part="SBRIO_ANALOG" gate="G$1" pin="AI12"/>
+<wire x1="35.56" y1="25.4" x2="53.34" y2="25.4" width="0.1524" layer="91"/>
+<label x="53.34" y="25.4" size="1.778" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="DIO3" class="0">
 <segment>
@@ -9053,27 +9058,6 @@ for Latched Components</text>
 <pinref part="ACCUMULATOR_CONN" gate="G$1" pin="6"/>
 <wire x1="462.28" y1="-154.94" x2="447.04" y2="-154.94" width="0.1524" layer="91"/>
 <label x="447.04" y="-154.94" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="AI2" class="0">
-<segment>
-<label x="386.08" y="68.58" size="1.778" layer="95" rot="MR0" xref="yes"/>
-<wire x1="401.32" y1="68.58" x2="393.7" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="BSPD_CONN" gate="G$1" pin="4"/>
-<wire x1="393.7" y1="68.58" x2="386.08" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="401.32" y1="68.58" x2="406.4" y2="68.58" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<wire x1="-101.6" y1="-27.94" x2="-104.14" y2="-27.94" width="0.1524" layer="91"/>
-<label x="-104.14" y="-27.94" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="R39" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="AI1" class="0">
-<segment>
-<wire x1="-81.28" y1="-35.56" x2="-78.74" y2="-35.56" width="0.1524" layer="91"/>
-<label x="-78.74" y="-35.56" size="1.778" layer="95" xref="yes"/>
-<pinref part="R53" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="BRAKE_PRESS_IN_1" class="0">
@@ -9595,11 +9579,6 @@ for Latched Components</text>
 </segment>
 </net>
 <net name="AI12" class="0">
-<segment>
-<pinref part="SBRIO_ANALOG" gate="G$1" pin="AI12"/>
-<wire x1="35.56" y1="25.4" x2="53.34" y2="25.4" width="0.1524" layer="91"/>
-<label x="53.34" y="25.4" size="1.778" layer="95" xref="yes"/>
-</segment>
 <segment>
 <pinref part="SBRIO_AUX" gate="G$1" pin="AI12"/>
 <wire x1="477.52" y1="40.64" x2="457.2" y2="40.64" width="0.1524" layer="91"/>
@@ -10699,6 +10678,11 @@ for Latched Components</text>
 <wire x1="462.28" y1="-144.78" x2="447.04" y2="-144.78" width="0.1524" layer="91"/>
 <label x="447.04" y="-144.78" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<wire x1="-81.28" y1="-35.56" x2="-78.74" y2="-35.56" width="0.1524" layer="91"/>
+<label x="-78.74" y="-35.56" size="1.778" layer="95" xref="yes"/>
+<pinref part="R53" gate="G$1" pin="2"/>
+</segment>
 </net>
 <net name="HIGH_CURRENT_IN" class="0">
 <segment>
@@ -10706,8 +10690,18 @@ for Latched Components</text>
 <wire x1="53.34" y1="0" x2="35.56" y2="0" width="0.1524" layer="91"/>
 <label x="53.34" y="0" size="1.778" layer="95" xref="yes"/>
 </segment>
-</net>
-<net name="HIGH_CURRNT_IN" class="0">
+<segment>
+<wire x1="401.32" y1="68.58" x2="393.7" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="BSPD_CONN" gate="G$1" pin="4"/>
+<wire x1="393.7" y1="68.58" x2="386.08" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="401.32" y1="68.58" x2="406.4" y2="68.58" width="0.1524" layer="91"/>
+<label x="386.08" y="68.58" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<wire x1="-101.6" y1="-27.94" x2="-104.14" y2="-27.94" width="0.1524" layer="91"/>
+<label x="-104.14" y="-27.94" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="R39" gate="G$1" pin="1"/>
+</segment>
 <segment>
 <pinref part="ACCUMULATOR_CONN" gate="G$1" pin="3"/>
 <wire x1="462.28" y1="-147.32" x2="421.64" y2="-147.32" width="0.1524" layer="91"/>
