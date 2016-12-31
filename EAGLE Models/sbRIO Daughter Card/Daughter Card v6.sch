@@ -8250,6 +8250,7 @@ WM4926-ND</description>
 <part name="R51" library="resistor" deviceset="R-US_" device="R0603" value="10K"/>
 <part name="R52" library="resistor" deviceset="R-US_" device="R0603" value="10K"/>
 <part name="R53" library="resistor" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="GLV+_CONN" library="formula electric" deviceset="CONN_2" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8483,6 +8484,7 @@ for Latched Components</text>
 <instance part="R51" gate="G$1" x="-86.36" y="-20.32"/>
 <instance part="R52" gate="G$1" x="-86.36" y="-27.94"/>
 <instance part="R53" gate="G$1" x="-86.36" y="-35.56"/>
+<instance part="GLV+_CONN" gate="G$1" x="530.86" y="-48.26"/>
 </instances>
 <busses>
 </busses>
@@ -10486,6 +10488,11 @@ for Latched Components</text>
 <pinref part="K5" gate="G$1" pin="C+"/>
 <wire x1="728.98" y1="-5.08" x2="723.9" y2="-5.08" width="0.1524" layer="91"/>
 <label x="723.9" y="-5.08" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="GLV+_CONN" gate="G$1" pin="1"/>
+<wire x1="535.94" y1="-45.72" x2="541.02" y2="-45.72" width="0.1524" layer="91"/>
+<label x="541.02" y="-45.72" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$14" class="0">
