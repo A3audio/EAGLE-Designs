@@ -135,9 +135,9 @@
 <board>
 <plain>
 <wire x1="0" y1="0" x2="153.67" y2="0" width="0" layer="20"/>
-<wire x1="153.67" y1="0" x2="153.67" y2="102.87" width="0" layer="20"/>
-<wire x1="153.67" y1="102.87" x2="0" y2="102.87" width="0" layer="20"/>
-<wire x1="0" y1="102.87" x2="0" y2="0" width="0" layer="20"/>
+<wire x1="153.67" y1="0" x2="153.5938" y2="102.9462" width="0" layer="20"/>
+<wire x1="153.5938" y1="102.9462" x2="-0.0762" y2="102.9462" width="0" layer="20"/>
+<wire x1="-0.0762" y1="102.9462" x2="0" y2="0" width="0" layer="20"/>
 <hole x="3.2004" y="98.3996" drill="3.175"/>
 <hole x="76.835" y="98.3996" drill="3.175"/>
 <hole x="150.4696" y="98.3996" drill="3.175"/>
@@ -8826,6 +8826,8 @@ Layout by Oliver Ousterman
 and Andrew Ferguson
 Schematic by Thomas Willson 
 and Michael De'Lay</text>
+<dimension x1="0" y1="0" x2="153.67" y2="0" x3="76.835" y3="-12.4206" textsize="1.778" layer="1" dtype="horizontal" unit="inch"/>
+<dimension x1="0" y1="0" x2="-0.0762" y2="102.9462" x3="-18.7452" y3="51.4731" textsize="1.778" layer="1" dtype="vertical" unit="inch"/>
 </plain>
 <libraries>
 <library name="formula electric">
@@ -11249,7 +11251,6 @@ design rules under a new name.</description>
 </element>
 <element name="SBRIO_MEZZANINE" library="SEAM-40-XX.X-XX-06-X-A" package="SEAM-40-XX.X-XX-06-X-A" value="SBRIO_RMC" x="40.0304" y="96.7486" locked="yes" smashed="yes" rot="MR0">
 <attribute name="NAME" x="29.4386" y="89.3318" size="1.27" layer="52" font="vector" ratio="5" rot="MR0"/>
-<attribute name="NAME" x="40.0304" y="102.9716" size="1.27" layer="22" font="vector" ratio="5" rot="MR0"/>
 </element>
 <element name="K3" library="formula electric" package="HE3621A1250_SPST" value="HE3621A1250_SPST" x="117.1448" y="27.305" smashed="yes" rot="R270">
 <attribute name="NAME" x="116.1034" y="15.8496" size="1.27" layer="25" font="vector"/>
