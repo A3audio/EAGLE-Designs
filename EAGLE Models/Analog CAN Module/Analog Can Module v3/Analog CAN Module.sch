@@ -15011,28 +15011,6 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <text x="1.27" y="0" size="0.4064" layer="25" rot="R180">AD8495</text>
 <text x="1.905" y="-0.9525" size="0.4064" layer="21" rot="R90">&gt;NAME</text>
 </package>
-<package name="MUSBB">
-<pad name="P3" x="0" y="0" drill="0.8"/>
-<pad name="P5" x="1.6" y="0" drill="0.8"/>
-<pad name="P1" x="-1.6" y="0" drill="0.8"/>
-<pad name="P2" x="-0.8" y="-1.2" drill="0.8"/>
-<pad name="P4" x="0.8" y="-1.2" drill="0.8"/>
-<wire x1="-3.18" y1="-2.43" x2="3.22" y2="-2.43" width="0.127" layer="21"/>
-<circle x="-4.2545" y="0.7747" radius="0.5334" width="0.053340625" layer="46"/>
-<circle x="-4.2545" y="-1.9939" radius="0.5334" width="0.053340625" layer="46"/>
-<circle x="4.2545" y="0.7747" radius="0.5334" width="0.053340625" layer="46"/>
-<circle x="4.2545" y="-1.9939" radius="0.5334" width="0.053340625" layer="46"/>
-<wire x1="-5.715" y1="2.0955" x2="-5.715" y2="-3.6195" width="0.127" layer="21"/>
-<wire x1="-5.715" y1="-3.6195" x2="5.588" y2="-3.6195" width="0.127" layer="21"/>
-<wire x1="5.588" y1="-3.6195" x2="5.588" y2="2.0955" width="0.127" layer="21"/>
-<wire x1="-5.715" y1="2.0955" x2="5.588" y2="2.0955" width="0.127" layer="21"/>
-<rectangle x1="-4.7879" y1="-1.9939" x2="-3.698240625" y2="0.7747" layer="46"/>
-<rectangle x1="3.7211" y1="-1.9939" x2="4.7879" y2="0.7747" layer="46"/>
-<rectangle x1="-5.08" y1="-2.794" x2="-3.429" y2="1.651" layer="1"/>
-<rectangle x1="3.3655" y1="-2.8575" x2="5.1435" y2="1.7145" layer="1"/>
-<rectangle x1="-5.23875" y1="-2.8575" x2="-3.33375" y2="1.74625" layer="29"/>
-<rectangle x1="3.33375" y1="-2.936875" x2="5.23875" y2="1.825625" layer="29"/>
-</package>
 </packages>
 <symbols>
 <symbol name="TL750L10">
@@ -15118,17 +15096,6 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <wire x1="7.62" y1="-10.16" x2="7.62" y2="10.16" width="0.254" layer="94"/>
 <wire x1="7.62" y1="10.16" x2="-5.08" y2="10.16" width="0.254" layer="94"/>
 <rectangle x1="-5.08" y1="7.62" x2="-2.54" y2="10.16" layer="94"/>
-</symbol>
-<symbol name="MUSBB">
-<pin name="P$1" x="-7.62" y="5.08" length="middle"/>
-<pin name="P$2" x="-7.62" y="2.54" length="middle"/>
-<pin name="P$3" x="-7.62" y="0" length="middle"/>
-<pin name="P$4" x="-7.62" y="-2.54" length="middle"/>
-<pin name="P$5" x="-7.62" y="-5.08" length="middle"/>
-<wire x1="-2.54" y1="7.62" x2="-2.54" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-7.62" x2="5.08" y2="7.62" width="0.254" layer="94"/>
-<wire x1="5.08" y1="7.62" x2="-2.54" y2="7.62" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -15244,25 +15211,6 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <connect gate="G$1" pin="P6" pad="P6"/>
 <connect gate="G$1" pin="P7" pad="P7"/>
 <connect gate="G$1" pin="P8" pad="P8"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="MUSBB">
-<gates>
-<gate name="G$1" symbol="MUSBB" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="MUSBB">
-<connects>
-<connect gate="G$1" pin="P$1" pad="P1"/>
-<connect gate="G$1" pin="P$2" pad="P2"/>
-<connect gate="G$1" pin="P$3" pad="P3"/>
-<connect gate="G$1" pin="P$4" pad="P4"/>
-<connect gate="G$1" pin="P$5" pad="P5"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -17331,6 +17279,64 @@ Source: &lt;a href="http://www.littelfuse.com/products/resettable-ptcs.aspx"&gt;
 </deviceset>
 </devicesets>
 </library>
+<library name="con-amp-te">
+<description>&lt;b&gt;AMP TE Connectivity&lt;/b&gt; AMPLIMITE 0.50 Series&lt;p&gt;
+
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="1734753-1">
+<description>Digikey Part Number: A107790-ND</description>
+<pad name="P$1" x="-0.5" y="1.6" drill="0.7" diameter="1.016"/>
+<pad name="P$2" x="0.5" y="0.8" drill="0.7" diameter="1.016"/>
+<pad name="P$3" x="-0.5" y="0" drill="0.7" diameter="1.016" rot="R90"/>
+<pad name="P$4" x="0.5" y="-0.8" drill="0.7" diameter="1.016" rot="R90"/>
+<pad name="P$5" x="-0.5" y="-1.6" drill="0.7" diameter="1.016" rot="R90"/>
+<hole x="-1.75" y="3.1" drill="0.7"/>
+<rectangle x1="-2.1" y1="1.7" x2="-1.4" y2="3.1" layer="45"/>
+<hole x="-1.75" y="1.7" drill="0.7"/>
+<hole x="-1.75" y="-2.5" drill="0.7"/>
+<hole x="-1.75" y="-1.3" drill="0.7"/>
+<rectangle x1="-2.1" y1="-2.5" x2="-1.4" y2="-1.3" layer="45"/>
+<hole x="1.75" y="0.6" drill="0.7"/>
+<hole x="1.75" y="-0.6" drill="0.7"/>
+<rectangle x1="1.4" y1="-0.6" x2="2.1" y2="0.6" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="MINI_USB">
+<wire x1="-2.54" y1="7.62" x2="5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-7.62" x2="-2.54" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-7.62" x2="-2.54" y2="7.62" width="0.254" layer="94"/>
+<pin name="P$1" x="-7.62" y="5.08" length="middle"/>
+<pin name="P$2" x="-7.62" y="2.54" length="middle"/>
+<pin name="P$3" x="-7.62" y="0" length="middle"/>
+<pin name="P$4" x="-7.62" y="-2.54" length="middle"/>
+<pin name="P$5" x="-7.62" y="-5.08" length="middle"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="1734753-1">
+<gates>
+<gate name="G$1" symbol="MINI_USB" x="2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="1734753-1">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$5"/>
+<connect gate="G$1" pin="P$2" pad="P$4"/>
+<connect gate="G$1" pin="P$3" pad="P$3"/>
+<connect gate="G$1" pin="P$4" pad="P$2"/>
+<connect gate="G$1" pin="P$5" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -17560,7 +17566,6 @@ Source: &lt;a href="http://www.littelfuse.com/products/resettable-ptcs.aspx"&gt;
 <part name="R77" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="10K"/>
 <part name="R78" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="10K"/>
 <part name="R79" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="1M"/>
-<part name="U$14" library="DashAndCAN library" deviceset="MUSBB" device=""/>
 <part name="X1" library="con-deutsch" deviceset="AS16-35" device=""/>
 <part name="U$13" library="DashAndCAN library" deviceset="AD7998" device=""/>
 <part name="C91" library="rcl" deviceset="C-US" device="C0603" value="1uF"/>
@@ -17622,6 +17627,7 @@ Source: &lt;a href="http://www.littelfuse.com/products/resettable-ptcs.aspx"&gt;
 <part name="R11" library="rcl" deviceset="R-US_" device="R0603"/>
 <part name="C14" library="rcl" deviceset="C-EU" device="C0805" value="22uF"/>
 <part name="C80" library="rcl" deviceset="C-EU" device="C0805" value="22uF"/>
+<part name="U$3" library="con-amp-te" deviceset="1734753-1" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -17918,7 +17924,6 @@ Revised By Daniel Baron</text>
 <instance part="R77" gate="G$1" x="401.32" y="-30.48"/>
 <instance part="R78" gate="G$1" x="457.2" y="-30.48"/>
 <instance part="R79" gate="G$1" x="467.36" y="-38.1" rot="R90"/>
-<instance part="U$14" gate="G$1" x="68.58" y="-241.3"/>
 <instance part="X1" gate="/1" x="58.42" y="-124.46"/>
 <instance part="X1" gate="/2" x="58.42" y="-127"/>
 <instance part="X1" gate="/3" x="58.42" y="-129.54"/>
@@ -18054,6 +18059,7 @@ Revised By Daniel Baron</text>
 <instance part="R11" gate="G$1" x="139.7" y="-10.16" rot="R180"/>
 <instance part="C14" gate="G$1" x="114.3" y="-162.56" rot="R90"/>
 <instance part="C80" gate="G$1" x="114.3" y="-172.72" rot="R90"/>
+<instance part="U$3" gate="G$1" x="48.26" y="-226.06"/>
 </instances>
 <busses>
 </busses>
@@ -19323,9 +19329,10 @@ Revised By Daniel Baron</text>
 <junction x="373.38" y="-43.18"/>
 </segment>
 <segment>
-<pinref part="U$14" gate="G$1" pin="P$5"/>
-<wire x1="60.96" y1="-246.38" x2="38.1" y2="-233.68" width="0.1524" layer="91"/>
-<label x="38.1" y="-233.68" size="1.778" layer="95" rot="R180" xref="yes"/>
+<label x="35.56" y="-233.68" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$3" gate="G$1" pin="P$5"/>
+<wire x1="40.64" y1="-231.14" x2="38.1" y2="-233.68" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="-233.68" x2="35.56" y2="-233.68" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="77.47" y1="-60.96" x2="76.2" y2="-60.96" width="0.1524" layer="91"/>
@@ -19980,9 +19987,9 @@ Revised By Daniel Baron</text>
 <pinref part="IC5" gate="G$1" pin="USBDM"/>
 </segment>
 <segment>
-<pinref part="U$14" gate="G$1" pin="P$2"/>
-<wire x1="60.96" y1="-238.76" x2="35.56" y2="-226.06" width="0.1524" layer="91"/>
-<label x="35.56" y="-226.06" size="1.778" layer="95" rot="R180" xref="yes"/>
+<label x="35.56" y="-223.52" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$3" gate="G$1" pin="P$2"/>
+<wire x1="40.64" y1="-223.52" x2="35.56" y2="-223.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="D+" class="0">
@@ -19992,9 +19999,10 @@ Revised By Daniel Baron</text>
 <pinref part="IC5" gate="G$1" pin="USBDP"/>
 </segment>
 <segment>
-<pinref part="U$14" gate="G$1" pin="P$3"/>
-<wire x1="60.96" y1="-241.3" x2="40.64" y2="-228.6" width="0.1524" layer="91"/>
-<label x="40.64" y="-228.6" size="1.778" layer="95" rot="R180" xref="yes"/>
+<label x="35.56" y="-228.6" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$3" gate="G$1" pin="P$3"/>
+<wire x1="40.64" y1="-226.06" x2="38.1" y2="-228.6" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="-228.6" x2="35.56" y2="-228.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VCC3O" class="0">
@@ -20008,10 +20016,10 @@ Revised By Daniel Baron</text>
 </net>
 <net name="USB_V_IN" class="3">
 <segment>
-<pinref part="U$14" gate="G$1" pin="P$1"/>
-<wire x1="60.96" y1="-236.22" x2="40.64" y2="-223.52" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="-223.52" x2="38.1" y2="-220.98" width="0.1524" layer="91"/>
-<label x="38.1" y="-220.98" size="1.778" layer="95" rot="R180" xref="yes"/>
+<label x="35.56" y="-218.44" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$3" gate="G$1" pin="P$1"/>
+<wire x1="40.64" y1="-220.98" x2="38.1" y2="-218.44" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="-218.44" x2="35.56" y2="-218.44" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="F1" gate="G$1" pin="2"/>
@@ -22135,24 +22143,6 @@ Revised By Daniel Baron</text>
 </sheets>
 <errors>
 <approved hash="101,1,114.3,-129.54,X2/5,1,,,,"/>
-<approved hash="103,1,317.5,137.16,IC1,VCC_52,VCC,,,"/>
-<approved hash="103,1,317.5,134.62,IC1,GND_53,GND,,,"/>
-<approved hash="202,1,317.5,119.38,IC1,PG3(TOSC2),,,,"/>
-<approved hash="202,1,317.5,124.46,IC1,PG4(TOSC1),,,,"/>
-<approved hash="104,1,190.5,-76.2,IC5,VCCIO,VCC,,,"/>
-<approved hash="202,1,223.52,-91.44,IC5,RI#,,,,"/>
-<approved hash="104,1,190.5,-111.76,IC5,GND1,GND,,,"/>
-<approved hash="202,1,223.52,-86.36,IC5,DSR#,,,,"/>
-<approved hash="202,1,223.52,-88.9,IC5,DCD#,,,,"/>
-<approved hash="202,1,223.52,-81.28,IC5,CTS#,,,,"/>
-<approved hash="202,1,223.52,-121.92,IC5,SLEEP#,,,,"/>
-<approved hash="202,1,223.52,-119.38,IC5,GPIO3,,,,"/>
-<approved hash="104,1,190.5,-78.74,IC5,VCC30,VCC3O,,,"/>
-<approved hash="104,1,190.5,-114.3,IC5,GND2,GND,,,"/>
-<approved hash="104,1,190.5,-73.66,IC5,VCC5I,VCC,,,"/>
-<approved hash="104,1,190.5,-116.84,IC5,GND3,GND,,,"/>
-<approved hash="104,1,190.5,-121.92,IC5,AGND,GND,,,"/>
-<approved hash="202,1,190.5,-99.06,IC5,OSCI,,,,"/>
 <approved hash="104,1,-55.88,167.64,U1,V+,VCC,,,"/>
 <approved hash="104,1,-55.88,147.32,U1,V-,GND,,,"/>
 <approved hash="104,1,-193.04,170.18,U2,V+,VCC,,,"/>
@@ -22181,65 +22171,6 @@ Revised By Daniel Baron</text>
 <approved hash="104,1,-259.08,-165.1,U13,V-,GND,,,"/>
 <approved hash="104,1,-96.52,-147.32,U14,V+,VCC,,,"/>
 <approved hash="104,1,-96.52,-167.64,U14,V-,GND,,,"/>
-<approved hash="106,1,317.5,160.02,AREF,,,,,"/>
-<approved hash="106,1,368.3,134.62,AVR_CS,,,,,"/>
-<approved hash="106,1,368.3,142.24,AVR_MISO,,,,,"/>
-<approved hash="106,1,368.3,139.7,AVR_MOSI,,,,,"/>
-<approved hash="106,1,368.3,137.16,AVR_SCK,,,,,"/>
-<approved hash="106,1,368.3,83.82,INT_N,,,,,"/>
-<approved hash="106,1,368.3,157.48,PA0,,,,,"/>
-<approved hash="106,1,368.3,160.02,PA1,,,,,"/>
-<approved hash="106,1,368.3,162.56,PA2,,,,,"/>
-<approved hash="106,1,368.3,165.1,PA3,,,,,"/>
-<approved hash="106,1,368.3,167.64,PA4,,,,,"/>
-<approved hash="106,1,368.3,170.18,PA5,,,,,"/>
-<approved hash="106,1,368.3,172.72,PA6,,,,,"/>
-<approved hash="106,1,368.3,175.26,PA7,,,,,"/>
-<approved hash="106,1,368.3,144.78,PB4(PWM),,,,,"/>
-<approved hash="106,1,368.3,147.32,PB5(PWM),,,,,"/>
-<approved hash="106,1,368.3,149.86,PB6(PWM),,,,,"/>
-<approved hash="106,1,368.3,152.4,PB7(PWM),,,,,"/>
-<approved hash="106,1,368.3,111.76,PC0,,,,,"/>
-<approved hash="106,1,368.3,114.3,PC1,,,,,"/>
-<approved hash="106,1,368.3,116.84,PC2,,,,,"/>
-<approved hash="106,1,368.3,119.38,PC3,,,,,"/>
-<approved hash="106,1,368.3,121.92,PC4,,,,,"/>
-<approved hash="106,1,368.3,124.46,PC5,,,,,"/>
-<approved hash="106,1,368.3,127,PC6,,,,,"/>
-<approved hash="106,1,368.3,129.54,PC7,,,,,"/>
-<approved hash="106,1,368.3,99.06,PD4,,,,,"/>
-<approved hash="106,1,368.3,106.68,PD7,,,,,"/>
-<approved hash="106,1,368.3,71.12,PE2,,,,,"/>
-<approved hash="106,1,368.3,73.66,PE3(PWM),,,,,"/>
-<approved hash="106,1,368.3,76.2,PE4(PWM),,,,,"/>
-<approved hash="106,1,368.3,78.74,PE5(PWM),,,,,"/>
-<approved hash="106,1,368.3,81.28,PE6,,,,,"/>
-<approved hash="209,1,317.5,66.04,PF0,,,,,"/>
-<approved hash="106,1,317.5,66.04,PF0,,,,,"/>
-<approved hash="209,1,317.5,68.58,PF1,,,,,"/>
-<approved hash="106,1,317.5,68.58,PF1,,,,,"/>
-<approved hash="209,1,317.5,71.12,PF2,,,,,"/>
-<approved hash="106,1,317.5,71.12,PF2,,,,,"/>
-<approved hash="209,1,317.5,73.66,PF3,,,,,"/>
-<approved hash="106,1,317.5,73.66,PF3,,,,,"/>
-<approved hash="209,1,317.5,101.6,PG0,,,,,"/>
-<approved hash="106,1,317.5,101.6,PG0,,,,,"/>
-<approved hash="209,1,317.5,104.14,PG1,,,,,"/>
-<approved hash="106,1,317.5,104.14,PG1,,,,,"/>
-<approved hash="209,1,317.5,106.68,PG2,,,,,"/>
-<approved hash="106,1,317.5,106.68,PG2,,,,,"/>
-<approved hash="106,1,368.3,93.98,RX1,,,,,"/>
-<approved hash="106,1,27.94,-204.47,SCK,,,,,"/>
-<approved hash="209,1,317.5,76.2,TCK,,,,,"/>
-<approved hash="106,1,317.5,76.2,TCK,,,,,"/>
-<approved hash="209,1,317.5,83.82,TDI,,,,,"/>
-<approved hash="106,1,317.5,83.82,TDI,,,,,"/>
-<approved hash="209,1,317.5,81.28,TDO,,,,,"/>
-<approved hash="106,1,317.5,81.28,TDO,,,,,"/>
-<approved hash="209,1,317.5,78.74,TMS,,,,,"/>
-<approved hash="106,1,317.5,78.74,TMS,,,,,"/>
-<approved hash="106,1,368.3,96.52,TX1,,,,,"/>
-<approved hash="115,1,314.96,175.26,RESET,,,,,"/>
 </errors>
 </schematic>
 </drawing>
