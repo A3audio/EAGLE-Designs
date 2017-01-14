@@ -9819,11 +9819,6 @@ for Latched Components</text>
 </net>
 <net name="PO3" class="0">
 <segment>
-<wire x1="271.78" y1="-137.16" x2="271.78" y2="-142.24" width="0.1524" layer="91"/>
-<label x="271.78" y="-142.24" size="1.778" layer="95" rot="R270" xref="yes"/>
-<pinref part="IC1" gate="G$1" pin="OUT3"/>
-</segment>
-<segment>
 <wire x1="462.28" y1="-71.12" x2="421.64" y2="-71.12" width="0.1524" layer="91"/>
 <label x="421.64" y="-71.12" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="AIO_PO_CONN" gate="-14" pin="KL"/>
@@ -10485,11 +10480,6 @@ for Latched Components</text>
 <label x="650.24" y="25.4" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="K5" gate="G$1" pin="C+"/>
-<wire x1="728.98" y1="-5.08" x2="723.9" y2="-5.08" width="0.1524" layer="91"/>
-<label x="723.9" y="-5.08" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <pinref part="GLV+_CONN" gate="G$1" pin="1"/>
 <wire x1="535.94" y1="-45.72" x2="541.02" y2="-45.72" width="0.1524" layer="91"/>
 <label x="541.02" y="-45.72" size="1.778" layer="95" xref="yes"/>
@@ -10713,6 +10703,18 @@ for Latched Components</text>
 <pinref part="ACCUMULATOR_CONN" gate="G$1" pin="3"/>
 <wire x1="462.28" y1="-147.32" x2="421.64" y2="-147.32" width="0.1524" layer="91"/>
 <label x="421.64" y="-147.32" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="TEMP_OK+" class="0">
+<segment>
+<wire x1="271.78" y1="-137.16" x2="271.78" y2="-142.24" width="0.1524" layer="91"/>
+<label x="271.78" y="-142.24" size="1.778" layer="95" rot="R270" xref="yes"/>
+<pinref part="IC1" gate="G$1" pin="OUT3"/>
+</segment>
+<segment>
+<pinref part="K5" gate="G$1" pin="C+"/>
+<wire x1="728.98" y1="-5.08" x2="723.9" y2="-5.08" width="0.1524" layer="91"/>
+<label x="723.9" y="-5.08" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
