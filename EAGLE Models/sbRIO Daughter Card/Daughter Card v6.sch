@@ -8942,22 +8942,6 @@ for Latched Components</text>
 <wire x1="45.72" y1="-106.68" x2="43.18" y2="-106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="AMS_OK_IN" class="0">
-<segment>
-<pinref part="ACCUMULATOR_CONN" gate="G$1" pin="7"/>
-<wire x1="462.28" y1="-157.48" x2="429.26" y2="-157.48" width="0.1524" layer="91"/>
-<label x="429.26" y="-157.48" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="IC9" gate="G$1" pin="3~16V_IN"/>
-<wire x1="203.2" y1="-10.16" x2="220.98" y2="-10.16" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="-10.16" x2="220.98" y2="-5.08" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="-5.08" x2="223.52" y2="-5.08" width="0.1524" layer="91"/>
-<label x="223.52" y="-5.08" size="1.778" layer="95" xref="yes"/>
-<pinref part="R1" gate="G$1" pin="1"/>
-<junction x="220.98" y="-10.16"/>
-</segment>
-</net>
 <net name="DIO4" class="0">
 <segment>
 <pinref part="SBRIO_MEZZANINE" gate="G$1" pin="DIO4"/>
@@ -9732,14 +9716,6 @@ for Latched Components</text>
 <pinref part="ACCUMULATOR_CONN" gate="G$1" pin="8"/>
 <label x="447.04" y="-160.02" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
-<segment>
-<pinref part="IC10" gate="G$1" pin="3~16V_IN"/>
-<wire x1="203.2" y1="2.54" x2="223.52" y2="2.54" width="0.1524" layer="91"/>
-<label x="223.52" y="2.54" size="1.778" layer="95" xref="yes"/>
-<wire x1="203.2" y1="2.54" x2="203.2" y2="7.62" width="0.1524" layer="91"/>
-<junction x="203.2" y="2.54"/>
-<pinref part="R27" gate="G$1" pin="1"/>
-</segment>
 </net>
 <net name="DIO20" class="0">
 <segment>
@@ -10434,6 +10410,19 @@ for Latched Components</text>
 <wire x1="728.98" y1="-27.94" x2="723.9" y2="-27.94" width="0.1524" layer="91"/>
 <label x="723.9" y="-27.94" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="IC10" gate="G$1" pin="3~16V_IN"/>
+<wire x1="203.2" y1="2.54" x2="218.44" y2="2.54" width="0.1524" layer="91"/>
+<label x="223.52" y="2.54" size="1.778" layer="95" xref="yes"/>
+<wire x1="218.44" y1="2.54" x2="223.52" y2="2.54" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="2.54" x2="203.2" y2="7.62" width="0.1524" layer="91"/>
+<junction x="203.2" y="2.54"/>
+<pinref part="R27" gate="G$1" pin="1"/>
+<wire x1="218.44" y1="2.54" x2="218.44" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="7.62" x2="226.06" y2="7.62" width="0.1524" layer="91"/>
+<label x="226.06" y="7.62" size="1.778" layer="95" xref="yes"/>
+<junction x="218.44" y="2.54"/>
+</segment>
 </net>
 <net name="TSMS_OUT+" class="0">
 <segment>
@@ -10715,6 +10704,22 @@ for Latched Components</text>
 <pinref part="ACCUMULATOR_CONN" gate="G$1" pin="3"/>
 <wire x1="462.28" y1="-147.32" x2="421.64" y2="-147.32" width="0.1524" layer="91"/>
 <label x="421.64" y="-147.32" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="AMS_OK_IN" class="0">
+<segment>
+<pinref part="ACCUMULATOR_CONN" gate="G$1" pin="7"/>
+<wire x1="462.28" y1="-157.48" x2="429.26" y2="-157.48" width="0.1524" layer="91"/>
+<label x="429.26" y="-157.48" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="IC9" gate="G$1" pin="3~16V_IN"/>
+<wire x1="203.2" y1="-10.16" x2="220.98" y2="-10.16" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="-10.16" x2="220.98" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="-5.08" x2="223.52" y2="-5.08" width="0.1524" layer="91"/>
+<label x="223.52" y="-5.08" size="1.778" layer="95" xref="yes"/>
+<pinref part="R1" gate="G$1" pin="1"/>
+<junction x="220.98" y="-10.16"/>
 </segment>
 </net>
 </nets>
