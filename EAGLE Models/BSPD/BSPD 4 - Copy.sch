@@ -9944,10 +9944,10 @@ diameter 5 mm, grid 2.54 mm</description>
 <part name="R4" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="1k"/>
 <part name="R5" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="3.3k"/>
 <part name="R6" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="4.7k"/>
-<part name="R7" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="8.2k"/>
-<part name="R8" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="2.2k"/>
-<part name="R9" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="8.87k"/>
-<part name="R10" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="1.8k"/>
+<part name="R7" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="9.1k"/>
+<part name="R8" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="6.65k"/>
+<part name="R9" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="9.1k"/>
+<part name="R10" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="5k"/>
 <part name="U$1" library="linear-technology" deviceset="LT1018" device=""/>
 <part name="U$2" library="linear-technology" deviceset="LT1018" device=""/>
 <part name="U$3" library="linear-technology" deviceset="LT1018" device=""/>
