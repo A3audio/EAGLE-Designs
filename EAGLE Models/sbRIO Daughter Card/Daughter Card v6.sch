@@ -10262,14 +10262,6 @@ for Latched Components</text>
 <label x="424.18" y="-86.36" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="AIO_PO_CONN" gate="-8" pin="KL"/>
 </segment>
-<segment>
-<pinref part="IC8" gate="G$1" pin="3~16V_IN"/>
-<wire x1="203.2" y1="-22.86" x2="223.52" y2="-22.86" width="0.1524" layer="91"/>
-<label x="223.52" y="-22.86" size="1.778" layer="95" xref="yes"/>
-<wire x1="203.2" y1="-22.86" x2="203.2" y2="-17.78" width="0.1524" layer="91"/>
-<junction x="203.2" y="-22.86"/>
-<pinref part="R15" gate="G$1" pin="1"/>
-</segment>
 </net>
 <net name="5V_IO_1" class="0">
 <segment>
@@ -10395,8 +10387,11 @@ for Latched Components</text>
 <label x="543.56" y="-127" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="215.9" y1="-27.94" x2="223.52" y2="-27.94" width="0.1524" layer="91"/>
-<label x="223.52" y="-27.94" size="1.778" layer="95" xref="yes"/>
+<label x="223.52" y="-22.86" size="1.778" layer="95" xref="yes"/>
+<pinref part="IC8" gate="G$1" pin="3~16V_IN"/>
+<wire x1="203.2" y1="-22.86" x2="203.2" y2="-17.78" width="0.1524" layer="91"/>
+<pinref part="R15" gate="G$1" pin="1"/>
+<wire x1="223.52" y1="-22.86" x2="203.2" y2="-22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SHUTDOWN_OK+" class="0">
