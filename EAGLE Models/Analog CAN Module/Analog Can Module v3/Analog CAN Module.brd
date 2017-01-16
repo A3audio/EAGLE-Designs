@@ -8818,6 +8818,8 @@
 <rectangle x1="98.74885" y1="55.57393125" x2="99.1069875" y2="55.58155" layer="201"/>
 <rectangle x1="100.013771875" y1="55.57393125" x2="101.682546875" y2="55.58155" layer="201"/>
 <rectangle x1="93.59773125" y1="55.58155" x2="94.96170625" y2="55.58916875" layer="201"/>
+<text x="100.4824" y="49.2506" size="1.27" layer="1" font="vector" rot="R180">Analog CAN Board V2</text>
+<text x="99.0092" y="47.6758" size="1.27" layer="1" rot="R180">2016-2017</text>
 </plain>
 <libraries>
 <library name="rcl">
