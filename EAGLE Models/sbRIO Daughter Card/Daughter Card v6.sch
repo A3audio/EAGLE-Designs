@@ -8234,21 +8234,21 @@ WM4926-ND</description>
 <part name="R34" library="resistor" deviceset="R-US_" device="R0603" value="4.7K"/>
 <part name="R37" library="resistor" deviceset="R-US_" device="R0603" value="10K"/>
 <part name="R38" library="resistor" deviceset="R-US_" device="R0603" value="10K"/>
-<part name="R39" library="resistor" deviceset="R-US_" device="R0603" value="10K"/>
-<part name="R40" library="resistor" deviceset="R-US_" device="R0603" value="10K"/>
-<part name="R41" library="resistor" deviceset="R-US_" device="R0603" value="10K"/>
-<part name="R42" library="resistor" deviceset="R-US_" device="R0603" value="10K"/>
-<part name="R43" library="resistor" deviceset="R-US_" device="R0603" value="10K"/>
-<part name="R44" library="resistor" deviceset="R-US_" device="R0603" value="10K"/>
-<part name="R45" library="resistor" deviceset="R-US_" device="R0603" value="10K"/>
-<part name="R46" library="resistor" deviceset="R-US_" device="R0603" value="10K"/>
-<part name="R47" library="resistor" deviceset="R-US_" device="R0603" value="10K"/>
-<part name="R48" library="resistor" deviceset="R-US_" device="R0603" value="10K"/>
-<part name="R49" library="resistor" deviceset="R-US_" device="R0603" value="10K"/>
-<part name="R50" library="resistor" deviceset="R-US_" device="R0603" value="10K"/>
-<part name="R51" library="resistor" deviceset="R-US_" device="R0603" value="10K"/>
-<part name="R52" library="resistor" deviceset="R-US_" device="R0603" value="10K"/>
-<part name="R53" library="resistor" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R39" library="resistor" deviceset="R-US_" device="R0603" value="100k"/>
+<part name="R40" library="resistor" deviceset="R-US_" device="R0603" value="100k"/>
+<part name="R41" library="resistor" deviceset="R-US_" device="R0603" value="100k"/>
+<part name="R42" library="resistor" deviceset="R-US_" device="R0603" value="100k"/>
+<part name="R43" library="resistor" deviceset="R-US_" device="R0603" value="100k"/>
+<part name="R44" library="resistor" deviceset="R-US_" device="R0603" value="100k"/>
+<part name="R45" library="resistor" deviceset="R-US_" device="R0603" value="100k"/>
+<part name="R46" library="resistor" deviceset="R-US_" device="R0603" value="100k"/>
+<part name="R47" library="resistor" deviceset="R-US_" device="R0603" value="100k"/>
+<part name="R48" library="resistor" deviceset="R-US_" device="R0603" value="100k"/>
+<part name="R49" library="resistor" deviceset="R-US_" device="R0603" value="100k"/>
+<part name="R50" library="resistor" deviceset="R-US_" device="R0603" value="100k"/>
+<part name="R51" library="resistor" deviceset="R-US_" device="R0603" value="100k"/>
+<part name="R52" library="resistor" deviceset="R-US_" device="R0603" value="100k"/>
+<part name="R53" library="resistor" deviceset="R-US_" device="R0603" value="100k"/>
 <part name="GLV+_CONN" library="formula electric" deviceset="CONN_2" device=""/>
 </parts>
 <sheets>
@@ -9170,18 +9170,6 @@ for Latched Components</text>
 <pinref part="IC1" gate="G$1" pin="IN1"/>
 </segment>
 </net>
-<net name="AMS_OUT" class="0">
-<segment>
-<wire x1="350.52" y1="-137.16" x2="350.52" y2="-142.24" width="0.1524" layer="91"/>
-<label x="350.52" y="-142.24" size="1.778" layer="95" rot="R270" xref="yes"/>
-<pinref part="IC3" gate="G$1" pin="OUT2"/>
-</segment>
-<segment>
-<wire x1="462.28" y1="-27.94" x2="449.58" y2="-27.94" width="0.1524" layer="91"/>
-<label x="449.58" y="-27.94" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="TUB_CONN" gate="-6" pin="KL"/>
-</segment>
-</net>
 <net name="IMD_OUT" class="0">
 <segment>
 <wire x1="342.9" y1="-137.16" x2="342.9" y2="-142.24" width="0.1524" layer="91"/>
@@ -9192,18 +9180,6 @@ for Latched Components</text>
 <wire x1="462.28" y1="-30.48" x2="421.64" y2="-30.48" width="0.1524" layer="91"/>
 <label x="421.64" y="-30.48" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="TUB_CONN" gate="-5" pin="KL"/>
-</segment>
-</net>
-<net name="BSPD_OUT" class="0">
-<segment>
-<wire x1="337.82" y1="-137.16" x2="337.82" y2="-142.24" width="0.1524" layer="91"/>
-<label x="337.82" y="-142.24" size="1.778" layer="95" rot="R270" xref="yes"/>
-<pinref part="IC3" gate="G$1" pin="OUT4"/>
-</segment>
-<segment>
-<wire x1="462.28" y1="-33.02" x2="449.58" y2="-33.02" width="0.1524" layer="91"/>
-<label x="449.58" y="-33.02" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="TUB_CONN" gate="-4" pin="KL"/>
 </segment>
 </net>
 <net name="DIO23" class="0">
@@ -9765,21 +9741,9 @@ for Latched Components</text>
 <pinref part="IC1" gate="G$1" pin="OUT1"/>
 </segment>
 <segment>
-<label x="421.64" y="-66.04" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="AIO_PO_CONN" gate="-16" pin="KL"/>
-<wire x1="462.28" y1="-66.04" x2="421.64" y2="-66.04" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="PO2" class="0">
-<segment>
-<label x="279.4" y="-142.24" size="1.778" layer="95" rot="R270" xref="yes"/>
-<wire x1="279.4" y1="-137.16" x2="279.4" y2="-142.24" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G$1" pin="OUT2"/>
-</segment>
-<segment>
-<wire x1="462.28" y1="-68.58" x2="436.88" y2="-68.58" width="0.1524" layer="91"/>
-<label x="436.88" y="-68.58" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="AIO_PO_CONN" gate="-15" pin="KL"/>
+<wire x1="462.28" y1="-68.58" x2="421.64" y2="-68.58" width="0.1524" layer="91"/>
+<label x="421.64" y="-68.58" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="PO3" class="0">
@@ -9789,26 +9753,14 @@ for Latched Components</text>
 <pinref part="IC1" gate="G$1" pin="OUT3"/>
 </segment>
 <segment>
-<wire x1="462.28" y1="-71.12" x2="421.64" y2="-71.12" width="0.1524" layer="91"/>
-<label x="421.64" y="-71.12" size="1.778" layer="95" rot="R180" xref="yes"/>
+<label x="429.26" y="-71.12" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="AIO_PO_CONN" gate="-14" pin="KL"/>
+<wire x1="429.26" y1="-71.12" x2="462.28" y2="-71.12" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="K5" gate="G$1" pin="C+"/>
 <wire x1="728.98" y1="-5.08" x2="723.9" y2="-5.08" width="0.1524" layer="91"/>
 <label x="723.9" y="-5.08" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="PO4" class="0">
-<segment>
-<wire x1="266.7" y1="-137.16" x2="266.7" y2="-142.24" width="0.1524" layer="91"/>
-<label x="266.7" y="-142.24" size="1.778" layer="95" rot="R270" xref="yes"/>
-<pinref part="IC1" gate="G$1" pin="OUT4"/>
-</segment>
-<segment>
-<wire x1="462.28" y1="-73.66" x2="436.88" y2="-73.66" width="0.1524" layer="91"/>
-<label x="436.88" y="-73.66" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="AIO_PO_CONN" gate="-13" pin="KL"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -9868,13 +9820,6 @@ for Latched Components</text>
 <wire x1="302.26" y1="-137.16" x2="302.26" y2="-142.24" width="0.1524" layer="91"/>
 <label x="302.26" y="-142.24" size="1.778" layer="95" rot="R270" xref="yes"/>
 <pinref part="IC2" gate="G$1" pin="OUT4"/>
-</segment>
-</net>
-<net name="SHUTDOWN_1" class="0">
-<segment>
-<wire x1="314.96" y1="-137.16" x2="314.96" y2="-142.24" width="0.1524" layer="91"/>
-<label x="314.96" y="-142.24" size="1.778" layer="95" rot="R270" xref="yes"/>
-<pinref part="IC2" gate="G$1" pin="OUT2"/>
 </segment>
 </net>
 <net name="THROTTLE_OK_OUT" class="0">
@@ -10220,13 +10165,6 @@ for Latched Components</text>
 <pinref part="AIO_PO_CONN" gate="-4" pin="KL"/>
 </segment>
 </net>
-<net name="LATCH_OK" class="0">
-<segment>
-<wire x1="462.28" y1="-86.36" x2="424.18" y2="-86.36" width="0.1524" layer="91"/>
-<label x="424.18" y="-86.36" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="AIO_PO_CONN" gate="-8" pin="KL"/>
-</segment>
-</net>
 <net name="5V_IO_1" class="0">
 <segment>
 <pinref part="F17" gate="G$1" pin="1"/>
@@ -10383,11 +10321,6 @@ for Latched Components</text>
 <label x="223.52" y="-5.08" size="1.778" layer="95" xref="yes"/>
 <wire x1="236.22" y1="-10.16" x2="220.98" y2="-10.16" width="0.1524" layer="91"/>
 </segment>
-<segment>
-<pinref part="ACCUMULATOR_CONN" gate="G$1" pin="7"/>
-<wire x1="462.28" y1="-157.48" x2="429.26" y2="-157.48" width="0.1524" layer="91"/>
-<label x="429.26" y="-157.48" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
 </net>
 <net name="IMD_OK+" class="0">
 <segment>
@@ -10478,6 +10411,16 @@ for Latched Components</text>
 <wire x1="378.46" y1="43.18" x2="391.16" y2="43.18" width="0.1524" layer="91"/>
 <label x="378.46" y="43.18" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<wire x1="462.28" y1="-86.36" x2="424.18" y2="-86.36" width="0.1524" layer="91"/>
+<label x="424.18" y="-86.36" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="AIO_PO_CONN" gate="-8" pin="KL"/>
+</segment>
+<segment>
+<wire x1="266.7" y1="-137.16" x2="266.7" y2="-142.24" width="0.1524" layer="91"/>
+<label x="266.7" y="-142.24" size="1.778" layer="95" rot="R270" xref="yes"/>
+<pinref part="IC1" gate="G$1" pin="OUT4"/>
+</segment>
 </net>
 <net name="GLV+" class="0">
 <segment>
@@ -10525,6 +10468,11 @@ for Latched Components</text>
 <wire x1="624.84" y1="0" x2="632.46" y2="0" width="0.1524" layer="91"/>
 <pinref part="F14" gate="G$1" pin="1"/>
 <label x="624.84" y="0" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<wire x1="314.96" y1="-137.16" x2="314.96" y2="-142.24" width="0.1524" layer="91"/>
+<label x="314.96" y="-142.24" size="1.778" layer="95" rot="R270" xref="yes"/>
+<pinref part="IC2" gate="G$1" pin="OUT2"/>
 </segment>
 </net>
 <net name="INTER_OK+" class="0">
@@ -10719,6 +10667,47 @@ for Latched Components</text>
 <pinref part="ACCUMULATOR_CONN" gate="G$1" pin="3"/>
 <wire x1="462.28" y1="-147.32" x2="421.64" y2="-147.32" width="0.1524" layer="91"/>
 <label x="421.64" y="-147.32" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="BRAKELIGHT" class="0">
+<segment>
+<wire x1="350.52" y1="-137.16" x2="350.52" y2="-142.24" width="0.1524" layer="91"/>
+<label x="350.52" y="-142.24" size="1.778" layer="95" rot="R270" xref="yes"/>
+<pinref part="IC3" gate="G$1" pin="OUT2"/>
+</segment>
+<segment>
+<wire x1="462.28" y1="-27.94" x2="449.58" y2="-27.94" width="0.1524" layer="91"/>
+<label x="449.58" y="-27.94" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="TUB_CONN" gate="-6" pin="KL"/>
+</segment>
+</net>
+<net name="FAN_PWM_OUT" class="0">
+<segment>
+<label x="444.5" y="-66.04" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="AIO_PO_CONN" gate="-16" pin="KL"/>
+<wire x1="462.28" y1="-66.04" x2="444.5" y2="-66.04" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="462.28" y1="-33.02" x2="449.58" y2="-33.02" width="0.1524" layer="91"/>
+<label x="449.58" y="-33.02" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="TUB_CONN" gate="-4" pin="KL"/>
+</segment>
+<segment>
+<wire x1="337.82" y1="-137.16" x2="337.82" y2="-142.24" width="0.1524" layer="91"/>
+<label x="337.82" y="-142.24" size="1.778" layer="95" rot="R270" xref="yes"/>
+<pinref part="IC3" gate="G$1" pin="OUT4"/>
+</segment>
+</net>
+<net name="COOLANT_PUMP" class="0">
+<segment>
+<label x="279.4" y="-142.24" size="1.778" layer="95" rot="R270" xref="yes"/>
+<wire x1="279.4" y1="-137.16" x2="279.4" y2="-142.24" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="G$1" pin="OUT2"/>
+</segment>
+<segment>
+<pinref part="AIO_PO_CONN" gate="-13" pin="KL"/>
+<wire x1="462.28" y1="-73.66" x2="421.64" y2="-73.66" width="0.1524" layer="91"/>
+<label x="421.64" y="-73.66" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
