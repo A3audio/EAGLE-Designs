@@ -8250,7 +8250,6 @@ WM4926-ND</description>
 <part name="R52" library="resistor" deviceset="R-US_" device="R0603" value="10K"/>
 <part name="R53" library="resistor" deviceset="R-US_" device="R0603" value="10K"/>
 <part name="GLV+_CONN" library="formula electric" deviceset="CONN_2" device=""/>
-<part name="R1" library="resistor" deviceset="R-US_" device="R0603" value="10K"/>
 </parts>
 <sheets>
 <sheet>
@@ -8484,7 +8483,6 @@ for Latched Components</text>
 <instance part="R52" gate="G$1" x="-86.36" y="-27.94"/>
 <instance part="R53" gate="G$1" x="-86.36" y="-35.56"/>
 <instance part="GLV+_CONN" gate="G$1" x="530.86" y="-48.26"/>
-<instance part="R1" gate="G$1" x="226.06" y="-10.16"/>
 </instances>
 <busses>
 </busses>
@@ -9795,6 +9793,11 @@ for Latched Components</text>
 <label x="421.64" y="-71.12" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="AIO_PO_CONN" gate="-14" pin="KL"/>
 </segment>
+<segment>
+<pinref part="K5" gate="G$1" pin="C+"/>
+<wire x1="728.98" y1="-5.08" x2="723.9" y2="-5.08" width="0.1524" layer="91"/>
+<label x="723.9" y="-5.08" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="PO4" class="0">
 <segment>
@@ -10372,9 +10375,13 @@ for Latched Components</text>
 <label x="723.9" y="-15.24" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="231.14" y1="-10.16" x2="236.22" y2="-10.16" width="0.1524" layer="91"/>
 <label x="236.22" y="-10.16" size="1.778" layer="95" xref="yes"/>
+<pinref part="IC9" gate="G$1" pin="3~16V_IN"/>
+<wire x1="203.2" y1="-10.16" x2="220.98" y2="-10.16" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="-10.16" x2="220.98" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="-5.08" x2="223.52" y2="-5.08" width="0.1524" layer="91"/>
+<label x="223.52" y="-5.08" size="1.778" layer="95" xref="yes"/>
+<wire x1="236.22" y1="-10.16" x2="220.98" y2="-10.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="ACCUMULATOR_CONN" gate="G$1" pin="7"/>
@@ -10487,11 +10494,6 @@ for Latched Components</text>
 <pinref part="K3" gate="G$1" pin="SW_1"/>
 <wire x1="650.24" y1="20.32" x2="650.24" y2="25.4" width="0.1524" layer="91"/>
 <label x="650.24" y="25.4" size="1.778" layer="95" rot="R90" xref="yes"/>
-</segment>
-<segment>
-<pinref part="K5" gate="G$1" pin="C+"/>
-<wire x1="728.98" y1="-5.08" x2="723.9" y2="-5.08" width="0.1524" layer="91"/>
-<label x="723.9" y="-5.08" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="GLV+_CONN" gate="G$1" pin="1"/>
@@ -10717,17 +10719,6 @@ for Latched Components</text>
 <pinref part="ACCUMULATOR_CONN" gate="G$1" pin="3"/>
 <wire x1="462.28" y1="-147.32" x2="421.64" y2="-147.32" width="0.1524" layer="91"/>
 <label x="421.64" y="-147.32" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="AMS_OK_IN" class="0">
-<segment>
-<pinref part="IC9" gate="G$1" pin="3~16V_IN"/>
-<wire x1="203.2" y1="-10.16" x2="220.98" y2="-10.16" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="-10.16" x2="220.98" y2="-5.08" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="-5.08" x2="223.52" y2="-5.08" width="0.1524" layer="91"/>
-<label x="223.52" y="-5.08" size="1.778" layer="95" xref="yes"/>
-<pinref part="R1" gate="G$1" pin="1"/>
-<junction x="220.98" y="-10.16"/>
 </segment>
 </net>
 </nets>
