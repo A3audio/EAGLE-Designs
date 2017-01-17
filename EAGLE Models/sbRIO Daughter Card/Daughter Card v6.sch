@@ -10212,14 +10212,6 @@ for Latched Components</text>
 </net>
 <net name="E-STOP_OK" class="0">
 <segment>
-<pinref part="IC11" gate="G$1" pin="3~16V_IN"/>
-<wire x1="203.2" y1="15.24" x2="223.52" y2="15.24" width="0.1524" layer="91"/>
-<label x="223.52" y="15.24" size="1.778" layer="95" xref="yes"/>
-<wire x1="203.2" y1="15.24" x2="203.2" y2="20.32" width="0.1524" layer="91"/>
-<junction x="203.2" y="15.24"/>
-<pinref part="R28" gate="G$1" pin="1"/>
-</segment>
-<segment>
 <wire x1="424.18" y1="-96.52" x2="462.28" y2="-96.52" width="0.1524" layer="91"/>
 <label x="424.18" y="-96.52" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="AIO_PO_CONN" gate="-4" pin="KL"/>
@@ -10355,13 +10347,6 @@ for Latched Components</text>
 <pinref part="LATCH_CONN" gate="G$1" pin="1"/>
 <label x="543.56" y="-127" size="1.778" layer="95" xref="yes"/>
 </segment>
-<segment>
-<label x="223.52" y="-22.86" size="1.778" layer="95" xref="yes"/>
-<pinref part="IC8" gate="G$1" pin="3~16V_IN"/>
-<wire x1="203.2" y1="-22.86" x2="203.2" y2="-17.78" width="0.1524" layer="91"/>
-<pinref part="R15" gate="G$1" pin="1"/>
-<wire x1="223.52" y1="-22.86" x2="203.2" y2="-22.86" width="0.1524" layer="91"/>
-</segment>
 </net>
 <net name="SHUTDOWN_OK+" class="0">
 <segment>
@@ -10438,12 +10423,37 @@ for Latched Components</text>
 <wire x1="535.94" y1="-96.52" x2="543.56" y2="-96.52" width="0.1524" layer="91"/>
 <label x="543.56" y="-96.52" size="1.778" layer="95" xref="yes"/>
 </segment>
+<segment>
+<label x="223.52" y="-22.86" size="1.778" layer="95" xref="yes"/>
+<pinref part="IC8" gate="G$1" pin="3~16V_IN"/>
+<wire x1="203.2" y1="-22.86" x2="203.2" y2="-17.78" width="0.1524" layer="91"/>
+<pinref part="R15" gate="G$1" pin="1"/>
+<wire x1="223.52" y1="-22.86" x2="218.44" y2="-22.86" width="0.1524" layer="91"/>
+<label x="223.52" y="-17.78" size="1.778" layer="95" xref="yes"/>
+<wire x1="218.44" y1="-22.86" x2="203.2" y2="-22.86" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="-17.78" x2="218.44" y2="-17.78" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="-17.78" x2="218.44" y2="-22.86" width="0.1524" layer="91"/>
+<junction x="218.44" y="-22.86"/>
+</segment>
 </net>
 <net name="TSMS_IN+" class="0">
 <segment>
 <pinref part="TSMS_CONN" gate="G$1" pin="1"/>
 <wire x1="541.02" y1="-27.94" x2="535.94" y2="-27.94" width="0.1524" layer="91"/>
 <label x="541.02" y="-27.94" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="IC11" gate="G$1" pin="3~16V_IN"/>
+<wire x1="203.2" y1="15.24" x2="218.44" y2="15.24" width="0.1524" layer="91"/>
+<label x="223.52" y="15.24" size="1.778" layer="95" xref="yes"/>
+<wire x1="218.44" y1="15.24" x2="223.52" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="15.24" x2="203.2" y2="20.32" width="0.1524" layer="91"/>
+<junction x="203.2" y="15.24"/>
+<pinref part="R28" gate="G$1" pin="1"/>
+<label x="223.52" y="20.32" size="1.778" layer="95" xref="yes"/>
+<wire x1="223.52" y1="20.32" x2="218.44" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="20.32" x2="218.44" y2="15.24" width="0.1524" layer="91"/>
+<junction x="218.44" y="15.24"/>
 </segment>
 </net>
 <net name="PRECHARGE_DONE+" class="0">
