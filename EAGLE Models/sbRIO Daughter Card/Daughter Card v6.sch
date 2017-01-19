@@ -8161,8 +8161,8 @@ WM4926-ND</description>
 <part name="3.3V_REG" library="formula electric" deviceset="V7803-1000" device=""/>
 <part name="C10" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="10uF"/>
 <part name="C9" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="22uF"/>
-<part name="C11" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="10uF"/>
-<part name="C12" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="22uF"/>
+<part name="C11" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
+<part name="C12" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="0.22uF"/>
 <part name="ACCEL" library="SparkFun-Sensors" deviceset="ADXL345" device=""/>
 <part name="C7" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value=".1uF"/>
 <part name="C8" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="1uF"/>
