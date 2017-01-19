@@ -238,19 +238,6 @@
 <wire x1="-10.16" y1="-4.572" x2="10.16" y2="-4.572" width="0.5" layer="21"/>
 <text x="-7.62" y="5.08" size="1.27" layer="21">&gt;NAME</text>
 </package>
-<package name="V78XX-1000">
-<smd name="1" x="-5.08" y="-6.096" dx="2.54" dy="1" layer="1" rot="R90"/>
-<smd name="5" x="5.08" y="-6.096" dx="2.54" dy="1" layer="1" rot="R90"/>
-<smd name="10" x="-5.08" y="6.096" dx="2.54" dy="1" layer="1" rot="R90"/>
-<smd name="9" x="-2.54" y="6.096" dx="2.54" dy="1" layer="1" rot="R90"/>
-<smd name="7" x="2.54" y="6.096" dx="2.54" dy="1" layer="1" rot="R90"/>
-<smd name="6" x="5.08" y="6.096" dx="2.54" dy="1" layer="1" rot="R90"/>
-<wire x1="-7.62" y1="4.25" x2="7.62" y2="4.25" width="0.127" layer="21"/>
-<wire x1="7.62" y1="4.25" x2="7.62" y2="-4.25" width="0.127" layer="21"/>
-<wire x1="7.62" y1="-4.25" x2="-7.62" y2="-4.25" width="0.127" layer="21"/>
-<wire x1="-7.62" y1="-4.25" x2="-7.62" y2="4.25" width="0.127" layer="21"/>
-<text x="-2.54" y="-7.62" size="1.27" layer="21">&gt;NAME</text>
-</package>
 <package name="CONNECTOR_5">
 <pad name="1" x="0" y="0" drill="1.1" shape="square"/>
 <pad name="3" x="5" y="0" drill="1.1"/>
@@ -376,19 +363,6 @@
 <pin name="SHIELD" x="-5.08" y="-7.62" length="middle" direction="sup" rot="R270"/>
 <pin name="V-_(GND)" x="2.54" y="-7.62" length="middle" direction="pwr" rot="R270"/>
 <rectangle x1="-10.16" y1="-7.62" x2="7.62" y2="2.54" layer="94"/>
-</symbol>
-<symbol name="LM7803">
-<wire x1="-7.62" y1="2.54" x2="7.62" y2="2.54" width="0.254" layer="94"/>
-<wire x1="7.62" y1="2.54" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-5.08" x2="-7.62" y2="2.54" width="0.254" layer="94"/>
-<text x="-2.032" y="-4.064" size="1.524" layer="95">GND</text>
-<text x="-7.62" y="3.81" size="1.778" layer="95">&gt;NAME</text>
-<text x="2.54" y="3.81" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="IN" x="-10.16" y="0" length="short" direction="in"/>
-<pin name="OUT" x="10.16" y="0" length="short" direction="out" rot="R180"/>
-<pin name="GND" x="0" y="-7.62" visible="pad" length="short" direction="pwr" rot="R90"/>
-<pin name="6" x="5.08" y="-7.62" visible="pad" length="short" rot="R90"/>
 </symbol>
 <symbol name="PNP">
 <wire x1="2.086" y1="1.678" x2="1.578" y2="2.594" width="0.1524" layer="94"/>
@@ -616,24 +590,6 @@
 <connect gate="G$1" pin="CAN_L" pad="P$2"/>
 <connect gate="G$1" pin="SHIELD" pad="P$5 P$10"/>
 <connect gate="G$1" pin="V-_(GND)" pad="P$3 P$6"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="V7803-1000">
-<gates>
-<gate name="G$1" symbol="LM7803" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="V78XX-1000">
-<connects>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="GND" pad="7 9"/>
-<connect gate="G$1" pin="IN" pad="1"/>
-<connect gate="G$1" pin="OUT" pad="5"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8144,6 +8100,61 @@ WM4926-ND</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="Texas Instruments_By_element14_Batch_1">
+<description>Developed by element14 :&lt;br&gt;
+element14 CAD Library consolidation.ulp
+at 30/07/2012 17:45:58</description>
+<packages>
+<package name="TPS7A4533">
+<smd name="P$3" x="0" y="-2.9972" dx="1.27" dy="0.508" layer="1" rot="R90"/>
+<smd name="P$2" x="-1.27" y="-2.9972" dx="1.27" dy="0.508" layer="1" rot="R90"/>
+<smd name="P$1" x="-2.54" y="-2.9972" dx="1.27" dy="0.508" layer="1" rot="R90"/>
+<smd name="P$4" x="1.27" y="-2.9972" dx="1.27" dy="0.508" layer="1" rot="R90"/>
+<smd name="P$5" x="2.54" y="-2.9972" dx="1.27" dy="0.508" layer="1" rot="R270"/>
+<smd name="P$6" x="0" y="2.9972" dx="1.27" dy="3.048" layer="1" rot="R90"/>
+<wire x1="3.2766" y1="1.778" x2="3.2766" y2="-1.778" width="0.127" layer="25"/>
+<wire x1="3.2766" y1="-1.778" x2="-3.2766" y2="-1.778" width="0.127" layer="25"/>
+<wire x1="-3.2766" y1="-1.778" x2="-3.2766" y2="1.778" width="0.127" layer="25"/>
+<wire x1="-3.2766" y1="1.778" x2="3.2766" y2="1.778" width="0.127" layer="25"/>
+</package>
+</packages>
+<symbols>
+<symbol name="TPS7A4533">
+<wire x1="-7.62" y1="7.62" x2="7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="7.62" x2="7.62" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-2.54" x2="-7.62" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-2.54" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
+<pin name="SHDN" x="-5.08" y="-5.08" length="short" rot="R90"/>
+<pin name="IN" x="-2.54" y="-5.08" length="short" rot="R90"/>
+<pin name="GND" x="0" y="-5.08" length="short" rot="R90"/>
+<pin name="OUT" x="2.54" y="-5.08" length="short" rot="R90"/>
+<pin name="ADJ" x="5.08" y="-5.08" length="short" rot="R90"/>
+<pin name="GND2" x="0" y="10.16" length="short" rot="R270"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="TPS7A4533">
+<gates>
+<gate name="G$1" symbol="TPS7A4533" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TPS7A4533">
+<connects>
+<connect gate="G$1" pin="ADJ" pad="P$5"/>
+<connect gate="G$1" pin="GND" pad="P$3"/>
+<connect gate="G$1" pin="GND2" pad="P$6"/>
+<connect gate="G$1" pin="IN" pad="P$2"/>
+<connect gate="G$1" pin="OUT" pad="P$4"/>
+<connect gate="G$1" pin="SHDN" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -8158,9 +8169,8 @@ WM4926-ND</description>
 <part name="SBRIO_CAN" library="formula electric" deviceset="SBRIO_W500" device=""/>
 <part name="SBRIO_MEZZANINE" library="SEAM-40-XX.X-XX-06-X-A" deviceset="SBRIO_RMC" device=""/>
 <part name="D6" library="formula electric" deviceset="MMBZ5238B-7-F" device=""/>
-<part name="3.3V_REG" library="formula electric" deviceset="V7803-1000" device=""/>
 <part name="C10" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="10uF"/>
-<part name="C9" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="22uF"/>
+<part name="C9" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="10uF"/>
 <part name="C11" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="C12" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="0.22uF"/>
 <part name="ACCEL" library="SparkFun-Sensors" deviceset="ADXL345" device=""/>
@@ -8250,6 +8260,7 @@ WM4926-ND</description>
 <part name="R52" library="resistor" deviceset="R-US_" device="R0603" value="100k"/>
 <part name="R53" library="resistor" deviceset="R-US_" device="R0603" value="100k"/>
 <part name="GLV+_CONN" library="formula electric" deviceset="CONN_2" device=""/>
+<part name="U$1" library="Texas Instruments_By_element14_Batch_1" deviceset="TPS7A4533" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8358,7 +8369,6 @@ for Latched Components</text>
 <instance part="SBRIO_CAN" gate="G$1" x="60.96" y="-167.64" rot="R270"/>
 <instance part="SBRIO_MEZZANINE" gate="G$1" x="60.96" y="-93.98"/>
 <instance part="D6" gate="G$1" x="5.08" y="7.62" rot="R90"/>
-<instance part="3.3V_REG" gate="G$1" x="81.28" y="96.52"/>
 <instance part="C10" gate="G$1" x="63.5" y="91.44"/>
 <instance part="C9" gate="G$1" x="101.6" y="91.44"/>
 <instance part="C11" gate="G$1" x="48.26" y="91.44"/>
@@ -8483,6 +8493,7 @@ for Latched Components</text>
 <instance part="R52" gate="G$1" x="-86.36" y="-27.94"/>
 <instance part="R53" gate="G$1" x="-86.36" y="-35.56"/>
 <instance part="GLV+_CONN" gate="G$1" x="530.86" y="-48.26"/>
+<instance part="U$1" gate="G$1" x="81.28" y="109.22"/>
 </instances>
 <busses>
 </busses>
@@ -8813,20 +8824,23 @@ for Latched Components</text>
 <wire x1="5.08" y1="10.16" x2="5.08" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="111.76" x2="55.88" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="111.76" x2="55.88" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="3.3V_REG" gate="G$1" pin="IN"/>
 <pinref part="C10" gate="G$1" pin="1"/>
 <wire x1="48.26" y1="96.52" x2="55.88" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="96.52" x2="63.5" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="63.5" y1="96.52" x2="71.12" y2="96.52" width="0.1524" layer="91"/>
 <junction x="63.5" y="96.52"/>
 <pinref part="C11" gate="G$1" pin="1"/>
 <junction x="48.26" y="96.52"/>
 <junction x="55.88" y="96.52"/>
-<junction x="71.12" y="96.52"/>
 <label x="55.88" y="111.76" size="1.778" layer="95" rot="R90" xref="yes"/>
 <label x="5.08" y="30.48" size="1.778" layer="95" xref="yes"/>
 <wire x1="33.02" y1="101.6" x2="48.26" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="101.6" x2="48.26" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="IN"/>
+<wire x1="78.74" y1="104.14" x2="78.74" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="96.52" x2="63.5" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="SHDN"/>
+<wire x1="76.2" y1="104.14" x2="78.74" y2="104.14" width="0.1524" layer="91"/>
+<junction x="78.74" y="104.14"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -9258,9 +9272,8 @@ for Latched Components</text>
 </net>
 <net name="3.3V" class="0">
 <segment>
-<pinref part="3.3V_REG" gate="G$1" pin="OUT"/>
 <pinref part="C9" gate="G$1" pin="1"/>
-<wire x1="91.44" y1="96.52" x2="101.6" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="96.52" x2="101.6" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="ACCEL" gate="G$1" pin="VSS"/>
 <wire x1="101.6" y1="96.52" x2="139.7" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="96.52" x2="147.32" y2="96.52" width="0.1524" layer="91"/>
@@ -9276,8 +9289,12 @@ for Latched Components</text>
 <pinref part="C8" gate="G$1" pin="1"/>
 <junction x="147.32" y="96.52"/>
 <junction x="101.6" y="96.52"/>
-<junction x="91.44" y="96.52"/>
 <label x="139.7" y="109.22" size="1.778" layer="95" rot="R90" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="OUT"/>
+<wire x1="83.82" y1="104.14" x2="83.82" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="ADJ"/>
+<wire x1="86.36" y1="104.14" x2="83.82" y2="104.14" width="0.1524" layer="91"/>
+<junction x="83.82" y="104.14"/>
 </segment>
 <segment>
 <pinref part="GYRO" gate="G$1" pin="RSVDV@0"/>
@@ -10514,7 +10531,6 @@ for Latched Components</text>
 <wire x1="109.22" y1="-30.48" x2="109.22" y2="-17.78" width="0.1524" layer="91"/>
 <junction x="109.22" y="35.56"/>
 <junction x="109.22" y="-17.78"/>
-<pinref part="3.3V_REG" gate="G$1" pin="GND"/>
 <junction x="48.26" y="83.82"/>
 <pinref part="C10" gate="G$1" pin="2"/>
 <wire x1="81.28" y1="88.9" x2="63.5" y2="88.9" width="0.1524" layer="91"/>
@@ -10525,7 +10541,6 @@ for Latched Components</text>
 <wire x1="101.6" y1="88.9" x2="101.6" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="83.82" x2="81.28" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="83.82" x2="81.28" y2="88.9" width="0.1524" layer="91"/>
-<junction x="81.28" y="88.9"/>
 <pinref part="C11" gate="G$1" pin="2"/>
 <junction x="48.26" y="88.9"/>
 <pinref part="C12" gate="G$1" pin="1"/>
@@ -10559,6 +10574,11 @@ for Latched Components</text>
 <pinref part="U$3" gate="G$1" pin="GND"/>
 <wire x1="30.48" y1="86.36" x2="30.48" y2="83.82" width="0.1524" layer="91"/>
 <junction x="30.48" y="83.82"/>
+<pinref part="U$1" gate="G$1" pin="GND"/>
+<wire x1="81.28" y1="104.14" x2="81.28" y2="99.06" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="GND2"/>
+<wire x1="81.28" y1="99.06" x2="81.28" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="119.38" x2="81.28" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$18" class="0">
