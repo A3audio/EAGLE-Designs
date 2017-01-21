@@ -8116,6 +8116,8 @@ at 30/07/2012 17:45:58</description>
 <wire x1="3.2766" y1="-1.778" x2="-3.2766" y2="-1.778" width="0.127" layer="25"/>
 <wire x1="-3.2766" y1="-1.778" x2="-3.2766" y2="1.778" width="0.127" layer="25"/>
 <wire x1="-3.2766" y1="1.778" x2="3.2766" y2="1.778" width="0.127" layer="25"/>
+<text x="-3.81" y="-2.54" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="5.08" y="-3.81" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
