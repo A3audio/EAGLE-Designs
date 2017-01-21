@@ -8201,7 +8201,6 @@ at 30/07/2012 17:45:58</description>
 <part name="IC2" library="infineon" deviceset="BTS716G" device=""/>
 <part name="IC1" library="infineon" deviceset="BTS716G" device=""/>
 <part name="IC3" library="infineon" deviceset="BTS716G" device=""/>
-<part name="F1" library="resistor" deviceset="R-EU_" device="R0603" value="250mA"/>
 <part name="F2" library="resistor" deviceset="R-EU_" device="R0603" value="250mA"/>
 <part name="F14" library="resistor" deviceset="R-EU_" device="R0603" value="250mA"/>
 <part name="LEVEL_SHIFTER" library="SparkFun-DigitalIC" deviceset="TXB0104PWR" device=""/>
@@ -8433,7 +8432,6 @@ for Latched Components</text>
 <instance part="IC3" gate="G$1" x="345.44" y="-124.46" rot="R270"/>
 <instance part="IC1" gate="G$2" x="302.26" y="-58.42" rot="R180"/>
 <instance part="IC3" gate="G$2" x="271.78" y="-55.88"/>
-<instance part="F1" gate="G$1" x="396.24" y="43.18"/>
 <instance part="F2" gate="G$1" x="637.54" y="27.94"/>
 <instance part="F14" gate="G$1" x="637.54" y="0"/>
 <instance part="IC2" gate="G$1" x="309.88" y="-124.46" rot="R270"/>
@@ -10163,13 +10161,6 @@ for Latched Components</text>
 <pinref part="R41" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="E-STOP_OK" class="0">
-<segment>
-<wire x1="424.18" y1="-96.52" x2="462.28" y2="-96.52" width="0.1524" layer="91"/>
-<label x="424.18" y="-96.52" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="AIO_PO_CONN" gate="-4" pin="KL"/>
-</segment>
-</net>
 <net name="5V_IO_1" class="0">
 <segment>
 <pinref part="F17" gate="G$1" pin="1"/>
@@ -10387,15 +10378,6 @@ for Latched Components</text>
 <pinref part="TSMS_CONN" gate="G$1" pin="2"/>
 <wire x1="541.02" y1="-33.02" x2="535.94" y2="-33.02" width="0.1524" layer="91"/>
 <label x="541.02" y="-33.02" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
-<wire x1="543.56" y1="-78.74" x2="535.94" y2="-78.74" width="0.1524" layer="91"/>
-<label x="543.56" y="-78.74" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="F1" gate="G$1" pin="1"/>
-<wire x1="378.46" y1="43.18" x2="391.16" y2="43.18" width="0.1524" layer="91"/>
-<label x="378.46" y="43.18" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="462.28" y1="-86.36" x2="424.18" y2="-86.36" width="0.1524" layer="91"/>
