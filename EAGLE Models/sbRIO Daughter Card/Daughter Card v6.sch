@@ -10485,9 +10485,9 @@ for Latched Components</text>
 <label x="650.24" y="25.4" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="GLV+_CONN" gate="G$1" pin="1"/>
-<wire x1="535.94" y1="-45.72" x2="541.02" y2="-45.72" width="0.1524" layer="91"/>
-<label x="541.02" y="-45.72" size="1.778" layer="95" xref="yes"/>
+<label x="541.02" y="-50.8" size="1.778" layer="95" xref="yes"/>
+<pinref part="GLV+_CONN" gate="G$1" pin="2"/>
+<wire x1="541.02" y1="-50.8" x2="535.94" y2="-50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$14" class="0">
