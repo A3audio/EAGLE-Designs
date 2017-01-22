@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -77,19 +77,19 @@
 </package>
 <package name="ACTP112">
 <pad name="NC" x="0" y="0" drill="1.397"/>
-<pad name="COM" x="-9.4996" y="0.6604" drill="1.397" shape="square" rot="R90"/>
-<pad name="NO" x="-3.5052" y="3.81" drill="1.397"/>
-<pad name="COIL2" x="4.953" y="0.6604" drill="1.0922" rot="R90"/>
-<pad name="COIL1" x="4.953" y="5.5118" drill="1.0922"/>
-<wire x1="0" y1="-1.2954" x2="-10.7442" y2="-1.2954" width="0.127" layer="21"/>
-<wire x1="-10.795" y1="-1.27" x2="-10.8458" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="-10.8458" y1="-1.27" x2="-10.8458" y2="6.9342" width="0.127" layer="21"/>
-<wire x1="-10.795" y1="6.8834" x2="6.6548" y2="6.8834" width="0.127" layer="21"/>
-<wire x1="6.6548" y1="6.8834" x2="6.5278" y2="6.8326" width="0.127" layer="21"/>
-<wire x1="0.0254" y1="-1.27" x2="6.5786" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="6.5786" y1="-1.27" x2="6.5786" y2="6.8326" width="0.127" layer="21"/>
-<text x="-10.6426" y="7.747" size="1.27" layer="25">&gt;Name</text>
-<text x="-0.8636" y="7.7978" size="1.27" layer="25">&gt;Value</text>
+<pad name="COM" x="-9.4996" y="-0.6604" drill="1.397" shape="square" rot="R90"/>
+<pad name="NO" x="-3.5052" y="-3.81" drill="1.397"/>
+<pad name="COIL2" x="5.5118" y="-0.6604" drill="1.0922" rot="R90"/>
+<pad name="COIL1" x="5.5118" y="-5.5118" drill="1.0922"/>
+<wire x1="-0.254" y1="-6.8834" x2="-10.7442" y2="-6.8834" width="0.127" layer="21"/>
+<wire x1="-10.795" y1="-6.858" x2="-10.8458" y2="-6.858" width="0.127" layer="21"/>
+<wire x1="-10.8458" y1="-6.858" x2="-10.8458" y2="1.3462" width="0.127" layer="21"/>
+<wire x1="-10.795" y1="1.2954" x2="6.6548" y2="1.2954" width="0.127" layer="21"/>
+<wire x1="6.6548" y1="1.2954" x2="6.5278" y2="1.2446" width="0.127" layer="21"/>
+<wire x1="-0.2286" y1="-6.858" x2="6.5786" y2="-6.858" width="0.127" layer="21"/>
+<wire x1="6.5786" y1="-6.858" x2="6.5786" y2="1.2446" width="0.127" layer="21"/>
+<text x="-10.6426" y="10.287" size="1.27" layer="25">&gt;Name</text>
+<text x="-0.8636" y="10.3378" size="1.27" layer="25">&gt;Value</text>
 </package>
 </packages>
 <symbols>

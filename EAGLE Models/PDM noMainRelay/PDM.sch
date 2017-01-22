@@ -53,6 +53,7 @@
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -71,12 +72,31 @@
 <layer number="105" name="tPlate" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="106" name="bPlate" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="107" name="Crop" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="108" name="tplace-old" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="109" name="ref-old" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="110" name="fp0" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="111" name="LPC17xx" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="112" name="tSilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="113" name="ReferenceLS" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
+<layer number="118" name="Rect_Pads" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="123" name="tTestmark" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="124" name="bTestmark" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="125" name="_tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="126" name="_bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="127" name="_tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="128" name="_bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="131" name="tAdjust" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="132" name="bAdjust" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="150" name="Notes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="153" name="FabDoc1" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="154" name="FabDoc2" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="155" name="FabDoc3" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="200" name="200bmp" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="201" name="201bmp" color="2" fill="10" visible="yes" active="yes"/>
@@ -103,6 +123,11 @@
 <layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
 <layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
 <layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
+<layer number="231" name="Eagle3D_PG1" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="233" name="Eagle3D_PG3" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="248" name="Housing" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="249" name="Edge" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
 <layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
 <layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
@@ -315,19 +340,19 @@
 <packages>
 <package name="ACTP112">
 <pad name="NC" x="0" y="0" drill="1.397"/>
-<pad name="COM" x="-9.4996" y="0.6604" drill="1.397" shape="square" rot="R90"/>
-<pad name="NO" x="-3.5052" y="3.81" drill="1.397"/>
-<pad name="COIL2" x="4.953" y="0.6604" drill="1.0922" rot="R90"/>
-<pad name="COIL1" x="4.953" y="5.5118" drill="1.0922"/>
-<wire x1="0" y1="-1.2954" x2="-10.7442" y2="-1.2954" width="0.127" layer="21"/>
-<wire x1="-10.795" y1="-1.27" x2="-10.8458" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="-10.8458" y1="-1.27" x2="-10.8458" y2="6.9342" width="0.127" layer="21"/>
-<wire x1="-10.795" y1="6.8834" x2="6.6548" y2="6.8834" width="0.127" layer="21"/>
-<wire x1="6.6548" y1="6.8834" x2="6.5278" y2="6.8326" width="0.127" layer="21"/>
-<wire x1="0.0254" y1="-1.27" x2="6.5786" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="6.5786" y1="-1.27" x2="6.5786" y2="6.8326" width="0.127" layer="21"/>
-<text x="-10.6426" y="7.747" size="1.27" layer="25">&gt;Name</text>
-<text x="-0.8636" y="7.7978" size="1.27" layer="25">&gt;Value</text>
+<pad name="COM" x="-9.4996" y="-0.6604" drill="1.397" shape="square" rot="R90"/>
+<pad name="NO" x="-3.5052" y="-3.81" drill="1.397"/>
+<pad name="COIL2" x="5.5118" y="-0.6604" drill="1.0922" rot="R90"/>
+<pad name="COIL1" x="5.5118" y="-5.5118" drill="1.0922"/>
+<wire x1="-0.254" y1="-6.8834" x2="-10.7442" y2="-6.8834" width="0.127" layer="21"/>
+<wire x1="-10.795" y1="-6.858" x2="-10.8458" y2="-6.858" width="0.127" layer="21"/>
+<wire x1="-10.8458" y1="-6.858" x2="-10.8458" y2="1.3462" width="0.127" layer="21"/>
+<wire x1="-10.795" y1="1.2954" x2="6.6548" y2="1.2954" width="0.127" layer="21"/>
+<wire x1="6.6548" y1="1.2954" x2="6.5278" y2="1.2446" width="0.127" layer="21"/>
+<wire x1="-0.2286" y1="-6.858" x2="6.5786" y2="-6.858" width="0.127" layer="21"/>
+<wire x1="6.5786" y1="-6.858" x2="6.5786" y2="1.2446" width="0.127" layer="21"/>
+<text x="-10.6426" y="10.287" size="1.27" layer="25">&gt;Name</text>
+<text x="-0.8636" y="10.3378" size="1.27" layer="25">&gt;Value</text>
 </package>
 </packages>
 <symbols>
@@ -579,9 +604,9 @@ http://www.st.com&lt;p&gt;
 <wire x1="5.08" y1="7.1882" x2="5.08" y2="1.905" width="0.2032" layer="51"/>
 <wire x1="5.08" y1="-1.4732" x2="-5.08" y2="-1.4732" width="0.2032" layer="21"/>
 <wire x1="-5.08" y1="1.905" x2="-5.08" y2="7.1882" width="0.2032" layer="51"/>
-<smd name="K" x="0" y="5.6007" dx="10.795" dy="6.985" layer="1"/>
-<smd name="1" x="-2.54" y="-5.08" dx="1.0668" dy="2.159" layer="1"/>
-<smd name="2" x="2.54" y="-5.08" dx="1.0668" dy="2.159" layer="1"/>
+<smd name="K" x="0" y="5.6007" dx="12.2" dy="9.75" layer="1"/>
+<smd name="1" x="-2.54" y="-5.08" dx="1.6" dy="3.5" layer="1"/>
+<smd name="2" x="2.54" y="-5.08" dx="1.6" dy="3.5" layer="1"/>
 <text x="-5.588" y="-5.08" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 <text x="6.858" y="-5.08" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
 <rectangle x1="-3.0226" y1="-5.9182" x2="-2.0574" y2="-3.8862" layer="51"/>
@@ -660,7 +685,6 @@ http://www.st.com&lt;p&gt;
 <part name="BAT_SUP" library="molex" deviceset="15-97-8043" device=""/>
 <part name="GND2" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="K_SWT_D" library="diodes-inc" deviceset="MMBD4448H-7-F" device=""/>
-<part name="GND3" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="IGN_D" library="diodes-inc" deviceset="MMBD4448H-7-F" device=""/>
 <part name="FUEL_D" library="diodes-inc" deviceset="MMBD4448H-7-F" device=""/>
 <part name="FAN_D" library="diodes-inc" deviceset="MMBD4448H-7-F" device=""/>
@@ -719,13 +743,12 @@ http://www.st.com&lt;p&gt;
 <instance part="BAT_SUP" gate="G$1" x="40.64" y="-83.82" rot="R270"/>
 <instance part="GND2" gate="1" x="17.78" y="-104.14" rot="R270"/>
 <instance part="K_SWT_D" gate="G$1" x="-38.1" y="58.42"/>
-<instance part="GND3" gate="1" x="17.78" y="17.78"/>
 <instance part="IGN_D" gate="G$1" x="-53.34" y="-22.86" rot="R270"/>
 <instance part="FUEL_D" gate="G$1" x="-50.8" y="-55.88" rot="R270"/>
 <instance part="FAN_D" gate="G$1" x="-50.8" y="-91.44" rot="R270"/>
 <instance part="ECU_F" gate="G$1" x="22.86" y="-50.8"/>
 <instance part="CC_D" gate="G$1" x="5.08" y="33.02" rot="R270"/>
-<instance part="U$1" gate="G$1" x="10.16" y="-53.34"/>
+<instance part="U$1" gate="G$1" x="7.62" y="-55.88"/>
 </instances>
 <busses>
 </busses>
@@ -854,8 +877,6 @@ http://www.st.com&lt;p&gt;
 <junction x="30.48" y="-60.96"/>
 <pinref part="GND1" gate="1" pin="GND"/>
 <junction x="30.48" y="-63.5"/>
-<wire x1="25.4" y1="-66.04" x2="25.4" y2="-60.96" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="-60.96" x2="30.48" y2="-60.96" width="0.1524" layer="91"/>
 <pinref part="LC_2" gate="G$1" pin="5"/>
 <wire x1="33.02" y1="-55.88" x2="30.48" y2="-55.88" width="0.1524" layer="91"/>
 <junction x="30.48" y="-55.88"/>
@@ -873,16 +894,6 @@ http://www.st.com&lt;p&gt;
 <pinref part="HC" gate="G$1" pin="8"/>
 <wire x1="25.4" y1="-121.92" x2="25.4" y2="-119.38" width="0.1524" layer="91"/>
 <junction x="25.4" y="-119.38"/>
-</segment>
-<segment>
-<pinref part="RECT_RELAY" gate="G$1" pin="COIL2"/>
-<wire x1="17.78" y1="27.94" x2="17.78" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="GND3" gate="1" pin="GND"/>
-<pinref part="CC_D" gate="G$1" pin="C"/>
-<wire x1="17.78" y1="25.4" x2="17.78" y2="20.32" width="0.1524" layer="91"/>
-<wire x1="5.08" y1="30.48" x2="5.08" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="5.08" y1="25.4" x2="17.78" y2="25.4" width="0.1524" layer="91"/>
-<junction x="17.78" y="25.4"/>
 </segment>
 <segment>
 <pinref part="BAT_SUP" gate="G$1" pin="4"/>
@@ -967,9 +978,19 @@ http://www.st.com&lt;p&gt;
 <wire x1="20.32" y1="-88.9" x2="25.4" y2="-88.9" width="0.1524" layer="91"/>
 </segment>
 <segment>
+<wire x1="2.54" y1="-55.88" x2="0" y2="-55.88" width="0.1524" layer="91"/>
+<label x="0" y="-55.88" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="U$1" gate="G$1" pin="P1"/>
-<junction x="5.08" y="-53.34"/>
-<label x="5.08" y="-53.34" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="RECT_RELAY" gate="G$1" pin="COIL2"/>
+<wire x1="17.78" y1="27.94" x2="17.78" y2="25.4" width="0.1524" layer="91"/>
+<pinref part="CC_D" gate="G$1" pin="C"/>
+<wire x1="17.78" y1="25.4" x2="17.78" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="30.48" x2="5.08" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="25.4" x2="17.78" y2="25.4" width="0.1524" layer="91"/>
+<junction x="17.78" y="25.4"/>
+<label x="17.78" y="20.32" size="1.778" layer="95" ratio="5" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="12V_FUSED_ECU" class="0">
@@ -1027,9 +1048,10 @@ http://www.st.com&lt;p&gt;
 </net>
 <net name="ECU_PROTECTED" class="0">
 <segment>
-<pinref part="ECU_F" gate="G$1" pin="1"/>
 <pinref part="U$1" gate="G$1" pin="K"/>
-<wire x1="17.78" y1="-53.34" x2="17.78" y2="-50.8" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="-55.88" x2="17.78" y2="-55.88" width="0.1524" layer="91"/>
+<pinref part="ECU_F" gate="G$1" pin="1"/>
+<wire x1="17.78" y1="-50.8" x2="17.78" y2="-55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
