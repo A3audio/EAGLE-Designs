@@ -2877,7 +2877,6 @@ Source: http://www.infineon.com/dgdl/BSP613P_Rev2.4.pdf</description>
 <part name="ECU_F" library="Keystone" deviceset="3568" device=""/>
 <part name="CC_D" library="diodes-inc" deviceset="MMBD4448H-7-F" device=""/>
 <part name="U$1" library="st-microelectronics" deviceset="STPS20L15G-TR" device="TO"/>
-<part name="U$2" library="st-microelectronics" deviceset="STPS20L15G-TR" device="TO"/>
 <part name="R1" library="adafruit" deviceset="R-US_" device="0207/5V" value="10K"/>
 <part name="GND3" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="Q1" library="infineon" deviceset="BSP613P" device=""/>
@@ -2939,9 +2938,8 @@ Source: http://www.infineon.com/dgdl/BSP613P_Rev2.4.pdf</description>
 <instance part="ECU_F" gate="G$1" x="22.86" y="-50.8"/>
 <instance part="CC_D" gate="G$1" x="5.08" y="33.02" rot="R270"/>
 <instance part="U$1" gate="G$1" x="7.62" y="-55.88"/>
-<instance part="U$2" gate="G$1" x="111.76" y="-66.04" rot="R90"/>
-<instance part="R1" gate="G$1" x="101.6" y="-76.2" rot="R90"/>
-<instance part="GND3" gate="1" x="101.6" y="-86.36"/>
+<instance part="R1" gate="G$1" x="101.6" y="-68.58" rot="R90"/>
+<instance part="GND3" gate="1" x="101.6" y="-78.74"/>
 <instance part="Q1" gate="G$1" x="99.06" y="-58.42" rot="R90"/>
 </instances>
 <busses>
@@ -3109,7 +3107,7 @@ Source: http://www.infineon.com/dgdl/BSP613P_Rev2.4.pdf</description>
 </segment>
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="101.6" y1="-81.28" x2="101.6" y2="-83.82" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="-73.66" x2="101.6" y2="-76.2" width="0.1524" layer="91"/>
 <pinref part="GND3" gate="1" pin="GND"/>
 </segment>
 </net>
@@ -3260,22 +3258,15 @@ Source: http://www.infineon.com/dgdl/BSP613P_Rev2.4.pdf</description>
 </net>
 <net name="ECU+" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="K"/>
-<wire x1="111.76" y1="-58.42" x2="111.76" y2="-55.88" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="-55.88" x2="119.38" y2="-55.88" width="0.1524" layer="91"/>
 <label x="119.38" y="-55.88" size="1.778" layer="95"/>
-<wire x1="104.14" y1="-55.88" x2="111.76" y2="-55.88" width="0.1524" layer="91"/>
-<junction x="111.76" y="-55.88"/>
+<wire x1="104.14" y1="-55.88" x2="119.38" y2="-55.88" width="0.1524" layer="91"/>
 <pinref part="Q1" gate="G$1" pin="S"/>
 </segment>
 </net>
 <net name="N$1" class="0">
 <segment>
-<wire x1="101.6" y1="-60.96" x2="101.6" y2="-71.12" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="P1"/>
-<wire x1="101.6" y1="-71.12" x2="111.76" y2="-71.12" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="-60.96" x2="101.6" y2="-63.5" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="2"/>
-<junction x="101.6" y="-71.12"/>
 <pinref part="Q1" gate="G$1" pin="G"/>
 </segment>
 </net>
