@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mil" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="1" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -8820,6 +8820,8 @@
 <rectangle x1="93.59773125" y1="55.58155" x2="94.96170625" y2="55.58916875" layer="201"/>
 <text x="100.4824" y="49.2506" size="1.27" layer="25" font="vector" rot="R180">Analog CAN Board V2</text>
 <text x="99.0092" y="47.6758" size="1.27" layer="25" rot="R180">2016-2017</text>
+<wire x1="0.0762" y1="0.0762" x2="0" y2="0.0762" width="0.0254" layer="20"/>
+<wire x1="0" y1="0.0762" x2="0" y2="85.08" width="0.0254" layer="20"/>
 </plain>
 <libraries>
 <library name="rcl">
