@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.1.0">
+<eagle version="8.0.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -10494,35 +10494,35 @@ diameter 5 mm, grid 2.54 mm</description>
 <pinref part="F1" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="N$16" class="0">
+<net name="GND_UNFUSED" class="0">
 <segment>
 <pinref part="CONN" gate="G$1" pin="1"/>
 <pinref part="F2" gate="G$1" pin="1"/>
 <wire x1="25.4" y1="129.54" x2="27.94" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$17" class="0">
+<net name="12V_UNFUSED" class="0">
 <segment>
 <pinref part="CONN" gate="G$1" pin="2"/>
 <pinref part="F3" gate="G$1" pin="1"/>
 <wire x1="25.4" y1="124.46" x2="38.1" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$18" class="0">
+<net name="CURRENT_UNFUSED" class="0">
 <segment>
 <pinref part="CONN" gate="G$1" pin="3"/>
 <pinref part="F4" gate="G$1" pin="1"/>
 <wire x1="25.4" y1="119.38" x2="27.94" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$19" class="0">
+<net name="BF_UNFUSED" class="0">
 <segment>
 <pinref part="CONN" gate="G$1" pin="4"/>
 <pinref part="F5" gate="G$1" pin="1"/>
 <wire x1="25.4" y1="114.3" x2="38.1" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$20" class="0">
+<net name="BR_UNFUSED" class="0">
 <segment>
 <pinref part="CONN" gate="G$1" pin="5"/>
 <pinref part="F6" gate="G$1" pin="1"/>
