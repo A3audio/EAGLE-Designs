@@ -14026,6 +14026,13 @@ for Latched Components</text>
 <pinref part="IC3" gate="G$1" pin="OUT3"/>
 </segment>
 </net>
+<net name="AMS_OK+" class="0">
+<segment>
+<pinref part="ACCUMULATOR_CONN" gate="G$1" pin="7"/>
+<wire x1="462.28" y1="-157.48" x2="429.26" y2="-157.48" width="0.1524" layer="91"/>
+<label x="429.26" y="-157.48" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
