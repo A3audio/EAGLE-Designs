@@ -13062,7 +13062,7 @@ for Latched Components</text>
 <wire x1="45.72" y1="-114.3" x2="43.18" y2="-114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$20" class="0">
+<net name="5V_FUSED" class="0">
 <segment>
 <pinref part="F16" gate="G$1" pin="2"/>
 <pinref part="AIO_PO_CONN" gate="-2" pin="KL"/>
