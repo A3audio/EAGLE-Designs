@@ -13062,7 +13062,7 @@ for Latched Components</text>
 <wire x1="45.72" y1="-114.3" x2="43.18" y2="-114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$20" class="0">
+<net name="5V_FUSED" class="0">
 <segment>
 <pinref part="F16" gate="G$1" pin="2"/>
 <pinref part="AIO_PO_CONN" gate="-2" pin="KL"/>
@@ -14024,6 +14024,13 @@ for Latched Components</text>
 <wire x1="342.9" y1="-137.16" x2="342.9" y2="-142.24" width="0.1524" layer="91"/>
 <label x="342.9" y="-142.24" size="1.778" layer="95" rot="R270" xref="yes"/>
 <pinref part="IC3" gate="G$1" pin="OUT3"/>
+</segment>
+</net>
+<net name="AMS_OK+" class="0">
+<segment>
+<pinref part="ACCUMULATOR_CONN" gate="G$1" pin="7"/>
+<wire x1="462.28" y1="-157.48" x2="429.26" y2="-157.48" width="0.1524" layer="91"/>
+<label x="429.26" y="-157.48" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
