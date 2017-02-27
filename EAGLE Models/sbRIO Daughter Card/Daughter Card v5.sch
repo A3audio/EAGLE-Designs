@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -9910,7 +9910,7 @@ RJ45 Jack connectors&lt;br&gt;
 <wire x1="45.72" y1="-114.3" x2="43.18" y2="-114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="5V_FUSED" class="0">
+<net name="N$20" class="0">
 <segment>
 <pinref part="F16" gate="G$1" pin="2"/>
 <pinref part="AIO_PO_CONN" gate="-2" pin="KL"/>
@@ -10141,14 +10141,14 @@ RJ45 Jack connectors&lt;br&gt;
 <pinref part="SHTDWN_CONN" gate="G$1" pin="3"/>
 </segment>
 </net>
-<net name="SHUTDOWN_2_FUSED" class="0">
+<net name="N$12" class="0">
 <segment>
 <pinref part="F2" gate="G$1" pin="2"/>
 <wire x1="406.4" y1="38.1" x2="401.32" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="SHTDWN_CONN" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="SHUTDOWN_1_FUSED" class="0">
+<net name="N$15" class="0">
 <segment>
 <pinref part="F14" gate="G$1" pin="2"/>
 <wire x1="406.4" y1="33.02" x2="401.32" y2="33.02" width="0.1524" layer="91"/>

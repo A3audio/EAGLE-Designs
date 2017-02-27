@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="8.0.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -11568,7 +11568,7 @@ Source: AVX .. aphvc.pdf</description>
 <part name="F3" library="SparkFun-Passives" deviceset="FUSE" device="X20MM"/>
 <part name="U$3" library="texas" deviceset="LM340MP-5.0" device=""/>
 <part name="U$4" library="molex" deviceset="70553-0038" device=""/>
-<part name="U$5" library="molex" deviceset="39-30-1020" device=""/>
+<part name="GLV_IN_CONN" library="molex" deviceset="39-30-1020" device=""/>
 <part name="R15" library="resistor" deviceset="R-US_" device="R0603" value="10K"/>
 <part name="R27" library="resistor" deviceset="R-US_" device="R0603" value="10K"/>
 <part name="R28" library="resistor" deviceset="R-US_" device="R0603" value="10K"/>
@@ -11803,7 +11803,7 @@ for Latched Components</text>
 <instance part="F3" gate="G$1" x="744.22" y="-114.3"/>
 <instance part="U$3" gate="G$1" x="30.48" y="93.98" rot="R270"/>
 <instance part="U$4" gate="G$1" x="233.68" y="-154.94"/>
-<instance part="U$5" gate="G$1" x="287.02" y="-35.56" rot="R90"/>
+<instance part="GLV_IN_CONN" gate="G$1" x="287.02" y="-35.56" rot="R90"/>
 <instance part="R15" gate="G$1" x="208.28" y="-17.78"/>
 <instance part="R27" gate="G$1" x="208.28" y="7.62"/>
 <instance part="R28" gate="G$1" x="208.28" y="20.32"/>
@@ -12153,10 +12153,10 @@ for Latched Components</text>
 <junction x="279.4" y="-63.5"/>
 <pinref part="IC3" gate="G$2" pin="VBB@8"/>
 <junction x="279.4" y="-66.04"/>
-<pinref part="U$5" gate="G$1" pin="1"/>
+<pinref part="GLV_IN_CONN" gate="G$1" pin="1"/>
 <wire x1="284.48" y1="-48.26" x2="284.48" y2="-43.18" width="0.1524" layer="91"/>
 <junction x="284.48" y="-48.26"/>
-<pinref part="U$5" gate="G$1" pin="2"/>
+<pinref part="GLV_IN_CONN" gate="G$1" pin="2"/>
 <wire x1="289.56" y1="-48.26" x2="289.56" y2="-43.18" width="0.1524" layer="91"/>
 <junction x="289.56" y="-48.26"/>
 </segment>
@@ -13062,14 +13062,14 @@ for Latched Components</text>
 <wire x1="45.72" y1="-114.3" x2="43.18" y2="-114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="5V_FUSED" class="0">
+<net name="N$20" class="0">
 <segment>
 <pinref part="F16" gate="G$1" pin="2"/>
 <pinref part="AIO_PO_CONN" gate="-2" pin="KL"/>
 <wire x1="462.28" y1="-101.6" x2="449.58" y2="-101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$41" class="0">
+<net name="THROTTLE_OK_OUT_FUSED" class="0">
 <segment>
 <pinref part="BSPD_CONN" gate="G$1" pin="5"/>
 <pinref part="F6" gate="G$1" pin="1"/>
@@ -14024,13 +14024,6 @@ for Latched Components</text>
 <wire x1="342.9" y1="-137.16" x2="342.9" y2="-142.24" width="0.1524" layer="91"/>
 <label x="342.9" y="-142.24" size="1.778" layer="95" rot="R270" xref="yes"/>
 <pinref part="IC3" gate="G$1" pin="OUT3"/>
-</segment>
-</net>
-<net name="AMS_OK+" class="0">
-<segment>
-<pinref part="ACCUMULATOR_CONN" gate="G$1" pin="7"/>
-<wire x1="462.28" y1="-157.48" x2="429.26" y2="-157.48" width="0.1524" layer="91"/>
-<label x="429.26" y="-157.48" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
