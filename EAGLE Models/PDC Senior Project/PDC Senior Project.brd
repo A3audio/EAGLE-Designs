@@ -6240,7 +6240,7 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="M7" pad="P$61"/>
 <contactref element="U$25" pad="B24"/>
 <contactref element="U$25" pad="B17"/>
-<polygon width="0.1524" layer="1" thermals="no">
+<polygon width="0.1524" layer="1" thermals="no" rank="2">
 <vertex x="17.018" y="8.89"/>
 <vertex x="34.036" y="8.89"/>
 <vertex x="34.036" y="3.175"/>
