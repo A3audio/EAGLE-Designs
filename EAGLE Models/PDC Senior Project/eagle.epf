@@ -1,6 +1,7 @@
 [Eagle]
-Version="08 00 02"
+Version="07 07 00"
 Platform="Windows"
+Serial="742C26DE5F-LSR-WLM-1ES"
 Globals="Globals"
 Desktop="Desktop"
 
@@ -420,11 +421,11 @@ UsedLibrary="C:/EAGLE-7.7.0/lbr/smd-ipc.lbr"
 
 [Win_1]
 Type="Schematic Editor"
-Loc="-9 -38 1190 561"
-State=0
+Loc="-9 -9 1910 1041"
+State=3
 Number=2
 File="PDC Senior Project.sch"
-View="-1169.68 -334.43 59.3476 273.825"
+View="-1140.59 108.705 -902.401 226.589"
 WireWidths=" 0 0.3048 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0.4064 0.1524"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 PadDrills=" 0.5 0.6 0.7 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.8"
@@ -463,12 +464,13 @@ ArcDirection=0
 AddLevel=2
 PadsSameType=0
 Layer=91
+Views=" 1: -1140.59 108.705 -902.401 226.589"
 Sheet="1"
 
 [Win_2]
 Type="Control Panel"
-Loc="-9 -38 1190 561"
-State=2
+Loc="0 0 1199 599"
+State=0
 Number=0
 
 [Desktop]

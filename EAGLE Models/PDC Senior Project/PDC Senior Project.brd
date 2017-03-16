@@ -137,7 +137,9 @@
 <wire x1="0" y1="0" x2="160" y2="0" width="0" layer="20"/>
 <wire x1="160" y1="0" x2="160" y2="106.68" width="0" layer="20"/>
 <wire x1="160" y1="106.68" x2="0" y2="106.68" width="0" layer="20"/>
-<wire x1="0" y1="106.68" x2="0" y2="0" width="0" layer="20"/>
+<wire x1="0" y1="106.68" x2="0" y2="103.124" width="0" layer="20"/>
+<wire x1="0" y1="98.2345" x2="0" y2="0" width="0" layer="20"/>
+<wire x1="0" y1="98.2345" x2="0" y2="103.124" width="0" layer="20"/>
 </plain>
 <libraries>
 <library name="rcl">
@@ -1862,8 +1864,8 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="OC_FARNELL" value="1822229" x="76.2" y="41.91" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_NEWARK" value="18M4796" x="76.2" y="41.91" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="H1" library="holes" package="#4-40-PAD-ROUND" value="MOUNT-PAD-ROUND#4-40-PAD" x="150.876" y="99.822"/>
-<element name="H2" library="holes" package="#4-40-PAD-ROUND" value="MOUNT-PAD-ROUND#4-40-PAD" x="152.0825" y="6.1595"/>
+<element name="H1" library="holes" package="#4-40-PAD-ROUND" value="MOUNT-PAD-ROUND#4-40-PAD" x="107.3785" y="99.314"/>
+<element name="H2" library="holes" package="#4-40-PAD-ROUND" value="MOUNT-PAD-ROUND#4-40-PAD" x="109.347" y="5.842"/>
 <element name="H3" library="holes" package="#4-40-PAD-ROUND" value="MOUNT-PAD-ROUND#4-40-PAD" x="3.6195" y="3.6195"/>
 <element name="H4" library="holes" package="#4-40-PAD-ROUND" value="MOUNT-PAD-ROUND#4-40-PAD" x="3.556" y="101.6"/>
 <element name="H7" library="SparkFun-Connectors" package="2X3_SMD_FCI_54202-G30" value="ICSP" x="29.591" y="94.361"/>
