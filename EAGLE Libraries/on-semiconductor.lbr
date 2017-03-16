@@ -684,7 +684,7 @@ Source: &lt;a href="http://www.onsemi.com/pub_link/Collateral/SA571-D.PDF"&gt; D
 <wire x1="-4.8" y1="-2.3" x2="-4.8" y2="2.2" width="0.127" layer="25"/>
 <rectangle x1="-4.5" y1="-1.9" x2="-4.2" y2="-1.5" layer="25"/>
 <text x="-5.3" y="-3.1" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="6.5" y="-3.4" size="1.27" layer="25" rot="R90">&gt;VALUE</text>
+<text x="6.5" y="-3.4" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
 </package>
 <package name="SOT-223-4">
 <smd name="4" x="0" y="2.9" dx="3.25" dy="2.15" layer="1"/>
