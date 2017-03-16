@@ -14330,6 +14330,7 @@ at 31/07/2012 09:37:13</description>
 <wire x1="-104.14" y1="-15.24" x2="-104.14" y2="-10.16" width="0.1524" layer="91"/>
 <wire x1="-104.14" y1="-10.16" x2="-96.52" y2="-10.16" width="0.1524" layer="91"/>
 <label x="-96.52" y="-10.16" size="1.778" layer="95" xref="yes"/>
+<junction x="-104.14" y="-10.16"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -17665,6 +17666,7 @@ at 31/07/2012 09:37:13</description>
 <wire x1="-154.94" y1="-10.16" x2="-142.24" y2="-10.16" width="0.1524" layer="91"/>
 <pinref part="D2" gate="G$1" pin="C"/>
 <wire x1="-162.56" y1="-10.16" x2="-154.94" y2="-10.16" width="0.1524" layer="91"/>
+<junction x="-154.94" y="-10.16"/>
 </segment>
 </net>
 <net name="N$101" class="0">

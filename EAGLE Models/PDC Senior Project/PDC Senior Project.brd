@@ -2639,6 +2639,80 @@ Please make sure your boards conform to these design rules.</description>
 <vertex x="98.9965" y="102.743"/>
 <vertex x="98.9965" y="102.8065"/>
 </polygon>
+<polygon width="0.2032" layer="16" thermals="no" rank="2">
+<vertex x="8.509" y="60.3885"/>
+<vertex x="9.906" y="60.3885"/>
+<vertex x="11.303" y="58.9915"/>
+<vertex x="13.0175" y="58.9915"/>
+<vertex x="13.335" y="59.309"/>
+<vertex x="13.335" y="60.8965"/>
+<vertex x="14.2875" y="61.849"/>
+<vertex x="15.5575" y="61.849"/>
+<vertex x="16.891" y="60.5155"/>
+<vertex x="18.3515" y="60.5155"/>
+<vertex x="18.8595" y="60.0075"/>
+<vertex x="18.8595" y="52.1335"/>
+<vertex x="12.8905" y="46.1645"/>
+<vertex x="12.8905" y="38.0365"/>
+<vertex x="13.208" y="37.719"/>
+<vertex x="13.208" y="35.7505"/>
+<vertex x="14.0335" y="35.2425"/>
+<vertex x="15.494" y="35.2425"/>
+<vertex x="16.4465" y="33.9725"/>
+<vertex x="16.637" y="33.9725"/>
+<vertex x="17.018" y="33.5915"/>
+<vertex x="18.3515" y="33.5915"/>
+<vertex x="18.9865" y="32.9565"/>
+<vertex x="18.9865" y="31.242"/>
+<vertex x="18.542" y="30.7975"/>
+<vertex x="17.018" y="30.7975"/>
+<vertex x="15.8115" y="29.591"/>
+<vertex x="13.081" y="29.591"/>
+<vertex x="12.7635" y="29.2735"/>
+<vertex x="11.43" y="29.2735"/>
+<vertex x="10.4775" y="28.321"/>
+<vertex x="10.3505" y="28.321"/>
+<vertex x="9.906" y="27.8765"/>
+<vertex x="8.0645" y="27.8765"/>
+<vertex x="7.493" y="28.448"/>
+<vertex x="7.493" y="59.3725"/>
+</polygon>
+<polygon width="0.254" layer="1" thermals="no" rank="2">
+<vertex x="16.891" y="60.579"/>
+<vertex x="18.415" y="60.579"/>
+<vertex x="18.9865" y="60.0075"/>
+<vertex x="18.9865" y="52.1335"/>
+<vertex x="12.5095" y="45.6565"/>
+<vertex x="12.5095" y="38.4175"/>
+<vertex x="13.1445" y="37.7825"/>
+<vertex x="13.1445" y="35.814"/>
+<vertex x="14.097" y="34.8615"/>
+<vertex x="14.097" y="34.925"/>
+<vertex x="14.2875" y="35.1155"/>
+<vertex x="15.367" y="35.1155"/>
+<vertex x="16.891" y="33.5915"/>
+<vertex x="18.542" y="33.5915"/>
+<vertex x="18.9865" y="33.147"/>
+<vertex x="18.9865" y="31.369"/>
+<vertex x="18.415" y="30.7975"/>
+<vertex x="16.8275" y="30.7975"/>
+<vertex x="15.6845" y="29.6545"/>
+<vertex x="12.319" y="29.6545"/>
+<vertex x="12.0015" y="29.337"/>
+<vertex x="11.557" y="29.337"/>
+<vertex x="10.033" y="27.813"/>
+<vertex x="7.747" y="27.813"/>
+<vertex x="7.366" y="28.194"/>
+<vertex x="7.366" y="58.9915"/>
+<vertex x="8.4455" y="60.071"/>
+<vertex x="10.6045" y="60.071"/>
+<vertex x="11.4935" y="59.182"/>
+<vertex x="12.8905" y="59.182"/>
+<vertex x="13.2715" y="59.563"/>
+<vertex x="13.2715" y="60.96"/>
+<vertex x="14.097" y="61.7855"/>
+<vertex x="15.4305" y="61.7855"/>
+</polygon>
 </signal>
 <signal name="VCC">
 <contactref element="IC2" pad="3"/>
@@ -5021,7 +5095,7 @@ Please make sure your boards conform to these design rules.</description>
 <vertex x="49.657" y="70.231"/>
 <vertex x="49.657" y="67.945"/>
 </polygon>
-<polygon width="0.2794" layer="1" rank="2">
+<polygon width="0.2794" layer="1" thermals="no" rank="2">
 <vertex x="18.923" y="75.057"/>
 <vertex x="17.653" y="75.311"/>
 <vertex x="16.383" y="75.184"/>
@@ -5209,7 +5283,7 @@ Please make sure your boards conform to these design rules.</description>
 <vertex x="18.796" y="70.104"/>
 <vertex x="19.939" y="68.072"/>
 </polygon>
-<polygon width="0.2794" layer="1">
+<polygon width="0.2794" layer="1" thermals="no">
 <vertex x="19.177" y="70.104"/>
 <vertex x="18.161" y="69.215"/>
 <vertex x="16.51" y="69.342"/>
@@ -7466,7 +7540,7 @@ Please make sure your boards conform to these design rules.</description>
 <vertex x="14.097" y="13.081"/>
 <vertex x="34.036" y="13.081"/>
 </polygon>
-<polygon width="0.2794" layer="1">
+<polygon width="0.2794" layer="1" thermals="no">
 <vertex x="8.001" y="24.638"/>
 <vertex x="8.255" y="24.638"/>
 <vertex x="8.636" y="25.019"/>
