@@ -13712,8 +13712,8 @@ at 31/07/2012 09:37:13</description>
 <part name="M4" library="NXP_By_element14_Batch_1" deviceset="PSMN2R2-25YLC" device=""/>
 <part name="M7" library="NXP_By_element14_Batch_1" deviceset="PSMN2R2-25YLC" device=""/>
 <part name="U$26" library="on-semiconductor" deviceset="NCP1117" device=""/>
-<part name="C23" library="rcl" deviceset="C-US" device="C0603"/>
-<part name="C24" library="rcl" deviceset="C-US" device="C0603"/>
+<part name="C23" library="rcl" deviceset="C-US" device="C0603" value="10uF"/>
+<part name="C24" library="rcl" deviceset="C-US" device="C0603" value="10uF"/>
 <part name="U$4V5V" library="DashAndCAN library" deviceset="MAX6350CSA" device=""/>
 <part name="C3" library="rcl" deviceset="C-US" device="C0603" value="2.2uF"/>
 <part name="C4" library="rcl" deviceset="C-US" device="C0603" value="2.2uF"/>
