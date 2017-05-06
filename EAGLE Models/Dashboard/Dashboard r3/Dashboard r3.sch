@@ -15975,10 +15975,10 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <wire x1="-419.1" y1="175.26" x2="-419.1" y2="254" width="0.1524" layer="94"/>
 <wire x1="-419.1" y1="254" x2="-533.4" y2="254" width="0.1524" layer="94"/>
 <text x="-436.88" y="177.8" size="1.27" layer="95">LCD Connector</text>
-<wire x1="-558.8" y1="163.83" x2="-419.1" y2="166.37" width="0.1524" layer="94"/>
+<wire x1="-558.8" y1="166.37" x2="-419.1" y2="166.37" width="0.1524" layer="94"/>
 <wire x1="-419.1" y1="166.37" x2="-419.1" y2="12.7" width="0.1524" layer="94"/>
 <wire x1="-419.1" y1="12.7" x2="-558.8" y2="10.16" width="0.1524" layer="94"/>
-<wire x1="-558.8" y1="10.16" x2="-558.8" y2="163.83" width="0.1524" layer="94"/>
+<wire x1="-558.8" y1="10.16" x2="-558.8" y2="166.37" width="0.1524" layer="94"/>
 <text x="-468.63" y="158.75" size="1.27" layer="95">High-Side Drivers</text>
 <text x="-355.6" y="43.18" size="1.778" layer="91" rot="R90">potentiometer</text>
 <text x="-355.6" y="40.64" size="1.778" layer="91" rot="R270">push/flag</text>
