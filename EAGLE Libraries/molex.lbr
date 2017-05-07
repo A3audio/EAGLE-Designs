@@ -30,17 +30,17 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
@@ -4090,6 +4090,20 @@ WM4926-ND</description>
 <smd name="6" x="5.9944" y="-1.4605" dx="3.175" dy="1.27" layer="1" rot="R90"/>
 <smd name="7" x="8.9916" y="-1.4605" dx="3.175" dy="1.27" layer="1" rot="R90"/>
 </package>
+<package name="53261-0571">
+<smd name="3" x="0" y="-0.8" dx="1.6" dy="0.8" layer="1" rot="R90"/>
+<smd name="2" x="-1.25" y="-0.8" dx="1.6" dy="0.8" layer="1" rot="R90"/>
+<smd name="1" x="-2.5" y="-0.8" dx="1.6" dy="0.8" layer="1" rot="R90"/>
+<smd name="4" x="1.25" y="-0.8" dx="1.6" dy="0.8" layer="1" rot="R90"/>
+<smd name="5" x="2.5" y="-0.8" dx="1.6" dy="0.8" layer="1" rot="R90"/>
+<smd name="GND1" x="-5.05" y="-3.7" dx="3" dy="2.1" layer="1" rot="R90"/>
+<smd name="GND2" x="5.05" y="-3.7" dx="3" dy="2.1" layer="1" rot="R90"/>
+<wire x1="-4" y1="-1.6" x2="-4" y2="-6.35" width="0.127" layer="21"/>
+<wire x1="-4" y1="-6.35" x2="4" y2="-6.35" width="0.127" layer="21"/>
+<wire x1="4" y1="-6.35" x2="4" y2="-1.6" width="0.127" layer="21"/>
+<wire x1="4" y1="-1.6" x2="-4" y2="-1.6" width="0.127" layer="21"/>
+<text x="-3.81" y="-7.62" size="1.27" layer="25">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="52207-0485">
@@ -6386,6 +6400,20 @@ WM4926-ND</description>
 <text x="-7.62" y="7.62" size="1.27" layer="95">&gt;NAME</text>
 <pin name="P$6" x="7.62" y="-5.08" length="short" rot="R90"/>
 <pin name="P$7" x="10.16" y="-5.08" length="short" rot="R90"/>
+</symbol>
+<symbol name="53261-0571">
+<wire x1="-5.08" y1="10.16" x2="2.54" y2="10.16" width="0.254" layer="94"/>
+<wire x1="2.54" y1="10.16" x2="2.54" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-10.16" x2="-5.08" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-10.16" x2="-5.08" y2="10.16" width="0.254" layer="94"/>
+<pin name="P$1" x="7.62" y="7.62" length="middle" rot="R180"/>
+<pin name="P$2" x="7.62" y="5.08" length="middle" rot="R180"/>
+<pin name="P$3" x="7.62" y="2.54" length="middle" rot="R180"/>
+<pin name="P$4" x="7.62" y="0" length="middle" rot="R180"/>
+<pin name="P$5" x="7.62" y="-2.54" length="middle" rot="R180"/>
+<text x="-5.08" y="10.16" size="1.27" layer="95">&gt;NAME</text>
+<pin name="P$6" x="7.62" y="-5.08" length="middle" rot="R180"/>
+<pin name="P$7" x="7.62" y="-7.62" length="middle" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -10026,6 +10054,27 @@ WM4926-ND</description>
 <connect gate="G$1" pin="P$5" pad="5"/>
 <connect gate="G$1" pin="P$6" pad="6"/>
 <connect gate="G$1" pin="P$7" pad="7"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="53261-0571" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="53261-0571" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="53261-0571">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
+<connect gate="G$1" pin="P$3" pad="3"/>
+<connect gate="G$1" pin="P$4" pad="4"/>
+<connect gate="G$1" pin="P$5" pad="5"/>
+<connect gate="G$1" pin="P$6" pad="GND1"/>
+<connect gate="G$1" pin="P$7" pad="GND2"/>
 </connects>
 <technologies>
 <technology name=""/>
