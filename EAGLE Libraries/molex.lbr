@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="8.1.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -4074,6 +4074,22 @@ WM4926-ND</description>
 <wire x1="-9.3218" y1="-11.938" x2="9.3218" y2="-11.938" width="0.127" layer="21"/>
 <text x="-10.16" y="-5.08" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 </package>
+<package name="43650-0513-7">
+<smd name="3" x="-2.9972" y="-1.4605" dx="3.175" dy="1.27" layer="1" rot="R90"/>
+<smd name="2" x="-5.9944" y="-1.4605" dx="3.175" dy="1.27" layer="1" rot="R90"/>
+<smd name="1" x="-8.9916" y="-1.4605" dx="3.175" dy="1.27" layer="1" rot="R90"/>
+<smd name="4" x="0" y="-1.4605" dx="3.175" dy="1.27" layer="1" rot="R90"/>
+<smd name="5" x="2.9972" y="-1.4605" dx="3.175" dy="1.27" layer="1" rot="R90"/>
+<smd name="P$HOLE" x="12.8651" y="-6.9342" dx="3.683" dy="1.651" layer="1" rot="R180"/>
+<smd name="P$BUTT" x="-12.8651" y="-6.9342" dx="3.683" dy="1.651" layer="1" rot="R180"/>
+<wire x1="11.8618" y1="-0.762" x2="11.8618" y2="-11.938" width="0.127" layer="21"/>
+<wire x1="-11.8618" y1="-11.938" x2="-11.8618" y2="-0.762" width="0.127" layer="21"/>
+<wire x1="-11.8618" y1="-0.762" x2="11.8618" y2="-0.762" width="0.127" layer="21"/>
+<wire x1="-11.8618" y1="-11.938" x2="11.8618" y2="-11.938" width="0.127" layer="21"/>
+<text x="-12.7" y="-5.08" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<smd name="6" x="5.9944" y="-1.4605" dx="3.175" dy="1.27" layer="1" rot="R90"/>
+<smd name="7" x="8.9916" y="-1.4605" dx="3.175" dy="1.27" layer="1" rot="R90"/>
+</package>
 </packages>
 <symbols>
 <symbol name="52207-0485">
@@ -6356,6 +6372,20 @@ WM4926-ND</description>
 <pin name="P$4" x="2.54" y="-5.08" length="short" rot="R90"/>
 <pin name="P$5" x="5.08" y="-5.08" length="short" rot="R90"/>
 <text x="-7.62" y="7.62" size="1.27" layer="95">&gt;NAME</text>
+</symbol>
+<symbol name="43650-0513-7">
+<wire x1="-7.62" y1="5.08" x2="12.7" y2="5.08" width="0.254" layer="94"/>
+<wire x1="12.7" y1="5.08" x2="12.7" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-2.54" x2="-7.62" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-2.54" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<pin name="P$1" x="-5.08" y="-5.08" length="short" rot="R90"/>
+<pin name="P$2" x="-2.54" y="-5.08" length="short" rot="R90"/>
+<pin name="P$3" x="0" y="-5.08" length="short" rot="R90"/>
+<pin name="P$4" x="2.54" y="-5.08" length="short" rot="R90"/>
+<pin name="P$5" x="5.08" y="-5.08" length="short" rot="R90"/>
+<text x="-7.62" y="7.62" size="1.27" layer="95">&gt;NAME</text>
+<pin name="P$6" x="7.62" y="-5.08" length="short" rot="R90"/>
+<pin name="P$7" x="10.16" y="-5.08" length="short" rot="R90"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -9975,6 +10005,27 @@ WM4926-ND</description>
 <connect gate="G$1" pin="P$3" pad="3"/>
 <connect gate="G$1" pin="P$4" pad="4"/>
 <connect gate="G$1" pin="P$5" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="43650-0513-7" prefix="X" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="43650-0513-7" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="43650-0513-7">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
+<connect gate="G$1" pin="P$3" pad="3"/>
+<connect gate="G$1" pin="P$4" pad="4"/>
+<connect gate="G$1" pin="P$5" pad="5"/>
+<connect gate="G$1" pin="P$6" pad="6"/>
+<connect gate="G$1" pin="P$7" pad="7"/>
 </connects>
 <technologies>
 <technology name=""/>
