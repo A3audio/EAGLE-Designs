@@ -16486,7 +16486,7 @@ at 14/06/2012 11:09:42</description>
 <pinref part="IC1" gate="G$1" pin="(AD6)PA6"/>
 </segment>
 </net>
-<net name="VCC" class="1">
+<net name="VCC" class="0">
 <segment>
 <wire x1="-365.76" y1="138.43" x2="-358.14" y2="138.43" width="0.1524" layer="91"/>
 <pinref part="H7" gate="G$1" pin="2"/>
@@ -16552,7 +16552,7 @@ at 14/06/2012 11:09:42</description>
 <pinref part="P+3" gate="VCC" pin="VCC"/>
 </segment>
 </net>
-<net name="GND" class="4">
+<net name="GND" class="0">
 <segment>
 <wire x1="-266.7" y1="27.94" x2="-266.7" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="GND8" gate="1" pin="GND"/>
@@ -17120,7 +17120,7 @@ at 14/06/2012 11:09:42</description>
 <label x="-430.53" y="62.23" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
-<net name="12V" class="2">
+<net name="12V" class="0">
 <segment>
 <wire x1="-248.92" y1="63.5" x2="-246.38" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="D2" gate="G$1" pin="A"/>
@@ -17302,7 +17302,7 @@ at 14/06/2012 11:09:42</description>
 <label x="-91.44" y="242.57" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="CAN_L" class="1">
+<net name="CAN_L" class="0">
 <segment>
 <wire x1="-236.22" y1="132.08" x2="-226.06" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="-226.06" y1="124.46" x2="-226.06" y2="132.08" width="0.1524" layer="91"/>
@@ -17318,7 +17318,7 @@ at 14/06/2012 11:09:42</description>
 <label x="-375.92" y="119.38" size="1.016" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
-<net name="CAN_H" class="1">
+<net name="CAN_H" class="0">
 <segment>
 <wire x1="-220.98" y1="127" x2="-236.22" y2="127" width="0.1524" layer="91"/>
 <wire x1="-220.98" y1="124.46" x2="-220.98" y2="127" width="0.1524" layer="91"/>
@@ -17510,7 +17510,7 @@ at 14/06/2012 11:09:42</description>
 <wire x1="-10.16" y1="27.94" x2="-5.08" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="BL_ANODE" class="1">
+<net name="BL_ANODE" class="0">
 <segment>
 <pinref part="BL_D1" gate="A" pin="C"/>
 <wire x1="0" y1="27.94" x2="5.08" y2="27.94" width="0.1524" layer="91"/>
@@ -17886,7 +17886,7 @@ at 14/06/2012 11:09:42</description>
 <pinref part="IC1" gate="G$1" pin="(ICP3/INT7)PE7"/>
 </segment>
 </net>
-<net name="N$23" class="3">
+<net name="N$23" class="0">
 <segment>
 <pinref part="R5" gate="G$1" pin="2"/>
 <pinref part="U$5" gate="G$1" pin="B"/>
@@ -17915,7 +17915,7 @@ at 14/06/2012 11:09:42</description>
 <wire x1="-495.3" y1="115.57" x2="-495.3" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="DRV1" class="3">
+<net name="DRV1" class="0">
 <segment>
 <pinref part="F5" gate="G$1" pin="2"/>
 <wire x1="-430.53" y1="29.21" x2="-430.53" y2="25.4" width="0.1524" layer="91"/>
@@ -17927,7 +17927,7 @@ at 14/06/2012 11:09:42</description>
 <label x="-337.82" y="121.92" size="1.016" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
-<net name="N$27" class="3">
+<net name="N$27" class="0">
 <segment>
 <pinref part="R12" gate="G$1" pin="2"/>
 <pinref part="U$7" gate="G$1" pin="B"/>
@@ -17949,21 +17949,21 @@ at 14/06/2012 11:09:42</description>
 <wire x1="-514.35" y1="50.8" x2="-514.35" y2="46.99" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$30" class="3">
+<net name="N$30" class="0">
 <segment>
 <pinref part="F3" gate="G$1" pin="1"/>
 <pinref part="U$8" gate="G$1" pin="C"/>
 <wire x1="-495.3" y1="41.91" x2="-495.3" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$31" class="3">
+<net name="N$31" class="0">
 <segment>
 <pinref part="R14" gate="G$1" pin="2"/>
 <pinref part="U$9" gate="G$1" pin="B"/>
 <wire x1="-458.47" y1="115.57" x2="-454.66" y2="115.57" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$33" class="3">
+<net name="N$33" class="0">
 <segment>
 <pinref part="R13" gate="G$1" pin="2"/>
 <pinref part="U$10" gate="G$1" pin="B"/>
@@ -17978,14 +17978,14 @@ at 14/06/2012 11:09:42</description>
 <wire x1="-449.58" y1="124.46" x2="-449.58" y2="120.65" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$38" class="3">
+<net name="N$38" class="0">
 <segment>
 <pinref part="F4" gate="G$1" pin="1"/>
 <pinref part="U$10" gate="G$1" pin="C"/>
 <wire x1="-430.53" y1="115.57" x2="-430.53" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$39" class="3">
+<net name="N$39" class="0">
 <segment>
 <pinref part="R16" gate="G$1" pin="2"/>
 <pinref part="U$11" gate="G$1" pin="B"/>
@@ -18007,7 +18007,7 @@ at 14/06/2012 11:09:42</description>
 <wire x1="-449.58" y1="50.8" x2="-449.58" y2="46.99" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$42" class="3">
+<net name="N$42" class="0">
 <segment>
 <pinref part="F5" gate="G$1" pin="1"/>
 <pinref part="U$12" gate="G$1" pin="C"/>
@@ -18021,7 +18021,7 @@ at 14/06/2012 11:09:42</description>
 <label x="-495.3" y="99.06" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
-<net name="DRV3" class="3">
+<net name="DRV3" class="0">
 <segment>
 <pinref part="F3" gate="G$1" pin="2"/>
 <wire x1="-495.3" y1="29.21" x2="-495.3" y2="25.4" width="0.1524" layer="91"/>
@@ -18033,7 +18033,7 @@ at 14/06/2012 11:09:42</description>
 <label x="-332.74" y="121.92" size="1.016" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
-<net name="DRV2" class="3">
+<net name="DRV2" class="0">
 <segment>
 <pinref part="F4" gate="G$1" pin="2"/>
 <wire x1="-430.53" y1="102.87" x2="-430.53" y2="99.06" width="0.1524" layer="91"/>
@@ -18048,22 +18048,6 @@ at 14/06/2012 11:09:42</description>
 </nets>
 </sheet>
 </sheets>
-<errors>
-<approved hash="104,1,-205.74,226.06,IC5,VCCIO,VCC,,,"/>
-<approved hash="202,1,-172.72,210.82,IC5,RI#,,,,"/>
-<approved hash="104,1,-205.74,190.5,IC5,GND1,GND,,,"/>
-<approved hash="202,1,-172.72,215.9,IC5,DSR#,,,,"/>
-<approved hash="202,1,-172.72,213.36,IC5,DCD#,,,,"/>
-<approved hash="202,1,-172.72,220.98,IC5,CTS#,,,,"/>
-<approved hash="202,1,-172.72,180.34,IC5,SLEEP#,,,,"/>
-<approved hash="202,1,-172.72,182.88,IC5,GPIO3,,,,"/>
-<approved hash="104,1,-205.74,223.52,IC5,VCC30,VCC3O,,,"/>
-<approved hash="104,1,-205.74,187.96,IC5,GND2,GND,,,"/>
-<approved hash="104,1,-205.74,228.6,IC5,VCC5I,VCC,,,"/>
-<approved hash="104,1,-205.74,185.42,IC5,GND3,GND,,,"/>
-<approved hash="104,1,-205.74,180.34,IC5,AGND,GND,,,"/>
-<approved hash="202,1,-205.74,203.2,IC5,OSCI,,,,"/>
-</errors>
 </schematic>
 </drawing>
 </eagle>
