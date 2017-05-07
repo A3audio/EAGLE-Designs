@@ -15663,61 +15663,6 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 </deviceset>
 </devicesets>
 </library>
-<library name="DashAndCAN library">
-<packages>
-<package name="MICRO6LOCK">
-<smd name="P1" x="3.125" y="0" dx="0.8" dy="1.2" layer="1"/>
-<smd name="P2" x="1.875" y="0" dx="0.8" dy="1.2" layer="1"/>
-<smd name="P3" x="0.625" y="0" dx="0.8" dy="1.2" layer="1"/>
-<smd name="P4" x="-0.625" y="0" dx="0.8" dy="1.2" layer="1"/>
-<smd name="P5" x="-1.875" y="0" dx="0.8" dy="1.2" layer="1"/>
-<smd name="P6" x="-3.125" y="0" dx="0.8" dy="1.2" layer="1"/>
-<smd name="P$1" x="-5.025" y="2.295" dx="2.5" dy="1.3" layer="1" rot="R90"/>
-<smd name="P$2" x="5.025" y="2.295" dx="2.5" dy="1.3" layer="1" rot="R90"/>
-<wire x1="-5.9" y1="3.9" x2="5.9" y2="3.9" width="0.127" layer="1"/>
-<wire x1="5.9" y1="3.9" x2="5.9" y2="-0.1" width="0.127" layer="1"/>
-<wire x1="5.9" y1="-0.15" x2="5.9" y2="-0.8" width="0.127" layer="1"/>
-<wire x1="5.9" y1="-0.8" x2="-5.9" y2="-0.8" width="0.127" layer="1"/>
-<wire x1="-5.9" y1="-0.8" x2="-5.9" y2="3.9" width="0.127" layer="1"/>
-</package>
-</packages>
-<symbols>
-<symbol name="MICRO6LOCK">
-<pin name="P$1" x="-10.16" y="5.08" length="middle"/>
-<pin name="P$2" x="-10.16" y="2.54" length="middle"/>
-<pin name="P$3" x="-10.16" y="0" length="middle"/>
-<pin name="P$4" x="-10.16" y="-2.54" length="middle"/>
-<pin name="P$5" x="-10.16" y="-5.08" length="middle"/>
-<pin name="P$6" x="-10.16" y="-7.62" length="middle"/>
-<wire x1="-5.08" y1="7.62" x2="-5.08" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-10.16" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-10.16" x2="5.08" y2="7.62" width="0.254" layer="94"/>
-<wire x1="5.08" y1="7.62" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="MICRO6LOCK">
-<gates>
-<gate name="G$1" symbol="MICRO6LOCK" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="MICRO6LOCK">
-<connects>
-<connect gate="G$1" pin="P$1" pad="P1"/>
-<connect gate="G$1" pin="P$2" pad="P2"/>
-<connect gate="G$1" pin="P$3" pad="P3"/>
-<connect gate="G$1" pin="P$4" pad="P4"/>
-<connect gate="G$1" pin="P$5" pad="P5"/>
-<connect gate="G$1" pin="P$6" pad="P6"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="on-semiconductor">
 <description>&lt;b&gt;ON Semiconductor&lt;/b&gt;&lt;p&gt;
 &lt;a href="http://onsemi.com"&gt; Home page &lt;/a&gt;&lt;p&gt;
@@ -15787,6 +15732,22 @@ at 14/06/2012 11:09:42</description>
 <wire x1="-9.3218" y1="-11.938" x2="9.3218" y2="-11.938" width="0.127" layer="21"/>
 <text x="-10.16" y="-5.08" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 </package>
+<package name="43650-0513-7">
+<smd name="3" x="-2.9972" y="-1.4605" dx="3.175" dy="1.27" layer="1" rot="R90"/>
+<smd name="2" x="-5.9944" y="-1.4605" dx="3.175" dy="1.27" layer="1" rot="R90"/>
+<smd name="1" x="-8.9916" y="-1.4605" dx="3.175" dy="1.27" layer="1" rot="R90"/>
+<smd name="4" x="0" y="-1.4605" dx="3.175" dy="1.27" layer="1" rot="R90"/>
+<smd name="5" x="2.9972" y="-1.4605" dx="3.175" dy="1.27" layer="1" rot="R90"/>
+<smd name="P$HOLE" x="12.8651" y="-6.9342" dx="3.683" dy="1.651" layer="1" rot="R180"/>
+<smd name="P$BUTT" x="-12.8651" y="-6.9342" dx="3.683" dy="1.651" layer="1" rot="R180"/>
+<wire x1="11.8618" y1="-0.762" x2="11.8618" y2="-11.938" width="0.127" layer="21"/>
+<wire x1="-11.8618" y1="-11.938" x2="-11.8618" y2="-0.762" width="0.127" layer="21"/>
+<wire x1="-11.8618" y1="-0.762" x2="11.8618" y2="-0.762" width="0.127" layer="21"/>
+<wire x1="-11.8618" y1="-11.938" x2="11.8618" y2="-11.938" width="0.127" layer="21"/>
+<text x="-12.7" y="-5.08" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<smd name="6" x="5.9944" y="-1.4605" dx="3.175" dy="1.27" layer="1" rot="R90"/>
+<smd name="7" x="8.9916" y="-1.4605" dx="3.175" dy="1.27" layer="1" rot="R90"/>
+</package>
 </packages>
 <symbols>
 <symbol name="43650-0513">
@@ -15800,6 +15761,20 @@ at 14/06/2012 11:09:42</description>
 <pin name="P$4" x="2.54" y="-5.08" length="short" rot="R90"/>
 <pin name="P$5" x="5.08" y="-5.08" length="short" rot="R90"/>
 <text x="-7.62" y="7.62" size="1.27" layer="95">&gt;NAME</text>
+</symbol>
+<symbol name="43650-0513-7">
+<wire x1="-7.62" y1="5.08" x2="12.7" y2="5.08" width="0.254" layer="94"/>
+<wire x1="12.7" y1="5.08" x2="12.7" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-2.54" x2="-7.62" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-2.54" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<pin name="P$1" x="-5.08" y="-5.08" length="short" rot="R90"/>
+<pin name="P$2" x="-2.54" y="-5.08" length="short" rot="R90"/>
+<pin name="P$3" x="0" y="-5.08" length="short" rot="R90"/>
+<pin name="P$4" x="2.54" y="-5.08" length="short" rot="R90"/>
+<pin name="P$5" x="5.08" y="-5.08" length="short" rot="R90"/>
+<text x="-7.62" y="7.62" size="1.27" layer="95">&gt;NAME</text>
+<pin name="P$6" x="7.62" y="-5.08" length="short" rot="R90"/>
+<pin name="P$7" x="10.16" y="-5.08" length="short" rot="R90"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -15815,6 +15790,27 @@ at 14/06/2012 11:09:42</description>
 <connect gate="G$1" pin="P$3" pad="3"/>
 <connect gate="G$1" pin="P$4" pad="4"/>
 <connect gate="G$1" pin="P$5" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="43650-0513-7" prefix="X" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="43650-0513-7" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="43650-0513-7">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
+<connect gate="G$1" pin="P$3" pad="3"/>
+<connect gate="G$1" pin="P$4" pad="4"/>
+<connect gate="G$1" pin="P$5" pad="5"/>
+<connect gate="G$1" pin="P$6" pad="6"/>
+<connect gate="G$1" pin="P$7" pad="7"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -16189,7 +16185,7 @@ at 14/06/2012 11:09:42</description>
 <part name="F5" library="SparkFun" deviceset="PTC" device="SMD" value="15V,0.5A"/>
 <part name="U$13" library="kyocera" deviceset="TCG043WQLBAANN-GN00" device=""/>
 <part name="LEDOUT" library="molex" deviceset="43650-0513" device=""/>
-<part name="ROT/PUSH" library="DashAndCAN library" deviceset="MICRO6LOCK" device=""/>
+<part name="ROT/PUSH" library="molex" deviceset="43650-0513-7" device=""/>
 <part name="CANPWR" library="molex" deviceset="43650-0513" device=""/>
 <part name="U$1" library="on-semiconductor" deviceset="NCP1117" device=""/>
 <part name="P+3" library="supply1" deviceset="VCC" device=""/>
@@ -16345,7 +16341,7 @@ at 14/06/2012 11:09:42</description>
 <instance part="F5" gate="G$1" x="-430.53" y="36.83" rot="R270"/>
 <instance part="U$13" gate="G$1" x="-439.42" y="218.44"/>
 <instance part="LEDOUT" gate="G$1" x="-335.28" y="132.08"/>
-<instance part="ROT/PUSH" gate="G$1" x="-381" y="43.18" rot="R180"/>
+<instance part="ROT/PUSH" gate="G$1" x="-378.46" y="43.18" rot="R90"/>
 <instance part="CANPWR" gate="G$1" x="-375.92" y="114.3"/>
 <instance part="U$1" gate="G$1" x="-208.28" y="63.5"/>
 <instance part="P+3" gate="VCC" x="-266.7" y="68.58"/>
@@ -16407,7 +16403,7 @@ at 14/06/2012 11:09:42</description>
 </segment>
 <segment>
 <pinref part="ROT/PUSH" gate="G$1" pin="P$1"/>
-<wire x1="-370.84" y1="38.1" x2="-365.76" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="-373.38" y1="38.1" x2="-365.76" y2="38.1" width="0.1524" layer="91"/>
 <label x="-365.76" y="38.1" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
@@ -16534,7 +16530,7 @@ at 14/06/2012 11:09:42</description>
 </segment>
 <segment>
 <pinref part="ROT/PUSH" gate="G$1" pin="P$6"/>
-<wire x1="-370.84" y1="50.8" x2="-365.76" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="-373.38" y1="50.8" x2="-365.76" y2="50.8" width="0.1524" layer="91"/>
 <label x="-365.76" y="50.8" size="1.016" layer="95" xref="yes"/>
 </segment>
 <segment>
@@ -16811,7 +16807,7 @@ at 14/06/2012 11:09:42</description>
 </segment>
 <segment>
 <pinref part="ROT/PUSH" gate="G$1" pin="P$4"/>
-<wire x1="-370.84" y1="45.72" x2="-365.76" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="-373.38" y1="45.72" x2="-365.76" y2="45.72" width="0.1524" layer="91"/>
 <label x="-365.76" y="45.72" size="1.016" layer="95" xref="yes"/>
 </segment>
 <segment>
@@ -16863,7 +16859,7 @@ at 14/06/2012 11:09:42</description>
 </segment>
 <segment>
 <pinref part="ROT/PUSH" gate="G$1" pin="P$5"/>
-<wire x1="-370.84" y1="48.26" x2="-365.76" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="-373.38" y1="48.26" x2="-365.76" y2="48.26" width="0.1524" layer="91"/>
 <label x="-365.76" y="48.26" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
@@ -16875,7 +16871,7 @@ at 14/06/2012 11:09:42</description>
 </segment>
 <segment>
 <pinref part="ROT/PUSH" gate="G$1" pin="P$3"/>
-<wire x1="-370.84" y1="43.18" x2="-365.76" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="-373.38" y1="43.18" x2="-365.76" y2="43.18" width="0.1524" layer="91"/>
 <label x="-365.76" y="43.18" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
@@ -17234,7 +17230,7 @@ at 14/06/2012 11:09:42</description>
 </segment>
 <segment>
 <pinref part="ROT/PUSH" gate="G$1" pin="P$2"/>
-<wire x1="-370.84" y1="40.64" x2="-365.76" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="-373.38" y1="40.64" x2="-365.76" y2="40.64" width="0.1524" layer="91"/>
 <label x="-365.76" y="40.64" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
