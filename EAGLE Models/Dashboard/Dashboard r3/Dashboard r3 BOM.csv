@@ -11,7 +11,7 @@
 "C14";"1uF";"CAP0603-CAP";"0603-CAP";"Capacitor";"";"";"";"";"";
 "C15";"10uF";"C-USC2220";"C2220";"CAPACITOR, American symbol";"";"";"";"";"";
 "C16";"4.7nF";"CAP0805";"0805";"Capacitor";"";"";"";"";"";
-"CANPWR";"";"43650-0513";"43650-0513";"";"";"";"";"";"";
+"CANPWR";"";"53261-0771";"53261-0771";"";"";"";"";"";"";
 "CDHC";"390nF";"CAP0603-CAP";"0603-CAP";"Capacitor";"";"";"";"";"";
 "CFB";"10.0pF";"CAP0603-CAP";"0603-CAP";"Capacitor";"";"";"";"";"";
 "CIN";"4.7uF";"CAP0805";"0805";"Capacitor";"";"";"";"";"";
@@ -36,7 +36,7 @@
 "IC3";"NUP2105L";"NUP2105L";"SOT-23";"";"";"";"";"";"";
 "L1";"CS321613-100K";"L-USL3216C";"L3216C";"INDUCTOR, American symbol";"";"";"";"";"";
 "LCD_CONN";"FH12A-40S-0.5SH(55)";"FH12A-40S-0.5SH(55)";"HIROSE_FH12A-40S-0.5SH(55)";"SOCKET FFC/FPC, ZIF, 0.5MM, 40WAY";"FH12A-40S-0.5SH(55)";"1324569";"34M6194";"SOCKET FFC/FPC, ZIF, 0.5MM, 40WAY";"Hirose";
-"LEDOUT";"";"43650-0513";"43650-0513";"";"";"";"";"";"";
+"LEDOUT";"";"53261-0571";"53261-0571";"";"";"";"";"";"";
 "Q1";"56P2859";"CRYSTALSMD";"HC49UP";"Various standard crystals. Proven footprints. Spark Fun Electronics SKU : COM-00534";"";"";"";"";"";
 "R1";"100K";"R-US_R0805";"R0805";"RESISTOR, American symbol";"";"";"";"";"";
 "R3";"100K";"R-US_R0805";"R0805";"RESISTOR, American symbol";"";"";"";"";"";
@@ -54,7 +54,7 @@
 "RFB1";"309k";"RESISTOR0603-RES";"0603-RES";"Resistor";"";"";"";"";"";
 "RFB2";"16.2k";"RESISTOR0603-RES";"0603-RES";"Resistor";"";"";"";"";"";
 "RIREF";"20.5k";"RESISTOR0603-RES";"0603-RES";"Resistor";"";"";"";"";"";
-"ROT/PUSH";"";"43650-0513-7";"43650-0513-7";"";"";"";"";"";"";
+"ROT/PUSH";"";"53261-0771";"53261-0771";"";"";"";"";"";"";
 "RT";"226k";"RESISTOR0603-RES";"0603-RES";"Resistor";"";"";"";"";"";
 "SJ1";"SOLDERJUMPERNO";"SOLDERJUMPERNO";"SJ_2S-NO";"Solder Jumper";"";"";"";"";"";
 "U$1";"NCP1117";"NCP1117";"SOT-223-4";"";"";"";"";"";"";
