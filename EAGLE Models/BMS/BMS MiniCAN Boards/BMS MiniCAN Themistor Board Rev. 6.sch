@@ -15386,6 +15386,7 @@ type 0309, grid 2.5 mm</description>
 <wire x1="4.8" y1="-17.245" x2="4.8" y2="-4.445" width="0.127" layer="21"/>
 <hole x="6.6" y="-6.45" drill="3.2"/>
 <hole x="-6.6" y="-6.45" drill="3.2"/>
+<text x="-3.81" y="5.08" size="1.27" layer="25">&gt;NAME</text>
 </package>
 <package name="SOT223-4">
 <wire x1="-3.81" y1="1.5" x2="3.81" y2="1.5" width="0.127" layer="21"/>
@@ -16242,11 +16243,11 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <part name="JP1" library="SparkFun-Passives" deviceset="SOLDERJUMPER" device="NO"/>
 <part name="IC4" library="BMS Lbr" deviceset="LM117MPX-5.0" device=""/>
 <part name="C3" library="resistor" deviceset="C-US" device="C0805" value="10uF"/>
-<part name="U$4" library="BMS Lbr" deviceset="CD74HC4067" device=""/>
 <part name="IC5" library="BMS Lbr" deviceset="CD74HC4067" device=""/>
 <part name="IC6" library="BMS Lbr" deviceset="CD74HC4067" device=""/>
 <part name="IC7" library="BMS Lbr" deviceset="CD74HC4067" device=""/>
 <part name="IC8" library="BMS Lbr" deviceset="CD74HC4067" device=""/>
+<part name="IC9" library="BMS Lbr" deviceset="CD74HC4067" device=""/>
 <part name="R5" library="adafruit" deviceset="R-US_" device="R0603" value="10K"/>
 <part name="R10" library="adafruit" deviceset="R-US_" device="R0603" value="10K"/>
 <part name="R11" library="adafruit" deviceset="R-US_" device="R0603" value="10K"/>
@@ -16419,11 +16420,11 @@ Revised By Daniel Baron, Thomas Wilson</text>
 <instance part="JP1" gate="1" x="182.88" y="104.14"/>
 <instance part="IC4" gate="G$1" x="231.14" y="177.8"/>
 <instance part="C3" gate="G$1" x="248.92" y="177.8"/>
-<instance part="U$4" gate="G$1" x="-134.62" y="180.34"/>
-<instance part="IC5" gate="G$1" x="-134.62" y="142.24"/>
-<instance part="IC6" gate="G$1" x="-134.62" y="104.14"/>
-<instance part="IC7" gate="G$1" x="-134.62" y="66.04"/>
-<instance part="IC8" gate="G$1" x="-134.62" y="27.94"/>
+<instance part="IC5" gate="G$1" x="-134.62" y="180.34"/>
+<instance part="IC6" gate="G$1" x="-134.62" y="142.24"/>
+<instance part="IC7" gate="G$1" x="-134.62" y="104.14"/>
+<instance part="IC8" gate="G$1" x="-134.62" y="66.04"/>
+<instance part="IC9" gate="G$1" x="-134.62" y="27.94"/>
 <instance part="R5" gate="G$1" x="53.34" y="144.78"/>
 <instance part="R10" gate="G$1" x="53.34" y="137.16"/>
 <instance part="R11" gate="G$1" x="53.34" y="129.54"/>
@@ -16951,7 +16952,7 @@ Revised By Daniel Baron, Thomas Wilson</text>
 <pinref part="X6" gate="G$1" pin="C12"/>
 </segment>
 <segment>
-<pinref part="U$4" gate="G$1" pin="VCC"/>
+<pinref part="IC5" gate="G$1" pin="VCC"/>
 <wire x1="-119.38" y1="193.04" x2="-101.6" y2="193.04" width="0.1524" layer="91"/>
 <label x="-101.6" y="193.04" size="1.27" layer="95" xref="yes"/>
 <pinref part="C4" gate="G$1" pin="1"/>
@@ -16962,28 +16963,28 @@ Revised By Daniel Baron, Thomas Wilson</text>
 <label x="-101.6" y="154.94" size="1.27" layer="95" xref="yes"/>
 <pinref part="C5" gate="G$1" pin="1"/>
 <wire x1="-101.6" y1="154.94" x2="-101.6" y2="144.78" width="0.1524" layer="91"/>
-<pinref part="IC5" gate="G$1" pin="VCC"/>
+<pinref part="IC6" gate="G$1" pin="VCC"/>
 </segment>
 <segment>
 <wire x1="-119.38" y1="116.84" x2="-101.6" y2="116.84" width="0.1524" layer="91"/>
 <label x="-101.6" y="116.84" size="1.27" layer="95" xref="yes"/>
 <pinref part="C6" gate="G$1" pin="1"/>
 <wire x1="-101.6" y1="116.84" x2="-101.6" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="IC6" gate="G$1" pin="VCC"/>
+<pinref part="IC7" gate="G$1" pin="VCC"/>
 </segment>
 <segment>
 <wire x1="-119.38" y1="78.74" x2="-101.6" y2="78.74" width="0.1524" layer="91"/>
 <label x="-101.6" y="78.74" size="1.27" layer="95" xref="yes"/>
 <pinref part="C7" gate="G$1" pin="1"/>
 <wire x1="-101.6" y1="78.74" x2="-101.6" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="IC7" gate="G$1" pin="VCC"/>
+<pinref part="IC8" gate="G$1" pin="VCC"/>
 </segment>
 <segment>
 <wire x1="-119.38" y1="40.64" x2="-101.6" y2="40.64" width="0.1524" layer="91"/>
 <label x="-101.6" y="40.64" size="1.27" layer="95" xref="yes"/>
 <pinref part="C8" gate="G$1" pin="1"/>
 <wire x1="-101.6" y1="40.64" x2="-101.6" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="IC8" gate="G$1" pin="VCC"/>
+<pinref part="IC9" gate="G$1" pin="VCC"/>
 </segment>
 <segment>
 <label x="-12.7" y="13.97" size="1.778" layer="95"/>
@@ -17068,7 +17069,7 @@ Revised By Daniel Baron, Thomas Wilson</text>
 <pinref part="GND9" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="U$4" gate="G$1" pin="GND"/>
+<pinref part="IC5" gate="G$1" pin="GND"/>
 <wire x1="-149.86" y1="165.1" x2="-154.94" y2="165.1" width="0.1524" layer="91"/>
 <label x="-154.94" y="165.1" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="C4" gate="G$1" pin="2"/>
@@ -17077,7 +17078,7 @@ Revised By Daniel Baron, Thomas Wilson</text>
 <wire x1="-149.86" y1="160.02" x2="-149.86" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC5" gate="G$1" pin="GND"/>
+<pinref part="IC6" gate="G$1" pin="GND"/>
 <wire x1="-149.86" y1="127" x2="-154.94" y2="127" width="0.1524" layer="91"/>
 <label x="-154.94" y="127" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="C5" gate="G$1" pin="2"/>
@@ -17086,17 +17087,17 @@ Revised By Daniel Baron, Thomas Wilson</text>
 <wire x1="-149.86" y1="121.92" x2="-149.86" y2="127" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$4" gate="G$1" pin="EN"/>
+<pinref part="IC5" gate="G$1" pin="EN"/>
 <wire x1="-119.38" y1="170.18" x2="-114.3" y2="170.18" width="0.1524" layer="91"/>
 <label x="-114.3" y="170.18" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC5" gate="G$1" pin="EN"/>
+<pinref part="IC6" gate="G$1" pin="EN"/>
 <wire x1="-119.38" y1="132.08" x2="-114.3" y2="132.08" width="0.1524" layer="91"/>
 <label x="-114.3" y="132.08" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC6" gate="G$1" pin="GND"/>
+<pinref part="IC7" gate="G$1" pin="GND"/>
 <wire x1="-149.86" y1="88.9" x2="-154.94" y2="88.9" width="0.1524" layer="91"/>
 <label x="-154.94" y="88.9" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="C6" gate="G$1" pin="2"/>
@@ -17105,7 +17106,7 @@ Revised By Daniel Baron, Thomas Wilson</text>
 <wire x1="-149.86" y1="83.82" x2="-149.86" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC7" gate="G$1" pin="GND"/>
+<pinref part="IC8" gate="G$1" pin="GND"/>
 <wire x1="-149.86" y1="50.8" x2="-154.94" y2="50.8" width="0.1524" layer="91"/>
 <label x="-154.94" y="50.8" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="C7" gate="G$1" pin="2"/>
@@ -17114,21 +17115,21 @@ Revised By Daniel Baron, Thomas Wilson</text>
 <wire x1="-149.86" y1="45.72" x2="-149.86" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC7" gate="G$1" pin="EN"/>
+<pinref part="IC8" gate="G$1" pin="EN"/>
 <wire x1="-119.38" y1="55.88" x2="-114.3" y2="55.88" width="0.1524" layer="91"/>
 <label x="-114.3" y="55.88" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC8" gate="G$1" pin="GND"/>
-<wire x1="-149.86" y1="12.7" x2="-154.94" y2="12.7" width="0.1524" layer="91"/>
-<label x="-154.94" y="12.7" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="C8" gate="G$1" pin="2"/>
 <wire x1="-101.6" y1="22.86" x2="-101.6" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="-101.6" y1="7.62" x2="-149.86" y2="7.62" width="0.1524" layer="91"/>
-<wire x1="-149.86" y1="7.62" x2="-149.86" y2="12.7" width="0.1524" layer="91"/>
+<pinref part="IC9" gate="G$1" pin="GND"/>
+<wire x1="-149.86" y1="12.7" x2="-149.86" y2="7.62" width="0.1524" layer="91"/>
+<label x="-154.94" y="12.7" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="-154.94" y1="12.7" x2="-149.86" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC8" gate="G$1" pin="EN"/>
+<pinref part="IC9" gate="G$1" pin="EN"/>
 <wire x1="-119.38" y1="17.78" x2="-114.3" y2="17.78" width="0.1524" layer="91"/>
 <label x="-114.3" y="17.78" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -17506,47 +17507,47 @@ Revised By Daniel Baron, Thomas Wilson</text>
 <label x="1.27" y="44.45" size="1.016" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC5" gate="G$1" pin="I7"/>
+<pinref part="IC6" gate="G$1" pin="I7"/>
 <wire x1="-149.86" y1="152.4" x2="-154.94" y2="152.4" width="0.1524" layer="91"/>
 <label x="-154.94" y="152.4" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC5" gate="G$1" pin="I6"/>
+<pinref part="IC6" gate="G$1" pin="I6"/>
 <wire x1="-149.86" y1="149.86" x2="-154.94" y2="149.86" width="0.1524" layer="91"/>
 <label x="-154.94" y="149.86" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC5" gate="G$1" pin="I5"/>
+<pinref part="IC6" gate="G$1" pin="I5"/>
 <wire x1="-149.86" y1="147.32" x2="-154.94" y2="147.32" width="0.1524" layer="91"/>
 <label x="-154.94" y="147.32" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC5" gate="G$1" pin="I4"/>
+<pinref part="IC6" gate="G$1" pin="I4"/>
 <wire x1="-149.86" y1="144.78" x2="-154.94" y2="144.78" width="0.1524" layer="91"/>
 <label x="-154.94" y="144.78" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC5" gate="G$1" pin="I8"/>
+<pinref part="IC6" gate="G$1" pin="I8"/>
 <wire x1="-119.38" y1="152.4" x2="-114.3" y2="152.4" width="0.1524" layer="91"/>
 <label x="-114.3" y="152.4" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC5" gate="G$1" pin="I9"/>
+<pinref part="IC6" gate="G$1" pin="I9"/>
 <wire x1="-119.38" y1="149.86" x2="-114.3" y2="149.86" width="0.1524" layer="91"/>
 <label x="-114.3" y="149.86" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC5" gate="G$1" pin="I10"/>
+<pinref part="IC6" gate="G$1" pin="I10"/>
 <wire x1="-119.38" y1="147.32" x2="-114.3" y2="147.32" width="0.1524" layer="91"/>
 <label x="-114.3" y="147.32" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC5" gate="G$1" pin="I11"/>
+<pinref part="IC6" gate="G$1" pin="I11"/>
 <wire x1="-119.38" y1="144.78" x2="-114.3" y2="144.78" width="0.1524" layer="91"/>
 <label x="-114.3" y="144.78" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC6" gate="G$1" pin="EN"/>
+<pinref part="IC7" gate="G$1" pin="EN"/>
 <wire x1="-119.38" y1="93.98" x2="-114.3" y2="93.98" width="0.1524" layer="91"/>
 <label x="-114.3" y="93.98" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -17704,9 +17705,9 @@ Revised By Daniel Baron, Thomas Wilson</text>
 <pinref part="IC1" gate="G$1" pin="(TXD0/PDO)PE1"/>
 </segment>
 <segment>
-<label x="-12.7" y="11.43" size="1.778" layer="95"/>
-<pinref part="ISP1" gate="G$1" pin="MOSI"/>
-<wire x1="-20.574" y1="11.43" x2="-12.7" y2="11.43" width="0.1524" layer="91"/>
+<wire x1="-40.894" y1="13.97" x2="-48.26" y2="13.97" width="0.1524" layer="91"/>
+<label x="-50.8" y="13.97" size="1.778" layer="95"/>
+<pinref part="ISP1" gate="G$1" pin="MISO"/>
 </segment>
 </net>
 <net name="RX" class="0">
@@ -17716,9 +17717,9 @@ Revised By Daniel Baron, Thomas Wilson</text>
 <pinref part="IC1" gate="G$1" pin="(RXD0/PDI)PE0"/>
 </segment>
 <segment>
-<wire x1="-40.894" y1="13.97" x2="-48.26" y2="13.97" width="0.1524" layer="91"/>
-<label x="-50.8" y="13.97" size="1.778" layer="95"/>
-<pinref part="ISP1" gate="G$1" pin="MISO"/>
+<label x="-12.7" y="11.43" size="1.778" layer="95"/>
+<pinref part="ISP1" gate="G$1" pin="MOSI"/>
+<wire x1="-20.574" y1="11.43" x2="-12.7" y2="11.43" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RX1" class="0">
@@ -17854,7 +17855,7 @@ Revised By Daniel Baron, Thomas Wilson</text>
 <label x="43.18" y="190.5" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC8" gate="G$1" pin="I15"/>
+<pinref part="IC9" gate="G$1" pin="I15"/>
 <wire x1="-119.38" y1="20.32" x2="-114.3" y2="20.32" width="0.1524" layer="91"/>
 <label x="-114.3" y="20.32" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -17892,7 +17893,7 @@ Revised By Daniel Baron, Thomas Wilson</text>
 <pinref part="X1" gate="G$1" pin="C24"/>
 </segment>
 <segment>
-<pinref part="IC7" gate="G$1" pin="I12"/>
+<pinref part="IC8" gate="G$1" pin="I12"/>
 <wire x1="-119.38" y1="66.04" x2="-114.3" y2="66.04" width="0.1524" layer="91"/>
 <label x="-114.3" y="66.04" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -17909,7 +17910,7 @@ Revised By Daniel Baron, Thomas Wilson</text>
 <label x="43.18" y="91.44" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC7" gate="G$1" pin="I10"/>
+<pinref part="IC8" gate="G$1" pin="I10"/>
 <wire x1="-119.38" y1="71.12" x2="-114.3" y2="71.12" width="0.1524" layer="91"/>
 <label x="-114.3" y="71.12" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -17926,7 +17927,7 @@ Revised By Daniel Baron, Thomas Wilson</text>
 <label x="43.18" y="83.82" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC7" gate="G$1" pin="I9"/>
+<pinref part="IC8" gate="G$1" pin="I9"/>
 <wire x1="-119.38" y1="73.66" x2="-114.3" y2="73.66" width="0.1524" layer="91"/>
 <label x="-114.3" y="73.66" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -17943,34 +17944,34 @@ Revised By Daniel Baron, Thomas Wilson</text>
 <label x="43.18" y="76.2" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC7" gate="G$1" pin="I8"/>
+<pinref part="IC8" gate="G$1" pin="I8"/>
 <wire x1="-119.38" y1="76.2" x2="-114.3" y2="76.2" width="0.1524" layer="91"/>
 <label x="-114.3" y="76.2" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="S2" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="S2"/>
+<pinref part="IC5" gate="G$1" pin="S2"/>
 <wire x1="-119.38" y1="167.64" x2="-114.3" y2="167.64" width="0.1524" layer="91"/>
 <label x="-114.3" y="167.64" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC5" gate="G$1" pin="S2"/>
+<pinref part="IC6" gate="G$1" pin="S2"/>
 <wire x1="-119.38" y1="129.54" x2="-114.3" y2="129.54" width="0.1524" layer="91"/>
 <label x="-114.3" y="129.54" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC6" gate="G$1" pin="S2"/>
+<pinref part="IC7" gate="G$1" pin="S2"/>
 <wire x1="-119.38" y1="91.44" x2="-114.3" y2="91.44" width="0.1524" layer="91"/>
 <label x="-114.3" y="91.44" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC7" gate="G$1" pin="S2"/>
+<pinref part="IC8" gate="G$1" pin="S2"/>
 <wire x1="-119.38" y1="53.34" x2="-114.3" y2="53.34" width="0.1524" layer="91"/>
 <label x="-114.3" y="53.34" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC8" gate="G$1" pin="S2"/>
+<pinref part="IC9" gate="G$1" pin="S2"/>
 <wire x1="-119.38" y1="15.24" x2="-114.3" y2="15.24" width="0.1524" layer="91"/>
 <label x="-114.3" y="15.24" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -17982,27 +17983,27 @@ Revised By Daniel Baron, Thomas Wilson</text>
 </net>
 <net name="S3" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="S3"/>
+<pinref part="IC5" gate="G$1" pin="S3"/>
 <wire x1="-119.38" y1="165.1" x2="-114.3" y2="165.1" width="0.1524" layer="91"/>
 <label x="-114.3" y="165.1" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC5" gate="G$1" pin="S3"/>
+<pinref part="IC6" gate="G$1" pin="S3"/>
 <wire x1="-119.38" y1="127" x2="-114.3" y2="127" width="0.1524" layer="91"/>
 <label x="-114.3" y="127" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC6" gate="G$1" pin="S3"/>
+<pinref part="IC7" gate="G$1" pin="S3"/>
 <wire x1="-119.38" y1="88.9" x2="-114.3" y2="88.9" width="0.1524" layer="91"/>
 <label x="-114.3" y="88.9" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC7" gate="G$1" pin="S3"/>
+<pinref part="IC8" gate="G$1" pin="S3"/>
 <wire x1="-119.38" y1="50.8" x2="-114.3" y2="50.8" width="0.1524" layer="91"/>
 <label x="-114.3" y="50.8" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC8" gate="G$1" pin="S3"/>
+<pinref part="IC9" gate="G$1" pin="S3"/>
 <wire x1="-119.38" y1="12.7" x2="-114.3" y2="12.7" width="0.1524" layer="91"/>
 <label x="-114.3" y="12.7" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -18014,7 +18015,7 @@ Revised By Daniel Baron, Thomas Wilson</text>
 </net>
 <net name="OUT4" class="0">
 <segment>
-<pinref part="IC8" gate="G$1" pin="OUT"/>
+<pinref part="IC9" gate="G$1" pin="OUT"/>
 <wire x1="-149.86" y1="40.64" x2="-154.94" y2="40.64" width="0.1524" layer="91"/>
 <label x="-154.94" y="40.64" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -18026,27 +18027,27 @@ Revised By Daniel Baron, Thomas Wilson</text>
 </net>
 <net name="S0" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="S0"/>
+<pinref part="IC5" gate="G$1" pin="S0"/>
 <wire x1="-149.86" y1="170.18" x2="-154.94" y2="170.18" width="0.1524" layer="91"/>
 <label x="-154.94" y="170.18" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC5" gate="G$1" pin="S0"/>
+<pinref part="IC6" gate="G$1" pin="S0"/>
 <wire x1="-149.86" y1="132.08" x2="-154.94" y2="132.08" width="0.1524" layer="91"/>
 <label x="-154.94" y="132.08" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC6" gate="G$1" pin="S0"/>
+<pinref part="IC7" gate="G$1" pin="S0"/>
 <wire x1="-149.86" y1="93.98" x2="-154.94" y2="93.98" width="0.1524" layer="91"/>
 <label x="-154.94" y="93.98" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC7" gate="G$1" pin="S0"/>
+<pinref part="IC8" gate="G$1" pin="S0"/>
 <wire x1="-149.86" y1="55.88" x2="-154.94" y2="55.88" width="0.1524" layer="91"/>
 <label x="-154.94" y="55.88" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC8" gate="G$1" pin="S0"/>
+<pinref part="IC9" gate="G$1" pin="S0"/>
 <wire x1="-149.86" y1="17.78" x2="-154.94" y2="17.78" width="0.1524" layer="91"/>
 <label x="-154.94" y="17.78" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -18058,27 +18059,27 @@ Revised By Daniel Baron, Thomas Wilson</text>
 </net>
 <net name="S1" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="S1"/>
+<pinref part="IC5" gate="G$1" pin="S1"/>
 <wire x1="-149.86" y1="167.64" x2="-154.94" y2="167.64" width="0.1524" layer="91"/>
 <label x="-154.94" y="167.64" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC5" gate="G$1" pin="S1"/>
+<pinref part="IC6" gate="G$1" pin="S1"/>
 <wire x1="-149.86" y1="129.54" x2="-154.94" y2="129.54" width="0.1524" layer="91"/>
 <label x="-154.94" y="129.54" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC6" gate="G$1" pin="S1"/>
+<pinref part="IC7" gate="G$1" pin="S1"/>
 <wire x1="-149.86" y1="91.44" x2="-154.94" y2="91.44" width="0.1524" layer="91"/>
 <label x="-154.94" y="91.44" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC7" gate="G$1" pin="S1"/>
+<pinref part="IC8" gate="G$1" pin="S1"/>
 <wire x1="-149.86" y1="53.34" x2="-154.94" y2="53.34" width="0.1524" layer="91"/>
 <label x="-154.94" y="53.34" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC8" gate="G$1" pin="S1"/>
+<pinref part="IC9" gate="G$1" pin="S1"/>
 <wire x1="-149.86" y1="15.24" x2="-154.94" y2="15.24" width="0.1524" layer="91"/>
 <label x="-154.94" y="15.24" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -18100,7 +18101,7 @@ Revised By Daniel Baron, Thomas Wilson</text>
 <label x="43.18" y="68.58" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$4" gate="G$1" pin="I15"/>
+<pinref part="IC5" gate="G$1" pin="I15"/>
 <wire x1="-119.38" y1="172.72" x2="-114.3" y2="172.72" width="0.1524" layer="91"/>
 <label x="-114.3" y="172.72" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -18117,7 +18118,7 @@ Revised By Daniel Baron, Thomas Wilson</text>
 <label x="43.18" y="60.96" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$4" gate="G$1" pin="I14"/>
+<pinref part="IC5" gate="G$1" pin="I14"/>
 <wire x1="-119.38" y1="175.26" x2="-114.3" y2="175.26" width="0.1524" layer="91"/>
 <label x="-114.3" y="175.26" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -18134,7 +18135,7 @@ Revised By Daniel Baron, Thomas Wilson</text>
 <label x="43.18" y="53.34" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$4" gate="G$1" pin="I13"/>
+<pinref part="IC5" gate="G$1" pin="I13"/>
 <wire x1="-119.38" y1="177.8" x2="-114.3" y2="177.8" width="0.1524" layer="91"/>
 <label x="-114.3" y="177.8" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -18151,7 +18152,7 @@ Revised By Daniel Baron, Thomas Wilson</text>
 <label x="43.18" y="45.72" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$4" gate="G$1" pin="I12"/>
+<pinref part="IC5" gate="G$1" pin="I12"/>
 <wire x1="-119.38" y1="180.34" x2="-114.3" y2="180.34" width="0.1524" layer="91"/>
 <label x="-114.3" y="180.34" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -18168,7 +18169,7 @@ Revised By Daniel Baron, Thomas Wilson</text>
 <label x="43.18" y="38.1" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$4" gate="G$1" pin="I11"/>
+<pinref part="IC5" gate="G$1" pin="I11"/>
 <wire x1="-119.38" y1="182.88" x2="-114.3" y2="182.88" width="0.1524" layer="91"/>
 <label x="-114.3" y="182.88" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -18185,7 +18186,7 @@ Revised By Daniel Baron, Thomas Wilson</text>
 <label x="43.18" y="30.48" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$4" gate="G$1" pin="I10"/>
+<pinref part="IC5" gate="G$1" pin="I10"/>
 <wire x1="-119.38" y1="185.42" x2="-114.3" y2="185.42" width="0.1524" layer="91"/>
 <label x="-114.3" y="185.42" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -18202,7 +18203,7 @@ Revised By Daniel Baron, Thomas Wilson</text>
 <label x="43.18" y="22.86" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$4" gate="G$1" pin="I9"/>
+<pinref part="IC5" gate="G$1" pin="I9"/>
 <wire x1="-119.38" y1="187.96" x2="-114.3" y2="187.96" width="0.1524" layer="91"/>
 <label x="-114.3" y="187.96" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -18219,7 +18220,7 @@ Revised By Daniel Baron, Thomas Wilson</text>
 <label x="43.18" y="15.24" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$4" gate="G$1" pin="I8"/>
+<pinref part="IC5" gate="G$1" pin="I8"/>
 <wire x1="-119.38" y1="190.5" x2="-114.3" y2="190.5" width="0.1524" layer="91"/>
 <label x="-114.3" y="190.5" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -18236,7 +18237,7 @@ Revised By Daniel Baron, Thomas Wilson</text>
 <label x="83.82" y="190.5" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC5" gate="G$1" pin="I15"/>
+<pinref part="IC6" gate="G$1" pin="I15"/>
 <wire x1="-119.38" y1="134.62" x2="-114.3" y2="134.62" width="0.1524" layer="91"/>
 <label x="-114.3" y="134.62" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -18253,7 +18254,7 @@ Revised By Daniel Baron, Thomas Wilson</text>
 <label x="83.82" y="182.88" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC5" gate="G$1" pin="I14"/>
+<pinref part="IC6" gate="G$1" pin="I14"/>
 <wire x1="-119.38" y1="137.16" x2="-114.3" y2="137.16" width="0.1524" layer="91"/>
 <label x="-114.3" y="137.16" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -18270,7 +18271,7 @@ Revised By Daniel Baron, Thomas Wilson</text>
 <label x="83.82" y="175.26" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC5" gate="G$1" pin="I13"/>
+<pinref part="IC6" gate="G$1" pin="I13"/>
 <wire x1="-119.38" y1="139.7" x2="-114.3" y2="139.7" width="0.1524" layer="91"/>
 <label x="-114.3" y="139.7" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -18287,7 +18288,7 @@ Revised By Daniel Baron, Thomas Wilson</text>
 <label x="83.82" y="167.64" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC5" gate="G$1" pin="I12"/>
+<pinref part="IC6" gate="G$1" pin="I12"/>
 <wire x1="-119.38" y1="142.24" x2="-114.3" y2="142.24" width="0.1524" layer="91"/>
 <label x="-114.3" y="142.24" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -18304,7 +18305,7 @@ Revised By Daniel Baron, Thomas Wilson</text>
 <label x="83.82" y="160.02" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC6" gate="G$1" pin="I15"/>
+<pinref part="IC7" gate="G$1" pin="I15"/>
 <wire x1="-119.38" y1="96.52" x2="-114.3" y2="96.52" width="0.1524" layer="91"/>
 <label x="-114.3" y="96.52" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -18321,7 +18322,7 @@ Revised By Daniel Baron, Thomas Wilson</text>
 <label x="83.82" y="152.4" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC6" gate="G$1" pin="I14"/>
+<pinref part="IC7" gate="G$1" pin="I14"/>
 <wire x1="-119.38" y1="99.06" x2="-114.3" y2="99.06" width="0.1524" layer="91"/>
 <label x="-114.3" y="99.06" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -18338,7 +18339,7 @@ Revised By Daniel Baron, Thomas Wilson</text>
 <label x="83.82" y="144.78" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC6" gate="G$1" pin="I13"/>
+<pinref part="IC7" gate="G$1" pin="I13"/>
 <wire x1="-119.38" y1="101.6" x2="-114.3" y2="101.6" width="0.1524" layer="91"/>
 <label x="-114.3" y="101.6" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -18355,7 +18356,7 @@ Revised By Daniel Baron, Thomas Wilson</text>
 <label x="83.82" y="137.16" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC6" gate="G$1" pin="I12"/>
+<pinref part="IC7" gate="G$1" pin="I12"/>
 <wire x1="-119.38" y1="104.14" x2="-114.3" y2="104.14" width="0.1524" layer="91"/>
 <label x="-114.3" y="104.14" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -18372,7 +18373,7 @@ Revised By Daniel Baron, Thomas Wilson</text>
 <label x="83.82" y="129.54" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC6" gate="G$1" pin="I11"/>
+<pinref part="IC7" gate="G$1" pin="I11"/>
 <wire x1="-119.38" y1="106.68" x2="-114.3" y2="106.68" width="0.1524" layer="91"/>
 <label x="-114.3" y="106.68" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -18389,7 +18390,7 @@ Revised By Daniel Baron, Thomas Wilson</text>
 <label x="83.82" y="121.92" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC6" gate="G$1" pin="I10"/>
+<pinref part="IC7" gate="G$1" pin="I10"/>
 <wire x1="-119.38" y1="109.22" x2="-114.3" y2="109.22" width="0.1524" layer="91"/>
 <label x="-114.3" y="109.22" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -18406,7 +18407,7 @@ Revised By Daniel Baron, Thomas Wilson</text>
 <label x="83.82" y="114.3" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC6" gate="G$1" pin="I9"/>
+<pinref part="IC7" gate="G$1" pin="I9"/>
 <wire x1="-119.38" y1="111.76" x2="-114.3" y2="111.76" width="0.1524" layer="91"/>
 <label x="-114.3" y="111.76" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -18423,7 +18424,7 @@ Revised By Daniel Baron, Thomas Wilson</text>
 <label x="83.82" y="106.68" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC6" gate="G$1" pin="I8"/>
+<pinref part="IC7" gate="G$1" pin="I8"/>
 <wire x1="-119.38" y1="114.3" x2="-114.3" y2="114.3" width="0.1524" layer="91"/>
 <label x="-114.3" y="114.3" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -18440,7 +18441,7 @@ Revised By Daniel Baron, Thomas Wilson</text>
 <label x="83.82" y="99.06" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC6" gate="G$1" pin="I7"/>
+<pinref part="IC7" gate="G$1" pin="I7"/>
 <wire x1="-149.86" y1="114.3" x2="-154.94" y2="114.3" width="0.1524" layer="91"/>
 <label x="-154.94" y="114.3" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -18457,7 +18458,7 @@ Revised By Daniel Baron, Thomas Wilson</text>
 <label x="83.82" y="91.44" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC6" gate="G$1" pin="I6"/>
+<pinref part="IC7" gate="G$1" pin="I6"/>
 <wire x1="-149.86" y1="111.76" x2="-154.94" y2="111.76" width="0.1524" layer="91"/>
 <label x="-154.94" y="111.76" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -18474,7 +18475,7 @@ Revised By Daniel Baron, Thomas Wilson</text>
 <label x="83.82" y="83.82" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC6" gate="G$1" pin="I5"/>
+<pinref part="IC7" gate="G$1" pin="I5"/>
 <wire x1="-149.86" y1="109.22" x2="-154.94" y2="109.22" width="0.1524" layer="91"/>
 <label x="-154.94" y="109.22" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -18491,7 +18492,7 @@ Revised By Daniel Baron, Thomas Wilson</text>
 <label x="83.82" y="76.2" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC6" gate="G$1" pin="I4"/>
+<pinref part="IC7" gate="G$1" pin="I4"/>
 <wire x1="-149.86" y1="106.68" x2="-154.94" y2="106.68" width="0.1524" layer="91"/>
 <label x="-154.94" y="106.68" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -18508,7 +18509,7 @@ Revised By Daniel Baron, Thomas Wilson</text>
 <label x="83.82" y="68.58" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC6" gate="G$1" pin="I3"/>
+<pinref part="IC7" gate="G$1" pin="I3"/>
 <wire x1="-149.86" y1="104.14" x2="-154.94" y2="104.14" width="0.1524" layer="91"/>
 <label x="-154.94" y="104.14" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -18525,7 +18526,7 @@ Revised By Daniel Baron, Thomas Wilson</text>
 <label x="83.82" y="60.96" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC6" gate="G$1" pin="I2"/>
+<pinref part="IC7" gate="G$1" pin="I2"/>
 <wire x1="-149.86" y1="101.6" x2="-154.94" y2="101.6" width="0.1524" layer="91"/>
 <label x="-154.94" y="101.6" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -18542,7 +18543,7 @@ Revised By Daniel Baron, Thomas Wilson</text>
 <label x="83.82" y="53.34" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC6" gate="G$1" pin="I1"/>
+<pinref part="IC7" gate="G$1" pin="I1"/>
 <wire x1="-149.86" y1="99.06" x2="-154.94" y2="99.06" width="0.1524" layer="91"/>
 <label x="-154.94" y="99.06" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -18559,7 +18560,7 @@ Revised By Daniel Baron, Thomas Wilson</text>
 <label x="83.82" y="45.72" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC6" gate="G$1" pin="I0"/>
+<pinref part="IC7" gate="G$1" pin="I0"/>
 <wire x1="-149.86" y1="96.52" x2="-154.94" y2="96.52" width="0.1524" layer="91"/>
 <label x="-154.94" y="96.52" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -18576,7 +18577,7 @@ Revised By Daniel Baron, Thomas Wilson</text>
 <label x="83.82" y="38.1" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC5" gate="G$1" pin="I3"/>
+<pinref part="IC6" gate="G$1" pin="I3"/>
 <wire x1="-149.86" y1="142.24" x2="-154.94" y2="142.24" width="0.1524" layer="91"/>
 <label x="-154.94" y="142.24" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -18593,7 +18594,7 @@ Revised By Daniel Baron, Thomas Wilson</text>
 <label x="83.82" y="30.48" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC5" gate="G$1" pin="I2"/>
+<pinref part="IC6" gate="G$1" pin="I2"/>
 <wire x1="-149.86" y1="139.7" x2="-154.94" y2="139.7" width="0.1524" layer="91"/>
 <label x="-154.94" y="139.7" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -18610,7 +18611,7 @@ Revised By Daniel Baron, Thomas Wilson</text>
 <label x="83.82" y="22.86" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC5" gate="G$1" pin="I1"/>
+<pinref part="IC6" gate="G$1" pin="I1"/>
 <wire x1="-149.86" y1="137.16" x2="-154.94" y2="137.16" width="0.1524" layer="91"/>
 <label x="-154.94" y="137.16" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -18627,7 +18628,7 @@ Revised By Daniel Baron, Thomas Wilson</text>
 <label x="83.82" y="15.24" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC5" gate="G$1" pin="I0"/>
+<pinref part="IC6" gate="G$1" pin="I0"/>
 <wire x1="-149.86" y1="134.62" x2="-154.94" y2="134.62" width="0.1524" layer="91"/>
 <label x="-154.94" y="134.62" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -18644,7 +18645,7 @@ Revised By Daniel Baron, Thomas Wilson</text>
 <label x="124.46" y="190.5" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$4" gate="G$1" pin="I7"/>
+<pinref part="IC5" gate="G$1" pin="I7"/>
 <wire x1="-149.86" y1="190.5" x2="-154.94" y2="190.5" width="0.1524" layer="91"/>
 <label x="-154.94" y="190.5" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -18661,7 +18662,7 @@ Revised By Daniel Baron, Thomas Wilson</text>
 <label x="124.46" y="182.88" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$4" gate="G$1" pin="I6"/>
+<pinref part="IC5" gate="G$1" pin="I6"/>
 <wire x1="-149.86" y1="187.96" x2="-154.94" y2="187.96" width="0.1524" layer="91"/>
 <label x="-154.94" y="187.96" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -18678,7 +18679,7 @@ Revised By Daniel Baron, Thomas Wilson</text>
 <label x="124.46" y="175.26" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$4" gate="G$1" pin="I5"/>
+<pinref part="IC5" gate="G$1" pin="I5"/>
 <wire x1="-149.86" y1="185.42" x2="-154.94" y2="185.42" width="0.1524" layer="91"/>
 <label x="-154.94" y="185.42" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -18695,7 +18696,7 @@ Revised By Daniel Baron, Thomas Wilson</text>
 <label x="124.46" y="167.64" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$4" gate="G$1" pin="I4"/>
+<pinref part="IC5" gate="G$1" pin="I4"/>
 <wire x1="-149.86" y1="182.88" x2="-154.94" y2="182.88" width="0.1524" layer="91"/>
 <label x="-154.94" y="182.88" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -18712,7 +18713,7 @@ Revised By Daniel Baron, Thomas Wilson</text>
 <label x="124.46" y="160.02" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$4" gate="G$1" pin="I3"/>
+<pinref part="IC5" gate="G$1" pin="I3"/>
 <wire x1="-149.86" y1="180.34" x2="-154.94" y2="180.34" width="0.1524" layer="91"/>
 <label x="-154.94" y="180.34" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -18729,7 +18730,7 @@ Revised By Daniel Baron, Thomas Wilson</text>
 <label x="124.46" y="152.4" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$4" gate="G$1" pin="I2"/>
+<pinref part="IC5" gate="G$1" pin="I2"/>
 <wire x1="-149.86" y1="177.8" x2="-154.94" y2="177.8" width="0.1524" layer="91"/>
 <label x="-154.94" y="177.8" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -18746,7 +18747,7 @@ Revised By Daniel Baron, Thomas Wilson</text>
 <label x="124.46" y="144.78" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$4" gate="G$1" pin="I1"/>
+<pinref part="IC5" gate="G$1" pin="I1"/>
 <wire x1="-149.86" y1="175.26" x2="-154.94" y2="175.26" width="0.1524" layer="91"/>
 <label x="-154.94" y="175.26" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -18763,7 +18764,7 @@ Revised By Daniel Baron, Thomas Wilson</text>
 <label x="124.46" y="137.16" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$4" gate="G$1" pin="I0"/>
+<pinref part="IC5" gate="G$1" pin="I0"/>
 <wire x1="-149.86" y1="172.72" x2="-154.94" y2="172.72" width="0.1524" layer="91"/>
 <label x="-154.94" y="172.72" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -18780,7 +18781,7 @@ Revised By Daniel Baron, Thomas Wilson</text>
 <label x="124.46" y="129.54" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC7" gate="G$1" pin="I7"/>
+<pinref part="IC8" gate="G$1" pin="I7"/>
 <wire x1="-149.86" y1="76.2" x2="-154.94" y2="76.2" width="0.1524" layer="91"/>
 <label x="-154.94" y="76.2" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -18797,7 +18798,7 @@ Revised By Daniel Baron, Thomas Wilson</text>
 <label x="124.46" y="121.92" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC7" gate="G$1" pin="I6"/>
+<pinref part="IC8" gate="G$1" pin="I6"/>
 <wire x1="-149.86" y1="73.66" x2="-154.94" y2="73.66" width="0.1524" layer="91"/>
 <label x="-154.94" y="73.66" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -18814,7 +18815,7 @@ Revised By Daniel Baron, Thomas Wilson</text>
 <label x="124.46" y="114.3" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC7" gate="G$1" pin="I5"/>
+<pinref part="IC8" gate="G$1" pin="I5"/>
 <wire x1="-149.86" y1="71.12" x2="-154.94" y2="71.12" width="0.1524" layer="91"/>
 <label x="-154.94" y="71.12" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -18831,7 +18832,7 @@ Revised By Daniel Baron, Thomas Wilson</text>
 <label x="124.46" y="106.68" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC7" gate="G$1" pin="I4"/>
+<pinref part="IC8" gate="G$1" pin="I4"/>
 <wire x1="-149.86" y1="68.58" x2="-154.94" y2="68.58" width="0.1524" layer="91"/>
 <label x="-154.94" y="68.58" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -18848,7 +18849,7 @@ Revised By Daniel Baron, Thomas Wilson</text>
 <label x="124.46" y="99.06" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC7" gate="G$1" pin="I3"/>
+<pinref part="IC8" gate="G$1" pin="I3"/>
 <wire x1="-149.86" y1="66.04" x2="-154.94" y2="66.04" width="0.1524" layer="91"/>
 <label x="-154.94" y="66.04" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -18865,7 +18866,7 @@ Revised By Daniel Baron, Thomas Wilson</text>
 <label x="124.46" y="91.44" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC7" gate="G$1" pin="I2"/>
+<pinref part="IC8" gate="G$1" pin="I2"/>
 <wire x1="-149.86" y1="63.5" x2="-154.94" y2="63.5" width="0.1524" layer="91"/>
 <label x="-154.94" y="63.5" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -18882,7 +18883,7 @@ Revised By Daniel Baron, Thomas Wilson</text>
 <label x="124.46" y="83.82" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC7" gate="G$1" pin="I1"/>
+<pinref part="IC8" gate="G$1" pin="I1"/>
 <wire x1="-149.86" y1="60.96" x2="-154.94" y2="60.96" width="0.1524" layer="91"/>
 <label x="-154.94" y="60.96" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -18899,7 +18900,7 @@ Revised By Daniel Baron, Thomas Wilson</text>
 <label x="124.46" y="76.2" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC7" gate="G$1" pin="I0"/>
+<pinref part="IC8" gate="G$1" pin="I0"/>
 <wire x1="-149.86" y1="58.42" x2="-154.94" y2="58.42" width="0.1524" layer="91"/>
 <label x="-154.94" y="58.42" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -18916,7 +18917,7 @@ Revised By Daniel Baron, Thomas Wilson</text>
 <label x="124.46" y="68.58" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC8" gate="G$1" pin="I7"/>
+<pinref part="IC9" gate="G$1" pin="I7"/>
 <wire x1="-149.86" y1="38.1" x2="-154.94" y2="38.1" width="0.1524" layer="91"/>
 <label x="-154.94" y="38.1" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -18933,7 +18934,7 @@ Revised By Daniel Baron, Thomas Wilson</text>
 <label x="124.46" y="60.96" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC8" gate="G$1" pin="I6"/>
+<pinref part="IC9" gate="G$1" pin="I6"/>
 <wire x1="-149.86" y1="35.56" x2="-154.94" y2="35.56" width="0.1524" layer="91"/>
 <label x="-154.94" y="35.56" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -18950,7 +18951,7 @@ Revised By Daniel Baron, Thomas Wilson</text>
 <label x="124.46" y="53.34" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC8" gate="G$1" pin="I5"/>
+<pinref part="IC9" gate="G$1" pin="I5"/>
 <wire x1="-149.86" y1="33.02" x2="-154.94" y2="33.02" width="0.1524" layer="91"/>
 <label x="-154.94" y="33.02" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -18967,7 +18968,7 @@ Revised By Daniel Baron, Thomas Wilson</text>
 <label x="124.46" y="45.72" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC8" gate="G$1" pin="I4"/>
+<pinref part="IC9" gate="G$1" pin="I4"/>
 <wire x1="-149.86" y1="30.48" x2="-154.94" y2="30.48" width="0.1524" layer="91"/>
 <label x="-154.94" y="30.48" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -18984,7 +18985,7 @@ Revised By Daniel Baron, Thomas Wilson</text>
 <label x="124.46" y="38.1" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC8" gate="G$1" pin="I3"/>
+<pinref part="IC9" gate="G$1" pin="I3"/>
 <wire x1="-149.86" y1="27.94" x2="-154.94" y2="27.94" width="0.1524" layer="91"/>
 <label x="-154.94" y="27.94" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -19001,7 +19002,7 @@ Revised By Daniel Baron, Thomas Wilson</text>
 <label x="124.46" y="30.48" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC8" gate="G$1" pin="I2"/>
+<pinref part="IC9" gate="G$1" pin="I2"/>
 <wire x1="-149.86" y1="25.4" x2="-154.94" y2="25.4" width="0.1524" layer="91"/>
 <label x="-154.94" y="25.4" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -19018,7 +19019,7 @@ Revised By Daniel Baron, Thomas Wilson</text>
 <label x="124.46" y="22.86" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC8" gate="G$1" pin="I1"/>
+<pinref part="IC9" gate="G$1" pin="I1"/>
 <wire x1="-149.86" y1="22.86" x2="-154.94" y2="22.86" width="0.1524" layer="91"/>
 <label x="-154.94" y="22.86" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -19035,14 +19036,14 @@ Revised By Daniel Baron, Thomas Wilson</text>
 <label x="124.46" y="15.24" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC8" gate="G$1" pin="I0"/>
+<pinref part="IC9" gate="G$1" pin="I0"/>
 <wire x1="-149.86" y1="20.32" x2="-154.94" y2="20.32" width="0.1524" layer="91"/>
 <label x="-154.94" y="20.32" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="OUT0" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="OUT"/>
+<pinref part="IC5" gate="G$1" pin="OUT"/>
 <wire x1="-149.86" y1="193.04" x2="-154.94" y2="193.04" width="0.1524" layer="91"/>
 <label x="-154.94" y="193.04" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -19054,7 +19055,7 @@ Revised By Daniel Baron, Thomas Wilson</text>
 </net>
 <net name="OUT1" class="0">
 <segment>
-<pinref part="IC5" gate="G$1" pin="OUT"/>
+<pinref part="IC6" gate="G$1" pin="OUT"/>
 <wire x1="-149.86" y1="154.94" x2="-154.94" y2="154.94" width="0.1524" layer="91"/>
 <label x="-154.94" y="154.94" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -19067,7 +19068,7 @@ Revised By Daniel Baron, Thomas Wilson</text>
 </net>
 <net name="OUT2" class="0">
 <segment>
-<pinref part="IC6" gate="G$1" pin="OUT"/>
+<pinref part="IC7" gate="G$1" pin="OUT"/>
 <wire x1="-149.86" y1="116.84" x2="-154.94" y2="116.84" width="0.1524" layer="91"/>
 <label x="-154.94" y="116.84" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -19080,7 +19081,7 @@ Revised By Daniel Baron, Thomas Wilson</text>
 </net>
 <net name="OUT3" class="0">
 <segment>
-<pinref part="IC7" gate="G$1" pin="OUT"/>
+<pinref part="IC8" gate="G$1" pin="OUT"/>
 <wire x1="-149.86" y1="78.74" x2="-154.94" y2="78.74" width="0.1524" layer="91"/>
 <label x="-154.94" y="78.74" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -19102,7 +19103,7 @@ Revised By Daniel Baron, Thomas Wilson</text>
 <pinref part="X1" gate="G$1" pin="C14"/>
 </segment>
 <segment>
-<pinref part="IC8" gate="G$1" pin="I14"/>
+<pinref part="IC9" gate="G$1" pin="I14"/>
 <wire x1="-119.38" y1="22.86" x2="-114.3" y2="22.86" width="0.1524" layer="91"/>
 <label x="-114.3" y="22.86" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -19119,7 +19120,7 @@ Revised By Daniel Baron, Thomas Wilson</text>
 <pinref part="X1" gate="G$1" pin="C15"/>
 </segment>
 <segment>
-<pinref part="IC8" gate="G$1" pin="I13"/>
+<pinref part="IC9" gate="G$1" pin="I13"/>
 <wire x1="-119.38" y1="25.4" x2="-114.3" y2="25.4" width="0.1524" layer="91"/>
 <label x="-114.3" y="25.4" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -19136,7 +19137,7 @@ Revised By Daniel Baron, Thomas Wilson</text>
 <pinref part="X1" gate="G$1" pin="C16"/>
 </segment>
 <segment>
-<pinref part="IC8" gate="G$1" pin="I12"/>
+<pinref part="IC9" gate="G$1" pin="I12"/>
 <wire x1="-119.38" y1="27.94" x2="-114.3" y2="27.94" width="0.1524" layer="91"/>
 <label x="-114.3" y="27.94" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -19153,7 +19154,7 @@ Revised By Daniel Baron, Thomas Wilson</text>
 <pinref part="X1" gate="G$1" pin="C17"/>
 </segment>
 <segment>
-<pinref part="IC8" gate="G$1" pin="I11"/>
+<pinref part="IC9" gate="G$1" pin="I11"/>
 <wire x1="-119.38" y1="30.48" x2="-114.3" y2="30.48" width="0.1524" layer="91"/>
 <label x="-114.3" y="30.48" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -19170,7 +19171,7 @@ Revised By Daniel Baron, Thomas Wilson</text>
 <pinref part="X1" gate="G$1" pin="C18"/>
 </segment>
 <segment>
-<pinref part="IC8" gate="G$1" pin="I10"/>
+<pinref part="IC9" gate="G$1" pin="I10"/>
 <wire x1="-119.38" y1="33.02" x2="-114.3" y2="33.02" width="0.1524" layer="91"/>
 <label x="-114.3" y="33.02" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -19187,7 +19188,7 @@ Revised By Daniel Baron, Thomas Wilson</text>
 <pinref part="X1" gate="G$1" pin="C19"/>
 </segment>
 <segment>
-<pinref part="IC8" gate="G$1" pin="I9"/>
+<pinref part="IC9" gate="G$1" pin="I9"/>
 <wire x1="-119.38" y1="35.56" x2="-114.3" y2="35.56" width="0.1524" layer="91"/>
 <label x="-114.3" y="35.56" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -19204,7 +19205,7 @@ Revised By Daniel Baron, Thomas Wilson</text>
 <pinref part="X1" gate="G$1" pin="C20"/>
 </segment>
 <segment>
-<pinref part="IC8" gate="G$1" pin="I8"/>
+<pinref part="IC9" gate="G$1" pin="I8"/>
 <wire x1="-119.38" y1="38.1" x2="-114.3" y2="38.1" width="0.1524" layer="91"/>
 <label x="-114.3" y="38.1" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -19221,7 +19222,7 @@ Revised By Daniel Baron, Thomas Wilson</text>
 <pinref part="X1" gate="G$1" pin="C21"/>
 </segment>
 <segment>
-<pinref part="IC7" gate="G$1" pin="I15"/>
+<pinref part="IC8" gate="G$1" pin="I15"/>
 <wire x1="-119.38" y1="58.42" x2="-114.3" y2="58.42" width="0.1524" layer="91"/>
 <label x="-114.3" y="58.42" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -19238,7 +19239,7 @@ Revised By Daniel Baron, Thomas Wilson</text>
 <pinref part="X1" gate="G$1" pin="C22"/>
 </segment>
 <segment>
-<pinref part="IC7" gate="G$1" pin="I14"/>
+<pinref part="IC8" gate="G$1" pin="I14"/>
 <wire x1="-119.38" y1="60.96" x2="-114.3" y2="60.96" width="0.1524" layer="91"/>
 <label x="-114.3" y="60.96" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -19255,7 +19256,7 @@ Revised By Daniel Baron, Thomas Wilson</text>
 <pinref part="X1" gate="G$1" pin="C23"/>
 </segment>
 <segment>
-<pinref part="IC7" gate="G$1" pin="I13"/>
+<pinref part="IC8" gate="G$1" pin="I13"/>
 <wire x1="-119.38" y1="63.5" x2="-114.3" y2="63.5" width="0.1524" layer="91"/>
 <label x="-114.3" y="63.5" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -19272,7 +19273,7 @@ Revised By Daniel Baron, Thomas Wilson</text>
 <pinref part="X2" gate="G$1" pin="C13"/>
 </segment>
 <segment>
-<pinref part="IC7" gate="G$1" pin="I11"/>
+<pinref part="IC8" gate="G$1" pin="I11"/>
 <wire x1="-119.38" y1="68.58" x2="-114.3" y2="68.58" width="0.1524" layer="91"/>
 <label x="-114.3" y="68.58" size="1.27" layer="95" xref="yes"/>
 </segment>

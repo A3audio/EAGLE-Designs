@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="8.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -1126,30 +1126,30 @@ Source: RCA-4-117-01x.pdf</description>
 <text x="-4.445" y="6.985" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 <package name="10127720-241LF">
-<pad name="P$1" x="16.5" y="1.5" drill="0.8" diameter="1.02" shape="square"/>
-<pad name="P$2" x="13.5" y="1.5" drill="0.8" diameter="1.02"/>
-<pad name="P$3" x="10.5" y="1.5" drill="0.8" diameter="1.02"/>
-<pad name="P$4" x="7.5" y="1.5" drill="0.8" diameter="1.02"/>
-<pad name="P$5" x="4.5" y="1.5" drill="0.8" diameter="1.02"/>
-<pad name="P$6" x="1.5" y="1.5" drill="0.8" diameter="1.02"/>
-<pad name="P$7" x="-1.5" y="1.5" drill="0.8" diameter="1.02"/>
-<pad name="P$8" x="-4.5" y="1.5" drill="0.8" diameter="1.02"/>
-<pad name="P$9" x="-7.5" y="1.5" drill="0.8" diameter="1.02"/>
-<pad name="P$10" x="-10.5" y="1.5" drill="0.8" diameter="1.02"/>
-<pad name="P$11" x="-13.5" y="1.5" drill="0.8" diameter="1.02"/>
-<pad name="P$12" x="-16.5" y="1.5" drill="0.8" diameter="1.02"/>
-<pad name="P$13" x="16.5" y="4.5" drill="0.8" diameter="1.02"/>
-<pad name="P$14" x="13.5" y="4.5" drill="0.8" diameter="1.02"/>
-<pad name="P$15" x="10.5" y="4.5" drill="0.8" diameter="1.02"/>
-<pad name="P$16" x="7.5" y="4.5" drill="0.8" diameter="1.02"/>
-<pad name="P$17" x="4.5" y="4.5" drill="0.8" diameter="1.02"/>
-<pad name="P$18" x="1.5" y="4.5" drill="0.8" diameter="1.02"/>
-<pad name="P$19" x="-1.5" y="4.5" drill="0.8" diameter="1.02"/>
-<pad name="P$20" x="-4.5" y="4.5" drill="0.8" diameter="1.02"/>
-<pad name="P$21" x="-7.5" y="4.5" drill="0.8" diameter="1.02"/>
-<pad name="P$22" x="-10.5" y="4.5" drill="0.8" diameter="1.02"/>
-<pad name="P$23" x="-13.5" y="4.5" drill="0.8" diameter="1.02"/>
-<pad name="P$24" x="-16.5" y="4.5" drill="0.8" diameter="1.02"/>
+<pad name="P$1" x="16.5" y="1.5" drill="1.1" diameter="1.02" shape="square"/>
+<pad name="P$2" x="13.5" y="1.5" drill="1.1" diameter="1.02"/>
+<pad name="P$3" x="10.5" y="1.5" drill="1.1" diameter="1.02"/>
+<pad name="P$4" x="7.5" y="1.5" drill="1.1" diameter="1.02"/>
+<pad name="P$5" x="4.5" y="1.5" drill="1.1" diameter="1.02"/>
+<pad name="P$6" x="1.5" y="1.5" drill="1.1" diameter="1.02"/>
+<pad name="P$7" x="-1.5" y="1.5" drill="1.1" diameter="1.02"/>
+<pad name="P$8" x="-4.5" y="1.5" drill="1.1" diameter="1.02"/>
+<pad name="P$9" x="-7.5" y="1.5" drill="1.1" diameter="1.02"/>
+<pad name="P$10" x="-10.5" y="1.5" drill="1.1" diameter="1.02"/>
+<pad name="P$11" x="-13.5" y="1.5" drill="1.1" diameter="1.02"/>
+<pad name="P$12" x="-16.5" y="1.5" drill="1.1" diameter="1.02"/>
+<pad name="P$13" x="16.5" y="4.5" drill="1.1" diameter="1.02"/>
+<pad name="P$14" x="13.5" y="4.5" drill="1.1" diameter="1.02"/>
+<pad name="P$15" x="10.5" y="4.5" drill="1.1" diameter="1.02"/>
+<pad name="P$16" x="7.5" y="4.5" drill="1.1" diameter="1.02"/>
+<pad name="P$17" x="4.5" y="4.5" drill="1.1" diameter="1.02"/>
+<pad name="P$18" x="1.5" y="4.5" drill="1.1" diameter="1.02"/>
+<pad name="P$19" x="-1.5" y="4.5" drill="1.1" diameter="1.02"/>
+<pad name="P$20" x="-4.5" y="4.5" drill="1.1" diameter="1.02"/>
+<pad name="P$21" x="-7.5" y="4.5" drill="1.1" diameter="1.02"/>
+<pad name="P$22" x="-10.5" y="4.5" drill="1.1" diameter="1.02"/>
+<pad name="P$23" x="-13.5" y="4.5" drill="1.1" diameter="1.02"/>
+<pad name="P$24" x="-16.5" y="4.5" drill="1.1" diameter="1.02"/>
 <hole x="-14.35" y="-2.82" drill="3"/>
 <hole x="14.35" y="-2.82" drill="3"/>
 <text x="-21.59" y="-1.27" size="1.27" layer="25" rot="R90">&gt;NAME</text>
