@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="8.3.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -712,10 +713,10 @@ http://www.st.com&lt;p&gt;
 <text x="48.26" y="-27.94" size="1.27" layer="94">SHIFT</text>
 <text x="48.26" y="-30.48" size="1.27" layer="94">BRKSWT</text>
 <text x="35.56" y="12.7" size="1.27" layer="94">Charge Cut Relay</text>
-<wire x1="-5.08" y1="-5.08" x2="-5.08" y2="-127" width="0.3048" layer="94"/>
-<wire x1="-5.08" y1="-127" x2="81.28" y2="-127" width="0.3048" layer="94"/>
+<wire x1="-10.16" y1="-7.62" x2="-10.16" y2="-129.54" width="0.3048" layer="94"/>
+<wire x1="-10.16" y1="-129.54" x2="81.28" y2="-127" width="0.3048" layer="94"/>
 <wire x1="81.28" y1="-127" x2="81.28" y2="-5.08" width="0.3048" layer="94"/>
-<wire x1="81.28" y1="-5.08" x2="-5.08" y2="-5.08" width="0.3048" layer="94"/>
+<wire x1="81.28" y1="-5.08" x2="-10.16" y2="-7.62" width="0.3048" layer="94"/>
 <text x="38.1" y="-7.62" size="1.27" layer="94">Connectors</text>
 <text x="35.56" y="-73.66" size="1.27" layer="94">Battery Power In</text>
 <text x="35.56" y="-96.52" size="1.27" layer="94">High Power Out</text>
