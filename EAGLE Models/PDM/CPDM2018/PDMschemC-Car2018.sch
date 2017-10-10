@@ -4732,12 +4732,12 @@ http://www.st.com&lt;p&gt;
 <instance part="R2" gate="G$1" x="139.7" y="25.4"/>
 <instance part="LED2" gate="G$1" x="152.4" y="38.1" rot="R180"/>
 <instance part="F5" gate="G$1" x="205.74" y="27.94" rot="R180"/>
-<instance part="F4" gate="G$1" x="205.74" y="53.34" rot="R180"/>
-<instance part="ECUDIODE" gate="G$1" x="223.52" y="53.34"/>
+<instance part="F4" gate="G$1" x="215.9" y="53.34" rot="R180"/>
+<instance part="ECUDIODE" gate="G$1" x="198.12" y="53.34"/>
 <instance part="R5" gate="G$1" x="215.9" y="20.32" rot="R270"/>
 <instance part="LED5" gate="G$1" x="231.14" y="15.24" rot="R90"/>
-<instance part="R6" gate="G$1" x="215.9" y="43.18" rot="R270"/>
-<instance part="LED6" gate="G$1" x="231.14" y="38.1" rot="R90"/>
+<instance part="R6" gate="G$1" x="223.52" y="43.18" rot="R270"/>
+<instance part="LED6" gate="G$1" x="238.76" y="38.1" rot="R90"/>
 <instance part="FUELRELAY" gate="G$1" x="121.92" y="147.32"/>
 <instance part="U$3" gate="G$1" x="96.52" y="142.24" rot="R270"/>
 <instance part="F1" gate="G$1" x="124.46" y="129.54" rot="R90"/>
@@ -4755,31 +4755,14 @@ http://www.st.com&lt;p&gt;
 <busses>
 </busses>
 <nets>
-<net name="B23" class="0">
-<segment>
-<pinref part="U$7" gate="G$1" pin="A"/>
-<wire x1="101.6" y1="30.48" x2="101.6" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="43.18" x2="116.84" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="FANRELAY" gate="G$1" pin="COIL1"/>
-<wire x1="116.84" y1="43.18" x2="116.84" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="43.18" x2="93.98" y2="43.18" width="0.1524" layer="91"/>
-<junction x="101.6" y="43.18"/>
-<label x="93.98" y="43.18" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="U$1" gate="G$1" pin="B6"/>
-<wire x1="195.58" y1="124.46" x2="198.12" y2="124.46" width="0.1524" layer="91"/>
-<label x="198.12" y="124.46" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
 <net name="12V" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="B4"/>
 <wire x1="195.58" y1="134.62" x2="198.12" y2="134.62" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="B3"/>
-<wire x1="195.58" y1="139.7" x2="198.12" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="198.12" y1="139.7" x2="198.12" y2="134.62" width="0.1524" layer="91"/>
-<label x="198.12" y="137.16" size="1.778" layer="95" xref="yes"/>
+<label x="198.12" y="132.08" size="1.778" layer="95" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="B5"/>
+<wire x1="195.58" y1="129.54" x2="198.12" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="134.62" x2="198.12" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="FANRELAY" gate="G$1" pin="COIL2"/>
@@ -4834,9 +4817,9 @@ http://www.st.com&lt;p&gt;
 <label x="198.12" y="10.16" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="F4" gate="G$1" pin="2"/>
-<wire x1="200.66" y1="53.34" x2="198.12" y2="53.34" width="0.1524" layer="91"/>
-<label x="198.12" y="53.34" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="ECUDIODE" gate="G$1" pin="P1"/>
+<wire x1="193.04" y1="53.34" x2="190.5" y2="53.34" width="0.1524" layer="91"/>
+<label x="190.5" y="53.34" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="FAN" class="0">
@@ -4850,16 +4833,6 @@ http://www.st.com&lt;p&gt;
 <wire x1="220.98" y1="88.9" x2="223.52" y2="88.9" width="0.1524" layer="91"/>
 <label x="223.52" y="88.9" size="1.778" layer="95" xref="yes"/>
 </segment>
-<segment>
-<pinref part="FUELRELAY" gate="G$1" pin="NO"/>
-<wire x1="119.38" y1="149.86" x2="119.38" y2="160.02" width="0.1524" layer="91"/>
-<label x="119.38" y="160.02" size="1.778" layer="95" rot="R90" xref="yes"/>
-</segment>
-<segment>
-<pinref part="IGNRELAY" gate="G$1" pin="NO"/>
-<wire x1="121.92" y1="91.44" x2="121.92" y2="101.6" width="0.1524" layer="91"/>
-<label x="121.92" y="101.6" size="1.778" layer="95" rot="R90" xref="yes"/>
-</segment>
 </net>
 <net name="IGN" class="0">
 <segment>
@@ -4867,12 +4840,22 @@ http://www.st.com&lt;p&gt;
 <wire x1="195.58" y1="88.9" x2="198.12" y2="88.9" width="0.1524" layer="91"/>
 <label x="198.12" y="88.9" size="1.778" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="IGNRELAY" gate="G$1" pin="NO"/>
+<wire x1="121.92" y1="91.44" x2="121.92" y2="101.6" width="0.1524" layer="91"/>
+<label x="121.92" y="101.6" size="1.778" layer="95" rot="R90" xref="yes"/>
+</segment>
 </net>
 <net name="FUEL" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="B19"/>
 <wire x1="220.98" y1="124.46" x2="223.52" y2="124.46" width="0.1524" layer="91"/>
 <label x="223.52" y="124.46" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="FUELRELAY" gate="G$1" pin="NO"/>
+<wire x1="119.38" y1="149.86" x2="119.38" y2="160.02" width="0.1524" layer="91"/>
+<label x="119.38" y="160.02" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -4931,8 +4914,8 @@ http://www.st.com&lt;p&gt;
 </segment>
 <segment>
 <pinref part="LED6" gate="G$1" pin="C"/>
-<wire x1="236.22" y1="38.1" x2="238.76" y2="38.1" width="0.1524" layer="91"/>
-<label x="238.76" y="38.1" size="1.778" layer="95" xref="yes"/>
+<wire x1="243.84" y1="38.1" x2="248.92" y2="38.1" width="0.1524" layer="91"/>
+<label x="248.92" y="38.1" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="LED2" gate="G$1" pin="C"/>
@@ -4955,13 +4938,6 @@ http://www.st.com&lt;p&gt;
 <label x="238.76" y="-2.54" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="NONE" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="B5"/>
-<wire x1="195.58" y1="129.54" x2="198.12" y2="129.54" width="0.1524" layer="91"/>
-<label x="198.12" y="129.54" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
 <net name="DAQ" class="0">
 <segment>
 <pinref part="F5" gate="G$1" pin="1"/>
@@ -4980,6 +4956,27 @@ http://www.st.com&lt;p&gt;
 <wire x1="198.12" y1="149.86" x2="198.12" y2="144.78" width="0.1524" layer="91"/>
 <label x="198.12" y="147.32" size="1.778" layer="95" xref="yes"/>
 </segment>
+</net>
+<net name="ECU" class="0">
+<segment>
+<pinref part="F4" gate="G$1" pin="1"/>
+<wire x1="220.98" y1="53.34" x2="223.52" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="R6" gate="G$1" pin="1"/>
+<wire x1="223.52" y1="53.34" x2="223.52" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="53.34" x2="236.22" y2="53.34" width="0.1524" layer="91"/>
+<junction x="223.52" y="53.34"/>
+<label x="236.22" y="53.34" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="B20"/>
+<wire x1="220.98" y1="119.38" x2="223.52" y2="119.38" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="B21"/>
+<wire x1="220.98" y1="114.3" x2="223.52" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="119.38" x2="223.52" y2="114.3" width="0.1524" layer="91"/>
+<label x="223.52" y="116.84" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="SH/B" class="0">
 <segment>
 <pinref part="F6" gate="G$1" pin="1"/>
 <wire x1="210.82" y1="10.16" x2="215.9" y2="10.16" width="0.1524" layer="91"/>
@@ -4989,8 +4986,6 @@ http://www.st.com&lt;p&gt;
 <wire x1="215.9" y1="7.62" x2="215.9" y2="10.16" width="0.1524" layer="91"/>
 <junction x="215.9" y="10.16"/>
 </segment>
-</net>
-<net name="ECU" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="B8"/>
 <wire x1="195.58" y1="114.3" x2="198.12" y2="114.3" width="0.1524" layer="91"/>
@@ -5000,21 +4995,6 @@ http://www.st.com&lt;p&gt;
 <pinref part="U$1" gate="G$1" pin="B14"/>
 <wire x1="220.98" y1="149.86" x2="223.52" y2="149.86" width="0.1524" layer="91"/>
 <label x="223.52" y="149.86" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="ECUDIODE" gate="G$1" pin="K"/>
-<wire x1="231.14" y1="53.34" x2="233.68" y2="53.34" width="0.1524" layer="91"/>
-<label x="233.68" y="53.34" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="SH/B" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="B20"/>
-<wire x1="220.98" y1="119.38" x2="223.52" y2="119.38" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="B21"/>
-<wire x1="220.98" y1="114.3" x2="223.52" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="223.52" y1="119.38" x2="223.52" y2="114.3" width="0.1524" layer="91"/>
-<label x="223.52" y="116.84" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$10" class="0">
@@ -5103,9 +5083,9 @@ http://www.st.com&lt;p&gt;
 <label x="88.9" y="157.48" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="B7"/>
-<wire x1="195.58" y1="119.38" x2="198.12" y2="119.38" width="0.1524" layer="91"/>
-<label x="198.12" y="119.38" size="1.778" layer="95" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="B6"/>
+<wire x1="195.58" y1="124.46" x2="198.12" y2="124.46" width="0.1524" layer="91"/>
+<label x="198.12" y="124.46" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -5119,18 +5099,7 @@ http://www.st.com&lt;p&gt;
 <segment>
 <pinref part="R6" gate="G$1" pin="2"/>
 <pinref part="LED6" gate="G$1" pin="A"/>
-<wire x1="215.9" y1="38.1" x2="228.6" y2="38.1" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$9" class="0">
-<segment>
-<pinref part="F4" gate="G$1" pin="1"/>
-<pinref part="ECUDIODE" gate="G$1" pin="P1"/>
-<wire x1="210.82" y1="53.34" x2="215.9" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="R6" gate="G$1" pin="1"/>
-<wire x1="215.9" y1="53.34" x2="218.44" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="215.9" y1="48.26" x2="215.9" y2="53.34" width="0.1524" layer="91"/>
-<junction x="215.9" y="53.34"/>
+<wire x1="223.52" y1="38.1" x2="236.22" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RELAYS" class="0">
@@ -5153,11 +5122,35 @@ http://www.st.com&lt;p&gt;
 </net>
 <net name="FUSED_OUTPUTS" class="0">
 <segment>
-<wire x1="185.42" y1="68.58" x2="185.42" y2="-10.16" width="0.1524" layer="91"/>
-<wire x1="185.42" y1="-10.16" x2="254" y2="-10.16" width="0.1524" layer="91"/>
-<wire x1="254" y1="-10.16" x2="254" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="254" y1="68.58" x2="185.42" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="68.58" x2="180.34" y2="-10.16" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="-10.16" x2="261.62" y2="-10.16" width="0.1524" layer="91"/>
+<wire x1="261.62" y1="-10.16" x2="261.62" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="261.62" y1="68.58" x2="180.34" y2="68.58" width="0.1524" layer="91"/>
 <label x="205.74" y="63.5" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$9" class="0">
+<segment>
+<pinref part="F4" gate="G$1" pin="2"/>
+<pinref part="ECUDIODE" gate="G$1" pin="K"/>
+<wire x1="210.82" y1="53.34" x2="205.74" y2="53.34" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="A23" class="0">
+<segment>
+<pinref part="U$7" gate="G$1" pin="A"/>
+<wire x1="101.6" y1="30.48" x2="101.6" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="43.18" x2="116.84" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="FANRELAY" gate="G$1" pin="COIL1"/>
+<wire x1="116.84" y1="43.18" x2="116.84" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="43.18" x2="93.98" y2="43.18" width="0.1524" layer="91"/>
+<junction x="101.6" y="43.18"/>
+<label x="93.98" y="43.18" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="B7"/>
+<wire x1="195.58" y1="119.38" x2="198.12" y2="119.38" width="0.1524" layer="91"/>
+<label x="198.12" y="119.38" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
