@@ -11,6 +11,16 @@
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -15211,6 +15221,69 @@ Source: coiltronics_dr_series.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="con-tyco">
+<description>&lt;b&gt;Tyco Connectors&lt;/b&gt;&lt;p&gt;
+ &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="1734753-1">
+<pad name="P$1" x="-0.5" y="-1.6" drill="0.5"/>
+<pad name="P$2" x="0.5" y="-0.8" drill="0.5"/>
+<pad name="P$3" x="-0.5" y="0" drill="0.5" rot="R180"/>
+<pad name="P$4" x="0.5" y="0.8" drill="0.5"/>
+<pad name="P$5" x="-0.5" y="1.6" drill="0.5"/>
+<rectangle x1="-2.1" y1="1.7" x2="-1.4" y2="3.1" layer="45"/>
+<rectangle x1="1.4" y1="-0.6" x2="2.1" y2="0.6" layer="45"/>
+<rectangle x1="-2.1" y1="-2.5" x2="-1.4" y2="-1.3" layer="45"/>
+<circle x="-1.75" y="3.1" radius="0.25" width="0.2" layer="45"/>
+<circle x="-1.75" y="1.7" radius="0.25" width="0.2" layer="45"/>
+<circle x="-1.75" y="-1.3" radius="0.25" width="0.2" layer="45"/>
+<circle x="-1.75" y="-2.5" radius="0.25" width="0.2" layer="45"/>
+<circle x="1.75" y="0.6" radius="0.25" width="0.2" layer="45"/>
+<circle x="1.75" y="-0.6" radius="0.25" width="0.2" layer="45"/>
+<text x="-2.286" y="4.191" size="0.6096" layer="21">&gt;1734753-1</text>
+<wire x1="-2.5" y1="-3.85" x2="-2.5" y2="3.85" width="0.127" layer="20"/>
+<wire x1="2.5" y1="-3.85" x2="2.5" y2="3.85" width="0.127" layer="20"/>
+<wire x1="-2.5" y1="3.85" x2="2.5" y2="3.85" width="0.127" layer="20"/>
+<wire x1="-2.5" y1="-3.85" x2="2.5" y2="-3.85" width="0.127" layer="20"/>
+</package>
+</packages>
+<symbols>
+<symbol name="USB_MINI">
+<wire x1="-5.08" y1="12.7" x2="-5.08" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-12.7" x2="5.08" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-12.7" x2="5.08" y2="12.7" width="0.254" layer="94"/>
+<wire x1="5.08" y1="12.7" x2="-5.08" y2="12.7" width="0.254" layer="94"/>
+<pin name="P$5" x="-7.62" y="10.16" length="short"/>
+<pin name="P$4" x="-7.62" y="5.08" length="short"/>
+<pin name="P$3" x="-7.62" y="0" length="short"/>
+<pin name="P$2" x="-7.62" y="-5.08" length="short"/>
+<pin name="P$1" x="-7.62" y="-10.16" length="short"/>
+<text x="-5.334" y="13.462" size="1.4224" layer="95">&gt;1734753-1</text>
+<text x="-5.08" y="-15.24" size="1.4224" layer="96">&gt;CN$</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="1734753-1">
+<gates>
+<gate name="G$1" symbol="USB_MINI" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1734753-1">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+<connect gate="G$1" pin="P$3" pad="P$3"/>
+<connect gate="G$1" pin="P$4" pad="P$4"/>
+<connect gate="G$1" pin="P$5" pad="P$5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -15302,8 +15375,6 @@ Source: coiltronics_dr_series.pdf</description>
 <part name="R77" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="10K"/>
 <part name="R78" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="10K"/>
 <part name="R79" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="1M"/>
-<part name="R82" library="rcl" deviceset="R-US_" device="R0805" value="4.7k"/>
-<part name="R83" library="rcl" deviceset="R-US_" device="R0805" value="4.7k"/>
 <part name="C15" library="resistor" deviceset="C-US" device="C0805" value="10uF"/>
 <part name="R1" library="rcl" deviceset="R-US_" device="R0805" value="100K"/>
 <part name="P+2" library="supply1" deviceset="VCC" device=""/>
@@ -15348,6 +15419,7 @@ Source: coiltronics_dr_series.pdf</description>
 <part name="C37" library="rcl" deviceset="C-US" device="C0603" value="2.2uF"/>
 <part name="C38" library="rcl" deviceset="C-US" device="C0603" value="2.2uF"/>
 <part name="U$3" library="TE" deviceset="SUPERSEAL1.0_26POS" device=""/>
+<part name="U$4" library="con-tyco" deviceset="1734753-1" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -15407,6 +15479,11 @@ Revised By Daniel Baron</text>
 <wire x1="279.4" y1="-200.66" x2="279.4" y2="-279.4" width="0.1524" layer="94"/>
 <wire x1="279.4" y1="-279.4" x2="226.06" y2="-279.4" width="0.1524" layer="94"/>
 <wire x1="226.06" y1="-279.4" x2="226.06" y2="-200.66" width="0.1524" layer="94"/>
+<wire x1="177.8" y1="-200.66" x2="177.8" y2="-243.84" width="0.1524" layer="94"/>
+<wire x1="177.8" y1="-243.84" x2="213.36" y2="-243.84" width="0.1524" layer="94"/>
+<wire x1="213.36" y1="-243.84" x2="213.36" y2="-200.66" width="0.1524" layer="94"/>
+<wire x1="213.36" y1="-200.66" x2="177.8" y2="-200.66" width="0.1524" layer="94"/>
+<text x="180.34" y="-203.2" size="1.778" layer="94">USB Mini Connector</text>
 </plain>
 <instances>
 <instance part="U1" gate="G$1" x="375.92" y="-58.42"/>
@@ -15490,8 +15567,6 @@ Revised By Daniel Baron</text>
 <instance part="R77" gate="G$1" x="482.6" y="-228.6"/>
 <instance part="R78" gate="G$1" x="538.48" y="-228.6"/>
 <instance part="R79" gate="G$1" x="548.64" y="-236.22" rot="R90"/>
-<instance part="R82" gate="G$1" x="538.48" y="-101.6" rot="R90"/>
-<instance part="R83" gate="G$1" x="553.72" y="-101.6" rot="R90"/>
 <instance part="C15" gate="G$1" x="-48.26" y="-22.86"/>
 <instance part="R1" gate="G$1" x="396.24" y="-320.04" rot="R90"/>
 <instance part="P+2" gate="VCC" x="396.24" y="-312.42"/>
@@ -15539,6 +15614,7 @@ Revised By Daniel Baron</text>
 <instance part="C37" gate="G$1" x="-68.58" y="-160.02"/>
 <instance part="C38" gate="G$1" x="-12.7" y="-160.02"/>
 <instance part="U$3" gate="G$1" x="251.46" y="-254"/>
+<instance part="U$4" gate="G$1" x="200.66" y="-223.52"/>
 </instances>
 <busses>
 </busses>
@@ -15630,17 +15706,6 @@ Revised By Daniel Baron</text>
 <junction x="563.88" y="-251.46"/>
 </segment>
 <segment>
-<pinref part="R82" gate="G$1" pin="2"/>
-<wire x1="538.48" y1="-96.52" x2="538.48" y2="-93.98" width="0.1524" layer="91"/>
-<pinref part="R83" gate="G$1" pin="2"/>
-<wire x1="538.48" y1="-93.98" x2="546.1" y2="-93.98" width="0.1524" layer="91"/>
-<wire x1="546.1" y1="-93.98" x2="553.72" y2="-93.98" width="0.1524" layer="91"/>
-<wire x1="553.72" y1="-93.98" x2="553.72" y2="-96.52" width="0.1524" layer="91"/>
-<wire x1="546.1" y1="-93.98" x2="546.1" y2="-88.9" width="0.1524" layer="91"/>
-<label x="546.1" y="-88.9" size="1.778" layer="95" rot="R90"/>
-<junction x="546.1" y="-93.98"/>
-</segment>
-<segment>
 <wire x1="403.86" y1="-317.5" x2="403.86" y2="-314.96" width="0.1524" layer="91"/>
 <wire x1="403.86" y1="-314.96" x2="396.24" y2="-314.96" width="0.1524" layer="91"/>
 <junction x="396.24" y="-314.96"/>
@@ -15695,6 +15760,11 @@ Revised By Daniel Baron</text>
 <pinref part="U$3" gate="G$1" pin="B3"/>
 <wire x1="236.22" y1="-223.52" x2="238.76" y2="-223.52" width="0.1524" layer="91"/>
 <label x="238.76" y="-223.52" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$4" gate="G$1" pin="P$1"/>
+<wire x1="190.5" y1="-233.68" x2="193.04" y2="-233.68" width="0.1524" layer="91"/>
+<label x="185.42" y="-233.68" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -16089,6 +16159,11 @@ Revised By Daniel Baron</text>
 <pinref part="U$3" gate="G$1" pin="B22"/>
 <wire x1="261.62" y1="-254" x2="264.16" y2="-254" width="0.1524" layer="91"/>
 <label x="264.16" y="-254" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$4" gate="G$1" pin="P$5"/>
+<wire x1="193.04" y1="-213.36" x2="190.5" y2="-213.36" width="0.1524" layer="91"/>
+<label x="185.42" y="-213.36" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SG5V" class="0">
@@ -16887,10 +16962,6 @@ Revised By Daniel Baron</text>
 <segment>
 <label x="523.24" y="-111.76" size="1.778" layer="95"/>
 <pinref part="IC1" gate="G$1" pin="(SCL/INT0)PD0"/>
-<pinref part="R83" gate="G$1" pin="1"/>
-<wire x1="553.72" y1="-106.68" x2="553.72" y2="-111.76" width="0.1524" layer="91"/>
-<wire x1="553.72" y1="-111.76" x2="525.78" y2="-111.76" width="0.1524" layer="91"/>
-<junction x="525.78" y="-111.76"/>
 <wire x1="525.78" y1="-111.76" x2="520.7" y2="-111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -16912,10 +16983,6 @@ Revised By Daniel Baron</text>
 <segment>
 <label x="523.24" y="-109.22" size="1.778" layer="95"/>
 <pinref part="IC1" gate="G$1" pin="(SDA/INT1)PD1"/>
-<pinref part="R82" gate="G$1" pin="1"/>
-<wire x1="538.48" y1="-106.68" x2="538.48" y2="-109.22" width="0.1524" layer="91"/>
-<wire x1="538.48" y1="-109.22" x2="525.78" y2="-109.22" width="0.1524" layer="91"/>
-<junction x="525.78" y="-109.22"/>
 <wire x1="525.78" y1="-109.22" x2="520.7" y2="-109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -17237,12 +17304,22 @@ Revised By Daniel Baron</text>
 <label x="337.82" y="-238.76" size="1.778" layer="95"/>
 <pinref part="IC5" gate="G$1" pin="USBDM"/>
 </segment>
+<segment>
+<pinref part="U$4" gate="G$1" pin="P$2"/>
+<wire x1="190.5" y1="-228.6" x2="193.04" y2="-228.6" width="0.1524" layer="91"/>
+<label x="185.42" y="-228.6" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="D+" class="0">
 <segment>
 <wire x1="342.9" y1="-241.3" x2="337.82" y2="-241.3" width="0.1524" layer="91"/>
 <label x="337.82" y="-241.3" size="1.778" layer="95"/>
 <pinref part="IC5" gate="G$1" pin="USBDP"/>
+</segment>
+<segment>
+<pinref part="U$4" gate="G$1" pin="P$3"/>
+<wire x1="190.5" y1="-223.52" x2="193.04" y2="-223.52" width="0.1524" layer="91"/>
+<label x="185.42" y="-223.52" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VCC3O" class="0">
@@ -17340,6 +17417,12 @@ Revised By Daniel Baron</text>
 <pinref part="U$3" gate="G$1" pin="B6"/>
 <wire x1="236.22" y1="-238.76" x2="238.76" y2="-238.76" width="0.1524" layer="91"/>
 <label x="238.76" y="-238.76" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="U$4" gate="G$1" pin="P$4"/>
+<wire x1="190.5" y1="-218.44" x2="193.04" y2="-218.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
