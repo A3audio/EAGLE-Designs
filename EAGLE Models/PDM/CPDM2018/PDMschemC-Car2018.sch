@@ -4836,26 +4836,26 @@ http://www.st.com&lt;p&gt;
 </net>
 <net name="IGN" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="B13"/>
-<wire x1="195.58" y1="88.9" x2="198.12" y2="88.9" width="0.1524" layer="91"/>
-<label x="198.12" y="88.9" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="IGNRELAY" gate="G$1" pin="NO"/>
 <wire x1="121.92" y1="91.44" x2="121.92" y2="101.6" width="0.1524" layer="91"/>
 <label x="121.92" y="101.6" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="B7"/>
+<wire x1="195.58" y1="119.38" x2="198.12" y2="119.38" width="0.1524" layer="91"/>
+<label x="198.12" y="119.38" size="1.778" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="FUEL" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="B19"/>
-<wire x1="220.98" y1="124.46" x2="223.52" y2="124.46" width="0.1524" layer="91"/>
-<label x="223.52" y="124.46" size="1.778" layer="95" xref="yes"/>
-</segment>
 <segment>
 <pinref part="FUELRELAY" gate="G$1" pin="NO"/>
 <wire x1="119.38" y1="149.86" x2="119.38" y2="160.02" width="0.1524" layer="91"/>
 <label x="119.38" y="160.02" size="1.778" layer="95" rot="R90" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="B13"/>
+<wire x1="195.58" y1="88.9" x2="198.12" y2="88.9" width="0.1524" layer="91"/>
+<label x="198.12" y="88.9" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -4948,16 +4948,16 @@ http://www.st.com&lt;p&gt;
 <label x="218.44" y="27.94" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="B1"/>
-<wire x1="195.58" y1="149.86" x2="198.12" y2="149.86" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="B2"/>
-<wire x1="195.58" y1="144.78" x2="198.12" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="198.12" y1="149.86" x2="198.12" y2="144.78" width="0.1524" layer="91"/>
-<label x="198.12" y="147.32" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="LED4" gate="G$1" pin="A"/>
 <wire x1="213.36" y1="27.94" x2="213.36" y2="17.78" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="B20"/>
+<wire x1="220.98" y1="119.38" x2="223.52" y2="119.38" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="B21"/>
+<wire x1="220.98" y1="114.3" x2="223.52" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="119.38" x2="223.52" y2="114.3" width="0.1524" layer="91"/>
+<label x="223.52" y="116.84" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="ECU" class="0">
@@ -4971,12 +4971,12 @@ http://www.st.com&lt;p&gt;
 <junction x="226.06" y="53.34"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="B20"/>
-<wire x1="220.98" y1="119.38" x2="223.52" y2="119.38" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="B21"/>
-<wire x1="220.98" y1="114.3" x2="223.52" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="223.52" y1="119.38" x2="223.52" y2="114.3" width="0.1524" layer="91"/>
-<label x="223.52" y="116.84" size="1.778" layer="95" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="B1"/>
+<wire x1="195.58" y1="149.86" x2="198.12" y2="149.86" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="B2"/>
+<wire x1="195.58" y1="144.78" x2="198.12" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="149.86" x2="198.12" y2="144.78" width="0.1524" layer="91"/>
+<label x="198.12" y="147.32" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SH/B" class="0">
@@ -5106,9 +5106,9 @@ http://www.st.com&lt;p&gt;
 <label x="93.98" y="43.18" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="B7"/>
-<wire x1="195.58" y1="119.38" x2="198.12" y2="119.38" width="0.1524" layer="91"/>
-<label x="198.12" y="119.38" size="1.778" layer="95" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="B19"/>
+<wire x1="220.98" y1="124.46" x2="223.52" y2="124.46" width="0.1524" layer="91"/>
+<label x="223.52" y="124.46" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$8" class="0">
