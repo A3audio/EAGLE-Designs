@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -17280,112 +17280,6 @@ Source: &lt;a href="http://www.littelfuse.com/products/resettable-ptcs.aspx"&gt;
 </deviceset>
 </devicesets>
 </library>
-<library name="TE">
-<packages>
-<package name="SUPERSEAL1.0_26POS">
-<pad name="B1" x="-9.17" y="4.73" drill="1.3" diameter="2"/>
-<pad name="B2" x="-6.17" y="4.73" drill="1.3" diameter="2"/>
-<pad name="B3" x="-3.17" y="4.73" drill="1.3" diameter="2"/>
-<pad name="B4" x="-0.17" y="4.73" drill="1.3" diameter="2"/>
-<pad name="B5" x="2.83" y="4.73" drill="1.3" diameter="2"/>
-<pad name="B6" x="5.83" y="4.73" drill="1.3" diameter="2"/>
-<pad name="B7" x="8.83" y="4.73" drill="1.3" diameter="2"/>
-<pad name="B8" x="-7.67" y="2.23" drill="1.3" diameter="2"/>
-<pad name="B9" x="-4.67" y="2.23" drill="1.3" diameter="2"/>
-<pad name="B10" x="-1.67" y="2.23" drill="1.3" diameter="2"/>
-<pad name="B11" x="1.33" y="2.23" drill="1.3" diameter="2"/>
-<pad name="B12" x="4.33" y="2.23" drill="1.3" diameter="2"/>
-<pad name="B13" x="7.33" y="2.23" drill="1.3" diameter="2"/>
-<pad name="B14" x="-7.67" y="-0.77" drill="1.3" diameter="2"/>
-<pad name="B15" x="-4.67" y="-0.77" drill="1.3" diameter="2"/>
-<pad name="B16" x="-1.67" y="-0.77" drill="1.3" diameter="2"/>
-<pad name="B17" x="1.33" y="-0.77" drill="1.3" diameter="2"/>
-<pad name="B18" x="4.33" y="-0.77" drill="1.3" diameter="2"/>
-<pad name="B19" x="7.33" y="-0.77" drill="1.3" diameter="2"/>
-<pad name="B20" x="-9.17" y="-3.27" drill="1.3" diameter="2"/>
-<pad name="B21" x="-6.17" y="-3.27" drill="1.3" diameter="2"/>
-<pad name="B22" x="-3.17" y="-3.27" drill="1.3" diameter="2"/>
-<pad name="B23" x="-0.17" y="-3.27" drill="1.3" diameter="2"/>
-<pad name="B24" x="2.83" y="-3.27" drill="1.3" diameter="2"/>
-<pad name="B25" x="5.83" y="-3.27" drill="1.3" diameter="2"/>
-<pad name="B26" x="8.83" y="-3.27" drill="1.3" diameter="2"/>
-<hole x="-16.42" y="-9.77" drill="3.4"/>
-<hole x="16.08" y="-9.77" drill="3.4"/>
-</package>
-</packages>
-<symbols>
-<symbol name="SUPERSEAL1.0_26POS">
-<pin name="B1" x="-15.24" y="40.64" visible="pad" length="short" rot="R180"/>
-<pin name="B2" x="-15.24" y="35.56" visible="pad" length="short" rot="R180"/>
-<pin name="B3" x="-15.24" y="30.48" visible="pad" length="short" rot="R180"/>
-<pin name="B4" x="-15.24" y="25.4" visible="pad" length="short" rot="R180"/>
-<pin name="B5" x="-15.24" y="20.32" visible="pad" length="short" rot="R180"/>
-<pin name="B6" x="-15.24" y="15.24" visible="pad" length="short" rot="R180"/>
-<pin name="B7" x="-15.24" y="10.16" visible="pad" length="short" rot="R180"/>
-<pin name="B8" x="-15.24" y="5.08" visible="pad" length="short" rot="R180"/>
-<pin name="B9" x="-15.24" y="0" visible="pad" length="short" rot="R180"/>
-<pin name="B10" x="-15.24" y="-5.08" visible="pad" length="short" rot="R180"/>
-<pin name="B11" x="-15.24" y="-10.16" visible="pad" length="short" rot="R180"/>
-<pin name="B12" x="-15.24" y="-15.24" visible="pad" length="short" rot="R180"/>
-<pin name="B13" x="-15.24" y="-20.32" visible="pad" length="short" rot="R180"/>
-<pin name="B14" x="10.16" y="40.64" visible="pad" length="short" rot="R180"/>
-<pin name="B15" x="10.16" y="35.56" visible="pad" length="short" rot="R180"/>
-<pin name="B16" x="10.16" y="30.48" visible="pad" length="short" rot="R180"/>
-<pin name="B17" x="10.16" y="25.4" visible="pad" length="short" rot="R180"/>
-<pin name="B18" x="10.16" y="20.32" visible="pad" length="short" rot="R180"/>
-<pin name="B19" x="10.16" y="15.24" visible="pad" length="short" rot="R180"/>
-<pin name="B20" x="10.16" y="10.16" visible="pad" length="short" rot="R180"/>
-<pin name="B21" x="10.16" y="5.08" visible="pad" length="short" rot="R180"/>
-<pin name="B22" x="10.16" y="0" visible="pad" length="short" rot="R180"/>
-<pin name="B23" x="10.16" y="-5.08" visible="pad" length="short" rot="R180"/>
-<pin name="B24" x="10.16" y="-10.16" visible="pad" length="short" rot="R180"/>
-<pin name="B25" x="10.16" y="-15.24" visible="pad" length="short" rot="R180"/>
-<pin name="B26" x="10.16" y="-20.32" visible="pad" length="short" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="SUPERSEAL1.0_26POS">
-<gates>
-<gate name="G$1" symbol="SUPERSEAL1.0_26POS" x="0" y="-5.08"/>
-</gates>
-<devices>
-<device name="" package="SUPERSEAL1.0_26POS">
-<connects>
-<connect gate="G$1" pin="B1" pad="B1"/>
-<connect gate="G$1" pin="B10" pad="B10"/>
-<connect gate="G$1" pin="B11" pad="B11"/>
-<connect gate="G$1" pin="B12" pad="B12"/>
-<connect gate="G$1" pin="B13" pad="B13"/>
-<connect gate="G$1" pin="B14" pad="B14"/>
-<connect gate="G$1" pin="B15" pad="B15"/>
-<connect gate="G$1" pin="B16" pad="B16"/>
-<connect gate="G$1" pin="B17" pad="B17"/>
-<connect gate="G$1" pin="B18" pad="B18"/>
-<connect gate="G$1" pin="B19" pad="B19"/>
-<connect gate="G$1" pin="B2" pad="B2"/>
-<connect gate="G$1" pin="B20" pad="B20"/>
-<connect gate="G$1" pin="B21" pad="B21"/>
-<connect gate="G$1" pin="B22" pad="B22"/>
-<connect gate="G$1" pin="B23" pad="B23"/>
-<connect gate="G$1" pin="B24" pad="B24"/>
-<connect gate="G$1" pin="B25" pad="B25"/>
-<connect gate="G$1" pin="B26" pad="B26"/>
-<connect gate="G$1" pin="B3" pad="B3"/>
-<connect gate="G$1" pin="B4" pad="B4"/>
-<connect gate="G$1" pin="B5" pad="B5"/>
-<connect gate="G$1" pin="B6" pad="B6"/>
-<connect gate="G$1" pin="B7" pad="B7"/>
-<connect gate="G$1" pin="B8" pad="B8"/>
-<connect gate="G$1" pin="B9" pad="B9"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -17670,7 +17564,6 @@ Source: &lt;a href="http://www.littelfuse.com/products/resettable-ptcs.aspx"&gt;
 <part name="R11" library="rcl" deviceset="R-US_" device="R0603"/>
 <part name="C14" library="rcl" deviceset="C-EU" device="C0805" value="22uF"/>
 <part name="C80" library="rcl" deviceset="C-EU" device="C0805" value="22uF"/>
-<part name="U$3" library="TE" deviceset="SUPERSEAL1.0_26POS" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -18096,7 +17989,6 @@ Revised By Daniel Baron</text>
 <instance part="R11" gate="G$1" x="139.7" y="-10.16" rot="R180"/>
 <instance part="C14" gate="G$1" x="114.3" y="-162.56" rot="R90"/>
 <instance part="C80" gate="G$1" x="114.3" y="-172.72" rot="R90"/>
-<instance part="U$3" gate="G$1" x="640.08" y="2.54"/>
 </instances>
 <busses>
 </busses>

@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.2">
+<eagle version="8.3.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="100" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -38,7 +39,7 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
@@ -2302,6 +2303,27 @@ Source: &lt;a href="http://docs-europe.electrocomponents.com/webdocs/0f91/090076
 <text x="-3.8016" y="6.0786" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3.8016" y="-7.5066" size="1.27" layer="27">&gt;VALUE</text>
 </package>
+<package name="1734753-1">
+<pad name="P$1" x="-0.5" y="-1.6" drill="0.5"/>
+<pad name="P$2" x="0.5" y="-0.8" drill="0.5"/>
+<pad name="P$3" x="-0.5" y="0" drill="0.5" rot="R180"/>
+<pad name="P$4" x="0.5" y="0.8" drill="0.5"/>
+<pad name="P$5" x="-0.5" y="1.6" drill="0.5"/>
+<rectangle x1="-2.1" y1="1.7" x2="-1.4" y2="3.1" layer="45"/>
+<rectangle x1="1.4" y1="-0.6" x2="2.1" y2="0.6" layer="45"/>
+<rectangle x1="-2.1" y1="-2.5" x2="-1.4" y2="-1.3" layer="45"/>
+<circle x="-1.75" y="3.1" radius="0.25" width="0.2" layer="45"/>
+<circle x="-1.75" y="1.7" radius="0.25" width="0.2" layer="45"/>
+<circle x="-1.75" y="-1.3" radius="0.25" width="0.2" layer="45"/>
+<circle x="-1.75" y="-2.5" radius="0.25" width="0.2" layer="45"/>
+<circle x="1.75" y="0.6" radius="0.25" width="0.2" layer="45"/>
+<circle x="1.75" y="-0.6" radius="0.25" width="0.2" layer="45"/>
+<text x="-2.286" y="4.191" size="0.6096" layer="21">&gt;1734753-1</text>
+<wire x1="-2.5" y1="-3.85" x2="-2.5" y2="3.85" width="0.127" layer="20"/>
+<wire x1="2.5" y1="-3.85" x2="2.5" y2="3.85" width="0.127" layer="20"/>
+<wire x1="-2.5" y1="3.85" x2="2.5" y2="3.85" width="0.127" layer="20"/>
+<wire x1="-2.5" y1="-3.85" x2="2.5" y2="-3.85" width="0.127" layer="20"/>
+</package>
 </packages>
 <symbols>
 <symbol name="SERIAL_ATA-SERIAL_ATTACHED_SCSI">
@@ -2798,6 +2820,19 @@ Source: &lt;a href="http://docs-europe.electrocomponents.com/webdocs/0f91/090076
 <pin name="1" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
 <text x="3.048" y="-0.508" size="1.778" layer="95">&gt;NAME</text>
 <rectangle x1="0" y1="-0.381" x2="1.905" y2="0.381" layer="94"/>
+</symbol>
+<symbol name="USB_MINI">
+<wire x1="-5.08" y1="12.7" x2="-5.08" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-12.7" x2="5.08" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-12.7" x2="5.08" y2="12.7" width="0.254" layer="94"/>
+<wire x1="5.08" y1="12.7" x2="-5.08" y2="12.7" width="0.254" layer="94"/>
+<pin name="P$5" x="-7.62" y="10.16" length="short"/>
+<pin name="P$4" x="-7.62" y="5.08" length="short"/>
+<pin name="P$3" x="-7.62" y="0" length="short"/>
+<pin name="P$2" x="-7.62" y="-5.08" length="short"/>
+<pin name="P$1" x="-7.62" y="-10.16" length="short"/>
+<text x="-5.334" y="13.462" size="1.4224" layer="95">&gt;1734753-1</text>
+<text x="-5.08" y="-15.24" size="1.4224" layer="96">&gt;CN$</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -3565,6 +3600,25 @@ Source: &lt;a href="http://docs-europe.electrocomponents.com/webdocs/0f91/090076
 <connect gate="-A2" pin="1" pad="A2"/>
 <connect gate="-B1" pin="1" pad="B1"/>
 <connect gate="-B2" pin="1" pad="B2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1734753-1">
+<gates>
+<gate name="G$1" symbol="USB_MINI" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1734753-1">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+<connect gate="G$1" pin="P$3" pad="P$3"/>
+<connect gate="G$1" pin="P$4" pad="P$4"/>
+<connect gate="G$1" pin="P$5" pad="P$5"/>
 </connects>
 <technologies>
 <technology name=""/>
