@@ -1419,6 +1419,9 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="207,1,-24.13,-17.78,N$11,out,,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>
