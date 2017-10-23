@@ -6287,12 +6287,12 @@ http://www.st.com&lt;p&gt;
 <part name="FANRELAY" library="panasonic" deviceset="ACTP112" device="ACTP112"/>
 <part name="U$7" library="diodes-inc" deviceset="MMBD4448H-7-F" device=""/>
 <part name="F3" library="Keystone" deviceset="3568" device=""/>
-<part name="R2" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:26059/1"/>
+<part name="R2" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:26059/1" value="1K"/>
 <part name="LED2" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/1"/>
 <part name="F5" library="Keystone" deviceset="3568" device=""/>
 <part name="F4" library="Keystone" deviceset="3568" device=""/>
 <part name="ECUDIODE" library="st-microelectronics" deviceset="STPS20L15G-TR" device="TO"/>
-<part name="R6" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:26059/1"/>
+<part name="R6" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:26059/1" value="1K"/>
 <part name="LED6" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/1"/>
 <part name="FUELRELAY" library="panasonic" deviceset="ACTP112" device="ACTP112"/>
 <part name="U$3" library="diodes-inc" deviceset="MMBD4448H-7-F" device=""/>
@@ -6301,13 +6301,13 @@ http://www.st.com&lt;p&gt;
 <part name="U$4" library="diodes-inc" deviceset="MMBD4448H-7-F" device=""/>
 <part name="F2" library="Keystone" deviceset="3568" device=""/>
 <part name="F6" library="Keystone" deviceset="3568" device=""/>
-<part name="R4" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:26059/1"/>
+<part name="R4" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:26059/1" value="1K"/>
 <part name="LED4" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/1"/>
-<part name="R5" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:26059/1"/>
+<part name="R5" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:26059/1" value="1K"/>
 <part name="LED5" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/1"/>
-<part name="R3" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:26059/1"/>
+<part name="R3" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:26059/1" value="1K"/>
 <part name="LED3" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/1"/>
-<part name="R1" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:26059/1"/>
+<part name="R1" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:26059/1" value="1K"/>
 <part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/1"/>
 </parts>
 <sheets>
