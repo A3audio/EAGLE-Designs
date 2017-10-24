@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="mil"/>
+<grid distance="0.05" unitdist="inch" unit="mil" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -341,6 +341,23 @@
 <wire x1="17.6022" y1="-7.747" x2="-1.397" y2="-7.747" width="0.127" layer="21"/>
 <text x="-1.524" y="7.874" size="1.27" layer="25">&gt;Name</text>
 <text x="-1.524" y="-9.144" size="1.27" layer="27">&gt;Value</text>
+</package>
+<package name="SULLINS_1MM_HEADER">
+<pad name="P1" x="0" y="0" drill="0.7" diameter="1.016" shape="square"/>
+<pad name="P2" x="1.27" y="0" drill="0.7" diameter="1.016"/>
+<pad name="P3" x="2.54" y="0" drill="0.7" diameter="1.016"/>
+<pad name="P4" x="3.81" y="0" drill="0.7" diameter="1.016"/>
+<pad name="P5" x="5.08" y="0" drill="0.7" diameter="1.016"/>
+<pad name="P6" x="6.35" y="0" drill="0.7" diameter="1.016"/>
+<wire x1="-2.54" y1="4.9022" x2="8.89" y2="4.9022" width="0.254" layer="21"/>
+<wire x1="8.89" y1="4.9022" x2="8.89" y2="0.4064" width="0.254" layer="21"/>
+<wire x1="8.89" y1="0.4064" x2="8.89" y2="-0.762" width="0.254" layer="21"/>
+<wire x1="8.89" y1="-0.762" x2="-2.54" y2="-0.762" width="0.254" layer="21"/>
+<wire x1="-2.54" y1="-0.762" x2="-2.54" y2="0.4064" width="0.254" layer="21"/>
+<wire x1="-2.54" y1="0.4064" x2="-2.54" y2="4.9022" width="0.254" layer="21"/>
+<wire x1="-2.54" y1="0.4064" x2="8.89" y2="0.4064" width="0.254" layer="21"/>
+<text x="-2.54" y="5.08" size="1.27" layer="21">&gt;NAME</text>
+<text x="-2.54" y="-2.54" size="1.27" layer="21">&gt;VALUE</text>
 </package>
 </packages>
 </library>
@@ -2427,12 +2444,6 @@ design rules under a new name.</description>
 <element name="SBRIO_U1" library="formula electric" package="HE3621A1250_SPST" value="HE3621A1250_SPST" x="-63.5" y="121.92"/>
 <element name="SBRIO_U2" library="formula electric" package="HE3621A1250_SPST" value="HE3621A1250_SPST" x="-83.82" y="121.92"/>
 <element name="TSMS_CONN" library="formula electric" package="CONNECTOR_2" value="CONN_2" x="-21.59" y="73.66"/>
-<element name="TUB_CONN" library="con-3m" package="PAK100/2500-5-16" value="2516-5" x="-73.66" y="39.37">
-<attribute name="MPN" value="D2516-5002-AR" x="-73.66" y="39.37" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="" x="-73.66" y="39.37" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="12P7055" x="-73.66" y="39.37" size="1.778" layer="27" display="off"/>
-<attribute name="OC_FARNELL" value="9838376" x="-73.66" y="39.37" size="1.778" layer="27" display="off"/>
-</element>
 <element name="U$1" library="formula electric" package="SOT-23-3" value="DIODE_MMBD4448" x="-68.58" y="139.7"/>
 <element name="U$2" library="formula electric" package="SOT-23-3" value="DIODE_MMBD4448" x="-72.39" y="139.7"/>
 <element name="U$3" library="texas" package="SOT223-4" value="LM340MP-5.0" x="-91.44" y="71.12"/>
@@ -2441,6 +2452,12 @@ design rules under a new name.</description>
 <element name="U$8" library="formula electric" package="RELAY" value="RELAY" x="-71.12" y="10.16"/>
 <element name="U1" library="adafruit" package="VFSOP-8" value="" x="-20.32" y="139.7"/>
 <element name="U$6" library="TE" package="SUPERSEAL1.0_60POS" value="SUPERSEAL1.0_60POS" x="-92.71" y="-31.75"/>
+<element name="U$7" library="formula electric" package="SULLINS_1MM_HEADER" value="SULLINS_1MM_6P_HEADER" x="-118.11" y="-50.8"/>
+<element name="F4" library="resistor" package="R0603" value="0.5A PTC" x="-121.92" y="-80.01"/>
+<element name="F5" library="resistor" package="R0402" value="10mA PTC" x="-121.92" y="-59.69"/>
+<element name="F7" library="resistor" package="R0402" value="10mA PTC" x="-121.92" y="-64.77"/>
+<element name="F8" library="resistor" package="R0402" value="10mA PTC" x="-121.92" y="-69.85"/>
+<element name="F9" library="resistor" package="R0402" value="10mA PTC" x="-121.92" y="-74.93"/>
 </elements>
 <signals>
 <signal name="VCC">
@@ -2692,13 +2709,15 @@ design rules under a new name.</description>
 <contactref element="LEVEL_SHIFTER" pad="14"/>
 <contactref element="U1" pad="P$7"/>
 <contactref element="R36" pad="1"/>
-<wire x1="-41.49" y1="129.54" x2="-20.57" y2="141.15" width="0" layer="19" extent="1-1"/>
-<wire x1="-56.2" y1="138.7" x2="-41.49" y2="129.54" width="0" layer="19" extent="1-1"/>
-<wire x1="-60.01" y1="138.7" x2="-56.2" y2="138.7" width="0" layer="19" extent="1-1"/>
-<wire x1="-86.78" y1="139.7" x2="-60.01" y2="138.7" width="0" layer="19" extent="1-1"/>
-<wire x1="-112.41" y1="129.54" x2="-86.78" y2="139.7" width="0" layer="19" extent="1-1"/>
-<wire x1="-102.28" y1="74.0378" x2="-112.41" y2="129.54" width="0" layer="19" extent="1-1"/>
-<wire x1="-88.66" y1="68.22" x2="-102.28" y2="74.0378" width="0" layer="19" extent="1-1"/>
+<contactref element="F4" pad="1"/>
+<wire x1="-88.66" y1="68.22" x2="-122.77" y2="-80.01" width="0" layer="19" extent="1-1"/>
+<wire x1="-102.28" y1="74.0378" x2="-88.66" y2="68.22" width="0" layer="19" extent="1-1"/>
+<wire x1="-112.41" y1="129.54" x2="-102.28" y2="74.0378" width="0" layer="19" extent="1-1"/>
+<wire x1="-86.78" y1="139.7" x2="-112.41" y2="129.54" width="0" layer="19" extent="1-1"/>
+<wire x1="-60.01" y1="138.7" x2="-86.78" y2="139.7" width="0" layer="19" extent="1-1"/>
+<wire x1="-56.2" y1="138.7" x2="-60.01" y2="138.7" width="0" layer="19" extent="1-1"/>
+<wire x1="-41.49" y1="129.54" x2="-56.2" y2="138.7" width="0" layer="19" extent="1-1"/>
+<wire x1="-20.57" y1="141.15" x2="-41.49" y2="129.54" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DIO3">
 <contactref element="SBRIO_MEZZANINE" pad="198"/>
@@ -2739,16 +2758,20 @@ design rules under a new name.</description>
 <signal name="CAN_H">
 <contactref element="SBRIO_CAN" pad="P$7"/>
 <contactref element="ACCUMULATOR_CONN" pad="5"/>
-<contactref element="TUB_CONN" pad="9"/>
-<wire x1="-66.04" y1="86.36" x2="-72.39" y2="38.1" width="0" layer="19" extent="1-1"/>
-<wire x1="-22.225" y1="15.24" x2="-72.39" y2="38.1" width="0" layer="19" extent="1-1"/>
+<contactref element="U$6" pad="A1"/>
+<contactref element="U$6" pad="B1"/>
+<wire x1="-75.21" y1="-25.75" x2="-113.71" y2="-25.75" width="0" layer="19" extent="1-1"/>
+<wire x1="-22.225" y1="15.24" x2="-75.21" y2="-25.75" width="0" layer="19" extent="1-1"/>
+<wire x1="-66.04" y1="86.36" x2="-22.225" y2="15.24" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CAN_L">
 <contactref element="SBRIO_CAN" pad="P$2"/>
 <contactref element="ACCUMULATOR_CONN" pad="4"/>
-<contactref element="TUB_CONN" pad="8"/>
-<wire x1="-73.66" y1="88.9" x2="-74.93" y2="40.64" width="0" layer="19" extent="1-1"/>
-<wire x1="-23.495" y1="17.78" x2="-74.93" y2="40.64" width="0" layer="19" extent="1-1"/>
+<contactref element="U$6" pad="A2"/>
+<contactref element="U$6" pad="B2"/>
+<wire x1="-72.21" y1="-25.75" x2="-110.71" y2="-25.75" width="0" layer="19" extent="1-1"/>
+<wire x1="-23.495" y1="17.78" x2="-72.21" y2="-25.75" width="0" layer="19" extent="1-1"/>
+<wire x1="-73.66" y1="88.9" x2="-23.495" y2="17.78" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CAN_GND">
 <contactref element="SBRIO_CAN" pad="P$3"/>
@@ -2758,14 +2781,14 @@ design rules under a new name.</description>
 <contactref element="ACCUMULATOR_CONN" pad="S3"/>
 <contactref element="ACCUMULATOR_CONN" pad="S2"/>
 <contactref element="ACCUMULATOR_CONN" pad="S1"/>
-<contactref element="TUB_CONN" pad="10"/>
-<wire x1="-71.12" y1="86.36" x2="-72.39" y2="40.64" width="0" layer="19" extent="1-1"/>
-<wire x1="-68.58" y1="88.9" x2="-71.12" y2="86.36" width="0" layer="19" extent="1-1"/>
-<wire x1="-30.988" y1="17.65" x2="-72.39" y2="40.64" width="0" layer="19" extent="1-1"/>
-<wire x1="-27.305" y1="15.24" x2="-30.988" y2="17.65" width="0" layer="19" extent="1-1"/>
-<wire x1="-30.988" y1="5.842" x2="-27.305" y2="15.24" width="0" layer="19" extent="1-1"/>
+<contactref element="U$6" pad="A3"/>
+<wire x1="-30.988" y1="5.842" x2="-107.71" y2="-25.75" width="0" layer="19" extent="1-1"/>
+<wire x1="-27.305" y1="15.24" x2="-30.988" y2="5.842" width="0" layer="19" extent="1-1"/>
+<wire x1="-30.988" y1="17.65" x2="-27.305" y2="15.24" width="0" layer="19" extent="1-1"/>
 <wire x1="-14.732" y1="17.65" x2="-27.305" y2="15.24" width="0" layer="19" extent="1-1"/>
 <wire x1="-14.732" y1="5.842" x2="-14.732" y2="17.65" width="0" layer="19" extent="1-1"/>
+<wire x1="-71.12" y1="86.36" x2="-30.988" y2="17.65" width="0" layer="19" extent="1-1"/>
+<wire x1="-68.58" y1="88.9" x2="-71.12" y2="86.36" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SHIELD">
 <contactref element="SBRIO_CAN" pad="P$5"/>
@@ -2796,37 +2819,37 @@ design rules under a new name.</description>
 <contactref element="SBRIO_ANALOG" pad="P$12"/>
 <contactref element="BSPD_CONN" pad="5"/>
 <contactref element="BSPD_CONN" pad="6"/>
-<contactref element="TUB_CONN" pad="11"/>
 <contactref element="R26" pad="2"/>
-<wire x1="-56.04" y1="102.33" x2="-71.74" y2="134.62" width="0" layer="19" extent="1-1"/>
-<wire x1="-24.33" y1="63.42" x2="-56.04" y2="102.33" width="0" layer="19" extent="1-1"/>
-<wire x1="-26.83" y1="58.42" x2="-24.33" y2="63.42" width="0" layer="19" extent="1-1"/>
-<wire x1="-69.85" y1="38.1" x2="-26.83" y2="58.42" width="0" layer="19" extent="1-1"/>
+<contactref element="U$6" pad="A15"/>
+<wire x1="-26.83" y1="58.42" x2="-97.21" y2="-28.25" width="0" layer="19" extent="1-1"/>
+<wire x1="-24.33" y1="63.42" x2="-26.83" y2="58.42" width="0" layer="19" extent="1-1"/>
+<wire x1="-56.04" y1="102.33" x2="-24.33" y2="63.42" width="0" layer="19" extent="1-1"/>
+<wire x1="-71.74" y1="134.62" x2="-56.04" y2="102.33" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="BRAKE_PRESS_IN_2">
 <contactref element="SBRIO_ANALOG" pad="P$14"/>
 <contactref element="BSPD_CONN" pad="3"/>
 <contactref element="BSPD_CONN" pad="4"/>
-<contactref element="TUB_CONN" pad="12"/>
 <contactref element="R19" pad="2"/>
-<wire x1="-54.04" y1="102.33" x2="-41.26" y2="134.62" width="0" layer="19" extent="1-1"/>
-<wire x1="-29.33" y1="63.42" x2="-54.04" y2="102.33" width="0" layer="19" extent="1-1"/>
-<wire x1="-31.83" y1="58.42" x2="-29.33" y2="63.42" width="0" layer="19" extent="1-1"/>
-<wire x1="-69.85" y1="40.64" x2="-31.83" y2="58.42" width="0" layer="19" extent="1-1"/>
+<contactref element="U$6" pad="A14"/>
+<wire x1="-31.83" y1="58.42" x2="-100.21" y2="-28.25" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.33" y1="63.42" x2="-31.83" y2="58.42" width="0" layer="19" extent="1-1"/>
+<wire x1="-54.04" y1="102.33" x2="-29.33" y2="63.42" width="0" layer="19" extent="1-1"/>
+<wire x1="-41.26" y1="134.62" x2="-54.04" y2="102.33" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="THROTTLE_IN_1">
 <contactref element="SBRIO_ANALOG" pad="P$18"/>
-<contactref element="TUB_CONN" pad="13"/>
 <contactref element="R20" pad="2"/>
-<wire x1="-50.04" y1="102.33" x2="-46.34" y2="134.62" width="0" layer="19" extent="1-1"/>
-<wire x1="-67.31" y1="38.1" x2="-50.04" y2="102.33" width="0" layer="19" extent="1-1"/>
+<contactref element="U$6" pad="A13"/>
+<wire x1="-50.04" y1="102.33" x2="-103.21" y2="-28.25" width="0" layer="19" extent="1-1"/>
+<wire x1="-46.34" y1="134.62" x2="-50.04" y2="102.33" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AI7">
 <contactref element="SBRIO_ANALOG" pad="P$24"/>
-<contactref element="TUB_CONN" pad="15"/>
 <contactref element="R22" pad="2"/>
-<wire x1="-44.04" y1="102.33" x2="-56.5" y2="134.62" width="0" layer="19" extent="1-1"/>
-<wire x1="-64.77" y1="38.1" x2="-44.04" y2="102.33" width="0" layer="19" extent="1-1"/>
+<contactref element="U$6" pad="A11"/>
+<wire x1="-44.04" y1="102.33" x2="-109.21" y2="-28.25" width="0" layer="19" extent="1-1"/>
+<wire x1="-56.5" y1="134.62" x2="-44.04" y2="102.33" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DIO8">
 <contactref element="SBRIO_MEZZANINE" pad="156"/>
@@ -2852,18 +2875,12 @@ design rules under a new name.</description>
 </signal>
 <signal name="AMS_OUT">
 <contactref element="IC3" pad="17"/>
-<contactref element="TUB_CONN" pad="6"/>
-<wire x1="-77.47" y1="40.64" x2="-52.705" y2="93.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="IMD_OUT">
 <contactref element="IC3" pad="14"/>
-<contactref element="TUB_CONN" pad="5"/>
-<wire x1="-77.47" y1="38.1" x2="-48.895" y2="93.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="BSPD_OUT">
 <contactref element="IC3" pad="13"/>
-<contactref element="TUB_CONN" pad="4"/>
-<wire x1="-80.01" y1="40.64" x2="-47.625" y2="93.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DIO23">
 <contactref element="SBRIO_MEZZANINE" pad="171"/>
@@ -3010,11 +3027,11 @@ design rules under a new name.</description>
 <signal name="STEERING_POS">
 <contactref element="SBRIO_ANALOG" pad="P$21"/>
 <contactref element="SBRIO_AUX" pad="P$39"/>
-<contactref element="TUB_CONN" pad="16"/>
 <contactref element="R17" pad="2"/>
-<wire x1="-28.04" y1="111.76" x2="-31.1" y2="134.62" width="0" layer="19" extent="1-1"/>
-<wire x1="-46.04" y1="100.33" x2="-28.04" y2="111.76" width="0" layer="19" extent="1-1"/>
-<wire x1="-64.77" y1="40.64" x2="-46.04" y2="100.33" width="0" layer="19" extent="1-1"/>
+<contactref element="U$6" pad="A10"/>
+<wire x1="-46.04" y1="100.33" x2="-112.21" y2="-28.25" width="0" layer="19" extent="1-1"/>
+<wire x1="-28.04" y1="111.76" x2="-46.04" y2="100.33" width="0" layer="19" extent="1-1"/>
+<wire x1="-31.1" y1="134.62" x2="-28.04" y2="111.76" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AI15">
 <contactref element="SBRIO_ANALOG" pad="P$23"/>
@@ -3027,34 +3044,42 @@ design rules under a new name.</description>
 <contactref element="SBRIO_ANALOG" pad="P$28"/>
 <contactref element="SBRIO_AUX" pad="P$43"/>
 <contactref element="F15" pad="1"/>
-<wire x1="-40.04" y1="102.33" x2="-24.04" y2="111.76" width="0" layer="19" extent="1-1"/>
+<contactref element="F5" pad="1"/>
+<wire x1="-40.04" y1="102.33" x2="-122.57" y2="-59.69" width="0" layer="19" extent="1-1"/>
+<wire x1="-24.04" y1="111.76" x2="-40.04" y2="102.33" width="0" layer="19" extent="1-1"/>
 <wire x1="-103.52" y1="121.92" x2="-40.04" y2="102.33" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AO1">
 <contactref element="SBRIO_ANALOG" pad="P$30"/>
 <contactref element="SBRIO_AUX" pad="P$45"/>
 <contactref element="F20" pad="1"/>
-<wire x1="-38.04" y1="102.33" x2="-22.04" y2="111.76" width="0" layer="19" extent="1-1"/>
-<wire x1="-113.68" y1="121.92" x2="-38.04" y2="102.33" width="0" layer="19" extent="1-1"/>
+<contactref element="F7" pad="1"/>
+<wire x1="-113.68" y1="121.92" x2="-122.57" y2="-64.77" width="0" layer="19" extent="1-1"/>
+<wire x1="-38.04" y1="102.33" x2="-113.68" y2="121.92" width="0" layer="19" extent="1-1"/>
+<wire x1="-22.04" y1="111.76" x2="-38.04" y2="102.33" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AO2">
 <contactref element="SBRIO_ANALOG" pad="P$32"/>
 <contactref element="SBRIO_AUX" pad="P$47"/>
 <contactref element="F21" pad="1"/>
-<wire x1="-20.04" y1="111.76" x2="-22.24" y2="129.54" width="0" layer="19" extent="1-1"/>
-<wire x1="-36.04" y1="102.33" x2="-20.04" y2="111.76" width="0" layer="19" extent="1-1"/>
+<contactref element="F8" pad="1"/>
+<wire x1="-36.04" y1="102.33" x2="-122.57" y2="-69.85" width="0" layer="19" extent="1-1"/>
+<wire x1="-20.04" y1="111.76" x2="-36.04" y2="102.33" width="0" layer="19" extent="1-1"/>
+<wire x1="-22.24" y1="129.54" x2="-20.04" y2="111.76" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AO3">
 <contactref element="SBRIO_ANALOG" pad="P$34"/>
 <contactref element="SBRIO_AUX" pad="P$49"/>
 <contactref element="F22" pad="1"/>
-<wire x1="-18.04" y1="111.76" x2="-32.4" y2="129.54" width="0" layer="19" extent="1-1"/>
-<wire x1="-34.04" y1="102.33" x2="-18.04" y2="111.76" width="0" layer="19" extent="1-1"/>
+<contactref element="F9" pad="1"/>
+<wire x1="-34.04" y1="102.33" x2="-122.57" y2="-74.93" width="0" layer="19" extent="1-1"/>
+<wire x1="-18.04" y1="111.76" x2="-34.04" y2="102.33" width="0" layer="19" extent="1-1"/>
+<wire x1="-32.4" y1="129.54" x2="-18.04" y2="111.76" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="BUZZER_OUT">
 <contactref element="IC3" pad="18"/>
-<contactref element="TUB_CONN" pad="7"/>
-<wire x1="-74.93" y1="38.1" x2="-53.975" y2="93.5" width="0" layer="19" extent="1-1"/>
+<contactref element="U$6" pad="A16"/>
+<wire x1="-53.975" y1="93.5" x2="-94.21" y2="-28.25" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="IMD_OK_IN">
 <contactref element="ACCUMULATOR_CONN" pad="8"/>
@@ -3123,13 +3148,13 @@ design rules under a new name.</description>
 </signal>
 <signal name="ACCUMULATOR_FANS">
 <contactref element="IC1" pad="18"/>
-<contactref element="AIO_PO_CONN" pad="16"/>
-<wire x1="-35.56" y1="40.64" x2="-23.495" y2="93.5" width="0" layer="19" extent="1-1"/>
+<contactref element="AIO_PO_CONN" pad="15"/>
+<wire x1="-35.56" y1="38.1" x2="-23.495" y2="93.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PO2">
 <contactref element="IC1" pad="17"/>
-<contactref element="AIO_PO_CONN" pad="15"/>
-<wire x1="-35.56" y1="38.1" x2="-22.225" y2="93.5" width="0" layer="19" extent="1-1"/>
+<contactref element="U$6" pad="A18"/>
+<wire x1="-22.225" y1="93.5" x2="-112.21" y2="-31.25" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PO3">
 <contactref element="IC1" pad="14"/>
@@ -3138,8 +3163,6 @@ design rules under a new name.</description>
 </signal>
 <signal name="PO4">
 <contactref element="IC1" pad="13"/>
-<contactref element="AIO_PO_CONN" pad="13"/>
-<wire x1="-38.1" y1="38.1" x2="-17.145" y2="93.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$3">
 <contactref element="AIO_PO_CONN" pad="9"/>
@@ -3318,11 +3341,11 @@ design rules under a new name.</description>
 <contactref element="SBRIO_MEZZANINE" pad="235"/>
 </signal>
 <signal name="THROTTLE_IN_2">
-<contactref element="TUB_CONN" pad="14"/>
 <contactref element="SBRIO_ANALOG" pad="P$20"/>
 <contactref element="R21" pad="2"/>
-<wire x1="-48.04" y1="102.33" x2="-51.42" y2="134.62" width="0" layer="19" extent="1-1"/>
-<wire x1="-67.31" y1="40.64" x2="-48.04" y2="102.33" width="0" layer="19" extent="1-1"/>
+<contactref element="U$6" pad="A12"/>
+<wire x1="-48.04" y1="102.33" x2="-106.21" y2="-28.25" width="0" layer="19" extent="1-1"/>
+<wire x1="-51.42" y1="134.62" x2="-48.04" y2="102.33" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="E-STOP_OK">
 <contactref element="5525-3.3YM5-TR(4)" pad="P$1"/>
@@ -3332,28 +3355,24 @@ design rules under a new name.</description>
 <wire x1="-50.8" y1="40.64" x2="-40.64" y2="140.7" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LATCH_OK">
-<contactref element="AIO_PO_CONN" pad="8"/>
 <contactref element="5525-3.3YM5-TR(2)" pad="P$1"/>
 <contactref element="R5" pad="1"/>
 <wire x1="-98.44" y1="134.62" x2="-30.48" y2="140.7" width="0" layer="19" extent="1-1"/>
-<wire x1="-45.72" y1="40.64" x2="-30.48" y2="140.7" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="5V_IO_1">
 <contactref element="F17" pad="1"/>
-<contactref element="TUB_CONN" pad="3"/>
-<wire x1="-80.01" y1="38.1" x2="-49.11" y2="129.54" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DC_DC_DISABLE">
 <contactref element="F18" pad="1"/>
-<contactref element="TUB_CONN" pad="1"/>
-<wire x1="-82.55" y1="38.1" x2="-56.73" y2="129.54" width="0" layer="19" extent="1-1"/>
+<contactref element="U$6" pad="B8"/>
+<wire x1="-56.73" y1="129.54" x2="-73.71" y2="-28.25" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LAP_TIMER_IN">
 <contactref element="U1" pad="P$8"/>
 <contactref element="R36" pad="2"/>
-<contactref element="TUB_CONN" pad="2"/>
-<wire x1="-111.11" y1="129.54" x2="-21.07" y2="141.15" width="0" layer="19" extent="1-1"/>
-<wire x1="-82.55" y1="40.64" x2="-111.11" y2="129.54" width="0" layer="19" extent="1-1"/>
+<contactref element="U$6" pad="A21"/>
+<wire x1="-111.11" y1="129.54" x2="-103.21" y2="-31.25" width="0" layer="19" extent="1-1"/>
+<wire x1="-21.07" y1="141.15" x2="-111.11" y2="129.54" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SBRIO_OK+_1">
 <contactref element="IC2" pad="14"/>
@@ -3435,8 +3454,10 @@ design rules under a new name.</description>
 <contactref element="TSMS_CONN" pad="3"/>
 <contactref element="TSMS_CONN" pad="4"/>
 <contactref element="F1" pad="1"/>
+<contactref element="AIO_PO_CONN" pad="8"/>
 <wire x1="-14.09" y1="78.66" x2="-64.35" y2="129.54" width="0" layer="19" extent="1-1"/>
 <wire x1="-16.59" y1="73.66" x2="-14.09" y2="78.66" width="0" layer="19" extent="1-1"/>
+<wire x1="-45.72" y1="40.64" x2="-16.59" y2="73.66" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GLV+">
 <contactref element="F3" pad="3"/>
@@ -3562,6 +3583,123 @@ design rules under a new name.</description>
 <contactref element="C9" pad="1"/>
 <contactref element="3.3V_REG" pad="5"/>
 <wire x1="-16.51" y1="37.084" x2="-77.05" y2="139.7" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="BRAKELIGHT">
+<contactref element="U$6" pad="A17"/>
+</signal>
+<signal name="FAN_PWM_OUT">
+<contactref element="AIO_PO_CONN" pad="16"/>
+</signal>
+<signal name="COOLANT_PUMP">
+<contactref element="AIO_PO_CONN" pad="13"/>
+</signal>
+<signal name="N$16">
+<contactref element="U$6" pad="A4"/>
+</signal>
+<signal name="N$17">
+<contactref element="U$6" pad="A5"/>
+</signal>
+<signal name="N$18">
+<contactref element="U$6" pad="A6"/>
+</signal>
+<signal name="N$19">
+<contactref element="U$6" pad="A7"/>
+</signal>
+<signal name="N$21">
+<contactref element="U$6" pad="A8"/>
+</signal>
+<signal name="N$22">
+<contactref element="U$6" pad="A9"/>
+</signal>
+<signal name="N$28">
+<contactref element="U$6" pad="A19"/>
+</signal>
+<signal name="N$30">
+<contactref element="U$6" pad="A20"/>
+</signal>
+<signal name="N$33">
+<contactref element="U$6" pad="A23"/>
+</signal>
+<signal name="N$34">
+<contactref element="U$6" pad="A24"/>
+</signal>
+<signal name="N$35">
+<contactref element="U$6" pad="A25"/>
+</signal>
+<signal name="N$36">
+<contactref element="U$6" pad="A26"/>
+</signal>
+<signal name="N$37">
+<contactref element="U$6" pad="A27"/>
+</signal>
+<signal name="N$38">
+<contactref element="U$6" pad="A28"/>
+</signal>
+<signal name="N$39">
+<contactref element="U$6" pad="A29"/>
+</signal>
+<signal name="N$40">
+<contactref element="U$6" pad="A30"/>
+</signal>
+<signal name="N$42">
+<contactref element="U$6" pad="A31"/>
+</signal>
+<signal name="N$43">
+<contactref element="U$6" pad="A32"/>
+</signal>
+<signal name="N$44">
+<contactref element="U$6" pad="A33"/>
+</signal>
+<signal name="N$45">
+<contactref element="U$6" pad="A34"/>
+</signal>
+<signal name="N$15">
+<contactref element="U$6" pad="B3"/>
+</signal>
+<signal name="N$23">
+<contactref element="U$6" pad="B4"/>
+</signal>
+<signal name="N$24">
+<contactref element="U$6" pad="B5"/>
+</signal>
+<signal name="N$25">
+<contactref element="U$6" pad="B6"/>
+</signal>
+<signal name="N$26">
+<contactref element="U$6" pad="B7"/>
+</signal>
+<signal name="N$31">
+<contactref element="U$6" pad="B9"/>
+</signal>
+<signal name="N$32">
+<contactref element="U$6" pad="B10"/>
+</signal>
+<signal name="N$67">
+<contactref element="U$6" pad="B11"/>
+</signal>
+<signal name="N$68">
+<contactref element="U$6" pad="B12"/>
+</signal>
+<signal name="N$69">
+<contactref element="U$6" pad="B13"/>
+</signal>
+<signal name="N$12">
+<contactref element="F4" pad="2"/>
+</signal>
+<signal name="N$70">
+<contactref element="F5" pad="2"/>
+</signal>
+<signal name="N$71">
+<contactref element="F7" pad="2"/>
+</signal>
+<signal name="N$72">
+<contactref element="F8" pad="2"/>
+</signal>
+<signal name="N$73">
+<contactref element="F9" pad="2"/>
+</signal>
+<signal name="N$11">
+<contactref element="U$6" pad="A22"/>
 </signal>
 </signals>
 </board>
