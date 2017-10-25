@@ -5836,22 +5836,6 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
 <smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
 <smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
-<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
-<rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
-</package>
-<package name="C0603@1">
-<description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
-<wire x1="-1.473" y1="0.983" x2="1.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="0.983" x2="1.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="-0.983" x2="-1.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
-<wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
-<smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
 <text x="-1.905" y="0.635" size="1.016" layer="25" font="vector">&gt;NAME</text>
 <text x="-1.905" y="-2.2606" size="1.016" layer="27" font="vector">&gt;VALUE</text>
 <rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
@@ -5859,22 +5843,6 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
 </package>
 <package name="C0805">
-<description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;</description>
-<wire x1="-1.973" y1="0.983" x2="1.973" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="1.973" y1="-0.983" x2="-1.973" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-1.973" y1="-0.983" x2="-1.973" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="-0.381" y1="0.66" x2="0.381" y2="0.66" width="0.1016" layer="51"/>
-<wire x1="-0.356" y1="-0.66" x2="0.381" y2="-0.66" width="0.1016" layer="51"/>
-<wire x1="1.973" y1="0.983" x2="1.973" y2="-0.983" width="0.0508" layer="39"/>
-<smd name="1" x="-0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
-<smd name="2" x="0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
-<text x="-1.27" y="1.27" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.27" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-1.0922" y1="-0.7239" x2="-0.3421" y2="0.7262" layer="51"/>
-<rectangle x1="0.3556" y1="-0.7239" x2="1.1057" y2="0.7262" layer="51"/>
-<rectangle x1="-0.1001" y1="-0.4001" x2="0.1001" y2="0.4001" layer="35"/>
-</package>
-<package name="C0805@1">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;</description>
 <wire x1="-1.973" y1="0.983" x2="1.973" y2="0.983" width="0.0508" layer="39"/>
 <wire x1="1.973" y1="-0.983" x2="-1.973" y2="-0.983" width="0.0508" layer="39"/>
@@ -8032,7 +8000,7 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="C0603" package="C0603@1">
+<device name="C0603" package="C0603">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -8041,7 +8009,7 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="C0805" package="C0805@1">
+<device name="C0805" package="C0805">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -11870,11 +11838,11 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
  &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
 <package name="1734753-1">
-<pad name="P$1" x="-0.5" y="-1.6" drill="0.5"/>
-<pad name="P$2" x="0.5" y="-0.8" drill="0.5"/>
-<pad name="P$3" x="-0.5" y="0" drill="0.5" rot="R180"/>
-<pad name="P$4" x="0.5" y="0.8" drill="0.5"/>
-<pad name="P$5" x="-0.5" y="1.6" drill="0.5"/>
+<pad name="P$1" x="-0.5" y="-1.6" drill="0.7" diameter="1.1"/>
+<pad name="P$2" x="0.5" y="-0.8" drill="0.7" diameter="1.1"/>
+<pad name="P$3" x="-0.5" y="0" drill="0.7" diameter="1.1" rot="R180"/>
+<pad name="P$4" x="0.5" y="0.8" drill="0.7" diameter="1.1"/>
+<pad name="P$5" x="-0.5" y="1.6" drill="0.7" diameter="1.1"/>
 <rectangle x1="-2.1" y1="1.7" x2="-1.4" y2="3.1" layer="45"/>
 <rectangle x1="1.4" y1="-0.6" x2="2.1" y2="0.6" layer="45"/>
 <rectangle x1="-2.1" y1="-2.5" x2="-1.4" y2="-1.3" layer="45"/>
@@ -11885,10 +11853,10 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <circle x="1.75" y="0.6" radius="0.25" width="0.2" layer="45"/>
 <circle x="1.75" y="-0.6" radius="0.25" width="0.2" layer="45"/>
 <text x="-2.286" y="4.191" size="0.6096" layer="21">&gt;1734753-1</text>
-<wire x1="-2.5" y1="-3.85" x2="-2.5" y2="3.85" width="0.127" layer="20"/>
-<wire x1="2.5" y1="-3.85" x2="2.5" y2="3.85" width="0.127" layer="20"/>
-<wire x1="-2.5" y1="3.85" x2="2.5" y2="3.85" width="0.127" layer="20"/>
-<wire x1="-2.5" y1="-3.85" x2="2.5" y2="-3.85" width="0.127" layer="20"/>
+<wire x1="-2.5" y1="-3.85" x2="-2.5" y2="3.85" width="0.127" layer="21"/>
+<wire x1="2.5" y1="-3.85" x2="2.5" y2="3.85" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="3.85" x2="2.5" y2="3.85" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-3.85" x2="2.5" y2="-3.85" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -13377,8 +13345,8 @@ Revised By Daniel Baron</text>
 <instance part="U$26" gate="G$1" x="78.74" y="-30.48"/>
 <instance part="C23" gate="G$1" x="50.8" y="-38.1"/>
 <instance part="C24" gate="G$1" x="101.6" y="-38.1"/>
-<instance part="U$2" gate="G$1" x="459.74" y="-17.78" rot="R90"/>
-<instance part="F3" gate="G$1" x="449.58" y="-15.24" rot="R180"/>
+<instance part="U$2" gate="G$1" x="452.12" y="-17.78" rot="R90"/>
+<instance part="F3" gate="G$1" x="459.74" y="-15.24" rot="R180"/>
 <instance part="SJ1" gate="G$1" x="299.72" y="-121.92" rot="R180"/>
 </instances>
 <busses>
@@ -13665,9 +13633,9 @@ Revised By Daniel Baron</text>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="A"/>
-<wire x1="467.36" y1="-20.32" x2="459.74" y2="-20.32" width="0.1524" layer="91"/>
-<wire x1="459.74" y1="-20.32" x2="444.5" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="452.12" y1="-20.32" x2="444.5" y2="-20.32" width="0.1524" layer="91"/>
 <label x="444.5" y="-20.32" size="1.016" layer="95" rot="R180" xref="yes"/>
+<wire x1="452.12" y1="-20.32" x2="467.36" y2="-20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SG5V" class="0">
@@ -14287,8 +14255,19 @@ Revised By Daniel Baron</text>
 </segment>
 <segment>
 <pinref part="F3" gate="G$1" pin="1"/>
-<wire x1="444.5" y1="-15.24" x2="441.96" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="454.66" y1="-15.24" x2="452.12" y2="-15.24" width="0.1524" layer="91"/>
 <label x="441.96" y="-15.24" size="1.016" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$2" gate="G$1" pin="C"/>
+<wire x1="452.12" y1="-15.24" x2="441.96" y2="-15.24" width="0.1524" layer="91"/>
+<junction x="452.12" y="-15.24"/>
+</segment>
+<segment>
+<pinref part="U$10V2V5" gate="G$1" pin="P2"/>
+<pinref part="C37" gate="G$1" pin="1"/>
+<wire x1="60.96" y1="-127" x2="38.1" y2="-127" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="-127" x2="17.78" y2="-127" width="0.1524" layer="91"/>
+<junction x="38.1" y="-127"/>
+<label x="17.78" y="-127" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -14381,16 +14360,6 @@ Revised By Daniel Baron</text>
 <pinref part="C20" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="10V" class="0">
-<segment>
-<pinref part="U$10V2V5" gate="G$1" pin="P2"/>
-<pinref part="C37" gate="G$1" pin="1"/>
-<wire x1="60.96" y1="-127" x2="38.1" y2="-127" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="-127" x2="17.78" y2="-127" width="0.1524" layer="91"/>
-<junction x="38.1" y="-127"/>
-<label x="17.78" y="-127" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
 <net name="N$2" class="0">
 <segment>
 <pinref part="R5" gate="G$1" pin="2"/>
@@ -14456,12 +14425,10 @@ Revised By Daniel Baron</text>
 <junction x="50.8" y="-30.48"/>
 </segment>
 </net>
-<net name="12V_PREPTC" class="0">
+<net name="N$1" class="0">
 <segment>
 <pinref part="F3" gate="G$1" pin="2"/>
-<wire x1="454.66" y1="-15.24" x2="459.74" y2="-15.24" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="C"/>
-<wire x1="459.74" y1="-15.24" x2="467.36" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="464.82" y1="-15.24" x2="467.36" y2="-15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
