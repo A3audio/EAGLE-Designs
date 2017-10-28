@@ -5752,7 +5752,7 @@ http://www.infineon.comp&gt;
 <part name="FANRELAY" library="panasonic" deviceset="ACTP112" device="ACTP112"/>
 <part name="U$7" library="diodes-inc" deviceset="MMBD4448H-7-F" device=""/>
 <part name="25A" library="Keystone" deviceset="3568" device=""/>
-<part name="R1" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:26062/1"/>
+<part name="R1" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:26062/1" value="470"/>
 <part name="5AA" library="Keystone" deviceset="3568" device=""/>
 <part name="5AB" library="Keystone" deviceset="3568" device=""/>
 <part name="10AA" library="Keystone" deviceset="3568" device=""/>
@@ -5764,29 +5764,30 @@ http://www.infineon.comp&gt;
 <part name="D1" library="adafruit" deviceset="1N4004" device=""/>
 <part name="R3" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:26062/1" value="47K"/>
 <part name="Q2" library="adafruit" deviceset="2N2907*" device=""/>
-<part name="R4" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:26062/1"/>
+<part name="R4" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:26062/1" value="470"/>
 <part name="R5" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:26062/1" value="47K"/>
 <part name="D2" library="adafruit" deviceset="1N4004" device=""/>
 <part name="Q3" library="adafruit" deviceset="2N2907*" device=""/>
-<part name="R2" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:26062/1"/>
+<part name="R2" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:26062/1" value="470"/>
 <part name="LED1" library="adafruit" deviceset="LED" device="CHIPLED_0805"/>
 <part name="R6" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:26062/1" value="47K"/>
 <part name="D3" library="adafruit" deviceset="1N4004" device=""/>
 <part name="LED4" library="adafruit" deviceset="LED" device="CHIPLED_0805"/>
 <part name="Q4" library="adafruit" deviceset="2N2907*" device=""/>
-<part name="R7" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:26062/1"/>
+<part name="R7" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:26062/1" value="470"/>
 <part name="R8" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:26062/1" value="47K"/>
 <part name="D4" library="adafruit" deviceset="1N4004" device=""/>
 <part name="LED5" library="adafruit" deviceset="LED" device="CHIPLED_0805"/>
 <part name="Q5" library="adafruit" deviceset="2N2907*" device=""/>
-<part name="R9" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:26062/1"/>
+<part name="R9" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:26062/1" value="470"/>
 <part name="R10" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:26062/1" value="47K"/>
 <part name="D5" library="adafruit" deviceset="1N4004" device=""/>
 <part name="LED6" library="adafruit" deviceset="LED" device="CHIPLED_0805"/>
 <part name="Q6" library="adafruit" deviceset="2N2907*" device=""/>
-<part name="R11" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:26062/1"/>
+<part name="R11" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:26062/1" value="470"/>
 <part name="R12" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:26062/1" value="47K"/>
 <part name="D6" library="adafruit" deviceset="1N4004" device=""/>
+<part name="R13" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:26062/1" value="47K"/>
 </parts>
 <sheets>
 <sheet>
@@ -5806,11 +5807,12 @@ http://www.infineon.comp&gt;
 <wire x1="58.42" y1="-96.52" x2="-68.58" y2="-96.52" width="0.1524" layer="94"/>
 <wire x1="-68.58" y1="-96.52" x2="-68.58" y2="96.52" width="0.1524" layer="94"/>
 <text x="-66.04" y="91.44" size="1.778" layer="94">Non-Relayed Fuses /w Blown Fuse Indicator</text>
-<wire x1="198.12" y1="165.1" x2="322.58" y2="165.1" width="0.1524" layer="94"/>
-<wire x1="322.58" y1="165.1" x2="322.58" y2="86.36" width="0.1524" layer="94"/>
-<wire x1="322.58" y1="86.36" x2="198.12" y2="86.36" width="0.1524" layer="94"/>
-<wire x1="198.12" y1="86.36" x2="198.12" y2="165.1" width="0.1524" layer="94"/>
-<text x="200.66" y="160.02" size="1.778" layer="94">Fan PWM MOSFET</text>
+<wire x1="73.66" y1="187.96" x2="200.66" y2="187.96" width="0.1524" layer="94"/>
+<wire x1="200.66" y1="187.96" x2="200.66" y2="119.38" width="0.1524" layer="94"/>
+<wire x1="200.66" y1="119.38" x2="73.66" y2="119.38" width="0.1524" layer="94"/>
+<wire x1="73.66" y1="119.38" x2="73.66" y2="187.96" width="0.1524" layer="94"/>
+<text x="76.2" y="182.88" size="1.778" layer="94">Fan PWM MOSFET</text>
+<text x="139.7" y="154.94" size="1.778" layer="94">N-Channel MOSFET (Not a P-Channel)</text>
 </plain>
 <instances>
 <instance part="W.PUMPRELAY" gate="G$1" x="-15.24" y="241.3" smashed="yes" rot="R90">
@@ -5835,7 +5837,7 @@ http://www.infineon.comp&gt;
 <instance part="10AB" gate="G$1" x="22.86" y="-48.26"/>
 <instance part="LED2" gate="G$1" x="27.94" y="160.02"/>
 <instance part="LED3" gate="G$1" x="27.94" y="236.22"/>
-<instance part="U$1" gate="G$1" x="292.1" y="121.92"/>
+<instance part="U$1" gate="G$1" x="132.08" y="160.02"/>
 <instance part="Q1" gate="G$1" x="25.4" y="223.52"/>
 <instance part="D1" gate="1" x="10.16" y="233.68" rot="R270"/>
 <instance part="R3" gate="G$1" x="10.16" y="210.82" smashed="yes" rot="R270">
@@ -5919,6 +5921,10 @@ http://www.infineon.comp&gt;
 <instance part="D6" gate="1" x="15.24" y="-55.88" smashed="yes" rot="R270">
 <attribute name="NAME" x="8.1026" y="-55.88" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="12.9286" y="-58.42" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="R13" gate="G$1" x="119.38" y="149.86" smashed="yes" rot="R270">
+<attribute name="NAME" x="120.8786" y="151.13" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="116.078" y="153.67" size="1.778" layer="96" rot="R270"/>
 </instance>
 </instances>
 <busses>
@@ -6083,17 +6089,33 @@ http://www.infineon.comp&gt;
 <wire x1="0" y1="-78.74" x2="5.08" y2="-78.74" width="0.1524" layer="91"/>
 <junction x="5.08" y="-78.74"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="S"/>
+<wire x1="134.62" y1="154.94" x2="134.62" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="139.7" x2="119.38" y2="139.7" width="0.1524" layer="91"/>
+<pinref part="R13" gate="G$1" pin="2"/>
+<wire x1="119.38" y1="139.7" x2="119.38" y2="144.78" width="0.1524" layer="91"/>
+<label x="139.7" y="139.7" size="1.778" layer="95" xref="yes"/>
+<wire x1="139.7" y1="139.7" x2="134.62" y2="139.7" width="0.1524" layer="91"/>
+<junction x="134.62" y="139.7"/>
+</segment>
 </net>
 <net name="FAN_PWM_IN" class="0">
 <segment>
-<wire x1="254" y1="124.46" x2="243.84" y2="124.46" width="0.1524" layer="91"/>
-<label x="243.84" y="124.46" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="119.38" y1="157.48" x2="109.22" y2="157.48" width="0.1524" layer="91"/>
+<label x="109.22" y="157.48" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="R13" gate="G$1" pin="1"/>
+<wire x1="119.38" y1="154.94" x2="119.38" y2="157.48" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="G"/>
+<wire x1="119.38" y1="157.48" x2="129.54" y2="157.48" width="0.1524" layer="91"/>
+<junction x="119.38" y="157.48"/>
 </segment>
 </net>
 <net name="FAN_PWM_OUT" class="0">
 <segment>
-<wire x1="294.64" y1="134.62" x2="294.64" y2="144.78" width="0.1524" layer="91"/>
-<label x="294.64" y="144.78" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="134.62" y1="165.1" x2="134.62" y2="177.8" width="0.1524" layer="91"/>
+<label x="134.62" y="177.8" size="1.778" layer="95" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="D"/>
 </segment>
 </net>
 <net name="SBRIO/BMS/WIFI" class="0">
