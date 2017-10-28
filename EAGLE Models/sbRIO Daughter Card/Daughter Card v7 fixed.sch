@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="8.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -4670,37 +4671,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="-0.508" y1="0.7" x2="-1.4986" y2="0.7" width="0.127" layer="21"/>
 <wire x1="-0.4572" y1="-0.7" x2="0.4572" y2="-0.7" width="0.127" layer="21"/>
 </package>
-<package name="CONNECTOR_5">
-<pad name="1" x="0" y="0" drill="1.1" shape="square"/>
-<pad name="3" x="5" y="0" drill="1.1"/>
-<pad name="5" x="10" y="0" drill="1.1"/>
-<pad name="7" x="15" y="0" drill="1.1"/>
-<pad name="2" x="2.5" y="5" drill="1.1" shape="square"/>
-<pad name="4" x="7.5" y="5" drill="1.1"/>
-<pad name="6" x="12.5" y="5" drill="1.1"/>
-<pad name="8" x="17.5" y="5" drill="1.1"/>
-<wire x1="-2.75" y1="8.3" x2="-2.75" y2="-6.5" width="0.127" layer="21"/>
-<wire x1="-2.75" y1="-6.5" x2="23.75" y2="-6.5" width="0.127" layer="21"/>
-<wire x1="23.75" y1="-6.5" x2="23.75" y2="8.3" width="0.127" layer="21"/>
-<wire x1="23.75" y1="8.3" x2="-2.75" y2="8.3" width="0.127" layer="21"/>
-<text x="-3.81" y="-6.35" size="1.27" layer="25" rot="R90">&gt;Name</text>
-<pad name="9" x="20" y="0" drill="1.1"/>
-<pad name="10" x="22.5" y="5" drill="1.1"/>
-</package>
-<package name="CONNECTOR_2">
-<pad name="1" x="0" y="0" drill="1.1" shape="square"/>
-<pad name="2" x="2.5" y="5" drill="1.1" shape="square"/>
-<pad name="3" x="5" y="0" drill="1.1"/>
-<pad name="4" x="7.5" y="5" drill="1.1"/>
-<wire x1="-2.75" y1="8.3" x2="-2.75" y2="-3.5" width="0.127" layer="21"/>
-<wire x1="-2.75" y1="-3.5" x2="-2.75" y2="-6.5" width="0.127" layer="21"/>
-<wire x1="-2.75" y1="-6.5" x2="0.25" y2="-6.5" width="0.127" layer="21"/>
-<wire x1="0.25" y1="-6.5" x2="8.75" y2="-6.5" width="0.127" layer="21"/>
-<wire x1="8.75" y1="-6.5" x2="8.75" y2="8.3" width="0.127" layer="21"/>
-<wire x1="8.75" y1="8.3" x2="-2.75" y2="8.3" width="0.127" layer="21"/>
-<text x="-3.81" y="-6.35" size="1.016" layer="25" font="vector" rot="R90">&gt;Name</text>
-<wire x1="-2.75" y1="-3.5" x2="0.25" y2="-6.5" width="0.127" layer="21"/>
-</package>
 <package name="HE3621A1250_SPST">
 <pad name="S2" x="7.62" y="0" drill="0.8" shape="long" rot="R90"/>
 <pad name="C-" x="2.54" y="0" drill="0.8" shape="long" rot="R90"/>
@@ -4826,18 +4796,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <pin name="A" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
 <pin name="C" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
 </symbol>
-<symbol name="CONNECTOR_5">
-<pin name="4" x="5.08" y="-5.08" visible="pin" length="short" swaplevel="1" rot="R180"/>
-<pin name="5" x="5.08" y="-10.16" visible="pin" length="short" swaplevel="1" rot="R180"/>
-<pin name="3" x="5.08" y="0" visible="pin" length="short" swaplevel="1" rot="R180"/>
-<pin name="2" x="5.08" y="5.08" visible="pin" length="short" swaplevel="1" rot="R180"/>
-<pin name="1" x="5.08" y="10.16" visible="pin" length="short" swaplevel="1" rot="R180"/>
-<text x="-2.54" y="12.7" size="1.778" layer="95">&gt;Name</text>
-<wire x1="2.54" y1="12.7" x2="2.54" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-12.7" x2="-2.54" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-12.7" x2="-2.54" y2="12.7" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="12.7" x2="2.54" y2="12.7" width="0.254" layer="94"/>
-</symbol>
 <symbol name="SBRIO_AUX">
 <pin name="E-STOP" x="-5.08" y="27.94" length="middle"/>
 <pin name="LATCH" x="-5.08" y="25.4" length="middle"/>
@@ -4893,16 +4851,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <pin name="3.3V_OUT" x="12.7" y="2.54" length="middle" rot="R180"/>
 <text x="-5.08" y="5.08" size="1.778" layer="95">&gt;NAME</text>
 <text x="-5.08" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
-</symbol>
-<symbol name="CONNECTOR_2">
-<description>2 pin Wire-to-Board spring connector</description>
-<pin name="1" x="5.08" y="2.54" visible="pin" length="short" rot="R180"/>
-<pin name="2" x="5.08" y="-2.54" visible="pin" length="short" rot="R180"/>
-<text x="-2.54" y="5.08" size="1.778" layer="95">&gt;Name</text>
-<wire x1="-2.54" y1="5.08" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-5.08" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-5.08" x2="2.54" y2="5.08" width="0.254" layer="94"/>
-<wire x1="2.54" y1="5.08" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
 </symbol>
 <symbol name="RELAY_SPST">
 <wire x1="0" y1="-1.27" x2="2.54" y2="3.175" width="0.254" layer="94"/>
@@ -5075,25 +5023,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CONN_5">
-<gates>
-<gate name="G$1" symbol="CONNECTOR_5" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="CONNECTOR_5">
-<connects>
-<connect gate="G$1" pin="1" pad="1 2"/>
-<connect gate="G$1" pin="2" pad="3 4"/>
-<connect gate="G$1" pin="3" pad="5 6"/>
-<connect gate="G$1" pin="4" pad="7 8"/>
-<connect gate="G$1" pin="5" pad="9 10"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="SBRIO_AUX">
 <description>An output for a lot of the extra pins on the sbRIO.</description>
 <gates>
@@ -5163,22 +5092,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <technology name="">
 <attribute name="DIGIKEYPN" value="MCP1703T-3302E/CBCT-ND"/>
 </technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="CONN_2">
-<gates>
-<gate name="G$1" symbol="CONNECTOR_2" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="CONNECTOR_2">
-<connects>
-<connect gate="G$1" pin="1" pad="1 2"/>
-<connect gate="G$1" pin="2" pad="3 4"/>
-</connects>
-<technologies>
-<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -11100,7 +11013,6 @@ Source: AVX .. aphvc.pdf</description>
 <part name="C5" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value=".1uF"/>
 <part name="C13" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="470nF"/>
 <part name="C14" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="10nF"/>
-<part name="BSPD_CONN" library="formula electric" deviceset="CONN_5" device=""/>
 <part name="SBRIO_AUX" library="formula electric" deviceset="SBRIO_AUX" device=""/>
 <part name="F6" library="resistor" deviceset="R-EU_" device="R0603" value="250mA"/>
 <part name="F17" library="resistor" deviceset="R-EU_" device="R0603" value="1A PTC"/>
@@ -11134,7 +11046,6 @@ Source: AVX .. aphvc.pdf</description>
 <part name="K6" library="formula electric" deviceset="HE3621A1250_SPST" device=""/>
 <part name="LATCH_U7" library="formula electric" deviceset="JW2SN-DC12V" device=""/>
 <part name="U$8" library="formula electric" deviceset="RELAY" device=""/>
-<part name="TSMS_CONN" library="formula electric" deviceset="CONN_2" device=""/>
 <part name="D7" library="formula electric" deviceset="DIODE_MMBD4448" device=""/>
 <part name="D8" library="formula electric" deviceset="DIODE_MMBD4448" device=""/>
 <part name="F3" library="SparkFun-Passives" deviceset="FUSE" device="X20MM"/>
@@ -11305,7 +11216,6 @@ for Latched Components</text>
 <instance part="C5" gate="G$1" x="45.72" y="154.94"/>
 <instance part="C13" gate="G$1" x="104.14" y="142.24" rot="R180"/>
 <instance part="C14" gate="G$1" x="124.46" y="142.24" rot="R180"/>
-<instance part="BSPD_CONN" gate="G$1" x="-383.54" y="-246.38" rot="MR0"/>
 <instance part="SBRIO_AUX" gate="G$1" x="289.56" y="111.76"/>
 <instance part="F6" gate="G$1" x="-396.24" y="-256.54" rot="MR0"/>
 <instance part="F17" gate="G$1" x="12.7" y="-5.08" rot="R180"/>
@@ -11342,7 +11252,6 @@ for Latched Components</text>
 <instance part="K6" gate="G$1" x="543.56" y="25.4"/>
 <instance part="LATCH_U7" gate="G$1" x="434.34" y="-81.28" rot="R180"/>
 <instance part="U$8" gate="G$1" x="525.78" y="-66.04"/>
-<instance part="TSMS_CONN" gate="G$1" x="-457.2" y="-43.18"/>
 <instance part="D7" gate="G$1" x="447.04" y="-81.28" rot="R90"/>
 <instance part="D8" gate="G$1" x="513.08" y="-71.12" rot="R270"/>
 <instance part="F3" gate="G$1" x="551.18" y="-55.88"/>
@@ -11801,11 +11710,6 @@ for Latched Components</text>
 <pinref part="U$6" gate="G$1" pin="A5"/>
 <wire x1="-345.44" y1="-114.3" x2="-355.6" y2="-114.3" width="0.1524" layer="91"/>
 <label x="-355.6" y="-114.3" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="TSMS_CONN" gate="G$1" pin="2"/>
-<wire x1="-447.04" y1="-45.72" x2="-452.12" y2="-45.72" width="0.1524" layer="91"/>
-<label x="-447.04" y="-45.72" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
 <wire x1="73.66" y1="-78.74" x2="73.66" y2="-83.82" width="0.1524" layer="91"/>
@@ -12880,7 +12784,6 @@ for Latched Components</text>
 </net>
 <net name="N$41" class="0">
 <segment>
-<pinref part="BSPD_CONN" gate="G$1" pin="5"/>
 <pinref part="F6" gate="G$1" pin="1"/>
 <wire x1="-388.62" y1="-256.54" x2="-391.16" y2="-256.54" width="0.1524" layer="91"/>
 </segment>
@@ -13470,7 +13373,6 @@ for Latched Components</text>
 </net>
 <net name="TSMS_IN+" class="0">
 <segment>
-<pinref part="TSMS_CONN" gate="G$1" pin="1"/>
 <wire x1="-447.04" y1="-40.64" x2="-452.12" y2="-40.64" width="0.1524" layer="91"/>
 <label x="-447.04" y="-40.64" size="1.778" layer="95" xref="yes"/>
 </segment>
