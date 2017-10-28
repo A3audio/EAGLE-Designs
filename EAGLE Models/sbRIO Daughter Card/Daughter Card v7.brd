@@ -372,47 +372,6 @@
 </package>
 </packages>
 </library>
-<library name="con-tycoelectronics">
-<description>&lt;b&gt;Tyco Electronics Connector&lt;/b&gt;&lt;p&gt;
-http://catalog.tycoelectronics.com&lt;br&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="RJ45-SHIELD1">
-<description>&lt;b&gt;RJ45 Low Profile&lt;/b&gt; Shield Type 1&lt;p&gt;
-For all RJ45 N and Z Series Models&lt;br&gt;
-Source: www.tycoelectronics.com .. ENG_DS_1654001_1099_RJ_L_0507.pdf</description>
-<wire x1="7.777" y1="-0.611" x2="7.777" y2="-5.242" width="0.2032" layer="51"/>
-<wire x1="-7.777" y1="-5.242" x2="-7.777" y2="-0.611" width="0.2032" layer="51"/>
-<wire x1="-7.777" y1="10.819" x2="7.777" y2="10.819" width="0.2032" layer="21"/>
-<wire x1="8.4455" y1="-5.5118" x2="-8.4455" y2="-5.5118" width="0.01" layer="20"/>
-<wire x1="7.777" y1="-7.782" x2="-7.777" y2="-7.782" width="0.2032" layer="21"/>
-<wire x1="-7.777" y1="-7.782" x2="-7.777" y2="-5.056" width="0.2032" layer="21"/>
-<wire x1="7.777" y1="-5.056" x2="7.777" y2="-7.782" width="0.2032" layer="21"/>
-<wire x1="-7.777" y1="6.823" x2="-7.777" y2="10.819" width="0.2032" layer="51"/>
-<wire x1="7.777" y1="10.819" x2="7.777" y2="6.823" width="0.2032" layer="51"/>
-<wire x1="-7.777" y1="-0.797" x2="-7.777" y2="7.009" width="0.2032" layer="21"/>
-<wire x1="7.777" y1="7.009" x2="7.777" y2="-0.797" width="0.2032" layer="21"/>
-<pad name="4" x="-0.635" y="8.89" drill="0.9" diameter="1.4"/>
-<pad name="3" x="-1.905" y="6.35" drill="0.9" diameter="1.4"/>
-<pad name="2" x="-3.175" y="8.89" drill="0.9" diameter="1.4"/>
-<pad name="5" x="0.635" y="6.35" drill="0.9" diameter="1.4"/>
-<pad name="1" x="-4.445" y="6.35" drill="0.9" diameter="1.4"/>
-<pad name="6" x="1.905" y="8.89" drill="0.9" diameter="1.4"/>
-<pad name="S1" x="-8.128" y="-3.048" drill="1.9" diameter="2.5"/>
-<pad name="S2" x="8.128" y="-3.048" drill="1.9" diameter="2.5"/>
-<pad name="7" x="3.175" y="6.35" drill="0.9" diameter="1.4"/>
-<pad name="8" x="4.445" y="8.89" drill="0.9" diameter="1.4"/>
-<pad name="S3" x="-8.128" y="8.76" drill="1.9" diameter="2.5"/>
-<pad name="S4" x="8.128" y="8.76" drill="1.9" diameter="2.5"/>
-<text x="-9.525" y="-0.635" size="1.778" layer="25" rot="R90">&gt;NAME</text>
-<text x="-5.715" y="2.54" size="1.778" layer="27">&gt;VALUE</text>
-<rectangle x1="7.85" y1="-5.485" x2="8.775" y2="-4.342" layer="51"/>
-<rectangle x1="-8.775" y1="-5.485" x2="-7.85" y2="-4.342" layer="51"/>
-<hole x="-5.715" y="0" drill="3.2512"/>
-<hole x="5.715" y="0" drill="3.2512"/>
-</package>
-</packages>
-</library>
 <library name="SparkFun-Passives">
 <description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
 In this library you'll find resistors, capacitors, inductors, test points, jumper pads, etc.&lt;br&gt;&lt;br&gt;
@@ -2306,12 +2265,6 @@ design rules under a new name.</description>
 <element name="5525-3.3YM5-TR(4)" library="formula electric" package="SOT-23-3@1" value="MIC5225-3.3YM5-TR" x="-40.64" y="139.7">
 <attribute name="DIGIKEYPN" value="MCP1703T-3302E/CBCT-ND" x="-40.64" y="139.7" size="1.778" layer="27" display="off"/>
 </element>
-<element name="ACCUMULATOR_CONN" library="con-tycoelectronics" package="RJ45-SHIELD1" value="RJ45-6L21-S" x="-22.86" y="8.89">
-<attribute name="MPN" value="" x="-22.86" y="8.89" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="" x="-22.86" y="8.89" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="-22.86" y="8.89" size="1.778" layer="27" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="-22.86" y="8.89" size="1.778" layer="27" display="off"/>
-</element>
 <element name="BSPD_CONN" library="formula electric" package="CONNECTOR_5" value="CONN_5" x="-36.83" y="58.42"/>
 <element name="C10" library="SparkFun-Passives" package="0603-CAP" value="10uF" x="-80.01" y="139.7"/>
 <element name="C11" library="SparkFun-Passives" package="0603-CAP" value="10uF" x="-83.82" y="139.7"/>
@@ -2373,7 +2326,6 @@ design rules under a new name.</description>
 <element name="R9" library="resistor" package="R0402" value="10k" x="-16.51" y="139.7"/>
 <element name="SBRIO_ANALOG" library="formula electric" package="SBRIO_J502_J503" value="SBRIO_MIO" x="-66.04" y="100.33"/>
 <element name="SBRIO_AUX" library="formula electric" package="SBRIO_J502_J503" value="SBRIO_AUX" x="-66.04" y="111.76"/>
-<element name="SBRIO_CAN" library="formula electric" package="SBRIO_W" value="SBRIO_W500" x="-68.58" y="87.63"/>
 <element name="SBRIO_MEZZANINE" library="SEAM-40-XX.X-XX-06-X-A" package="SEAM-40-XX.X-XX-06-X-A" value="SBRIO_RMC" x="-57.15" y="73.66"/>
 <element name="U$3" library="texas" package="SOT223-4" value="LM340MP-5.0" x="-91.44" y="71.12"/>
 <element name="U$4" library="molex" package="MOLEX_70553-0038" value="70553-0038" x="-80.01" y="15.24"/>
@@ -2403,6 +2355,7 @@ design rules under a new name.</description>
 <element name="D8" library="formula electric" package="SOT-23-3" value="DIODE_MMBD4448" x="-118.11" y="-222.25"/>
 <element name="F12" library="SparkFun-Passives" package="FUSE_5MM" value="FUSEX20MM" x="-106.68" y="-110.49"/>
 <element name="GLV+_CONN" library="formula electric" package="CONNECTOR_2" value="CONN_2" x="-76.2" y="-182.88"/>
+<element name="U$1" library="formula electric" package="SBRIO_W" value="SBRIO_BMS_CONN" x="-109.22" y="-236.22"/>
 </elements>
 <signals>
 <signal name="VCC">
@@ -2682,11 +2635,9 @@ design rules under a new name.</description>
 <contactref element="SBRIO_MEZZANINE" pad="177"/>
 </signal>
 <signal name="AMS_OK_IN">
-<contactref element="ACCUMULATOR_CONN" pad="7"/>
 <contactref element="5525-3.3YM5-TR(1)" pad="P$1"/>
 <contactref element="R1" pad="1"/>
 <wire x1="-78.12" y1="134.62" x2="-25.4" y2="140.7" width="0" layer="19" extent="1-1"/>
-<wire x1="-19.685" y1="15.24" x2="-25.4" y2="140.7" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DIO4">
 <contactref element="SBRIO_MEZZANINE" pad="192"/>
@@ -2699,62 +2650,36 @@ design rules under a new name.</description>
 <wire x1="-69.215" y1="70.485" x2="-33.655" y2="84.3" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CAN_H">
-<contactref element="SBRIO_CAN" pad="P$7"/>
-<contactref element="ACCUMULATOR_CONN" pad="5"/>
 <contactref element="U$6" pad="A33"/>
 <contactref element="U$6" pad="B20"/>
+<contactref element="U$1" pad="P$10"/>
 <wire x1="-75.21" y1="-33.75" x2="-92.71" y2="-33.75" width="0" layer="19" extent="1-1"/>
-<wire x1="-22.225" y1="15.24" x2="-75.21" y2="-33.75" width="0" layer="19" extent="1-1"/>
-<wire x1="-66.04" y1="86.36" x2="-22.225" y2="15.24" width="0" layer="19" extent="1-1"/>
+<wire x1="-104.14" y1="-234.95" x2="-92.71" y2="-33.75" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CAN_L">
-<contactref element="SBRIO_CAN" pad="P$2"/>
-<contactref element="ACCUMULATOR_CONN" pad="4"/>
 <contactref element="U$6" pad="A34"/>
 <contactref element="U$6" pad="B21"/>
+<contactref element="U$1" pad="P$9"/>
 <wire x1="-72.21" y1="-33.75" x2="-89.71" y2="-33.75" width="0" layer="19" extent="1-1"/>
-<wire x1="-23.495" y1="17.78" x2="-72.21" y2="-33.75" width="0" layer="19" extent="1-1"/>
-<wire x1="-73.66" y1="88.9" x2="-23.495" y2="17.78" width="0" layer="19" extent="1-1"/>
+<wire x1="-104.14" y1="-237.49" x2="-89.71" y2="-33.75" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="CAN_GND">
-<contactref element="SBRIO_CAN" pad="P$3"/>
-<contactref element="SBRIO_CAN" pad="P$6"/>
-<contactref element="ACCUMULATOR_CONN" pad="1"/>
-<contactref element="ACCUMULATOR_CONN" pad="S4"/>
-<contactref element="ACCUMULATOR_CONN" pad="S3"/>
-<contactref element="ACCUMULATOR_CONN" pad="S2"/>
-<contactref element="ACCUMULATOR_CONN" pad="S1"/>
-<wire x1="-27.305" y1="15.24" x2="-30.988" y2="5.842" width="0" layer="19" extent="1-1"/>
-<wire x1="-30.988" y1="17.65" x2="-27.305" y2="15.24" width="0" layer="19" extent="1-1"/>
-<wire x1="-14.732" y1="17.65" x2="-27.305" y2="15.24" width="0" layer="19" extent="1-1"/>
-<wire x1="-14.732" y1="5.842" x2="-14.732" y2="17.65" width="0" layer="19" extent="1-1"/>
-<wire x1="-71.12" y1="86.36" x2="-30.988" y2="17.65" width="0" layer="19" extent="1-1"/>
-<wire x1="-68.58" y1="88.9" x2="-71.12" y2="86.36" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="SHIELD">
-<contactref element="SBRIO_CAN" pad="P$5"/>
-<contactref element="SBRIO_CAN" pad="P$10"/>
-<contactref element="ACCUMULATOR_CONN" pad="6"/>
-<wire x1="-68.58" y1="86.36" x2="-63.5" y2="88.9" width="0" layer="19" extent="1-1"/>
-<wire x1="-20.955" y1="17.78" x2="-63.5" y2="88.9" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="AI2">
+<signal name="LOW_CURRENT_IN">
 <contactref element="SBRIO_ANALOG" pad="P$8"/>
 <contactref element="BSPD_CONN" pad="7"/>
 <contactref element="BSPD_CONN" pad="8"/>
-<contactref element="ACCUMULATOR_CONN" pad="3"/>
 <contactref element="R25" pad="2"/>
-<wire x1="-60.04" y1="102.33" x2="-66.66" y2="134.62" width="0" layer="19" extent="1-1"/>
-<wire x1="-19.33" y1="63.42" x2="-60.04" y2="102.33" width="0" layer="19" extent="1-1"/>
-<wire x1="-21.83" y1="58.42" x2="-19.33" y2="63.42" width="0" layer="19" extent="1-1"/>
-<wire x1="-24.765" y1="15.24" x2="-21.83" y2="58.42" width="0" layer="19" extent="1-1"/>
+<contactref element="U$6" pad="A27"/>
+<wire x1="-21.83" y1="58.42" x2="-110.71" y2="-33.75" width="0" layer="19" extent="1-1"/>
+<wire x1="-19.33" y1="63.42" x2="-21.83" y2="58.42" width="0" layer="19" extent="1-1"/>
+<wire x1="-60.04" y1="102.33" x2="-19.33" y2="63.42" width="0" layer="19" extent="1-1"/>
+<wire x1="-66.66" y1="134.62" x2="-60.04" y2="102.33" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="AI1">
+<signal name="HIGH_CURRENT_IN">
 <contactref element="SBRIO_ANALOG" pad="P$6"/>
-<contactref element="ACCUMULATOR_CONN" pad="2"/>
 <contactref element="R24" pad="2"/>
-<wire x1="-62.04" y1="102.33" x2="-61.58" y2="134.62" width="0" layer="19" extent="1-1"/>
-<wire x1="-26.035" y1="17.78" x2="-62.04" y2="102.33" width="0" layer="19" extent="1-1"/>
+<contactref element="U$6" pad="A26"/>
+<wire x1="-62.04" y1="102.33" x2="-113.71" y2="-33.75" width="0" layer="19" extent="1-1"/>
+<wire x1="-61.58" y1="134.62" x2="-62.04" y2="102.33" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="BRAKE_PRESS_IN_1">
 <contactref element="SBRIO_ANALOG" pad="P$12"/>
@@ -3015,11 +2940,9 @@ design rules under a new name.</description>
 <wire x1="-53.975" y1="93.5" x2="-94.21" y2="-28.25" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="IMD_OK_IN">
-<contactref element="ACCUMULATOR_CONN" pad="8"/>
 <contactref element="5225-3.3M5-TR(5)" pad="P$1"/>
 <contactref element="R2" pad="1"/>
 <wire x1="-83.2" y1="134.62" x2="-45.72" y2="140.7" width="0" layer="19" extent="1-1"/>
-<wire x1="-18.415" y1="17.78" x2="-45.72" y2="140.7" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DIO20">
 <contactref element="SBRIO_MEZZANINE" pad="195"/>
@@ -3468,12 +3391,6 @@ design rules under a new name.</description>
 <signal name="N$35">
 <contactref element="U$6" pad="A25"/>
 </signal>
-<signal name="N$36">
-<contactref element="U$6" pad="A26"/>
-</signal>
-<signal name="N$37">
-<contactref element="U$6" pad="A27"/>
-</signal>
 <signal name="N$38">
 <contactref element="U$6" pad="A28"/>
 </signal>
@@ -3616,6 +3533,27 @@ design rules under a new name.</description>
 <contactref element="F11" pad="2"/>
 <contactref element="K2" pad="C+"/>
 <wire x1="-77.47" y1="-198.12" x2="-105.83" y2="-220.98" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$8">
+<contactref element="U$1" pad="P$8"/>
+</signal>
+<signal name="N$13">
+<contactref element="U$1" pad="P$7"/>
+</signal>
+<signal name="N$16">
+<contactref element="U$1" pad="P$1"/>
+</signal>
+<signal name="N$17">
+<contactref element="U$1" pad="P$2"/>
+</signal>
+<signal name="N$18">
+<contactref element="U$1" pad="P$3"/>
+</signal>
+<signal name="N$19">
+<contactref element="U$1" pad="P$4"/>
+</signal>
+<signal name="N$20">
+<contactref element="U$1" pad="P$5"/>
 </signal>
 </signals>
 </board>
