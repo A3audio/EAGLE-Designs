@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="8.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -155,6 +156,40 @@
 <pad name="B26" x="8.83" y="-3.27" drill="1.3" diameter="2"/>
 <hole x="-16.42" y="-9.77" drill="3.4"/>
 <hole x="16.08" y="-9.77" drill="3.4"/>
+</package>
+<package name="SUPERSEAL1.0_26POS_2ROW">
+<hole x="0" y="0" drill="3.4"/>
+<pad name="P$1" x="6.5" y="0" drill="1.299971875" diameter="2.1844" shape="square"/>
+<pad name="P$2" x="10" y="0" drill="1.299971875" diameter="2.1844"/>
+<pad name="P$3" x="13.5" y="0" drill="1.299971875" diameter="2.1844"/>
+<pad name="P$4" x="17" y="0" drill="1.299971875" diameter="2.1844"/>
+<pad name="P$5" x="20.5" y="0" drill="1.299971875" diameter="2.1844"/>
+<pad name="P$6" x="24" y="0" drill="1.299971875" diameter="2.1844"/>
+<pad name="P$7" x="27.5" y="0" drill="1.299971875" diameter="2.1844"/>
+<pad name="P$8" x="31" y="0" drill="1.299971875" diameter="2.1844"/>
+<pad name="P$9" x="34.5" y="0" drill="1.299971875" diameter="2.1844"/>
+<pad name="P$10" x="38" y="0" drill="1.299971875" diameter="2.1844"/>
+<pad name="P$11" x="41.5" y="0" drill="1.299971875" diameter="2.1844"/>
+<pad name="P$12" x="45" y="0" drill="1.299971875" diameter="2.1844"/>
+<pad name="P$13" x="48.5" y="0" drill="1.299971875" diameter="2.1844"/>
+<pad name="P$14" x="6.5" y="3" drill="1.299971875" diameter="2.1844"/>
+<pad name="P$15" x="10" y="3" drill="1.299971875" diameter="2.1844"/>
+<pad name="P$16" x="13.5" y="3" drill="1.299971875" diameter="2.1844"/>
+<pad name="P$17" x="17" y="3" drill="1.299971875" diameter="2.1844"/>
+<pad name="P$18" x="20.5" y="3" drill="1.299971875" diameter="2.1844"/>
+<pad name="P$19" x="24" y="3" drill="1.299971875" diameter="2.1844"/>
+<pad name="P$20" x="27.5" y="3" drill="1.299971875" diameter="2.1844"/>
+<pad name="P$21" x="31" y="3" drill="1.299971875" diameter="2.1844"/>
+<pad name="P$22" x="34.5" y="3" drill="1.299971875" diameter="2.1844"/>
+<pad name="P$23" x="38" y="3" drill="1.299971875" diameter="2.1844"/>
+<pad name="P$24" x="41.5" y="3" drill="1.299971875" diameter="2.1844"/>
+<pad name="P$25" x="45" y="3" drill="1.299971875" diameter="2.1844"/>
+<pad name="P$26" x="48.5" y="3" drill="1.299971875" diameter="2.1844"/>
+<hole x="55" y="0" drill="3.4"/>
+<wire x1="-2.5" y1="5" x2="57.5" y2="5" width="0.127" layer="21"/>
+<wire x1="57.5" y1="5" x2="57.5" y2="-3" width="0.127" layer="21"/>
+<wire x1="57.5" y1="-3" x2="-2.5" y2="-3" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-3" x2="-2.5" y2="5" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -357,6 +392,46 @@
 <connect gate="G$1" pin="B7" pad="B7"/>
 <connect gate="G$1" pin="B8" pad="B8"/>
 <connect gate="G$1" pin="B9" pad="B9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SUPERSEAL1.0_26POS_2ROW">
+<gates>
+<gate name="G$1" symbol="SUPERSEAL1.0_26POS" x="5.08" y="-12.7"/>
+</gates>
+<devices>
+<device name="" package="SUPERSEAL1.0_26POS_2ROW">
+<connects>
+<connect gate="G$1" pin="B1" pad="P$1"/>
+<connect gate="G$1" pin="B10" pad="P$10"/>
+<connect gate="G$1" pin="B11" pad="P$11"/>
+<connect gate="G$1" pin="B12" pad="P$12"/>
+<connect gate="G$1" pin="B13" pad="P$13"/>
+<connect gate="G$1" pin="B14" pad="P$14"/>
+<connect gate="G$1" pin="B15" pad="P$15"/>
+<connect gate="G$1" pin="B16" pad="P$16"/>
+<connect gate="G$1" pin="B17" pad="P$17"/>
+<connect gate="G$1" pin="B18" pad="P$18"/>
+<connect gate="G$1" pin="B19" pad="P$19"/>
+<connect gate="G$1" pin="B2" pad="P$2"/>
+<connect gate="G$1" pin="B20" pad="P$20"/>
+<connect gate="G$1" pin="B21" pad="P$21"/>
+<connect gate="G$1" pin="B22" pad="P$22"/>
+<connect gate="G$1" pin="B23" pad="P$23"/>
+<connect gate="G$1" pin="B24" pad="P$24"/>
+<connect gate="G$1" pin="B25" pad="P$25"/>
+<connect gate="G$1" pin="B26" pad="P$26"/>
+<connect gate="G$1" pin="B3" pad="P$3"/>
+<connect gate="G$1" pin="B4" pad="P$4"/>
+<connect gate="G$1" pin="B5" pad="P$5"/>
+<connect gate="G$1" pin="B6" pad="P$6"/>
+<connect gate="G$1" pin="B7" pad="P$7"/>
+<connect gate="G$1" pin="B8" pad="P$8"/>
+<connect gate="G$1" pin="B9" pad="P$9"/>
 </connects>
 <technologies>
 <technology name=""/>
