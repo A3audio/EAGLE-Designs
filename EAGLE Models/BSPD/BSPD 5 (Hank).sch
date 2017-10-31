@@ -859,16 +859,16 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <library name="S9016E-06-ND">
 <packages>
 <package name="S9016E-05-ND">
-<pad name="P1" x="0" y="0" drill="0.75" shape="square"/>
-<pad name="P2" x="1.27" y="0" drill="0.75"/>
-<pad name="P3" x="2.54" y="0" drill="0.75"/>
-<pad name="P4" x="3.81" y="0" drill="0.75"/>
-<pad name="P5" x="5.08" y="0" drill="0.75"/>
+<pad name="P1" x="0" y="0" drill="0.75" diameter="0.8128" shape="square"/>
+<pad name="P2" x="1.27" y="0" drill="0.75" diameter="0.8128"/>
+<pad name="P3" x="2.54" y="0" drill="0.75" diameter="0.8128"/>
+<pad name="P4" x="3.81" y="0" drill="0.75" diameter="0.8128"/>
+<pad name="P5" x="5.08" y="0" drill="0.75" diameter="0.8128"/>
 <wire x1="-0.889" y1="0.889" x2="7.239" y2="0.889" width="0.1524" layer="21"/>
 <wire x1="7.239" y1="0.889" x2="7.239" y2="-1.7526" width="0.1524" layer="21"/>
 <wire x1="7.239" y1="-1.7526" x2="-0.889" y2="-1.7526" width="0.1524" layer="21"/>
 <wire x1="-0.889" y1="-1.7526" x2="-0.889" y2="0.889" width="0.1524" layer="21"/>
-<pad name="P6" x="6.35" y="0" drill="0.75"/>
+<pad name="P6" x="6.35" y="0" drill="0.75" diameter="0.8128"/>
 </package>
 </packages>
 <symbols>
