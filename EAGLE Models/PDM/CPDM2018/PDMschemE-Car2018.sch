@@ -5971,27 +5971,19 @@ http://www.infineon.comp&gt;
 <text x="-5.08" y="3.81" size="1.016" layer="21">&gt;NAME</text>
 <text x="-5.08" y="-3.81" size="1.016" layer="21">&gt;VALUE</text>
 </package>
-<package name="A114898-ND">
-<pad name="P$1" x="-4.191" y="2.7559" drill="1.4224" diameter="2.54" shape="square"/>
-<pad name="P$2" x="0" y="2.7559" drill="1.4224" diameter="2.54"/>
-<pad name="P$3" x="4.191" y="2.7559" drill="1.4224" diameter="2.54"/>
-<pad name="P$4" x="-4.191" y="-2.7559" drill="1.4224" diameter="2.54"/>
-<pad name="P$5" x="0" y="-2.7559" drill="1.4224" diameter="2.54"/>
-<pad name="P$6" x="4.191" y="-2.7559" drill="1.4224" diameter="2.54"/>
-<hole x="-8.89" y="-2.2987" drill="3.048"/>
-<hole x="8.89" y="-2.2987" drill="3.048"/>
-<wire x1="-6.858" y1="4.8768" x2="6.858" y2="4.8768" width="0.1524" layer="21"/>
-<wire x1="6.858" y1="4.8768" x2="6.858" y2="0" width="0.1524" layer="21"/>
-<wire x1="6.858" y1="0" x2="6.858" y2="-4.8768" width="0.1524" layer="21"/>
-<wire x1="6.858" y1="-4.8768" x2="-6.858" y2="-4.8768" width="0.1524" layer="21"/>
-<wire x1="-6.858" y1="-4.8768" x2="-6.858" y2="0" width="0.1524" layer="21"/>
-<wire x1="-6.858" y1="0" x2="-6.858" y2="4.8768" width="0.1524" layer="21"/>
-<wire x1="6.858" y1="0" x2="11.43" y2="0" width="0.1524" layer="21"/>
-<wire x1="11.43" y1="0" x2="11.43" y2="-4.8768" width="0.1524" layer="21"/>
-<wire x1="11.43" y1="-4.8768" x2="6.858" y2="-4.8768" width="0.1524" layer="21"/>
-<wire x1="-6.858" y1="0" x2="-11.43" y2="0" width="0.1524" layer="21"/>
-<wire x1="-11.43" y1="0" x2="-11.43" y2="-4.8768" width="0.1524" layer="21"/>
-<wire x1="-11.43" y1="-4.8768" x2="-6.858" y2="-4.8768" width="0.1524" layer="21"/>
+<package name="A30605-ND">
+<pad name="P$1" x="-6.2865" y="2.7559" drill="1.524" shape="square"/>
+<pad name="P$2" x="-2.0955" y="2.7559" drill="1.524"/>
+<pad name="P$3" x="2.0955" y="2.7559" drill="1.524"/>
+<pad name="P$4" x="6.2865" y="2.7559" drill="1.524"/>
+<pad name="P$5" x="-6.2865" y="-2.7559" drill="1.524"/>
+<pad name="P$6" x="-2.0955" y="-2.7559" drill="1.524"/>
+<pad name="P$7" x="2.0955" y="-2.7559" drill="1.524"/>
+<pad name="P$8" x="6.2865" y="-2.7559" drill="1.524"/>
+<wire x1="-9.017" y1="4.8768" x2="9.017" y2="4.8768" width="0.127" layer="21"/>
+<wire x1="9.017" y1="4.8768" x2="9.017" y2="-4.8768" width="0.127" layer="21"/>
+<wire x1="9.017" y1="-4.8768" x2="-9.017" y2="-4.8768" width="0.127" layer="21"/>
+<wire x1="-9.017" y1="-4.8768" x2="-9.017" y2="4.8768" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -6011,19 +6003,21 @@ http://www.infineon.comp&gt;
 <text x="-7.62" y="12.7" size="1.778" layer="94">&gt;NAME</text>
 <text x="-7.62" y="-15.24" size="1.778" layer="94">&gt;VALUE</text>
 </symbol>
-<symbol name="CONNECTOR_2X3">
+<symbol name="A30605-ND">
 <wire x1="-7.62" y1="10.16" x2="7.62" y2="10.16" width="0.254" layer="94"/>
 <wire x1="7.62" y1="10.16" x2="7.62" y2="-10.16" width="0.254" layer="94"/>
 <wire x1="7.62" y1="-10.16" x2="-7.62" y2="-10.16" width="0.254" layer="94"/>
 <wire x1="-7.62" y1="-10.16" x2="-7.62" y2="10.16" width="0.254" layer="94"/>
-<pin name="P$1" x="-12.7" y="5.08" length="middle"/>
-<pin name="P$2" x="-12.7" y="0" length="middle"/>
-<pin name="P$3" x="-12.7" y="-5.08" length="middle"/>
-<pin name="P$4" x="12.7" y="5.08" length="middle" rot="R180"/>
-<pin name="P$5" x="12.7" y="0" length="middle" rot="R180"/>
-<pin name="P$6" x="12.7" y="-5.08" length="middle" rot="R180"/>
-<text x="-7.62" y="12.7" size="1.778" layer="94">&gt;NAME</text>
-<text x="-7.62" y="-15.24" size="1.778" layer="94">&gt;VALUE</text>
+<pin name="P$1" x="12.7" y="7.62" length="middle" rot="R180"/>
+<pin name="P$2" x="12.7" y="2.54" length="middle" rot="R180"/>
+<pin name="P$3" x="12.7" y="-2.54" length="middle" rot="R180"/>
+<pin name="P$4" x="12.7" y="-7.62" length="middle" rot="R180"/>
+<pin name="P$5" x="-12.7" y="7.62" length="middle"/>
+<pin name="P$6" x="-12.7" y="2.54" length="middle"/>
+<pin name="P$7" x="-12.7" y="-2.54" length="middle"/>
+<pin name="P$8" x="-12.7" y="-7.62" length="middle"/>
+<text x="-7.62" y="12.7" size="2.54" layer="94">&gt;NAME</text>
+<text x="-7.62" y="-15.24" size="2.54" layer="94">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -6049,12 +6043,12 @@ http://www.infineon.comp&gt;
 </device>
 </devices>
 </deviceset>
-<deviceset name="A114898-ND">
+<deviceset name="A30605-ND">
 <gates>
-<gate name="G$1" symbol="CONNECTOR_2X3" x="0" y="0"/>
+<gate name="G$1" symbol="A30605-ND" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="A114898-ND">
+<device name="" package="A30605-ND">
 <connects>
 <connect gate="G$1" pin="P$1" pad="P$1"/>
 <connect gate="G$1" pin="P$2" pad="P$2"/>
@@ -6062,6 +6056,8 @@ http://www.infineon.comp&gt;
 <connect gate="G$1" pin="P$4" pad="P$4"/>
 <connect gate="G$1" pin="P$5" pad="P$5"/>
 <connect gate="G$1" pin="P$6" pad="P$6"/>
+<connect gate="G$1" pin="P$7" pad="P$7"/>
+<connect gate="G$1" pin="P$8" pad="P$8"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6234,8 +6230,8 @@ http://www.infineon.comp&gt;
 <part name="D6" library="adafruit" deviceset="DIODE" device="SOD-123" value="1N4148W"/>
 <part name="R13" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:26062/1" value="47K"/>
 <part name="U$2" library="formula electric" deviceset="HARWIN_M20-9980445" device=""/>
-<part name="U$3" library="formula electric" deviceset="A114898-ND" device=""/>
 <part name="U$4" library="TE" deviceset="SUPERSEAL1.0_26POS_2ROW" device=""/>
+<part name="U$6" library="formula electric" deviceset="A30605-ND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -6378,8 +6374,8 @@ http://www.infineon.comp&gt;
 <attribute name="VALUE" x="116.078" y="153.67" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="U$2" gate="G$1" x="134.62" y="228.6"/>
-<instance part="U$3" gate="G$1" x="137.16" y="63.5"/>
 <instance part="U$4" gate="G$1" x="139.7" y="-53.34"/>
+<instance part="U$6" gate="G$1" x="137.16" y="60.96"/>
 </instances>
 <busses>
 </busses>
@@ -6622,17 +6618,18 @@ http://www.infineon.comp&gt;
 <label x="149.86" y="226.06" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$3" gate="G$1" pin="P$4"/>
 <wire x1="149.86" y1="68.58" x2="154.94" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="68.58" x2="154.94" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="P$6"/>
 <wire x1="154.94" y1="63.5" x2="154.94" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="154.94" y1="58.42" x2="149.86" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="P$5"/>
+<wire x1="154.94" y1="58.42" x2="152.4" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="63.5" x2="154.94" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="63.5" x2="154.94" y2="63.5" width="0.1524" layer="91"/>
 <junction x="154.94" y="63.5"/>
 <label x="165.1" y="63.5" size="1.778" layer="95" xref="yes"/>
+<pinref part="U$6" gate="G$1" pin="P$1"/>
+<pinref part="U$6" gate="G$1" pin="P$2"/>
+<pinref part="U$6" gate="G$1" pin="P$3"/>
+<wire x1="152.4" y1="58.42" x2="149.86" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$4" gate="G$1" pin="B12"/>
@@ -6689,17 +6686,17 @@ http://www.infineon.comp&gt;
 <junction x="15.24" y="-7.62"/>
 </segment>
 <segment>
-<pinref part="U$3" gate="G$1" pin="P$1"/>
 <wire x1="124.46" y1="68.58" x2="119.38" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="P$3"/>
 <wire x1="119.38" y1="68.58" x2="119.38" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="63.5" x2="119.38" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="58.42" x2="124.46" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="P$2"/>
 <wire x1="124.46" y1="63.5" x2="119.38" y2="63.5" width="0.1524" layer="91"/>
 <junction x="119.38" y="63.5"/>
 <wire x1="119.38" y1="63.5" x2="106.68" y2="63.5" width="0.1524" layer="91"/>
 <label x="106.68" y="63.5" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$6" gate="G$1" pin="P$5"/>
+<pinref part="U$6" gate="G$1" pin="P$6"/>
+<pinref part="U$6" gate="G$1" pin="P$7"/>
 </segment>
 </net>
 <net name="BAT_BOX" class="0">
@@ -6762,6 +6759,11 @@ http://www.infineon.comp&gt;
 <wire x1="157.48" y1="-45.72" x2="167.64" y2="-45.72" width="0.1524" layer="91"/>
 <junction x="157.48" y="-45.72"/>
 <label x="167.64" y="-45.72" size="2.54" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$6" gate="G$1" pin="P$8"/>
+<wire x1="124.46" y1="53.34" x2="119.38" y2="53.34" width="0.1524" layer="91"/>
+<label x="119.38" y="53.34" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -6973,12 +6975,6 @@ http://www.infineon.comp&gt;
 <wire x1="124.46" y1="-58.42" x2="114.3" y2="-58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$43" class="0">
-<segment>
-<pinref part="U$4" gate="G$1" pin="B22"/>
-<wire x1="149.86" y1="-53.34" x2="157.48" y2="-53.34" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$44" class="0">
 <segment>
 <pinref part="U$4" gate="G$1" pin="B23"/>
@@ -6995,6 +6991,18 @@ http://www.infineon.comp&gt;
 <segment>
 <pinref part="U$4" gate="G$1" pin="B25"/>
 <wire x1="149.86" y1="-68.58" x2="157.48" y2="-68.58" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="MCU_POWER" class="0">
+<segment>
+<pinref part="U$6" gate="G$1" pin="P$4"/>
+<wire x1="149.86" y1="53.34" x2="154.94" y2="53.34" width="0.1524" layer="91"/>
+<label x="154.94" y="53.34" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$4" gate="G$1" pin="B22"/>
+<wire x1="149.86" y1="-53.34" x2="167.64" y2="-53.34" width="0.1524" layer="91"/>
+<label x="167.64" y="-53.34" size="2.54" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
