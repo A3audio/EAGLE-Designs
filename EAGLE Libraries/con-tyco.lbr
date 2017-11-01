@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mm"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -73,7 +73,7 @@
 <description>&lt;b&gt;Tyco Connectors&lt;/b&gt;&lt;p&gt;
  &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="C_1720027_A">
+<package name="C_1720027_A" urn="urn:adsk.eagle:footprint:10610/1" locally_modified="yes">
 <description>&lt;b&gt;Serial ATA &amp; Serial Attached SCSI&lt;/b&gt;&lt;p&gt;
 Source: http://catalog.tycoelectronics.com .. C_1720027_A.pdf</description>
 <wire x1="-21.175" y1="-3.7761" x2="-21.175" y2="3.7295" width="0.2032" layer="21"/>
@@ -185,7 +185,7 @@ Source: http://catalog.tycoelectronics.com .. C_1720027_A.pdf</description>
 <rectangle x1="15.6289" y1="0.9272" x2="16.1481" y2="3.7088" layer="51"/>
 <rectangle x1="11.8189" y1="0.9272" x2="12.3381" y2="3.2266" layer="51"/>
 </package>
-<package name="C-5353652-36-3">
+<package name="C-5353652-36-3" urn="urn:adsk.eagle:footprint:10612/1" locally_modified="yes">
 <description>&lt;b&gt;ComExpress&lt;/b&gt; (ETXexpress)&lt;p&gt;
 Source: http://catalog.tycoelectronics.com .. ENG_CS_889092_0.5mm_FH_Conn_0906.pdf</description>
 <wire x1="-28.25" y1="8.2" x2="-28.25" y2="8.3" width="0.2032" layer="21"/>
@@ -1967,14 +1967,10 @@ Source: http://catalog.tycoelectronics.com .. ENG_CS_889092_0.5mm_FH_Conn_0906.p
 <vertex x="29.55" y="-5.2"/>
 </polygon>
 </package>
-<package name="D1200D-20">
+<package name="D1200D-20" urn="urn:adsk.eagle:footprint:10615/1" locally_modified="yes">
 <description>&lt;b&gt;DYNAMIC D1200D 2.5mm PITCH HDR ASSY (V-TYPE)&lt;p&gt;
 Source: &lt;a href="http://docs-europe.electrocomponents.com/webdocs/0f91/0900766b80f911ac.pdf"&gt; Data sheet &lt;/a&gt;</description>
 <pad name="B1" x="11.25" y="0" drill="0.8" diameter="1.6" rot="R180"/>
-<wire x1="-13.7" y1="5.85" x2="13.7" y2="5.85" width="0.2032" layer="21"/>
-<wire x1="13.7" y1="5.85" x2="13.7" y2="-5.25" width="0.2032" layer="21"/>
-<wire x1="13.7" y1="-5.25" x2="-13.7" y2="-5.25" width="0.2032" layer="51"/>
-<wire x1="-13.7" y1="-5.25" x2="-13.7" y2="5.85" width="0.2032" layer="21"/>
 <pad name="A1" x="11.25" y="3.3" drill="0.8" diameter="1.6" rot="R180"/>
 <pad name="B2" x="8.75" y="0" drill="0.8" diameter="1.6" rot="R180"/>
 <pad name="A2" x="8.75" y="3.3" drill="0.8" diameter="1.6" rot="R180"/>
@@ -1996,6 +1992,10 @@ Source: &lt;a href="http://docs-europe.electrocomponents.com/webdocs/0f91/090076
 <pad name="A10" x="-11.25" y="3.3" drill="0.8" diameter="1.6" rot="R180"/>
 <pad name="M1" x="11.25" y="-4.5" drill="1.5" diameter="2"/>
 <pad name="M2" x="-11.25" y="-4.5" drill="1.5" diameter="2"/>
+<wire x1="-13.7" y1="5.85" x2="13.7" y2="5.85" width="0.2032" layer="21"/>
+<wire x1="13.7" y1="5.85" x2="13.7" y2="-5.25" width="0.2032" layer="21"/>
+<wire x1="13.7" y1="-5.25" x2="-13.7" y2="-5.25" width="0.2032" layer="51"/>
+<wire x1="-13.7" y1="-5.25" x2="-13.7" y2="5.85" width="0.2032" layer="21"/>
 <wire x1="13.7" y1="-5.25" x2="12.5" y2="-5.25" width="0.2032" layer="21"/>
 <wire x1="10" y1="-5.25" x2="-10" y2="-5.25" width="0.2032" layer="21"/>
 <wire x1="-12.5" y1="-5.25" x2="-13.7" y2="-5.25" width="0.2032" layer="21"/>
@@ -2030,14 +2030,10 @@ Source: &lt;a href="http://docs-europe.electrocomponents.com/webdocs/0f91/090076
 <text x="-13.8016" y="6.0786" size="1.27" layer="25">&gt;NAME</text>
 <text x="-13.8016" y="-7.5066" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="D1200D-16">
+<package name="D1200D-16" urn="urn:adsk.eagle:footprint:10616/1" locally_modified="yes">
 <description>&lt;b&gt;DYNAMIC D1200D 2.5mm PITCH HDR ASSY (V-TYPE)&lt;p&gt;
 Source: &lt;a href="http://docs-europe.electrocomponents.com/webdocs/0f91/0900766b80f911ac.pdf"&gt; Data sheet &lt;/a&gt;</description>
 <pad name="B1" x="8.75" y="0" drill="0.8" diameter="1.6" rot="R180"/>
-<wire x1="-11.2" y1="5.85" x2="11.2" y2="5.85" width="0.2032" layer="21"/>
-<wire x1="11.2" y1="5.85" x2="11.2" y2="-5.25" width="0.2032" layer="21"/>
-<wire x1="11.2" y1="-5.25" x2="-11.2" y2="-5.25" width="0.2032" layer="51"/>
-<wire x1="-11.2" y1="-5.25" x2="-11.2" y2="5.85" width="0.2032" layer="21"/>
 <pad name="A1" x="8.75" y="3.3" drill="0.8" diameter="1.6" rot="R180"/>
 <pad name="B2" x="6.25" y="0" drill="0.8" diameter="1.6" rot="R180"/>
 <pad name="A2" x="6.25" y="3.3" drill="0.8" diameter="1.6" rot="R180"/>
@@ -2055,6 +2051,10 @@ Source: &lt;a href="http://docs-europe.electrocomponents.com/webdocs/0f91/090076
 <pad name="A8" x="-8.75" y="3.3" drill="0.8" diameter="1.6" rot="R180"/>
 <pad name="M1" x="8.75" y="-4.5" drill="1.5" diameter="2"/>
 <pad name="M2" x="-8.75" y="-4.5" drill="1.5" diameter="2"/>
+<wire x1="-11.2" y1="5.85" x2="11.2" y2="5.85" width="0.2032" layer="21"/>
+<wire x1="11.2" y1="5.85" x2="11.2" y2="-5.25" width="0.2032" layer="21"/>
+<wire x1="11.2" y1="-5.25" x2="-11.2" y2="-5.25" width="0.2032" layer="51"/>
+<wire x1="-11.2" y1="-5.25" x2="-11.2" y2="5.85" width="0.2032" layer="21"/>
 <wire x1="11.2" y1="-5.25" x2="10" y2="-5.25" width="0.2032" layer="21"/>
 <wire x1="7.5" y1="-5.25" x2="-7.5" y2="-5.25" width="0.2032" layer="21"/>
 <wire x1="-10" y1="-5.25" x2="-11.2" y2="-5.25" width="0.2032" layer="21"/>
@@ -2087,14 +2087,10 @@ Source: &lt;a href="http://docs-europe.electrocomponents.com/webdocs/0f91/090076
 <text x="-11.3016" y="6.0786" size="1.27" layer="25">&gt;NAME</text>
 <text x="-11.3016" y="-7.5066" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="D1200D-12">
+<package name="D1200D-12" urn="urn:adsk.eagle:footprint:10617/1" locally_modified="yes">
 <description>&lt;b&gt;DYNAMIC D1200D 2.5mm PITCH HDR ASSY (V-TYPE)&lt;p&gt;
 Source: &lt;a href="http://docs-europe.electrocomponents.com/webdocs/0f91/0900766b80f911ac.pdf"&gt; Data sheet &lt;/a&gt;</description>
 <pad name="B1" x="6.25" y="0" drill="0.8" diameter="1.6" rot="R180"/>
-<wire x1="-8.7" y1="5.85" x2="8.7" y2="5.85" width="0.2032" layer="21"/>
-<wire x1="8.7" y1="5.85" x2="8.7" y2="-5.25" width="0.2032" layer="21"/>
-<wire x1="8.7" y1="-5.25" x2="-8.7" y2="-5.25" width="0.2032" layer="51"/>
-<wire x1="-8.7" y1="-5.25" x2="-8.7" y2="5.85" width="0.2032" layer="21"/>
 <pad name="A1" x="6.25" y="3.3" drill="0.8" diameter="1.6" rot="R180"/>
 <pad name="B2" x="3.75" y="0" drill="0.8" diameter="1.6" rot="R180"/>
 <pad name="A2" x="3.75" y="3.3" drill="0.8" diameter="1.6" rot="R180"/>
@@ -2108,6 +2104,10 @@ Source: &lt;a href="http://docs-europe.electrocomponents.com/webdocs/0f91/090076
 <pad name="A6" x="-6.25" y="3.3" drill="0.8" diameter="1.6" rot="R180"/>
 <pad name="M1" x="6.25" y="-4.5" drill="1.5" diameter="2"/>
 <pad name="M2" x="-6.25" y="-4.5" drill="1.5" diameter="2"/>
+<wire x1="-8.7" y1="5.85" x2="8.7" y2="5.85" width="0.2032" layer="21"/>
+<wire x1="8.7" y1="5.85" x2="8.7" y2="-5.25" width="0.2032" layer="21"/>
+<wire x1="8.7" y1="-5.25" x2="-8.7" y2="-5.25" width="0.2032" layer="51"/>
+<wire x1="-8.7" y1="-5.25" x2="-8.7" y2="5.85" width="0.2032" layer="21"/>
 <wire x1="8.7" y1="-5.25" x2="7.5" y2="-5.25" width="0.2032" layer="21"/>
 <wire x1="5" y1="-5.25" x2="-5" y2="-5.25" width="0.2032" layer="21"/>
 <wire x1="-7.5" y1="-5.25" x2="-8.7" y2="-5.25" width="0.2032" layer="21"/>
@@ -2140,14 +2140,10 @@ Source: &lt;a href="http://docs-europe.electrocomponents.com/webdocs/0f91/090076
 <text x="-8.8016" y="6.0786" size="1.27" layer="25">&gt;NAME</text>
 <text x="-8.8016" y="-7.5066" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="D1200D-10">
+<package name="D1200D-10" urn="urn:adsk.eagle:footprint:10618/1" locally_modified="yes">
 <description>&lt;b&gt;DYNAMIC D1200D 2.5mm PITCH HDR ASSY (V-TYPE)&lt;p&gt;
 Source: &lt;a href="http://docs-europe.electrocomponents.com/webdocs/0f91/0900766b80f911ac.pdf"&gt; Data sheet &lt;/a&gt;</description>
 <pad name="B1" x="5" y="0" drill="0.8" diameter="1.6" rot="R180"/>
-<wire x1="-7.45" y1="5.85" x2="7.45" y2="5.85" width="0.2032" layer="21"/>
-<wire x1="7.45" y1="5.85" x2="7.45" y2="-5.25" width="0.2032" layer="21"/>
-<wire x1="7.45" y1="-5.25" x2="-7.45" y2="-5.25" width="0.2032" layer="51"/>
-<wire x1="-7.45" y1="-5.25" x2="-7.45" y2="5.85" width="0.2032" layer="21"/>
 <pad name="A1" x="5" y="3.3" drill="0.8" diameter="1.6" rot="R180"/>
 <pad name="B2" x="2.5" y="0" drill="0.8" diameter="1.6" rot="R180"/>
 <pad name="A2" x="2.5" y="3.3" drill="0.8" diameter="1.6" rot="R180"/>
@@ -2159,6 +2155,10 @@ Source: &lt;a href="http://docs-europe.electrocomponents.com/webdocs/0f91/090076
 <pad name="A5" x="-5" y="3.3" drill="0.8" diameter="1.6" rot="R180"/>
 <pad name="M1" x="5" y="-4.5" drill="1.5" diameter="2"/>
 <pad name="M2" x="-5" y="-4.5" drill="1.5" diameter="2"/>
+<wire x1="-7.45" y1="5.85" x2="7.45" y2="5.85" width="0.2032" layer="21"/>
+<wire x1="7.45" y1="5.85" x2="7.45" y2="-5.25" width="0.2032" layer="21"/>
+<wire x1="7.45" y1="-5.25" x2="-7.45" y2="-5.25" width="0.2032" layer="51"/>
+<wire x1="-7.45" y1="-5.25" x2="-7.45" y2="5.85" width="0.2032" layer="21"/>
 <wire x1="7.45" y1="-5.25" x2="6.25" y2="-5.25" width="0.2032" layer="21"/>
 <wire x1="3.75" y1="-5.25" x2="-3.75" y2="-5.25" width="0.2032" layer="21"/>
 <wire x1="-6.25" y1="-5.25" x2="-7.45" y2="-5.25" width="0.2032" layer="21"/>
@@ -2187,14 +2187,10 @@ Source: &lt;a href="http://docs-europe.electrocomponents.com/webdocs/0f91/090076
 <text x="-7.5516" y="6.0786" size="1.27" layer="25">&gt;NAME</text>
 <text x="-7.5516" y="-7.5066" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="D1200D-8">
+<package name="D1200D-8" urn="urn:adsk.eagle:footprint:10619/1" locally_modified="yes">
 <description>&lt;b&gt;DYNAMIC D1200D 2.5mm PITCH HDR ASSY (V-TYPE)&lt;p&gt;
 Source: &lt;a href="http://docs-europe.electrocomponents.com/webdocs/0f91/0900766b80f911ac.pdf"&gt; Data sheet &lt;/a&gt;</description>
 <pad name="B1" x="3.75" y="0" drill="0.8" diameter="1.6" rot="R180"/>
-<wire x1="-6.2" y1="5.85" x2="6.2" y2="5.85" width="0.2032" layer="21"/>
-<wire x1="6.2" y1="5.85" x2="6.2" y2="-5.25" width="0.2032" layer="21"/>
-<wire x1="6.2" y1="-5.25" x2="-6.2" y2="-5.25" width="0.2032" layer="51"/>
-<wire x1="-6.2" y1="-5.25" x2="-6.2" y2="5.85" width="0.2032" layer="21"/>
 <pad name="A1" x="3.75" y="3.3" drill="0.8" diameter="1.6" rot="R180"/>
 <pad name="B2" x="1.25" y="0" drill="0.8" diameter="1.6" rot="R180"/>
 <pad name="A2" x="1.25" y="3.3" drill="0.8" diameter="1.6" rot="R180"/>
@@ -2204,6 +2200,10 @@ Source: &lt;a href="http://docs-europe.electrocomponents.com/webdocs/0f91/090076
 <pad name="A4" x="-3.75" y="3.3" drill="0.8" diameter="1.6" rot="R180"/>
 <pad name="M1" x="3.75" y="-4.5" drill="1.5" diameter="2"/>
 <pad name="M2" x="-3.75" y="-4.5" drill="1.5" diameter="2"/>
+<wire x1="-6.2" y1="5.85" x2="6.2" y2="5.85" width="0.2032" layer="21"/>
+<wire x1="6.2" y1="5.85" x2="6.2" y2="-5.25" width="0.2032" layer="21"/>
+<wire x1="6.2" y1="-5.25" x2="-6.2" y2="-5.25" width="0.2032" layer="51"/>
+<wire x1="-6.2" y1="-5.25" x2="-6.2" y2="5.85" width="0.2032" layer="21"/>
 <wire x1="6.2" y1="-5.25" x2="5" y2="-5.25" width="0.2032" layer="21"/>
 <wire x1="2.5" y1="-5.25" x2="-2.5" y2="-5.25" width="0.2032" layer="21"/>
 <wire x1="-5" y1="-5.25" x2="-6.2" y2="-5.25" width="0.2032" layer="21"/>
@@ -2230,14 +2230,10 @@ Source: &lt;a href="http://docs-europe.electrocomponents.com/webdocs/0f91/090076
 <text x="-6.3016" y="6.0786" size="1.27" layer="25">&gt;NAME</text>
 <text x="-6.3016" y="-7.5066" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="D1200D-6">
+<package name="D1200D-6" urn="urn:adsk.eagle:footprint:10620/1" locally_modified="yes">
 <description>&lt;b&gt;DYNAMIC D1200D 2.5mm PITCH HDR ASSY (V-TYPE)&lt;p&gt;
 Source: &lt;a href="http://docs-europe.electrocomponents.com/webdocs/0f91/0900766b80f911ac.pdf"&gt; Data sheet &lt;/a&gt;</description>
 <pad name="B1" x="2.5" y="0" drill="0.8" diameter="1.6" rot="R180"/>
-<wire x1="-4.95" y1="5.85" x2="4.95" y2="5.85" width="0.2032" layer="21"/>
-<wire x1="4.95" y1="5.85" x2="4.95" y2="-5.25" width="0.2032" layer="21"/>
-<wire x1="4.95" y1="-5.25" x2="-4.95" y2="-5.25" width="0.2032" layer="51"/>
-<wire x1="-4.95" y1="-5.25" x2="-4.95" y2="5.85" width="0.2032" layer="21"/>
 <pad name="A1" x="2.5" y="3.3" drill="0.8" diameter="1.6" rot="R180"/>
 <pad name="B2" x="0" y="0" drill="0.8" diameter="1.6" rot="R180"/>
 <pad name="A2" x="0" y="3.3" drill="0.8" diameter="1.6" rot="R180"/>
@@ -2245,6 +2241,10 @@ Source: &lt;a href="http://docs-europe.electrocomponents.com/webdocs/0f91/090076
 <pad name="A3" x="-2.5" y="3.3" drill="0.8" diameter="1.6" rot="R180"/>
 <pad name="M1" x="2.5" y="-4.5" drill="1.5" diameter="2"/>
 <pad name="M2" x="-2.5" y="-4.5" drill="1.5" diameter="2"/>
+<wire x1="-4.95" y1="5.85" x2="4.95" y2="5.85" width="0.2032" layer="21"/>
+<wire x1="4.95" y1="5.85" x2="4.95" y2="-5.25" width="0.2032" layer="21"/>
+<wire x1="4.95" y1="-5.25" x2="-4.95" y2="-5.25" width="0.2032" layer="51"/>
+<wire x1="-4.95" y1="-5.25" x2="-4.95" y2="5.85" width="0.2032" layer="21"/>
 <wire x1="4.95" y1="-5.25" x2="3.75" y2="-5.25" width="0.2032" layer="21"/>
 <wire x1="1.25" y1="-5.25" x2="-1.25" y2="-5.25" width="0.2032" layer="21"/>
 <wire x1="-3.75" y1="-5.25" x2="-4.95" y2="-5.25" width="0.2032" layer="21"/>
@@ -2271,19 +2271,19 @@ Source: &lt;a href="http://docs-europe.electrocomponents.com/webdocs/0f91/090076
 <text x="-5.0516" y="6.0786" size="1.27" layer="25">&gt;NAME</text>
 <text x="-5.0516" y="-7.5066" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="D1200D-4">
+<package name="D1200D-4" urn="urn:adsk.eagle:footprint:10621/1" locally_modified="yes">
 <description>&lt;b&gt;DYNAMIC D1200D 2.5mm PITCH HDR ASSY (V-TYPE)&lt;p&gt;
 Source: &lt;a href="http://docs-europe.electrocomponents.com/webdocs/0f91/0900766b80f911ac.pdf"&gt; Data sheet &lt;/a&gt;</description>
 <pad name="B1" x="1.25" y="0" drill="0.8" diameter="1.6" rot="R180"/>
-<wire x1="-3.7" y1="5.85" x2="3.7" y2="5.85" width="0.2032" layer="21"/>
-<wire x1="3.7" y1="5.85" x2="3.7" y2="-5.25" width="0.2032" layer="21"/>
-<wire x1="3.7" y1="-5.25" x2="-3.7" y2="-5.25" width="0.2032" layer="51"/>
-<wire x1="-3.7" y1="-5.25" x2="-3.7" y2="5.85" width="0.2032" layer="21"/>
 <pad name="A1" x="1.25" y="3.3" drill="0.8" diameter="1.6" rot="R180"/>
 <pad name="B2" x="-1.25" y="0" drill="0.8" diameter="1.6" rot="R180"/>
 <pad name="A2" x="-1.25" y="3.3" drill="0.8" diameter="1.6" rot="R180"/>
 <pad name="M1" x="1.25" y="-4.5" drill="1.5" diameter="2"/>
 <pad name="M2" x="-1.25" y="-4.5" drill="1.5" diameter="2"/>
+<wire x1="-3.7" y1="5.85" x2="3.7" y2="5.85" width="0.2032" layer="21"/>
+<wire x1="3.7" y1="5.85" x2="3.7" y2="-5.25" width="0.2032" layer="21"/>
+<wire x1="3.7" y1="-5.25" x2="-3.7" y2="-5.25" width="0.2032" layer="51"/>
+<wire x1="-3.7" y1="-5.25" x2="-3.7" y2="5.85" width="0.2032" layer="21"/>
 <wire x1="3.7" y1="-5.25" x2="2.5" y2="-5.25" width="0.2032" layer="21"/>
 <wire x1="-2.5" y1="-5.25" x2="-3.7" y2="-5.25" width="0.2032" layer="21"/>
 <wire x1="-2.7" y1="4.85" x2="-1.25" y2="4.85" width="0.2032" layer="21"/>
@@ -3629,4 +3629,11 @@ Source: &lt;a href="http://docs-europe.electrocomponents.com/webdocs/0f91/090076
 </devicesets>
 </library>
 </drawing>
+<compatibility>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+</compatibility>
 </eagle>
