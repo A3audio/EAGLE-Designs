@@ -6468,25 +6468,23 @@ http://www.infineon.comp&gt;
 <junction x="27.94" y="167.64"/>
 </segment>
 <segment>
-<pinref part="U$4" gate="G$1" pin="B1"/>
-<wire x1="124.46" y1="-12.7" x2="114.3" y2="-12.7" width="0.1524" layer="91"/>
-<pinref part="U$4" gate="G$1" pin="B2"/>
-<wire x1="124.46" y1="-17.78" x2="114.3" y2="-17.78" width="0.1524" layer="91"/>
-<wire x1="114.3" y1="-12.7" x2="114.3" y2="-17.78" width="0.1524" layer="91"/>
-<pinref part="U$4" gate="G$1" pin="B3"/>
-<wire x1="124.46" y1="-22.86" x2="114.3" y2="-22.86" width="0.1524" layer="91"/>
-<wire x1="114.3" y1="-17.78" x2="114.3" y2="-22.86" width="0.1524" layer="91"/>
-<junction x="114.3" y="-17.78"/>
-<pinref part="U$4" gate="G$1" pin="B4"/>
-<wire x1="124.46" y1="-27.94" x2="114.3" y2="-27.94" width="0.1524" layer="91"/>
-<wire x1="114.3" y1="-22.86" x2="114.3" y2="-27.94" width="0.1524" layer="91"/>
-<junction x="114.3" y="-22.86"/>
-<pinref part="U$4" gate="G$1" pin="B5"/>
-<wire x1="124.46" y1="-33.02" x2="114.3" y2="-33.02" width="0.1524" layer="91"/>
-<wire x1="114.3" y1="-27.94" x2="114.3" y2="-33.02" width="0.1524" layer="91"/>
-<junction x="114.3" y="-27.94"/>
-<wire x1="114.3" y1="-22.86" x2="106.68" y2="-22.86" width="0.1524" layer="91"/>
-<label x="106.68" y="-22.86" size="2.54" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$4" gate="G$1" pin="B25"/>
+<wire x1="149.86" y1="-68.58" x2="157.48" y2="-68.58" width="0.1524" layer="91"/>
+<pinref part="U$4" gate="G$1" pin="B24"/>
+<wire x1="149.86" y1="-63.5" x2="157.48" y2="-63.5" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="-68.58" x2="157.48" y2="-63.5" width="0.1524" layer="91"/>
+<pinref part="U$4" gate="G$1" pin="B23"/>
+<wire x1="149.86" y1="-58.42" x2="157.48" y2="-58.42" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="-63.5" x2="157.48" y2="-60.96" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="-60.96" x2="157.48" y2="-58.42" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="-58.42" x2="157.48" y2="-53.34" width="0.1524" layer="91"/>
+<pinref part="U$4" gate="G$1" pin="B22"/>
+<wire x1="157.48" y1="-53.34" x2="149.86" y2="-53.34" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="-60.96" x2="157.48" y2="-60.96" width="0.1524" layer="91"/>
+<junction x="157.48" y="-60.96"/>
+<junction x="157.48" y="-58.42"/>
+<junction x="157.48" y="-63.5"/>
+<label x="167.64" y="-60.96" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="FAN" class="0">
@@ -6945,12 +6943,6 @@ http://www.infineon.comp&gt;
 <label x="149.86" y="231.14" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="N$21" class="0">
-<segment>
-<pinref part="U$4" gate="G$1" pin="B6"/>
-<wire x1="124.46" y1="-38.1" x2="114.3" y2="-38.1" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$25" class="0">
 <segment>
 <pinref part="U$4" gate="G$1" pin="B7"/>
@@ -6975,24 +6967,6 @@ http://www.infineon.comp&gt;
 <wire x1="124.46" y1="-58.42" x2="114.3" y2="-58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$44" class="0">
-<segment>
-<pinref part="U$4" gate="G$1" pin="B23"/>
-<wire x1="149.86" y1="-58.42" x2="157.48" y2="-58.42" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$45" class="0">
-<segment>
-<pinref part="U$4" gate="G$1" pin="B24"/>
-<wire x1="149.86" y1="-63.5" x2="157.48" y2="-63.5" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$46" class="0">
-<segment>
-<pinref part="U$4" gate="G$1" pin="B25"/>
-<wire x1="149.86" y1="-68.58" x2="157.48" y2="-68.58" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="MCU_POWER" class="0">
 <segment>
 <pinref part="U$6" gate="G$1" pin="P$4"/>
@@ -7000,9 +6974,9 @@ http://www.infineon.comp&gt;
 <label x="154.94" y="53.34" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$4" gate="G$1" pin="B22"/>
-<wire x1="149.86" y1="-53.34" x2="167.64" y2="-53.34" width="0.1524" layer="91"/>
-<label x="167.64" y="-53.34" size="2.54" layer="95" xref="yes"/>
+<pinref part="U$4" gate="G$1" pin="B6"/>
+<wire x1="124.46" y1="-38.1" x2="106.68" y2="-38.1" width="0.1524" layer="91"/>
+<label x="106.68" y="-38.1" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
