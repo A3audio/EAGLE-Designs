@@ -3597,6 +3597,8 @@ design rules under a new name.</description>
 <contactref element="R53" pad="2"/>
 <wire x1="118.2252" y1="80.3402" x2="112.7562" y2="80.3402" width="0.3048" layer="1"/>
 <wire x1="112.7562" y1="80.3402" x2="112.744" y2="80.328" width="0.3048" layer="1"/>
+<contactref element="U$6" pad="B3"/>
+<wire x1="18.081509375" y1="35.58801875" x2="112.744" y2="80.328" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="HIGH_CURRENT_IN">
 <contactref element="SBRIO_ANALOG" pad="P$8"/>
@@ -3613,6 +3615,8 @@ design rules under a new name.</description>
 <wire x1="108.41485" y1="79.2868" x2="106.72125" y2="77.5932" width="0.3048" layer="16"/>
 <wire x1="106.72125" y1="77.5932" x2="88.6845625" y2="77.5932" width="0.3048" layer="16"/>
 <wire x1="88.6845625" y1="77.5932" x2="87.24245" y2="79.0353125" width="0.3048" layer="16"/>
+<contactref element="U$10" pad="P3"/>
+<wire x1="133.096" y1="8.001" x2="118.2252" y2="78.3844" width="0" layer="19" extent="16-16"/>
 <wire x1="18.081509375" y1="38.58801875" x2="83.185" y2="79.03530625" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="BRAKE_PRESS_IN_1">
@@ -5015,6 +5019,8 @@ design rules under a new name.</description>
 <wire x1="102.743" y1="79.121" x2="98.679" y2="75.057" width="0.4064" layer="1"/>
 <wire x1="98.679" y1="75.057" x2="98.679" y2="71.649" width="0.4064" layer="1"/>
 <wire x1="98.679" y1="71.649" x2="100.778" y2="69.55" width="0.4064" layer="1"/>
+<contactref element="U$9" pad="P$6"/>
+<wire x1="95.25" y1="13.97" x2="100.778" y2="69.55" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SHUTDOWN_OK+">
 <contactref element="LATCH_U7" pad="NO_1"/>
@@ -5390,6 +5396,9 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$21">
 <contactref element="U$4" pad="P2"/>
+</signal>
+<signal name="SIGNAL_GND">
+<contactref element="U$6" pad="B25"/>
 </signal>
 </signals>
 </board>
