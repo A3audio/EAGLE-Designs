@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.4.1">
+<eagle version="8.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -4730,6 +4730,22 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <text x="-2.54" y="5.08" size="1.27" layer="21">&gt;NAME</text>
 <text x="-2.54" y="-2.54" size="1.27" layer="21">&gt;VALUE</text>
 </package>
+<package name="HARWIN_M20-9980445">
+<pad name="P1" x="-3.81" y="1.27" drill="1" shape="square"/>
+<pad name="P2" x="-1.27" y="1.27" drill="1"/>
+<pad name="P3" x="1.27" y="1.27" drill="1"/>
+<pad name="P4" x="3.81" y="1.27" drill="1"/>
+<pad name="P5" x="-3.81" y="-1.27" drill="1"/>
+<pad name="P6" x="-1.27" y="-1.27" drill="1"/>
+<pad name="P7" x="1.27" y="-1.27" drill="1"/>
+<pad name="P8" x="3.81" y="-1.27" drill="1"/>
+<wire x1="-5.08" y1="2.54" x2="5.08" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="-2.54" x2="-5.08" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="-2.54" x2="-5.08" y2="2.54" width="0.1524" layer="21"/>
+<text x="-5.08" y="3.81" size="1.016" layer="21">&gt;NAME</text>
+<text x="-5.08" y="-3.81" size="1.016" layer="21">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="SBRIO_MIO">
@@ -4945,6 +4961,22 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="-2.54" y1="-17.78" x2="-2.54" y2="12.7" width="0.254" layer="94"/>
 <wire x1="-2.54" y1="12.7" x2="2.54" y2="12.7" width="0.254" layer="94"/>
 <pin name="6" x="5.08" y="-15.24" visible="pin" length="short" rot="R180"/>
+</symbol>
+<symbol name="CONNECTOR_2X4">
+<wire x1="-5.08" y1="10.16" x2="5.08" y2="10.16" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="10.16" x2="5.08" y2="-10.16" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="-10.16" x2="-5.08" y2="-10.16" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="-10.16" x2="-5.08" y2="10.16" width="0.1524" layer="94"/>
+<pin name="P$1" x="7.62" y="7.62" length="short" rot="R180"/>
+<pin name="P$2" x="7.62" y="2.54" length="short" rot="R180"/>
+<pin name="P$3" x="7.62" y="-2.54" length="short" rot="R180"/>
+<pin name="P$4" x="7.62" y="-7.62" length="short" rot="R180"/>
+<pin name="P$5" x="-7.62" y="7.62" length="short"/>
+<pin name="P$6" x="-7.62" y="2.54" length="short"/>
+<pin name="P$7" x="-7.62" y="-2.54" length="short"/>
+<pin name="P$8" x="-7.62" y="-7.62" length="short"/>
+<text x="-7.62" y="12.7" size="1.778" layer="94">&gt;NAME</text>
+<text x="-7.62" y="-15.24" size="1.778" layer="94">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -5210,6 +5242,28 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <connect gate="G$1" pin="4" pad="P4"/>
 <connect gate="G$1" pin="5" pad="P5"/>
 <connect gate="G$1" pin="6" pad="P6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="HARWIN_M20-9980445">
+<gates>
+<gate name="G$1" symbol="CONNECTOR_2X4" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="HARWIN_M20-9980445">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P1"/>
+<connect gate="G$1" pin="P$2" pad="P2"/>
+<connect gate="G$1" pin="P$3" pad="P3"/>
+<connect gate="G$1" pin="P$4" pad="P4"/>
+<connect gate="G$1" pin="P$5" pad="P5"/>
+<connect gate="G$1" pin="P$6" pad="P6"/>
+<connect gate="G$1" pin="P$7" pad="P7"/>
+<connect gate="G$1" pin="P$8" pad="P8"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11084,6 +11138,7 @@ Source: AVX .. aphvc.pdf</description>
 <part name="U$7" library="rcl" deviceset="C-US" device="C1206"/>
 <part name="U$9" library="formula electric" deviceset="SBRIO_BMS_CONN" device=""/>
 <part name="U$10" library="formula electric" deviceset="SULLINS_1MM_6P_HEADER" device=""/>
+<part name="U$4" library="formula electric" deviceset="HARWIN_M20-9980445" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -11290,6 +11345,7 @@ for Latched Components</text>
 <instance part="U$7" gate="G$1" x="-91.44" y="152.4"/>
 <instance part="U$9" gate="G$1" x="-132.08" y="-160.02"/>
 <instance part="U$10" gate="G$1" x="-497.84" y="-243.84"/>
+<instance part="U$4" gate="G$1" x="-457.2" y="-142.24"/>
 </instances>
 <busses>
 </busses>
@@ -11791,13 +11847,6 @@ for Latched Components</text>
 <label x="-299.72" y="-119.38" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="N$26" class="0">
-<segment>
-<pinref part="U$6" gate="G$1" pin="B7"/>
-<wire x1="-302.26" y1="-124.46" x2="-299.72" y2="-124.46" width="0.1524" layer="91"/>
-<label x="-299.72" y="-124.46" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
 <net name="N$67" class="0">
 <segment>
 <pinref part="U$6" gate="G$1" pin="B11"/>
@@ -12129,12 +12178,18 @@ for Latched Components</text>
 <label x="-482.6" y="-233.68" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="-502.92" y1="-139.7" x2="-530.86" y2="-139.7" width="0.1524" layer="91"/>
-<label x="-530.86" y="-139.7" size="1.6764" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <wire x1="-279.4" y1="-139.7" x2="-276.86" y2="-139.7" width="0.1524" layer="91"/>
 <pinref part="U$6" gate="G$1" pin="B23"/>
+</segment>
+<segment>
+<pinref part="U$4" gate="G$1" pin="P$7"/>
+<wire x1="-464.82" y1="-144.78" x2="-472.44" y2="-144.78" width="0.1524" layer="91"/>
+<label x="-472.44" y="-144.78" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$4" gate="G$1" pin="P$3"/>
+<wire x1="-449.58" y1="-144.78" x2="-441.96" y2="-144.78" width="0.1524" layer="91"/>
+<label x="-441.96" y="-144.78" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="12V" class="0">
@@ -12252,10 +12307,6 @@ for Latched Components</text>
 <label x="-482.6" y="-238.76" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="-502.92" y1="-142.24" x2="-520.7" y2="-142.24" width="0.1524" layer="91"/>
-<label x="-520.7" y="-142.24" size="1.6764" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <pinref part="F3" gate="G$1" pin="2"/>
 <wire x1="561.34" y1="-55.88" x2="571.5" y2="-55.88" width="0.1524" layer="91"/>
 <label x="571.5" y="-55.88" size="1.778" layer="95" xref="yes"/>
@@ -12273,6 +12324,16 @@ for Latched Components</text>
 <segment>
 <pinref part="U$6" gate="G$1" pin="B18"/>
 <wire x1="-276.86" y1="-114.3" x2="-279.4" y2="-114.3" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$4" gate="G$1" pin="P$8"/>
+<wire x1="-464.82" y1="-149.86" x2="-472.44" y2="-149.86" width="0.1524" layer="91"/>
+<label x="-472.44" y="-149.86" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$4" gate="G$1" pin="P$4"/>
+<wire x1="-449.58" y1="-149.86" x2="-441.96" y2="-149.86" width="0.1524" layer="91"/>
+<label x="-441.96" y="-149.86" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -12794,8 +12855,9 @@ for Latched Components</text>
 <pinref part="IC1" gate="G$1" pin="OUT1"/>
 </segment>
 <segment>
-<wire x1="-502.92" y1="-147.32" x2="-513.08" y2="-147.32" width="0.1524" layer="91"/>
-<label x="-513.08" y="-147.32" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$4" gate="G$1" pin="P$5"/>
+<wire x1="-464.82" y1="-134.62" x2="-472.44" y2="-134.62" width="0.1524" layer="91"/>
+<label x="-472.44" y="-134.62" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="PO3" class="0">
@@ -13348,16 +13410,22 @@ for Latched Components</text>
 </net>
 <net name="TSMS_IN+" class="0">
 <segment>
-<wire x1="-447.04" y1="-40.64" x2="-452.12" y2="-40.64" width="0.1524" layer="91"/>
-<label x="-447.04" y="-40.64" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="IC11" gate="G$1" pin="3~16V_IN"/>
 <wire x1="10.16" y1="73.66" x2="30.48" y2="73.66" width="0.1524" layer="91"/>
 <label x="30.48" y="73.66" size="1.778" layer="95" xref="yes"/>
 <wire x1="10.16" y1="73.66" x2="10.16" y2="78.74" width="0.1524" layer="91"/>
 <junction x="10.16" y="73.66"/>
 <pinref part="R28" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<pinref part="U$6" gate="G$1" pin="B7"/>
+<wire x1="-302.26" y1="-124.46" x2="-299.72" y2="-124.46" width="0.1524" layer="91"/>
+<label x="-299.72" y="-124.46" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$6" gate="G$1" pin="A18"/>
+<wire x1="-325.12" y1="-93.98" x2="-330.2" y2="-93.98" width="0.1524" layer="91"/>
+<label x="-330.2" y="-93.98" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$14" class="0">
@@ -13531,8 +13599,9 @@ for Latched Components</text>
 <pinref part="IC3" gate="G$1" pin="OUT4"/>
 </segment>
 <segment>
-<label x="-543.56" y="-144.78" size="1.778" layer="95" rot="R180" xref="yes"/>
-<wire x1="-502.92" y1="-144.78" x2="-543.56" y2="-144.78" width="0.1524" layer="91"/>
+<pinref part="U$4" gate="G$1" pin="P$6"/>
+<wire x1="-464.82" y1="-139.7" x2="-472.44" y2="-139.7" width="0.1524" layer="91"/>
+<label x="-472.44" y="-139.7" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="COOLANT_PUMP" class="0">
@@ -13542,8 +13611,9 @@ for Latched Components</text>
 <pinref part="IC1" gate="G$1" pin="OUT2"/>
 </segment>
 <segment>
-<wire x1="-502.92" y1="-152.4" x2="-515.62" y2="-152.4" width="0.1524" layer="91"/>
-<label x="-515.62" y="-152.4" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$4" gate="G$1" pin="P$1"/>
+<wire x1="-449.58" y1="-134.62" x2="-441.96" y2="-134.62" width="0.1524" layer="91"/>
+<label x="-441.96" y="-134.62" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="BMS_CAN_L" class="0">
@@ -13622,6 +13692,13 @@ for Latched Components</text>
 <wire x1="-365.76" y1="-109.22" x2="-363.22" y2="-109.22" width="0.1524" layer="91"/>
 <wire x1="-363.22" y1="-109.22" x2="-347.98" y2="-109.22" width="0.1524" layer="91"/>
 <wire x1="-345.44" y1="-109.22" x2="-347.98" y2="-109.22" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$21" class="0">
+<segment>
+<pinref part="U$4" gate="G$1" pin="P$2"/>
+<wire x1="-449.58" y1="-139.7" x2="-441.96" y2="-139.7" width="0.1524" layer="91"/>
+<label x="-441.96" y="-139.7" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
