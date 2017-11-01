@@ -215,55 +215,6 @@ Through-Hole Micro Relay</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="diodes-inc">
-<packages>
-<package name="SOT23-3">
-<wire x1="1.4224" y1="0.6604" x2="1.4224" y2="-0.6604" width="0.1524" layer="51"/>
-<wire x1="1.4224" y1="-0.6604" x2="-1.4224" y2="-0.6604" width="0.1524" layer="51"/>
-<wire x1="-1.4224" y1="-0.6604" x2="-1.4224" y2="0.6604" width="0.1524" layer="51"/>
-<wire x1="-1.4224" y1="0.6604" x2="1.4224" y2="0.6604" width="0.1524" layer="51"/>
-<smd name="3" x="0" y="1.1" dx="1" dy="1.4" layer="1"/>
-<smd name="2" x="0.95" y="-1.1" dx="1" dy="1.4" layer="1"/>
-<smd name="1" x="-0.95" y="-1.1" dx="1" dy="1.4" layer="1"/>
-<text x="-1.905" y="1.905" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.905" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.2286" y1="0.7112" x2="0.2286" y2="1.2954" layer="51"/>
-<rectangle x1="0.7112" y1="-1.2954" x2="1.1684" y2="-0.7112" layer="51"/>
-<rectangle x1="-1.1684" y1="-1.2954" x2="-0.7112" y2="-0.7112" layer="51"/>
-</package>
-</packages>
-<symbols>
-<symbol name="DIODE">
-<wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
-<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
-<text x="-2.54" y="3.0226" size="1.778" layer="95">&gt;NAME</text>
-<text x="-2.54" y="-4.8514" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="A" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
-<pin name="C" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="MMBD4448H-7-F">
-<gates>
-<gate name="G$1" symbol="DIODE" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOT23-3">
-<connects>
-<connect gate="G$1" pin="A" pad="1"/>
-<connect gate="G$1" pin="C" pad="3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="Keystone">
 <packages>
 <package name="3568">
@@ -6188,10 +6139,10 @@ http://www.infineon.comp&gt;
 </classes>
 <parts>
 <part name="W.PUMPRELAY" library="panasonic" deviceset="ACTP112" device="ACTP112"/>
-<part name="U$5" library="diodes-inc" deviceset="MMBD4448H-7-F" device=""/>
+<part name="D8" library="adafruit" deviceset="DIODE" device="SOD-123"/>
 <part name="15A" library="Keystone" deviceset="3568" device=""/>
 <part name="FANRELAY" library="panasonic" deviceset="ACTP112" device="ACTP112"/>
-<part name="U$7" library="diodes-inc" deviceset="MMBD4448H-7-F" device=""/>
+<part name="D7" library="adafruit" deviceset="DIODE" device="SOD-123"/>
 <part name="25A" library="Keystone" deviceset="3568" device=""/>
 <part name="R1" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:26062/1" value="470"/>
 <part name="5AA" library="Keystone" deviceset="3568" device=""/>
@@ -6278,13 +6229,13 @@ http://www.infineon.comp&gt;
 <attribute name="VALUE" x="-19.05" y="223.901" size="1.778" layer="96"/>
 <attribute name="PART" x="-13.97" y="238.76" size="1.778" layer="95"/>
 </instance>
-<instance part="U$5" gate="G$1" x="-10.16" y="205.74" rot="R180"/>
+<instance part="D8" gate="G$1" x="-10.16" y="205.74" rot="R180"/>
 <instance part="15A" gate="G$1" x="17.78" y="243.84"/>
 <instance part="FANRELAY" gate="G$1" x="-15.24" y="165.1" smashed="yes" rot="R90">
 <attribute name="VALUE" x="-19.05" y="147.701" size="1.778" layer="96"/>
 <attribute name="PART" x="-12.7" y="162.56" size="1.778" layer="95"/>
 </instance>
-<instance part="U$7" gate="G$1" x="-10.16" y="129.54" rot="R180"/>
+<instance part="D7" gate="G$1" x="-10.16" y="129.54" rot="R180"/>
 <instance part="25A" gate="G$1" x="17.78" y="167.64"/>
 <instance part="R1" gate="G$1" x="27.94" y="210.82" smashed="yes" rot="R270">
 <attribute name="NAME" x="29.4386" y="212.09" size="1.778" layer="95" rot="R270"/>
@@ -6384,14 +6335,14 @@ http://www.infineon.comp&gt;
 <segment>
 <wire x1="-40.64" y1="231.14" x2="-33.02" y2="231.14" width="0.1524" layer="91"/>
 <label x="-40.64" y="231.14" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$5" gate="G$1" pin="C"/>
 <wire x1="-33.02" y1="231.14" x2="-20.32" y2="231.14" width="0.1524" layer="91"/>
 <wire x1="-20.32" y1="231.14" x2="-15.24" y2="231.14" width="0.1524" layer="91"/>
-<wire x1="-12.7" y1="205.74" x2="-33.02" y2="205.74" width="0.1524" layer="91"/>
 <wire x1="-33.02" y1="205.74" x2="-33.02" y2="231.14" width="0.1524" layer="91"/>
 <junction x="-33.02" y="231.14"/>
 <pinref part="W.PUMPRELAY" gate="G$1" pin="COIL1"/>
 <junction x="-20.32" y="231.14"/>
+<pinref part="D8" gate="G$1" pin="C"/>
+<wire x1="-12.7" y1="205.74" x2="-33.02" y2="205.74" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="P$1"/>
@@ -6402,13 +6353,13 @@ http://www.infineon.comp&gt;
 <net name="F.RELAY" class="0">
 <segment>
 <label x="-40.64" y="154.94" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$7" gate="G$1" pin="C"/>
-<wire x1="-12.7" y1="129.54" x2="-33.02" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="-33.02" y1="129.54" x2="-33.02" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="FANRELAY" gate="G$1" pin="COIL1"/>
 <wire x1="-33.02" y1="154.94" x2="-20.32" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="-33.02" y1="154.94" x2="-40.64" y2="154.94" width="0.1524" layer="91"/>
 <junction x="-33.02" y="154.94"/>
+<pinref part="D7" gate="G$1" pin="C"/>
+<wire x1="-12.7" y1="129.54" x2="-33.02" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="129.54" y1="236.22" x2="127" y2="236.22" width="0.1524" layer="91"/>
@@ -6530,17 +6481,17 @@ http://www.infineon.comp&gt;
 <pinref part="R3" gate="G$1" pin="2"/>
 <pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="10.16" y1="205.74" x2="27.94" y2="205.74" width="0.1524" layer="91"/>
-<pinref part="U$5" gate="G$1" pin="A"/>
-<wire x1="-7.62" y1="205.74" x2="2.54" y2="205.74" width="0.1524" layer="91"/>
 <wire x1="2.54" y1="205.74" x2="2.54" y2="231.14" width="0.1524" layer="91"/>
 <pinref part="W.PUMPRELAY" gate="G$1" pin="COIL2"/>
 <wire x1="2.54" y1="231.14" x2="-10.16" y2="231.14" width="0.1524" layer="91"/>
 <wire x1="10.16" y1="205.74" x2="2.54" y2="205.74" width="0.1524" layer="91"/>
 <junction x="10.16" y="205.74"/>
-<junction x="2.54" y="205.74"/>
 <label x="35.56" y="205.74" size="1.778" layer="95" xref="yes"/>
 <wire x1="27.94" y1="205.74" x2="35.56" y2="205.74" width="0.1524" layer="91"/>
 <junction x="27.94" y="205.74"/>
+<pinref part="D8" gate="G$1" pin="A"/>
+<wire x1="-7.62" y1="205.74" x2="2.54" y2="205.74" width="0.1524" layer="91"/>
+<junction x="2.54" y="205.74"/>
 </segment>
 <segment>
 <pinref part="R4" gate="G$1" pin="2"/>
@@ -6551,12 +6502,12 @@ http://www.infineon.comp&gt;
 <wire x1="2.54" y1="154.94" x2="2.54" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="2.54" y1="129.54" x2="10.16" y2="129.54" width="0.1524" layer="91"/>
 <junction x="10.16" y="129.54"/>
-<pinref part="U$7" gate="G$1" pin="A"/>
-<wire x1="2.54" y1="129.54" x2="-7.62" y2="129.54" width="0.1524" layer="91"/>
-<junction x="2.54" y="129.54"/>
 <label x="35.56" y="129.54" size="1.778" layer="95" xref="yes"/>
 <wire x1="35.56" y1="129.54" x2="27.94" y2="129.54" width="0.1524" layer="91"/>
 <junction x="27.94" y="129.54"/>
+<pinref part="D7" gate="G$1" pin="A"/>
+<wire x1="-7.62" y1="129.54" x2="2.54" y2="129.54" width="0.1524" layer="91"/>
+<junction x="2.54" y="129.54"/>
 </segment>
 <segment>
 <pinref part="R2" gate="G$1" pin="2"/>
