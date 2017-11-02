@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.3.2">
+<eagle version="8.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -35369,22 +35369,22 @@ Soure: &lt;a href="http://www.ti.com/lit/ds/symlink/ads7042.pdf"&gt; Data sheet 
 <wire x1="-12.7" y1="-22.86" x2="12.7" y2="-22.86" width="0.254" layer="94"/>
 <wire x1="12.7" y1="-22.86" x2="12.7" y2="22.86" width="0.254" layer="94"/>
 <wire x1="12.7" y1="22.86" x2="-12.7" y2="22.86" width="0.254" layer="94"/>
-<pin name="COMP" x="-17.78" y="17.78" length="middle"/>
-<pin name="FB" x="-17.78" y="12.7" length="middle"/>
-<pin name="SHDN" x="-17.78" y="7.62" length="middle"/>
+<pin name="VIN" x="-17.78" y="17.78" length="middle"/>
+<pin name="SHDN" x="-17.78" y="12.7" length="middle"/>
+<pin name="COMP" x="-17.78" y="7.62" length="middle"/>
 <pin name="AGND" x="-17.78" y="2.54" length="middle"/>
 <pin name="PGND1" x="-17.78" y="-2.54" length="middle"/>
 <pin name="PGND2" x="-17.78" y="-7.62" length="middle"/>
 <pin name="PGND3" x="-17.78" y="-12.7" length="middle"/>
 <pin name="PGND4" x="-17.78" y="-17.78" length="middle"/>
-<pin name="TEST" x="17.78" y="17.78" length="middle" rot="R180"/>
-<pin name="FS" x="17.78" y="12.7" length="middle" rot="R180"/>
-<pin name="SS" x="17.78" y="7.62" length="middle" rot="R180"/>
-<pin name="VIN" x="17.78" y="2.54" length="middle" rot="R180"/>
-<pin name="BYP" x="17.78" y="-2.54" length="middle" rot="R180"/>
-<pin name="SW3" x="17.78" y="-7.62" length="middle" rot="R180"/>
-<pin name="SW2" x="17.78" y="-12.7" length="middle" rot="R180"/>
-<pin name="SW1" x="17.78" y="-17.78" length="middle" rot="R180"/>
+<pin name="SW1" x="17.78" y="17.78" length="middle" rot="R180"/>
+<pin name="SW2" x="17.78" y="12.7" length="middle" rot="R180"/>
+<pin name="SW3" x="17.78" y="7.62" length="middle" rot="R180"/>
+<pin name="FB" x="17.78" y="2.54" length="middle" rot="R180"/>
+<pin name="TEST" x="17.78" y="-2.54" length="middle" rot="R180"/>
+<pin name="FS" x="17.78" y="-7.62" length="middle" rot="R180"/>
+<pin name="SS" x="17.78" y="-12.7" length="middle" rot="R180"/>
+<pin name="BYP" x="17.78" y="-17.78" length="middle" rot="R180"/>
 <text x="-5.08" y="25.4" size="1.778" layer="94">&gt;NAME</text>
 <text x="-5.08" y="-27.94" size="1.778" layer="94">&gt;VALUE</text>
 </symbol>
