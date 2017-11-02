@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.3.2">
+<eagle version="8.4.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -6142,7 +6142,7 @@ http://www.infineon.comp&gt;
 <part name="D8" library="adafruit" deviceset="DIODE" device="SOD-123"/>
 <part name="15A" library="Keystone" deviceset="3568" device=""/>
 <part name="FANRELAY" library="panasonic" deviceset="ACTP112" device="ACTP112"/>
-<part name="D7" library="adafruit" deviceset="DIODE" device="SOD-123"/>
+<part name="D7" library="adafruit" deviceset="DIODE" device="SOD-123" value="1N4148"/>
 <part name="25A" library="Keystone" deviceset="3568" device=""/>
 <part name="R1" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:26062/1" value="470"/>
 <part name="5AA" library="Keystone" deviceset="3568" device=""/>
@@ -6345,9 +6345,9 @@ http://www.infineon.comp&gt;
 <wire x1="-12.7" y1="205.74" x2="-33.02" y2="205.74" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="P$1"/>
-<wire x1="142.24" y1="236.22" x2="149.86" y2="236.22" width="0.1524" layer="91"/>
-<label x="149.86" y="236.22" size="1.778" layer="95" xref="yes"/>
+<pinref part="U$2" gate="G$1" pin="P$4"/>
+<wire x1="142.24" y1="220.98" x2="149.86" y2="220.98" width="0.1524" layer="91"/>
+<label x="149.86" y="220.98" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="F.RELAY" class="0">
@@ -6362,11 +6362,9 @@ http://www.infineon.comp&gt;
 <wire x1="-12.7" y1="129.54" x2="-33.02" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="129.54" y1="236.22" x2="127" y2="236.22" width="0.1524" layer="91"/>
-<label x="116.84" y="236.22" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$2" gate="G$1" pin="P$5"/>
-<wire x1="121.92" y1="236.22" x2="116.84" y2="236.22" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="236.22" x2="127" y2="236.22" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$1" pin="P$8"/>
+<wire x1="127" y1="220.98" x2="116.84" y2="220.98" width="0.1524" layer="91"/>
+<label x="116.84" y="220.98" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="12V" class="0">
@@ -6556,12 +6554,6 @@ http://www.infineon.comp&gt;
 <junction x="134.62" y="139.7"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="P$7"/>
-<label x="116.84" y="226.06" size="1.778" layer="95" rot="R180" xref="yes"/>
-<wire x1="121.92" y1="226.06" x2="116.84" y2="226.06" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="226.06" x2="127" y2="226.06" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="U$2" gate="G$1" pin="P$3"/>
 <wire x1="142.24" y1="226.06" x2="149.86" y2="226.06" width="0.1524" layer="91"/>
 <label x="149.86" y="226.06" size="1.778" layer="95" xref="yes"/>
@@ -6593,6 +6585,11 @@ http://www.infineon.comp&gt;
 <wire x1="114.3" y1="-68.58" x2="106.68" y2="-68.58" width="0.1524" layer="91"/>
 <label x="106.68" y="-68.58" size="2.54" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="P$7"/>
+<wire x1="127" y1="226.06" x2="116.84" y2="226.06" width="0.1524" layer="91"/>
+<label x="116.84" y="226.06" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="FAN_PWM_IN" class="0">
 <segment>
@@ -6605,11 +6602,9 @@ http://www.infineon.comp&gt;
 <junction x="119.38" y="157.48"/>
 </segment>
 <segment>
-<wire x1="129.54" y1="231.14" x2="127" y2="231.14" width="0.1524" layer="91"/>
 <label x="116.84" y="231.14" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="U$2" gate="G$1" pin="P$6"/>
-<wire x1="119.38" y1="231.14" x2="116.84" y2="231.14" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="231.14" x2="127" y2="231.14" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="231.14" x2="127" y2="231.14" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="FAN_PWM_OUT" class="0">
@@ -6675,17 +6670,14 @@ http://www.infineon.comp&gt;
 <junction x="15.24" y="33.02"/>
 </segment>
 <segment>
-<wire x1="129.54" y1="220.98" x2="127" y2="220.98" width="0.1524" layer="91"/>
-<label x="116.84" y="220.98" size="1.778" layer="95" rot="R180" xref="yes"/>
-<label x="116.84" y="220.98" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$2" gate="G$1" pin="P$8"/>
-<wire x1="121.92" y1="220.98" x2="116.84" y2="220.98" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="220.98" x2="127" y2="220.98" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$1" pin="P$1"/>
+<wire x1="142.24" y1="236.22" x2="149.86" y2="236.22" width="0.1524" layer="91"/>
+<label x="149.86" y="236.22" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="P$4"/>
-<wire x1="142.24" y1="220.98" x2="149.86" y2="220.98" width="0.1524" layer="91"/>
-<label x="149.86" y="220.98" size="1.778" layer="95" xref="yes"/>
+<pinref part="U$2" gate="G$1" pin="P$5"/>
+<wire x1="127" y1="236.22" x2="116.84" y2="236.22" width="0.1524" layer="91"/>
+<label x="116.84" y="236.22" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="FRONT/REAR_HARNESS" class="0">
