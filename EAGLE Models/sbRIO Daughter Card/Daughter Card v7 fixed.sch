@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.3.2">
+<eagle version="8.4.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -11951,6 +11951,16 @@ for Latched Components</text>
 <wire x1="292.1" y1="-91.44" x2="294.64" y2="-91.44" width="0.1524" layer="91"/>
 <pinref part="U$6" gate="G$1" pin="B25"/>
 </segment>
+<segment>
+<pinref part="U$4" gate="G$1" pin="P$2"/>
+<wire x1="347.98" y1="30.48" x2="355.6" y2="30.48" width="0.1524" layer="91"/>
+<label x="355.6" y="30.48" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$10" gate="G$1" pin="1"/>
+<wire x1="345.44" y1="-25.4" x2="355.6" y2="-25.4" width="0.1524" layer="91"/>
+<label x="355.6" y="-25.4" size="1.778" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="GND" class="0">
 <segment>
@@ -12210,11 +12220,6 @@ for Latched Components</text>
 <label x="208.28" y="25.4" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$10" gate="G$1" pin="1"/>
-<wire x1="345.44" y1="-25.4" x2="355.6" y2="-25.4" width="0.1524" layer="91"/>
-<label x="355.6" y="-25.4" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
 <wire x1="292.1" y1="-81.28" x2="294.64" y2="-81.28" width="0.1524" layer="91"/>
 <pinref part="U$6" gate="G$1" pin="B23"/>
 </segment>
@@ -12358,19 +12363,19 @@ for Latched Components</text>
 <wire x1="294.64" y1="-55.88" x2="292.1" y2="-55.88" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$4" gate="G$1" pin="P$8"/>
-<wire x1="332.74" y1="20.32" x2="325.12" y2="20.32" width="0.1524" layer="91"/>
-<label x="325.12" y="20.32" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="U$4" gate="G$1" pin="P$4"/>
-<wire x1="347.98" y1="20.32" x2="355.6" y2="20.32" width="0.1524" layer="91"/>
-<label x="355.6" y="20.32" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="358.14" y1="-30.48" x2="360.68" y2="-30.48" width="0.1524" layer="91"/>
 <label x="360.68" y="-30.48" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$4" gate="G$1" pin="P$1"/>
+<wire x1="347.98" y1="35.56" x2="355.6" y2="35.56" width="0.1524" layer="91"/>
+<label x="355.6" y="35.56" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$4" gate="G$1" pin="P$5"/>
+<wire x1="332.74" y1="35.56" x2="325.12" y2="35.56" width="0.1524" layer="91"/>
+<label x="325.12" y="35.56" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -12892,9 +12897,9 @@ for Latched Components</text>
 <pinref part="IC1" gate="G$1" pin="OUT1"/>
 </segment>
 <segment>
-<pinref part="U$4" gate="G$1" pin="P$5"/>
-<wire x1="332.74" y1="35.56" x2="325.12" y2="35.56" width="0.1524" layer="91"/>
-<label x="325.12" y="35.56" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$4" gate="G$1" pin="P$8"/>
+<wire x1="332.74" y1="20.32" x2="325.12" y2="20.32" width="0.1524" layer="91"/>
+<label x="325.12" y="20.32" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="PO3" class="0">
@@ -13651,9 +13656,9 @@ for Latched Components</text>
 <pinref part="IC1" gate="G$1" pin="OUT2"/>
 </segment>
 <segment>
-<pinref part="U$4" gate="G$1" pin="P$1"/>
-<wire x1="347.98" y1="35.56" x2="355.6" y2="35.56" width="0.1524" layer="91"/>
-<label x="355.6" y="35.56" size="1.778" layer="95" xref="yes"/>
+<pinref part="U$4" gate="G$1" pin="P$4"/>
+<wire x1="347.98" y1="20.32" x2="355.6" y2="20.32" width="0.1524" layer="91"/>
+<label x="355.6" y="20.32" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="BMS_CAN_L" class="0">
@@ -13729,13 +13734,6 @@ for Latched Components</text>
 <pinref part="F9" gate="G$1" pin="2"/>
 <wire x1="205.74" y1="-50.8" x2="208.28" y2="-50.8" width="0.1524" layer="91"/>
 <wire x1="208.28" y1="-50.8" x2="226.06" y2="-50.8" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$21" class="0">
-<segment>
-<pinref part="U$4" gate="G$1" pin="P$2"/>
-<wire x1="347.98" y1="30.48" x2="355.6" y2="30.48" width="0.1524" layer="91"/>
-<label x="355.6" y="30.48" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$12" class="0">
