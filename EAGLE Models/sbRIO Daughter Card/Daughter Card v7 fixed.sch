@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.4.0">
+<eagle version="8.3.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -11447,9 +11447,9 @@ for Latched Components</text>
 <wire x1="297.18" y1="-66.04" x2="294.64" y2="-66.04" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$9" gate="G$1" pin="P$10"/>
-<wire x1="220.98" y1="40.64" x2="213.36" y2="40.64" width="0.1524" layer="91"/>
-<label x="213.36" y="40.64" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$9" gate="G$1" pin="P$2"/>
+<wire x1="236.22" y1="35.56" x2="243.84" y2="35.56" width="0.1524" layer="91"/>
+<label x="243.84" y="35.56" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="CAN_L" class="0">
@@ -11459,14 +11459,14 @@ for Latched Components</text>
 <label x="241.3" y="-116.84" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$9" gate="G$1" pin="P$9"/>
-<wire x1="220.98" y1="35.56" x2="208.28" y2="35.56" width="0.1524" layer="91"/>
-<label x="208.28" y="35.56" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <pinref part="U$6" gate="G$1" pin="B21"/>
 <wire x1="294.64" y1="-71.12" x2="297.18" y2="-71.12" width="0.1524" layer="91"/>
 <label x="297.18" y="-71.12" size="1.6764" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$9" gate="G$1" pin="P$1"/>
+<wire x1="236.22" y1="40.64" x2="243.84" y2="40.64" width="0.1524" layer="91"/>
+<label x="243.84" y="40.64" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="LOW_CURRENT_IN" class="0">
@@ -13658,26 +13658,26 @@ for Latched Components</text>
 </net>
 <net name="BMS_CAN_L" class="0">
 <segment>
-<pinref part="U$9" gate="G$1" pin="P$1"/>
-<wire x1="236.22" y1="40.64" x2="243.84" y2="40.64" width="0.1524" layer="91"/>
-<label x="243.84" y="40.64" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="U$6" gate="G$1" pin="B10"/>
 <wire x1="269.24" y1="-81.28" x2="271.78" y2="-81.28" width="0.1524" layer="91"/>
 <label x="271.78" y="-81.28" size="1.778" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U$9" gate="G$1" pin="P$9"/>
+<wire x1="220.98" y1="35.56" x2="213.36" y2="35.56" width="0.1524" layer="91"/>
+<label x="213.36" y="35.56" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="BMS_CAN_H" class="0">
-<segment>
-<pinref part="U$9" gate="G$1" pin="P$2"/>
-<wire x1="236.22" y1="35.56" x2="248.92" y2="35.56" width="0.1524" layer="91"/>
-<label x="248.92" y="35.56" size="1.778" layer="95" xref="yes"/>
-</segment>
 <segment>
 <pinref part="U$6" gate="G$1" pin="B9"/>
 <wire x1="269.24" y1="-76.2" x2="271.78" y2="-76.2" width="0.1524" layer="91"/>
 <label x="271.78" y="-76.2" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$9" gate="G$1" pin="P$10"/>
+<wire x1="220.98" y1="40.64" x2="213.36" y2="40.64" width="0.1524" layer="91"/>
+<label x="213.36" y="40.64" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="BSPD_OUT" class="0">
