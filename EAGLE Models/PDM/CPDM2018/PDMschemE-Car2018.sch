@@ -6879,13 +6879,6 @@ http://www.infineon.comp&gt;
 <wire x1="27.94" y1="-78.74" x2="25.4" y2="-78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$20" class="0">
-<segment>
-<pinref part="U$2" gate="G$1" pin="P$2"/>
-<wire x1="142.24" y1="231.14" x2="149.86" y2="231.14" width="0.1524" layer="91"/>
-<label x="149.86" y="231.14" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
 <net name="N$25" class="0">
 <segment>
 <pinref part="U$4" gate="G$1" pin="B7"/>
@@ -6920,6 +6913,18 @@ http://www.infineon.comp&gt;
 <pinref part="U$4" gate="G$1" pin="B6"/>
 <wire x1="124.46" y1="-38.1" x2="106.68" y2="-38.1" width="0.1524" layer="91"/>
 <label x="106.68" y="-38.1" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="SIGNAL_GND" class="0">
+<segment>
+<pinref part="U$4" gate="G$1" pin="B5"/>
+<wire x1="124.46" y1="-33.02" x2="106.68" y2="-33.02" width="0.1524" layer="91"/>
+<label x="106.68" y="-33.02" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="P$2"/>
+<wire x1="142.24" y1="231.14" x2="149.86" y2="231.14" width="0.1524" layer="91"/>
+<label x="149.86" y="231.14" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
