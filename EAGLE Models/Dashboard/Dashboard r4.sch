@@ -21086,6 +21086,49 @@ at 27/07/2012 14:20:03</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="e-switch">
+<packages>
+<package name="LP4OA1PBBTG">
+<hole x="0" y="-0.985" drill="0.9"/>
+<hole x="2.5" y="-0.985" drill="0.9"/>
+<hole x="-2.5" y="-0.985" drill="0.9"/>
+<hole x="-2.5" y="0.985" drill="0.9"/>
+<hole x="0" y="0.985" drill="0.9"/>
+<hole x="2.5" y="0.985" drill="0.9"/>
+<pad name="P$1" x="-5" y="0" drill="0.7" shape="square"/>
+<pad name="P$2" x="5" y="0" drill="0.7" shape="square"/>
+</package>
+</packages>
+<symbols>
+<symbol name="LP4OA1PBBTG">
+<pin name="P$1" x="-6.35" y="0" length="middle"/>
+<pin name="P$2" x="6.35" y="0" length="middle" rot="R180"/>
+<wire x1="-3.048" y1="1.524" x2="0" y2="1.524" width="0.1524" layer="94"/>
+<wire x1="0" y1="1.524" x2="3.048" y2="1.524" width="0.1524" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="1.524" width="0.1524" layer="94"/>
+<wire x1="0" y1="2.54" x2="-1.016" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="2.54" x2="1.016" y2="2.54" width="0.1524" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="LP4OA1PBBTG">
+<gates>
+<gate name="G$1" symbol="LP4OA1PBBTG" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="LP4OA1PBBTG">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -21256,6 +21299,8 @@ at 27/07/2012 14:20:03</description>
 <part name="CIN13" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="3.3uF"/>
 <part name="CIN14" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="3.3uF"/>
 <part name="U$4" library="diodes-inc-e14" deviceset="B160-FDICT_NB" device=""/>
+<part name="U$19" library="e-switch" deviceset="LP4OA1PBBTG" device=""/>
+<part name="U$20" library="e-switch" deviceset="LP4OA1PBBTG" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -21325,6 +21370,7 @@ at 27/07/2012 14:20:03</description>
 <wire x1="177.8" y1="304.8" x2="53.34" y2="304.8" width="0.1524" layer="94"/>
 <wire x1="53.34" y1="304.8" x2="53.34" y2="139.7" width="0.1524" layer="94"/>
 <text x="104.14" y="142.24" size="1.778" layer="94">Potentiometers</text>
+<text x="-317.5" y="88.9" size="1.778" layer="91">Buttons</text>
 </plain>
 <instances>
 <instance part="IC1" gate="G$1" x="-27.94" y="114.3"/>
@@ -21480,6 +21526,8 @@ at 27/07/2012 14:20:03</description>
 <instance part="CIN13" gate="G$1" x="231.14" y="83.82" rot="R180"/>
 <instance part="CIN14" gate="G$1" x="246.38" y="83.82" rot="R180"/>
 <instance part="U$4" gate="G$1" x="206.502" y="118.11"/>
+<instance part="U$19" gate="G$1" x="-314.96" y="83.82"/>
+<instance part="U$20" gate="G$1" x="-314.96" y="73.66"/>
 </instances>
 <busses>
 </busses>
@@ -21525,6 +21573,13 @@ at 27/07/2012 14:20:03</description>
 <label x="-22.86" y="114.3" size="1.778" layer="95"/>
 <pinref part="IC1" gate="G$1" pin="(A9)PC1"/>
 </segment>
+<segment>
+<wire x1="-320.04" y1="73.66" x2="-321.31" y2="73.66" width="0.1524" layer="91"/>
+<label x="-330.2" y="73.66" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$20" gate="G$1" pin="P$1"/>
+<wire x1="-321.31" y1="73.66" x2="-330.2" y2="73.66" width="0.1524" layer="91"/>
+<junction x="-321.31" y="73.66"/>
+</segment>
 </net>
 <net name="PC0" class="0">
 <segment>
@@ -21535,6 +21590,13 @@ at 27/07/2012 14:20:03</description>
 <segment>
 <wire x1="-370.84" y1="38.1" x2="-365.76" y2="38.1" width="0.1524" layer="91"/>
 <label x="-365.76" y="38.1" size="1.016" layer="95" xref="yes"/>
+</segment>
+<segment>
+<wire x1="-320.04" y1="83.82" x2="-321.31" y2="83.82" width="0.1524" layer="91"/>
+<label x="-330.2" y="83.82" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$19" gate="G$1" pin="P$1"/>
+<wire x1="-321.31" y1="83.82" x2="-330.2" y2="83.82" width="0.1524" layer="91"/>
+<junction x="-321.31" y="83.82"/>
 </segment>
 </net>
 <net name="RXCAN" class="0">
@@ -22090,6 +22152,20 @@ at 27/07/2012 14:20:03</description>
 <wire x1="198.12" y1="68.58" x2="198.12" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="GND23" gate="1" pin="GND"/>
 <junction x="198.12" y="68.58"/>
+</segment>
+<segment>
+<wire x1="-309.88" y1="83.82" x2="-308.61" y2="83.82" width="0.1524" layer="91"/>
+<label x="-299.72" y="83.82" size="1.778" layer="95" xref="yes"/>
+<pinref part="U$19" gate="G$1" pin="P$2"/>
+<wire x1="-308.61" y1="83.82" x2="-299.72" y2="83.82" width="0.1524" layer="91"/>
+<junction x="-308.61" y="83.82"/>
+</segment>
+<segment>
+<wire x1="-309.88" y1="73.66" x2="-308.61" y2="73.66" width="0.1524" layer="91"/>
+<label x="-299.72" y="73.66" size="1.778" layer="95" xref="yes"/>
+<pinref part="U$20" gate="G$1" pin="P$2"/>
+<wire x1="-308.61" y1="73.66" x2="-299.72" y2="73.66" width="0.1524" layer="91"/>
+<junction x="-308.61" y="73.66"/>
 </segment>
 </net>
 <net name="XTAL1" class="0">
