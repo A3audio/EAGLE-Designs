@@ -25374,11 +25374,6 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </net>
 <net name="BACKLIGHT_CTRL" class="0">
 <segment>
-<wire x1="137.16" y1="99.06" x2="129.54" y2="99.06" width="0.1524" layer="91"/>
-<label x="129.54" y="99.06" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$18" gate="G$1" pin="SHDN"/>
-</segment>
-<segment>
 <pinref part="U$2" gate="A" pin="BACKLIGHT"/>
 <wire x1="-350.52" y1="185.42" x2="-350.52" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="-350.52" y1="167.64" x2="-355.6" y2="167.64" width="0.1524" layer="91"/>
@@ -26239,11 +26234,6 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </net>
 <net name="CAN_0L" class="1">
 <segment>
-<pinref part="U$21" gate="G$1" pin="P$3"/>
-<wire x1="-307.34" y1="111.76" x2="-307.34" y2="109.22" width="0.1524" layer="91"/>
-<label x="-307.34" y="109.22" size="0.8128" layer="95" rot="R270" xref="yes"/>
-</segment>
-<segment>
 <wire x1="-236.22" y1="132.08" x2="-226.06" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="-226.06" y1="124.46" x2="-226.06" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="-226.06" y1="132.08" x2="-207.01" y2="132.08" width="0.1524" layer="91"/>
@@ -26252,13 +26242,13 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <pinref part="IC3" gate="G$1" pin="P$1"/>
 <label x="-207.01" y="132.08" size="1.778" layer="95" xref="yes"/>
 </segment>
-</net>
-<net name="CAN_0H" class="1">
 <segment>
 <pinref part="U$21" gate="G$1" pin="P$4"/>
 <wire x1="-304.8" y1="111.76" x2="-304.8" y2="109.22" width="0.1524" layer="91"/>
 <label x="-304.8" y="109.22" size="0.8128" layer="95" rot="R270" xref="yes"/>
 </segment>
+</net>
+<net name="CAN_0H" class="1">
 <segment>
 <wire x1="-220.98" y1="127" x2="-236.22" y2="127" width="0.1524" layer="91"/>
 <wire x1="-220.98" y1="124.46" x2="-220.98" y2="127" width="0.1524" layer="91"/>
@@ -26267,6 +26257,11 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <wire x1="-220.98" y1="127" x2="-207.01" y2="127" width="0.1524" layer="91"/>
 <label x="-207.01" y="127" size="1.778" layer="95" xref="yes"/>
 <junction x="-220.98" y="127"/>
+</segment>
+<segment>
+<pinref part="U$21" gate="G$1" pin="P$3"/>
+<wire x1="-307.34" y1="111.76" x2="-307.34" y2="109.22" width="0.1524" layer="91"/>
+<label x="-307.34" y="109.22" size="0.8128" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="5V_REG_IN" class="0">
