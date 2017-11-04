@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.4.1">
+<eagle version="8.3.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -11441,15 +11441,14 @@ for Latched Components</text>
 <label x="241.3" y="-111.76" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="292.1" y1="-66.04" x2="294.64" y2="-66.04" width="0.1524" layer="91"/>
-<label x="297.18" y="-66.04" size="1.778" layer="95" xref="yes"/>
-<pinref part="U$6" gate="G$1" pin="B20"/>
-<wire x1="297.18" y1="-66.04" x2="294.64" y2="-66.04" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="U$9" gate="G$1" pin="P$2"/>
 <wire x1="236.22" y1="35.56" x2="243.84" y2="35.56" width="0.1524" layer="91"/>
 <label x="243.84" y="35.56" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$6" gate="G$1" pin="B21"/>
+<wire x1="294.64" y1="-71.12" x2="304.8" y2="-71.12" width="0.1524" layer="91"/>
+<label x="304.8" y="-71.12" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="CAN_L" class="0">
@@ -11459,14 +11458,14 @@ for Latched Components</text>
 <label x="241.3" y="-116.84" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$6" gate="G$1" pin="B21"/>
-<wire x1="294.64" y1="-71.12" x2="297.18" y2="-71.12" width="0.1524" layer="91"/>
-<label x="297.18" y="-71.12" size="1.6764" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="U$9" gate="G$1" pin="P$1"/>
 <wire x1="236.22" y1="40.64" x2="243.84" y2="40.64" width="0.1524" layer="91"/>
 <label x="243.84" y="40.64" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$6" gate="G$1" pin="B20"/>
+<wire x1="294.64" y1="-66.04" x2="304.8" y2="-66.04" width="0.1524" layer="91"/>
+<label x="304.8" y="-66.04" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="LOW_CURRENT_IN" class="0">
