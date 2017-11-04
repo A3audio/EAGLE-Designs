@@ -21352,7 +21352,6 @@ at 14/06/2012 11:09:42</description>
 <part name="F5" library="SparkFun" deviceset="PTC" device="SMD" value="15V,0.5A"/>
 <part name="U$13" library="kyocera" deviceset="TCG043WQLBAANN-GN00" device=""/>
 <part name="LEDOUT" library="DashAndCAN library" deviceset="MICRO5LOCK" device=""/>
-<part name="CANPWR" library="DashAndCAN library" deviceset="MICRO5LOCK" device=""/>
 <part name="U$15" library="con-tyco" library_urn="urn:adsk.eagle:library:192" deviceset="1734753-1" device=""/>
 <part name="U$14" library="DashAndCAN library" deviceset="ROTSWITCH" device=""/>
 <part name="R17" library="rcl" deviceset="R-US_" device="R0603" value="1k"/>
@@ -21415,6 +21414,8 @@ at 14/06/2012 11:09:42</description>
 <part name="U$20" library="e-switch" deviceset="LP4OA1PBBTG" device=""/>
 <part name="U$21" library="molex" deviceset="EN3C12M26X" device=""/>
 <part name="U$22" library="molex" deviceset="043650-0409" device=""/>
+<part name="U$23" library="molex" deviceset="043650-0409" device=""/>
+<part name="U$24" library="molex" deviceset="043650-0409" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -21437,10 +21438,10 @@ at 14/06/2012 11:09:42</description>
 <wire x1="-124.46" y1="162.56" x2="-124.46" y2="256.54" width="0.3048" layer="94"/>
 <wire x1="-124.46" y1="256.54" x2="-241.3" y2="256.54" width="0.3048" layer="94"/>
 <wire x1="-241.3" y1="256.54" x2="-241.3" y2="162.56" width="0.3048" layer="94"/>
-<wire x1="-287.02" y1="22.86" x2="-287.02" y2="154.94" width="0.3048" layer="94"/>
+<wire x1="-287.02" y1="-20.32" x2="-287.02" y2="154.94" width="0.3048" layer="94"/>
 <wire x1="-287.02" y1="154.94" x2="-396.24" y2="154.94" width="0.3048" layer="94"/>
-<wire x1="-396.24" y1="154.94" x2="-396.24" y2="22.86" width="0.3048" layer="94"/>
-<wire x1="-396.24" y1="22.86" x2="-287.02" y2="22.86" width="0.3048" layer="94"/>
+<wire x1="-396.24" y1="154.94" x2="-396.24" y2="-20.32" width="0.3048" layer="94"/>
+<wire x1="-396.24" y1="-20.32" x2="-287.02" y2="-20.32" width="0.3048" layer="94"/>
 <wire x1="-241.3" y1="162.56" x2="-124.46" y2="162.56" width="0.3048" layer="94"/>
 <text x="-266.7" y="73.66" size="1.778" layer="97">POWER SUPPLY</text>
 <text x="-223.52" y="147.32" size="1.778" layer="97">CAN</text>
@@ -21477,14 +21478,13 @@ at 14/06/2012 11:09:42</description>
 <wire x1="-419.1" y1="12.7" x2="-558.8" y2="10.16" width="0.1524" layer="94"/>
 <wire x1="-558.8" y1="10.16" x2="-558.8" y2="163.83" width="0.1524" layer="94"/>
 <text x="-468.63" y="158.75" size="1.27" layer="95">High-Side Drivers</text>
-<text x="-355.6" y="43.18" size="1.778" layer="91" rot="R90">potentiometer</text>
-<text x="-355.6" y="40.64" size="1.778" layer="91" rot="R270">push/flag</text>
 <wire x1="53.34" y1="139.7" x2="177.8" y2="139.7" width="0.1524" layer="94"/>
 <wire x1="177.8" y1="139.7" x2="177.8" y2="304.8" width="0.1524" layer="94"/>
 <wire x1="177.8" y1="304.8" x2="53.34" y2="304.8" width="0.1524" layer="94"/>
 <wire x1="53.34" y1="304.8" x2="53.34" y2="139.7" width="0.1524" layer="94"/>
 <text x="104.14" y="142.24" size="1.778" layer="94">Potentiometers</text>
 <text x="-317.5" y="88.9" size="1.778" layer="91">Buttons</text>
+<text x="-312.42" y="-15.24" size="1.27" layer="91">USB Mini</text>
 </plain>
 <instances>
 <instance part="IC1" gate="G$1" x="-27.94" y="114.3"/>
@@ -21581,8 +21581,7 @@ at 14/06/2012 11:09:42</description>
 <instance part="F5" gate="G$1" x="-430.53" y="36.83" rot="R270"/>
 <instance part="U$13" gate="G$1" x="-439.42" y="218.44"/>
 <instance part="LEDOUT" gate="G$1" x="-335.28" y="132.08" rot="R90"/>
-<instance part="CANPWR" gate="G$1" x="-375.92" y="114.3" rot="R90"/>
-<instance part="U$15" gate="G$1" x="-363.22" y="76.2"/>
+<instance part="U$15" gate="G$1" x="-299.72" y="2.54"/>
 <instance part="U$14" gate="G$1" x="111.76" y="292.1" rot="R90"/>
 <instance part="R17" gate="G$1" x="86.36" y="262.89"/>
 <instance part="R18" gate="G$1" x="101.6" y="262.89"/>
@@ -21643,7 +21642,9 @@ at 14/06/2012 11:09:42</description>
 <instance part="U$19" gate="G$1" x="-314.96" y="83.82"/>
 <instance part="U$20" gate="G$1" x="-314.96" y="73.66"/>
 <instance part="U$21" gate="G$1" x="-304.8" y="124.46" rot="R90"/>
-<instance part="U$22" gate="G$1" x="-340.36" y="101.6"/>
+<instance part="U$22" gate="G$1" x="-365.76" y="111.76"/>
+<instance part="U$23" gate="G$1" x="-365.76" y="76.2"/>
+<instance part="U$24" gate="G$1" x="-365.76" y="40.64"/>
 </instances>
 <busses>
 </busses>
@@ -21863,11 +21864,6 @@ at 14/06/2012 11:09:42</description>
 <pinref part="C12" gate="G$1" pin="1"/>
 <pinref part="F1" gate="G$1" pin="1"/>
 <junction x="-307.34" y="55.88"/>
-</segment>
-<segment>
-<pinref part="CANPWR" gate="G$1" pin="P$5"/>
-<wire x1="-370.84" y1="109.22" x2="-370.84" y2="104.14" width="0.1524" layer="91"/>
-<label x="-370.84" y="104.14" size="1.016" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
 <pinref part="R6" gate="G$1" pin="2"/>
@@ -22152,19 +22148,14 @@ at 14/06/2012 11:09:42</description>
 <label x="-449.58" y="34.29" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
-<wire x1="-370.84" y1="86.36" x2="-375.92" y2="86.36" width="0.1524" layer="91"/>
-<label x="-375.92" y="86.36" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="-307.34" y1="12.7" x2="-312.42" y2="12.7" width="0.1524" layer="91"/>
+<label x="-312.42" y="12.7" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="U$15" gate="G$1" pin="P$5"/>
 </segment>
 <segment>
 <pinref part="LEDOUT" gate="G$1" pin="P$1"/>
 <wire x1="-340.36" y1="127" x2="-340.36" y2="121.92" width="0.1524" layer="91"/>
 <label x="-340.36" y="121.92" size="1.016" layer="95" rot="R270" xref="yes"/>
-</segment>
-<segment>
-<pinref part="CANPWR" gate="G$1" pin="P$1"/>
-<wire x1="-381" y1="109.22" x2="-381" y2="104.14" width="0.1524" layer="91"/>
-<label x="-381" y="104.14" size="1.016" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
 <wire x1="162.56" y1="255.27" x2="162.56" y2="284.48" width="0.1524" layer="91"/>
@@ -22283,6 +22274,21 @@ at 14/06/2012 11:09:42</description>
 <pinref part="U$21" gate="G$1" pin="P$1"/>
 <wire x1="-312.42" y1="111.76" x2="-312.42" y2="109.22" width="0.1524" layer="91"/>
 <label x="-312.42" y="109.22" size="0.8128" layer="95" rot="R270" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$22" gate="G$1" pin="P$2"/>
+<wire x1="-378.46" y1="114.3" x2="-381" y2="114.3" width="0.1524" layer="91"/>
+<label x="-381" y="114.3" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$23" gate="G$1" pin="P$1"/>
+<wire x1="-378.46" y1="83.82" x2="-381" y2="83.82" width="0.1524" layer="91"/>
+<label x="-381" y="83.82" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$24" gate="G$1" pin="P$1"/>
+<wire x1="-378.46" y1="48.26" x2="-381" y2="48.26" width="0.1524" layer="91"/>
+<label x="-381" y="48.26" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="XTAL1" class="0">
@@ -22552,14 +22558,14 @@ at 14/06/2012 11:09:42</description>
 <label x="68.58" y="118.11" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="CANPWR" gate="G$1" pin="P$2"/>
-<wire x1="-378.46" y1="109.22" x2="-378.46" y2="104.14" width="0.1524" layer="91"/>
-<label x="-378.46" y="104.14" size="1.016" layer="95" rot="R270" xref="yes"/>
-</segment>
-<segment>
 <pinref part="U$21" gate="G$1" pin="P$2"/>
 <wire x1="-309.88" y1="111.76" x2="-309.88" y2="109.22" width="0.1524" layer="91"/>
 <label x="-309.88" y="109.22" size="0.8128" layer="95" rot="R270" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$22" gate="G$1" pin="P$1"/>
+<wire x1="-378.46" y1="119.38" x2="-381" y2="119.38" width="0.1524" layer="91"/>
+<label x="-381" y="119.38" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$11" class="0">
@@ -22751,8 +22757,8 @@ at 14/06/2012 11:09:42</description>
 <pinref part="IC5" gate="G$1" pin="USBDM"/>
 </segment>
 <segment>
-<wire x1="-370.84" y1="71.12" x2="-375.92" y2="71.12" width="0.1524" layer="91"/>
-<label x="-375.92" y="71.12" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="-307.34" y1="-2.54" x2="-312.42" y2="-2.54" width="0.1524" layer="91"/>
+<label x="-312.42" y="-2.54" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="U$15" gate="G$1" pin="P$2"/>
 </segment>
 </net>
@@ -22763,8 +22769,8 @@ at 14/06/2012 11:09:42</description>
 <pinref part="IC5" gate="G$1" pin="USBDP"/>
 </segment>
 <segment>
-<wire x1="-370.84" y1="76.2" x2="-375.92" y2="76.2" width="0.1524" layer="91"/>
-<label x="-375.92" y="76.2" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="-307.34" y1="2.54" x2="-312.42" y2="2.54" width="0.1524" layer="91"/>
+<label x="-312.42" y="2.54" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="U$15" gate="G$1" pin="P$3"/>
 </segment>
 </net>
@@ -22779,8 +22785,8 @@ at 14/06/2012 11:09:42</description>
 </net>
 <net name="USB_V_IN" class="3">
 <segment>
-<wire x1="-370.84" y1="66.04" x2="-375.92" y2="66.04" width="0.1524" layer="91"/>
-<label x="-375.92" y="66.04" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="-307.34" y1="-7.62" x2="-312.42" y2="-7.62" width="0.1524" layer="91"/>
+<label x="-312.42" y="-7.62" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="U$15" gate="G$1" pin="P$1"/>
 </segment>
 <segment>
@@ -22820,11 +22826,6 @@ at 14/06/2012 11:09:42</description>
 <label x="-207.01" y="132.08" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="CANPWR" gate="G$1" pin="P$3"/>
-<wire x1="-375.92" y1="109.22" x2="-375.92" y2="104.14" width="0.1524" layer="91"/>
-<label x="-375.92" y="104.14" size="1.016" layer="95" rot="R270" xref="yes"/>
-</segment>
-<segment>
 <pinref part="U$21" gate="G$1" pin="P$3"/>
 <wire x1="-307.34" y1="111.76" x2="-307.34" y2="109.22" width="0.1524" layer="91"/>
 <label x="-307.34" y="109.22" size="0.8128" layer="95" rot="R270" xref="yes"/>
@@ -22839,11 +22840,6 @@ at 14/06/2012 11:09:42</description>
 <wire x1="-220.98" y1="127" x2="-207.01" y2="127" width="0.1524" layer="91"/>
 <label x="-207.01" y="127" size="1.778" layer="95" xref="yes"/>
 <junction x="-220.98" y="127"/>
-</segment>
-<segment>
-<pinref part="CANPWR" gate="G$1" pin="P$4"/>
-<wire x1="-373.38" y1="109.22" x2="-373.38" y2="104.14" width="0.1524" layer="91"/>
-<label x="-373.38" y="104.14" size="1.016" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U$21" gate="G$1" pin="P$4"/>
@@ -23378,6 +23374,11 @@ at 14/06/2012 11:09:42</description>
 <wire x1="-337.82" y1="127" x2="-337.82" y2="121.92" width="0.1524" layer="91"/>
 <label x="-337.82" y="121.92" size="1.016" layer="95" rot="R270" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U$24" gate="G$1" pin="P$2"/>
+<wire x1="-378.46" y1="43.18" x2="-381" y2="43.18" width="0.1524" layer="91"/>
+<label x="-381" y="43.18" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="N$27" class="3">
 <segment>
@@ -23484,6 +23485,11 @@ at 14/06/2012 11:09:42</description>
 <wire x1="-332.74" y1="127" x2="-332.74" y2="121.92" width="0.1524" layer="91"/>
 <label x="-332.74" y="121.92" size="1.016" layer="95" rot="R270" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U$24" gate="G$1" pin="P$4"/>
+<wire x1="-378.46" y1="33.02" x2="-381" y2="33.02" width="0.1524" layer="91"/>
+<label x="-381" y="33.02" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="DRV2" class="3">
 <segment>
@@ -23495,6 +23501,11 @@ at 14/06/2012 11:09:42</description>
 <pinref part="LEDOUT" gate="G$1" pin="P$3"/>
 <wire x1="-335.28" y1="127" x2="-335.28" y2="121.92" width="0.1524" layer="91"/>
 <label x="-335.28" y="121.92" size="1.016" layer="95" rot="R270" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$24" gate="G$1" pin="P$3"/>
+<wire x1="-378.46" y1="38.1" x2="-381" y2="38.1" width="0.1524" layer="91"/>
+<label x="-381" y="38.1" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$43" class="0">
@@ -24058,25 +24069,16 @@ at 14/06/2012 11:09:42</description>
 <wire x1="172.72" y1="68.58" x2="178.816" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="UP" class="0">
-<segment>
-<pinref part="U$21" gate="G$1" pin="P$5"/>
-<wire x1="-302.26" y1="111.76" x2="-302.26" y2="109.22" width="0.1524" layer="91"/>
-<label x="-302.26" y="109.22" size="0.8128" layer="95" rot="R270" xref="yes"/>
-</segment>
-</net>
-<net name="DOWN" class="0">
-<segment>
-<pinref part="U$21" gate="G$1" pin="P$6"/>
-<wire x1="-299.72" y1="111.76" x2="-299.72" y2="109.22" width="0.1524" layer="91"/>
-<label x="-299.72" y="109.22" size="0.8128" layer="95" rot="R270" xref="yes"/>
-</segment>
-</net>
 <net name="CAN_1L" class="0">
 <segment>
 <pinref part="U$21" gate="G$1" pin="P$12"/>
 <wire x1="-312.42" y1="137.16" x2="-312.42" y2="139.7" width="0.1524" layer="91"/>
 <label x="-312.42" y="139.7" size="0.8128" layer="95" rot="R90" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$22" gate="G$1" pin="P$4"/>
+<wire x1="-378.46" y1="104.14" x2="-381" y2="104.14" width="0.1524" layer="91"/>
+<label x="-381" y="104.14" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="CAN_1H" class="0">
@@ -24084,6 +24086,11 @@ at 14/06/2012 11:09:42</description>
 <pinref part="U$21" gate="G$1" pin="P$11"/>
 <wire x1="-309.88" y1="137.16" x2="-309.88" y2="139.7" width="0.1524" layer="91"/>
 <label x="-309.88" y="139.7" size="0.8128" layer="95" rot="R90" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$22" gate="G$1" pin="P$3"/>
+<wire x1="-378.46" y1="109.22" x2="-381" y2="109.22" width="0.1524" layer="91"/>
+<label x="-381" y="109.22" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$80" class="0">
@@ -24096,6 +24103,30 @@ at 14/06/2012 11:09:42</description>
 <segment>
 <pinref part="U$21" gate="G$1" pin="P$9"/>
 <wire x1="-304.8" y1="137.16" x2="-304.8" y2="139.7" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="UP_SH" class="4">
+<segment>
+<pinref part="U$23" gate="G$1" pin="P$2"/>
+<wire x1="-378.46" y1="78.74" x2="-381" y2="78.74" width="0.1524" layer="91"/>
+<label x="-381" y="78.74" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$21" gate="G$1" pin="P$5"/>
+<wire x1="-302.26" y1="111.76" x2="-302.26" y2="109.22" width="0.1524" layer="91"/>
+<label x="-302.26" y="109.22" size="0.8128" layer="95" rot="R270" xref="yes"/>
+</segment>
+</net>
+<net name="DOWN_SH" class="0">
+<segment>
+<pinref part="U$23" gate="G$1" pin="P$3"/>
+<wire x1="-378.46" y1="73.66" x2="-381" y2="73.66" width="0.1524" layer="91"/>
+<label x="-381" y="73.66" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$21" gate="G$1" pin="P$6"/>
+<wire x1="-299.72" y1="111.76" x2="-299.72" y2="109.22" width="0.1524" layer="91"/>
+<label x="-299.72" y="109.22" size="0.8128" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 </nets>
