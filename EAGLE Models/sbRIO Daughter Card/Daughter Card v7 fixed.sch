@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.3.2">
+<eagle version="8.4.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -11291,7 +11291,7 @@ for Latched Components</text>
 <instance part="SBRIO_ANALOG" gate="G$1" x="-149.86" y="73.66" rot="R90"/>
 <instance part="SBRIO_MEZZANINE" gate="G$1" x="-132.08" y="-35.56"/>
 <instance part="D6" gate="G$1" x="-187.96" y="66.04" rot="R90"/>
-<instance part="C11" gate="G$1" x="-144.78" y="152.4"/>
+<instance part="C11" gate="G$1" x="-154.94" y="152.4"/>
 <instance part="C12" gate="G$1" x="-175.26" y="144.78" rot="R180"/>
 <instance part="ACCEL" gate="G$1" x="-15.24" y="157.48"/>
 <instance part="C7" gate="G$1" x="-38.1" y="162.56"/>
@@ -11376,11 +11376,11 @@ for Latched Components</text>
 <instance part="U$9" gate="G$1" x="228.6" y="30.48"/>
 <instance part="U$10" gate="G$1" x="340.36" y="-35.56"/>
 <instance part="U$4" gate="G$1" x="340.36" y="27.94"/>
-<instance part="R1" gate="G$1" x="353.06" y="-30.48"/>
+<instance part="R1" gate="G$1" x="353.06" y="-27.94"/>
 <instance part="R2" gate="G$1" x="353.06" y="-35.56"/>
-<instance part="R3" gate="G$1" x="353.06" y="-40.64"/>
-<instance part="R4" gate="G$1" x="353.06" y="-45.72"/>
-<instance part="R5" gate="G$1" x="353.06" y="-50.8"/>
+<instance part="R3" gate="G$1" x="353.06" y="-43.18"/>
+<instance part="R4" gate="G$1" x="353.06" y="-50.8"/>
+<instance part="R5" gate="G$1" x="353.06" y="-58.42"/>
 </instances>
 <busses>
 </busses>
@@ -11520,8 +11520,8 @@ for Latched Components</text>
 </segment>
 <segment>
 <pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="358.14" y1="-40.64" x2="360.68" y2="-40.64" width="0.1524" layer="91"/>
-<label x="360.68" y="-40.64" size="1.778" layer="95" xref="yes"/>
+<wire x1="358.14" y1="-43.18" x2="360.68" y2="-43.18" width="0.1524" layer="91"/>
+<label x="360.68" y="-43.18" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U$6" gate="G$1" pin="A6"/>
@@ -11542,8 +11542,8 @@ for Latched Components</text>
 </segment>
 <segment>
 <pinref part="R4" gate="G$1" pin="2"/>
-<wire x1="358.14" y1="-45.72" x2="360.68" y2="-45.72" width="0.1524" layer="91"/>
-<label x="360.68" y="-45.72" size="1.778" layer="95" xref="yes"/>
+<wire x1="358.14" y1="-50.8" x2="360.68" y2="-50.8" width="0.1524" layer="91"/>
+<label x="360.68" y="-50.8" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U$6" gate="G$1" pin="A7"/>
@@ -11884,8 +11884,8 @@ for Latched Components</text>
 </segment>
 <segment>
 <pinref part="U$10" gate="G$1" pin="1"/>
-<wire x1="345.44" y1="-25.4" x2="355.6" y2="-25.4" width="0.1524" layer="91"/>
-<label x="355.6" y="-25.4" size="1.778" layer="95" xref="yes"/>
+<wire x1="345.44" y1="-25.4" x2="350.52" y2="-22.86" width="0.1524" layer="91"/>
+<label x="350.52" y="-22.86" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U$6" gate="G$1" pin="B5"/>
@@ -12122,10 +12122,10 @@ for Latched Components</text>
 <segment>
 <junction x="-144.78" y="142.24"/>
 <wire x1="-111.76" y1="147.32" x2="-129.54" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="-129.54" y1="147.32" x2="-144.78" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="-129.54" y1="147.32" x2="-154.94" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="C11" gate="G$1" pin="2"/>
-<junction x="-144.78" y="147.32"/>
-<wire x1="-144.78" y1="147.32" x2="-144.78" y2="142.24" width="0.1524" layer="91"/>
+<junction x="-154.94" y="147.32"/>
+<wire x1="-154.94" y1="147.32" x2="-144.78" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="C12" gate="G$1" pin="1"/>
 <junction x="-175.26" y="142.24"/>
 <wire x1="-175.26" y1="142.24" x2="-162.56" y2="142.24" width="0.1524" layer="91"/>
@@ -12257,14 +12257,14 @@ for Latched Components</text>
 <wire x1="-187.96" y1="68.58" x2="-187.96" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="-187.96" y1="170.18" x2="-137.16" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="-137.16" y1="170.18" x2="-137.16" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="-144.78" y1="154.94" x2="-137.16" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="-154.94" y1="154.94" x2="-137.16" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="C11" gate="G$1" pin="1"/>
-<junction x="-144.78" y="154.94"/>
+<junction x="-154.94" y="154.94"/>
 <junction x="-137.16" y="154.94"/>
 <label x="-137.16" y="170.18" size="1.778" layer="95" rot="R90" xref="yes"/>
 <label x="-187.96" y="88.9" size="1.778" layer="95" xref="yes"/>
 <wire x1="-160.02" y1="160.02" x2="-144.78" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="-144.78" y1="160.02" x2="-144.78" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="-144.78" y1="160.02" x2="-154.94" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="-114.3" y1="154.94" x2="-116.84" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="-116.84" y1="154.94" x2="-129.54" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="SHDN"/>
@@ -12291,8 +12291,8 @@ for Latched Components</text>
 </segment>
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="358.14" y1="-30.48" x2="360.68" y2="-30.48" width="0.1524" layer="91"/>
-<label x="360.68" y="-30.48" size="1.778" layer="95" xref="yes"/>
+<wire x1="358.14" y1="-27.94" x2="360.68" y2="-27.94" width="0.1524" layer="91"/>
+<label x="360.68" y="-27.94" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U$4" gate="G$1" pin="P$1"/>
@@ -13427,8 +13427,8 @@ for Latched Components</text>
 </segment>
 <segment>
 <pinref part="R5" gate="G$1" pin="2"/>
-<label x="360.68" y="-50.8" size="1.778" layer="95" xref="yes"/>
-<wire x1="358.14" y1="-50.8" x2="360.68" y2="-50.8" width="0.1524" layer="91"/>
+<label x="360.68" y="-58.42" size="1.778" layer="95" xref="yes"/>
+<wire x1="358.14" y1="-58.42" x2="360.68" y2="-58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SBRIO_OK+_2" class="0">
@@ -13638,7 +13638,7 @@ for Latched Components</text>
 <net name="N$12" class="0">
 <segment>
 <pinref part="U$10" gate="G$1" pin="2"/>
-<wire x1="345.44" y1="-30.48" x2="347.98" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="345.44" y1="-30.48" x2="347.98" y2="-27.94" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="1"/>
 </segment>
 </net>
@@ -13653,21 +13653,21 @@ for Latched Components</text>
 <segment>
 <pinref part="R3" gate="G$1" pin="1"/>
 <pinref part="U$10" gate="G$1" pin="4"/>
-<wire x1="347.98" y1="-40.64" x2="345.44" y2="-40.64" width="0.1524" layer="91"/>
+<wire x1="347.98" y1="-43.18" x2="345.44" y2="-40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$17" class="0">
 <segment>
 <pinref part="U$10" gate="G$1" pin="5"/>
 <pinref part="R4" gate="G$1" pin="1"/>
-<wire x1="345.44" y1="-45.72" x2="347.98" y2="-45.72" width="0.1524" layer="91"/>
+<wire x1="345.44" y1="-45.72" x2="347.98" y2="-50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$20" class="0">
 <segment>
 <pinref part="U$10" gate="G$1" pin="6"/>
 <pinref part="R5" gate="G$1" pin="1"/>
-<wire x1="347.98" y1="-50.8" x2="345.44" y2="-50.8" width="0.1524" layer="91"/>
+<wire x1="347.98" y1="-58.42" x2="345.44" y2="-50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$9" class="0">
