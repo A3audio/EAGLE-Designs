@@ -1425,32 +1425,6 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 </deviceset>
 </devicesets>
 </library>
-<library name="SparkFun">
-<packages>
-</packages>
-<symbols>
-<symbol name="GND">
-<wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
-<text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="GND" prefix="GND">
-<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
-<gates>
-<gate name="1" symbol="GND" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="can">
 <packages>
 <package name="DIL08">
@@ -8597,30 +8571,12 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <text x="-2.54" y="-2.54" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
 <pin name="VCC" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
 </symbol>
-<symbol name="GND">
-<wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
-<text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
-</symbol>
 </symbols>
 <devicesets>
 <deviceset name="VCC" prefix="P+">
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
 <gate name="VCC" symbol="VCC" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="GND" prefix="GND">
-<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
-<gates>
-<gate name="1" symbol="GND" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -13553,7 +13509,6 @@ Source: http://focus.ti.com/lit/ds/symlink/opa725.pdf</description>
 <part name="Q1" library="SparkFun-FreqCtrl" deviceset="CRYSTAL" device="SMD" value="56P2859"/>
 <part name="C2" library="rcl" deviceset="C-US" device="C0805" value="18pF"/>
 <part name="C1" library="rcl" deviceset="C-US" device="C0805" value="18pF"/>
-<part name="GND1" library="SparkFun" deviceset="GND" device=""/>
 <part name="R3" library="rcl" deviceset="R-US_" device="R0805" value="100K"/>
 <part name="IC3" library="Artificial Science" deviceset="NUP2105L" device=""/>
 <part name="P+4" library="supply1" deviceset="VCC" device=""/>
@@ -13586,7 +13541,6 @@ Source: http://focus.ti.com/lit/ds/symlink/opa725.pdf</description>
 <part name="U$3" library="TE" deviceset="SUPERSEAL1.0_26POS" device=""/>
 <part name="R10" library="rcl" deviceset="R-US_" device="R0805" value="100K"/>
 <part name="P+6" library="supply1" deviceset="VCC" device=""/>
-<part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="C7" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="4.7nF"/>
 <part name="D3" library="adafruit" deviceset="DIODE" device="SOD-123" value="1N4148"/>
 <part name="SJ2" library="SparkFun-Passives" deviceset="SOLDERJUMPER" device="NO"/>
@@ -13723,7 +13677,6 @@ Revised By Daniel Baron</text>
 <instance part="Q1" gate="G$1" x="299.72" y="-38.1" rot="R90"/>
 <instance part="C2" gate="G$1" x="292.1" y="-33.02" rot="R90"/>
 <instance part="C1" gate="G$1" x="292.1" y="-40.64" rot="R90"/>
-<instance part="GND1" gate="1" x="284.48" y="-40.64"/>
 <instance part="R3" gate="G$1" x="281.94" y="-198.12" rot="R270"/>
 <instance part="IC3" gate="G$1" x="325.12" y="-203.2" rot="MR270"/>
 <instance part="P+4" gate="VCC" x="299.72" y="-55.88"/>
@@ -13759,7 +13712,6 @@ Revised By Daniel Baron</text>
 <instance part="U$3" gate="G$1" x="485.14" y="-55.88"/>
 <instance part="R10" gate="G$1" x="472.44" y="-106.68" rot="R90"/>
 <instance part="P+6" gate="VCC" x="472.44" y="-99.06"/>
-<instance part="GND2" gate="1" x="444.5" y="-116.84"/>
 <instance part="C7" gate="G$1" x="472.44" y="-116.84"/>
 <instance part="D3" gate="G$1" x="480.06" y="-106.68" rot="R90"/>
 <instance part="SJ2" gate="1" x="454.66" y="-114.3"/>
@@ -13999,24 +13951,6 @@ Revised By Daniel Baron</text>
 <label x="327.66" y="43.18" size="1.778" layer="95" rot="R90" xref="yes"/>
 <junction x="327.66" y="35.56"/>
 <pinref part="IC12" gate="G$1" pin="V+"/>
-</segment>
-</net>
-<net name="GND" class="0">
-<segment>
-<wire x1="289.56" y1="-33.02" x2="289.56" y2="-38.1" width="0.1524" layer="91"/>
-<wire x1="289.56" y1="-40.64" x2="289.56" y2="-38.1" width="0.1524" layer="91"/>
-<wire x1="289.56" y1="-38.1" x2="284.48" y2="-38.1" width="0.1524" layer="91"/>
-<junction x="289.56" y="-38.1"/>
-<pinref part="C2" gate="G$1" pin="1"/>
-<pinref part="C1" gate="G$1" pin="1"/>
-<pinref part="GND1" gate="1" pin="GND"/>
-</segment>
-<segment>
-<wire x1="444.5" y1="-114.3" x2="444.5" y2="-111.76" width="0.1524" layer="91"/>
-<wire x1="444.5" y1="-111.76" x2="449.58" y2="-111.76" width="0.1524" layer="91"/>
-<wire x1="449.58" y1="-111.76" x2="449.58" y2="-114.3" width="0.1524" layer="91"/>
-<pinref part="GND2" gate="1" pin="GND"/>
-<pinref part="SJ2" gate="1" pin="1"/>
 </segment>
 </net>
 <net name="SG5V" class="0">
@@ -15217,6 +15151,20 @@ Revised By Daniel Baron</text>
 <label x="444.5" y="-20.32" size="1.016" layer="95" rot="R180" xref="yes"/>
 <wire x1="452.12" y1="-20.32" x2="469.9" y2="-20.32" width="0.1524" layer="91"/>
 <pinref part="U$3" gate="G$1" pin="B2"/>
+</segment>
+<segment>
+<wire x1="289.56" y1="-33.02" x2="289.56" y2="-38.1" width="0.1524" layer="91"/>
+<wire x1="289.56" y1="-40.64" x2="289.56" y2="-38.1" width="0.1524" layer="91"/>
+<wire x1="289.56" y1="-38.1" x2="284.48" y2="-38.1" width="0.1524" layer="91"/>
+<junction x="289.56" y="-38.1"/>
+<pinref part="C2" gate="G$1" pin="1"/>
+<pinref part="C1" gate="G$1" pin="1"/>
+<label x="284.48" y="-38.1" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<wire x1="444.5" y1="-114.3" x2="449.58" y2="-114.3" width="0.1524" layer="91"/>
+<pinref part="SJ2" gate="1" pin="1"/>
+<label x="444.5" y="-114.3" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="A1O" class="0">
