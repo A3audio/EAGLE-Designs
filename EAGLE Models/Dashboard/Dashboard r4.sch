@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.3.2">
+<eagle version="8.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -65,6 +65,8 @@
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
 <layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -23437,6 +23439,73 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="Vishay_By_element14_Batch_1">
+<description>Developed by element14 :&lt;br&gt;
+element14 CAD Library consolidation.ulp
+at 30/07/2012 16:36:08</description>
+<packages>
+<package name="RESC3216X71N">
+<smd name="1" x="-1.4732" y="0" dx="1.1176" dy="1.7526" layer="1"/>
+<smd name="2" x="1.4732" y="0" dx="1.1176" dy="1.7526" layer="1"/>
+<wire x1="-0.5842" y1="-0.8636" x2="0.5842" y2="-0.8636" width="0.1524" layer="21"/>
+<wire x1="0.5842" y1="0.8636" x2="-0.5842" y2="0.8636" width="0.1524" layer="21"/>
+<wire x1="-0.9144" y1="-0.8636" x2="-0.9144" y2="0.8636" width="0" layer="51"/>
+<wire x1="-0.9144" y1="0.8636" x2="-1.6764" y2="0.8636" width="0" layer="51"/>
+<wire x1="-1.6764" y1="-0.8636" x2="-0.9144" y2="-0.8636" width="0" layer="51"/>
+<wire x1="0.9144" y1="0.8636" x2="0.9144" y2="-0.8636" width="0" layer="51"/>
+<wire x1="0.9144" y1="-0.8636" x2="1.6764" y2="-0.8636" width="0" layer="51"/>
+<wire x1="1.6764" y1="0.8636" x2="0.9144" y2="0.8636" width="0" layer="51"/>
+<wire x1="-0.9144" y1="-0.8636" x2="0.9144" y2="-0.8636" width="0" layer="51"/>
+<wire x1="1.6764" y1="-0.8636" x2="1.6764" y2="0.8636" width="0" layer="51"/>
+<wire x1="0.9144" y1="0.8636" x2="-0.9144" y2="0.8636" width="0" layer="51"/>
+<wire x1="-1.6764" y1="0.8636" x2="-1.6764" y2="-0.8636" width="0" layer="51"/>
+<text x="-3.4544" y="1.905" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-3.4544" y="-3.937" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="RESH">
+<pin name="2" x="0" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="1" x="12.7" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<wire x1="3.175" y1="1.27" x2="4.445" y2="-1.27" width="0.2032" layer="94"/>
+<wire x1="4.445" y1="-1.27" x2="5.715" y2="1.27" width="0.2032" layer="94"/>
+<wire x1="5.715" y1="1.27" x2="6.985" y2="-1.27" width="0.2032" layer="94"/>
+<wire x1="6.985" y1="-1.27" x2="8.255" y2="1.27" width="0.2032" layer="94"/>
+<wire x1="8.255" y1="1.27" x2="9.525" y2="-1.27" width="0.2032" layer="94"/>
+<wire x1="2.54" y1="0" x2="3.175" y2="1.27" width="0.2032" layer="94"/>
+<wire x1="9.525" y1="-1.27" x2="10.16" y2="0" width="0.2032" layer="94"/>
+<text x="-3.1242" y="-8.7376" size="3.4798" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
+<text x="0.9906" y="2.7686" size="2.0828" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="TNPW12062K00BEEN" prefix="R">
+<description>RESISTOR, 1206</description>
+<gates>
+<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="RESC3216X71N">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="TNPW12062K00BEEN" constant="no"/>
+<attribute name="OC_FARNELL" value="1562099" constant="no"/>
+<attribute name="OC_NEWARK" value="71M1280" constant="no"/>
+<attribute name="SUPPLIER" value="Vishay Dale" constant="no"/>
+<attribute name="TOLERANCE" value="±0.1%" constant="no"/>
+<attribute name="VALUE" value="2K Ohms" constant="no"/>
+<attribute name="WATTAGE" value="0.25 W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -23580,7 +23649,6 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <part name="CIN5" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="4.7uF"/>
 <part name="CIN6" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="10uF"/>
 <part name="CIN7" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1uF"/>
-<part name="RCOMM1" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="17.2k"/>
 <part name="BL_L2" library="tdk" deviceset="LTF4022-D" device="" value="15uH"/>
 <part name="GND21" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="CIN8" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="100 pF"/>
@@ -23607,6 +23675,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <part name="U$26" library="on-semiconductor" deviceset="NCP1117" device=""/>
 <part name="C23" library="rcl" deviceset="C-US" device="C0603" value="10uF"/>
 <part name="C24" library="rcl" deviceset="C-US" device="C0603" value="10uF"/>
+<part name="RCOMM1" library="Vishay_By_element14_Batch_1" deviceset="TNPW12062K00BEEN" device="" value="17.2K"/>
 </parts>
 <sheets>
 <sheet>
@@ -23804,7 +23873,6 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <instance part="CIN5" gate="G$1" x="64.77" y="81.28"/>
 <instance part="CIN6" gate="G$1" x="184.15" y="73.914" rot="R90"/>
 <instance part="CIN7" gate="G$1" x="183.896" y="68.58" rot="R90"/>
-<instance part="RCOMM1" gate="G$1" x="111.76" y="81.28" rot="R90"/>
 <instance part="BL_L2" gate="A" x="146.05" y="118.11" rot="R90"/>
 <instance part="GND21" gate="1" x="119.38" y="60.96"/>
 <instance part="CIN8" gate="G$1" x="124.714" y="88.9" rot="R90"/>
@@ -23831,6 +23899,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <instance part="U$26" gate="G$1" x="-205.74" y="68.58"/>
 <instance part="C23" gate="G$1" x="-233.68" y="60.96"/>
 <instance part="C24" gate="G$1" x="-182.88" y="60.96"/>
+<instance part="RCOMM1" gate="A" x="111.76" y="76.2" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -26088,22 +26157,16 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <pinref part="R49" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="N$74" class="0">
-<segment>
-<pinref part="CIN4" gate="G$1" pin="1"/>
-<pinref part="RCOMM1" gate="G$1" pin="1"/>
-</segment>
-</net>
 <net name="N$75" class="0">
 <segment>
 <pinref part="CIN8" gate="G$1" pin="1"/>
 <wire x1="119.634" y1="88.9" x2="111.76" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="RCOMM1" gate="G$1" pin="2"/>
 <wire x1="111.76" y1="88.9" x2="111.76" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="U$18" gate="G$1" pin="COMP"/>
 <wire x1="137.16" y1="93.98" x2="111.76" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="93.98" x2="111.76" y2="88.9" width="0.1524" layer="91"/>
 <junction x="111.76" y="88.9"/>
+<pinref part="RCOMM1" gate="A" pin="1"/>
 </segment>
 </net>
 <net name="N$77" class="0">
@@ -26270,6 +26333,12 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <pinref part="D3" gate="G$1" pin="C"/>
 <wire x1="-236.22" y1="68.58" x2="-233.68" y2="68.58" width="0.1524" layer="91"/>
 <junction x="-233.68" y="68.58"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="CIN4" gate="G$1" pin="1"/>
+<pinref part="RCOMM1" gate="A" pin="2"/>
 </segment>
 </net>
 </nets>

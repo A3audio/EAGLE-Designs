@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.3.2">
+<eagle version="8.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -64,6 +64,8 @@
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
 <layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="no" active="no"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="no" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="no" active="no"/>
@@ -3524,6 +3526,31 @@ Based on the following sources:
 </package>
 </packages>
 </library>
+<library name="Vishay_By_element14_Batch_1">
+<description>Developed by element14 :&lt;br&gt;
+element14 CAD Library consolidation.ulp
+at 30/07/2012 16:36:08</description>
+<packages>
+<package name="RESC3216X71N">
+<smd name="1" x="-1.4732" y="0" dx="1.1176" dy="1.7526" layer="1"/>
+<smd name="2" x="1.4732" y="0" dx="1.1176" dy="1.7526" layer="1"/>
+<wire x1="-0.5842" y1="-0.8636" x2="0.5842" y2="-0.8636" width="0.1524" layer="21"/>
+<wire x1="0.5842" y1="0.8636" x2="-0.5842" y2="0.8636" width="0.1524" layer="21"/>
+<wire x1="-0.9144" y1="-0.8636" x2="-0.9144" y2="0.8636" width="0" layer="51"/>
+<wire x1="-0.9144" y1="0.8636" x2="-1.6764" y2="0.8636" width="0" layer="51"/>
+<wire x1="-1.6764" y1="-0.8636" x2="-0.9144" y2="-0.8636" width="0" layer="51"/>
+<wire x1="0.9144" y1="0.8636" x2="0.9144" y2="-0.8636" width="0" layer="51"/>
+<wire x1="0.9144" y1="-0.8636" x2="1.6764" y2="-0.8636" width="0" layer="51"/>
+<wire x1="1.6764" y1="0.8636" x2="0.9144" y2="0.8636" width="0" layer="51"/>
+<wire x1="-0.9144" y1="-0.8636" x2="0.9144" y2="-0.8636" width="0" layer="51"/>
+<wire x1="1.6764" y1="-0.8636" x2="1.6764" y2="0.8636" width="0" layer="51"/>
+<wire x1="0.9144" y1="0.8636" x2="-0.9144" y2="0.8636" width="0" layer="51"/>
+<wire x1="-1.6764" y1="0.8636" x2="-1.6764" y2="-0.8636" width="0" layer="51"/>
+<text x="-3.4544" y="1.905" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-3.4544" y="-3.937" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -3619,10 +3646,9 @@ design rules under a new name.</description>
 <param name="slThermalsForVias" value="0"/>
 <param name="dpMaxLengthDifference" value="10mm"/>
 <param name="dpGapFactor" value="2.5"/>
-<param name="checkGrid" value="0"/>
-<param name="checkAngle" value="0"/>
 <param name="checkFont" value="1"/>
 <param name="checkRestrict" value="1"/>
+<param name="checkStop" value="0"/>
 <param name="useDiameter" value="13"/>
 <param name="maxErrors" value="50"/>
 </designrules>
@@ -3834,7 +3860,6 @@ design rules under a new name.</description>
 <element name="CIN5" library="SparkFun-Capacitors" package="0805" value="4.7uF" x="109.093" y="74.549"/>
 <element name="CIN6" library="SparkFun-Capacitors" package="0805" value="10uF" x="119.4816" y="77.2414"/>
 <element name="CIN7" library="SparkFun-Capacitors" package="0805" value="0.1uF" x="119.5578" y="79.7052"/>
-<element name="RCOMM1" library="SparkFun-Resistors" package="0603-RES" value="17.2k" x="123.7742" y="69.8754" rot="R90"/>
 <element name="BL_L2" library="tdk" package="2-SMD" value="15uH" x="110.0582" y="70.0532" rot="R180"/>
 <element name="CIN8" library="SparkFun-Capacitors" package="0805" value="100 pF" x="123.7234" y="73.0504" rot="R90"/>
 <element name="U$18" library="texas" package="LM5000" value="LM5000" x="119.0752" y="71.9074" rot="R90"/>
@@ -3858,6 +3883,14 @@ design rules under a new name.</description>
 <element name="U$26" library="on-semiconductor" package="SOT-223-4" value="NCP1117" x="11.6078" y="68.0974"/>
 <element name="C23" library="rcl" package="C0603" value="10uF" x="15.2654" y="60.6044"/>
 <element name="C24" library="rcl" package="C0603" value="10uF" x="10.922" y="60.4774" rot="R180"/>
+<element name="RCOMM1" library="Vishay_By_element14_Batch_1" package="RESC3216X71N" value="17.2K" x="-25.5524" y="-16.51">
+<attribute name="MPN" value="TNPW12062K00BEEN" x="-25.5524" y="-16.51" size="1.778" layer="27" display="off"/>
+<attribute name="OC_FARNELL" value="1562099" x="-25.5524" y="-16.51" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="71M1280" x="-25.5524" y="-16.51" size="1.778" layer="27" display="off"/>
+<attribute name="SUPPLIER" value="Vishay Dale" x="-25.5524" y="-16.51" size="1.778" layer="27" display="off"/>
+<attribute name="TOLERANCE" value="±0.1%" x="-25.5524" y="-16.51" size="1.778" layer="27" display="off"/>
+<attribute name="WATTAGE" value="0.25 W" x="-25.5524" y="-16.51" size="1.778" layer="27" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="GND" class="4">
@@ -5641,21 +5674,15 @@ design rules under a new name.</description>
 <wire x1="106.386759375" y1="10.466759375" x2="108.371759375" y2="10.366759375" width="0.508" layer="1"/>
 <wire x1="108.371759375" y1="10.366759375" x2="112.483" y2="14.478" width="0.508" layer="1"/>
 </signal>
-<signal name="N$74">
-<contactref element="CIN4" pad="1"/>
-<contactref element="RCOMM1" pad="1"/>
-<wire x1="123.7742" y1="69.0254" x2="126.2626" y2="69.0254" width="0.3048" layer="1"/>
-<wire x1="126.2626" y1="69.0254" x2="126.2634" y2="69.0262" width="0.3048" layer="1"/>
-</signal>
 <signal name="N$75">
 <contactref element="CIN8" pad="1"/>
-<contactref element="RCOMM1" pad="2"/>
 <contactref element="U$18" pad="COMP"/>
 <wire x1="119.7454" y1="72.2276" x2="119.6752" y2="72.1574" width="0.3048" layer="1"/>
 <wire x1="119.6752" y1="72.1574" x2="122.3422" y2="72.1574" width="0.3048" layer="1"/>
-<wire x1="122.3422" y1="72.1574" x2="123.7742" y2="70.7254" width="0.3048" layer="1"/>
-<wire x1="123.7742" y1="70.7254" x2="123.7742" y2="72.0996" width="0.3048" layer="1"/>
 <wire x1="123.7742" y1="72.0996" x2="123.7234" y2="72.1504" width="0.3048" layer="1"/>
+<contactref element="RCOMM1" pad="1"/>
+<wire x1="122.3422" y1="72.1574" x2="123.7234" y2="72.1504" width="0" layer="19" extent="1-1"/>
+<wire x1="-27.0256" y1="-16.51" x2="119.6752" y2="72.1574" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$77">
 <contactref element="CIN11" pad="1"/>
@@ -5799,6 +5826,11 @@ design rules under a new name.</description>
 <wire x1="14.3878" y1="60.632" x2="14.4154" y2="60.6044" width="0.3048" layer="1"/>
 <wire x1="14.4844" y1="64.6634" x2="19.9898" y2="64.6634" width="0.3048" layer="1"/>
 <wire x1="14.4844" y1="64.6634" x2="14.3878" y2="64.5668" width="0.3048" layer="1"/>
+</signal>
+<signal name="N$4">
+<contactref element="CIN4" pad="1"/>
+<contactref element="RCOMM1" pad="2"/>
+<wire x1="-24.0792" y1="-16.51" x2="126.2634" y2="69.0262" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>
