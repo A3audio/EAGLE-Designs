@@ -7519,96 +7519,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 </deviceset>
 </devicesets>
 </library>
-<library name="adafruit">
-<packages>
-<package name="VFSOP-8">
-<description>&lt;b&gt;VFSOP8&lt;/b&gt; - 0.5mm pitch, 2.0x2.3mm
-&lt;p&gt;Source: http://focus.ti.com/lit/ds/symlink/txs0102.pdf&lt;/p&gt;</description>
-<wire x1="1" y1="1.15" x2="1" y2="-1.15" width="0.127" layer="51"/>
-<wire x1="1" y1="-1.15" x2="-1" y2="-1.15" width="0.127" layer="51"/>
-<wire x1="-1" y1="-1.15" x2="-1" y2="1.15" width="0.127" layer="51"/>
-<wire x1="-1" y1="1.15" x2="1" y2="1.15" width="0.127" layer="51"/>
-<wire x1="-1" y1="-1.15" x2="-1" y2="1.15" width="0.127" layer="21"/>
-<wire x1="1" y1="-1.15" x2="1" y2="1.15" width="0.127" layer="21"/>
-<circle x="-1.55" y="-0.8" radius="0.15" width="0.3048" layer="21"/>
-<smd name="P$1" x="-0.75" y="-1.45" dx="0.65" dy="0.25" layer="1" rot="R90"/>
-<smd name="P$2" x="-0.25" y="-1.45" dx="0.65" dy="0.25" layer="1" rot="R90"/>
-<smd name="P$3" x="0.25" y="-1.45" dx="0.65" dy="0.25" layer="1" rot="R90"/>
-<smd name="P$4" x="0.75" y="-1.45" dx="0.65" dy="0.25" layer="1" rot="R90"/>
-<smd name="P$5" x="0.75" y="1.45" dx="0.65" dy="0.25" layer="1" rot="R270"/>
-<smd name="P$6" x="0.25" y="1.45" dx="0.65" dy="0.25" layer="1" rot="R270"/>
-<smd name="P$7" x="-0.25" y="1.45" dx="0.65" dy="0.25" layer="1" rot="R270"/>
-<smd name="P$8" x="-0.75" y="1.45" dx="0.65" dy="0.25" layer="1" rot="R270"/>
-<text x="-0.6" y="-0.9" size="0.254" layer="25" rot="R90">&gt;NAME</text>
-<text x="-0.25" y="-0.9" size="0.254" layer="25" rot="R90">&gt;VALUE</text>
-<rectangle x1="-0.35" y1="-1.55" x2="-0.15" y2="-1.15" layer="51"/>
-<rectangle x1="-0.85" y1="-1.55" x2="-0.65" y2="-1.15" layer="51"/>
-<rectangle x1="0.15" y1="-1.55" x2="0.35" y2="-1.15" layer="51"/>
-<rectangle x1="0.65" y1="-1.55" x2="0.85" y2="-1.15" layer="51"/>
-<rectangle x1="0.65" y1="1.15" x2="0.85" y2="1.55" layer="51"/>
-<rectangle x1="0.15" y1="1.15" x2="0.35" y2="1.55" layer="51"/>
-<rectangle x1="-0.35" y1="1.15" x2="-0.15" y2="1.55" layer="51"/>
-<rectangle x1="-0.85" y1="1.15" x2="-0.65" y2="1.55" layer="51"/>
-</package>
-</packages>
-<symbols>
-<symbol name="TXS0102">
-<wire x1="-12.7" y1="10.16" x2="12.7" y2="10.16" width="0.254" layer="94"/>
-<wire x1="12.7" y1="10.16" x2="12.7" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-12.7" x2="-12.7" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="-12.7" y1="-12.7" x2="-12.7" y2="10.16" width="0.254" layer="94"/>
-<wire x1="-12.7" y1="-10.16" x2="-2.54" y2="-10.16" width="0.127" layer="97" style="shortdash"/>
-<wire x1="-2.54" y1="-10.16" x2="-2.54" y2="0" width="0.127" layer="97" style="shortdash"/>
-<wire x1="-2.54" y1="0" x2="-12.7" y2="0" width="0.127" layer="97" style="shortdash"/>
-<wire x1="12.7" y1="0" x2="2.54" y2="0" width="0.127" layer="97" style="shortdash"/>
-<wire x1="2.54" y1="0" x2="2.54" y2="-10.16" width="0.127" layer="97" style="shortdash"/>
-<wire x1="2.54" y1="-10.16" x2="12.7" y2="-10.16" width="0.127" layer="97" style="shortdash"/>
-<text x="-12.7" y="12.7" size="1.27" layer="95">&gt;NAME</text>
-<text x="-12.7" y="-15.24" size="1.27" layer="96">&gt;VALUE</text>
-<text x="-11.43" y="-8.89" size="1.27" layer="97">1.2-3.6V</text>
-<text x="3.175" y="-8.89" size="1.27" layer="97">1.65-5.5V</text>
-<pin name="VCCA" x="-2.54" y="12.7" length="short" rot="R270"/>
-<pin name="A1" x="-15.24" y="-2.54" length="short"/>
-<pin name="A2" x="-15.24" y="-5.08" length="short"/>
-<pin name="GND" x="0" y="-15.24" length="short" rot="R90"/>
-<pin name="VCCB" x="2.54" y="12.7" length="short" rot="R270"/>
-<pin name="B1" x="15.24" y="-2.54" length="short" rot="R180"/>
-<pin name="B2" x="15.24" y="-5.08" length="short" rot="R180"/>
-<pin name="OE" x="-15.24" y="2.54" length="short"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="TXS0102" prefix="U" uservalue="yes">
-<description>&lt;b&gt;2-Bit Bi-Directional Level Shifter (I2C, etc.)&lt;/b&gt;
-&lt;p&gt;Designed for I2C devices and has internal pullups.  Not to be confused with TX&lt;b&gt;B&lt;/b&gt;010x series.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;1.2V-3.6V (VCCA) to 1.65V-5.5V (VCCB) bi-directional level shifter with auto direction sensing.&lt;/li&gt;
-  &lt;li&gt;Max data rate - 24Mbps (Push Pull), 2Mbps (Open Drain)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Digikey: 296-21931-1-ND&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="TXS0102" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="VFSOP-8">
-<connects>
-<connect gate="G$1" pin="A1" pad="P$5"/>
-<connect gate="G$1" pin="A2" pad="P$4"/>
-<connect gate="G$1" pin="B1" pad="P$8"/>
-<connect gate="G$1" pin="B2" pad="P$1"/>
-<connect gate="G$1" pin="GND" pad="P$2"/>
-<connect gate="G$1" pin="OE" pad="P$6"/>
-<connect gate="G$1" pin="VCCA" pad="P$3"/>
-<connect gate="G$1" pin="VCCB" pad="P$7"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="texas">
 <description>&lt;b&gt;Texas Instruments Devices&lt;/b&gt;&lt;p&gt;
  &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
@@ -11106,7 +11016,6 @@ Source: AVX .. aphvc.pdf</description>
 <part name="C18" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="1uF"/>
 <part name="C19" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="1uF"/>
 <part name="C20" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="1uF"/>
-<part name="U1" library="adafruit" deviceset="TXS0102" device=""/>
 <part name="K3" library="formula electric" deviceset="HE3621A1250_SPST" device=""/>
 <part name="K2" library="formula electric" deviceset="HE3621A1250_SPST" device=""/>
 <part name="K1" library="formula electric" deviceset="HE3621A1250_SPST" device=""/>
@@ -11123,7 +11032,6 @@ Source: AVX .. aphvc.pdf</description>
 <part name="R27" library="resistor" deviceset="R-US_" device="R0603" value="10K"/>
 <part name="R28" library="resistor" deviceset="R-US_" device="R0603" value="10K"/>
 <part name="R29" library="resistor" deviceset="R-US_" device="R0603" value="10K"/>
-<part name="R30" library="resistor" deviceset="R-US_" device="R0603" value="4.7K"/>
 <part name="R31" library="resistor" deviceset="R-US_" device="R0603" value="4.7K"/>
 <part name="R32" library="resistor" deviceset="R-US_" device="R0603" value="4.7K"/>
 <part name="R33" library="resistor" deviceset="R-US_" device="R0603" value="4.7K"/>
@@ -11211,13 +11119,8 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="170.18" y1="35.56" x2="170.18" y2="-127" width="0.1524" layer="94"/>
 <wire x1="170.18" y1="-127" x2="60.96" y2="-127" width="0.1524" layer="94"/>
 <wire x1="60.96" y1="-127" x2="60.96" y2="35.56" width="0.1524" layer="94"/>
-<wire x1="137.16" y1="114.3" x2="60.96" y2="114.3" width="0.1524" layer="94"/>
-<wire x1="60.96" y1="114.3" x2="60.96" y2="43.18" width="0.1524" layer="94"/>
-<wire x1="60.96" y1="43.18" x2="137.16" y2="43.18" width="0.1524" layer="94"/>
-<wire x1="137.16" y1="43.18" x2="137.16" y2="114.3" width="0.1524" layer="94"/>
 <text x="-33.02" y="-119.38" size="1.778" layer="94">Wheel Speed input connector and Level Shifter</text>
 <text x="101.6" y="-121.92" size="1.778" layer="94">12V high side drivers</text>
-<text x="93.98" y="48.26" size="1.778" layer="94">Lap timer</text>
 <wire x1="-327.66" y1="2.54" x2="-327.66" y2="83.82" width="0.1524" layer="94"/>
 <wire x1="-327.66" y1="83.82" x2="-241.3" y2="83.82" width="0.1524" layer="94"/>
 <wire x1="-241.3" y1="83.82" x2="-241.3" y2="2.54" width="0.1524" layer="94"/>
@@ -11328,7 +11231,6 @@ for Latched Components</text>
 <instance part="C18" gate="G$1" x="-17.78" y="63.5" rot="R90"/>
 <instance part="C19" gate="G$1" x="-17.78" y="50.8" rot="R90"/>
 <instance part="C20" gate="G$1" x="-17.78" y="38.1" rot="R90"/>
-<instance part="U1" gate="G$1" x="101.6" y="88.9"/>
 <instance part="K3" gate="G$1" x="457.2" y="73.66"/>
 <instance part="K2" gate="G$1" x="457.2" y="48.26"/>
 <instance part="K1" gate="G$1" x="457.2" y="25.4"/>
@@ -11345,7 +11247,6 @@ for Latched Components</text>
 <instance part="R27" gate="G$1" x="15.24" y="66.04"/>
 <instance part="R28" gate="G$1" x="15.24" y="78.74"/>
 <instance part="R29" gate="G$1" x="15.24" y="91.44"/>
-<instance part="R30" gate="G$1" x="101.6" y="58.42"/>
 <instance part="R31" gate="G$1" x="-22.86" y="-35.56"/>
 <instance part="R32" gate="G$1" x="-7.62" y="-30.48"/>
 <instance part="R33" gate="G$1" x="-22.86" y="-5.08"/>
@@ -11417,16 +11318,6 @@ for Latched Components</text>
 <pinref part="LEVEL_SHIFTER" gate="G$1" pin="VCCB"/>
 <wire x1="5.08" y1="-76.2" x2="5.08" y2="-73.66" width="0.1524" layer="91"/>
 <label x="5.08" y="-73.66" size="1.778" layer="95" rot="R90" xref="yes"/>
-</segment>
-<segment>
-<pinref part="U1" gate="G$1" pin="VCCB"/>
-<wire x1="104.14" y1="101.6" x2="104.14" y2="104.14" width="0.1524" layer="91"/>
-<label x="104.14" y="104.14" size="1.778" layer="95" rot="R90" xref="yes"/>
-</segment>
-<segment>
-<wire x1="106.68" y1="58.42" x2="121.92" y2="58.42" width="0.1524" layer="91"/>
-<label x="121.92" y="58.42" size="1.778" layer="95" xref="yes"/>
-<pinref part="R30" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="SBRIO_ANALOG" gate="G$1" pin="AI12"/>
@@ -11779,18 +11670,6 @@ for Latched Components</text>
 <label x="271.78" y="-76.2" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="LAP_TIMER_IN" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="B1"/>
-<wire x1="116.84" y1="86.36" x2="121.92" y2="86.36" width="0.1524" layer="91"/>
-<label x="121.92" y="86.36" size="1.778" layer="95" rot="R270" xref="yes"/>
-</segment>
-<segment>
-<label x="88.9" y="58.42" size="1.778" layer="95" rot="R180" xref="yes"/>
-<wire x1="96.52" y1="58.42" x2="88.9" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="R30" gate="G$1" pin="1"/>
-</segment>
-</net>
 <net name="PRECHARGE_DONE+" class="0">
 <segment>
 <wire x1="73.66" y1="-78.74" x2="73.66" y2="-83.82" width="0.1524" layer="91"/>
@@ -12065,11 +11944,6 @@ for Latched Components</text>
 <pinref part="R41" gate="G$1" pin="2"/>
 <pinref part="R40" gate="G$1" pin="2"/>
 <pinref part="R39" gate="G$1" pin="2"/>
-</segment>
-<segment>
-<pinref part="U1" gate="G$1" pin="GND"/>
-<wire x1="101.6" y1="73.66" x2="101.6" y2="71.12" width="0.1524" layer="91"/>
-<label x="101.6" y="71.12" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
 <pinref part="D7" gate="G$1" pin="A"/>
@@ -12373,11 +12247,6 @@ for Latched Components</text>
 <pinref part="SBRIO_MEZZANINE" gate="G$1" pin="DIO4"/>
 <wire x1="-78.74" y1="-53.34" x2="-76.2" y2="-53.34" width="0.1524" layer="91"/>
 </segment>
-<segment>
-<pinref part="U1" gate="G$1" pin="OE"/>
-<wire x1="86.36" y1="91.44" x2="81.28" y2="91.44" width="0.1524" layer="91"/>
-<label x="81.28" y="91.44" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
 </net>
 <net name="DIO5" class="0">
 <segment>
@@ -12532,11 +12401,6 @@ for Latched Components</text>
 <wire x1="0" y1="-76.2" x2="0" y2="-73.66" width="0.1524" layer="91"/>
 <label x="0" y="-73.66" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
-<segment>
-<pinref part="U1" gate="G$1" pin="VCCA"/>
-<wire x1="99.06" y1="101.6" x2="99.06" y2="104.14" width="0.1524" layer="91"/>
-<label x="99.06" y="104.14" size="1.778" layer="95" rot="R90" xref="yes"/>
-</segment>
 </net>
 <net name="DIO29" class="0">
 <segment>
@@ -12639,11 +12503,6 @@ for Latched Components</text>
 <segment>
 <pinref part="SBRIO_MEZZANINE" gate="G$1" pin="DIO12"/>
 <wire x1="-78.74" y1="-22.86" x2="-76.2" y2="-22.86" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="U1" gate="G$1" pin="A1"/>
-<wire x1="86.36" y1="86.36" x2="81.28" y2="86.36" width="0.1524" layer="91"/>
-<label x="81.28" y="86.36" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="DIO13" class="0">
