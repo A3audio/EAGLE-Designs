@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.4.1">
+<eagle version="8.3.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -11733,9 +11733,9 @@ for Latched Components</text>
 <pinref part="IC3" gate="G$1" pin="OUT1"/>
 </segment>
 <segment>
-<pinref part="U$6" gate="G$1" pin="A2"/>
-<wire x1="226.06" y1="-40.64" x2="215.9" y2="-40.64" width="0.1524" layer="91"/>
-<label x="215.9" y="-40.64" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$6" gate="G$1" pin="B18"/>
+<wire x1="294.64" y1="-55.88" x2="299.72" y2="-55.88" width="0.1524" layer="91"/>
+<label x="299.72" y="-55.88" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="POSITIVE_AIR_ENABLE" class="0">
@@ -11790,11 +11790,6 @@ for Latched Components</text>
 <wire x1="96.52" y1="58.42" x2="88.9" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="R30" gate="G$1" pin="1"/>
 </segment>
-<segment>
-<pinref part="U$6" gate="G$1" pin="A17"/>
-<wire x1="226.06" y1="-116.84" x2="215.9" y2="-116.84" width="0.1524" layer="91"/>
-<label x="215.9" y="-116.84" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
 </net>
 <net name="PRECHARGE_DONE+" class="0">
 <segment>
@@ -11803,9 +11798,9 @@ for Latched Components</text>
 <pinref part="IC1" gate="G$1" pin="OUT4"/>
 </segment>
 <segment>
-<pinref part="U$6" gate="G$1" pin="A1"/>
-<wire x1="226.06" y1="-35.56" x2="215.9" y2="-35.56" width="0.1524" layer="91"/>
-<label x="215.9" y="-35.56" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$6" gate="G$1" pin="B24"/>
+<wire x1="294.64" y1="-86.36" x2="299.72" y2="-86.36" width="0.1524" layer="91"/>
+<label x="299.72" y="-86.36" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="BRAKELIGHT" class="0">
@@ -11815,9 +11810,9 @@ for Latched Components</text>
 <pinref part="IC3" gate="G$1" pin="OUT2"/>
 </segment>
 <segment>
-<pinref part="U$6" gate="G$1" pin="A10"/>
-<wire x1="226.06" y1="-81.28" x2="215.9" y2="-81.28" width="0.1524" layer="91"/>
-<label x="215.9" y="-81.28" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$6" gate="G$1" pin="B26"/>
+<wire x1="294.64" y1="-96.52" x2="299.72" y2="-96.52" width="0.1524" layer="91"/>
+<label x="299.72" y="-96.52" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$43" class="0">
@@ -12153,6 +12148,7 @@ for Latched Components</text>
 <segment>
 <wire x1="292.1" y1="-81.28" x2="294.64" y2="-81.28" width="0.1524" layer="91"/>
 <pinref part="U$6" gate="G$1" pin="B23"/>
+<wire x1="294.64" y1="-81.28" x2="299.72" y2="-81.28" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$4" gate="G$1" pin="P$7"/>
@@ -13450,9 +13446,9 @@ for Latched Components</text>
 <label x="444.5" y="30.48" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$6" gate="G$1" pin="A3"/>
-<wire x1="226.06" y1="-45.72" x2="215.9" y2="-45.72" width="0.1524" layer="91"/>
-<label x="215.9" y="-45.72" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$6" gate="G$1" pin="B25"/>
+<wire x1="294.64" y1="-91.44" x2="299.72" y2="-91.44" width="0.1524" layer="91"/>
+<label x="299.72" y="-91.44" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="LATCH_LED+" class="0">
