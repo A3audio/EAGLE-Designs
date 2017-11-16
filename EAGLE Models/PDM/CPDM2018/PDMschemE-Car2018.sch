@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,17 +53,17 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -6154,45 +6154,45 @@ Source: http://www.fairchildsemi.com/ds/MM/MMBTA56.pdf</description>
 <part name="FANRELAY" library="panasonic" deviceset="ACTP112" device="ACTP112"/>
 <part name="D7" library="adafruit" deviceset="DIODE" device="SOD-123" value="1N4148W"/>
 <part name="25A" library="Keystone" deviceset="3568" device=""/>
-<part name="R1" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:26062/1" value="470"/>
+<part name="R2" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:26062/1" value="470"/>
 <part name="5AA" library="Keystone" deviceset="3568" device=""/>
 <part name="5AB" library="Keystone" deviceset="3568" device=""/>
 <part name="10AA" library="Keystone" deviceset="3568" device=""/>
 <part name="10AB" library="Keystone" deviceset="3568" device=""/>
 <part name="LED2" library="adafruit" deviceset="LED" device="CHIPLED_0805" value="CMD17"/>
-<part name="LED3" library="adafruit" deviceset="LED" device="CHIPLED_0805" value="CMD17"/>
-<part name="U$1" library="infineon" deviceset="IRF40B207" device=""/>
+<part name="LED1" library="adafruit" deviceset="LED" device="CHIPLED_0805" value="CMD17"/>
+<part name="Q7" library="infineon" deviceset="IRF40B207" device=""/>
 <part name="Q1" library="transistor-pnp" deviceset="MPSA56*" device=""/>
 <part name="D1" library="adafruit" deviceset="DIODE" device="SOD-123" value="1N4148W"/>
-<part name="R3" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:26062/1" value="47K"/>
+<part name="R1" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:26062/1" value="47K"/>
 <part name="Q2" library="transistor-pnp" deviceset="MPSA56*" device=""/>
 <part name="R4" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:26062/1" value="470"/>
-<part name="R5" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:26062/1" value="47K"/>
+<part name="R3" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:26062/1" value="47K"/>
 <part name="D2" library="adafruit" deviceset="DIODE" device="SOD-123" value="1N4148W"/>
 <part name="Q3" library="transistor-pnp" deviceset="MPSA56*" device=""/>
-<part name="R2" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:26062/1" value="470"/>
-<part name="BAX_BOX" library="adafruit" deviceset="LED" device="CHIPLED_0805" value="CMD17"/>
-<part name="R6" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:26062/1" value="47K"/>
+<part name="R6" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:26062/1" value="470"/>
+<part name="LED3" library="adafruit" deviceset="LED" device="CHIPLED_0805" value="CMD17"/>
+<part name="R5" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:26062/1" value="47K"/>
 <part name="D3" library="adafruit" deviceset="DIODE" device="SOD-123" value="1N4148W"/>
 <part name="LED4" library="adafruit" deviceset="LED" device="CHIPLED_0805" value="CMD17"/>
 <part name="Q4" library="transistor-pnp" deviceset="MPSA56*" device=""/>
-<part name="R7" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:26062/1" value="470"/>
-<part name="R8" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:26062/1" value="47K"/>
+<part name="R8" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:26062/1" value="470"/>
+<part name="R7" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:26062/1" value="47K"/>
 <part name="D4" library="adafruit" deviceset="DIODE" device="SOD-123" value="1N4148W"/>
-<part name="LED5" library="adafruit" deviceset="LED" device="CHIPLED_0805" value="CMD17"/>
-<part name="Q5" library="transistor-pnp" deviceset="MPSA56*" device=""/>
-<part name="R9" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:26062/1" value="470"/>
-<part name="R10" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:26062/1" value="47K"/>
-<part name="D5" library="adafruit" deviceset="DIODE" device="SOD-123" value="1N4148W"/>
 <part name="LED6" library="adafruit" deviceset="LED" device="CHIPLED_0805" value="CMD17"/>
 <part name="Q6" library="transistor-pnp" deviceset="MPSA56*" device=""/>
-<part name="R11" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:26062/1" value="470"/>
-<part name="R12" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:26062/1" value="47K"/>
+<part name="R12" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:26062/1" value="470"/>
+<part name="R11" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:26062/1" value="47K"/>
 <part name="D6" library="adafruit" deviceset="DIODE" device="SOD-123" value="1N4148W"/>
+<part name="LED5" library="adafruit" deviceset="LED" device="CHIPLED_0805" value="CMD17"/>
+<part name="Q5" library="transistor-pnp" deviceset="MPSA56*" device=""/>
+<part name="R10" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:26062/1" value="470"/>
+<part name="R9" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:26062/1" value="47K"/>
+<part name="D5" library="adafruit" deviceset="DIODE" device="SOD-123" value="1N4148W"/>
 <part name="R13" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:26062/1" value="47K"/>
-<part name="U$2" library="formula electric" deviceset="HARWIN_M20-9980445" device=""/>
+<part name="X2" library="formula electric" deviceset="HARWIN_M20-9980445" device=""/>
 <part name="U$4" library="TE" deviceset="SUPERSEAL1.0_26POS_2ROW" device=""/>
-<part name="U$6" library="formula electric" deviceset="A30605-ND" device=""/>
+<part name="X1" library="formula electric" deviceset="A30605-ND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -6247,7 +6247,7 @@ Source: http://www.fairchildsemi.com/ds/MM/MMBTA56.pdf</description>
 </instance>
 <instance part="D7" gate="G$1" x="-10.16" y="129.54" rot="R180"/>
 <instance part="25A" gate="G$1" x="17.78" y="167.64"/>
-<instance part="R1" gate="G$1" x="27.94" y="210.82" smashed="yes" rot="R270">
+<instance part="R2" gate="G$1" x="27.94" y="210.82" smashed="yes" rot="R270">
 <attribute name="NAME" x="29.4386" y="212.09" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="24.638" y="214.63" size="1.778" layer="96" rot="R270"/>
 </instance>
@@ -6256,11 +6256,11 @@ Source: http://www.fairchildsemi.com/ds/MM/MMBTA56.pdf</description>
 <instance part="10AA" gate="G$1" x="22.86" y="-7.62"/>
 <instance part="10AB" gate="G$1" x="22.86" y="-48.26"/>
 <instance part="LED2" gate="G$1" x="27.94" y="160.02"/>
-<instance part="LED3" gate="G$1" x="27.94" y="236.22"/>
-<instance part="U$1" gate="G$1" x="132.08" y="160.02"/>
+<instance part="LED1" gate="G$1" x="27.94" y="236.22"/>
+<instance part="Q7" gate="G$1" x="132.08" y="160.02"/>
 <instance part="Q1" gate="G$1" x="25.4" y="223.52"/>
 <instance part="D1" gate="G$1" x="10.16" y="233.68" rot="R270"/>
-<instance part="R3" gate="G$1" x="10.16" y="210.82" smashed="yes" rot="R270">
+<instance part="R1" gate="G$1" x="10.16" y="210.82" smashed="yes" rot="R270">
 <attribute name="NAME" x="11.6586" y="212.09" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="6.858" y="214.63" size="1.778" layer="96" rot="R270"/>
 </instance>
@@ -6269,7 +6269,7 @@ Source: http://www.fairchildsemi.com/ds/MM/MMBTA56.pdf</description>
 <attribute name="NAME" x="29.4386" y="135.89" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="24.638" y="138.43" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="R5" gate="G$1" x="10.16" y="134.62" smashed="yes" rot="R270">
+<instance part="R3" gate="G$1" x="10.16" y="134.62" smashed="yes" rot="R270">
 <attribute name="NAME" x="11.6586" y="135.89" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="6.858" y="138.43" size="1.778" layer="96" rot="R270"/>
 </instance>
@@ -6278,12 +6278,12 @@ Source: http://www.fairchildsemi.com/ds/MM/MMBTA56.pdf</description>
 <attribute name="NAME" x="30.48" y="53.34" size="1.778" layer="95"/>
 <attribute name="VALUE" x="30.48" y="50.8" size="1.778" layer="96"/>
 </instance>
-<instance part="R2" gate="G$1" x="17.78" y="43.18" smashed="yes" rot="R180">
+<instance part="R6" gate="G$1" x="17.78" y="43.18" smashed="yes" rot="R180">
 <attribute name="NAME" x="19.05" y="41.6814" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="21.59" y="46.482" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="BAX_BOX" gate="G$1" x="27.94" y="66.04"/>
-<instance part="R6" gate="G$1" x="10.16" y="53.34" smashed="yes" rot="R180">
+<instance part="LED3" gate="G$1" x="27.94" y="66.04"/>
+<instance part="R5" gate="G$1" x="10.16" y="53.34" smashed="yes" rot="R180">
 <attribute name="NAME" x="11.43" y="51.8414" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="13.97" y="56.642" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -6293,50 +6293,50 @@ Source: http://www.fairchildsemi.com/ds/MM/MMBTA56.pdf</description>
 <attribute name="NAME" x="30.48" y="12.7" size="1.778" layer="95"/>
 <attribute name="VALUE" x="30.48" y="10.16" size="1.778" layer="96"/>
 </instance>
-<instance part="R7" gate="G$1" x="20.32" y="2.54" smashed="yes" rot="R180">
+<instance part="R8" gate="G$1" x="20.32" y="2.54" smashed="yes" rot="R180">
 <attribute name="NAME" x="21.59" y="1.0414" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="24.13" y="5.842" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R8" gate="G$1" x="10.16" y="12.7" smashed="yes" rot="R180">
+<instance part="R7" gate="G$1" x="10.16" y="12.7" smashed="yes" rot="R180">
 <attribute name="NAME" x="11.43" y="11.2014" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="13.97" y="16.002" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="D4" gate="G$1" x="15.24" y="25.4" rot="R270"/>
-<instance part="LED5" gate="G$1" x="27.94" y="-15.24"/>
-<instance part="Q5" gate="G$1" x="25.4" y="-27.94" smashed="yes">
+<instance part="LED6" gate="G$1" x="27.94" y="-15.24"/>
+<instance part="Q6" gate="G$1" x="25.4" y="-27.94" smashed="yes">
 <attribute name="NAME" x="30.48" y="-27.94" size="1.778" layer="95"/>
 <attribute name="VALUE" x="30.48" y="-30.48" size="1.778" layer="96"/>
 </instance>
-<instance part="R9" gate="G$1" x="20.32" y="-38.1" smashed="yes" rot="R180">
+<instance part="R12" gate="G$1" x="20.32" y="-38.1" smashed="yes" rot="R180">
 <attribute name="NAME" x="21.59" y="-39.5986" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="24.13" y="-34.798" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R10" gate="G$1" x="10.16" y="-27.94" smashed="yes" rot="R180">
+<instance part="R11" gate="G$1" x="10.16" y="-27.94" smashed="yes" rot="R180">
 <attribute name="NAME" x="11.43" y="-29.4386" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="13.97" y="-24.638" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="D5" gate="G$1" x="15.24" y="-15.24" rot="R270"/>
-<instance part="LED6" gate="G$1" x="27.94" y="-55.88"/>
-<instance part="Q6" gate="G$1" x="25.4" y="-68.58" smashed="yes">
+<instance part="D6" gate="G$1" x="15.24" y="-15.24" rot="R270"/>
+<instance part="LED5" gate="G$1" x="27.94" y="-55.88"/>
+<instance part="Q5" gate="G$1" x="25.4" y="-68.58" smashed="yes">
 <attribute name="NAME" x="30.48" y="-68.58" size="1.778" layer="95"/>
 <attribute name="VALUE" x="30.48" y="-71.12" size="1.778" layer="96"/>
 </instance>
-<instance part="R11" gate="G$1" x="20.32" y="-78.74" smashed="yes" rot="R180">
+<instance part="R10" gate="G$1" x="20.32" y="-78.74" smashed="yes" rot="R180">
 <attribute name="NAME" x="21.59" y="-80.2386" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="24.13" y="-75.438" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R12" gate="G$1" x="10.16" y="-68.58" smashed="yes" rot="R180">
+<instance part="R9" gate="G$1" x="10.16" y="-68.58" smashed="yes" rot="R180">
 <attribute name="NAME" x="11.43" y="-70.0786" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="13.97" y="-65.278" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="D6" gate="G$1" x="15.24" y="-55.88" rot="R270"/>
+<instance part="D5" gate="G$1" x="15.24" y="-55.88" rot="R270"/>
 <instance part="R13" gate="G$1" x="119.38" y="149.86" smashed="yes" rot="R270">
 <attribute name="NAME" x="120.8786" y="151.13" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="116.078" y="153.67" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="U$2" gate="G$1" x="134.62" y="228.6"/>
+<instance part="X2" gate="G$1" x="134.62" y="228.6"/>
 <instance part="U$4" gate="G$1" x="139.7" y="-53.34"/>
-<instance part="U$6" gate="G$1" x="137.16" y="60.96"/>
+<instance part="X1" gate="G$1" x="137.16" y="60.96"/>
 </instances>
 <busses>
 </busses>
@@ -6355,7 +6355,7 @@ Source: http://www.fairchildsemi.com/ds/MM/MMBTA56.pdf</description>
 <wire x1="-12.7" y1="205.74" x2="-33.02" y2="205.74" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="P$4"/>
+<pinref part="X2" gate="G$1" pin="P$4"/>
 <wire x1="142.24" y1="220.98" x2="149.86" y2="220.98" width="0.1524" layer="91"/>
 <label x="149.86" y="220.98" size="1.778" layer="95" xref="yes"/>
 </segment>
@@ -6372,7 +6372,7 @@ Source: http://www.fairchildsemi.com/ds/MM/MMBTA56.pdf</description>
 <wire x1="-12.7" y1="129.54" x2="-33.02" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="P$8"/>
+<pinref part="X2" gate="G$1" pin="P$8"/>
 <wire x1="127" y1="220.98" x2="116.84" y2="220.98" width="0.1524" layer="91"/>
 <label x="116.84" y="220.98" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -6381,7 +6381,7 @@ Source: http://www.fairchildsemi.com/ds/MM/MMBTA56.pdf</description>
 <segment>
 <wire x1="45.72" y1="78.74" x2="45.72" y2="73.66" width="0.1524" layer="91"/>
 <label x="45.72" y="78.74" size="1.778" layer="95" xref="yes"/>
-<pinref part="LED6" gate="G$1" pin="A"/>
+<pinref part="LED5" gate="G$1" pin="A"/>
 <pinref part="10AB" gate="G$1" pin="2"/>
 <wire x1="45.72" y1="73.66" x2="45.72" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="33.02" x2="45.72" y2="-7.62" width="0.1524" layer="91"/>
@@ -6396,12 +6396,12 @@ Source: http://www.fairchildsemi.com/ds/MM/MMBTA56.pdf</description>
 <junction x="27.94" y="33.02"/>
 <junction x="45.72" y="33.02"/>
 <pinref part="5AA" gate="G$1" pin="2"/>
-<pinref part="BAX_BOX" gate="G$1" pin="A"/>
+<pinref part="LED3" gate="G$1" pin="A"/>
 <wire x1="27.94" y1="73.66" x2="27.94" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="73.66" x2="45.72" y2="73.66" width="0.1524" layer="91"/>
 <junction x="27.94" y="73.66"/>
 <junction x="45.72" y="73.66"/>
-<pinref part="LED5" gate="G$1" pin="A"/>
+<pinref part="LED6" gate="G$1" pin="A"/>
 <pinref part="10AA" gate="G$1" pin="2"/>
 <wire x1="27.94" y1="-12.7" x2="27.94" y2="-7.62" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="-7.62" x2="45.72" y2="-7.62" width="0.1524" layer="91"/>
@@ -6411,7 +6411,7 @@ Source: http://www.fairchildsemi.com/ds/MM/MMBTA56.pdf</description>
 <segment>
 <wire x1="22.86" y1="243.84" x2="27.94" y2="243.84" width="0.1524" layer="91"/>
 <label x="35.56" y="243.84" size="1.778" layer="95" xref="yes"/>
-<pinref part="LED3" gate="G$1" pin="A"/>
+<pinref part="LED1" gate="G$1" pin="A"/>
 <wire x1="27.94" y1="243.84" x2="35.56" y2="243.84" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="238.76" x2="27.94" y2="243.84" width="0.1524" layer="91"/>
 <junction x="27.94" y="243.84"/>
@@ -6486,8 +6486,8 @@ Source: http://www.fairchildsemi.com/ds/MM/MMBTA56.pdf</description>
 </net>
 <net name="GND" class="0">
 <segment>
-<pinref part="R3" gate="G$1" pin="2"/>
 <pinref part="R1" gate="G$1" pin="2"/>
+<pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="10.16" y1="205.74" x2="27.94" y2="205.74" width="0.1524" layer="91"/>
 <wire x1="2.54" y1="205.74" x2="2.54" y2="231.14" width="0.1524" layer="91"/>
 <pinref part="W.PUMPRELAY" gate="G$1" pin="COIL2"/>
@@ -6503,7 +6503,7 @@ Source: http://www.fairchildsemi.com/ds/MM/MMBTA56.pdf</description>
 </segment>
 <segment>
 <pinref part="R4" gate="G$1" pin="2"/>
-<pinref part="R5" gate="G$1" pin="2"/>
+<pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="27.94" y1="129.54" x2="10.16" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="FANRELAY" gate="G$1" pin="COIL2"/>
 <wire x1="-10.16" y1="154.94" x2="2.54" y2="154.94" width="0.1524" layer="91"/>
@@ -6518,8 +6518,8 @@ Source: http://www.fairchildsemi.com/ds/MM/MMBTA56.pdf</description>
 <junction x="2.54" y="129.54"/>
 </segment>
 <segment>
-<pinref part="R2" gate="G$1" pin="2"/>
 <pinref part="R6" gate="G$1" pin="2"/>
+<pinref part="R5" gate="G$1" pin="2"/>
 <wire x1="12.7" y1="43.18" x2="5.08" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="43.18" x2="5.08" y2="53.34" width="0.1524" layer="91"/>
 <label x="0" y="43.18" size="1.778" layer="95" rot="R180" xref="yes"/>
@@ -6527,8 +6527,8 @@ Source: http://www.fairchildsemi.com/ds/MM/MMBTA56.pdf</description>
 <junction x="5.08" y="43.18"/>
 </segment>
 <segment>
-<pinref part="R7" gate="G$1" pin="2"/>
 <pinref part="R8" gate="G$1" pin="2"/>
+<pinref part="R7" gate="G$1" pin="2"/>
 <wire x1="15.24" y1="2.54" x2="5.08" y2="2.54" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="2.54" x2="5.08" y2="12.7" width="0.1524" layer="91"/>
 <label x="0" y="2.54" size="1.778" layer="95" rot="R180" xref="yes"/>
@@ -6536,8 +6536,8 @@ Source: http://www.fairchildsemi.com/ds/MM/MMBTA56.pdf</description>
 <junction x="5.08" y="2.54"/>
 </segment>
 <segment>
-<pinref part="R9" gate="G$1" pin="2"/>
-<pinref part="R10" gate="G$1" pin="2"/>
+<pinref part="R12" gate="G$1" pin="2"/>
+<pinref part="R11" gate="G$1" pin="2"/>
 <wire x1="15.24" y1="-38.1" x2="5.08" y2="-38.1" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="-38.1" x2="5.08" y2="-27.94" width="0.1524" layer="91"/>
 <label x="0" y="-38.1" size="1.778" layer="95" rot="R180" xref="yes"/>
@@ -6545,8 +6545,8 @@ Source: http://www.fairchildsemi.com/ds/MM/MMBTA56.pdf</description>
 <junction x="5.08" y="-38.1"/>
 </segment>
 <segment>
-<pinref part="R11" gate="G$1" pin="2"/>
-<pinref part="R12" gate="G$1" pin="2"/>
+<pinref part="R10" gate="G$1" pin="2"/>
+<pinref part="R9" gate="G$1" pin="2"/>
 <wire x1="15.24" y1="-78.74" x2="5.08" y2="-78.74" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="-78.74" x2="5.08" y2="-68.58" width="0.1524" layer="91"/>
 <label x="0" y="-78.74" size="1.778" layer="95" rot="R180" xref="yes"/>
@@ -6554,7 +6554,7 @@ Source: http://www.fairchildsemi.com/ds/MM/MMBTA56.pdf</description>
 <junction x="5.08" y="-78.74"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="S"/>
+<pinref part="Q7" gate="G$1" pin="S"/>
 <wire x1="134.62" y1="154.94" x2="134.62" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="139.7" x2="119.38" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="R13" gate="G$1" pin="2"/>
@@ -6564,7 +6564,7 @@ Source: http://www.fairchildsemi.com/ds/MM/MMBTA56.pdf</description>
 <junction x="134.62" y="139.7"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="P$3"/>
+<pinref part="X2" gate="G$1" pin="P$3"/>
 <wire x1="142.24" y1="226.06" x2="149.86" y2="226.06" width="0.1524" layer="91"/>
 <label x="149.86" y="226.06" size="1.778" layer="95" xref="yes"/>
 </segment>
@@ -6577,9 +6577,9 @@ Source: http://www.fairchildsemi.com/ds/MM/MMBTA56.pdf</description>
 <wire x1="165.1" y1="63.5" x2="154.94" y2="63.5" width="0.1524" layer="91"/>
 <junction x="154.94" y="63.5"/>
 <label x="165.1" y="63.5" size="1.778" layer="95" xref="yes"/>
-<pinref part="U$6" gate="G$1" pin="P$1"/>
-<pinref part="U$6" gate="G$1" pin="P$2"/>
-<pinref part="U$6" gate="G$1" pin="P$3"/>
+<pinref part="X1" gate="G$1" pin="P$1"/>
+<pinref part="X1" gate="G$1" pin="P$2"/>
+<pinref part="X1" gate="G$1" pin="P$3"/>
 <wire x1="152.4" y1="58.42" x2="149.86" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -6596,7 +6596,7 @@ Source: http://www.fairchildsemi.com/ds/MM/MMBTA56.pdf</description>
 <label x="106.68" y="-68.58" size="2.54" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="P$7"/>
+<pinref part="X2" gate="G$1" pin="P$7"/>
 <wire x1="127" y1="226.06" x2="116.84" y2="226.06" width="0.1524" layer="91"/>
 <label x="116.84" y="226.06" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -6607,13 +6607,13 @@ Source: http://www.fairchildsemi.com/ds/MM/MMBTA56.pdf</description>
 <label x="109.22" y="157.48" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="R13" gate="G$1" pin="1"/>
 <wire x1="119.38" y1="154.94" x2="119.38" y2="157.48" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="G"/>
+<pinref part="Q7" gate="G$1" pin="G"/>
 <wire x1="119.38" y1="157.48" x2="129.54" y2="157.48" width="0.1524" layer="91"/>
 <junction x="119.38" y="157.48"/>
 </segment>
 <segment>
 <label x="116.84" y="231.14" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$2" gate="G$1" pin="P$6"/>
+<pinref part="X2" gate="G$1" pin="P$6"/>
 <wire x1="116.84" y1="231.14" x2="127" y2="231.14" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -6621,7 +6621,7 @@ Source: http://www.fairchildsemi.com/ds/MM/MMBTA56.pdf</description>
 <segment>
 <wire x1="134.62" y1="165.1" x2="134.62" y2="177.8" width="0.1524" layer="91"/>
 <label x="134.62" y="177.8" size="1.778" layer="95" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="D"/>
+<pinref part="Q7" gate="G$1" pin="D"/>
 </segment>
 <segment>
 <pinref part="U$4" gate="G$1" pin="B26"/>
@@ -6633,7 +6633,7 @@ Source: http://www.fairchildsemi.com/ds/MM/MMBTA56.pdf</description>
 <segment>
 <label x="-7.62" y="-7.62" size="1.778" layer="95" rot="R180" xref="yes"/>
 <wire x1="-7.62" y1="-7.62" x2="15.24" y2="-7.62" width="0.1524" layer="91"/>
-<pinref part="D5" gate="G$1" pin="A"/>
+<pinref part="D6" gate="G$1" pin="A"/>
 <wire x1="15.24" y1="-12.7" x2="15.24" y2="-7.62" width="0.1524" layer="91"/>
 <pinref part="10AA" gate="G$1" pin="1"/>
 <wire x1="17.78" y1="-7.62" x2="15.24" y2="-7.62" width="0.1524" layer="91"/>
@@ -6648,9 +6648,9 @@ Source: http://www.fairchildsemi.com/ds/MM/MMBTA56.pdf</description>
 <junction x="119.38" y="63.5"/>
 <wire x1="119.38" y1="63.5" x2="106.68" y2="63.5" width="0.1524" layer="91"/>
 <label x="106.68" y="63.5" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$6" gate="G$1" pin="P$5"/>
-<pinref part="U$6" gate="G$1" pin="P$6"/>
-<pinref part="U$6" gate="G$1" pin="P$7"/>
+<pinref part="X1" gate="G$1" pin="P$5"/>
+<pinref part="X1" gate="G$1" pin="P$6"/>
+<pinref part="X1" gate="G$1" pin="P$7"/>
 </segment>
 </net>
 <net name="BAT_BOX" class="0">
@@ -6680,12 +6680,12 @@ Source: http://www.fairchildsemi.com/ds/MM/MMBTA56.pdf</description>
 <junction x="15.24" y="33.02"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="P$1"/>
+<pinref part="X2" gate="G$1" pin="P$1"/>
 <wire x1="142.24" y1="236.22" x2="149.86" y2="236.22" width="0.1524" layer="91"/>
 <label x="149.86" y="236.22" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="P$5"/>
+<pinref part="X2" gate="G$1" pin="P$5"/>
 <wire x1="127" y1="236.22" x2="116.84" y2="236.22" width="0.1524" layer="91"/>
 <label x="116.84" y="236.22" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -6695,7 +6695,7 @@ Source: http://www.fairchildsemi.com/ds/MM/MMBTA56.pdf</description>
 <label x="-7.62" y="-48.26" size="1.778" layer="95" rot="R180" xref="yes"/>
 <wire x1="15.24" y1="-48.26" x2="-7.62" y2="-48.26" width="0.1524" layer="91"/>
 <pinref part="10AB" gate="G$1" pin="1"/>
-<pinref part="D6" gate="G$1" pin="A"/>
+<pinref part="D5" gate="G$1" pin="A"/>
 <wire x1="17.78" y1="-48.26" x2="15.24" y2="-48.26" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="-48.26" x2="15.24" y2="-53.34" width="0.1524" layer="91"/>
 <junction x="15.24" y="-48.26"/>
@@ -6712,21 +6712,21 @@ Source: http://www.fairchildsemi.com/ds/MM/MMBTA56.pdf</description>
 <label x="167.64" y="-45.72" size="2.54" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$6" gate="G$1" pin="P$8"/>
+<pinref part="X1" gate="G$1" pin="P$8"/>
 <wire x1="124.46" y1="53.34" x2="119.38" y2="53.34" width="0.1524" layer="91"/>
 <label x="119.38" y="53.34" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="LED3" gate="G$1" pin="C"/>
+<pinref part="LED1" gate="G$1" pin="C"/>
 <pinref part="Q1" gate="G$1" pin="E"/>
 <wire x1="27.94" y1="231.14" x2="27.94" y2="228.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="R1" gate="G$1" pin="1"/>
+<pinref part="R2" gate="G$1" pin="1"/>
 <pinref part="Q1" gate="G$1" pin="C"/>
 <wire x1="27.94" y1="215.9" x2="27.94" y2="218.44" width="0.1524" layer="91"/>
 </segment>
@@ -6756,7 +6756,7 @@ Source: http://www.fairchildsemi.com/ds/MM/MMBTA56.pdf</description>
 <net name="N$9" class="0">
 <segment>
 <pinref part="D2" gate="G$1" pin="C"/>
-<pinref part="R5" gate="G$1" pin="1"/>
+<pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="10.16" y1="154.94" x2="10.16" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="Q2" gate="G$1" pin="B"/>
 <wire x1="10.16" y1="147.32" x2="10.16" y2="139.7" width="0.1524" layer="91"/>
@@ -6766,7 +6766,7 @@ Source: http://www.fairchildsemi.com/ds/MM/MMBTA56.pdf</description>
 </net>
 <net name="N$6" class="0">
 <segment>
-<pinref part="R3" gate="G$1" pin="1"/>
+<pinref part="R1" gate="G$1" pin="1"/>
 <pinref part="D1" gate="G$1" pin="C"/>
 <wire x1="10.16" y1="215.9" x2="10.16" y2="223.52" width="0.1524" layer="91"/>
 <pinref part="Q1" gate="G$1" pin="B"/>
@@ -6791,7 +6791,7 @@ Source: http://www.fairchildsemi.com/ds/MM/MMBTA56.pdf</description>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="BAX_BOX" gate="G$1" pin="C"/>
+<pinref part="LED3" gate="G$1" pin="C"/>
 <pinref part="Q3" gate="G$1" pin="E"/>
 <wire x1="27.94" y1="60.96" x2="27.94" y2="58.42" width="0.1524" layer="91"/>
 </segment>
@@ -6799,7 +6799,7 @@ Source: http://www.fairchildsemi.com/ds/MM/MMBTA56.pdf</description>
 <net name="N$14" class="0">
 <segment>
 <pinref part="Q3" gate="G$1" pin="B"/>
-<pinref part="R6" gate="G$1" pin="1"/>
+<pinref part="R5" gate="G$1" pin="1"/>
 <wire x1="22.86" y1="53.34" x2="15.24" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="D3" gate="G$1" pin="C"/>
 <wire x1="15.24" y1="53.34" x2="15.24" y2="63.5" width="0.1524" layer="91"/>
@@ -6808,7 +6808,7 @@ Source: http://www.fairchildsemi.com/ds/MM/MMBTA56.pdf</description>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="R2" gate="G$1" pin="1"/>
+<pinref part="R6" gate="G$1" pin="1"/>
 <pinref part="Q3" gate="G$1" pin="C"/>
 <wire x1="22.86" y1="43.18" x2="27.94" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="43.18" x2="27.94" y2="48.26" width="0.1524" layer="91"/>
@@ -6824,7 +6824,7 @@ Source: http://www.fairchildsemi.com/ds/MM/MMBTA56.pdf</description>
 <net name="N$18" class="0">
 <segment>
 <pinref part="D4" gate="G$1" pin="C"/>
-<pinref part="R8" gate="G$1" pin="1"/>
+<pinref part="R7" gate="G$1" pin="1"/>
 <wire x1="15.24" y1="22.86" x2="15.24" y2="12.7" width="0.1524" layer="91"/>
 <pinref part="Q4" gate="G$1" pin="B"/>
 <wire x1="15.24" y1="12.7" x2="22.86" y2="12.7" width="0.1524" layer="91"/>
@@ -6835,57 +6835,57 @@ Source: http://www.fairchildsemi.com/ds/MM/MMBTA56.pdf</description>
 <segment>
 <pinref part="Q4" gate="G$1" pin="C"/>
 <wire x1="27.94" y1="7.62" x2="27.94" y2="2.54" width="0.1524" layer="91"/>
-<pinref part="R7" gate="G$1" pin="1"/>
+<pinref part="R8" gate="G$1" pin="1"/>
 <wire x1="27.94" y1="2.54" x2="25.4" y2="2.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$22" class="0">
 <segment>
-<pinref part="LED5" gate="G$1" pin="C"/>
-<pinref part="Q5" gate="G$1" pin="E"/>
+<pinref part="LED6" gate="G$1" pin="C"/>
+<pinref part="Q6" gate="G$1" pin="E"/>
 <wire x1="27.94" y1="-20.32" x2="27.94" y2="-22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$23" class="0">
 <segment>
-<pinref part="D5" gate="G$1" pin="C"/>
-<pinref part="R10" gate="G$1" pin="1"/>
+<pinref part="D6" gate="G$1" pin="C"/>
+<pinref part="R11" gate="G$1" pin="1"/>
 <wire x1="15.24" y1="-17.78" x2="15.24" y2="-27.94" width="0.1524" layer="91"/>
-<pinref part="Q5" gate="G$1" pin="B"/>
+<pinref part="Q6" gate="G$1" pin="B"/>
 <wire x1="15.24" y1="-27.94" x2="22.86" y2="-27.94" width="0.1524" layer="91"/>
 <junction x="15.24" y="-27.94"/>
 </segment>
 </net>
 <net name="N$24" class="0">
 <segment>
-<pinref part="Q5" gate="G$1" pin="C"/>
+<pinref part="Q6" gate="G$1" pin="C"/>
 <wire x1="27.94" y1="-33.02" x2="27.94" y2="-38.1" width="0.1524" layer="91"/>
-<pinref part="R9" gate="G$1" pin="1"/>
+<pinref part="R12" gate="G$1" pin="1"/>
 <wire x1="27.94" y1="-38.1" x2="25.4" y2="-38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$27" class="0">
 <segment>
-<pinref part="LED6" gate="G$1" pin="C"/>
-<pinref part="Q6" gate="G$1" pin="E"/>
+<pinref part="LED5" gate="G$1" pin="C"/>
+<pinref part="Q5" gate="G$1" pin="E"/>
 <wire x1="27.94" y1="-60.96" x2="27.94" y2="-63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$28" class="0">
 <segment>
-<pinref part="D6" gate="G$1" pin="C"/>
-<pinref part="R12" gate="G$1" pin="1"/>
+<pinref part="D5" gate="G$1" pin="C"/>
+<pinref part="R9" gate="G$1" pin="1"/>
 <wire x1="15.24" y1="-58.42" x2="15.24" y2="-68.58" width="0.1524" layer="91"/>
-<pinref part="Q6" gate="G$1" pin="B"/>
+<pinref part="Q5" gate="G$1" pin="B"/>
 <wire x1="15.24" y1="-68.58" x2="22.86" y2="-68.58" width="0.1524" layer="91"/>
 <junction x="15.24" y="-68.58"/>
 </segment>
 </net>
 <net name="N$29" class="0">
 <segment>
-<pinref part="Q6" gate="G$1" pin="C"/>
+<pinref part="Q5" gate="G$1" pin="C"/>
 <wire x1="27.94" y1="-73.66" x2="27.94" y2="-78.74" width="0.1524" layer="91"/>
-<pinref part="R11" gate="G$1" pin="1"/>
+<pinref part="R10" gate="G$1" pin="1"/>
 <wire x1="27.94" y1="-78.74" x2="25.4" y2="-78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -6915,7 +6915,7 @@ Source: http://www.fairchildsemi.com/ds/MM/MMBTA56.pdf</description>
 </net>
 <net name="MCU_POWER" class="0">
 <segment>
-<pinref part="U$6" gate="G$1" pin="P$4"/>
+<pinref part="X1" gate="G$1" pin="P$4"/>
 <wire x1="149.86" y1="53.34" x2="154.94" y2="53.34" width="0.1524" layer="91"/>
 <label x="154.94" y="53.34" size="1.778" layer="95" xref="yes"/>
 </segment>
@@ -6932,7 +6932,7 @@ Source: http://www.fairchildsemi.com/ds/MM/MMBTA56.pdf</description>
 <label x="106.68" y="-33.02" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="P$2"/>
+<pinref part="X2" gate="G$1" pin="P$2"/>
 <wire x1="142.24" y1="231.14" x2="149.86" y2="231.14" width="0.1524" layer="91"/>
 <label x="149.86" y="231.14" size="1.778" layer="95" xref="yes"/>
 </segment>
