@@ -15530,8 +15530,6 @@ Pogo pins- HW-11044</description>
 <part name="U$26" library="on-semiconductor" deviceset="NCP1117" device=""/>
 <part name="H7" library="SparkFun-Connectors" deviceset="M03X2" device="SMD_FCI" value="ICSP"/>
 <part name="R10" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="0"/>
-<part name="R11" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="0"/>
-<part name="R12" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="0"/>
 </parts>
 <sheets>
 <sheet>
@@ -15713,8 +15711,6 @@ Revised By Daniel Baron</text>
 <instance part="U$26" gate="G$1" x="-27.94" y="-25.4"/>
 <instance part="H7" gate="G$1" x="401.32" y="-283.21"/>
 <instance part="R10" gate="G$1" x="226.06" y="-215.9" rot="R90"/>
-<instance part="R11" gate="G$1" x="233.68" y="-238.76" rot="R90"/>
-<instance part="R12" gate="G$1" x="223.52" y="-246.38" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -17378,16 +17374,6 @@ Revised By Daniel Baron</text>
 <wire x1="226.06" y1="-208.28" x2="226.06" y2="-210.82" width="0.1524" layer="91"/>
 <pinref part="R10" gate="G$1" pin="2"/>
 </segment>
-<segment>
-<label x="233.68" y="-231.14" size="1.778" layer="95" rot="R90"/>
-<wire x1="233.68" y1="-231.14" x2="233.68" y2="-233.68" width="0.1524" layer="91"/>
-<pinref part="R11" gate="G$1" pin="2"/>
-</segment>
-<segment>
-<label x="223.52" y="-238.76" size="1.778" layer="95" rot="R90"/>
-<wire x1="223.52" y1="-238.76" x2="223.52" y2="-241.3" width="0.1524" layer="91"/>
-<pinref part="R12" gate="G$1" pin="2"/>
-</segment>
 </net>
 <net name="DGND" class="0">
 <segment>
@@ -17519,18 +17505,6 @@ Revised By Daniel Baron</text>
 <wire x1="226.06" y1="-218.44" x2="226.06" y2="-220.98" width="0.1524" layer="91"/>
 <pinref part="R10" gate="G$1" pin="1"/>
 <wire x1="226.06" y1="-220.98" x2="226.06" y2="-228.6" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<label x="233.68" y="-251.46" size="1.778" layer="95" rot="R90"/>
-<wire x1="233.68" y1="-241.3" x2="233.68" y2="-243.84" width="0.1524" layer="91"/>
-<pinref part="R11" gate="G$1" pin="1"/>
-<wire x1="233.68" y1="-243.84" x2="233.68" y2="-251.46" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<label x="223.52" y="-259.08" size="1.778" layer="95" rot="R90"/>
-<wire x1="223.52" y1="-248.92" x2="223.52" y2="-251.46" width="0.1524" layer="91"/>
-<pinref part="R12" gate="G$1" pin="1"/>
-<wire x1="223.52" y1="-251.46" x2="223.52" y2="-259.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="12_V" class="0">
