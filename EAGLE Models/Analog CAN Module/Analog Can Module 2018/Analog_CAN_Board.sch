@@ -13716,9 +13716,7 @@ Source: http://focus.ti.com/lit/ds/symlink/opa725.pdf</description>
 <part name="C47" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value=".1uF"/>
 <part name="R35" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="1k"/>
 <part name="C48" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value=".33uF"/>
-<part name="R36" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="0"/>
 <part name="R37" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="0"/>
-<part name="R38" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="0"/>
 </parts>
 <sheets>
 <sheet>
@@ -13911,9 +13909,7 @@ Revised By Daniel Baron</text>
 <instance part="C47" gate="G$1" x="373.38" y="30.48"/>
 <instance part="R35" gate="G$1" x="314.96" y="27.94" rot="R180"/>
 <instance part="C48" gate="G$1" x="342.9" y="43.18" rot="R90"/>
-<instance part="R36" gate="G$1" x="518.16" y="-40.64" rot="R270"/>
 <instance part="R37" gate="G$1" x="525.78" y="-40.64" rot="R270"/>
-<instance part="R38" gate="G$1" x="533.4" y="-40.64" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -15034,15 +15030,8 @@ Revised By Daniel Baron</text>
 <pinref part="C47" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="R36" gate="G$1" pin="1"/>
-<wire x1="518.16" y1="-35.56" x2="518.16" y2="-30.48" width="0.1524" layer="91"/>
 <pinref part="R37" gate="G$1" pin="1"/>
-<wire x1="518.16" y1="-30.48" x2="525.78" y2="-30.48" width="0.1524" layer="91"/>
-<wire x1="525.78" y1="-35.56" x2="525.78" y2="-30.48" width="0.1524" layer="91"/>
-<pinref part="R38" gate="G$1" pin="1"/>
-<wire x1="525.78" y1="-30.48" x2="533.4" y2="-30.48" width="0.1524" layer="91"/>
-<wire x1="533.4" y1="-30.48" x2="533.4" y2="-35.56" width="0.1524" layer="91"/>
-<wire x1="525.78" y1="-30.48" x2="525.78" y2="-22.86" width="0.1524" layer="91"/>
+<wire x1="525.78" y1="-35.56" x2="525.78" y2="-22.86" width="0.1524" layer="91"/>
 <label x="525.78" y="-22.86" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
@@ -15215,15 +15204,8 @@ Revised By Daniel Baron</text>
 <label x="444.5" y="-114.3" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="R38" gate="G$1" pin="2"/>
-<wire x1="533.4" y1="-45.72" x2="533.4" y2="-50.8" width="0.1524" layer="91"/>
-<wire x1="533.4" y1="-50.8" x2="525.78" y2="-50.8" width="0.1524" layer="91"/>
 <pinref part="R37" gate="G$1" pin="2"/>
-<wire x1="525.78" y1="-45.72" x2="525.78" y2="-50.8" width="0.1524" layer="91"/>
-<pinref part="R36" gate="G$1" pin="2"/>
-<wire x1="525.78" y1="-50.8" x2="518.16" y2="-50.8" width="0.1524" layer="91"/>
-<wire x1="518.16" y1="-50.8" x2="518.16" y2="-45.72" width="0.1524" layer="91"/>
-<wire x1="525.78" y1="-50.8" x2="525.78" y2="-58.42" width="0.1524" layer="91"/>
+<wire x1="525.78" y1="-45.72" x2="525.78" y2="-58.42" width="0.1524" layer="91"/>
 <label x="525.78" y="-58.42" size="1.27" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
