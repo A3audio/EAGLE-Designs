@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.4.0">
+<eagle version="8.3.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -23587,11 +23587,6 @@ at 30/07/2012 16:36:08</description>
 <part name="SJ1" library="SparkFun-Passives" deviceset="SOLDERJUMPER" device="NO"/>
 <part name="C13" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="1uF"/>
 <part name="C14" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="1uF"/>
-<part name="U$5" library="formula electric" deviceset="MMBT4401-7-F" device=""/>
-<part name="U$6" library="formula electric" deviceset="MMBT4403-7-F" device=""/>
-<part name="R4" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603"/>
-<part name="R5" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603"/>
-<part name="F2" library="SparkFun" deviceset="PTC" device="SMD" value="15V,0.5A"/>
 <part name="U$7" library="formula electric" deviceset="MMBT4401-7-F" device=""/>
 <part name="U$8" library="formula electric" deviceset="MMBT4403-7-F" device=""/>
 <part name="R11" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603"/>
@@ -23811,11 +23806,6 @@ at 30/07/2012 16:36:08</description>
 <instance part="SJ1" gate="1" x="7.62" y="223.52"/>
 <instance part="C13" gate="G$1" x="-231.14" y="31.75"/>
 <instance part="C14" gate="G$1" x="-193.04" y="31.75"/>
-<instance part="U$5" gate="G$1" x="-516.89" y="115.57"/>
-<instance part="U$6" gate="G$1" x="-497.84" y="124.46"/>
-<instance part="R4" gate="G$1" x="-508" y="124.46"/>
-<instance part="R5" gate="G$1" x="-528.32" y="115.57"/>
-<instance part="F2" gate="G$1" x="-495.3" y="110.49" rot="R270"/>
 <instance part="U$7" gate="G$1" x="-516.89" y="41.91"/>
 <instance part="U$8" gate="G$1" x="-497.84" y="50.8"/>
 <instance part="R11" gate="G$1" x="-508" y="50.8"/>
@@ -24364,11 +24354,6 @@ at 30/07/2012 16:36:08</description>
 <label x="-513.08" y="210.82" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$5" gate="G$1" pin="E"/>
-<wire x1="-514.35" y1="110.49" x2="-514.35" y2="107.95" width="0.1524" layer="91"/>
-<label x="-514.35" y="107.95" size="1.778" layer="95" rot="R270" xref="yes"/>
-</segment>
-<segment>
 <pinref part="U$7" gate="G$1" pin="E"/>
 <wire x1="-514.35" y1="36.83" x2="-514.35" y2="34.29" width="0.1524" layer="91"/>
 <label x="-514.35" y="34.29" size="1.778" layer="95" rot="R270" xref="yes"/>
@@ -24636,11 +24621,6 @@ at 30/07/2012 16:36:08</description>
 <label x="-22.86" y="144.78" size="1.778" layer="95"/>
 <pinref part="IC1" gate="G$1" pin="(OC2A)PB4"/>
 </segment>
-<segment>
-<pinref part="R5" gate="G$1" pin="1"/>
-<wire x1="-533.4" y1="115.57" x2="-537.21" y2="115.57" width="0.1524" layer="91"/>
-<label x="-537.21" y="115.57" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
 </net>
 <net name="AVR_MISO" class="0">
 <segment>
@@ -24758,11 +24738,6 @@ at 30/07/2012 16:36:08</description>
 </segment>
 </net>
 <net name="12V_PROTECTED" class="3">
-<segment>
-<pinref part="U$6" gate="G$1" pin="E"/>
-<wire x1="-495.3" y1="129.54" x2="-495.3" y2="135.89" width="0.1524" layer="91"/>
-<label x="-495.3" y="135.89" size="1.778" layer="95" rot="R90" xref="yes"/>
-</segment>
 <segment>
 <pinref part="U$8" gate="G$1" pin="E"/>
 <wire x1="-495.3" y1="55.88" x2="-495.3" y2="62.23" width="0.1524" layer="91"/>
@@ -25542,35 +25517,6 @@ at 30/07/2012 16:36:08</description>
 <pinref part="IC1" gate="G$1" pin="(ICP3/INT7)PE7"/>
 </segment>
 </net>
-<net name="N$23" class="3">
-<segment>
-<pinref part="R5" gate="G$1" pin="2"/>
-<pinref part="U$5" gate="G$1" pin="B"/>
-<wire x1="-523.24" y1="115.57" x2="-519.43" y2="115.57" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$24" class="3">
-<segment>
-<pinref part="R4" gate="G$1" pin="2"/>
-<pinref part="U$6" gate="G$1" pin="B"/>
-<wire x1="-502.92" y1="124.46" x2="-500.38" y2="124.46" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$25" class="0">
-<segment>
-<pinref part="R4" gate="G$1" pin="1"/>
-<pinref part="U$5" gate="G$1" pin="C"/>
-<wire x1="-513.08" y1="124.46" x2="-514.35" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="-514.35" y1="124.46" x2="-514.35" y2="120.65" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$26" class="3">
-<segment>
-<pinref part="F2" gate="G$1" pin="1"/>
-<pinref part="U$6" gate="G$1" pin="C"/>
-<wire x1="-495.3" y1="115.57" x2="-495.3" y2="119.38" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="DRV1" class="3">
 <segment>
 <pinref part="F5" gate="G$1" pin="2"/>
@@ -25668,13 +25614,6 @@ at 30/07/2012 16:36:08</description>
 <pinref part="F5" gate="G$1" pin="1"/>
 <pinref part="U$12" gate="G$1" pin="C"/>
 <wire x1="-430.53" y1="41.91" x2="-430.53" y2="45.72" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="DRV4" class="3">
-<segment>
-<pinref part="F2" gate="G$1" pin="2"/>
-<wire x1="-495.3" y1="102.87" x2="-495.3" y2="99.06" width="0.1524" layer="91"/>
-<label x="-495.3" y="99.06" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="DRV3" class="3">

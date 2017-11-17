@@ -6801,8 +6801,6 @@ http://www.st.com&lt;p&gt;
 <wire x1="259.08" y1="127" x2="259.08" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="259.08" y1="116.84" x2="259.08" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="259.08" y1="111.76" x2="259.08" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="259.08" y1="106.68" x2="259.08" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="259.08" y1="96.52" x2="266.7" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="269.24" y1="106.68" x2="266.7" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="266.7" y1="106.68" x2="259.08" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="269.24" y1="116.84" x2="266.7" y2="116.84" width="0.1524" layer="91"/>
@@ -6811,7 +6809,6 @@ http://www.st.com&lt;p&gt;
 <label x="256.54" y="111.76" size="0.6096" layer="95" rot="R180" xref="yes"/>
 <junction x="259.08" y="116.84"/>
 <junction x="259.08" y="111.76"/>
-<junction x="259.08" y="106.68"/>
 <pinref part="H1" gate="G$1" pin="MOUNT"/>
 <junction x="266.7" y="127"/>
 <pinref part="H2" gate="G$1" pin="MOUNT"/>
