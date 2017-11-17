@@ -13645,7 +13645,7 @@ Source: http://focus.ti.com/lit/ds/symlink/opa725.pdf</description>
 <part name="U$2" library="diodes-inc" deviceset="MMBD4448H-7-F" device=""/>
 <part name="F3" library="LittleFuse" deviceset="?" device="0805L" technology="050"/>
 <part name="H7" library="SparkFun-Connectors" deviceset="M03X2" device="SMD_FCI" value="ICSP"/>
-<part name="R1" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="680"/>
+<part name="R1" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="1.7k"/>
 <part name="C3" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value=".1uF"/>
 <part name="R11" library="Vishay_By_element14_Batch_1" deviceset="WSLP0603R0100FEA" device="" value=".01 Ohm"/>
 <part name="R12" library="Vishay_By_element14_Batch_1" deviceset="WSLP0603R0100FEA" device="" value=".01 Ohm"/>
@@ -13653,68 +13653,68 @@ Source: http://focus.ti.com/lit/ds/symlink/opa725.pdf</description>
 <part name="R13" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="0"/>
 <part name="C4" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value=".1uF"/>
 <part name="C5" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value=".1uF"/>
-<part name="R28" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="1k"/>
+<part name="R28" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="2.1k"/>
 <part name="C6" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value=".33uF"/>
 <part name="IC6" library="maxim" deviceset="MAX680CSA" device=""/>
 <part name="C8" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="4.7uF"/>
 <part name="C11" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="4.7uF"/>
 <part name="C13" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="4.7uF"/>
 <part name="C12" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="4.7uF"/>
-<part name="R14" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="680"/>
+<part name="R14" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="1.7k"/>
 <part name="C14" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value=".1uF"/>
 <part name="IC7" library="linear" deviceset="OPA725" device="DBV"/>
 <part name="R15" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="0"/>
 <part name="C15" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value=".1uF"/>
 <part name="C16" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value=".1uF"/>
-<part name="R16" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="1k"/>
+<part name="R16" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="2.1k"/>
 <part name="C17" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value=".33uF"/>
-<part name="R17" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="680"/>
+<part name="R17" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="1.7k"/>
 <part name="C21" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value=".1uF"/>
 <part name="IC8" library="linear" deviceset="OPA725" device="DBV"/>
 <part name="R18" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="0"/>
 <part name="C22" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value=".1uF"/>
 <part name="C25" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value=".1uF"/>
-<part name="R19" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="1k"/>
+<part name="R19" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="2.1k"/>
 <part name="C26" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value=".33uF"/>
-<part name="R20" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="680"/>
+<part name="R20" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="1.7k"/>
 <part name="C27" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value=".1uF"/>
 <part name="IC9" library="linear" deviceset="OPA725" device="DBV"/>
 <part name="R21" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="0"/>
 <part name="C28" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value=".1uF"/>
 <part name="C29" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value=".1uF"/>
-<part name="R22" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="1k"/>
+<part name="R22" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="2.1k"/>
 <part name="C30" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value=".33uF"/>
-<part name="R23" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="680"/>
+<part name="R23" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="1.7k"/>
 <part name="C31" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value=".1uF"/>
 <part name="IC10" library="linear" deviceset="OPA725" device="DBV"/>
 <part name="R24" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="0"/>
 <part name="C32" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value=".1uF"/>
 <part name="C33" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value=".1uF"/>
-<part name="R25" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="1k"/>
+<part name="R25" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="2.1k"/>
 <part name="C34" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value=".33uF"/>
-<part name="R26" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="680"/>
+<part name="R26" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="1.7k"/>
 <part name="C35" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value=".1uF"/>
 <part name="IC11" library="linear" deviceset="OPA725" device="DBV"/>
 <part name="R27" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="0"/>
 <part name="C36" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value=".1uF"/>
 <part name="C39" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value=".1uF"/>
-<part name="R29" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="1k"/>
+<part name="R29" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="2.1k"/>
 <part name="C40" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value=".33uF"/>
-<part name="R30" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="680"/>
+<part name="R30" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="1.7k"/>
 <part name="C41" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value=".1uF"/>
 <part name="IC12" library="linear" deviceset="OPA725" device="DBV"/>
 <part name="R31" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="0"/>
 <part name="C42" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value=".1uF"/>
 <part name="C43" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value=".1uF"/>
-<part name="R32" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="1k"/>
+<part name="R32" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="2.1k"/>
 <part name="C44" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value=".33uF"/>
-<part name="R33" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="680"/>
+<part name="R33" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="1.7k"/>
 <part name="C45" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value=".1uF"/>
 <part name="IC13" library="linear" deviceset="OPA725" device="DBV"/>
 <part name="R34" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="0"/>
 <part name="C46" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value=".1uF"/>
 <part name="C47" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value=".1uF"/>
-<part name="R35" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="1k"/>
+<part name="R35" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="2.1k"/>
 <part name="C48" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value=".33uF"/>
 <part name="R37" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="0"/>
 </parts>
