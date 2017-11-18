@@ -24519,6 +24519,24 @@ at 30/07/2012 16:36:08</description>
 <wire x1="-205.74" y1="53.34" x2="-205.74" y2="50.8" width="0.1524" layer="91"/>
 <label x="-205.74" y="50.8" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
+<segment>
+<pinref part="CIN13" gate="G$1" pin="1"/>
+<wire x1="231.14" y1="78.74" x2="231.14" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="68.58" x2="240.284" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="CIN14" gate="G$1" pin="1"/>
+<wire x1="240.284" y1="68.58" x2="246.38" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="246.38" y1="68.58" x2="269.24" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="246.38" y1="78.74" x2="246.38" y2="68.58" width="0.1524" layer="91"/>
+<junction x="246.38" y="68.58"/>
+<pinref part="GND19" gate="1" pin="GND"/>
+<junction x="240.284" y="68.58"/>
+<label x="269.24" y="68.58" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="LCD_CONN" gate="A" pin="1"/>
+<wire x1="-508" y1="236.22" x2="-513.08" y2="236.22" width="0.1524" layer="91"/>
+<label x="-513.08" y="236.22" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="XTAL1" class="0">
 <segment>
@@ -25199,26 +25217,6 @@ at 30/07/2012 16:36:08</description>
 <pinref part="U$4" gate="G$1" pin="P$2"/>
 <wire x1="221.742" y1="118.11" x2="231.14" y2="118.11" width="0.1524" layer="91"/>
 <wire x1="231.14" y1="118.11" x2="231.14" y2="101.6" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="BL_CATHODE" class="0">
-<segment>
-<pinref part="LCD_CONN" gate="A" pin="1"/>
-<wire x1="-508" y1="236.22" x2="-513.08" y2="236.22" width="0.1524" layer="91"/>
-<label x="-513.08" y="236.22" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="CIN13" gate="G$1" pin="1"/>
-<wire x1="231.14" y1="78.74" x2="231.14" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="231.14" y1="68.58" x2="240.284" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="CIN14" gate="G$1" pin="1"/>
-<wire x1="240.284" y1="68.58" x2="246.38" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="246.38" y1="68.58" x2="269.24" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="246.38" y1="78.74" x2="246.38" y2="68.58" width="0.1524" layer="91"/>
-<junction x="246.38" y="68.58"/>
-<pinref part="GND19" gate="1" pin="GND"/>
-<junction x="240.284" y="68.58"/>
-<label x="269.24" y="68.58" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="B7" class="0">
