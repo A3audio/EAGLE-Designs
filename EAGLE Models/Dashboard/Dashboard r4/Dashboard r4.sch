@@ -12074,6 +12074,7 @@ It has reduced top mask to make it harder to put the component on the wrong side
 <rectangle x1="-2.032" y1="1.524" x2="2.032" y2="2.032" layer="94"/>
 <pin name="1" x="0" y="5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
 <pin name="2" x="0" y="-2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
+<rectangle x1="-2.032" y1="1.524" x2="2.032" y2="2.032" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -23455,49 +23456,21 @@ at 30/07/2012 16:36:08</description>
 <pad name="P$3" x="-0.5" y="0" drill="0.5" rot="R90"/>
 <pad name="P$4" x="0.5" y="0.8" drill="0.5" rot="R90"/>
 <pad name="P$5" x="-0.5" y="1.6" drill="0.5" rot="R90"/>
-<hole x="-1.75" y="3.1" drill="0.7"/>
-<hole x="-1.75" y="1.7" drill="0.7"/>
-<hole x="-1.75" y="3" drill="0.7"/>
-<hole x="-1.75" y="2.9" drill="0.7"/>
-<hole x="-1.75" y="-2.5" drill="0.7"/>
-<hole x="-1.75" y="-1.3" drill="0.7"/>
-<hole x="1.75" y="-0.6" drill="0.7"/>
-<hole x="1.75" y="0.6" drill="0.7"/>
-<hole x="-1.75" y="2.7" drill="0.7"/>
-<hole x="-1.75" y="2.8" drill="0.7"/>
-<hole x="-1.75" y="2.6" drill="0.7"/>
-<hole x="-1.75" y="2.5" drill="0.7"/>
-<hole x="-1.75" y="2.4" drill="0.7"/>
-<hole x="-1.75" y="2.3" drill="0.7"/>
-<hole x="-1.75" y="2.2" drill="0.7"/>
-<hole x="-1.75" y="2.1" drill="0.7"/>
-<hole x="-1.75" y="2" drill="0.7"/>
-<hole x="-1.75" y="1.8" drill="0.7"/>
-<hole x="1.75" y="-0.2" drill="0.7"/>
-<hole x="1.75" y="-0.3" drill="0.7"/>
-<hole x="1.75" y="-0.4" drill="0.7"/>
-<hole x="1.75" y="0.5" drill="0.7"/>
-<hole x="1.75" y="0.4" drill="0.7"/>
-<hole x="1.75" y="0.3" drill="0.7"/>
-<hole x="1.75" y="0.2" drill="0.7"/>
-<hole x="1.75" y="0.1" drill="0.7"/>
-<hole x="1.75" y="0" drill="0.7"/>
-<hole x="1.75" y="-0.1" drill="0.7"/>
-<hole x="1.75" y="-0.5" drill="0.7"/>
-<hole x="-1.75" y="1.9" drill="0.7"/>
-<hole x="-1.75" y="-1.4" drill="0.7"/>
-<hole x="-1.75" y="-1.5" drill="0.7"/>
-<hole x="-1.75" y="-1.8" drill="0.7"/>
-<hole x="-1.75" y="-1.9" drill="0.7"/>
-<hole x="-1.75" y="-2" drill="0.7"/>
-<hole x="-1.75" y="-1.7" drill="0.7"/>
-<hole x="-1.75" y="-1.6" drill="0.7"/>
-<hole x="-1.75" y="-2.1" drill="0.7"/>
-<hole x="-1.75" y="-2.2" drill="0.7"/>
-<hole x="-1.75" y="-2.3" drill="0.7"/>
-<hole x="-1.75" y="-1.4" drill="0.7"/>
-<hole x="-1.75" y="-2.4" drill="0.7"/>
 <text x="-2" y="4" size="1.27" layer="21">&gt;1734753-1</text>
+<rectangle x1="1.397" y1="-0.9652" x2="2.1082" y2="0.9652" layer="46"/>
+<polygon width="0.0254" layer="46">
+<vertex x="-2.0828" y="-0.9398"/>
+<vertex x="-1.397" y="-0.9398"/>
+<vertex x="-1.397" y="-2.8702"/>
+<vertex x="-2.1082" y="-2.8702"/>
+<vertex x="-2.1082" y="-0.9398"/>
+</polygon>
+<polygon width="0.0254" layer="46">
+<vertex x="-2.1082" y="3.4544"/>
+<vertex x="-1.397" y="3.4544"/>
+<vertex x="-1.397" y="1.3462"/>
+<vertex x="-2.1082" y="1.3462"/>
+</polygon>
 </package>
 </packages>
 <symbols>
