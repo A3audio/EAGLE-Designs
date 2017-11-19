@@ -23582,8 +23582,6 @@ at 30/07/2012 16:36:08</description>
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
-<part name="C12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n"/>
-<part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n"/>
 <part name="GND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="LED2" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/1" value="RX"/>
@@ -23598,7 +23596,6 @@ at 30/07/2012 16:36:08</description>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k"/>
 <part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k"/>
 <part name="P+8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
-<part name="F1" library="SparkFun" deviceset="PTC" device="SMD" value="16V,0.25A"/>
 <part name="L1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="L-US" device="L3216C" package3d_urn="urn:adsk.eagle:package:23476/2" value="CS321613-100K"/>
 <part name="U$2" library="ftdichip" library_urn="urn:adsk.eagle:library:231" deviceset="FT801" device=""/>
 <part name="GND2" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -23701,7 +23698,7 @@ at 30/07/2012 16:36:08</description>
 <part name="C23" library="rcl" deviceset="C-US" device="C0603" value="10uF"/>
 <part name="C24" library="rcl" deviceset="C-US" device="C0603" value="10uF"/>
 <part name="RCOMM1" library="Vishay_By_element14_Batch_1" deviceset="TNPW12062K00BEEN" device="" value="17.2K"/>
-<part name="U$1" library="us-te-con" deviceset="1734753-1_MINIUSB_CON" device=""/>
+<part name="U$5" library="us-te-con" deviceset="1734753-1_MINIUSB_CON" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -23798,8 +23795,6 @@ at 30/07/2012 16:36:08</description>
 <instance part="GND12" gate="1" x="-83.82" y="152.4"/>
 <instance part="P+4" gate="VCC" x="-88.9" y="149.86"/>
 <instance part="P+5" gate="VCC" x="-88.9" y="139.7"/>
-<instance part="C12" gate="G$1" x="-307.34" y="46.863"/>
-<instance part="GND15" gate="1" x="-320.04" y="33.02"/>
 <instance part="C18" gate="G$1" x="-220.98" y="205.74"/>
 <instance part="GND17" gate="1" x="-213.36" y="175.26"/>
 <instance part="LED2" gate="G$1" x="-162.56" y="198.12" rot="R270"/>
@@ -23817,7 +23812,6 @@ at 30/07/2012 16:36:08</description>
 <instance part="R2" gate="G$1" x="-165.1" y="228.6"/>
 <instance part="R7" gate="G$1" x="-157.48" y="226.06"/>
 <instance part="P+8" gate="VCC" x="-109.22" y="160.02"/>
-<instance part="F1" gate="G$1" x="-314.96" y="55.88" rot="R180"/>
 <instance part="L1" gate="G$1" x="-91.44" y="157.48" rot="R90"/>
 <instance part="U$2" gate="A" x="-327.66" y="203.2"/>
 <instance part="GND2" gate="1" x="-368.3" y="233.68" rot="R270"/>
@@ -23920,7 +23914,7 @@ at 30/07/2012 16:36:08</description>
 <instance part="C23" gate="G$1" x="-233.68" y="60.96"/>
 <instance part="C24" gate="G$1" x="-182.88" y="60.96"/>
 <instance part="RCOMM1" gate="A" x="111.76" y="76.2" rot="R90"/>
-<instance part="U$1" gate="G$1" x="-307.34" y="0"/>
+<instance part="U$5" gate="G$1" x="-309.88" y="0"/>
 </instances>
 <busses>
 </busses>
@@ -24126,15 +24120,6 @@ at 30/07/2012 16:36:08</description>
 <junction x="-231.14" y="36.83"/>
 </segment>
 <segment>
-<wire x1="-307.34" y1="55.88" x2="-307.34" y2="49.403" width="0.1524" layer="91"/>
-<wire x1="-307.34" y1="55.88" x2="-299.72" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="-309.88" y1="55.88" x2="-307.34" y2="55.88" width="0.1524" layer="91"/>
-<label x="-307.34" y="55.88" size="1.778" layer="95"/>
-<pinref part="C12" gate="G$1" pin="1"/>
-<pinref part="F1" gate="G$1" pin="1"/>
-<junction x="-307.34" y="55.88"/>
-</segment>
-<segment>
 <pinref part="R6" gate="G$1" pin="2"/>
 <wire x1="-266.7" y1="55.88" x2="-266.7" y2="71.12" width="0.1524" layer="91"/>
 <label x="-266.7" y="68.58" size="1.778" layer="95"/>
@@ -24183,6 +24168,11 @@ at 30/07/2012 16:36:08</description>
 <wire x1="-182.88" y1="68.58" x2="-180.34" y2="68.58" width="0.1524" layer="91"/>
 <label x="-180.34" y="68.58" size="1.778" layer="95" xref="yes"/>
 <junction x="-182.88" y="68.58"/>
+</segment>
+<segment>
+<pinref part="U$5" gate="G$1" pin="VCC"/>
+<wire x1="-320.04" y1="-5.08" x2="-322.58" y2="-5.08" width="0.1524" layer="91"/>
+<label x="-330.2" y="-5.08" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GND" class="4">
@@ -24270,13 +24260,6 @@ at 30/07/2012 16:36:08</description>
 <pinref part="IC5" gate="G$1" pin="GND1"/>
 <pinref part="IC5" gate="G$1" pin="GND2"/>
 <pinref part="IC5" gate="G$1" pin="GND3"/>
-</segment>
-<segment>
-<wire x1="-320.04" y1="40.64" x2="-320.04" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="-307.34" y1="41.783" x2="-307.34" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="-320.04" y1="40.64" x2="-307.34" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="GND15" gate="1" pin="GND"/>
-<pinref part="C12" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="A" pin="GND"/>
@@ -24564,9 +24547,9 @@ at 30/07/2012 16:36:08</description>
 <label x="-513.08" y="236.22" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="GND"/>
-<wire x1="-317.5" y1="5.08" x2="-320.04" y2="5.08" width="0.1524" layer="91"/>
-<label x="-320.04" y="5.08" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$5" gate="G$1" pin="GND"/>
+<wire x1="-320.04" y1="5.08" x2="-322.58" y2="5.08" width="0.1524" layer="91"/>
+<label x="-330.2" y="5.08" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="XTAL1" class="0">
@@ -25032,9 +25015,9 @@ at 30/07/2012 16:36:08</description>
 <pinref part="IC5" gate="G$1" pin="USBDM"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="D-"/>
-<wire x1="-297.18" y1="-2.54" x2="-294.64" y2="-2.54" width="0.1524" layer="91"/>
-<label x="-294.64" y="-2.54" size="1.778" layer="95" xref="yes"/>
+<pinref part="U$5" gate="G$1" pin="D-"/>
+<wire x1="-299.72" y1="-2.54" x2="-297.18" y2="-2.54" width="0.1524" layer="91"/>
+<label x="-294.64" y="-2.54" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D+" class="0">
@@ -25044,9 +25027,9 @@ at 30/07/2012 16:36:08</description>
 <pinref part="IC5" gate="G$1" pin="USBDP"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="D+"/>
-<wire x1="-317.5" y1="0" x2="-320.04" y2="0" width="0.1524" layer="91"/>
-<label x="-320.04" y="0" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$5" gate="G$1" pin="D+"/>
+<wire x1="-320.04" y1="0" x2="-322.58" y2="0" width="0.1524" layer="91"/>
+<label x="-327.66" y="0" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VCC3O" class="0">
@@ -25056,18 +25039,6 @@ at 30/07/2012 16:36:08</description>
 <label x="-220.98" y="223.52" size="1.778" layer="95"/>
 <pinref part="C18" gate="G$1" pin="1"/>
 <pinref part="IC5" gate="G$1" pin="VCC30"/>
-</segment>
-</net>
-<net name="USB_V_IN" class="3">
-<segment>
-<pinref part="F1" gate="G$1" pin="2"/>
-<wire x1="-322.58" y1="55.88" x2="-330.2" y2="55.88" width="0.1524" layer="91"/>
-<label x="-330.2" y="55.88" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="U$1" gate="G$1" pin="VCC"/>
-<wire x1="-317.5" y1="-5.08" x2="-320.04" y2="-5.08" width="0.1524" layer="91"/>
-<label x="-320.04" y="-5.08" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="DTR" class="0">
