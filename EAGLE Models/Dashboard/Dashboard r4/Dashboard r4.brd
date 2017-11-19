@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.4.2">
+<eagle version="8.3.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -3719,10 +3719,10 @@ design rules under a new name.</description>
 <param name="slThermalsForVias" value="0"/>
 <param name="dpMaxLengthDifference" value="10mm"/>
 <param name="dpGapFactor" value="2.5"/>
+<param name="checkGrid" value="0"/>
 <param name="checkAngle" value="0"/>
 <param name="checkFont" value="1"/>
 <param name="checkRestrict" value="1"/>
-<param name="checkStop" value="0"/>
 <param name="useDiameter" value="13"/>
 <param name="maxErrors" value="50"/>
 </designrules>
@@ -4058,25 +4058,25 @@ design rules under a new name.</description>
 <wire x1="78.3074" y1="74.3814" x2="78.3074" y2="73.2544" width="0.3048" layer="1"/>
 <wire x1="78.3074" y1="73.2544" x2="78.9178" y2="72.644" width="0.3048" layer="1"/>
 <via x="78.9178" y="72.644" extent="1-16" drill="0.35"/>
-<polygon width="0.3048" layer="1">
+<polygon width="0.3048" layer="1" isolate="0.3048">
 <vertex x="-24.003" y="96.5962"/>
 <vertex x="147.574" y="96.5962"/>
 <vertex x="149.8092" y="94.361"/>
-<vertex x="149.997159375" y="17.38121875"/>
-<vertex x="148.650959375" y="16.03501875"/>
-<vertex x="-27.396440625" y="16.03501875"/>
-<vertex x="-29.326840625" y="17.96541875"/>
+<vertex x="148.976078125" y="-5.7632625"/>
+<vertex x="147.629878125" y="-7.1094625"/>
+<vertex x="-27.736803125" y="-6.93928125"/>
+<vertex x="-29.667203125" y="-5.00888125"/>
 <vertex x="-29.5148" y="91.1098"/>
 <vertex x="-29.4894" y="91.1098"/>
 </polygon>
-<polygon width="0.3048" layer="16">
+<polygon width="0.3048" layer="16" isolate="0.3048">
 <vertex x="-24.1046" y="96.6216"/>
 <vertex x="147.574" y="96.6216"/>
 <vertex x="149.86" y="94.3356"/>
-<vertex x="150.047959375" y="17.60981875"/>
-<vertex x="148.650959375" y="16.21281875"/>
-<vertex x="-27.726640625" y="16.21281875"/>
-<vertex x="-29.377640625" y="17.86381875"/>
+<vertex x="149.026878125" y="-5.5346625"/>
+<vertex x="147.629878125" y="-6.9316625"/>
+<vertex x="-28.067003125" y="-6.76148125"/>
+<vertex x="-29.718003125" y="-5.11048125"/>
 <vertex x="-29.5656" y="91.1606"/>
 </polygon>
 <via x="117.856" y="73.025" extent="1-16" drill="0.35"/>
@@ -4178,28 +4178,6 @@ design rules under a new name.</description>
 <wire x1="101.534" y1="61.672" x2="101.534" y2="62.9006" width="0.3048" layer="1"/>
 <wire x1="101.534" y1="62.9006" x2="101.5594" y2="62.926" width="0.3048" layer="1"/>
 <contactref element="U$5" pad="P$5"/>
-<polygon width="0.6096" layer="1">
-<vertex x="-4.371340625" y="17.63268125"/>
-<vertex x="131.462778125" y="17.63268125"/>
-<vertex x="134.53871875" y="14.556740625"/>
-<vertex x="134.53871875" y="-0.95758125"/>
-<vertex x="132.01141875" y="-3.48488125"/>
-<vertex x="-1.706878125" y="-3.48488125"/>
-<vertex x="-4.371340625" y="-0.82041875"/>
-<vertex x="-4.371340625" y="17.358359375"/>
-<vertex x="-4.23418125" y="17.49551875"/>
-</polygon>
-<polygon width="0.6096" layer="16" isolate="0.254">
-<vertex x="-4.24941875" y="17.713959375"/>
-<vertex x="131.5948625" y="17.713959375"/>
-<vertex x="134.546340625" y="14.76248125"/>
-<vertex x="134.546340625" y="-1.297940625"/>
-<vertex x="132.184140625" y="-3.660140625"/>
-<vertex x="-2.0066" y="-3.660140625"/>
-<vertex x="-4.485640625" y="-1.1811"/>
-<vertex x="-4.485640625" y="17.59711875"/>
-<vertex x="-4.0132" y="18.069559375"/>
-</polygon>
 <wire x1="93.10841875" y1="75.43866875" x2="94.473415625" y2="76.408534375" width="0" layer="19" extent="1-1"/>
 <wire x1="54.681" y1="46.8658" x2="54.681" y2="48.8158" width="0" layer="19" extent="1-1"/>
 </signal>
