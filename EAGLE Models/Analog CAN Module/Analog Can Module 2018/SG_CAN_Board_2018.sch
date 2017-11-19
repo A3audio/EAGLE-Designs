@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.3.2">
+<eagle version="8.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -13075,6 +13075,7 @@ It has reduced top mask to make it harder to put the component on the wrong side
 <rectangle x1="-2.032" y1="1.524" x2="2.032" y2="2.032" layer="94"/>
 <pin name="1" x="0" y="5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
 <pin name="2" x="0" y="-2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
+<rectangle x1="-2.032" y1="1.524" x2="2.032" y2="2.032" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -13530,20 +13531,6 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <rectangle x1="2.082" y1="-0.425" x2="2.717" y2="0.425" layer="21"/>
 <rectangle x1="-2.717" y1="-0.425" x2="-2.082" y2="0.425" layer="21"/>
 </package>
-<package name="SOD123">
-<description>&lt;b&gt;Diode&lt;/b&gt;</description>
-<wire x1="-1.1" y1="0.7" x2="1.1" y2="0.7" width="0.254" layer="51"/>
-<wire x1="1.1" y1="0.7" x2="1.1" y2="-0.7" width="0.254" layer="51"/>
-<wire x1="1.1" y1="-0.7" x2="-1.1" y2="-0.7" width="0.254" layer="51"/>
-<wire x1="-1.1" y1="-0.7" x2="-1.1" y2="0.7" width="0.254" layer="51"/>
-<smd name="C" x="-1.9" y="0" dx="1.4" dy="1.4" layer="1"/>
-<smd name="A" x="1.9" y="0" dx="1.4" dy="1.4" layer="1"/>
-<text x="-1.1" y="1" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.1" y="-2.3" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-1.95" y1="-0.45" x2="-1.2" y2="0.4" layer="51"/>
-<rectangle x1="1.2" y1="-0.45" x2="1.95" y2="0.4" layer="51"/>
-<rectangle x1="-1.05" y1="-0.65" x2="-0.15" y2="0.7" layer="51"/>
-</package>
 </packages>
 <symbols>
 <symbol name="SCHOTTKY">
@@ -13580,17 +13567,6 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <technology name="7-T"/>
 <technology name="8-B"/>
 <technology name="8-T"/>
-<technology name="9-B"/>
-<technology name="9-T"/>
-</technologies>
-</device>
-<device name="SOD123" package="SOD123">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name=""/>
 <technology name="9-B"/>
 <technology name="9-T"/>
 </technologies>
@@ -15356,49 +15332,21 @@ Pogo pins- HW-11044</description>
 <pad name="P$3" x="-0.5" y="0" drill="0.5" rot="R90"/>
 <pad name="P$4" x="0.5" y="0.8" drill="0.5" rot="R90"/>
 <pad name="P$5" x="-0.5" y="1.6" drill="0.5" rot="R90"/>
-<hole x="-1.75" y="3.1" drill="0.7"/>
-<hole x="-1.75" y="1.7" drill="0.7"/>
-<hole x="-1.75" y="3" drill="0.7"/>
-<hole x="-1.75" y="2.9" drill="0.7"/>
-<hole x="-1.75" y="-2.5" drill="0.7"/>
-<hole x="-1.75" y="-1.3" drill="0.7"/>
-<hole x="1.75" y="-0.6" drill="0.7"/>
-<hole x="1.75" y="0.6" drill="0.7"/>
-<hole x="-1.75" y="2.7" drill="0.7"/>
-<hole x="-1.75" y="2.8" drill="0.7"/>
-<hole x="-1.75" y="2.6" drill="0.7"/>
-<hole x="-1.75" y="2.5" drill="0.7"/>
-<hole x="-1.75" y="2.4" drill="0.7"/>
-<hole x="-1.75" y="2.3" drill="0.7"/>
-<hole x="-1.75" y="2.2" drill="0.7"/>
-<hole x="-1.75" y="2.1" drill="0.7"/>
-<hole x="-1.75" y="2" drill="0.7"/>
-<hole x="-1.75" y="1.8" drill="0.7"/>
-<hole x="1.75" y="-0.2" drill="0.7"/>
-<hole x="1.75" y="-0.3" drill="0.7"/>
-<hole x="1.75" y="-0.4" drill="0.7"/>
-<hole x="1.75" y="0.5" drill="0.7"/>
-<hole x="1.75" y="0.4" drill="0.7"/>
-<hole x="1.75" y="0.3" drill="0.7"/>
-<hole x="1.75" y="0.2" drill="0.7"/>
-<hole x="1.75" y="0.1" drill="0.7"/>
-<hole x="1.75" y="0" drill="0.7"/>
-<hole x="1.75" y="-0.1" drill="0.7"/>
-<hole x="1.75" y="-0.5" drill="0.7"/>
-<hole x="-1.75" y="1.9" drill="0.7"/>
-<hole x="-1.75" y="-1.4" drill="0.7"/>
-<hole x="-1.75" y="-1.5" drill="0.7"/>
-<hole x="-1.75" y="-1.8" drill="0.7"/>
-<hole x="-1.75" y="-1.9" drill="0.7"/>
-<hole x="-1.75" y="-2" drill="0.7"/>
-<hole x="-1.75" y="-1.7" drill="0.7"/>
-<hole x="-1.75" y="-1.6" drill="0.7"/>
-<hole x="-1.75" y="-2.1" drill="0.7"/>
-<hole x="-1.75" y="-2.2" drill="0.7"/>
-<hole x="-1.75" y="-2.3" drill="0.7"/>
-<hole x="-1.75" y="-1.4" drill="0.7"/>
-<hole x="-1.75" y="-2.4" drill="0.7"/>
 <text x="-2" y="4" size="1.27" layer="21">&gt;1734753-1</text>
+<rectangle x1="1.397" y1="-0.9652" x2="2.1082" y2="0.9652" layer="46"/>
+<polygon width="0.0254" layer="46">
+<vertex x="-2.0828" y="-0.9398"/>
+<vertex x="-1.397" y="-0.9398"/>
+<vertex x="-1.397" y="-2.8702"/>
+<vertex x="-2.1082" y="-2.8702"/>
+<vertex x="-2.1082" y="-0.9398"/>
+</polygon>
+<polygon width="0.0254" layer="46">
+<vertex x="-2.1082" y="3.4544"/>
+<vertex x="-1.397" y="3.4544"/>
+<vertex x="-1.397" y="1.3462"/>
+<vertex x="-2.1082" y="1.3462"/>
+</polygon>
 </package>
 </packages>
 <symbols>
@@ -15551,7 +15499,7 @@ Pogo pins- HW-11044</description>
 <part name="U$10V2V5" library="DashAndCAN library" deviceset="MAX6350CSA" device=""/>
 <part name="C37" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="2.2uF"/>
 <part name="C38" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="2.2uF"/>
-<part name="D2" library="diode" deviceset="1N581*" device="SOD123" technology="9-B" value="1N5819"/>
+<part name="D2" library="diode" deviceset="1N581*" device="" technology="9-B" value="1N5819"/>
 <part name="C23" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10uF"/>
 <part name="C24" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10uF"/>
 <part name="U$3" library="TE" deviceset="SUPERSEAL1.0_26POS" device=""/>
