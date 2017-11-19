@@ -17261,69 +17261,6 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 </deviceset>
 </devicesets>
 </library>
-<library name="con-tyco" urn="urn:adsk.eagle:library:192">
-<description>&lt;b&gt;Tyco Connectors&lt;/b&gt;&lt;p&gt;
- &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="1734753-1">
-<pad name="P$1" x="-0.5" y="-1.6" drill="0.7" diameter="1.1"/>
-<pad name="P$2" x="0.5" y="-0.8" drill="0.7" diameter="1.1"/>
-<pad name="P$3" x="-0.5" y="0" drill="0.7" diameter="1.1" rot="R180"/>
-<pad name="P$4" x="0.5" y="0.8" drill="0.7" diameter="1.1"/>
-<pad name="P$5" x="-0.5" y="1.6" drill="0.7" diameter="1.1"/>
-<rectangle x1="-2.1" y1="1.7" x2="-1.4" y2="3.1" layer="45"/>
-<rectangle x1="1.4" y1="-0.6" x2="2.1" y2="0.6" layer="45"/>
-<rectangle x1="-2.1" y1="-2.5" x2="-1.4" y2="-1.3" layer="45"/>
-<circle x="-1.75" y="3.1" radius="0.25" width="0.2" layer="45"/>
-<circle x="-1.75" y="1.7" radius="0.25" width="0.2" layer="45"/>
-<circle x="-1.75" y="-1.3" radius="0.25" width="0.2" layer="45"/>
-<circle x="-1.75" y="-2.5" radius="0.25" width="0.2" layer="45"/>
-<circle x="1.75" y="0.6" radius="0.25" width="0.2" layer="45"/>
-<circle x="1.75" y="-0.6" radius="0.25" width="0.2" layer="45"/>
-<text x="-2.286" y="4.191" size="0.6096" layer="21">&gt;1734753-1</text>
-<wire x1="-2.5" y1="-3.85" x2="-2.5" y2="3.85" width="0.127" layer="21"/>
-<wire x1="2.5" y1="-3.85" x2="2.5" y2="3.85" width="0.127" layer="21"/>
-<wire x1="-2.5" y1="3.85" x2="2.5" y2="3.85" width="0.127" layer="21"/>
-<wire x1="-2.5" y1="-3.85" x2="2.5" y2="-3.85" width="0.127" layer="21"/>
-</package>
-</packages>
-<symbols>
-<symbol name="USB_MINI">
-<wire x1="-5.08" y1="12.7" x2="-5.08" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-12.7" x2="5.08" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-12.7" x2="5.08" y2="12.7" width="0.254" layer="94"/>
-<wire x1="5.08" y1="12.7" x2="-5.08" y2="12.7" width="0.254" layer="94"/>
-<pin name="P$5" x="-7.62" y="10.16" length="short"/>
-<pin name="P$4" x="-7.62" y="5.08" length="short"/>
-<pin name="P$3" x="-7.62" y="0" length="short"/>
-<pin name="P$2" x="-7.62" y="-5.08" length="short"/>
-<pin name="P$1" x="-7.62" y="-10.16" length="short"/>
-<text x="-5.334" y="13.462" size="1.4224" layer="95">&gt;1734753-1</text>
-<text x="-5.08" y="-15.24" size="1.4224" layer="96">&gt;CN$</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="1734753-1">
-<gates>
-<gate name="G$1" symbol="USB_MINI" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="1734753-1">
-<connects>
-<connect gate="G$1" pin="P$1" pad="P$1"/>
-<connect gate="G$1" pin="P$2" pad="P$2"/>
-<connect gate="G$1" pin="P$3" pad="P$3"/>
-<connect gate="G$1" pin="P$4" pad="P$4"/>
-<connect gate="G$1" pin="P$5" pad="P$5"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="rcl">
 <description>&lt;b&gt;Resistors, Capacitors, Inductors&lt;/b&gt;&lt;p&gt;
 Based on the previous libraries:
@@ -23506,6 +23443,100 @@ at 30/07/2012 16:36:08</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="us-te-con">
+<packages>
+<package name="1734753-1_MINIUSB_CON">
+<wire x1="-2.5" y1="3.85" x2="2.5" y2="3.85" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-3.85" x2="2.5" y2="-3.85" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-3.85" x2="-2.5" y2="3.85" width="0.127" layer="21"/>
+<wire x1="2.5" y1="-3.85" x2="2.5" y2="3.85" width="0.127" layer="21"/>
+<pad name="P$1" x="-0.5" y="-1.6" drill="0.5" rot="R90"/>
+<pad name="P$2" x="0.5" y="-0.8" drill="0.5" rot="R90"/>
+<pad name="P$3" x="-0.5" y="0" drill="0.5" rot="R90"/>
+<pad name="P$4" x="0.5" y="0.8" drill="0.5" rot="R90"/>
+<pad name="P$5" x="-0.5" y="1.6" drill="0.5" rot="R90"/>
+<hole x="-1.75" y="3.1" drill="0.7"/>
+<hole x="-1.75" y="1.7" drill="0.7"/>
+<hole x="-1.75" y="3" drill="0.7"/>
+<hole x="-1.75" y="2.9" drill="0.7"/>
+<hole x="-1.75" y="-2.5" drill="0.7"/>
+<hole x="-1.75" y="-1.3" drill="0.7"/>
+<hole x="1.75" y="-0.6" drill="0.7"/>
+<hole x="1.75" y="0.6" drill="0.7"/>
+<hole x="-1.75" y="2.7" drill="0.7"/>
+<hole x="-1.75" y="2.8" drill="0.7"/>
+<hole x="-1.75" y="2.6" drill="0.7"/>
+<hole x="-1.75" y="2.5" drill="0.7"/>
+<hole x="-1.75" y="2.4" drill="0.7"/>
+<hole x="-1.75" y="2.3" drill="0.7"/>
+<hole x="-1.75" y="2.2" drill="0.7"/>
+<hole x="-1.75" y="2.1" drill="0.7"/>
+<hole x="-1.75" y="2" drill="0.7"/>
+<hole x="-1.75" y="1.8" drill="0.7"/>
+<hole x="1.75" y="-0.2" drill="0.7"/>
+<hole x="1.75" y="-0.3" drill="0.7"/>
+<hole x="1.75" y="-0.4" drill="0.7"/>
+<hole x="1.75" y="0.5" drill="0.7"/>
+<hole x="1.75" y="0.4" drill="0.7"/>
+<hole x="1.75" y="0.3" drill="0.7"/>
+<hole x="1.75" y="0.2" drill="0.7"/>
+<hole x="1.75" y="0.1" drill="0.7"/>
+<hole x="1.75" y="0" drill="0.7"/>
+<hole x="1.75" y="-0.1" drill="0.7"/>
+<hole x="1.75" y="-0.5" drill="0.7"/>
+<hole x="-1.75" y="1.9" drill="0.7"/>
+<hole x="-1.75" y="-1.4" drill="0.7"/>
+<hole x="-1.75" y="-1.5" drill="0.7"/>
+<hole x="-1.75" y="-1.8" drill="0.7"/>
+<hole x="-1.75" y="-1.9" drill="0.7"/>
+<hole x="-1.75" y="-2" drill="0.7"/>
+<hole x="-1.75" y="-1.7" drill="0.7"/>
+<hole x="-1.75" y="-1.6" drill="0.7"/>
+<hole x="-1.75" y="-2.1" drill="0.7"/>
+<hole x="-1.75" y="-2.2" drill="0.7"/>
+<hole x="-1.75" y="-2.3" drill="0.7"/>
+<hole x="-1.75" y="-1.4" drill="0.7"/>
+<hole x="-1.75" y="-2.4" drill="0.7"/>
+<text x="-2" y="4" size="1.27" layer="21">&gt;1734753-1</text>
+</package>
+</packages>
+<symbols>
+<symbol name="1734753-1_MINIUSB_CON">
+<wire x1="-5.08" y1="7.62" x2="5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-7.62" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-7.62" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
+<pin name="VCC" x="-10.16" y="-5.08" length="middle"/>
+<pin name="D-" x="10.16" y="-2.54" length="middle" rot="R180"/>
+<pin name="D+" x="-10.16" y="0" length="middle"/>
+<pin name="P$4" x="10.16" y="2.54" length="middle" rot="R180"/>
+<pin name="GND" x="-10.16" y="5.08" length="middle"/>
+<text x="-2.54" y="7.62" size="1.778" layer="95">&gt;H$</text>
+<text x="-5.08" y="-10.16" size="1.27" layer="96">&gt;1734753-1</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="1734753-1_MINIUSB_CON">
+<gates>
+<gate name="G$1" symbol="1734753-1_MINIUSB_CON" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1734753-1_MINIUSB_CON">
+<connects>
+<connect gate="G$1" pin="D+" pad="P$3"/>
+<connect gate="G$1" pin="D-" pad="P$2"/>
+<connect gate="G$1" pin="GND" pad="P$5"/>
+<connect gate="G$1" pin="P$4" pad="P$4"/>
+<connect gate="G$1" pin="VCC" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -23603,7 +23634,6 @@ at 30/07/2012 16:36:08</description>
 <part name="R16" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603"/>
 <part name="F5" library="SparkFun" deviceset="PTC" device="SMD" value="15V,0.5A"/>
 <part name="U$13" library="kyocera" deviceset="TCG043WQLBAANN-GN00" device=""/>
-<part name="U$15" library="con-tyco" library_urn="urn:adsk.eagle:library:192" deviceset="1734753-1" device=""/>
 <part name="U$14" library="DashAndCAN library" deviceset="ROTSWITCH" device=""/>
 <part name="R17" library="rcl" deviceset="R-US_" device="R0603" value="1k"/>
 <part name="R18" library="rcl" deviceset="R-US_" device="R0603" value="1k"/>
@@ -23671,6 +23701,7 @@ at 30/07/2012 16:36:08</description>
 <part name="C23" library="rcl" deviceset="C-US" device="C0603" value="10uF"/>
 <part name="C24" library="rcl" deviceset="C-US" device="C0603" value="10uF"/>
 <part name="RCOMM1" library="Vishay_By_element14_Batch_1" deviceset="TNPW12062K00BEEN" device="" value="17.2K"/>
+<part name="U$1" library="us-te-con" deviceset="1734753-1_MINIUSB_CON" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -23822,7 +23853,6 @@ at 30/07/2012 16:36:08</description>
 <instance part="R16" gate="G$1" x="-463.55" y="41.91"/>
 <instance part="F5" gate="G$1" x="-430.53" y="36.83" rot="R270"/>
 <instance part="U$13" gate="G$1" x="-439.42" y="218.44"/>
-<instance part="U$15" gate="G$1" x="-299.72" y="2.54"/>
 <instance part="U$14" gate="G$1" x="111.76" y="292.1" rot="R90"/>
 <instance part="R17" gate="G$1" x="86.36" y="262.89"/>
 <instance part="R18" gate="G$1" x="101.6" y="262.89"/>
@@ -23890,6 +23920,7 @@ at 30/07/2012 16:36:08</description>
 <instance part="C23" gate="G$1" x="-233.68" y="60.96"/>
 <instance part="C24" gate="G$1" x="-182.88" y="60.96"/>
 <instance part="RCOMM1" gate="A" x="111.76" y="76.2" rot="R90"/>
+<instance part="U$1" gate="G$1" x="-307.34" y="0"/>
 </instances>
 <busses>
 </busses>
@@ -24369,11 +24400,6 @@ at 30/07/2012 16:36:08</description>
 <label x="-449.58" y="34.29" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
-<wire x1="-307.34" y1="12.7" x2="-312.42" y2="12.7" width="0.1524" layer="91"/>
-<label x="-312.42" y="12.7" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$15" gate="G$1" pin="P$5"/>
-</segment>
-<segment>
 <wire x1="162.56" y1="255.27" x2="162.56" y2="284.48" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="284.48" x2="165.1" y2="284.48" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="284.48" x2="128.27" y2="284.48" width="0.1524" layer="91"/>
@@ -24536,6 +24562,11 @@ at 30/07/2012 16:36:08</description>
 <pinref part="LCD_CONN" gate="A" pin="1"/>
 <wire x1="-508" y1="236.22" x2="-513.08" y2="236.22" width="0.1524" layer="91"/>
 <label x="-513.08" y="236.22" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="GND"/>
+<wire x1="-317.5" y1="5.08" x2="-320.04" y2="5.08" width="0.1524" layer="91"/>
+<label x="-320.04" y="5.08" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="XTAL1" class="0">
@@ -25001,9 +25032,9 @@ at 30/07/2012 16:36:08</description>
 <pinref part="IC5" gate="G$1" pin="USBDM"/>
 </segment>
 <segment>
-<wire x1="-307.34" y1="-2.54" x2="-312.42" y2="-2.54" width="0.1524" layer="91"/>
-<label x="-312.42" y="-2.54" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$15" gate="G$1" pin="P$2"/>
+<pinref part="U$1" gate="G$1" pin="D-"/>
+<wire x1="-297.18" y1="-2.54" x2="-294.64" y2="-2.54" width="0.1524" layer="91"/>
+<label x="-294.64" y="-2.54" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="D+" class="0">
@@ -25013,9 +25044,9 @@ at 30/07/2012 16:36:08</description>
 <pinref part="IC5" gate="G$1" pin="USBDP"/>
 </segment>
 <segment>
-<wire x1="-307.34" y1="2.54" x2="-312.42" y2="2.54" width="0.1524" layer="91"/>
-<label x="-312.42" y="2.54" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$15" gate="G$1" pin="P$3"/>
+<pinref part="U$1" gate="G$1" pin="D+"/>
+<wire x1="-317.5" y1="0" x2="-320.04" y2="0" width="0.1524" layer="91"/>
+<label x="-320.04" y="0" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="VCC3O" class="0">
@@ -25029,14 +25060,14 @@ at 30/07/2012 16:36:08</description>
 </net>
 <net name="USB_V_IN" class="3">
 <segment>
-<wire x1="-307.34" y1="-7.62" x2="-312.42" y2="-7.62" width="0.1524" layer="91"/>
-<label x="-312.42" y="-7.62" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$15" gate="G$1" pin="P$1"/>
-</segment>
-<segment>
 <pinref part="F1" gate="G$1" pin="2"/>
 <wire x1="-322.58" y1="55.88" x2="-330.2" y2="55.88" width="0.1524" layer="91"/>
 <label x="-330.2" y="55.88" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="VCC"/>
+<wire x1="-317.5" y1="-5.08" x2="-320.04" y2="-5.08" width="0.1524" layer="91"/>
+<label x="-320.04" y="-5.08" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="DTR" class="0">
