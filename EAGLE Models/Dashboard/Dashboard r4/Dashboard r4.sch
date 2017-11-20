@@ -24742,23 +24742,6 @@ at 30/07/2012 16:36:08</description>
 <pinref part="IC1" gate="G$1" pin="(T0)PD7"/>
 </segment>
 </net>
-<net name="12V_PROTECTED" class="3">
-<segment>
-<pinref part="U$8" gate="G$1" pin="E"/>
-<wire x1="-495.3" y1="55.88" x2="-495.3" y2="62.23" width="0.1524" layer="91"/>
-<label x="-495.3" y="62.23" size="1.778" layer="95" rot="R90" xref="yes"/>
-</segment>
-<segment>
-<pinref part="U$10" gate="G$1" pin="E"/>
-<wire x1="-430.53" y1="129.54" x2="-430.53" y2="135.89" width="0.1524" layer="91"/>
-<label x="-430.53" y="135.89" size="1.778" layer="95" rot="R90" xref="yes"/>
-</segment>
-<segment>
-<pinref part="U$12" gate="G$1" pin="E"/>
-<wire x1="-430.53" y1="55.88" x2="-430.53" y2="62.23" width="0.1524" layer="91"/>
-<label x="-430.53" y="62.23" size="1.778" layer="95" rot="R90" xref="yes"/>
-</segment>
-</net>
 <net name="12V" class="2">
 <segment>
 <pinref part="U$22" gate="G$1" pin="P$1"/>
@@ -24797,6 +24780,21 @@ at 30/07/2012 16:36:08</description>
 <pinref part="CIN9" gate="G$1" pin="1"/>
 <junction x="74.93" y="86.36"/>
 <label x="73.66" y="119.38" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$10" gate="G$1" pin="E"/>
+<wire x1="-430.53" y1="129.54" x2="-430.53" y2="135.89" width="0.1524" layer="91"/>
+<label x="-430.53" y="135.89" size="1.778" layer="95" rot="R90" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$8" gate="G$1" pin="E"/>
+<wire x1="-495.3" y1="55.88" x2="-495.3" y2="62.23" width="0.1524" layer="91"/>
+<label x="-495.3" y="62.23" size="1.778" layer="95" rot="R90" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$12" gate="G$1" pin="E"/>
+<wire x1="-430.53" y1="55.88" x2="-430.53" y2="62.23" width="0.1524" layer="91"/>
+<label x="-430.53" y="62.23" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="N$11" class="0">
