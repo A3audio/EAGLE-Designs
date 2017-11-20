@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.4.2">
+<eagle version="8.3.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -11399,85 +11399,6 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="diode">
-<description>&lt;b&gt;Diodes&lt;/b&gt;&lt;p&gt;
-Based on the following sources:
-&lt;ul&gt;
-&lt;li&gt;Motorola : www.onsemi.com
-&lt;li&gt;Fairchild : www.fairchildsemi.com
-&lt;li&gt;Philips : www.semiconductors.com
-&lt;li&gt;Vishay : www.vishay.de
-&lt;/ul&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="DO41-7.6">
-<description>&lt;b&gt;DO41&lt;/b&gt; 7.6mm x 2mm&lt;p&gt;
-Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
-<wire x1="2.082" y1="-0.92" x2="-2.082" y2="-0.92" width="0.1524" layer="21"/>
-<wire x1="2.082" y1="-0.92" x2="2.082" y2="0.92" width="0.1524" layer="21"/>
-<wire x1="-2.082" y1="0.92" x2="2.082" y2="0.92" width="0.1524" layer="21"/>
-<wire x1="-2.082" y1="0.92" x2="-2.082" y2="-0.92" width="0.1524" layer="21"/>
-<wire x1="3.81" y1="0" x2="2.494" y2="0" width="0.85" layer="51"/>
-<wire x1="-3.81" y1="0" x2="-2.519" y2="0" width="0.85" layer="51"/>
-<wire x1="-0.635" y1="0" x2="0" y2="0" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="0.635" x2="1.016" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="-0.635" x2="0" y2="0" width="0.1524" layer="21"/>
-<wire x1="0" y1="0" x2="1.524" y2="0" width="0.1524" layer="21"/>
-<wire x1="0" y1="0" x2="1.016" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="0" y1="0.635" x2="0" y2="0" width="0.1524" layer="21"/>
-<wire x1="0" y1="0" x2="0" y2="-0.635" width="0.1524" layer="21"/>
-<pad name="C" x="-3.81" y="0" drill="1.1" diameter="1.7"/>
-<pad name="A" x="3.81" y="0" drill="1.1" diameter="1.7"/>
-<text x="-2.032" y="1.651" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-2.032" y="-2.921" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<rectangle x1="-1.651" y1="-0.95" x2="-1.143" y2="0.92" layer="21"/>
-<rectangle x1="2.082" y1="-0.425" x2="2.717" y2="0.425" layer="21"/>
-<rectangle x1="-2.717" y1="-0.425" x2="-2.082" y2="0.425" layer="21"/>
-</package>
-</packages>
-<symbols>
-<symbol name="SCHOTTKY">
-<wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
-<wire x1="1.905" y1="1.27" x2="1.27" y2="1.27" width="0.254" layer="94"/>
-<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="1.905" y1="1.27" x2="1.905" y2="1.016" width="0.254" layer="94"/>
-<wire x1="1.27" y1="-1.27" x2="0.635" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="0.635" y1="-1.016" x2="0.635" y2="-1.27" width="0.254" layer="94"/>
-<text x="-2.286" y="1.905" size="1.778" layer="95">&gt;NAME</text>
-<text x="-2.286" y="-3.429" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="A" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
-<pin name="C" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="1N581*" prefix="D">
-<description>&lt;b&gt;1.0A SCHOTTKY BARRIER RECTIFIER&lt;/b&gt;&lt;p&gt;
-Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
-<gates>
-<gate name="G$1" symbol="SCHOTTKY" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="DO41-7.6">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name="7-B"/>
-<technology name="7-T"/>
-<technology name="8-B"/>
-<technology name="8-T"/>
-<technology name="9-B"/>
-<technology name="9-T"/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="TE">
 <packages>
 <package name="SUPERSEAL1.0_26POS">
@@ -13557,6 +13478,65 @@ Source: http://focus.ti.com/lit/ds/symlink/opa725.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="diode">
+<description>&lt;b&gt;Diodes&lt;/b&gt;&lt;p&gt;
+Based on the following sources:
+&lt;ul&gt;
+&lt;li&gt;Motorola : www.onsemi.com
+&lt;li&gt;Fairchild : www.fairchildsemi.com
+&lt;li&gt;Philips : www.semiconductors.com
+&lt;li&gt;Vishay : www.vishay.de
+&lt;/ul&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="1N5819SM">
+<wire x1="-1.95" y1="0.85" x2="1.95" y2="0.85" width="0.127" layer="21"/>
+<wire x1="-1.95" y1="-0.85" x2="1.95" y2="-0.85" width="0.127" layer="21"/>
+<wire x1="-1.95" y1="0.85" x2="-1.95" y2="-0.85" width="0.127" layer="21"/>
+<wire x1="1.95" y1="0.85" x2="1.95" y2="-0.85" width="0.127" layer="21"/>
+<smd name="P$1" x="-1.575" y="0" dx="0.9" dy="0.95" layer="1" rot="R90"/>
+<smd name="P$2" x="1.575" y="0" dx="0.9" dy="0.95" layer="1" rot="R90"/>
+<text x="-2.032" y="-1.778" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="-2.032" y="1.27" size="0.8128" layer="25">&gt;NAME</text>
+<wire x1="-0.254" y1="0.508" x2="-0.254" y2="0" width="0.127" layer="21"/>
+<wire x1="-0.254" y1="0" x2="-0.254" y2="-0.508" width="0.127" layer="21"/>
+<wire x1="-0.254" y1="-0.508" x2="0.508" y2="0" width="0.127" layer="21"/>
+<wire x1="0.508" y1="0" x2="-0.254" y2="0.508" width="0.127" layer="21"/>
+<wire x1="0.508" y1="0" x2="1.143" y2="0" width="0.127" layer="21"/>
+<wire x1="-0.254" y1="0" x2="-1.1684" y2="0" width="0.127" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="DIODE">
+<wire x1="-1.27" y1="-1.905" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="-1.27" y2="1.905" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="1.905" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="1.397" y1="1.905" x2="1.397" y2="-1.905" width="0.254" layer="94"/>
+<text x="-2.3114" y="2.6416" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.5654" y="-4.4958" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="A" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+<pin name="C" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="1N5819">
+<gates>
+<gate name="G$1" symbol="DIODE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1N5819SM">
+<connects>
+<connect gate="G$1" pin="A" pad="P$1"/>
+<connect gate="G$1" pin="C" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -13615,7 +13595,6 @@ Source: http://focus.ti.com/lit/ds/symlink/opa725.pdf</description>
 <part name="C7" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="4.7nF"/>
 <part name="D3" library="adafruit" deviceset="DIODE" device="SOD-123" value="1N4148"/>
 <part name="SJ2" library="SparkFun-Passives" deviceset="SOLDERJUMPER" device="NO"/>
-<part name="D1" library="diode" deviceset="1N581*" device="" technology="9-B" value="1N5819"/>
 <part name="U$26" library="on-semiconductor" deviceset="NCP1117" device=""/>
 <part name="C23" library="rcl" deviceset="C-US" device="C0603" value="10uF"/>
 <part name="C24" library="rcl" deviceset="C-US" device="C0603" value="10uF"/>
@@ -13695,6 +13674,7 @@ Source: http://focus.ti.com/lit/ds/symlink/opa725.pdf</description>
 <part name="C48" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value=".33uF"/>
 <part name="R37" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="0"/>
 <part name="U$1" library="us-te-con" deviceset="1734753-1_MINIUSB_CON" device=""/>
+<part name="U$4" library="diode" deviceset="1N5819" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -13808,7 +13788,6 @@ Revised By Daniel Baron</text>
 <instance part="C7" gate="G$1" x="472.44" y="-116.84"/>
 <instance part="D3" gate="G$1" x="480.06" y="-106.68" rot="R90"/>
 <instance part="SJ2" gate="1" x="454.66" y="-114.3"/>
-<instance part="D1" gate="G$1" x="40.64" y="-30.48"/>
 <instance part="U$26" gate="G$1" x="78.74" y="-30.48"/>
 <instance part="C23" gate="G$1" x="50.8" y="-38.1"/>
 <instance part="C24" gate="G$1" x="101.6" y="-38.1"/>
@@ -13888,6 +13867,7 @@ Revised By Daniel Baron</text>
 <instance part="C48" gate="G$1" x="342.9" y="43.18" rot="R90"/>
 <instance part="R37" gate="G$1" x="525.78" y="-40.64" rot="R270"/>
 <instance part="U$1" gate="G$1" x="378.46" y="-185.42"/>
+<instance part="U$4" gate="G$1" x="40.64" y="-30.48"/>
 </instances>
 <busses>
 </busses>
@@ -14618,9 +14598,9 @@ Revised By Daniel Baron</text>
 <junction x="30.48" y="-71.12"/>
 </segment>
 <segment>
-<pinref part="D1" gate="G$1" pin="A"/>
 <wire x1="38.1" y1="-30.48" x2="30.48" y2="-30.48" width="0.1524" layer="91"/>
 <label x="30.48" y="-30.48" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$4" gate="G$1" pin="A"/>
 </segment>
 <segment>
 <pinref part="F3" gate="G$1" pin="1"/>
@@ -14784,9 +14764,9 @@ Revised By Daniel Baron</text>
 <wire x1="50.8" y1="-35.56" x2="50.8" y2="-30.48" width="0.1524" layer="91"/>
 <pinref part="U$26" gate="G$1" pin="INPUT"/>
 <wire x1="50.8" y1="-30.48" x2="63.5" y2="-30.48" width="0.1524" layer="91"/>
-<pinref part="D1" gate="G$1" pin="C"/>
 <wire x1="43.18" y1="-30.48" x2="50.8" y2="-30.48" width="0.1524" layer="91"/>
 <junction x="50.8" y="-30.48"/>
+<pinref part="U$4" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="N$1" class="0">
