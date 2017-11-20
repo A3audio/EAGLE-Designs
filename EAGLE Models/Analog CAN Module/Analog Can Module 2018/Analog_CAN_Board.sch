@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.3.2">
+<eagle version="8.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -13,12 +13,12 @@
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
 <layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="6" name="Route6" color="10" fill="1" visible="no" active="no"/>
 <layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
 <layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
 <layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
 <layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="11" fill="1" visible="no" active="no"/>
 <layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
@@ -27,7 +27,7 @@
 <layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="no"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
@@ -11434,20 +11434,6 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <rectangle x1="2.082" y1="-0.425" x2="2.717" y2="0.425" layer="21"/>
 <rectangle x1="-2.717" y1="-0.425" x2="-2.082" y2="0.425" layer="21"/>
 </package>
-<package name="SOD123">
-<description>&lt;b&gt;Diode&lt;/b&gt;</description>
-<wire x1="-1.1" y1="0.7" x2="1.1" y2="0.7" width="0.254" layer="51"/>
-<wire x1="1.1" y1="0.7" x2="1.1" y2="-0.7" width="0.254" layer="51"/>
-<wire x1="1.1" y1="-0.7" x2="-1.1" y2="-0.7" width="0.254" layer="51"/>
-<wire x1="-1.1" y1="-0.7" x2="-1.1" y2="0.7" width="0.254" layer="51"/>
-<smd name="C" x="-1.9" y="0" dx="1.4" dy="1.4" layer="1"/>
-<smd name="A" x="1.9" y="0" dx="1.4" dy="1.4" layer="1"/>
-<text x="-1.1" y="1" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.1" y="-2.3" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-1.95" y1="-0.45" x2="-1.2" y2="0.4" layer="51"/>
-<rectangle x1="1.2" y1="-0.45" x2="1.95" y2="0.4" layer="51"/>
-<rectangle x1="-1.05" y1="-0.65" x2="-0.15" y2="0.7" layer="51"/>
-</package>
 </packages>
 <symbols>
 <symbol name="SCHOTTKY">
@@ -11484,17 +11470,6 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <technology name="7-T"/>
 <technology name="8-B"/>
 <technology name="8-T"/>
-<technology name="9-B"/>
-<technology name="9-T"/>
-</technologies>
-</device>
-<device name="SOD123" package="SOD123">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name=""/>
 <technology name="9-B"/>
 <technology name="9-T"/>
 </technologies>
@@ -11600,69 +11575,6 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <connect gate="G$1" pin="B7" pad="B7"/>
 <connect gate="G$1" pin="B8" pad="B8"/>
 <connect gate="G$1" pin="B9" pad="B9"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="con-tyco">
-<description>&lt;b&gt;Tyco Connectors&lt;/b&gt;&lt;p&gt;
- &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="1734753-1">
-<pad name="P$1" x="-0.5" y="-1.6" drill="0.7" diameter="1.1"/>
-<pad name="P$2" x="0.5" y="-0.8" drill="0.7" diameter="1.1"/>
-<pad name="P$3" x="-0.5" y="0" drill="0.7" diameter="1.1" rot="R180"/>
-<pad name="P$4" x="0.5" y="0.8" drill="0.7" diameter="1.1"/>
-<pad name="P$5" x="-0.5" y="1.6" drill="0.7" diameter="1.1"/>
-<rectangle x1="-2.1" y1="1.7" x2="-1.4" y2="3.1" layer="45"/>
-<rectangle x1="1.4" y1="-0.6" x2="2.1" y2="0.6" layer="45"/>
-<rectangle x1="-2.1" y1="-2.5" x2="-1.4" y2="-1.3" layer="45"/>
-<circle x="-1.75" y="3.1" radius="0.25" width="0.2" layer="45"/>
-<circle x="-1.75" y="1.7" radius="0.25" width="0.2" layer="45"/>
-<circle x="-1.75" y="-1.3" radius="0.25" width="0.2" layer="45"/>
-<circle x="-1.75" y="-2.5" radius="0.25" width="0.2" layer="45"/>
-<circle x="1.75" y="0.6" radius="0.25" width="0.2" layer="45"/>
-<circle x="1.75" y="-0.6" radius="0.25" width="0.2" layer="45"/>
-<text x="-2.286" y="4.191" size="0.6096" layer="21">&gt;1734753-1</text>
-<wire x1="-2.5" y1="-3.85" x2="-2.5" y2="3.85" width="0.127" layer="21"/>
-<wire x1="2.5" y1="-3.85" x2="2.5" y2="3.85" width="0.127" layer="21"/>
-<wire x1="-2.5" y1="3.85" x2="2.5" y2="3.85" width="0.127" layer="21"/>
-<wire x1="-2.5" y1="-3.85" x2="2.5" y2="-3.85" width="0.127" layer="21"/>
-</package>
-</packages>
-<symbols>
-<symbol name="USB_MINI">
-<wire x1="-5.08" y1="12.7" x2="-5.08" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-12.7" x2="5.08" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-12.7" x2="5.08" y2="12.7" width="0.254" layer="94"/>
-<wire x1="5.08" y1="12.7" x2="-5.08" y2="12.7" width="0.254" layer="94"/>
-<pin name="P$5" x="-7.62" y="10.16" length="short"/>
-<pin name="P$4" x="-7.62" y="5.08" length="short"/>
-<pin name="P$3" x="-7.62" y="0" length="short"/>
-<pin name="P$2" x="-7.62" y="-5.08" length="short"/>
-<pin name="P$1" x="-7.62" y="-10.16" length="short"/>
-<text x="-5.334" y="13.462" size="1.4224" layer="95">&gt;1734753-1</text>
-<text x="-5.08" y="-15.24" size="1.4224" layer="96">&gt;CN$</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="1734753-1">
-<gates>
-<gate name="G$1" symbol="USB_MINI" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="1734753-1">
-<connects>
-<connect gate="G$1" pin="P$1" pad="P$1"/>
-<connect gate="G$1" pin="P$2" pad="P$2"/>
-<connect gate="G$1" pin="P$3" pad="P$3"/>
-<connect gate="G$1" pin="P$4" pad="P$4"/>
-<connect gate="G$1" pin="P$5" pad="P$5"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13579,6 +13491,72 @@ Source: http://focus.ti.com/lit/ds/symlink/opa725.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="us-te-con">
+<packages>
+<package name="1734753-1_MINIUSB_CON">
+<wire x1="-2.5" y1="3.85" x2="2.5" y2="3.85" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-3.85" x2="2.5" y2="-3.85" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-3.85" x2="-2.5" y2="3.85" width="0.127" layer="21"/>
+<wire x1="2.5" y1="-3.85" x2="2.5" y2="3.85" width="0.127" layer="21"/>
+<pad name="P$1" x="-0.5" y="-1.6" drill="0.5" rot="R90"/>
+<pad name="P$2" x="0.5" y="-0.8" drill="0.5" rot="R90"/>
+<pad name="P$3" x="-0.5" y="0" drill="0.5" rot="R90"/>
+<pad name="P$4" x="0.5" y="0.8" drill="0.5" rot="R90"/>
+<pad name="P$5" x="-0.5" y="1.6" drill="0.5" rot="R90"/>
+<text x="-2" y="4" size="1.27" layer="21">&gt;1734753-1</text>
+<rectangle x1="1.397" y1="-0.9652" x2="2.1082" y2="0.9652" layer="46"/>
+<polygon width="0.0254" layer="46">
+<vertex x="-2.0828" y="-0.9398"/>
+<vertex x="-1.397" y="-0.9398"/>
+<vertex x="-1.397" y="-2.8702"/>
+<vertex x="-2.1082" y="-2.8702"/>
+<vertex x="-2.1082" y="-0.9398"/>
+</polygon>
+<polygon width="0.0254" layer="46">
+<vertex x="-2.1082" y="3.4544"/>
+<vertex x="-1.397" y="3.4544"/>
+<vertex x="-1.397" y="1.3462"/>
+<vertex x="-2.1082" y="1.3462"/>
+</polygon>
+</package>
+</packages>
+<symbols>
+<symbol name="1734753-1_MINIUSB_CON">
+<wire x1="-5.08" y1="7.62" x2="5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-7.62" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-7.62" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
+<pin name="VCC" x="-10.16" y="-5.08" length="middle"/>
+<pin name="D-" x="10.16" y="-2.54" length="middle" rot="R180"/>
+<pin name="D+" x="-10.16" y="0" length="middle"/>
+<pin name="P$4" x="10.16" y="2.54" length="middle" rot="R180"/>
+<pin name="GND" x="-10.16" y="5.08" length="middle"/>
+<text x="-2.54" y="7.62" size="1.778" layer="95">&gt;H$</text>
+<text x="-5.08" y="-10.16" size="1.27" layer="96">&gt;1734753-1</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="1734753-1_MINIUSB_CON">
+<gates>
+<gate name="G$1" symbol="1734753-1_MINIUSB_CON" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1734753-1_MINIUSB_CON">
+<connects>
+<connect gate="G$1" pin="D+" pad="P$3"/>
+<connect gate="G$1" pin="D-" pad="P$2"/>
+<connect gate="G$1" pin="GND" pad="P$5"/>
+<connect gate="G$1" pin="P$4" pad="P$4"/>
+<connect gate="G$1" pin="VCC" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -13637,15 +13615,14 @@ Source: http://focus.ti.com/lit/ds/symlink/opa725.pdf</description>
 <part name="C7" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="4.7nF"/>
 <part name="D3" library="adafruit" deviceset="DIODE" device="SOD-123" value="1N4148"/>
 <part name="SJ2" library="SparkFun-Passives" deviceset="SOLDERJUMPER" device="NO"/>
-<part name="U$4" library="con-tyco" deviceset="1734753-1" device=""/>
-<part name="D1" library="diode" deviceset="1N581*" device="SOD123" technology="9-B" value="1N5819"/>
+<part name="D1" library="diode" deviceset="1N581*" device="" technology="9-B" value="1N5819"/>
 <part name="U$26" library="on-semiconductor" deviceset="NCP1117" device=""/>
 <part name="C23" library="rcl" deviceset="C-US" device="C0603" value="10uF"/>
 <part name="C24" library="rcl" deviceset="C-US" device="C0603" value="10uF"/>
 <part name="U$2" library="diodes-inc" deviceset="MMBD4448H-7-F" device=""/>
 <part name="F3" library="LittleFuse" deviceset="?" device="0805L" technology="050"/>
 <part name="H7" library="SparkFun-Connectors" deviceset="M03X2" device="SMD_FCI" value="ICSP"/>
-<part name="R1" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="1.7k"/>
+<part name="R1" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="3.9k"/>
 <part name="C3" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value=".1uF"/>
 <part name="R11" library="Vishay_By_element14_Batch_1" deviceset="WSLP0603R0100FEA" device="" value=".01 Ohm"/>
 <part name="R12" library="Vishay_By_element14_Batch_1" deviceset="WSLP0603R0100FEA" device="" value=".01 Ohm"/>
@@ -13653,70 +13630,71 @@ Source: http://focus.ti.com/lit/ds/symlink/opa725.pdf</description>
 <part name="R13" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="0"/>
 <part name="C4" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value=".1uF"/>
 <part name="C5" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value=".1uF"/>
-<part name="R28" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="2.1k"/>
+<part name="R28" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="5.1k"/>
 <part name="C6" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value=".33uF"/>
 <part name="IC6" library="maxim" deviceset="MAX680CSA" device=""/>
 <part name="C8" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="4.7uF"/>
 <part name="C11" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="4.7uF"/>
 <part name="C13" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="4.7uF"/>
 <part name="C12" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="4.7uF"/>
-<part name="R14" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="1.7k"/>
+<part name="R14" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="3.9k"/>
 <part name="C14" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value=".1uF"/>
 <part name="IC7" library="linear" deviceset="OPA725" device="DBV"/>
 <part name="R15" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="0"/>
 <part name="C15" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value=".1uF"/>
 <part name="C16" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value=".1uF"/>
-<part name="R16" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="2.1k"/>
+<part name="R16" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="5.1k"/>
 <part name="C17" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value=".33uF"/>
-<part name="R17" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="1.7k"/>
+<part name="R17" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="3.9k"/>
 <part name="C21" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value=".1uF"/>
 <part name="IC8" library="linear" deviceset="OPA725" device="DBV"/>
 <part name="R18" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="0"/>
 <part name="C22" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value=".1uF"/>
 <part name="C25" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value=".1uF"/>
-<part name="R19" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="2.1k"/>
+<part name="R19" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="5.1k"/>
 <part name="C26" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value=".33uF"/>
-<part name="R20" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="1.7k"/>
+<part name="R20" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="3.9k"/>
 <part name="C27" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value=".1uF"/>
 <part name="IC9" library="linear" deviceset="OPA725" device="DBV"/>
 <part name="R21" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="0"/>
 <part name="C28" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value=".1uF"/>
 <part name="C29" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value=".1uF"/>
-<part name="R22" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="2.1k"/>
+<part name="R22" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="5.1k"/>
 <part name="C30" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value=".33uF"/>
-<part name="R23" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="1.7k"/>
+<part name="R23" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="3.9k"/>
 <part name="C31" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value=".1uF"/>
 <part name="IC10" library="linear" deviceset="OPA725" device="DBV"/>
 <part name="R24" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="0"/>
 <part name="C32" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value=".1uF"/>
 <part name="C33" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value=".1uF"/>
-<part name="R25" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="2.1k"/>
+<part name="R25" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="5.1k"/>
 <part name="C34" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value=".33uF"/>
-<part name="R26" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="1.7k"/>
+<part name="R26" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="3.9k"/>
 <part name="C35" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value=".1uF"/>
 <part name="IC11" library="linear" deviceset="OPA725" device="DBV"/>
 <part name="R27" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="0"/>
 <part name="C36" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value=".1uF"/>
 <part name="C39" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value=".1uF"/>
-<part name="R29" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="2.1k"/>
+<part name="R29" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="5.1k"/>
 <part name="C40" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value=".33uF"/>
-<part name="R30" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="1.7k"/>
+<part name="R30" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="3.9k"/>
 <part name="C41" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value=".1uF"/>
 <part name="IC12" library="linear" deviceset="OPA725" device="DBV"/>
 <part name="R31" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="0"/>
 <part name="C42" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value=".1uF"/>
 <part name="C43" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value=".1uF"/>
-<part name="R32" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="2.1k"/>
+<part name="R32" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="5.1k"/>
 <part name="C44" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value=".33uF"/>
-<part name="R33" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="1.7k"/>
+<part name="R33" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="3.9k"/>
 <part name="C45" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value=".1uF"/>
 <part name="IC13" library="linear" deviceset="OPA725" device="DBV"/>
 <part name="R34" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="0"/>
 <part name="C46" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value=".1uF"/>
 <part name="C47" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value=".1uF"/>
-<part name="R35" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="2.1k"/>
+<part name="R35" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="5.1k"/>
 <part name="C48" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value=".33uF"/>
 <part name="R37" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="0"/>
+<part name="U$1" library="us-te-con" deviceset="1734753-1_MINIUSB_CON" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -13765,10 +13743,10 @@ Revised By Daniel Baron</text>
 <wire x1="431.8" y1="-129.54" x2="431.8" y2="-88.9" width="0.3048" layer="94"/>
 <text x="447.04" y="-99.06" size="1.778" layer="95">RESET PIN</text>
 <text x="436.88" y="-127" size="1.778" layer="91">Credit: Thomas Wilson Senior Project</text>
-<wire x1="360.68" y1="-162.56" x2="360.68" y2="-205.74" width="0.1524" layer="94"/>
-<wire x1="360.68" y1="-205.74" x2="396.24" y2="-205.74" width="0.1524" layer="94"/>
+<wire x1="358.14" y1="-162.56" x2="358.14" y2="-205.74" width="0.1524" layer="94"/>
+<wire x1="358.14" y1="-205.74" x2="396.24" y2="-205.74" width="0.1524" layer="94"/>
 <wire x1="396.24" y1="-205.74" x2="396.24" y2="-162.56" width="0.1524" layer="94"/>
-<wire x1="396.24" y1="-162.56" x2="360.68" y2="-162.56" width="0.1524" layer="94"/>
+<wire x1="396.24" y1="-162.56" x2="358.14" y2="-162.56" width="0.1524" layer="94"/>
 <text x="363.22" y="-165.1" size="1.778" layer="94">USB Mini Connector</text>
 <text x="35.56" y="-25.4" size="1.778" layer="97">POWER SUPPLY</text>
 <text x="25.4" y="-17.78" size="1.778" layer="91">Credit: Daniel Baron Senior Project</text>
@@ -13830,7 +13808,6 @@ Revised By Daniel Baron</text>
 <instance part="C7" gate="G$1" x="472.44" y="-116.84"/>
 <instance part="D3" gate="G$1" x="480.06" y="-106.68" rot="R90"/>
 <instance part="SJ2" gate="1" x="454.66" y="-114.3"/>
-<instance part="U$4" gate="G$1" x="383.54" y="-185.42"/>
 <instance part="D1" gate="G$1" x="40.64" y="-30.48"/>
 <instance part="U$26" gate="G$1" x="78.74" y="-30.48"/>
 <instance part="C23" gate="G$1" x="50.8" y="-38.1"/>
@@ -13910,6 +13887,7 @@ Revised By Daniel Baron</text>
 <instance part="R35" gate="G$1" x="314.96" y="27.94" rot="R180"/>
 <instance part="C48" gate="G$1" x="342.9" y="43.18" rot="R90"/>
 <instance part="R37" gate="G$1" x="525.78" y="-40.64" rot="R270"/>
+<instance part="U$1" gate="G$1" x="378.46" y="-185.42"/>
 </instances>
 <busses>
 </busses>
@@ -13979,9 +13957,10 @@ Revised By Daniel Baron</text>
 <pinref part="D3" gate="G$1" pin="C"/>
 </segment>
 <segment>
-<pinref part="U$4" gate="G$1" pin="P$1"/>
-<wire x1="373.38" y1="-195.58" x2="375.92" y2="-195.58" width="0.1524" layer="91"/>
-<label x="368.3" y="-195.58" size="1.778" layer="95"/>
+<label x="360.68" y="-190.5" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$1" pin="VCC"/>
+<wire x1="365.76" y1="-190.5" x2="363.22" y2="-190.5" width="0.1524" layer="91"/>
+<wire x1="365.76" y1="-190.5" x2="368.3" y2="-190.5" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$26" gate="G$1" pin="OUTPUT"/>
@@ -14716,9 +14695,9 @@ Revised By Daniel Baron</text>
 <pinref part="IC5" gate="G$1" pin="USBDM"/>
 </segment>
 <segment>
-<pinref part="U$4" gate="G$1" pin="P$2"/>
-<wire x1="373.38" y1="-190.5" x2="375.92" y2="-190.5" width="0.1524" layer="91"/>
-<label x="368.3" y="-190.5" size="1.778" layer="95"/>
+<label x="391.16" y="-187.96" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$1" pin="D-"/>
+<wire x1="393.7" y1="-187.96" x2="388.62" y2="-187.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="D+" class="0">
@@ -14728,9 +14707,9 @@ Revised By Daniel Baron</text>
 <pinref part="IC5" gate="G$1" pin="USBDP"/>
 </segment>
 <segment>
-<pinref part="U$4" gate="G$1" pin="P$3"/>
-<wire x1="373.38" y1="-185.42" x2="375.92" y2="-185.42" width="0.1524" layer="91"/>
-<label x="368.3" y="-185.42" size="1.778" layer="95"/>
+<label x="363.22" y="-185.42" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$1" pin="D+"/>
+<wire x1="363.22" y1="-185.42" x2="368.3" y2="-185.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VCC3O" class="0">
@@ -14797,12 +14776,6 @@ Revised By Daniel Baron</text>
 <pinref part="R35" gate="G$1" pin="2"/>
 <wire x1="309.88" y1="27.94" x2="304.8" y2="27.94" width="0.1524" layer="91"/>
 <label x="304.8" y="27.94" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="N$4" class="0">
-<segment>
-<pinref part="U$4" gate="G$1" pin="P$4"/>
-<wire x1="373.38" y1="-180.34" x2="375.92" y2="-180.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="5V_REG_IN" class="0">
@@ -15095,9 +15068,9 @@ Revised By Daniel Baron</text>
 <label x="322.58" y="-213.36" size="1.016" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$4" gate="G$1" pin="P$5"/>
-<wire x1="375.92" y1="-175.26" x2="373.38" y2="-175.26" width="0.1524" layer="91"/>
-<label x="368.3" y="-175.26" size="1.778" layer="95"/>
+<label x="360.68" y="-180.34" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$1" pin="GND"/>
+<wire x1="363.22" y1="-180.34" x2="368.3" y2="-180.34" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="281.94" y1="-203.2" x2="281.94" y2="-205.74" width="0.1524" layer="91"/>

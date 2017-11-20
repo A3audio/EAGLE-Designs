@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.3.2">
+<eagle version="8.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -13075,6 +13075,7 @@ It has reduced top mask to make it harder to put the component on the wrong side
 <rectangle x1="-2.032" y1="1.524" x2="2.032" y2="2.032" layer="94"/>
 <pin name="1" x="0" y="5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
 <pin name="2" x="0" y="-2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
+<rectangle x1="-2.032" y1="1.524" x2="2.032" y2="2.032" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -13530,20 +13531,6 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <rectangle x1="2.082" y1="-0.425" x2="2.717" y2="0.425" layer="21"/>
 <rectangle x1="-2.717" y1="-0.425" x2="-2.082" y2="0.425" layer="21"/>
 </package>
-<package name="SOD123">
-<description>&lt;b&gt;Diode&lt;/b&gt;</description>
-<wire x1="-1.1" y1="0.7" x2="1.1" y2="0.7" width="0.254" layer="51"/>
-<wire x1="1.1" y1="0.7" x2="1.1" y2="-0.7" width="0.254" layer="51"/>
-<wire x1="1.1" y1="-0.7" x2="-1.1" y2="-0.7" width="0.254" layer="51"/>
-<wire x1="-1.1" y1="-0.7" x2="-1.1" y2="0.7" width="0.254" layer="51"/>
-<smd name="C" x="-1.9" y="0" dx="1.4" dy="1.4" layer="1"/>
-<smd name="A" x="1.9" y="0" dx="1.4" dy="1.4" layer="1"/>
-<text x="-1.1" y="1" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.1" y="-2.3" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-1.95" y1="-0.45" x2="-1.2" y2="0.4" layer="51"/>
-<rectangle x1="1.2" y1="-0.45" x2="1.95" y2="0.4" layer="51"/>
-<rectangle x1="-1.05" y1="-0.65" x2="-0.15" y2="0.7" layer="51"/>
-</package>
 </packages>
 <symbols>
 <symbol name="SCHOTTKY">
@@ -13580,17 +13567,6 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <technology name="7-T"/>
 <technology name="8-B"/>
 <technology name="8-T"/>
-<technology name="9-B"/>
-<technology name="9-T"/>
-</technologies>
-</device>
-<device name="SOD123" package="SOD123">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name=""/>
 <technology name="9-B"/>
 <technology name="9-T"/>
 </technologies>
@@ -14955,69 +14931,6 @@ Source: &lt;a href="http://www.littelfuse.com/products/resettable-ptcs.aspx"&gt;
 </deviceset>
 </devicesets>
 </library>
-<library name="con-tyco">
-<description>&lt;b&gt;Tyco Connectors&lt;/b&gt;&lt;p&gt;
- &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="1734753-1">
-<pad name="P$1" x="-0.5" y="-1.6" drill="0.7" diameter="1.1"/>
-<pad name="P$2" x="0.5" y="-0.8" drill="0.7" diameter="1.1"/>
-<pad name="P$3" x="-0.5" y="0" drill="0.7" diameter="1.1" rot="R180"/>
-<pad name="P$4" x="0.5" y="0.8" drill="0.7" diameter="1.1"/>
-<pad name="P$5" x="-0.5" y="1.6" drill="0.7" diameter="1.1"/>
-<rectangle x1="-2.1" y1="1.7" x2="-1.4" y2="3.1" layer="45"/>
-<rectangle x1="1.4" y1="-0.6" x2="2.1" y2="0.6" layer="45"/>
-<rectangle x1="-2.1" y1="-2.5" x2="-1.4" y2="-1.3" layer="45"/>
-<circle x="-1.75" y="3.1" radius="0.25" width="0.2" layer="45"/>
-<circle x="-1.75" y="1.7" radius="0.25" width="0.2" layer="45"/>
-<circle x="-1.75" y="-1.3" radius="0.25" width="0.2" layer="45"/>
-<circle x="-1.75" y="-2.5" radius="0.25" width="0.2" layer="45"/>
-<circle x="1.75" y="0.6" radius="0.25" width="0.2" layer="45"/>
-<circle x="1.75" y="-0.6" radius="0.25" width="0.2" layer="45"/>
-<text x="-2.286" y="4.191" size="0.6096" layer="21">&gt;1734753-1</text>
-<wire x1="-2.5" y1="-3.85" x2="-2.5" y2="3.85" width="0.127" layer="21"/>
-<wire x1="2.5" y1="-3.85" x2="2.5" y2="3.85" width="0.127" layer="21"/>
-<wire x1="-2.5" y1="3.85" x2="2.5" y2="3.85" width="0.127" layer="21"/>
-<wire x1="-2.5" y1="-3.85" x2="2.5" y2="-3.85" width="0.127" layer="21"/>
-</package>
-</packages>
-<symbols>
-<symbol name="USB_MINI">
-<wire x1="-5.08" y1="12.7" x2="-5.08" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-12.7" x2="5.08" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-12.7" x2="5.08" y2="12.7" width="0.254" layer="94"/>
-<wire x1="5.08" y1="12.7" x2="-5.08" y2="12.7" width="0.254" layer="94"/>
-<pin name="P$5" x="-7.62" y="10.16" length="short"/>
-<pin name="P$4" x="-7.62" y="5.08" length="short"/>
-<pin name="P$3" x="-7.62" y="0" length="short"/>
-<pin name="P$2" x="-7.62" y="-5.08" length="short"/>
-<pin name="P$1" x="-7.62" y="-10.16" length="short"/>
-<text x="-5.334" y="13.462" size="1.4224" layer="95">&gt;1734753-1</text>
-<text x="-5.08" y="-15.24" size="1.4224" layer="96">&gt;CN$</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="1734753-1">
-<gates>
-<gate name="G$1" symbol="USB_MINI" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="1734753-1">
-<connects>
-<connect gate="G$1" pin="P$1" pad="P$1"/>
-<connect gate="G$1" pin="P$2" pad="P$2"/>
-<connect gate="G$1" pin="P$3" pad="P$3"/>
-<connect gate="G$1" pin="P$4" pad="P$4"/>
-<connect gate="G$1" pin="P$5" pad="P$5"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="SparkFun-Connectors">
 <description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
 In this library you'll find connectors and sockets- basically anything that can be plugged into or onto.&lt;br&gt;&lt;br&gt;
@@ -15407,6 +15320,72 @@ Pogo pins- HW-11044</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="us-te-con">
+<packages>
+<package name="1734753-1_MINIUSB_CON">
+<wire x1="-2.5" y1="3.85" x2="2.5" y2="3.85" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-3.85" x2="2.5" y2="-3.85" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-3.85" x2="-2.5" y2="3.85" width="0.127" layer="21"/>
+<wire x1="2.5" y1="-3.85" x2="2.5" y2="3.85" width="0.127" layer="21"/>
+<pad name="P$1" x="-0.5" y="-1.6" drill="0.5" rot="R90"/>
+<pad name="P$2" x="0.5" y="-0.8" drill="0.5" rot="R90"/>
+<pad name="P$3" x="-0.5" y="0" drill="0.5" rot="R90"/>
+<pad name="P$4" x="0.5" y="0.8" drill="0.5" rot="R90"/>
+<pad name="P$5" x="-0.5" y="1.6" drill="0.5" rot="R90"/>
+<text x="-2" y="4" size="1.27" layer="21">&gt;1734753-1</text>
+<rectangle x1="1.397" y1="-0.9652" x2="2.1082" y2="0.9652" layer="46"/>
+<polygon width="0.0254" layer="46">
+<vertex x="-2.0828" y="-0.9398"/>
+<vertex x="-1.397" y="-0.9398"/>
+<vertex x="-1.397" y="-2.8702"/>
+<vertex x="-2.1082" y="-2.8702"/>
+<vertex x="-2.1082" y="-0.9398"/>
+</polygon>
+<polygon width="0.0254" layer="46">
+<vertex x="-2.1082" y="3.4544"/>
+<vertex x="-1.397" y="3.4544"/>
+<vertex x="-1.397" y="1.3462"/>
+<vertex x="-2.1082" y="1.3462"/>
+</polygon>
+</package>
+</packages>
+<symbols>
+<symbol name="1734753-1_MINIUSB_CON">
+<wire x1="-5.08" y1="7.62" x2="5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-7.62" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-7.62" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
+<pin name="VCC" x="-10.16" y="-5.08" length="middle"/>
+<pin name="D-" x="10.16" y="-2.54" length="middle" rot="R180"/>
+<pin name="D+" x="-10.16" y="0" length="middle"/>
+<pin name="P$4" x="10.16" y="2.54" length="middle" rot="R180"/>
+<pin name="GND" x="-10.16" y="5.08" length="middle"/>
+<text x="-2.54" y="7.62" size="1.778" layer="95">&gt;H$</text>
+<text x="-5.08" y="-10.16" size="1.27" layer="96">&gt;1734753-1</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="1734753-1_MINIUSB_CON">
+<gates>
+<gate name="G$1" symbol="1734753-1_MINIUSB_CON" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1734753-1_MINIUSB_CON">
+<connects>
+<connect gate="G$1" pin="D+" pad="P$3"/>
+<connect gate="G$1" pin="D-" pad="P$2"/>
+<connect gate="G$1" pin="GND" pad="P$5"/>
+<connect gate="G$1" pin="P$4" pad="P$4"/>
+<connect gate="G$1" pin="VCC" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -15509,7 +15488,6 @@ Pogo pins- HW-11044</description>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k"/>
 <part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k"/>
 <part name="SJ1" library="SparkFun-Passives" deviceset="SOLDERJUMPER" device="NO"/>
-<part name="U$4" library="con-tyco" deviceset="1734753-1" device=""/>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="VCC!" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/1" value="PWR"/>
 <part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1K"/>
@@ -15521,7 +15499,7 @@ Pogo pins- HW-11044</description>
 <part name="U$10V2V5" library="DashAndCAN library" deviceset="MAX6350CSA" device=""/>
 <part name="C37" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="2.2uF"/>
 <part name="C38" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="2.2uF"/>
-<part name="D2" library="diode" deviceset="1N581*" device="SOD123" technology="9-B" value="1N5819"/>
+<part name="D2" library="diode" deviceset="1N581*" device="" technology="9-B" value="1N5819"/>
 <part name="C23" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10uF"/>
 <part name="C24" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10uF"/>
 <part name="U$3" library="TE" deviceset="SUPERSEAL1.0_26POS" device=""/>
@@ -15530,6 +15508,7 @@ Pogo pins- HW-11044</description>
 <part name="U$26" library="on-semiconductor" deviceset="NCP1117" device=""/>
 <part name="H7" library="SparkFun-Connectors" deviceset="M03X2" device="SMD_FCI" value="ICSP"/>
 <part name="R10" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="0"/>
+<part name="U$1" library="us-te-con" deviceset="1734753-1_MINIUSB_CON" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -15690,7 +15669,6 @@ Revised By Daniel Baron</text>
 <instance part="R2" gate="G$1" x="383.54" y="-228.6"/>
 <instance part="R7" gate="G$1" x="391.16" y="-231.14"/>
 <instance part="SJ1" gate="1" x="378.46" y="-327.66"/>
-<instance part="U$4" gate="G$1" x="200.66" y="-223.52"/>
 <instance part="P+3" gate="VCC" x="-86.36" y="-15.24"/>
 <instance part="VCC!" gate="G$1" x="-86.36" y="-38.1"/>
 <instance part="R6" gate="G$1" x="-86.36" y="-30.48" rot="R90"/>
@@ -15711,6 +15689,7 @@ Revised By Daniel Baron</text>
 <instance part="U$26" gate="G$1" x="-27.94" y="-25.4"/>
 <instance part="H7" gate="G$1" x="401.32" y="-283.21"/>
 <instance part="R10" gate="G$1" x="226.06" y="-215.9" rot="R90"/>
+<instance part="U$1" gate="G$1" x="195.58" y="-218.44"/>
 </instances>
 <busses>
 </busses>
@@ -15836,11 +15815,6 @@ Revised By Daniel Baron</text>
 <pinref part="C19" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="U$4" gate="G$1" pin="P$1"/>
-<wire x1="190.5" y1="-233.68" x2="193.04" y2="-233.68" width="0.1524" layer="91"/>
-<label x="185.42" y="-233.68" size="1.778" layer="95"/>
-</segment>
-<segment>
 <wire x1="-86.36" y1="-17.78" x2="-86.36" y2="-25.4" width="0.1524" layer="91"/>
 <pinref part="P+3" gate="VCC" pin="VCC"/>
 <pinref part="R6" gate="G$1" pin="2"/>
@@ -15887,6 +15861,11 @@ Revised By Daniel Baron</text>
 <wire x1="279.4" y1="-223.52" x2="276.86" y2="-223.52" width="0.1524" layer="91"/>
 <wire x1="279.4" y1="-223.52" x2="281.94" y2="-223.52" width="0.1524" layer="91"/>
 <label x="281.94" y="-223.52" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="VCC"/>
+<wire x1="185.42" y1="-223.52" x2="182.88" y2="-223.52" width="0.1524" layer="91"/>
+<label x="180.34" y="-223.52" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SG5V" class="0">
@@ -17035,9 +17014,9 @@ Revised By Daniel Baron</text>
 <pinref part="IC5" gate="G$1" pin="USBDM"/>
 </segment>
 <segment>
-<pinref part="U$4" gate="G$1" pin="P$2"/>
-<wire x1="190.5" y1="-228.6" x2="193.04" y2="-228.6" width="0.1524" layer="91"/>
-<label x="185.42" y="-228.6" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$1" pin="D-"/>
+<wire x1="205.74" y1="-220.98" x2="208.28" y2="-220.98" width="0.1524" layer="91"/>
+<label x="208.28" y="-220.98" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D+" class="0">
@@ -17047,9 +17026,9 @@ Revised By Daniel Baron</text>
 <pinref part="IC5" gate="G$1" pin="USBDP"/>
 </segment>
 <segment>
-<pinref part="U$4" gate="G$1" pin="P$3"/>
-<wire x1="190.5" y1="-223.52" x2="193.04" y2="-223.52" width="0.1524" layer="91"/>
-<label x="185.42" y="-223.52" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$1" pin="D+"/>
+<wire x1="185.42" y1="-218.44" x2="182.88" y2="-218.44" width="0.1524" layer="91"/>
+<label x="180.34" y="-218.44" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VCC3O" class="0">
@@ -17067,12 +17046,6 @@ Revised By Daniel Baron</text>
 <label x="383.54" y="-238.76" size="1.778" layer="95"/>
 <pinref part="IC5" gate="G$1" pin="DTR#"/>
 <pinref part="C20" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="N$3" class="0">
-<segment>
-<pinref part="U$4" gate="G$1" pin="P$4"/>
-<wire x1="190.5" y1="-218.44" x2="193.04" y2="-218.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -17390,11 +17363,6 @@ Revised By Daniel Baron</text>
 <wire x1="-27.94" y1="-35.56" x2="-27.94" y2="-40.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$4" gate="G$1" pin="P$5"/>
-<wire x1="193.04" y1="-213.36" x2="190.5" y2="-213.36" width="0.1524" layer="91"/>
-<label x="185.42" y="-213.36" size="1.778" layer="95"/>
-</segment>
-<segment>
 <wire x1="335.28" y1="-259.08" x2="335.28" y2="-256.54" width="0.1524" layer="91"/>
 <wire x1="335.28" y1="-259.08" x2="327.66" y2="-259.08" width="0.1524" layer="91"/>
 <wire x1="327.66" y1="-259.08" x2="327.66" y2="-256.54" width="0.1524" layer="91"/>
@@ -17507,6 +17475,11 @@ Revised By Daniel Baron</text>
 <wire x1="292.1" y1="-264.16" x2="279.4" y2="-264.16" width="0.1524" layer="91"/>
 <label x="294.64" y="-264.16" size="1.27" layer="95" xref="yes"/>
 <wire x1="292.1" y1="-264.16" x2="294.64" y2="-264.16" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="GND"/>
+<wire x1="185.42" y1="-213.36" x2="182.88" y2="-213.36" width="0.1524" layer="91"/>
+<label x="177.8" y="-213.36" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="12_V" class="0">
