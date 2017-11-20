@@ -4729,12 +4729,12 @@ MELF 0.25 W</description>
 <text x="-1.524" y="-9.144" size="1.27" layer="27">&gt;Value</text>
 </package>
 <package name="SULLINS_1MM_HEADER">
-<pad name="P1" x="0" y="0" drill="0.7" diameter="1.016" shape="square"/>
-<pad name="P2" x="1.27" y="0" drill="0.7" diameter="1.016"/>
-<pad name="P3" x="2.54" y="0" drill="0.7" diameter="1.016"/>
-<pad name="P4" x="3.81" y="0" drill="0.7" diameter="1.016"/>
-<pad name="P5" x="5.08" y="0" drill="0.7" diameter="1.016"/>
-<pad name="P6" x="6.35" y="0" drill="0.7" diameter="1.016"/>
+<pad name="P1" x="0" y="0" drill="0.5" diameter="0.6096" shape="square"/>
+<pad name="P2" x="1.27" y="0" drill="0.45" diameter="0.6096"/>
+<pad name="P3" x="2.54" y="0" drill="0.45" diameter="0.6096"/>
+<pad name="P4" x="3.81" y="0" drill="0.45" diameter="0.6096"/>
+<pad name="P5" x="5.08" y="0" drill="0.45" diameter="0.6096"/>
+<pad name="P6" x="6.35" y="0" drill="0.45" diameter="0.6096"/>
 <wire x1="-2.54" y1="4.9022" x2="8.89" y2="4.9022" width="0.254" layer="21"/>
 <wire x1="8.89" y1="4.9022" x2="8.89" y2="0.4064" width="0.254" layer="21"/>
 <wire x1="8.89" y1="0.4064" x2="8.89" y2="-0.762" width="0.254" layer="21"/>
