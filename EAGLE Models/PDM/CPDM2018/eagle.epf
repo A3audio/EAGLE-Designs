@@ -350,7 +350,7 @@ UsedLibraryUrn="urn:adsk.eagle:library:177"
 
 [Win_1]
 Type="Schematic Editor"
-Loc="-9 -38 1190 601"
+Loc="0 0 1199 639"
 State=0
 Number=2
 File="PDMschemE-Car2018.sch"
@@ -393,6 +393,7 @@ ArcDirection=0
 AddLevel=2
 PadsSameType=0
 Layer=91
+Views=" 1: -74.22 -103.813 215.098 271.453"
 Sheet="1"
 
 [Win_2]
