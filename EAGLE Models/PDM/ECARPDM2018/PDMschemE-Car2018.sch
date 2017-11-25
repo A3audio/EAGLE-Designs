@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.4.1">
+<eagle version="8.3.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -6473,15 +6473,14 @@ Source: http://www.fairchildsemi.com/ds/MM/MMBTA56.pdf</description>
 <label x="-40.64" y="238.76" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$4" gate="G$1" pin="B17"/>
-<wire x1="149.86" y1="-27.94" x2="157.48" y2="-27.94" width="0.1524" layer="91"/>
-<pinref part="U$4" gate="G$1" pin="B18"/>
-<wire x1="149.86" y1="-33.02" x2="157.48" y2="-33.02" width="0.1524" layer="91"/>
-<wire x1="157.48" y1="-27.94" x2="157.48" y2="-30.48" width="0.1524" layer="91"/>
-<wire x1="157.48" y1="-30.48" x2="157.48" y2="-33.02" width="0.1524" layer="91"/>
-<wire x1="157.48" y1="-30.48" x2="167.64" y2="-30.48" width="0.1524" layer="91"/>
-<junction x="157.48" y="-30.48"/>
-<label x="167.64" y="-30.48" size="2.54" layer="95" xref="yes"/>
+<wire x1="124.46" y1="-12.7" x2="116.84" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="-12.7" x2="116.84" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="-15.24" x2="116.84" y2="-17.78" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="-17.78" x2="124.46" y2="-17.78" width="0.1524" layer="91"/>
+<label x="111.76" y="-15.24" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="111.76" y1="-15.24" x2="116.84" y2="-15.24" width="0.1524" layer="91"/>
+<pinref part="U$4" gate="G$1" pin="B1"/>
+<pinref part="U$4" gate="G$1" pin="B2"/>
 </segment>
 </net>
 <net name="GND" class="0">
