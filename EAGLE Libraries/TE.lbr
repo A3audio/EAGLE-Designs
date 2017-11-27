@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.4.0">
+<eagle version="8.4.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -156,6 +156,7 @@
 <pad name="B26" x="8.83" y="-3.27" drill="1.3" diameter="2"/>
 <hole x="-16.42" y="-9.77" drill="3.4"/>
 <hole x="16.08" y="-9.77" drill="3.4"/>
+<text x="0" y="7.62" size="1.27" layer="25" font="vector">&gt;NAME</text>
 </package>
 <package name="SUPERSEAL1.0_26POS_2ROW">
 <hole x="0" y="0" drill="3.4"/>
