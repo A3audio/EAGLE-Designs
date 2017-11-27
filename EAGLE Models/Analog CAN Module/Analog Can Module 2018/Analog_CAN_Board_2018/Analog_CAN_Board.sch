@@ -13144,73 +13144,6 @@ Pogo pins- HW-11044</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="Vishay_By_element14_Batch_1">
-<description>Developed by element14 :&lt;br&gt;
-element14 CAD Library consolidation.ulp
-at 30/07/2012 16:36:08</description>
-<packages>
-<package name="RESC1608X60N">
-<smd name="1" x="-0.8382" y="0" dx="0.762" dy="0.9398" layer="1"/>
-<smd name="2" x="0.8382" y="0" dx="0.762" dy="0.9398" layer="1"/>
-<wire x1="-0.127" y1="-0.4826" x2="0.127" y2="-0.4826" width="0.1524" layer="21"/>
-<wire x1="0.127" y1="0.4826" x2="-0.127" y2="0.4826" width="0.1524" layer="21"/>
-<wire x1="-0.4572" y1="-0.4826" x2="-0.4572" y2="0.4826" width="0" layer="51"/>
-<wire x1="-0.4572" y1="0.4826" x2="-0.8382" y2="0.4826" width="0" layer="51"/>
-<wire x1="-0.8382" y1="-0.4826" x2="-0.4572" y2="-0.4826" width="0" layer="51"/>
-<wire x1="0.4572" y1="0.4826" x2="0.4572" y2="-0.4826" width="0" layer="51"/>
-<wire x1="0.4572" y1="-0.4826" x2="0.8382" y2="-0.4826" width="0" layer="51"/>
-<wire x1="0.8382" y1="0.4826" x2="0.4572" y2="0.4826" width="0" layer="51"/>
-<wire x1="-0.4572" y1="-0.4826" x2="0.4572" y2="-0.4826" width="0" layer="51"/>
-<wire x1="0.8382" y1="-0.4826" x2="0.8382" y2="0.4826" width="0" layer="51"/>
-<wire x1="0.4572" y1="0.4826" x2="-0.4572" y2="0.4826" width="0" layer="51"/>
-<wire x1="-0.8382" y1="0.4826" x2="-0.8382" y2="-0.4826" width="0" layer="51"/>
-<text x="-3.4544" y="1.27" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
-<text x="-3.4544" y="-3.175" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
-</package>
-</packages>
-<symbols>
-<symbol name="RESH">
-<pin name="2" x="0" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
-<pin name="1" x="12.7" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-<wire x1="3.175" y1="1.27" x2="4.445" y2="-1.27" width="0.2032" layer="94"/>
-<wire x1="4.445" y1="-1.27" x2="5.715" y2="1.27" width="0.2032" layer="94"/>
-<wire x1="5.715" y1="1.27" x2="6.985" y2="-1.27" width="0.2032" layer="94"/>
-<wire x1="6.985" y1="-1.27" x2="8.255" y2="1.27" width="0.2032" layer="94"/>
-<wire x1="8.255" y1="1.27" x2="9.525" y2="-1.27" width="0.2032" layer="94"/>
-<wire x1="2.54" y1="0" x2="3.175" y2="1.27" width="0.2032" layer="94"/>
-<wire x1="9.525" y1="-1.27" x2="10.16" y2="0" width="0.2032" layer="94"/>
-<text x="-3.1242" y="-8.7376" size="3.4798" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
-<text x="0.9906" y="2.7686" size="2.0828" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="WSLP0603R0100FEA" prefix="R">
-<description>RESISTOR, 0603</description>
-<gates>
-<gate name="A" symbol="RESH" x="0" y="0" swaplevel="1"/>
-</gates>
-<devices>
-<device name="" package="RESC1608X60N">
-<connects>
-<connect gate="A" pin="1" pad="1"/>
-<connect gate="A" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MPN" value="WSLP0603R0100FEA" constant="no"/>
-<attribute name="OC_FARNELL" value="-" constant="no"/>
-<attribute name="OC_NEWARK" value="05T6644" constant="no"/>
-<attribute name="SUPPLIER" value="VISHAY DALE" constant="no"/>
-<attribute name="TOLERANCE" value="± 1.0 %" constant="no"/>
-<attribute name="VALUE" value=".01 Ohm" constant="no"/>
-<attribute name="WATTAGE" value="0.4W" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="linear">
 <description>&lt;b&gt;Linear Devices&lt;/b&gt;&lt;p&gt;
 Operational amplifiers,  comparators, voltage regulators, ADCs, DACs, etc.&lt;p&gt;
@@ -13603,8 +13536,6 @@ Based on the following sources:
 <part name="H7" library="SparkFun-Connectors" deviceset="M03X2" device="SMD_FCI" value="ICSP"/>
 <part name="R1" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="22k"/>
 <part name="C3" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value=".0047uF"/>
-<part name="R11" library="Vishay_By_element14_Batch_1" deviceset="WSLP0603R0100FEA" device="" value=".01 Ohm"/>
-<part name="R12" library="Vishay_By_element14_Batch_1" deviceset="WSLP0603R0100FEA" device="" value=".01 Ohm"/>
 <part name="IC4" library="linear" deviceset="OPA725" device="DBV"/>
 <part name="R13" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="0"/>
 <part name="C4" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value=".1uF"/>
@@ -13683,6 +13614,8 @@ Based on the following sources:
 <part name="R42" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="0"/>
 <part name="R43" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="0"/>
 <part name="R44" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="0"/>
+<part name="R11" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="0"/>
+<part name="R12" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="0"/>
 </parts>
 <sheets>
 <sheet>
@@ -13804,8 +13737,6 @@ Revised By Daniel Baron</text>
 <instance part="H7" gate="G$1" x="238.76" y="-207.01"/>
 <instance part="R1" gate="G$1" x="40.64" y="101.6" rot="R180"/>
 <instance part="C3" gate="G$1" x="50.8" y="93.98"/>
-<instance part="R11" gate="A" x="284.48" y="-119.38"/>
-<instance part="R12" gate="A" x="284.48" y="-124.46"/>
 <instance part="IC4" gate="G$1" x="66.04" y="99.06"/>
 <instance part="R13" gate="G$1" x="68.58" y="86.36" rot="R180"/>
 <instance part="C4" gate="G$1" x="73.66" y="109.22" rot="R90"/>
@@ -13884,6 +13815,8 @@ Revised By Daniel Baron</text>
 <instance part="R42" gate="G$1" x="251.46" y="17.78" rot="R270"/>
 <instance part="R43" gate="G$1" x="154.94" y="15.24" rot="R270"/>
 <instance part="R44" gate="G$1" x="58.42" y="15.24" rot="R270"/>
+<instance part="R11" gate="G$1" x="289.56" y="-119.38" rot="R180"/>
+<instance part="R12" gate="G$1" x="289.56" y="-124.46" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -14364,9 +14297,9 @@ Revised By Daniel Baron</text>
 <junction x="231.14" y="-58.42"/>
 </segment>
 <segment>
-<pinref part="R11" gate="A" pin="2"/>
 <wire x1="284.48" y1="-119.38" x2="279.4" y2="-119.38" width="0.1524" layer="91"/>
 <label x="279.4" y="-119.38" size="1.016" layer="95" rot="R180" xref="yes"/>
+<pinref part="R11" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="PG0" class="0">
@@ -15051,21 +14984,21 @@ Revised By Daniel Baron</text>
 </net>
 <net name="N$18" class="0">
 <segment>
-<pinref part="R11" gate="A" pin="1"/>
-<wire x1="297.18" y1="-119.38" x2="299.72" y2="-119.38" width="0.1524" layer="91"/>
 <wire x1="299.72" y1="-119.38" x2="299.72" y2="-121.92" width="0.1524" layer="91"/>
-<pinref part="R12" gate="A" pin="1"/>
 <wire x1="299.72" y1="-121.92" x2="299.72" y2="-124.46" width="0.1524" layer="91"/>
-<wire x1="299.72" y1="-124.46" x2="297.18" y2="-124.46" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="PF7(ADC7/TDI)"/>
 <wire x1="299.72" y1="-121.92" x2="312.42" y2="-121.92" width="0.1524" layer="91"/>
+<pinref part="R11" gate="G$1" pin="1"/>
+<wire x1="294.64" y1="-119.38" x2="299.72" y2="-119.38" width="0.1524" layer="91"/>
+<pinref part="R12" gate="G$1" pin="1"/>
+<wire x1="294.64" y1="-124.46" x2="299.72" y2="-124.46" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="A8O" class="0">
 <segment>
-<pinref part="R12" gate="A" pin="2"/>
 <wire x1="284.48" y1="-124.46" x2="279.4" y2="-124.46" width="0.1524" layer="91"/>
 <label x="279.4" y="-124.46" size="1.016" layer="95" rot="R180" xref="yes"/>
+<pinref part="R12" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="IC13" gate="G$1" pin="OUT"/>
