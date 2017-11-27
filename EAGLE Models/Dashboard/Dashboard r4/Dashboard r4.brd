@@ -15428,19 +15428,19 @@ design rules under a new name.</description>
 <attribute name="NAME" x="117.480078125" y="10.2362" size="1.27" layer="25" font="vector"/>
 <attribute name="VALUE" x="115.316" y="10.922" size="1.27" layer="27" font="vector" rot="R270"/>
 </element>
-<element name="CIN4" library="SparkFun-Capacitors" package="0805" value="0.15uF" x="127.5334" y="69.6214" smashed="yes" rot="R180">
+<element name="C5" library="SparkFun-Capacitors" package="0805" value="0.15uF" x="127.5334" y="69.6214" smashed="yes" rot="R180">
 <attribute name="NAME" x="132.643878125" y="70.238621875" size="1.27" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="128.5494" y="71.0184" size="1.27" layer="27" font="vector" rot="R180"/>
 </element>
-<element name="CIN5" library="SparkFun-Capacitors" package="0805" value="4.7uF" x="109.093" y="74.549" smashed="yes">
+<element name="C15" library="SparkFun-Capacitors" package="0805" value="4.7uF" x="109.093" y="74.549" smashed="yes">
 <attribute name="NAME" x="107.505503125" y="72.6287625" size="1.27" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="108.077" y="73.152" size="1.27" layer="27" font="vector"/>
 </element>
-<element name="CIN6" library="SparkFun-Capacitors" package="0805" value="10uF" x="119.4816" y="77.2414" smashed="yes">
+<element name="C6" library="SparkFun-Capacitors" package="0805" value="10uF" x="119.4816" y="77.2414" smashed="yes">
 <attribute name="NAME" x="121.2596" y="77.0509" size="1.27" layer="25" font="vector"/>
 <attribute name="VALUE" x="118.4656" y="75.8444" size="1.27" layer="27" font="vector"/>
 </element>
-<element name="CIN7" library="SparkFun-Capacitors" package="0805" value="0.1uF" x="119.5578" y="79.7052" smashed="yes">
+<element name="C17" library="SparkFun-Capacitors" package="0805" value="0.1uF" x="119.5578" y="79.7052" smashed="yes">
 <attribute name="NAME" x="121.01068125" y="78.9051" size="1.27" layer="25" font="vector"/>
 <attribute name="VALUE" x="118.5418" y="78.3082" size="1.27" layer="27" font="vector"/>
 </element>
@@ -15448,46 +15448,46 @@ design rules under a new name.</description>
 <attribute name="NAME" x="117.792759375" y="70.0722375" size="1.27" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="113.0582" y="76.0532" size="1.27" layer="27" font="vector" rot="R180"/>
 </element>
-<element name="CIN8" library="SparkFun-Capacitors" package="0805" value="100 pF" x="123.698" y="72.263" smashed="yes" rot="R90">
+<element name="C21" library="SparkFun-Capacitors" package="0805" value="100 pF" x="123.698" y="72.263" smashed="yes" rot="R90">
 <attribute name="NAME" x="126.070359375" y="70.670421875" size="1.27" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="125.095" y="71.247" size="1.27" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="IC7" library="texas" package="LM5000" value="LM5000" x="119.0752" y="71.9074" smashed="yes" rot="R90">
 <attribute name="NAME" x="116.94031875" y="76.10931875" size="1.27" layer="21" rot="R90"/>
 </element>
-<element name="CIN9" library="SparkFun-Capacitors" package="0805" value="4.7uF" x="109.093" y="83.693" smashed="yes">
+<element name="C22" library="SparkFun-Capacitors" package="0805" value="4.7uF" x="109.093" y="83.693" smashed="yes">
 <attribute name="NAME" x="110.03788125" y="84.7217" size="1.27" layer="25" font="vector"/>
 <attribute name="VALUE" x="108.077" y="82.296" size="1.27" layer="27" font="vector"/>
 </element>
-<element name="CIN10" library="SparkFun-Capacitors" package="0805" value="4.7uF" x="109.093" y="77.2414" smashed="yes">
+<element name="C10" library="SparkFun-Capacitors" package="0805" value="4.7uF" x="109.093" y="77.2414" smashed="yes">
 <attribute name="NAME" x="103.027478125" y="76.786740625" size="1.27" layer="25" font="vector"/>
 <attribute name="VALUE" x="108.077" y="75.8444" size="1.27" layer="27" font="vector"/>
 </element>
-<element name="CIN11" library="SparkFun-Capacitors" package="0805" value="4.7uF" x="112.2172" y="74.8538" smashed="yes">
+<element name="C11" library="SparkFun-Capacitors" package="0805" value="4.7uF" x="112.2172" y="74.8538" smashed="yes">
 <attribute name="NAME" x="115.600478125" y="77.7773375" size="1.27" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="111.2012" y="73.4568" size="1.27" layer="27" font="vector"/>
 </element>
-<element name="CIN12" library="SparkFun-Capacitors" package="0805" value="4.7uF" x="109.1184" y="81.1784" smashed="yes">
+<element name="C12" library="SparkFun-Capacitors" package="0805" value="4.7uF" x="109.1184" y="81.1784" smashed="yes">
 <attribute name="NAME" x="110.347759375" y="81.8007" size="1.27" layer="25" font="vector"/>
 <attribute name="VALUE" x="108.1024" y="79.7814" size="1.27" layer="27" font="vector"/>
 </element>
-<element name="RCOMM2" library="SparkFun-Resistors" package="0603-RES" value="10" x="112.6998" y="78.9432" smashed="yes" rot="R180">
+<element name="R51" library="SparkFun-Resistors" package="0603-RES" value="10" x="112.6998" y="78.9432" smashed="yes" rot="R180">
 <attribute name="NAME" x="117.916959375" y="81.066640625" size="1.27" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="113.7158" y="80.0862" size="1.27" layer="27" font="vector" rot="R180"/>
 </element>
-<element name="RCOMM3" library="SparkFun-Resistors" package="0603-RES" value="10k" x="121.2088" y="69.0626" smashed="yes" rot="R90">
+<element name="R52" library="SparkFun-Resistors" package="0603-RES" value="10k" x="121.2088" y="69.0626" smashed="yes" rot="R90">
 <attribute name="NAME" x="125.049278125" y="67.2490375" size="1.27" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="122.3518" y="68.0466" size="1.27" layer="27" font="vector" rot="R90"/>
 </element>
-<element name="RCOMM4" library="SparkFun-Resistors" package="0603-RES" value="182k" x="118.9228" y="69.0626" smashed="yes" rot="R90">
+<element name="R53" library="SparkFun-Resistors" package="0603-RES" value="182k" x="118.9228" y="69.0626" smashed="yes" rot="R90">
 <attribute name="NAME" x="122.367040625" y="71.871840625" size="1.27" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="120.0658" y="68.0466" size="1.27" layer="27" font="vector" rot="R90"/>
 </element>
-<element name="CIN13" library="SparkFun-Capacitors" package="0805" value="3.3uF" x="113.7666" y="67.31" smashed="yes" rot="R90">
+<element name="C3" library="SparkFun-Capacitors" package="0805" value="3.3uF" x="113.7666" y="67.31" smashed="yes" rot="R90">
 <attribute name="NAME" x="113.057940625" y="65.511678125" size="1.27" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="115.1636" y="66.294" size="1.27" layer="27" font="vector" rot="R90"/>
 </element>
-<element name="CIN14" library="SparkFun-Capacitors" package="0805" value="3.3uF" x="116.0526" y="67.31" smashed="yes" rot="R90">
+<element name="C4" library="SparkFun-Capacitors" package="0805" value="3.3uF" x="116.0526" y="67.31" smashed="yes" rot="R90">
 <attribute name="NAME" x="115.445540625" y="65.45071875" size="1.27" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="117.4496" y="66.294" size="1.27" layer="27" font="vector" rot="R90"/>
 </element>
@@ -15523,7 +15523,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="10.916921875" y="59.171840625" size="1.27" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="12.827" y="62.738" size="1.27" layer="27" font="vector" rot="R180"/>
 </element>
-<element name="RCOMM1" library="Vishay_By_element14_Batch_1" package="RESC3216X71N" value="17.2K" x="126.873" y="72.8472" smashed="yes">
+<element name="R50" library="Vishay_By_element14_Batch_1" package="RESC3216X71N" value="17.2K" x="126.873" y="72.8472" smashed="yes">
 <attribute name="MPN" value="TNPW12062K00BEEN" x="126.873" y="72.8472" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="123.4186" y="74.406759375" size="1.27" layer="25" font="vector" ratio="10" rot="SR0"/>
 <attribute name="OC_FARNELL" value="1562099" x="126.873" y="72.8472" size="1.778" layer="27" display="off"/>
@@ -15600,23 +15600,23 @@ design rules under a new name.</description>
 <contactref element="R38" pad="2"/>
 <contactref element="S3" pad="P$12"/>
 <contactref element="R49" pad="2"/>
-<contactref element="CIN8" pad="2"/>
+<contactref element="C21" pad="2"/>
 <contactref element="IC7" pad="AGND"/>
 <contactref element="IC7" pad="PGND1"/>
 <contactref element="IC7" pad="PGND2"/>
 <contactref element="IC7" pad="PGND3"/>
 <contactref element="IC7" pad="PGND4"/>
-<contactref element="CIN4" pad="2"/>
-<contactref element="CIN12" pad="2"/>
-<contactref element="CIN11" pad="2"/>
-<contactref element="CIN5" pad="2"/>
-<contactref element="CIN9" pad="2"/>
-<contactref element="CIN10" pad="2"/>
+<contactref element="C5" pad="2"/>
+<contactref element="C12" pad="2"/>
+<contactref element="C11" pad="2"/>
+<contactref element="C15" pad="2"/>
+<contactref element="C22" pad="2"/>
+<contactref element="C10" pad="2"/>
 <contactref element="IC7" pad="TEST"/>
-<contactref element="RCOMM3" pad="1"/>
+<contactref element="R52" pad="1"/>
 <contactref element="IC7" pad="FS"/>
-<contactref element="CIN6" pad="2"/>
-<contactref element="CIN7" pad="2"/>
+<contactref element="C6" pad="2"/>
+<contactref element="C17" pad="2"/>
 <contactref element="S4" pad="P$2"/>
 <contactref element="S5" pad="P$2"/>
 <contactref element="J2" pad="P$1"/>
@@ -15674,8 +15674,8 @@ design rules under a new name.</description>
 <via x="3.429" y="53.6702" extent="1-16" drill="0.35"/>
 <via x="126.492" y="77.3176" extent="1-16" drill="0.35"/>
 <via x="126.5428" y="75.0316" extent="1-16" drill="0.35"/>
-<contactref element="CIN13" pad="1"/>
-<contactref element="CIN14" pad="1"/>
+<contactref element="C3" pad="1"/>
+<contactref element="C4" pad="1"/>
 <contactref element="LCD_CONN" pad="P1"/>
 <wire x1="101.026" y1="60.5434" x2="101.026" y2="61.672" width="0.3048" layer="1"/>
 <wire x1="101.026" y1="60.5434" x2="101.0412" y2="60.5282" width="0.3048" layer="1"/>
@@ -16210,12 +16210,12 @@ design rules under a new name.</description>
 <contactref element="J3" pad="P$1"/>
 <contactref element="D3" pad="A"/>
 <contactref element="J2" pad="P$4"/>
-<contactref element="CIN12" pad="1"/>
-<contactref element="CIN10" pad="1"/>
-<contactref element="RCOMM2" pad="2"/>
+<contactref element="C12" pad="1"/>
+<contactref element="C10" pad="1"/>
+<contactref element="R51" pad="2"/>
 <contactref element="BL_L2" pad="1"/>
-<contactref element="CIN5" pad="1"/>
-<contactref element="CIN9" pad="1"/>
+<contactref element="C15" pad="1"/>
+<contactref element="C22" pad="1"/>
 <wire x1="108.1900625" y1="79.501659375" x2="108.191090625" y2="79.99515" width="0.8128" layer="1"/>
 <wire x1="111.8498" y1="78.9432" x2="109.243040625" y2="78.9432" width="0.8128" layer="1"/>
 <wire x1="108.2184" y1="81.1784" x2="108.2184" y2="80.022459375" width="0.8128" layer="1"/>
@@ -16654,9 +16654,9 @@ design rules under a new name.</description>
 </signal>
 <signal name="BL_ANODE" class="1">
 <contactref element="LCD_CONN" pad="P2"/>
-<contactref element="RCOMM4" pad="1"/>
-<contactref element="CIN13" pad="2"/>
-<contactref element="CIN14" pad="2"/>
+<contactref element="R53" pad="1"/>
+<contactref element="C3" pad="2"/>
+<contactref element="C4" pad="2"/>
 <contactref element="D2" pad="P$2"/>
 <wire x1="118.9228" y1="68.2126" x2="117.271" y2="68.2126" width="0.889" layer="1"/>
 <wire x1="117.271" y1="68.2126" x2="116.0526" y2="68.21" width="0.889" layer="1"/>
@@ -17254,18 +17254,18 @@ design rules under a new name.</description>
 <wire x1="108.371759375" y1="10.366759375" x2="112.483" y2="14.478" width="0.508" layer="1"/>
 </signal>
 <signal name="N$75">
-<contactref element="CIN8" pad="1"/>
+<contactref element="C21" pad="1"/>
 <contactref element="IC7" pad="COMP"/>
-<contactref element="RCOMM1" pad="1"/>
+<contactref element="R50" pad="1"/>
 <wire x1="119.6752" y1="72.1574" x2="122.9036" y2="72.1574" width="0.3048" layer="1"/>
 <wire x1="122.9036" y1="72.1574" x2="123.698" y2="71.363" width="0.3048" layer="1"/>
 <wire x1="123.698" y1="71.363" x2="123.9156" y2="71.363" width="0.3048" layer="1"/>
 <wire x1="123.9156" y1="71.363" x2="125.3998" y2="72.8472" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$77">
-<contactref element="CIN11" pad="1"/>
+<contactref element="C11" pad="1"/>
 <contactref element="IC7" pad="VIN"/>
-<contactref element="RCOMM2" pad="1"/>
+<contactref element="R51" pad="1"/>
 <wire x1="111.3172" y1="74.8538" x2="111.3172" y2="75.3" width="0.3048" layer="1"/>
 <wire x1="113.5498" y1="78.9432" x2="113.4872" y2="78.8806" width="0.3048" layer="1"/>
 <wire x1="113.4872" y1="77.0238" x2="111.3172" y2="74.8538" width="0.3048" layer="1"/>
@@ -17295,8 +17295,8 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$82">
 <contactref element="IC7" pad="FB"/>
-<contactref element="RCOMM3" pad="2"/>
-<contactref element="RCOMM4" pad="2"/>
+<contactref element="R52" pad="2"/>
+<contactref element="R53" pad="2"/>
 <wire x1="118.9228" y1="69.9126" x2="118.9228" y2="72.26105" width="0.3048" layer="1"/>
 <wire x1="118.9228" y1="69.9126" x2="121.2088" y2="69.9126" width="0.3048" layer="1"/>
 <wire x1="119.642559375" y1="72.655240625" x2="119.6752" y2="72.6574" width="0.3048" layer="1"/>
@@ -17305,7 +17305,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$85">
 <contactref element="IC7" pad="SS"/>
-<contactref element="CIN6" pad="1"/>
+<contactref element="C6" pad="1"/>
 <wire x1="115.7478" y1="73.2536" x2="116.0272" y2="73.533" width="0.254" layer="1"/>
 <wire x1="115.7478" y1="73.2536" x2="115.6516" y2="73.1574" width="0.254" layer="1"/>
 <wire x1="114.8752" y1="73.1574" x2="115.6516" y2="73.1574" width="0.254" layer="1"/>
@@ -17316,7 +17316,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$87">
 <contactref element="IC7" pad="BYP"/>
-<contactref element="CIN7" pad="1"/>
+<contactref element="C17" pad="1"/>
 <wire x1="114.8752" y1="74.1574" x2="114.918" y2="74.2002" width="0.3048" layer="1"/>
 <wire x1="114.918" y1="74.2002" x2="115.399" y2="74.2002" width="0.3048" layer="1"/>
 <wire x1="115.399" y1="74.2002" x2="117.348" y2="76.1492" width="0.3048" layer="1"/>
@@ -17422,8 +17422,8 @@ design rules under a new name.</description>
 <wire x1="8.3312" y1="67.2592" x2="6.858" y2="68.7324" width="0.889" layer="16"/>
 </signal>
 <signal name="N$4">
-<contactref element="CIN4" pad="1"/>
-<contactref element="RCOMM1" pad="2"/>
+<contactref element="C5" pad="1"/>
+<contactref element="R50" pad="2"/>
 <wire x1="128.3462" y1="72.8472" x2="128.3462" y2="69.7086" width="0.3048" layer="1"/>
 <wire x1="128.3462" y1="69.7086" x2="128.4334" y2="69.6214" width="0.3048" layer="1"/>
 </signal>
