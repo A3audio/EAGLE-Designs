@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.3.2">
+<eagle version="8.4.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -6539,20 +6539,20 @@ http://www.st.com&lt;p&gt;
 <parts>
 <part name="U$1" library="TE" deviceset="SUPERSEAL1.0_26POS" device=""/>
 <part name="FANRELAY" library="panasonic" deviceset="ACTP112" device="ACTP112"/>
-<part name="U$7" library="diodes-inc" deviceset="MMBD4448H-7-F" device=""/>
+<part name="D4" library="diodes-inc" deviceset="MMBD4448H-7-F" device=""/>
 <part name="F3" library="Keystone" deviceset="3568" device=""/>
 <part name="R2" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:26059/1" value="1K"/>
 <part name="LED2" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/1"/>
 <part name="F5" library="Keystone" deviceset="3568" device=""/>
 <part name="F4" library="Keystone" deviceset="3568" device=""/>
-<part name="ECUDIODE" library="st-microelectronics" deviceset="STPS20L15G-TR" device="TO"/>
+<part name="D1" library="st-microelectronics" deviceset="STPS20L15G-TR" device="TO"/>
 <part name="R6" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:26059/1" value="1K"/>
 <part name="LED6" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/1"/>
 <part name="FUELRELAY" library="panasonic" deviceset="ACTP112" device="ACTP112"/>
-<part name="U$3" library="diodes-inc" deviceset="MMBD4448H-7-F" device=""/>
+<part name="D2" library="diodes-inc" deviceset="MMBD4448H-7-F" device=""/>
 <part name="F1" library="Keystone" deviceset="3568" device=""/>
 <part name="IGNRELAY" library="panasonic" deviceset="ACTP112" device="ACTP112"/>
-<part name="U$4" library="diodes-inc" deviceset="MMBD4448H-7-F" device=""/>
+<part name="D3" library="diodes-inc" deviceset="MMBD4448H-7-F" device=""/>
 <part name="F2" library="Keystone" deviceset="3568" device=""/>
 <part name="F6" library="Keystone" deviceset="3568" device=""/>
 <part name="R4" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:26059/1" value="1K"/>
@@ -6579,20 +6579,20 @@ http://www.st.com&lt;p&gt;
 <instances>
 <instance part="U$1" gate="G$1" x="210.82" y="109.22"/>
 <instance part="FANRELAY" gate="G$1" x="127" y="33.02"/>
-<instance part="U$7" gate="G$1" x="101.6" y="27.94" rot="R270"/>
+<instance part="D4" gate="G$1" x="101.6" y="27.94" rot="R270"/>
 <instance part="F3" gate="G$1" x="129.54" y="15.24" rot="R90"/>
 <instance part="R2" gate="G$1" x="154.94" y="30.48" rot="R90"/>
 <instance part="LED2" gate="G$1" x="142.24" y="22.86" rot="R90"/>
 <instance part="F5" gate="G$1" x="205.74" y="27.94" rot="R180"/>
 <instance part="F4" gate="G$1" x="215.9" y="53.34" rot="R180"/>
-<instance part="ECUDIODE" gate="G$1" x="198.12" y="53.34"/>
+<instance part="D1" gate="G$1" x="198.12" y="53.34"/>
 <instance part="R6" gate="G$1" x="241.3" y="35.56"/>
 <instance part="LED6" gate="G$1" x="226.06" y="40.64"/>
 <instance part="FUELRELAY" gate="G$1" x="121.92" y="147.32"/>
-<instance part="U$3" gate="G$1" x="96.52" y="142.24" rot="R270"/>
+<instance part="D2" gate="G$1" x="96.52" y="142.24" rot="R270"/>
 <instance part="F1" gate="G$1" x="124.46" y="129.54" rot="R90"/>
 <instance part="IGNRELAY" gate="G$1" x="124.46" y="88.9"/>
-<instance part="U$4" gate="G$1" x="99.06" y="83.82" rot="R270"/>
+<instance part="D3" gate="G$1" x="99.06" y="83.82" rot="R270"/>
 <instance part="F2" gate="G$1" x="127" y="71.12" rot="R90"/>
 <instance part="F6" gate="G$1" x="200.66" y="-2.54" rot="R180"/>
 <instance part="R4" gate="G$1" x="226.06" y="7.62"/>
@@ -6622,7 +6622,7 @@ http://www.st.com&lt;p&gt;
 <segment>
 <pinref part="FANRELAY" gate="G$1" pin="COIL2"/>
 <wire x1="116.84" y1="7.62" x2="116.84" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="U$7" gate="G$1" pin="C"/>
+<pinref part="D4" gate="G$1" pin="C"/>
 <wire x1="101.6" y1="25.4" x2="101.6" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="7.62" x2="116.84" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="7.62" x2="129.54" y2="7.62" width="0.1524" layer="91"/>
@@ -6636,7 +6636,7 @@ http://www.st.com&lt;p&gt;
 <segment>
 <pinref part="FUELRELAY" gate="G$1" pin="COIL2"/>
 <wire x1="111.76" y1="121.92" x2="111.76" y2="142.24" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="C"/>
+<pinref part="D2" gate="G$1" pin="C"/>
 <wire x1="96.52" y1="139.7" x2="96.52" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="121.92" x2="111.76" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="121.92" x2="124.46" y2="121.92" width="0.1524" layer="91"/>
@@ -6650,7 +6650,7 @@ http://www.st.com&lt;p&gt;
 <segment>
 <pinref part="IGNRELAY" gate="G$1" pin="COIL2"/>
 <wire x1="114.3" y1="63.5" x2="114.3" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="U$4" gate="G$1" pin="C"/>
+<pinref part="D3" gate="G$1" pin="C"/>
 <wire x1="99.06" y1="81.28" x2="99.06" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="63.5" x2="114.3" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="63.5" x2="127" y2="63.5" width="0.1524" layer="91"/>
@@ -6672,7 +6672,7 @@ http://www.st.com&lt;p&gt;
 <label x="193.04" y="-2.54" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="ECUDIODE" gate="G$1" pin="P1"/>
+<pinref part="D1" gate="G$1" pin="P1"/>
 <wire x1="193.04" y1="53.34" x2="190.5" y2="53.34" width="0.1524" layer="91"/>
 <label x="190.5" y="53.34" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -6911,7 +6911,7 @@ http://www.st.com&lt;p&gt;
 </net>
 <net name="KILLSW" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="A"/>
+<pinref part="D3" gate="G$1" pin="A"/>
 <wire x1="99.06" y1="86.36" x2="99.06" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="99.06" x2="114.3" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="IGNRELAY" gate="G$1" pin="COIL1"/>
@@ -6921,7 +6921,7 @@ http://www.st.com&lt;p&gt;
 <label x="91.44" y="99.06" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$3" gate="G$1" pin="A"/>
+<pinref part="D2" gate="G$1" pin="A"/>
 <wire x1="96.52" y1="144.78" x2="96.52" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="157.48" x2="111.76" y2="157.48" width="0.1524" layer="91"/>
 <pinref part="FUELRELAY" gate="G$1" pin="COIL1"/>
@@ -6966,13 +6966,13 @@ http://www.st.com&lt;p&gt;
 <net name="N$9" class="0">
 <segment>
 <pinref part="F4" gate="G$1" pin="2"/>
-<pinref part="ECUDIODE" gate="G$1" pin="K"/>
+<pinref part="D1" gate="G$1" pin="K"/>
 <wire x1="210.82" y1="53.34" x2="205.74" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="A23" class="0">
 <segment>
-<pinref part="U$7" gate="G$1" pin="A"/>
+<pinref part="D4" gate="G$1" pin="A"/>
 <wire x1="101.6" y1="30.48" x2="101.6" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="43.18" x2="116.84" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="FANRELAY" gate="G$1" pin="COIL1"/>
