@@ -10780,7 +10780,7 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <wire x1="3.5" y1="-5.1" x2="3.5" y2="-2" width="0.127" layer="25"/>
 <wire x1="3.5" y1="-2" x2="-3.5" y2="-2" width="0.127" layer="25"/>
 <wire x1="-3.5" y1="-2" x2="-3.5" y2="-5.1" width="0.127" layer="25"/>
-<text x="-3.0475" y="-1.625" size="0.4064" layer="25" rot="R90">REG104GA-5</text>
+<text x="5.08" y="-5.08" size="0.6096" layer="25" font="vector" rot="R90">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
@@ -13527,6 +13527,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <pad name="B26" x="8.83" y="-3.27" drill="1.3" diameter="2"/>
 <hole x="-16.42" y="-9.77" drill="3.4"/>
 <hole x="16.08" y="-9.77" drill="3.4"/>
+<text x="0" y="7.62" size="1.27" layer="25" font="vector">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
@@ -15253,7 +15254,6 @@ Pogo pins- HW-11044</description>
 <pad name="P$3" x="-0.5" y="0" drill="0.5" rot="R90"/>
 <pad name="P$4" x="0.5" y="0.8" drill="0.5" rot="R90"/>
 <pad name="P$5" x="-0.5" y="1.6" drill="0.5" rot="R90"/>
-<text x="-2" y="4" size="1.27" layer="21">&gt;1734753-1</text>
 <rectangle x1="1.397" y1="-0.9652" x2="2.1082" y2="0.9652" layer="46"/>
 <polygon width="0.0254" layer="46">
 <vertex x="-2.0828" y="-0.9398"/>
@@ -15268,6 +15268,8 @@ Pogo pins- HW-11044</description>
 <vertex x="-1.397" y="1.3462"/>
 <vertex x="-2.1082" y="1.3462"/>
 </polygon>
+<text x="-2.54" y="5.08" size="0.6096" layer="25" font="vector">&gt;NAME</text>
+<text x="-2.54" y="-5.08" size="0.6096" layer="27" font="vector">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
