@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.3.2">
+<eagle version="8.4.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="mil" altunit="mil"/>
+<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -18,7 +18,7 @@
 <layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
 <layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
 <layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
-<layer number="11" name="BottomMiddle" color="11" fill="1" visible="yes" active="yes"/>
+<layer number="11" name="BottomMiddle" color="13" fill="1" visible="yes" active="yes"/>
 <layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
@@ -6640,10 +6640,10 @@ design rules under a new name.</description>
 <param name="slThermalsForVias" value="0"/>
 <param name="dpMaxLengthDifference" value="10mm"/>
 <param name="dpGapFactor" value="2.5"/>
-<param name="checkGrid" value="0"/>
 <param name="checkAngle" value="0"/>
 <param name="checkFont" value="1"/>
 <param name="checkRestrict" value="1"/>
+<param name="checkStop" value="0"/>
 <param name="useDiameter" value="13"/>
 <param name="maxErrors" value="50"/>
 </designrules>
@@ -8134,22 +8134,17 @@ design rules under a new name.</description>
 <contactref element="R40" pad="2"/>
 <contactref element="R41" pad="2"/>
 <polygon width="0.508" layer="6" isolate="0.254">
-<vertex x="7.53" y="37.426"/>
-<vertex x="20.68645" y="37.549059375"/>
-<vertex x="20.65" y="38.22"/>
-<vertex x="20.59" y="49.21"/>
-<vertex x="20.579834375" y="50.650175"/>
-<vertex x="32.56061875" y="50.748"/>
-<vertex x="32.72" y="48.422"/>
-<vertex x="32.75" y="40.65"/>
-<vertex x="33.214" y="40.694"/>
-<vertex x="52.3" y="40.58"/>
-<vertex x="52.594" y="40.62"/>
-<vertex x="52.38" y="17.47"/>
-<vertex x="52.288" y="14.148"/>
-<vertex x="6.38" y="14.16"/>
-<vertex x="6.52" y="33.88"/>
-<vertex x="6.54" y="34.85"/>
+<vertex x="7.5184" y="37.465"/>
+<vertex x="20.447" y="37.465"/>
+<vertex x="20.447" y="50.8"/>
+<vertex x="32.7152" y="50.8"/>
+<vertex x="32.7406" y="40.894"/>
+<vertex x="32.9438" y="40.64"/>
+<vertex x="52.832" y="40.64"/>
+<vertex x="52.832" y="14.6558"/>
+<vertex x="6.477" y="14.414"/>
+<vertex x="6.477" y="33.8582"/>
+<vertex x="6.5278" y="34.8488"/>
 <vertex x="6.54" y="35.63"/>
 <vertex x="6.55" y="36.87"/>
 <vertex x="6.560790625" y="37.420940625"/>
@@ -8372,24 +8367,15 @@ design rules under a new name.</description>
 <wire x1="13.16568125" y1="50.59431875" x2="13.15" y2="50.61" width="0.4064" layer="1"/>
 <via x="13.15" y="50.61" extent="1-16" drill="0.35"/>
 <polygon width="0.508" layer="6" isolate="0.254">
-<vertex x="6.731578125" y="38.429690625"/>
-<vertex x="19.61" y="38.37"/>
-<vertex x="19.83" y="38.59"/>
-<vertex x="19.576" y="49.64"/>
-<vertex x="19.536" y="51.564"/>
-<vertex x="32.236" y="51.568"/>
-<vertex x="33.422" y="51.618"/>
-<vertex x="33.4" y="49.84"/>
-<vertex x="33.45" y="49.79"/>
-<vertex x="33.71" y="45.27"/>
-<vertex x="33.68" y="44.99"/>
-<vertex x="33.69" y="44.03"/>
-<vertex x="33.67" y="42.92"/>
-<vertex x="33.71" y="41.53"/>
-<vertex x="53.096" y="41.64"/>
-<vertex x="53.5" y="41.49"/>
-<vertex x="53.594" y="18.28"/>
-<vertex x="53.43" y="13.982"/>
+<vertex x="6.731578125" y="38.354"/>
+<vertex x="19.102" y="38.354"/>
+<vertex x="19.431" y="38.59"/>
+<vertex x="19.431" y="51.689"/>
+<vertex x="33.655" y="51.689"/>
+<vertex x="33.655" y="41.529"/>
+<vertex x="53.35" y="41.529"/>
+<vertex x="53.848" y="41.2242"/>
+<vertex x="53.848" y="14.1986"/>
 <vertex x="90.514" y="14.26"/>
 <vertex x="90.65" y="20.56"/>
 <vertex x="90.68" y="51.87"/>
