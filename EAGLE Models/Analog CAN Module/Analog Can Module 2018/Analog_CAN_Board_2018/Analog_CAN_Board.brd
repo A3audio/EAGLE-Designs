@@ -5633,7 +5633,7 @@
 <rectangle x1="82.48015" y1="27.09545" x2="82.50555" y2="27.10815" layer="200"/>
 <rectangle x1="82.64525" y1="27.09545" x2="82.65795" y2="27.10815" layer="200"/>
 <rectangle x1="82.74685" y1="27.09545" x2="82.75955" y2="27.10815" layer="200"/>
-<text x="67.9704" y="23.4442" size="0.0254" layer="200" font="vector">/Users/chrisjadams33/Desktop/CPRacingSLO-BW-Final(1).bmp</text>
+<text x="73.406" y="22.098" size="0.8128" layer="25" font="vector">2018 CAN Board - Analog</text>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
