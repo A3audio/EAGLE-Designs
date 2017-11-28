@@ -8137,9 +8137,11 @@ design rules under a new name.</description>
 <vertex x="7.5184" y="37.465"/>
 <vertex x="20.447" y="37.465"/>
 <vertex x="20.447" y="50.8"/>
-<vertex x="32.7152" y="50.8"/>
-<vertex x="32.7406" y="40.894"/>
-<vertex x="32.9438" y="40.64"/>
+<vertex x="32.766" y="50.8"/>
+<vertex x="32.766" y="42.164"/>
+<vertex x="32.9438" y="41.91"/>
+<vertex x="42.672" y="41.91"/>
+<vertex x="42.672" y="40.64"/>
 <vertex x="52.832" y="40.64"/>
 <vertex x="52.832" y="14.6558"/>
 <vertex x="6.477" y="14.414"/>
@@ -8372,8 +8374,10 @@ design rules under a new name.</description>
 <vertex x="19.431" y="38.59"/>
 <vertex x="19.431" y="51.689"/>
 <vertex x="33.655" y="51.689"/>
-<vertex x="33.655" y="41.529"/>
-<vertex x="53.35" y="41.529"/>
+<vertex x="33.655" y="42.926"/>
+<vertex x="43.434" y="42.926"/>
+<vertex x="43.434" y="41.656"/>
+<vertex x="53.35" y="41.656"/>
 <vertex x="53.848" y="41.2242"/>
 <vertex x="53.848" y="14.1986"/>
 <vertex x="90.514" y="14.26"/>
