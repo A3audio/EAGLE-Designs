@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.3.1">
+<eagle version="8.4.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -6593,6 +6593,37 @@ Source: http://www.fairchildsemi.com/ds/MM/MMBTA56.pdf</description>
 <junction x="114.3" y="-68.58"/>
 <wire x1="114.3" y1="-68.58" x2="106.68" y2="-68.58" width="0.1524" layer="91"/>
 <label x="106.68" y="-68.58" size="2.54" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$4" gate="G$1" pin="B7"/>
+<pinref part="U$4" gate="G$1" pin="B8"/>
+<wire x1="124.46" y1="-48.26" x2="114.3" y2="-48.26" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="-43.18" x2="114.3" y2="-48.26" width="0.1524" layer="91"/>
+<pinref part="U$4" gate="G$1" pin="B9"/>
+<wire x1="124.46" y1="-53.34" x2="114.3" y2="-53.34" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="-48.26" x2="114.3" y2="-53.34" width="0.1524" layer="91"/>
+<junction x="114.3" y="-48.26"/>
+<pinref part="U$4" gate="G$1" pin="B10"/>
+<wire x1="124.46" y1="-58.42" x2="114.3" y2="-58.42" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="-53.34" x2="114.3" y2="-58.42" width="0.1524" layer="91"/>
+<junction x="114.3" y="-53.34"/>
+<wire x1="114.3" y1="-58.42" x2="114.3" y2="-63.5" width="0.1524" layer="91"/>
+<junction x="114.3" y="-58.42"/>
+<junction x="114.3" y="-63.5"/>
+<pinref part="U$4" gate="G$1" pin="B4"/>
+<wire x1="124.46" y1="-27.94" x2="134.62" y2="-27.94" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="-27.94" x2="134.62" y2="-33.02" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="-33.02" x2="134.62" y2="-43.18" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="-43.18" x2="124.46" y2="-43.18" width="0.1524" layer="91"/>
+<junction x="124.46" y="-43.18"/>
+<pinref part="U$4" gate="G$1" pin="B3"/>
+<wire x1="124.46" y1="-27.94" x2="124.46" y2="-22.86" width="0.1524" layer="91"/>
+<junction x="124.46" y="-27.94"/>
+<pinref part="U$4" gate="G$1" pin="B17"/>
+<wire x1="149.86" y1="-27.94" x2="134.62" y2="-27.94" width="0.1524" layer="91"/>
+<junction x="134.62" y="-27.94"/>
+<pinref part="U$4" gate="G$1" pin="B18"/>
+<wire x1="149.86" y1="-33.02" x2="134.62" y2="-33.02" width="0.1524" layer="91"/>
+<junction x="134.62" y="-33.02"/>
+<wire x1="124.46" y1="-43.18" x2="114.3" y2="-43.18" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="X2" gate="G$1" pin="P$7"/>
@@ -6886,30 +6917,6 @@ Source: http://www.fairchildsemi.com/ds/MM/MMBTA56.pdf</description>
 <wire x1="27.94" y1="-73.66" x2="27.94" y2="-78.74" width="0.1524" layer="91"/>
 <pinref part="R10" gate="G$1" pin="1"/>
 <wire x1="27.94" y1="-78.74" x2="25.4" y2="-78.74" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$25" class="0">
-<segment>
-<pinref part="U$4" gate="G$1" pin="B7"/>
-<wire x1="124.46" y1="-43.18" x2="114.3" y2="-43.18" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$26" class="0">
-<segment>
-<pinref part="U$4" gate="G$1" pin="B8"/>
-<wire x1="124.46" y1="-48.26" x2="114.3" y2="-48.26" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$30" class="0">
-<segment>
-<pinref part="U$4" gate="G$1" pin="B9"/>
-<wire x1="124.46" y1="-53.34" x2="114.3" y2="-53.34" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$31" class="0">
-<segment>
-<pinref part="U$4" gate="G$1" pin="B10"/>
-<wire x1="124.46" y1="-58.42" x2="114.3" y2="-58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MCU_POWER" class="0">
