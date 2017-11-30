@@ -13241,7 +13241,7 @@ type 0309, grid 2.5 mm</description>
 <part name="F8" library="resistor" deviceset="R-EU_" device="R0603" value="10mA PTC"/>
 <part name="F9" library="resistor" deviceset="R-EU_" device="R0603" value="10mA PTC"/>
 <part name="U1" library="diodes-inc-e14" deviceset="DMN3404L-7" device=""/>
-<part name="R6" library="adafruit" deviceset="R-US_" device="R0603"/>
+<part name="R6" library="adafruit" deviceset="R-US_" device="R0603" value="100K"/>
 </parts>
 <sheets>
 <sheet>
