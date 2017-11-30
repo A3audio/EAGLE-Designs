@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.4.1">
+<eagle version="8.3.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -927,10 +927,10 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <part name="R4" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="1k"/>
 <part name="R5" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="3.3k"/>
 <part name="R6" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="4.7k"/>
-<part name="R7" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="8.2k"/>
-<part name="R8" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="2.2k"/>
-<part name="R9" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="8.87k"/>
-<part name="R10" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="1.8k"/>
+<part name="R7" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="9.1k"/>
+<part name="R8" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="6.65k"/>
+<part name="R9" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="9.1k"/>
+<part name="R10" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="5.1k"/>
 <part name="U$1" library="linear-technology" deviceset="LT1018" device=""/>
 <part name="U$2" library="linear-technology" deviceset="LT1018" device=""/>
 <part name="U$3" library="linear-technology" deviceset="LT1018" device=""/>
@@ -1291,7 +1291,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <label x="-62.23" y="86.36" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="1.06V" class="0">
+<net name="2.1V" class="0">
 <segment>
 <pinref part="R7" gate="G$1" pin="1"/>
 <pinref part="R8" gate="G$1" pin="2"/>
@@ -1305,22 +1305,6 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <pinref part="U$1" gate="G$1" pin="IN_-_B"/>
 <wire x1="-59.69" y1="71.12" x2="-62.23" y2="71.12" width="0.1524" layer="91"/>
 <label x="-62.23" y="71.12" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name=".831V" class="0">
-<segment>
-<pinref part="R9" gate="G$1" pin="1"/>
-<pinref part="R10" gate="G$1" pin="2"/>
-<wire x1="39.37" y1="121.92" x2="39.37" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="39.37" y1="119.38" x2="39.37" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="39.37" y1="119.38" x2="41.91" y2="119.38" width="0.1524" layer="91"/>
-<label x="41.91" y="119.38" size="1.778" layer="95" xref="yes"/>
-<junction x="39.37" y="119.38"/>
-</segment>
-<segment>
-<pinref part="U$3" gate="G$1" pin="IN_-_A"/>
-<wire x1="-59.69" y1="0" x2="-62.23" y2="0" width="0.1524" layer="91"/>
-<label x="-62.23" y="0" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -1414,6 +1398,22 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <wire x1="6.35" y1="-48.26" x2="6.35" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="6.35" y1="27.94" x2="69.85" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="U$8" gate="G$1" pin="B_2"/>
+</segment>
+</net>
+<net name="1.78V" class="0">
+<segment>
+<pinref part="U$3" gate="G$1" pin="IN_-_A"/>
+<wire x1="-59.69" y1="0" x2="-62.23" y2="0" width="0.1524" layer="91"/>
+<label x="-62.23" y="0" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R9" gate="G$1" pin="1"/>
+<pinref part="R10" gate="G$1" pin="2"/>
+<wire x1="39.37" y1="121.92" x2="39.37" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="39.37" y1="119.38" x2="39.37" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="39.37" y1="119.38" x2="41.91" y2="119.38" width="0.1524" layer="91"/>
+<label x="41.91" y="119.38" size="1.778" layer="95" xref="yes"/>
+<junction x="39.37" y="119.38"/>
 </segment>
 </net>
 </nets>
