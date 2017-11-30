@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.3.2">
+<eagle version="8.4.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -9,6 +9,20 @@
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
@@ -108,25 +122,6 @@
 <libraries>
 <library name="formula electric">
 <packages>
-<package name="CONNECTOR_6">
-<pad name="1" x="0" y="0" drill="1.1" shape="square"/>
-<pad name="3" x="5" y="0" drill="1.1"/>
-<pad name="5" x="10" y="0" drill="1.1"/>
-<pad name="7" x="15" y="0" drill="1.1"/>
-<pad name="2" x="2.5" y="5" drill="1.1" shape="square"/>
-<pad name="4" x="7.5" y="5" drill="1.1"/>
-<pad name="6" x="12.5" y="5" drill="1.1"/>
-<pad name="8" x="17.5" y="5" drill="1.1"/>
-<wire x1="-2.75" y1="8.3" x2="-2.75" y2="-6.5" width="0.127" layer="21"/>
-<wire x1="-2.75" y1="-6.5" x2="30.56" y2="-6.5" width="0.127" layer="21"/>
-<wire x1="30.56" y1="-6.5" x2="30.56" y2="8.3" width="0.127" layer="21"/>
-<wire x1="30.56" y1="8.3" x2="-2.75" y2="8.3" width="0.127" layer="21"/>
-<text x="-3.81" y="-6.35" size="1.27" layer="25" rot="R90">&gt;Name</text>
-<pad name="9" x="20" y="0" drill="1.1"/>
-<pad name="10" x="22.5" y="5" drill="1.1"/>
-<pad name="11" x="25" y="0" drill="1.1"/>
-<pad name="12" x="27.5" y="5" drill="1.1"/>
-</package>
 <package name="SSOP5-P-0.95">
 <wire x1="-0.8" y1="1.45" x2="-0.8" y2="-1.45" width="0.127" layer="21"/>
 <wire x1="-0.8" y1="-1.45" x2="0.8" y2="-1.45" width="0.127" layer="21"/>
@@ -165,19 +160,6 @@
 </package>
 </packages>
 <symbols>
-<symbol name="CONNECTOR_6">
-<pin name="4" x="5.08" y="-5.08" visible="pin" length="short" rot="R180"/>
-<pin name="5" x="5.08" y="-10.16" visible="pin" length="short" rot="R180"/>
-<pin name="3" x="5.08" y="0" visible="pin" length="short" rot="R180"/>
-<pin name="2" x="5.08" y="5.08" visible="pin" length="short" rot="R180"/>
-<pin name="1" x="5.08" y="10.16" visible="pin" length="short" rot="R180"/>
-<text x="-2.54" y="12.7" size="1.778" layer="95">&gt;Name</text>
-<wire x1="2.54" y1="12.7" x2="2.54" y2="-17.78" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-17.78" x2="-2.54" y2="-17.78" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-17.78" x2="-2.54" y2="12.7" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="12.7" x2="2.54" y2="12.7" width="0.254" layer="94"/>
-<pin name="6" x="5.08" y="-15.24" visible="pin" length="short" rot="R180"/>
-</symbol>
 <symbol name="OR_GATE">
 <wire x1="-10.16" y1="-7.62" x2="2.54" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="-10.16" y1="7.62" x2="2.54" y2="7.62" width="0.254" layer="94"/>
@@ -236,26 +218,6 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="CONN_6">
-<gates>
-<gate name="G$1" symbol="CONNECTOR_6" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="CONNECTOR_6">
-<connects>
-<connect gate="G$1" pin="1" pad="1 2"/>
-<connect gate="G$1" pin="2" pad="3 4"/>
-<connect gate="G$1" pin="3" pad="5 6"/>
-<connect gate="G$1" pin="4" pad="7 8"/>
-<connect gate="G$1" pin="5" pad="9 10"/>
-<connect gate="G$1" pin="6" pad="11 12"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="TC4S71FT5LFT-OR_GATE">
 <gates>
 <gate name="G$1" symbol="OR_GATE" x="0" y="0"/>
@@ -894,6 +856,60 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 </deviceset>
 </devicesets>
 </library>
+<library name="S9016E-06-ND">
+<packages>
+<package name="S9016E-05-ND">
+<pad name="P1" x="0" y="0" drill="0.5" diameter="0.6096" shape="square"/>
+<pad name="P2" x="1.27" y="0" drill="0.5" diameter="0.6096"/>
+<pad name="P3" x="2.54" y="0" drill="0.5" diameter="0.6096"/>
+<pad name="P4" x="3.81" y="0" drill="0.5" diameter="0.6096"/>
+<pad name="P5" x="5.08" y="0" drill="0.5" diameter="0.6096"/>
+<wire x1="-0.889" y1="0.889" x2="7.239" y2="0.889" width="0.1524" layer="21"/>
+<wire x1="7.239" y1="0.889" x2="7.239" y2="-1.7526" width="0.1524" layer="21"/>
+<wire x1="7.239" y1="-1.7526" x2="-0.889" y2="-1.7526" width="0.1524" layer="21"/>
+<wire x1="-0.889" y1="-1.7526" x2="-0.889" y2="0.889" width="0.1524" layer="21"/>
+<pad name="P6" x="6.35" y="0" drill="0.5" diameter="0.6096"/>
+</package>
+</packages>
+<symbols>
+<symbol name="5_PIN_MALE_HEADER">
+<wire x1="-1.27" y1="-8.89" x2="1.27" y2="-8.89" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-8.89" x2="1.27" y2="6.35" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="6.35" x2="-1.27" y2="6.35" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="6.35" x2="-1.27" y2="-8.89" width="0.1524" layer="94"/>
+<pin name="P1" x="3.81" y="5.08" length="short" rot="R180"/>
+<pin name="P2" x="3.81" y="2.54" length="short" rot="R180"/>
+<pin name="P3" x="3.81" y="0" length="short" rot="R180"/>
+<pin name="P4" x="3.81" y="-2.54" length="short" rot="R180"/>
+<pin name="P5" x="3.81" y="-5.08" length="short" rot="R180"/>
+<text x="-3.81" y="7.62" size="1.778" layer="94">&gt;NAME</text>
+<text x="-3.81" y="-11.43" size="1.778" layer="94">&gt;VALUE</text>
+<pin name="P6" x="3.81" y="-7.62" length="short" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="S9016E-06-ND">
+<gates>
+<gate name="G$1" symbol="5_PIN_MALE_HEADER" x="0" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="S9016E-05-ND">
+<connects>
+<connect gate="G$1" pin="P1" pad="P1"/>
+<connect gate="G$1" pin="P2" pad="P2"/>
+<connect gate="G$1" pin="P3" pad="P3"/>
+<connect gate="G$1" pin="P4" pad="P4"/>
+<connect gate="G$1" pin="P5" pad="P5"/>
+<connect gate="G$1" pin="P6" pad="P6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -904,7 +920,6 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 </class>
 </classes>
 <parts>
-<part name="CONN" library="formula electric" deviceset="CONN_6" device=""/>
 <part name="IC1" library="linear-technology" deviceset="LT1236?*" device="S" technology="-5"/>
 <part name="R1" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="1k"/>
 <part name="R2" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="9.1k"/>
@@ -927,13 +942,13 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <part name="R11" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="10k"/>
 <part name="R12" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="10k"/>
 <part name="R13" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="10k"/>
+<part name="U$9" library="S9016E-06-ND" deviceset="S9016E-06-ND" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <instances>
-<instance part="CONN" gate="G$1" x="-62.23" y="160.02"/>
 <instance part="IC1" gate="G$1" x="-44.45" y="121.92"/>
 <instance part="R1" gate="G$1" x="-21.59" y="127" rot="R90"/>
 <instance part="R2" gate="G$1" x="-21.59" y="111.76" rot="R90"/>
@@ -956,15 +971,15 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <instance part="R11" gate="G$1" x="-24.13" y="162.56"/>
 <instance part="R12" gate="G$1" x="-24.13" y="154.94"/>
 <instance part="R13" gate="G$1" x="-24.13" y="147.32"/>
+<instance part="U$9" gate="G$1" x="-83.82" y="157.48"/>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="GND" class="0">
 <segment>
-<pinref part="CONN" gate="G$1" pin="1"/>
 <label x="-46.99" y="170.18" size="1.778" layer="95" xref="yes"/>
-<wire x1="-57.15" y1="170.18" x2="-13.97" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="-78.74" y1="170.18" x2="-13.97" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="-13.97" y1="170.18" x2="-13.97" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="R13" gate="G$1" pin="2"/>
 <pinref part="R12" gate="G$1" pin="2"/>
@@ -972,6 +987,9 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <wire x1="-13.97" y1="154.94" x2="-13.97" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="-13.97" y1="147.32" x2="-19.05" y2="147.32" width="0.1524" layer="91"/>
 <junction x="-13.97" y="154.94"/>
+<wire x1="-78.74" y1="170.18" x2="-78.74" y2="162.56" width="0.1524" layer="91"/>
+<pinref part="U$9" gate="G$1" pin="P1"/>
+<wire x1="-78.74" y1="162.56" x2="-80.01" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="GND"/>
@@ -1043,12 +1061,14 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 </net>
 <net name="12V" class="0">
 <segment>
-<pinref part="CONN" gate="G$1" pin="2"/>
 <label x="-46.99" y="165.1" size="1.778" layer="95" xref="yes"/>
-<wire x1="-57.15" y1="165.1" x2="-16.51" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="-76.2" y1="165.1" x2="-16.51" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="-16.51" y1="165.1" x2="-16.51" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="R11" gate="G$1" pin="2"/>
 <wire x1="-19.05" y1="162.56" x2="-16.51" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="-76.2" y1="165.1" x2="-76.2" y2="160.02" width="0.1524" layer="91"/>
+<pinref part="U$9" gate="G$1" pin="P2"/>
+<wire x1="-76.2" y1="160.02" x2="-80.01" y2="160.02" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="VIN"/>
@@ -1108,12 +1128,14 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 </net>
 <net name="CURRENT" class="0">
 <segment>
-<pinref part="CONN" gate="G$1" pin="3"/>
 <label x="-46.99" y="160.02" size="1.778" layer="95" xref="yes"/>
-<wire x1="-57.15" y1="160.02" x2="-31.75" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="-73.66" y1="160.02" x2="-31.75" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="-31.75" y1="160.02" x2="-31.75" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="R11" gate="G$1" pin="1"/>
 <wire x1="-31.75" y1="162.56" x2="-29.21" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="-73.66" y1="160.02" x2="-73.66" y2="157.48" width="0.1524" layer="91"/>
+<pinref part="U$9" gate="G$1" pin="P3"/>
+<wire x1="-73.66" y1="157.48" x2="-80.01" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="IN_+_A"/>
@@ -1123,10 +1145,10 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 </net>
 <net name="BF" class="0">
 <segment>
-<pinref part="CONN" gate="G$1" pin="4"/>
 <label x="-46.99" y="154.94" size="1.778" layer="95" xref="yes"/>
-<wire x1="-57.15" y1="154.94" x2="-29.21" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="-80.01" y1="154.94" x2="-29.21" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="R12" gate="G$1" pin="1"/>
+<pinref part="U$9" gate="G$1" pin="P4"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="IN_+_B"/>
@@ -1146,12 +1168,14 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 </net>
 <net name="BR" class="0">
 <segment>
-<pinref part="CONN" gate="G$1" pin="5"/>
 <label x="-46.99" y="149.86" size="1.778" layer="95" xref="yes"/>
-<wire x1="-57.15" y1="149.86" x2="-31.75" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="-73.66" y1="149.86" x2="-31.75" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="-31.75" y1="149.86" x2="-31.75" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="R13" gate="G$1" pin="1"/>
 <wire x1="-31.75" y1="147.32" x2="-29.21" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="-73.66" y1="149.86" x2="-73.66" y2="152.4" width="0.1524" layer="91"/>
+<pinref part="U$9" gate="G$1" pin="P5"/>
+<wire x1="-73.66" y1="152.4" x2="-80.01" y2="152.4" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$3" gate="G$1" pin="IN_+_A"/>
@@ -1171,9 +1195,11 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 </net>
 <net name="ALL_OK" class="0">
 <segment>
-<pinref part="CONN" gate="G$1" pin="6"/>
-<wire x1="-57.15" y1="144.78" x2="-46.99" y2="144.78" width="0.1524" layer="91"/>
 <label x="-46.99" y="144.78" size="1.778" layer="95" xref="yes"/>
+<wire x1="-46.99" y1="144.78" x2="-76.2" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="-76.2" y1="144.78" x2="-76.2" y2="149.86" width="0.1524" layer="91"/>
+<pinref part="U$9" gate="G$1" pin="P6"/>
+<wire x1="-76.2" y1="149.86" x2="-80.01" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$8" gate="G$1" pin="A_OUT"/>
@@ -1393,6 +1419,9 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="207,1,-24.13,-17.78,N$11,out,,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>
