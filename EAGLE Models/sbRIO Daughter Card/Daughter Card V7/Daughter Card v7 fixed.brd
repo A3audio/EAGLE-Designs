@@ -5630,8 +5630,8 @@
 <rectangle x1="125.765559375" y1="30.1599625" x2="125.785878125" y2="30.18028125" layer="201"/>
 <rectangle x1="125.92811875" y1="30.1599625" x2="125.9484375" y2="30.18028125" layer="201"/>
 <text x="107.95" y="22.606" size="1.27" layer="25">Daughter Card v7 2017-18</text>
-<text x="107.95" y="20.828" size="0.8128" layer="51">H. Wai, A. Ferguson, N. Mah</text>
-<text x="107.95" y="19.177" size="0.8128" layer="51">M. DeLay, T. Willson</text>
+<text x="107.95" y="20.828" size="0.8128" layer="25">H. Wai, A. Ferguson, N. Mah</text>
+<text x="107.95" y="19.177" size="0.8128" layer="25">M. DeLay, T. Willson</text>
 </plain>
 <libraries>
 <library name="SparkFun-Sensors">
