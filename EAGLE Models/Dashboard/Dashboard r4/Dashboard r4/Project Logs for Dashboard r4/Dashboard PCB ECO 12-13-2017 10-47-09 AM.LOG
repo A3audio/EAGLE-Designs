@@ -1,0 +1,54 @@
+Removed Member From Class: ClassName=Int Member=C?
+Removed Member From Class: ClassName=Int Member=R?
+Removed Member From Class: ClassName=Int Member=U?
+Change Component Designator: OldDesignator=C? NewDesignator=C1
+Change Component Designator: OldDesignator=C? NewDesignator=C2
+Change Component Designator: OldDesignator=C? NewDesignator=C3
+Change Component Designator: OldDesignator=C? NewDesignator=C4
+Change Component Designator: OldDesignator=C? NewDesignator=C5
+Change Component Designator: OldDesignator=C? NewDesignator=C6
+Change Component Designator: OldDesignator=C? NewDesignator=C7
+Change Component Designator: OldDesignator=D? NewDesignator=D1
+Change Component Designator: OldDesignator=D? NewDesignator=D2
+Change Component Designator: OldDesignator=DS? NewDesignator=DS1
+Change Component Designator: OldDesignator=R? NewDesignator=R3
+Change Component Designator: OldDesignator=R? NewDesignator=R4
+Change Component Designator: OldDesignator=R? NewDesignator=R5
+Change Component Designator: OldDesignator=R? NewDesignator=R6
+Change Component Designator: OldDesignator=U? NewDesignator=U2
+Change Component Designator: OldDesignator=U? NewDesignator=U3
+Change Component Designator: OldDesignator=U? NewDesignator=U4
+Change Component Designator: OldDesignator=U? NewDesignator=U5
+Change Net Name : Old Net Name=NetC?_1 New Net Name=NetC7_1
+Change Net Name : Old Net Name=NetC?_2 New Net Name=NetC3_2
+Change Net Name : Old Net Name=NetDS?_1 New Net Name=NetDS1_1
+Change Net Name : Old Net Name=NetR?_1 New Net Name=NetR3_1
+Change Net Name : Old Net Name=NetR?_2 New Net Name=NetR6_2
+Change Net Name : Old Net Name=NetU?_15 New Net Name=NetU2_15
+Change Net Name : Old Net Name=NetU?_16 New Net Name=NetU2_16
+Added Pin To Net: NetName=NetC2_2 Pin=C2-2
+Added Pin To Net: NetName=NetC2_2 Pin=U2-17
+Added Net: Name=NetC2_2
+Added Pin To Net: NetName=NetC3_1 Pin=C3-1
+Added Net: Name=NetC3_1
+Added Pin To Net: NetName=NetR3_2 Pin=R3-2
+Added Net: Name=NetR3_2
+Added Pin To Net: NetName=NetR4_1 Pin=R4-1
+Added Pin To Net: NetName=NetR4_1 Pin=U2-5
+Added Net: Name=NetR4_1
+Added Pin To Net: NetName=NetR4_2 Pin=R4-2
+Added Net: Name=NetR4_2
+Added Member To Class: ClassName=Int Member=Component C1 Cap
+Added Member To Class: ClassName=Int Member=Component C2 Cap
+Added Member To Class: ClassName=Int Member=Component C3 Cap
+Added Member To Class: ClassName=Dashboard Member=Component C4 Cap
+Added Member To Class: ClassName=Dashboard Member=Component C6 Cap
+Added Member To Class: ClassName=Dashboard Member=Component C7 Cap
+Added Member To Class: ClassName=Dashboard Member=Component D2 NUP2105LT1
+Added Member To Class: ClassName=Int Member=Component R3 Res1
+Added Member To Class: ClassName=Int Member=Component R4 Res1
+Added Member To Class: ClassName=Dashboard Member=Component R5 Res1
+Added Member To Class: ClassName=Dashboard Member=Component U1 FT801Q-R
+Added Member To Class: ClassName=Int Member=Component U2 FT232RL-Reel
+Added Member To Class: ClassName=Dashboard Member=Component U4 LM1117IMPX-5.0/NOPB
+Added Member To Class: ClassName=Dashboard Member=Component U5 MCP2551-I/SN

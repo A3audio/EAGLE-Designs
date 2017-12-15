@@ -1,0 +1,35 @@
+Removed Member From Class: ClassName=Int Member=C?
+Added Component: Designator=J?(HIRO-FH12A-40S-0.5SH(55)_V)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Datasheet URL"; Value = "https://datasheet.ciiva.com/14667/0900766b80806912-14667338.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Version"; Value = "10/2006"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Hirose Electric"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "https://www.hirose.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "SurfaceMount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "No of Positions"; Value = "40"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Description"; Value = "Female Header, Pitch 0.5 mm, 1 x 40 Position, Height 2 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Reference"; Value = "FH12A-40S-0.5SH(55)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "0.5mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Style/Orientation"; Value = "RightAngleSocket/Receptacle"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination"; Value = "Solder"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "FFC/FPC"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=R2 Pin=J?-7
+Added Pin To Net: NetName=R2 Pin=U1-48
+Added Net: Name=R2
+Added Pin To Net: NetName=R3 Pin=J?-8
+Added Pin To Net: NetName=R3 Pin=U1-47
+Added Net: Name=R3
+Added Pin To Net: NetName=R4 Pin=J?-9
+Added Pin To Net: NetName=R4 Pin=U1-46
+Added Net: Name=R4
+Added Pin To Net: NetName=R5 Pin=J?-10
+Added Pin To Net: NetName=R5 Pin=U1-45
+Added Net: Name=R5
+Added Pin To Net: NetName=R6 Pin=J?-11
+Added Pin To Net: NetName=R6 Pin=U1-44
+Added Net: Name=R6
+Added Pin To Net: NetName=R7 Pin=J?-12
+Added Pin To Net: NetName=R7 Pin=U1-43
+Added Net: Name=R7
+Added Class: Name=LCD
+Added Room: Name=LCD

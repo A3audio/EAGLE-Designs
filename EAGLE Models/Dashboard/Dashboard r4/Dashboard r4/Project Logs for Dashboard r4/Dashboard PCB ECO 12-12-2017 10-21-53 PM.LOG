@@ -1,0 +1,13 @@
+Change Component Designator: OldDesignator=U? NewDesignator=U1
+Added Component: Designator=U1(WQFN-48)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.ftdichip.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT801.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "ver 1.0, Jul-2014"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "FTDI"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "48-Pin Quad Flat No-Lead, 7 x 7 mm Body, 0.5 mm Pitch, 5.36 x 5.36 mm Exposed Pad"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "WQFN-48"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartId"; Value = "2"; VariantName = "[No Variations]"
+Added Member To Class: ClassName=Dashboard Member=Component U1 FT801Q-R

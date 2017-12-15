@@ -1,0 +1,45 @@
+Removed Member From Class: ClassName=HD12 Member=F1_HD13
+Removed Member From Class: ClassName=HD12 Member=Q1_HD13
+Removed Member From Class: ClassName=HD12 Member=Q2_HD13
+Removed Member From Class: ClassName=HD12 Member=R1_HD13
+Removed Member From Class: ClassName=HD12 Member=R2_HD13
+Change Component Designator: OldDesignator=F1_HD11 NewDesignator=F1_HD3
+Change Component Designator: OldDesignator=F1_HD12 NewDesignator=F1_HD2
+Change Component Designator: OldDesignator=F1_HD13 NewDesignator=F1_HD1
+Change Component Designator: OldDesignator=Q1_HD11 NewDesignator=Q1_HD3
+Change Component Designator: OldDesignator=Q1_HD12 NewDesignator=Q1_HD2
+Change Component Designator: OldDesignator=Q1_HD13 NewDesignator=Q1_HD1
+Change Component Designator: OldDesignator=Q2_HD11 NewDesignator=Q2_HD3
+Change Component Designator: OldDesignator=Q2_HD12 NewDesignator=Q2_HD2
+Change Component Designator: OldDesignator=Q2_HD13 NewDesignator=Q2_HD1
+Change Component Designator: OldDesignator=R1_HD11 NewDesignator=R1_HD3
+Change Component Designator: OldDesignator=R1_HD12 NewDesignator=R1_HD2
+Change Component Designator: OldDesignator=R1_HD13 NewDesignator=R1_HD1
+Change Component Designator: OldDesignator=R2_HD11 NewDesignator=R2_HD3
+Change Component Designator: OldDesignator=R2_HD12 NewDesignator=R2_HD2
+Change Component Designator: OldDesignator=R2_HD13 NewDesignator=R2_HD1
+Change Net Name : Old Net Name=NetF1_HD11_1 New Net Name=NetF1_HD3_1
+Change Net Name : Old Net Name=NetF1_HD11_2 New Net Name=NetF1_HD3_2
+Change Net Name : Old Net Name=NetF1_HD12_1 New Net Name=NetF1_HD2_1
+Change Net Name : Old Net Name=NetF1_HD12_2 New Net Name=NetF1_HD2_2
+Change Net Name : Old Net Name=NetF1_HD13_1 New Net Name=NetF1_HD1_1
+Change Net Name : Old Net Name=NetF1_HD13_2 New Net Name=NetF1_HD1_2
+Change Net Name : Old Net Name=NetQ1_HD11_1 New Net Name=NetQ1_HD3_1
+Change Net Name : Old Net Name=NetQ1_HD12_1 New Net Name=NetQ1_HD2_1
+Change Net Name : Old Net Name=NetQ1_HD13_1 New Net Name=NetQ1_HD1_1
+Change Net Name : Old Net Name=NetQ2_HD11_1 New Net Name=NetQ2_HD3_1
+Change Net Name : Old Net Name=NetQ2_HD11_3 New Net Name=NetQ2_HD3_3
+Change Net Name : Old Net Name=NetQ2_HD12_1 New Net Name=NetQ2_HD2_1
+Change Net Name : Old Net Name=NetQ2_HD12_3 New Net Name=NetQ2_HD2_3
+Change Net Name : Old Net Name=NetQ2_HD13_1 New Net Name=NetQ2_HD1_1
+Change Net Name : Old Net Name=NetQ2_HD13_3 New Net Name=NetQ2_HD1_3
+Change Net Name : Old Net Name=NetR2_HD11_1 New Net Name=NetR2_HD3_1
+Change Net Name : Old Net Name=NetR2_HD12_1 New Net Name=NetR2_HD2_1
+Change Net Name : Old Net Name=NetR2_HD13_1 New Net Name=NetR2_HD1_1
+Change Class Name : Old Net Name=HD11 New Net Name=HD3
+Change Class Name : Old Net Name=HD12 New Net Name=HD2
+Change Class Name : Old Net Name=HD13 New Net Name=HD1
+Change Room Name: Old Name=HD13 New Name=HD3
+Change Room Scope: Old Scope=InComponentClass('HD13') New Scope=InComponentClass('HD3')
+Added Room: Name=HD1
+Added Room: Name=HD2

@@ -1,0 +1,8 @@
+Removed Member From Class: ClassName=Int Member=C?
+Removed Member From Class: ClassName=Int Member=R?
+Added Pin To Net: NetName=NetR3_2 Pin=U1-2
+Added Pin To Net: NetName=NetR4_2 Pin=U1-3
+Added Pin To Net: NetName=Reset Pin=C3-1
+Added Pin To Net: NetName=Reset Pin=U1-20
+Added Net: Name=Reset
+Added Member To Class: ClassName=Dashboard Member=Component U1 FT801Q-R
