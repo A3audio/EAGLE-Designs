@@ -1,0 +1,5 @@
+Removed Member From Class: ClassName=Int Member=C?
+Change Component Footprint: Designator=U1 Old Footprint=64A_L New Footprint=64A_M
+Change Component Footprint: Designator=U4 Old Footprint=MP04A_L New Footprint=MP04A_M
+Change Component Footprint: Designator=JP1 Old Footprint=RESC0805(2012)_L New Footprint=RESC0805(2012)_N
+Change Component Footprint: Designator=U5 Old Footprint=SOIC-SN8_L New Footprint=SOIC-SN8_N

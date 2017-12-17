@@ -1,0 +1,51 @@
+Removed Pin From Net: NetName=G2 Pin=J?-14
+Removed Pin From Net: NetName=G3 Pin=J?-15
+Removed Pin From Net: NetName=G4 Pin=J?-16
+Removed Pin From Net: NetName=G5 Pin=J?-17
+Removed Pin From Net: NetName=G6 Pin=J?-18
+Removed Pin From Net: NetName=G7 Pin=J?-19
+Added Pin To Net: NetName=GND Pin=J?-13
+Added Pin To Net: NetName=GND Pin=J?-14
+Added Pin To Net: NetName=G2 Pin=J?-15
+Added Pin To Net: NetName=G3 Pin=J?-16
+Added Pin To Net: NetName=G4 Pin=J?-17
+Added Pin To Net: NetName=G5 Pin=J?-18
+Added Pin To Net: NetName=G6 Pin=J?-19
+Added Pin To Net: NetName=G7 Pin=J?-20
+Added Pin To Net: NetName=GND Pin=J?-21
+Added Pin To Net: NetName=GND Pin=J?-22
+Added Pin To Net: NetName=GND Pin=J?-29
+Added Pin To Net: NetName=GND Pin=J?-36
+Added Pin To Net: NetName=B2 Pin=J?-23
+Added Pin To Net: NetName=B2 Pin=U1-35
+Added Net: Name=B2
+Added Pin To Net: NetName=B3 Pin=J?-24
+Added Pin To Net: NetName=B3 Pin=U1-34
+Added Net: Name=B3
+Added Pin To Net: NetName=B4 Pin=J?-25
+Added Pin To Net: NetName=B4 Pin=U1-33
+Added Net: Name=B4
+Added Pin To Net: NetName=B5 Pin=J?-26
+Added Pin To Net: NetName=B5 Pin=U1-32
+Added Net: Name=B5
+Added Pin To Net: NetName=B6 Pin=J?-27
+Added Pin To Net: NetName=B6 Pin=U1-31
+Added Net: Name=B6
+Added Pin To Net: NetName=B7 Pin=J?-28
+Added Pin To Net: NetName=B7 Pin=U1-30
+Added Net: Name=B7
+Added Pin To Net: NetName=D_EN Pin=J?-34
+Added Pin To Net: NetName=D_EN Pin=U1-25
+Added Net: Name=D_EN
+Added Pin To Net: NetName=DCLK Pin=J?-30
+Added Pin To Net: NetName=DCLK Pin=U1-29
+Added Net: Name=DCLK
+Added Pin To Net: NetName=DISP_EN Pin=J?-31
+Added Pin To Net: NetName=DISP_EN Pin=U1-28
+Added Net: Name=DISP_EN
+Added Pin To Net: NetName=HSYNC Pin=J?-32
+Added Pin To Net: NetName=HSYNC Pin=U1-27
+Added Net: Name=HSYNC
+Added Pin To Net: NetName=VSYNC Pin=J?-33
+Added Pin To Net: NetName=VSYNC Pin=U1-26
+Added Net: Name=VSYNC
