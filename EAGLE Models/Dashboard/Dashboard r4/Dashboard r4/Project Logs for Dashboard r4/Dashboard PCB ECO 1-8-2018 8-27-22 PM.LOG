@@ -1,0 +1,37 @@
+Removed Member From Class: ClassName=Dashboard Member=U1
+Added Pin To Net: NetName=+12 Pin=X?-1
+Added Pin To Net: NetName=GND Pin=X?-1
+Added Pin To Net: NetName=GND Pin=X?-1
+Added Pin To Net: NetName=GND Pin=X?-2
+Added Pin To Net: NetName=CAN_P Pin=X?-3
+Added Pin To Net: NetName=CAN_N Pin=X?-4
+Change Net Name : Old Net Name=CAN_N New Net Name=CAN0.CAN_N
+Change Net Name : Old Net Name=CAN_P New Net Name=CAN0.CAN_P
+Added Pin To Net: NetName=DOWN_SH Pin=X?-3
+Added Net: Name=DOWN_SH
+Added Pin To Net: NetName=DRV1 Pin=F1_HD1-1
+Added Pin To Net: NetName=DRV1 Pin=X?-2
+Added Net: Name=DRV1
+Added Pin To Net: NetName=DRV2 Pin=F1_HD2-1
+Added Pin To Net: NetName=DRV2 Pin=X?-3
+Added Net: Name=DRV2
+Added Pin To Net: NetName=DRV3 Pin=F1_HD3-1
+Added Pin To Net: NetName=DRV3 Pin=X?-4
+Added Net: Name=DRV3
+Added Pin To Net: NetName=UP_SH Pin=X?-2
+Added Net: Name=UP_SH
+Added Class: Name=DRV[1..3]
+Added Differential Pair: Name=CAN0.CAN
+Added Member To Class: ClassName=HD2 Member=Component F1_HD2 (F1) 1206L016WR
+Added Member To Class: ClassName=HD3 Member=Component F1_HD3 (F1) 1206L016WR
+Added Member To Class: ClassName=HD2 Member=Component Q1_HD2 (Q1) MMBT4403LT1G
+Added Member To Class: ClassName=HD3 Member=Component Q1_HD3 (Q1) MMBT4403LT1G
+Added Member To Class: ClassName=HD2 Member=Component Q2_HD2 (Q2) MMBT4401M3T5G
+Added Member To Class: ClassName=HD3 Member=Component Q2_HD3 (Q2) MMBT4401M3T5G
+Added Member To Class: ClassName=HD2 Member=Component R1_HD2 (R1) Res1
+Added Member To Class: ClassName=HD3 Member=Component R1_HD3 (R1) Res1
+Added Member To Class: ClassName=HD2 Member=Component R2_HD2 (R2) Res1
+Added Member To Class: ClassName=HD3 Member=Component R2_HD3 (R2) Res1
+Added Member To Class: ClassName=Dashboard Member=Component X? 043650-0409
+Added Member To Class: ClassName=Dashboard Member=Component X? 043650-0409
+Change Rule Scope 1 : Old Scope=InNet('CAN_P') New Scope=InNet('CAN0.CAN_P')
