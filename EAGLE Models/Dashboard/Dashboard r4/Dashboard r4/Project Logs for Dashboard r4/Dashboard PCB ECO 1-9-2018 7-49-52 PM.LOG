@@ -1,0 +1,20 @@
+Removed Pin From Net: NetName=CAN0.CAN_P Pin=X?-3
+Removed Pin From Net: NetName=CAN0.CAN_N Pin=X?-4
+Removed Member From Class: ClassName=Dashboard Member=U1
+Added Component: Designator=X?(EN3P12MX)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=GND Pin=X?-1
+Added Pin To Net: NetName=CAN0.CAN_P Pin=X?-4
+Added Pin To Net: NetName=CAN0.CAN_N Pin=X?-5
+Added Pin To Net: NetName=+12 Pin=X?-6
+Added Pin To Net: NetName=UP_SH Pin=X?-7
+Added Pin To Net: NetName=DOWN_SH Pin=X?-8
+Added Pin To Net: NetName=CAN1_N Pin=X?-4
+Added Pin To Net: NetName=CAN1_N Pin=X?-10
+Added Net: Name=CAN1_N
+Added Pin To Net: NetName=CAN1_P Pin=X?-3
+Added Pin To Net: NetName=CAN1_P Pin=X?-9
+Added Net: Name=CAN1_P
+Added Member To Class: ClassName=Dashboard Member=Component X? EN3P12MX
+Added Member To Class: ClassName=Dashboard Member=Component X? 043650-0409
+Added Member To Class: ClassName=Dashboard Member=Component X? 043650-0409
