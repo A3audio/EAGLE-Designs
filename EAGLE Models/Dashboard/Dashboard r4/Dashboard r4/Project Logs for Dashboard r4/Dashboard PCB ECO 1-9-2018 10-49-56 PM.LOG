@@ -1,0 +1,11 @@
+Removed Member From Class: ClassName=Dashboard Member=U1
+Added Pin To Net: NetName=POS1 Pin=S1_ROT1-13
+Added Pin To Net: NetName=POS1 Pin=U1-59
+Added Net: Name=POS1
+Added Pin To Net: NetName=POS2 Pin=S1_ROT2-13
+Added Pin To Net: NetName=POS2 Pin=U1-60
+Added Net: Name=POS2
+Added Pin To Net: NetName=POS3 Pin=S1_ROT3-13
+Added Pin To Net: NetName=POS3 Pin=U1-61
+Added Net: Name=POS3
+Added Class: Name=POS[1..3]
