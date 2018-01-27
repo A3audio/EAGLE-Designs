@@ -19887,49 +19887,6 @@ at 27/07/2012 14:20:03</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="e-switch">
-<packages>
-<package name="LP4OA1PBBTG">
-<hole x="0" y="-0.985" drill="0.9"/>
-<hole x="2.5" y="-0.985" drill="0.9"/>
-<hole x="-2.5" y="-0.985" drill="0.9"/>
-<hole x="-2.5" y="0.985" drill="0.9"/>
-<hole x="0" y="0.985" drill="0.9"/>
-<hole x="2.5" y="0.985" drill="0.9"/>
-<pad name="P$1" x="-5" y="0" drill="0.7" shape="square"/>
-<pad name="P$2" x="5" y="0" drill="0.7" shape="square"/>
-</package>
-</packages>
-<symbols>
-<symbol name="LP4OA1PBBTG">
-<pin name="P$1" x="-6.35" y="0" length="middle"/>
-<pin name="P$2" x="6.35" y="0" length="middle" rot="R180"/>
-<wire x1="-3.048" y1="1.524" x2="0" y2="1.524" width="0.1524" layer="94"/>
-<wire x1="0" y1="1.524" x2="3.048" y2="1.524" width="0.1524" layer="94"/>
-<wire x1="0" y1="2.54" x2="0" y2="1.524" width="0.1524" layer="94"/>
-<wire x1="0" y1="2.54" x2="-1.016" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="0" y1="2.54" x2="1.016" y2="2.54" width="0.1524" layer="94"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="LP4OA1PBBTG">
-<gates>
-<gate name="G$1" symbol="LP4OA1PBBTG" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="LP4OA1PBBTG">
-<connects>
-<connect gate="G$1" pin="P$1" pad="P$1"/>
-<connect gate="G$1" pin="P$2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="molex">
 <description>Developed by element14 :&lt;br&gt;
 element14 CAD Library consolidation.ulp
@@ -20413,8 +20370,6 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <part name="C3" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="3.3uF"/>
 <part name="C4" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="3.3uF"/>
 <part name="D2" library="diodes-inc-e14" deviceset="B160-FDICT_NB" device=""/>
-<part name="S4" library="e-switch" deviceset="LP4OA1PBBTG" device=""/>
-<part name="S5" library="e-switch" deviceset="LP4OA1PBBTG" device=""/>
 <part name="J2" library="molex" deviceset="EN3C12M26X" device=""/>
 <part name="J3" library="molex" deviceset="043650-0409" device=""/>
 <part name="J4" library="molex" deviceset="043650-0409" device=""/>
@@ -20629,8 +20584,6 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <instance part="C3" gate="G$1" x="231.14" y="83.82" rot="R180"/>
 <instance part="C4" gate="G$1" x="246.38" y="83.82" rot="R180"/>
 <instance part="D2" gate="G$1" x="206.502" y="118.11"/>
-<instance part="S4" gate="G$1" x="-314.96" y="83.82"/>
-<instance part="S5" gate="G$1" x="-314.96" y="73.66"/>
 <instance part="J2" gate="G$1" x="-304.8" y="124.46" rot="R90"/>
 <instance part="J3" gate="G$1" x="-365.76" y="111.76"/>
 <instance part="J4" gate="G$1" x="-365.76" y="76.2"/>
@@ -20687,26 +20640,12 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <label x="-22.86" y="114.3" size="1.778" layer="95"/>
 <pinref part="IC1" gate="G$1" pin="(A9)PC1"/>
 </segment>
-<segment>
-<wire x1="-320.04" y1="73.66" x2="-321.31" y2="73.66" width="0.1524" layer="91"/>
-<label x="-330.2" y="73.66" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="S5" gate="G$1" pin="P$1"/>
-<wire x1="-321.31" y1="73.66" x2="-330.2" y2="73.66" width="0.1524" layer="91"/>
-<junction x="-321.31" y="73.66"/>
-</segment>
 </net>
 <net name="PC0" class="0">
 <segment>
 <wire x1="-20.32" y1="111.76" x2="-25.4" y2="111.76" width="0.1524" layer="91"/>
 <label x="-22.86" y="111.76" size="1.778" layer="95"/>
 <pinref part="IC1" gate="G$1" pin="(A8)PC0"/>
-</segment>
-<segment>
-<wire x1="-320.04" y1="83.82" x2="-321.31" y2="83.82" width="0.1524" layer="91"/>
-<label x="-330.2" y="83.82" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="S4" gate="G$1" pin="P$1"/>
-<wire x1="-321.31" y1="83.82" x2="-330.2" y2="83.82" width="0.1524" layer="91"/>
-<junction x="-321.31" y="83.82"/>
 </segment>
 </net>
 <net name="RXCAN" class="0">
@@ -21207,20 +21146,6 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <wire x1="198.12" y1="68.58" x2="198.12" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="GND23" gate="1" pin="GND"/>
 <junction x="198.12" y="68.58"/>
-</segment>
-<segment>
-<wire x1="-309.88" y1="83.82" x2="-308.61" y2="83.82" width="0.1524" layer="91"/>
-<label x="-299.72" y="83.82" size="1.778" layer="95" xref="yes"/>
-<pinref part="S4" gate="G$1" pin="P$2"/>
-<wire x1="-308.61" y1="83.82" x2="-299.72" y2="83.82" width="0.1524" layer="91"/>
-<junction x="-308.61" y="83.82"/>
-</segment>
-<segment>
-<wire x1="-309.88" y1="73.66" x2="-308.61" y2="73.66" width="0.1524" layer="91"/>
-<label x="-299.72" y="73.66" size="1.778" layer="95" xref="yes"/>
-<pinref part="S5" gate="G$1" pin="P$2"/>
-<wire x1="-308.61" y1="73.66" x2="-299.72" y2="73.66" width="0.1524" layer="91"/>
-<junction x="-308.61" y="73.66"/>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="P$1"/>
