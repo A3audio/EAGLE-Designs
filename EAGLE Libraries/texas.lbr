@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.4.0">
+<eagle version="8.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -24286,28 +24286,28 @@ Soure: &lt;a href="http://www.ti.com/lit/ds/symlink/ads7042.pdf"&gt; Data sheet 
 <text x="5.08" y="-2.54" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
 </package>
 <package name="LM5000">
-<smd name="COMP" x="0.25" y="-0.6" dx="0.6" dy="0.25" layer="1" rot="R90"/>
-<wire x1="4" y1="0" x2="4" y2="3.6" width="0.127" layer="21"/>
-<wire x1="0" y1="0" x2="0" y2="3.6" width="0.127" layer="21"/>
-<smd name="FB" x="0.75" y="-0.6" dx="0.6" dy="0.25" layer="1" rot="R90"/>
-<smd name="SHDN" x="1.25" y="-0.6" dx="0.6" dy="0.25" layer="1" rot="R270"/>
-<smd name="AGND" x="1.75" y="-0.6" dx="0.6" dy="0.25" layer="1" rot="R270"/>
-<smd name="PGND1" x="2.25" y="-0.6" dx="0.6" dy="0.25" layer="1" rot="R270"/>
-<smd name="PGND2" x="2.75" y="-0.6" dx="0.6" dy="0.25" layer="1" rot="R270"/>
-<smd name="PGND3" x="3.25" y="-0.6" dx="0.6" dy="0.25" layer="1" rot="R270"/>
-<smd name="PGND4" x="3.75" y="-0.6" dx="0.6" dy="0.25" layer="1" rot="R270"/>
-<smd name="SW1" x="3.75" y="4.2" dx="0.6" dy="0.25" layer="1" rot="R270"/>
-<smd name="SW2" x="3.25" y="4.2" dx="0.6" dy="0.25" layer="1" rot="R270"/>
-<smd name="SW3" x="2.75" y="4.2" dx="0.6" dy="0.25" layer="1" rot="R270"/>
-<smd name="BYP" x="2.25" y="4.2" dx="0.6" dy="0.25" layer="1" rot="R270"/>
-<smd name="VIN" x="1.75" y="4.2" dx="0.6" dy="0.25" layer="1" rot="R270"/>
-<smd name="SS" x="1.25" y="4.2" dx="0.6" dy="0.25" layer="1" rot="R270"/>
-<smd name="FS" x="0.75" y="4.2" dx="0.6" dy="0.25" layer="1" rot="R270"/>
-<smd name="TEST" x="0.25" y="4.2" dx="0.6" dy="0.25" layer="1" rot="R270"/>
-<wire x1="0" y1="0" x2="4" y2="0" width="0.127" layer="21"/>
-<wire x1="0" y1="3.6" x2="4" y2="3.6" width="0.127" layer="21"/>
-<text x="-1" y="5" size="1.27" layer="21">&gt;NAME</text>
-<text x="-1" y="-3" size="1.27" layer="21">&gt;VALUE</text>
+<wire x1="-1.8" y1="2" x2="1.8" y2="2" width="0.1016" layer="121"/>
+<wire x1="1.8" y1="2" x2="1.8" y2="-2" width="0.1016" layer="121"/>
+<wire x1="1.8" y1="-2" x2="-1.8" y2="-2" width="0.1016" layer="121"/>
+<wire x1="-1.8" y1="-2" x2="-1.8" y2="2" width="0.1016" layer="121"/>
+<smd name="8" x="-2.4" y="-1.75" dx="0.6" dy="0.25" layer="1" rot="R180"/>
+<smd name="7" x="-2.4" y="-1.25" dx="0.6" dy="0.25" layer="1" rot="R180"/>
+<smd name="6" x="-2.4" y="-0.75" dx="0.6" dy="0.25" layer="1" rot="R180"/>
+<smd name="5" x="-2.4" y="-0.25" dx="0.6" dy="0.25" layer="1" rot="R180"/>
+<smd name="4" x="-2.4" y="0.25" dx="0.6" dy="0.25" layer="1" rot="R180"/>
+<smd name="3" x="-2.4" y="0.75" dx="0.6" dy="0.25" layer="1" rot="R180"/>
+<smd name="2" x="-2.4" y="1.25" dx="0.6" dy="0.25" layer="1" rot="R180"/>
+<smd name="1" x="-2.4" y="1.75" dx="0.6" dy="0.25" layer="1" rot="R180"/>
+<smd name="9" x="2.4" y="-1.75" dx="0.6" dy="0.25" layer="1" rot="R180"/>
+<smd name="10" x="2.4" y="-1.25" dx="0.6" dy="0.25" layer="1" rot="R180"/>
+<smd name="11" x="2.4" y="-0.75" dx="0.6" dy="0.25" layer="1" rot="R180"/>
+<smd name="12" x="2.4" y="-0.25" dx="0.6" dy="0.25" layer="1" rot="R180"/>
+<smd name="13" x="2.4" y="0.25" dx="0.6" dy="0.25" layer="1" rot="R180"/>
+<smd name="14" x="2.4" y="0.75" dx="0.6" dy="0.25" layer="1" rot="R180"/>
+<smd name="15" x="2.4" y="1.25" dx="0.6" dy="0.25" layer="1" rot="R180"/>
+<smd name="16" x="2.4" y="1.75" dx="0.6" dy="0.25" layer="1" rot="R180"/>
+<text x="-2.5" y="2.5" size="1.016" layer="25">&gt;NAME</text>
+<text x="-2.5" y="-4" size="1.016" layer="27">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -35370,7 +35370,7 @@ Soure: &lt;a href="http://www.ti.com/lit/ds/symlink/ads7042.pdf"&gt; Data sheet 
 <wire x1="12.7" y1="-22.86" x2="12.7" y2="22.86" width="0.254" layer="94"/>
 <wire x1="12.7" y1="22.86" x2="-12.7" y2="22.86" width="0.254" layer="94"/>
 <pin name="VIN" x="-17.78" y="17.78" length="middle"/>
-<pin name="SHDN" x="-17.78" y="12.7" length="middle"/>
+<pin name="!SHDN" x="-17.78" y="12.7" length="middle"/>
 <pin name="COMP" x="-17.78" y="7.62" length="middle"/>
 <pin name="AGND" x="-17.78" y="2.54" length="middle"/>
 <pin name="PGND1" x="-17.78" y="-2.54" length="middle"/>
@@ -49026,22 +49026,22 @@ Soure: &lt;a href="http://www.ti.com/lit/ds/symlink/ads7042.pdf"&gt; Data sheet 
 <devices>
 <device name="" package="LM5000">
 <connects>
-<connect gate="G$1" pin="AGND" pad="AGND"/>
-<connect gate="G$1" pin="BYP" pad="BYP"/>
-<connect gate="G$1" pin="COMP" pad="COMP"/>
-<connect gate="G$1" pin="FB" pad="FB"/>
-<connect gate="G$1" pin="FS" pad="FS"/>
-<connect gate="G$1" pin="PGND1" pad="PGND1"/>
-<connect gate="G$1" pin="PGND2" pad="PGND2"/>
-<connect gate="G$1" pin="PGND3" pad="PGND3"/>
-<connect gate="G$1" pin="PGND4" pad="PGND4"/>
-<connect gate="G$1" pin="SHDN" pad="SHDN"/>
-<connect gate="G$1" pin="SS" pad="SS"/>
-<connect gate="G$1" pin="SW1" pad="SW1"/>
-<connect gate="G$1" pin="SW2" pad="SW2"/>
-<connect gate="G$1" pin="SW3" pad="SW3"/>
-<connect gate="G$1" pin="TEST" pad="TEST"/>
-<connect gate="G$1" pin="VIN" pad="VIN"/>
+<connect gate="G$1" pin="!SHDN" pad="3"/>
+<connect gate="G$1" pin="AGND" pad="4"/>
+<connect gate="G$1" pin="BYP" pad="12"/>
+<connect gate="G$1" pin="COMP" pad="1"/>
+<connect gate="G$1" pin="FB" pad="2"/>
+<connect gate="G$1" pin="FS" pad="15"/>
+<connect gate="G$1" pin="PGND1" pad="5"/>
+<connect gate="G$1" pin="PGND2" pad="6"/>
+<connect gate="G$1" pin="PGND3" pad="7"/>
+<connect gate="G$1" pin="PGND4" pad="8"/>
+<connect gate="G$1" pin="SS" pad="14"/>
+<connect gate="G$1" pin="SW1" pad="9"/>
+<connect gate="G$1" pin="SW2" pad="10"/>
+<connect gate="G$1" pin="SW3" pad="11"/>
+<connect gate="G$1" pin="TEST" pad="16"/>
+<connect gate="G$1" pin="VIN" pad="13"/>
 </connects>
 <technologies>
 <technology name=""/>
