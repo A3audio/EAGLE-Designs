@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.3.2">
+<eagle version="8.6.0">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
@@ -19909,19 +19909,24 @@ at 14/06/2012 11:09:42</description>
 <circle x="0" y="0" radius="6.858" width="0.1524" layer="21"/>
 <circle x="0" y="0" radius="10.414" width="0.1524" layer="21"/>
 </package>
-<package name="043650-0409">
-<hole x="-6.65" y="0" drill="2.41"/>
-<hole x="6.65" y="0" drill="2.41"/>
-<smd name="P$1" x="-4.5" y="5.47" dx="1.27" dy="2.92" layer="1" rot="R180"/>
-<smd name="P$2" x="-1.5" y="5.47" dx="1.27" dy="2.92" layer="1" rot="R180"/>
-<smd name="P$3" x="1.5" y="5.47" dx="1.27" dy="2.92" layer="1" rot="R180"/>
-<smd name="P$4" x="4.5" y="5.47" dx="1.27" dy="2.92" layer="1" rot="R180"/>
-<wire x1="7.825" y1="6.1" x2="7.825" y2="-4.6" width="0.1524" layer="21"/>
-<wire x1="-7.825" y1="6.1" x2="-7.825" y2="-4.6" width="0.1524" layer="21"/>
-<wire x1="-7.825" y1="6.1" x2="7.825" y2="6.1" width="0.1524" layer="21"/>
-<wire x1="-7.825" y1="-4.6" x2="7.825" y2="-4.6" width="0.1524" layer="21"/>
-<text x="-7.62" y="7.62" size="1.778" layer="25">&gt;NAME</text>
-<text x="-8.001" y="-6.731" size="1.778" layer="27">&gt;VALUE</text>
+<package name="MOLEX_67503-1020">
+<rectangle x1="0" y1="-2.05" x2="4" y2="0" layer="22" rot="R180"/>
+<rectangle x1="4.5" y1="-2.05" x2="8" y2="0" layer="21"/>
+<rectangle x1="4.5" y1="7.8" x2="8" y2="9.85" layer="21"/>
+<hole x="3.9" y="6.1" drill="0.9"/>
+<hole x="3.9" y="1.7" drill="0.9"/>
+<smd name="P$1" x="6.225" y="5.5" dx="2.25" dy="0.5" layer="1"/>
+<smd name="P$2" x="6.225" y="4.7" dx="2.25" dy="0.5" layer="1"/>
+<smd name="P$3" x="6.225" y="3.9" dx="2.25" dy="0.5" layer="1"/>
+<smd name="P$4" x="6.225" y="3.1" dx="2.25" dy="0.5" layer="1"/>
+<smd name="P$5" x="6.225" y="2.3" dx="2.25" dy="0.5" layer="1"/>
+<smd name="GND1" x="2" y="8.825" dx="4" dy="2.05" layer="1"/>
+<smd name="GND2" x="6.25" y="8.825" dx="3.5" dy="2.05" layer="1"/>
+<smd name="GND3" x="2" y="-1.025" dx="4" dy="2.05" layer="1"/>
+<smd name="GND4" x="6.25" y="-1.025" dx="3.5" dy="2.05" layer="1"/>
+<rectangle x1="-2" y1="0" x2="0" y2="7.8" layer="39"/>
+<rectangle x1="0" y1="0.8" x2="1.2" y2="7" layer="41"/>
+<rectangle x1="-2" y1="-2.05" x2="8" y2="9.85" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -19943,15 +19948,17 @@ at 14/06/2012 11:09:42</description>
 <pin name="P$11" x="12.7" y="5.08" length="middle" rot="R180"/>
 <pin name="P$12" x="12.7" y="7.62" length="middle" rot="R180"/>
 </symbol>
-<symbol name="504050-0491">
-<wire x1="-7.62" y1="12.7" x2="7.62" y2="12.7" width="0.254" layer="94"/>
-<wire x1="7.62" y1="12.7" x2="7.62" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-12.7" x2="-7.62" y2="12.7" width="0.254" layer="94"/>
-<pin name="P$1" x="-12.7" y="7.62" length="middle"/>
-<pin name="P$2" x="-12.7" y="2.54" length="middle"/>
-<pin name="P$3" x="-12.7" y="-2.54" length="middle"/>
-<pin name="P$4" x="-12.7" y="-7.62" length="middle"/>
-<wire x1="7.62" y1="-12.7" x2="-7.62" y2="-12.7" width="0.254" layer="94"/>
+<symbol name="43650-0513">
+<wire x1="-7.62" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="7.62" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-2.54" x2="-7.62" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-2.54" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<pin name="P$1" x="-5.08" y="-5.08" length="short" rot="R90"/>
+<pin name="P$2" x="-2.54" y="-5.08" length="short" rot="R90"/>
+<pin name="P$3" x="0" y="-5.08" length="short" rot="R90"/>
+<pin name="P$4" x="2.54" y="-5.08" length="short" rot="R90"/>
+<pin name="P$5" x="5.08" y="-5.08" length="short" rot="R90"/>
+<text x="-7.62" y="7.62" size="1.27" layer="95">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -19981,17 +19988,19 @@ at 14/06/2012 11:09:42</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="043650-0409">
+<deviceset name="67503-1020">
+<description>USB On-The-Go (OTG) Mini-B Receptacle, Surface Mount, Right Angle, Solder Tabs with Back Cover and PCB Locator Plastic Pegs, Lead-Free</description>
 <gates>
-<gate name="G$1" symbol="504050-0491" x="33.02" y="-5.08"/>
+<gate name="G$1" symbol="43650-0513" x="-33.02" y="7.62"/>
 </gates>
 <devices>
-<device name="" package="043650-0409">
+<device name="" package="MOLEX_67503-1020">
 <connects>
 <connect gate="G$1" pin="P$1" pad="P$1"/>
 <connect gate="G$1" pin="P$2" pad="P$2"/>
 <connect gate="G$1" pin="P$3" pad="P$3"/>
 <connect gate="G$1" pin="P$4" pad="P$4"/>
+<connect gate="G$1" pin="P$5" pad="P$5"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -20371,9 +20380,9 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <part name="C4" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="3.3uF"/>
 <part name="D2" library="diodes-inc-e14" deviceset="B160-FDICT_NB" device=""/>
 <part name="J2" library="molex" deviceset="EN3C12M26X" device=""/>
-<part name="J3" library="molex" deviceset="043650-0409" device=""/>
-<part name="J4" library="molex" deviceset="043650-0409" device=""/>
-<part name="J5" library="molex" deviceset="043650-0409" device=""/>
+<part name="J3" library="molex" deviceset="67503-1020" device=""/>
+<part name="J4" library="molex" deviceset="67503-1020" device=""/>
+<part name="J5" library="molex" deviceset="67503-1020" device=""/>
 <part name="D3" library="diode" deviceset="1N581*" device="SOD123" technology="9-B" value="1N5819"/>
 <part name="IC8" library="on-semiconductor" deviceset="NCP1117" device=""/>
 <part name="C23" library="rcl" deviceset="C-US" device="C0603" value="10uF"/>
@@ -20585,9 +20594,9 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <instance part="C4" gate="G$1" x="246.38" y="83.82" rot="R180"/>
 <instance part="D2" gate="G$1" x="206.502" y="118.11"/>
 <instance part="J2" gate="G$1" x="-304.8" y="124.46" rot="R90"/>
-<instance part="J3" gate="G$1" x="-365.76" y="111.76"/>
-<instance part="J4" gate="G$1" x="-365.76" y="76.2"/>
-<instance part="J5" gate="G$1" x="-365.76" y="40.64"/>
+<instance part="J3" gate="G$1" x="-360.68" y="111.76" rot="R270"/>
+<instance part="J4" gate="G$1" x="-360.68" y="71.12" rot="R270"/>
+<instance part="J5" gate="G$1" x="-363.22" y="40.64" rot="R270"/>
 <instance part="D3" gate="G$1" x="-238.76" y="68.58"/>
 <instance part="IC8" gate="G$1" x="-205.74" y="68.58"/>
 <instance part="C23" gate="G$1" x="-233.68" y="60.96"/>
@@ -21153,16 +21162,6 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <label x="-312.42" y="109.22" size="0.8128" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J3" gate="G$1" pin="P$2"/>
-<wire x1="-378.46" y1="114.3" x2="-381" y2="114.3" width="0.1524" layer="91"/>
-<label x="-381" y="114.3" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="J5" gate="G$1" pin="P$1"/>
-<wire x1="-378.46" y1="48.26" x2="-381" y2="48.26" width="0.1524" layer="91"/>
-<label x="-381" y="48.26" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <pinref part="C23" gate="G$1" pin="2"/>
 <wire x1="-233.68" y1="55.88" x2="-233.68" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="C24" gate="G$1" pin="2"/>
@@ -21199,9 +21198,19 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <label x="-330.2" y="5.08" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J4" gate="G$1" pin="P$2"/>
-<wire x1="-378.46" y1="78.74" x2="-381" y2="78.74" width="0.1524" layer="91"/>
-<label x="-381" y="78.74" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="J3" gate="G$1" pin="P$5"/>
+<wire x1="-365.76" y1="106.68" x2="-378.46" y2="106.68" width="0.1524" layer="91"/>
+<label x="-378.46" y="106.68" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J4" gate="G$1" pin="P$5"/>
+<wire x1="-365.76" y1="66.04" x2="-381" y2="66.04" width="0.1524" layer="91"/>
+<label x="-381" y="66.04" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J5" gate="G$1" pin="P$5"/>
+<wire x1="-368.3" y1="35.56" x2="-378.46" y2="35.56" width="0.1524" layer="91"/>
+<label x="-378.46" y="35.56" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="XTAL1" class="0">
@@ -21424,8 +21433,8 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <net name="12V" class="2">
 <segment>
 <pinref part="J3" gate="G$1" pin="P$1"/>
-<wire x1="-378.46" y1="119.38" x2="-381" y2="119.38" width="0.1524" layer="91"/>
-<label x="-381" y="119.38" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="-365.76" y1="116.84" x2="-378.46" y2="116.84" width="0.1524" layer="91"/>
+<label x="-378.46" y="116.84" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="D3" gate="G$1" pin="A"/>
@@ -22170,8 +22179,8 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <net name="DRV1" class="3">
 <segment>
 <pinref part="J5" gate="G$1" pin="P$2"/>
-<wire x1="-378.46" y1="43.18" x2="-381" y2="43.18" width="0.1524" layer="91"/>
-<label x="-381" y="43.18" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="-368.3" y1="43.18" x2="-370.84" y2="43.18" width="0.1524" layer="91"/>
+<label x="-370.84" y="43.18" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="F4" gate="G$1" pin="2"/>
@@ -22274,15 +22283,15 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </segment>
 <segment>
 <pinref part="J5" gate="G$1" pin="P$4"/>
-<wire x1="-378.46" y1="33.02" x2="-381" y2="33.02" width="0.1524" layer="91"/>
-<label x="-381" y="33.02" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="-368.3" y1="38.1" x2="-370.84" y2="38.1" width="0.1524" layer="91"/>
+<label x="-370.84" y="38.1" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="DRV2" class="3">
 <segment>
 <pinref part="J5" gate="G$1" pin="P$3"/>
-<wire x1="-378.46" y1="38.1" x2="-381" y2="38.1" width="0.1524" layer="91"/>
-<label x="-381" y="38.1" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="-368.3" y1="40.64" x2="-378.46" y2="40.64" width="0.1524" layer="91"/>
+<label x="-378.46" y="40.64" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="F5" gate="G$1" pin="2"/>
@@ -22824,8 +22833,8 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <net name="CAN_1L" class="0">
 <segment>
 <pinref part="J3" gate="G$1" pin="P$4"/>
-<wire x1="-378.46" y1="104.14" x2="-381" y2="104.14" width="0.1524" layer="91"/>
-<label x="-381" y="104.14" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="-365.76" y1="109.22" x2="-368.3" y2="109.22" width="0.1524" layer="91"/>
+<label x="-368.3" y="109.22" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="P$8"/>
@@ -22836,8 +22845,8 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <net name="CAN_1H" class="0">
 <segment>
 <pinref part="J3" gate="G$1" pin="P$3"/>
-<wire x1="-378.46" y1="109.22" x2="-381" y2="109.22" width="0.1524" layer="91"/>
-<label x="-381" y="109.22" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="-365.76" y1="111.76" x2="-378.46" y2="111.76" width="0.1524" layer="91"/>
+<label x="-378.46" y="111.76" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="P$7"/>
@@ -22865,8 +22874,8 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </segment>
 <segment>
 <pinref part="J4" gate="G$1" pin="P$4"/>
-<wire x1="-378.46" y1="68.58" x2="-381" y2="68.58" width="0.1524" layer="91"/>
-<label x="-381" y="68.58" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="-365.76" y1="68.58" x2="-368.3" y2="68.58" width="0.1524" layer="91"/>
+<label x="-368.3" y="68.58" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="DOWN_SH" class="0">
@@ -22877,8 +22886,8 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </segment>
 <segment>
 <pinref part="J4" gate="G$1" pin="P$3"/>
-<wire x1="-378.46" y1="73.66" x2="-381" y2="73.66" width="0.1524" layer="91"/>
-<label x="-381" y="73.66" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="-365.76" y1="71.12" x2="-378.46" y2="71.12" width="0.1524" layer="91"/>
+<label x="-378.46" y="71.12" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="CAN_0L" class="1">
