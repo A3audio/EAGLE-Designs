@@ -21158,11 +21158,6 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <label x="-381" y="114.3" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J4" gate="G$1" pin="P$1"/>
-<wire x1="-378.46" y1="83.82" x2="-381" y2="83.82" width="0.1524" layer="91"/>
-<label x="-381" y="83.82" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <pinref part="J5" gate="G$1" pin="P$1"/>
 <wire x1="-378.46" y1="48.26" x2="-381" y2="48.26" width="0.1524" layer="91"/>
 <label x="-381" y="48.26" size="1.27" layer="95" rot="R180" xref="yes"/>
@@ -21202,6 +21197,11 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <pinref part="J1" gate="G$1" pin="GND"/>
 <wire x1="-320.04" y1="5.08" x2="-322.58" y2="5.08" width="0.1524" layer="91"/>
 <label x="-330.2" y="5.08" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J4" gate="G$1" pin="P$2"/>
+<wire x1="-378.46" y1="78.74" x2="-381" y2="78.74" width="0.1524" layer="91"/>
+<label x="-381" y="78.74" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="XTAL1" class="0">
@@ -22169,14 +22169,14 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </net>
 <net name="DRV1" class="3">
 <segment>
-<pinref part="F5" gate="G$1" pin="2"/>
-<wire x1="-430.53" y1="29.21" x2="-430.53" y2="25.4" width="0.1524" layer="91"/>
-<label x="-430.53" y="25.4" size="1.778" layer="95" rot="R270" xref="yes"/>
-</segment>
-<segment>
 <pinref part="J5" gate="G$1" pin="P$2"/>
 <wire x1="-378.46" y1="43.18" x2="-381" y2="43.18" width="0.1524" layer="91"/>
 <label x="-381" y="43.18" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="F4" gate="G$1" pin="2"/>
+<wire x1="-430.53" y1="102.87" x2="-430.53" y2="99.06" width="0.1524" layer="91"/>
+<label x="-430.53" y="99.06" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="N$27" class="3">
@@ -22280,14 +22280,14 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </net>
 <net name="DRV2" class="3">
 <segment>
-<pinref part="F4" gate="G$1" pin="2"/>
-<wire x1="-430.53" y1="102.87" x2="-430.53" y2="99.06" width="0.1524" layer="91"/>
-<label x="-430.53" y="99.06" size="1.778" layer="95" rot="R270" xref="yes"/>
-</segment>
-<segment>
 <pinref part="J5" gate="G$1" pin="P$3"/>
 <wire x1="-378.46" y1="38.1" x2="-381" y2="38.1" width="0.1524" layer="91"/>
 <label x="-381" y="38.1" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="F5" gate="G$1" pin="2"/>
+<wire x1="-430.53" y1="29.21" x2="-430.53" y2="25.4" width="0.1524" layer="91"/>
+<label x="-430.53" y="25.4" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="N$43" class="0">
@@ -22859,26 +22859,26 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </net>
 <net name="UP_SH" class="4">
 <segment>
-<pinref part="J4" gate="G$1" pin="P$2"/>
-<wire x1="-378.46" y1="78.74" x2="-381" y2="78.74" width="0.1524" layer="91"/>
-<label x="-381" y="78.74" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <pinref part="J2" gate="G$1" pin="P$5"/>
 <wire x1="-302.26" y1="111.76" x2="-302.26" y2="109.22" width="0.1524" layer="91"/>
 <label x="-302.26" y="109.22" size="0.8128" layer="95" rot="R270" xref="yes"/>
 </segment>
+<segment>
+<pinref part="J4" gate="G$1" pin="P$4"/>
+<wire x1="-378.46" y1="68.58" x2="-381" y2="68.58" width="0.1524" layer="91"/>
+<label x="-381" y="68.58" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="DOWN_SH" class="0">
-<segment>
-<pinref part="J4" gate="G$1" pin="P$3"/>
-<wire x1="-378.46" y1="73.66" x2="-381" y2="73.66" width="0.1524" layer="91"/>
-<label x="-381" y="73.66" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="P$6"/>
 <wire x1="-299.72" y1="111.76" x2="-299.72" y2="109.22" width="0.1524" layer="91"/>
 <label x="-299.72" y="109.22" size="0.8128" layer="95" rot="R270" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J4" gate="G$1" pin="P$3"/>
+<wire x1="-378.46" y1="73.66" x2="-381" y2="73.66" width="0.1524" layer="91"/>
+<label x="-381" y="73.66" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="CAN_0L" class="1">
