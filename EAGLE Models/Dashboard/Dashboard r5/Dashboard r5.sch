@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.6.0">
+<eagle version="8.5.0">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
@@ -3480,22 +3480,6 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <text x="-4.5056" y="4.6326" size="1.27" layer="25">&gt;NAME</text>
 <text x="-4.5056" y="-6.4106" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="R0402" urn="urn:adsk.eagle:footprint:23043/1" library_version="2">
-<description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
-<wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="51"/>
-<wire x1="0.245" y1="-0.224" x2="-0.245" y2="-0.224" width="0.1524" layer="51"/>
-<wire x1="-1.473" y1="0.483" x2="1.473" y2="0.483" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="0.483" x2="1.473" y2="-0.483" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="-0.483" x2="-1.473" y2="-0.483" width="0.0508" layer="39"/>
-<wire x1="-1.473" y1="-0.483" x2="-1.473" y2="0.483" width="0.0508" layer="39"/>
-<smd name="1" x="-0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
-<smd name="2" x="0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
-<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
-<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.2951" layer="51"/>
-<rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
-</package>
 <package name="R0603" urn="urn:adsk.eagle:footprint:23044/1" library_version="2">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
 <wire x1="-0.432" y1="-0.356" x2="0.432" y2="-0.356" width="0.1524" layer="51"/>
@@ -4797,6 +4781,22 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <rectangle x1="-0.15" y1="0.05" x2="0.15" y2="0.1" layer="51"/>
 <rectangle x1="-0.15" y1="-0.1" x2="0.15" y2="-0.05" layer="51"/>
 </package>
+<package name="R0402" urn="urn:adsk.eagle:footprint:23043/3" library_version="3">
+<description>&lt;b&gt;Chip RESISTOR 0402 EIA (1005 Metric)&lt;/b&gt;</description>
+<wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="51"/>
+<wire x1="0.245" y1="-0.224" x2="-0.245" y2="-0.224" width="0.1524" layer="51"/>
+<wire x1="-1" y1="0.483" x2="1" y2="0.483" width="0.0508" layer="39"/>
+<wire x1="1" y1="0.483" x2="1" y2="-0.483" width="0.0508" layer="39"/>
+<wire x1="1" y1="-0.483" x2="-1" y2="-0.483" width="0.0508" layer="39"/>
+<wire x1="-1" y1="-0.483" x2="-1" y2="0.483" width="0.0508" layer="39"/>
+<smd name="1" x="-0.5" y="0" dx="0.6" dy="0.7" layer="1"/>
+<smd name="2" x="0.5" y="0" dx="0.6" dy="0.7" layer="1"/>
+<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.2951" layer="51"/>
+<rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.35" x2="0.1999" y2="0.35" layer="35"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="C0805" urn="urn:adsk.eagle:package:23617/2" type="model" library_version="2">
@@ -5337,9 +5337,6 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <package3d name="R0805" urn="urn:adsk.eagle:package:23553/2" type="model" library_version="2">
 <description>RESISTOR</description>
 </package3d>
-<package3d name="R0402" urn="urn:adsk.eagle:package:23547/1" type="box" library_version="2">
-<description>RESISTOR</description>
-</package3d>
 <package3d name="R0603" urn="urn:adsk.eagle:package:23555/2" type="model" library_version="2">
 <description>RESISTOR</description>
 </package3d>
@@ -5630,6 +5627,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </package3d>
 <package3d name="R01005" urn="urn:adsk.eagle:package:23613/1" type="box" library_version="2">
 </package3d>
+<package3d name="R0402" urn="urn:adsk.eagle:package:23547/2" type="box" library_version="3">
+<description>Chip RESISTOR 0402 EIA (1005 Metric)</description>
+</package3d>
 </packages3d>
 <symbols>
 <symbol name="C-US" urn="urn:adsk.eagle:symbol:23201/1" library_version="2">
@@ -5673,7 +5673,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="C-US" urn="urn:adsk.eagle:component:23794/41" prefix="C" uservalue="yes" library_version="2">
+<deviceset name="C-US" urn="urn:adsk.eagle:component:23794/42" prefix="C" uservalue="yes" library_version="3">
 <description>&lt;B&gt;CAPACITOR&lt;/B&gt;, American symbol</description>
 <gates>
 <gate name="G$1" symbol="C-US" x="0" y="0"/>
@@ -5688,7 +5688,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23626/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="C" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="C0504" package="C0504">
@@ -5700,7 +5702,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23624/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="C" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="C0603" package="C0603">
@@ -5712,7 +5716,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23616/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="C" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="C0805" package="C0805">
@@ -5724,7 +5730,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23617/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="C" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="C1206" package="C1206">
@@ -5736,7 +5744,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23618/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="C" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="C1210" package="C1210">
@@ -5748,7 +5758,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23619/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="C" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="C1310" package="C1310">
@@ -5760,7 +5772,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23620/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="C" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="C1608" package="C1608">
@@ -5772,7 +5786,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23621/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="C" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="C1812" package="C1812">
@@ -5784,7 +5800,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23622/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="C" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="C1825" package="C1825">
@@ -5796,7 +5814,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23623/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="C" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="C2012" package="C2012">
@@ -5808,7 +5828,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23625/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="C" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="C3216" package="C3216">
@@ -5820,7 +5842,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23628/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="C" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="C3225" package="C3225">
@@ -5832,7 +5856,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23655/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="C" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="C4532" package="C4532">
@@ -5844,7 +5870,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23627/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="C" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="C4564" package="C4564">
@@ -5856,7 +5884,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23648/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="C" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="025-024X044" package="C025-024X044">
@@ -5868,7 +5898,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23630/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="C" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="025-025X050" package="C025-025X050">
@@ -5880,7 +5912,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23629/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="C" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="025-030X050" package="C025-030X050">
@@ -5892,7 +5926,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23631/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="C" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="025-040X050" package="C025-040X050">
@@ -5904,7 +5940,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23634/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="C" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="025-050X050" package="C025-050X050">
@@ -5916,7 +5954,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23633/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="C" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="025-060X050" package="C025-060X050">
@@ -5928,7 +5968,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23632/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="C" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="C025_050-024X070" package="C025_050-024X070">
@@ -5940,7 +5982,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23639/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="C" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="025_050-025X075" package="C025_050-025X075">
@@ -5952,7 +5996,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23641/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="C" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="025_050-035X075" package="C025_050-035X075">
@@ -5964,7 +6010,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23651/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="C" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="025_050-045X075" package="C025_050-045X075">
@@ -5976,7 +6024,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23635/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="C" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="025_050-055X075" package="C025_050-055X075">
@@ -5988,7 +6038,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23636/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="C" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="050-024X044" package="C050-024X044">
@@ -6000,7 +6052,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23643/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="C" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="050-025X075" package="C050-025X075">
@@ -6012,7 +6066,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23637/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="C" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="050-045X075" package="C050-045X075">
@@ -6024,7 +6080,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23638/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="C" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="050-030X075" package="C050-030X075">
@@ -6036,7 +6094,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23640/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="C" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="050-050X075" package="C050-050X075">
@@ -6048,7 +6108,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23665/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="C" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="050-055X075" package="C050-055X075">
@@ -6060,7 +6122,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23642/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="C" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="050-075X075" package="C050-075X075">
@@ -6072,7 +6136,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23645/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="C" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="050H075X075" package="C050H075X075">
@@ -6084,7 +6150,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23644/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="C" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="075-032X103" package="C075-032X103">
@@ -6096,7 +6164,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23646/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="C" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="075-042X103" package="C075-042X103">
@@ -6108,7 +6178,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23656/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="C" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="075-052X106" package="C075-052X106">
@@ -6120,7 +6192,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23650/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="C" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="102-043X133" package="C102-043X133">
@@ -6132,7 +6206,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23647/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="C" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="102-054X133" package="C102-054X133">
@@ -6144,7 +6220,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23649/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="C" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="102-064X133" package="C102-064X133">
@@ -6156,7 +6234,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23653/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="C" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="102_152-062X184" package="C102_152-062X184">
@@ -6168,7 +6248,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23652/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="C" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="150-054X183" package="C150-054X183">
@@ -6180,7 +6262,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23669/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="C" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="150-064X183" package="C150-064X183">
@@ -6192,7 +6276,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23654/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="C" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="150-072X183" package="C150-072X183">
@@ -6204,7 +6290,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23657/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="C" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="150-084X183" package="C150-084X183">
@@ -6216,7 +6304,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23658/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="C" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="150-091X182" package="C150-091X182">
@@ -6228,7 +6318,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23659/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="C" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="225-062X268" package="C225-062X268">
@@ -6240,7 +6332,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23661/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="C" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="225-074X268" package="C225-074X268">
@@ -6252,7 +6346,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23660/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="C" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="225-087X268" package="C225-087X268">
@@ -6264,7 +6360,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23662/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="C" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="225-108X268" package="C225-108X268">
@@ -6276,7 +6374,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23663/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="C" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="225-113X268" package="C225-113X268">
@@ -6288,7 +6388,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23667/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="C" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="275-093X316" package="C275-093X316">
@@ -6300,7 +6402,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23701/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="C" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="275-113X316" package="C275-113X316">
@@ -6312,7 +6416,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23673/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="C" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="275-134X316" package="C275-134X316">
@@ -6324,7 +6430,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23664/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="C" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="275-205X316" package="C275-205X316">
@@ -6336,7 +6444,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23666/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="C" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="325-137X374" package="C325-137X374">
@@ -6348,7 +6458,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23672/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="C" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="325-162X374" package="C325-162X374">
@@ -6360,7 +6472,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23670/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="C" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="325-182X374" package="C325-182X374">
@@ -6372,7 +6486,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23668/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="C" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="375-192X418" package="C375-192X418">
@@ -6384,7 +6500,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23674/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="C" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="375-203X418" package="C375-203X418">
@@ -6396,7 +6514,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23671/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="C" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="050-035X075" package="C050-035X075">
@@ -6408,7 +6528,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23677/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="C" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="375-155X418" package="C375-155X418">
@@ -6420,7 +6542,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23675/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="C" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="075-063X106" package="C075-063X106">
@@ -6432,7 +6556,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23678/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="C" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="275-154X316" package="C275-154X316">
@@ -6444,7 +6570,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23685/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="C" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="275-173X316" package="C275-173X316">
@@ -6456,7 +6584,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23676/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="C" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="C0402K" package="C0402K">
@@ -6468,7 +6598,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23679/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="C" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="C0603K" package="C0603K">
@@ -6480,7 +6612,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23680/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="C" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="C0805K" package="C0805K">
@@ -6492,7 +6626,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23681/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="C" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="C1206K" package="C1206K">
@@ -6504,7 +6640,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23682/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="C" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="C1210K" package="C1210K">
@@ -6516,7 +6654,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23683/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="C" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="C1812K" package="C1812K">
@@ -6528,7 +6668,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23686/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="C" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="C1825K" package="C1825K">
@@ -6540,7 +6682,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23684/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="C" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="C2220K" package="C2220K">
@@ -6552,7 +6696,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23687/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="C" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="C2225K" package="C2225K">
@@ -6564,7 +6710,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23692/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="C" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="C0201" package="C0201">
@@ -6576,7 +6724,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23690/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="C" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="C1808" package="C1808">
@@ -6588,7 +6738,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23689/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="C" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="C3640" package="C3640">
@@ -6600,7 +6752,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23693/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="C" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="01005" package="C01005">
@@ -6612,12 +6766,20 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23691/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="C" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
+<spice>
+<pinmapping spiceprefix="C">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
 </deviceset>
-<deviceset name="R-US_" urn="urn:adsk.eagle:component:23792/14" prefix="R" uservalue="yes" library_version="2">
+<deviceset name="R-US_" urn="urn:adsk.eagle:component:23792/15" prefix="R" uservalue="yes" library_version="3">
 <description>&lt;B&gt;RESISTOR&lt;/B&gt;, American symbol</description>
 <gates>
 <gate name="G$1" symbol="R-US" x="0" y="0"/>
@@ -6629,10 +6791,12 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:23547/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23547/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="R" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="R0603" package="R0603">
@@ -6644,7 +6808,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23555/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="R" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="R0805" package="R0805">
@@ -6656,7 +6822,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23553/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="R" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="R0805W" package="R0805W">
@@ -6668,7 +6836,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23537/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="R" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="R1206" package="R1206">
@@ -6680,7 +6850,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23540/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="R" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="R1206W" package="R1206W">
@@ -6692,7 +6864,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23539/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="R" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="R1210" package="R1210">
@@ -6704,7 +6878,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23554/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="R" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="R1210W" package="R1210W">
@@ -6716,7 +6892,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23541/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="R" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="R2010" package="R2010">
@@ -6728,7 +6906,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23551/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="R" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="R2010W" package="R2010W">
@@ -6740,7 +6920,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23542/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="R" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="R2012" package="R2012">
@@ -6752,7 +6934,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23543/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="R" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="R2012W" package="R2012W">
@@ -6764,7 +6948,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23544/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="R" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="R2512" package="R2512">
@@ -6776,7 +6962,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23545/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="R" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="R2512W" package="R2512W">
@@ -6788,7 +6976,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23565/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="R" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="R3216" package="R3216">
@@ -6800,7 +6990,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23557/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="R" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="R3216W" package="R3216W">
@@ -6812,7 +7004,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23548/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="R" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="R3225" package="R3225">
@@ -6824,7 +7018,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23549/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="R" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="R3225W" package="R3225W">
@@ -6836,7 +7032,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23550/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="R" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="R5025" package="R5025">
@@ -6848,7 +7046,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23552/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="R" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="R5025W" package="R5025W">
@@ -6860,7 +7060,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23558/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="R" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="R6332" package="R6332">
@@ -6872,7 +7074,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23559/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="R" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="R6332W" package="R6332W">
@@ -6884,7 +7088,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23560/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="R" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="M0805" package="M0805">
@@ -6896,7 +7102,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23556/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="R" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="M1206" package="M1206">
@@ -6908,7 +7116,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23566/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="R" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="M1406" package="M1406">
@@ -6920,7 +7130,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23569/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="R" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="M2012" package="M2012">
@@ -6932,7 +7144,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23561/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="R" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="M2309" package="M2309">
@@ -6944,7 +7158,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23562/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="R" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="M3216" package="M3216">
@@ -6956,7 +7172,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23563/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="R" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="M3516" package="M3516">
@@ -6968,7 +7186,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23573/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="R" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="M5923" package="M5923">
@@ -6980,7 +7200,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23564/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="R" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="0204/5" package="0204/5">
@@ -6992,7 +7214,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23488/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="R" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="0204/7" package="0204/7">
@@ -7004,7 +7228,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23498/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="R" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="0207/10" package="0207/10">
@@ -7016,7 +7242,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23491/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="R" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="0207/12" package="0207/12">
@@ -7028,7 +7256,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23489/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="R" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="0207/15" package="0207/15">
@@ -7040,7 +7270,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23492/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="R" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="0207/2V" package="0207/2V">
@@ -7052,7 +7284,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23490/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="R" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="0207/5V" package="0207/5V">
@@ -7064,7 +7298,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23502/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="R" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="0207/7" package="0207/7">
@@ -7076,7 +7312,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23493/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="R" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="0309/10" package="0309/10">
@@ -7088,7 +7326,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23567/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="R" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="0309/12" package="0309/12">
@@ -7100,7 +7340,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23571/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="R" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="0411/12" package="0411/12">
@@ -7112,7 +7354,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23578/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="R" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="0411/15" package="0411/15">
@@ -7124,7 +7368,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23568/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="R" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="0411/3V" package="0411V">
@@ -7136,7 +7382,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23570/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="R" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="0414/15" package="0414/15">
@@ -7148,7 +7396,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23579/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="R" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="0414/5V" package="0414V">
@@ -7160,7 +7410,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23574/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="R" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="0617/17" package="0617/17">
@@ -7172,7 +7424,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23575/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="R" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="0617/22" package="0617/22">
@@ -7184,7 +7438,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23577/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="R" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="0617/5V" package="0617V">
@@ -7196,7 +7452,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23576/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="R" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="0922/22" package="0922/22">
@@ -7208,7 +7466,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23580/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="R" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="0613/5V" package="P0613V">
@@ -7220,7 +7480,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23582/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="R" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="0613/15" package="P0613/15">
@@ -7232,7 +7494,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23581/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="R" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="0817/22" package="P0817/22">
@@ -7244,7 +7508,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23583/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="R" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="0817/7V" package="P0817V">
@@ -7256,7 +7522,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23608/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="R" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="V234/12" package="V234/12">
@@ -7268,7 +7536,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23592/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="R" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="V235/17" package="V235/17">
@@ -7280,7 +7550,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23586/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="R" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="V526-0" package="V526-0">
@@ -7292,7 +7564,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23590/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="R" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="MELF0102AX" package="MINI_MELF-0102AX">
@@ -7304,7 +7578,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23594/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="R" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="0922V" package="0922V">
@@ -7316,7 +7592,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23589/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="R" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="MELF0102R" package="MINI_MELF-0102R">
@@ -7328,7 +7606,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23591/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="R" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="MELF0102W" package="MINI_MELF-0102W">
@@ -7340,7 +7620,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23588/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="R" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="MELF0204R" package="MINI_MELF-0204R">
@@ -7352,7 +7634,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23587/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="R" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="MELF0204W" package="MINI_MELF-0204W">
@@ -7364,7 +7648,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23584/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="R" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="MELF0207R" package="MINI_MELF-0207R">
@@ -7376,7 +7662,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23585/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="R" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="MELF0207W" package="MINI_MELF-0207W">
@@ -7388,7 +7676,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23597/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="R" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="RDH/15" package="RDH/15">
@@ -7400,7 +7690,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23595/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="R" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="0204/2V" package="0204V">
@@ -7412,7 +7704,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23495/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="R" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="0309/V" package="0309V">
@@ -7424,7 +7718,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23572/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="R" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="R0201" package="R0201">
@@ -7436,7 +7732,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23593/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="R" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="VMTA55" package="VMTA55">
@@ -7448,7 +7746,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23600/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="R" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="VMTB60" package="VMTB60">
@@ -7460,7 +7760,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23607/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="R" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="VTA52" package="VTA52">
@@ -7472,7 +7774,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23596/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="R" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="VTA53" package="VTA53">
@@ -7484,7 +7788,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23603/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="R" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="VTA54" package="VTA54">
@@ -7496,7 +7802,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23598/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="R" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="VTA55" package="VTA55">
@@ -7508,7 +7816,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23606/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="R" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="VTA56" package="VTA56">
@@ -7520,7 +7830,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23599/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="R" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="R4527" package="R4527">
@@ -7532,7 +7844,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23615/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="R" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="WSC0001" package="WSC0001">
@@ -7544,7 +7858,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23601/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="R" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="WSC0002" package="WSC0002">
@@ -7556,7 +7872,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23605/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="R" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="WSC01/2" package="WSC01/2">
@@ -7568,7 +7886,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23602/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="R" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="WSC2515" package="WSC2515">
@@ -7580,7 +7900,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23604/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="R" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="WSC4527" package="WSC4527">
@@ -7592,7 +7914,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23611/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="R" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="WSC6927" package="WSC6927">
@@ -7604,7 +7928,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23610/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="R" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="R1218" package="R1218">
@@ -7616,7 +7942,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23614/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="R" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="1812X7R" package="1812X7R">
@@ -7628,7 +7956,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23609/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="R" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="01005" package="R01005">
@@ -7640,12 +7970,20 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23613/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="R" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
+<spice>
+<pinmapping spiceprefix="R">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
 </deviceset>
-<deviceset name="L-US" urn="urn:adsk.eagle:component:23790/3" prefix="L" uservalue="yes" library_version="2">
+<deviceset name="L-US" urn="urn:adsk.eagle:component:23790/4" prefix="L" uservalue="yes" library_version="3">
 <description>&lt;B&gt;INDUCTOR&lt;/B&gt;, American symbol</description>
 <gates>
 <gate name="G$1" symbol="L-US" x="0" y="0"/>
@@ -7660,7 +7998,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23475/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="L" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="L2825P" package="L2825P">
@@ -7672,7 +8012,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23480/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="L" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="L3216C" package="L3216C">
@@ -7684,7 +8026,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23476/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="L" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="L3225M" package="L3225M">
@@ -7696,7 +8040,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23477/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="L" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="L3225P" package="L3225P">
@@ -7708,7 +8054,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23479/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="L" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="L3230M" package="L3230M">
@@ -7720,7 +8068,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23481/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="L" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="L4035M" package="L4035M">
@@ -7732,7 +8082,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23478/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="L" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="L4516C" package="L4516C">
@@ -7744,7 +8096,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23482/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="L" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="L4532C" package="L4532M">
@@ -7756,7 +8110,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23483/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="L" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="L4532P" package="L4532P">
@@ -7768,7 +8124,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23484/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="L" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="L5038P" package="L5038P">
@@ -7780,7 +8138,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23485/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="L" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="L5650M" package="L5650M">
@@ -7792,7 +8152,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23487/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="L" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="L8530M" package="L8530M">
@@ -7804,7 +8166,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23486/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="L" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="0204/5" package="0204/5">
@@ -7816,7 +8180,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23488/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="L" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="0204/7" package="0204/7">
@@ -7828,7 +8194,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23498/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="L" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="0204V" package="0204V">
@@ -7840,7 +8208,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23495/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="L" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="0207/10" package="0207/10">
@@ -7852,7 +8222,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23491/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="L" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="0207/12" package="0207/12">
@@ -7864,7 +8236,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23489/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="L" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="0207/15" package="0207/15">
@@ -7876,7 +8250,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23492/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="L" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="0207/2V" package="0207/2V">
@@ -7888,7 +8264,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23490/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="L" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="0207/5V" package="0207/5V">
@@ -7900,7 +8278,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23502/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="L" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="0207/7" package="0207/7">
@@ -7912,7 +8292,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23493/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="L" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="L1812" package="L1812">
@@ -7924,7 +8306,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23494/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="L" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="TJ3-U1" package="TJ3-U1">
@@ -7936,7 +8320,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23496/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="L" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="TJ3-U2" package="TJ3-U2">
@@ -7948,7 +8334,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23497/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="L" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="TJ4-U1" package="TJ4-U1">
@@ -7960,7 +8348,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23499/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="L" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="TJ4-U2" package="TJ4-U2">
@@ -7972,7 +8362,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23501/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="L" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="TJ5-U1" package="TJ5-U1">
@@ -7984,7 +8376,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23500/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="L" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="TJ5-U2" package="TJ5-U2">
@@ -7996,7 +8390,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23511/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="L" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="TJ6-U1" package="TJ6-U1">
@@ -8008,7 +8404,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23509/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="L" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="TJ6-U2" package="TJ6-U2">
@@ -8020,7 +8418,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23510/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="L" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="TJ7-U1" package="TJ7-U1">
@@ -8032,7 +8432,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23512/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="L" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="TJ7-U2" package="TJ7-U2">
@@ -8044,7 +8446,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23505/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="L" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="TJ8-U1" package="TJ8-U1">
@@ -8056,7 +8460,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23503/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="L" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="TJ8-U2" package="TJ8-U2">
@@ -8068,7 +8474,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23504/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="L" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="TJ9-U1" package="TJ9-U1">
@@ -8080,7 +8488,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23506/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="L" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="TJ9-U2" package="TJ9-U2">
@@ -8092,7 +8502,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23508/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="L" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="WE-TPC" package="POWER-CHOKE_WE-TPC">
@@ -8104,7 +8516,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23507/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="L" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="CEP125" package="CEP125">
@@ -8116,7 +8530,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23514/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="L" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="L0201" package="L0201">
@@ -8128,7 +8544,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23513/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="L" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="PIS2816" package="PIS2816">
@@ -8140,7 +8558,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23515/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="L" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="IR-2" package="IR-2">
@@ -8152,7 +8572,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23525/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="L" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="IR-4" package="IR-4">
@@ -8164,7 +8586,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23516/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="L" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="IRF-1" package="IRF-1">
@@ -8176,7 +8600,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23517/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="L" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="IRF-3" package="IRF-3">
@@ -8188,7 +8614,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23536/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="L" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="IRF-24" package="IRF24">
@@ -8200,7 +8628,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23533/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="L" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="IRF-36" package="IRF36">
@@ -8212,7 +8642,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23522/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="L" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="IRF-46" package="IRF46">
@@ -8224,7 +8656,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23520/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="L" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="LAL02" package="LAL02">
@@ -8236,7 +8670,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23535/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="L" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="LAL03" package="LAL03">
@@ -8248,7 +8684,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23523/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="L" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="LAL03KH" package="LAL03KH">
@@ -8260,7 +8698,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23524/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="L" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="LAL04" package="LAL04">
@@ -8272,7 +8712,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23526/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="L" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="LAL04KB" package="LAL04KB">
@@ -8284,7 +8726,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23527/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="L" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="LAN02KR" package="LAN02KR">
@@ -8296,7 +8740,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23528/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="L" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="LAP02KR" package="LAP02KR">
@@ -8308,7 +8754,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23546/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="L" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="TFI0204" package="TFI0204">
@@ -8320,7 +8768,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23530/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="L" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="TFI0305" package="TFI0305">
@@ -8332,7 +8782,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23529/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="L" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="TFI0307" package="TFI0307">
@@ -8344,7 +8796,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23534/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="L" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="TFI0410" package="TFI0410">
@@ -8356,7 +8810,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23531/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="L" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="TFI0510" package="TFI0510">
@@ -8368,7 +8824,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23532/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="L" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="6000-XXX-RC" package="6000-XXXX-RC">
@@ -8380,10 +8838,18 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23538/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="SPICEPREFIX" value="L" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
+<spice>
+<pinmapping spiceprefix="L">
+<pinmap gate="G$1" pin="1" pinorder="1"/>
+<pinmap gate="G$1" pin="2" pinorder="2"/>
+</pinmapping>
+</spice>
 </deviceset>
 </devicesets>
 </library>
@@ -9561,7 +10027,7 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 </package>
 </packages>
 <packages3d>
-<package3d name="CHIPLED_0805" urn="urn:adsk.eagle:package:15821/1" type="box" library_version="1">
+<package3d name="CHIPLED_0805" urn="urn:adsk.eagle:package:15821/2" type="model" library_version="2">
 <description>CHIPLED
 Source: http://www.osram.convergy.de/ ... LG_R971.pdf</description>
 </package3d>
@@ -9723,25 +10189,25 @@ Y3KSUPER YELLOW
 
 Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 </package3d>
-<package3d name="LED5MM" urn="urn:adsk.eagle:package:15799/1" type="box" library_version="1">
+<package3d name="LED5MM" urn="urn:adsk.eagle:package:15799/2" type="model" library_version="2">
 <description>LED
 5 mm, round</description>
 </package3d>
-<package3d name="CHIP-LED0603" urn="urn:adsk.eagle:package:15819/1" type="box" library_version="1">
+<package3d name="CHIP-LED0603" urn="urn:adsk.eagle:package:15819/3" type="model" library_version="2">
 <description>Hyper CHIPLED Hyper-Bright LED
 LB Q993
 Source: http://www.osram.convergy.de/ ... Lb_q993.pdf</description>
 </package3d>
-<package3d name="CHIP-LED0805" urn="urn:adsk.eagle:package:15818/1" type="box" library_version="1">
+<package3d name="CHIP-LED0805" urn="urn:adsk.eagle:package:15818/2" type="model" library_version="2">
 <description>Hyper CHIPLED Hyper-Bright LED
 LB R99A
 Source: http://www.osram.convergy.de/ ... lb_r99a.pdf</description>
 </package3d>
-<package3d name="CHIPLED_1206" urn="urn:adsk.eagle:package:15823/1" type="box" library_version="1">
+<package3d name="CHIPLED_1206" urn="urn:adsk.eagle:package:15823/2" type="model" library_version="2">
 <description>CHIPLED
 Source: http://www.osram.convergy.de/ ... LG_LY N971.pdf</description>
 </package3d>
-<package3d name="CHIPLED_0603" urn="urn:adsk.eagle:package:15822/1" type="box" library_version="1">
+<package3d name="CHIPLED_0603" urn="urn:adsk.eagle:package:15822/2" type="model" library_version="2">
 <description>CHIPLED
 Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
 </package3d>
@@ -9774,7 +10240,7 @@ Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="LED" urn="urn:adsk.eagle:component:15916/1" prefix="LED" uservalue="yes" library_version="1">
+<deviceset name="LED" urn="urn:adsk.eagle:component:15916/7" prefix="LED" uservalue="yes" library_version="2">
 <description>&lt;b&gt;LED&lt;/b&gt;&lt;p&gt;
 &lt;u&gt;OSRAM&lt;/u&gt;:&lt;br&gt;
 
@@ -9908,7 +10374,7 @@ Source: www.kingbright.com</description>
 <connect gate="G$1" pin="C" pad="K"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:15799/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:15799/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -10124,7 +10590,7 @@ Source: www.kingbright.com</description>
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:15819/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:15819/3"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -10136,7 +10602,7 @@ Source: www.kingbright.com</description>
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:15818/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:15818/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -10160,7 +10626,7 @@ Source: www.kingbright.com</description>
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:15821/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:15821/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -10172,7 +10638,7 @@ Source: www.kingbright.com</description>
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:15823/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:15823/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -10184,7 +10650,7 @@ Source: www.kingbright.com</description>
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:15822/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:15822/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -19760,28 +20226,28 @@ Source: AVX .. aphvc.pdf</description>
  &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
 <package name="LM5000">
-<smd name="COMP" x="0.25" y="-0.6" dx="0.6" dy="0.25" layer="1" rot="R90"/>
-<wire x1="4" y1="0" x2="4" y2="3.6" width="0.127" layer="21"/>
-<wire x1="0" y1="0" x2="0" y2="3.6" width="0.127" layer="21"/>
-<smd name="FB" x="0.75" y="-0.6" dx="0.6" dy="0.25" layer="1" rot="R90"/>
-<smd name="SHDN" x="1.25" y="-0.6" dx="0.6" dy="0.25" layer="1" rot="R270"/>
-<smd name="AGND" x="1.75" y="-0.6" dx="0.6" dy="0.25" layer="1" rot="R270"/>
-<smd name="PGND1" x="2.25" y="-0.6" dx="0.6" dy="0.25" layer="1" rot="R270"/>
-<smd name="PGND2" x="2.75" y="-0.6" dx="0.6" dy="0.25" layer="1" rot="R270"/>
-<smd name="PGND3" x="3.25" y="-0.6" dx="0.6" dy="0.25" layer="1" rot="R270"/>
-<smd name="PGND4" x="3.75" y="-0.6" dx="0.6" dy="0.25" layer="1" rot="R270"/>
-<smd name="SW1" x="3.75" y="4.2" dx="0.6" dy="0.25" layer="1" rot="R270"/>
-<smd name="SW2" x="3.25" y="4.2" dx="0.6" dy="0.25" layer="1" rot="R270"/>
-<smd name="SW3" x="2.75" y="4.2" dx="0.6" dy="0.25" layer="1" rot="R270"/>
-<smd name="BYP" x="2.25" y="4.2" dx="0.6" dy="0.25" layer="1" rot="R270"/>
-<smd name="VIN" x="1.75" y="4.2" dx="0.6" dy="0.25" layer="1" rot="R270"/>
-<smd name="SS" x="1.25" y="4.2" dx="0.6" dy="0.25" layer="1" rot="R270"/>
-<smd name="FS" x="0.75" y="4.2" dx="0.6" dy="0.25" layer="1" rot="R270"/>
-<smd name="TEST" x="0.25" y="4.2" dx="0.6" dy="0.25" layer="1" rot="R270"/>
-<wire x1="0" y1="0" x2="4" y2="0" width="0.127" layer="21"/>
-<wire x1="0" y1="3.6" x2="4" y2="3.6" width="0.127" layer="21"/>
-<text x="-1" y="5" size="1.27" layer="21">&gt;NAME</text>
-<text x="-1" y="-3" size="1.27" layer="21">&gt;VALUE</text>
+<wire x1="-1.8" y1="2" x2="1.8" y2="2" width="0.1016" layer="121"/>
+<wire x1="1.8" y1="2" x2="1.8" y2="-2" width="0.1016" layer="121"/>
+<wire x1="1.8" y1="-2" x2="-1.8" y2="-2" width="0.1016" layer="121"/>
+<wire x1="-1.8" y1="-2" x2="-1.8" y2="2" width="0.1016" layer="121"/>
+<smd name="8" x="-2.4" y="-1.75" dx="0.6" dy="0.25" layer="1" rot="R180"/>
+<smd name="7" x="-2.4" y="-1.25" dx="0.6" dy="0.25" layer="1" rot="R180"/>
+<smd name="6" x="-2.4" y="-0.75" dx="0.6" dy="0.25" layer="1" rot="R180"/>
+<smd name="5" x="-2.4" y="-0.25" dx="0.6" dy="0.25" layer="1" rot="R180"/>
+<smd name="4" x="-2.4" y="0.25" dx="0.6" dy="0.25" layer="1" rot="R180"/>
+<smd name="3" x="-2.4" y="0.75" dx="0.6" dy="0.25" layer="1" rot="R180"/>
+<smd name="2" x="-2.4" y="1.25" dx="0.6" dy="0.25" layer="1" rot="R180"/>
+<smd name="1" x="-2.4" y="1.75" dx="0.6" dy="0.25" layer="1" rot="R180"/>
+<smd name="9" x="2.4" y="-1.75" dx="0.6" dy="0.25" layer="1" rot="R180"/>
+<smd name="10" x="2.4" y="-1.25" dx="0.6" dy="0.25" layer="1" rot="R180"/>
+<smd name="11" x="2.4" y="-0.75" dx="0.6" dy="0.25" layer="1" rot="R180"/>
+<smd name="12" x="2.4" y="-0.25" dx="0.6" dy="0.25" layer="1" rot="R180"/>
+<smd name="13" x="2.4" y="0.25" dx="0.6" dy="0.25" layer="1" rot="R180"/>
+<smd name="14" x="2.4" y="0.75" dx="0.6" dy="0.25" layer="1" rot="R180"/>
+<smd name="15" x="2.4" y="1.25" dx="0.6" dy="0.25" layer="1" rot="R180"/>
+<smd name="16" x="2.4" y="1.75" dx="0.6" dy="0.25" layer="1" rot="R180"/>
+<text x="-2.5" y="2.5" size="1.016" layer="25">&gt;NAME</text>
+<text x="-2.5" y="-4" size="1.016" layer="27">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -19792,7 +20258,7 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="12.7" y1="-22.86" x2="12.7" y2="22.86" width="0.254" layer="94"/>
 <wire x1="12.7" y1="22.86" x2="-12.7" y2="22.86" width="0.254" layer="94"/>
 <pin name="VIN" x="-17.78" y="17.78" length="middle"/>
-<pin name="SHDN" x="-17.78" y="12.7" length="middle"/>
+<pin name="!SHDN" x="-17.78" y="12.7" length="middle"/>
 <pin name="COMP" x="-17.78" y="7.62" length="middle"/>
 <pin name="AGND" x="-17.78" y="2.54" length="middle"/>
 <pin name="PGND1" x="-17.78" y="-2.54" length="middle"/>
@@ -19819,22 +20285,22 @@ Source: AVX .. aphvc.pdf</description>
 <devices>
 <device name="" package="LM5000">
 <connects>
-<connect gate="G$1" pin="AGND" pad="AGND"/>
-<connect gate="G$1" pin="BYP" pad="BYP"/>
-<connect gate="G$1" pin="COMP" pad="COMP"/>
-<connect gate="G$1" pin="FB" pad="FB"/>
-<connect gate="G$1" pin="FS" pad="FS"/>
-<connect gate="G$1" pin="PGND1" pad="PGND1"/>
-<connect gate="G$1" pin="PGND2" pad="PGND2"/>
-<connect gate="G$1" pin="PGND3" pad="PGND3"/>
-<connect gate="G$1" pin="PGND4" pad="PGND4"/>
-<connect gate="G$1" pin="SHDN" pad="SHDN"/>
-<connect gate="G$1" pin="SS" pad="SS"/>
-<connect gate="G$1" pin="SW1" pad="SW1"/>
-<connect gate="G$1" pin="SW2" pad="SW2"/>
-<connect gate="G$1" pin="SW3" pad="SW3"/>
-<connect gate="G$1" pin="TEST" pad="TEST"/>
-<connect gate="G$1" pin="VIN" pad="VIN"/>
+<connect gate="G$1" pin="!SHDN" pad="3"/>
+<connect gate="G$1" pin="AGND" pad="4"/>
+<connect gate="G$1" pin="BYP" pad="12"/>
+<connect gate="G$1" pin="COMP" pad="1"/>
+<connect gate="G$1" pin="FB" pad="2"/>
+<connect gate="G$1" pin="FS" pad="15"/>
+<connect gate="G$1" pin="PGND1" pad="5"/>
+<connect gate="G$1" pin="PGND2" pad="6"/>
+<connect gate="G$1" pin="PGND3" pad="7"/>
+<connect gate="G$1" pin="PGND4" pad="8"/>
+<connect gate="G$1" pin="SS" pad="14"/>
+<connect gate="G$1" pin="SW1" pad="9"/>
+<connect gate="G$1" pin="SW2" pad="10"/>
+<connect gate="G$1" pin="SW3" pad="11"/>
+<connect gate="G$1" pin="TEST" pad="16"/>
+<connect gate="G$1" pin="VIN" pad="13"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -19911,8 +20377,6 @@ at 14/06/2012 11:09:42</description>
 </package>
 <package name="MOLEX_67503-1020">
 <rectangle x1="0" y1="-2.05" x2="4" y2="0" layer="22" rot="R180"/>
-<rectangle x1="4.5" y1="-2.05" x2="8" y2="0" layer="21"/>
-<rectangle x1="4.5" y1="7.8" x2="8" y2="9.85" layer="21"/>
 <hole x="3.9" y="6.1" drill="0.9"/>
 <hole x="3.9" y="1.7" drill="0.9"/>
 <smd name="P$1" x="6.225" y="5.5" dx="2.25" dy="0.5" layer="1"/>
@@ -19926,7 +20390,12 @@ at 14/06/2012 11:09:42</description>
 <smd name="GND4" x="6.25" y="-1.025" dx="3.5" dy="2.05" layer="1"/>
 <rectangle x1="-2" y1="0" x2="0" y2="7.8" layer="39"/>
 <rectangle x1="0" y1="0.8" x2="1.2" y2="7" layer="41"/>
-<rectangle x1="-2" y1="-2.05" x2="8" y2="9.85" layer="21"/>
+<wire x1="-2.54" y1="-2.54" x2="8.89" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="8.89" y1="-2.54" x2="8.89" y2="10.16" width="0.127" layer="21"/>
+<wire x1="8.89" y1="10.16" x2="-2.54" y2="10.16" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="10.16" x2="-2.54" y2="-2.54" width="0.127" layer="21"/>
+<text x="3.81" y="12.7" size="1.27" layer="25">&gt;NAME</text>
+<text x="2.54" y="-5.08" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -20000,7 +20469,7 @@ at 14/06/2012 11:09:42</description>
 <connect gate="G$1" pin="P$2" pad="P$2"/>
 <connect gate="G$1" pin="P$3" pad="P$3"/>
 <connect gate="G$1" pin="P$4" pad="P$4"/>
-<connect gate="G$1" pin="P$5" pad="P$5"/>
+<connect gate="G$1" pin="P$5" pad="GND1 GND2 GND3 GND4 P$5"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -20164,72 +20633,6 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="us-te-con">
-<packages>
-<package name="1734753-1_MINIUSB_CON">
-<wire x1="-2.5" y1="3.85" x2="2.5" y2="3.85" width="0.127" layer="21"/>
-<wire x1="-2.5" y1="-3.85" x2="2.5" y2="-3.85" width="0.127" layer="21"/>
-<wire x1="-2.5" y1="-3.85" x2="-2.5" y2="3.85" width="0.127" layer="21"/>
-<wire x1="2.5" y1="-3.85" x2="2.5" y2="3.85" width="0.127" layer="21"/>
-<pad name="P$1" x="-0.5" y="-1.6" drill="0.5" rot="R90"/>
-<pad name="P$2" x="0.5" y="-0.8" drill="0.5" rot="R90"/>
-<pad name="P$3" x="-0.5" y="0" drill="0.5" rot="R90"/>
-<pad name="P$4" x="0.5" y="0.8" drill="0.5" rot="R90"/>
-<pad name="P$5" x="-0.5" y="1.6" drill="0.5" rot="R90"/>
-<text x="-2" y="4" size="1.27" layer="21">&gt;1734753-1</text>
-<rectangle x1="1.397" y1="-0.9652" x2="2.1082" y2="0.9652" layer="46"/>
-<polygon width="0.0254" layer="46">
-<vertex x="-2.0828" y="-0.9398"/>
-<vertex x="-1.397" y="-0.9398"/>
-<vertex x="-1.397" y="-2.8702"/>
-<vertex x="-2.1082" y="-2.8702"/>
-<vertex x="-2.1082" y="-0.9398"/>
-</polygon>
-<polygon width="0.0254" layer="46">
-<vertex x="-2.1082" y="3.4544"/>
-<vertex x="-1.397" y="3.4544"/>
-<vertex x="-1.397" y="1.3462"/>
-<vertex x="-2.1082" y="1.3462"/>
-</polygon>
-</package>
-</packages>
-<symbols>
-<symbol name="1734753-1_MINIUSB_CON">
-<wire x1="-5.08" y1="7.62" x2="5.08" y2="7.62" width="0.254" layer="94"/>
-<wire x1="5.08" y1="7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-7.62" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-7.62" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
-<pin name="VCC" x="-10.16" y="-5.08" length="middle"/>
-<pin name="D-" x="10.16" y="-2.54" length="middle" rot="R180"/>
-<pin name="D+" x="-10.16" y="0" length="middle"/>
-<pin name="P$4" x="10.16" y="2.54" length="middle" rot="R180"/>
-<pin name="GND" x="-10.16" y="5.08" length="middle"/>
-<text x="-2.54" y="7.62" size="1.778" layer="95">&gt;H$</text>
-<text x="-5.08" y="-10.16" size="1.27" layer="96">&gt;1734753-1</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="1734753-1_MINIUSB_CON">
-<gates>
-<gate name="G$1" symbol="1734753-1_MINIUSB_CON" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="1734753-1_MINIUSB_CON">
-<connects>
-<connect gate="G$1" pin="D+" pad="P$3"/>
-<connect gate="G$1" pin="D-" pad="P$2"/>
-<connect gate="G$1" pin="GND" pad="P$5"/>
-<connect gate="G$1" pin="P$4" pad="P$4"/>
-<connect gate="G$1" pin="VCC" pad="P$1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -20238,8 +20641,9 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <classes>
 <class number="0" name="default" width="0" drill="0">
 </class>
-<class number="1" name="Class1" width="0.508" drill="0">
-<clearance class="1" value="0.1778"/>
+<class number="1" name="USB" width="0.365759375" drill="0">
+<clearance class="0" value="0.1524"/>
+<clearance class="1" value="0.1524"/>
 </class>
 <class number="2" name="Class2" width="0.635" drill="0">
 <clearance class="2" value="0.1778"/>
@@ -20268,7 +20672,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <part name="C16" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="4.7nF"/>
 <part name="D1" library="adafruit" deviceset="DIODE" device="SOD-123" value="1N4148"/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="VCC!" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/1" value="PWR"/>
+<part name="VCC!" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2" value="PWR"/>
 <part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1K"/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -20277,8 +20681,8 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="C18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100n"/>
 <part name="GND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="LED2" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/1" value="RX"/>
-<part name="LED3" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/1" value="TX"/>
+<part name="LED2" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2" value="RX"/>
+<part name="LED3" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2" value="TX"/>
 <part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k"/>
 <part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k"/>
 <part name="IC5" library="SmartPrj" deviceset="FT232RL" device=""/>
@@ -20387,9 +20791,9 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <part name="IC8" library="on-semiconductor" deviceset="NCP1117" device=""/>
 <part name="C23" library="rcl" deviceset="C-US" device="C0603" value="10uF"/>
 <part name="C24" library="rcl" deviceset="C-US" device="C0603" value="10uF"/>
-<part name="J1" library="us-te-con" deviceset="1734753-1_MINIUSB_CON" device=""/>
 <part name="C9" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="10uF"/>
 <part name="R50" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="17.2k"/>
+<part name="U$1" library="molex" deviceset="67503-1020" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -20601,9 +21005,9 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <instance part="IC8" gate="G$1" x="-205.74" y="68.58"/>
 <instance part="C23" gate="G$1" x="-233.68" y="60.96"/>
 <instance part="C24" gate="G$1" x="-182.88" y="60.96"/>
-<instance part="J1" gate="G$1" x="-309.88" y="0"/>
 <instance part="C9" gate="G$1" x="-379.73" y="193.04"/>
 <instance part="R50" gate="G$1" x="111.76" y="81.28" rot="R90"/>
+<instance part="U$1" gate="G$1" x="-309.88" y="25.4"/>
 </instances>
 <busses>
 </busses>
@@ -20845,9 +21249,9 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <junction x="-182.88" y="68.58"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="VCC"/>
-<wire x1="-320.04" y1="-5.08" x2="-322.58" y2="-5.08" width="0.1524" layer="91"/>
-<label x="-330.2" y="-5.08" size="1.778" layer="95"/>
+<label x="-314.96" y="15.24" size="1.27" layer="95" rot="R270" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="P$1"/>
+<wire x1="-314.96" y1="15.24" x2="-314.96" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="4">
@@ -21193,11 +21597,6 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <label x="-513.08" y="236.22" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="GND"/>
-<wire x1="-320.04" y1="5.08" x2="-322.58" y2="5.08" width="0.1524" layer="91"/>
-<label x="-330.2" y="5.08" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="J3" gate="G$1" pin="P$5"/>
 <wire x1="-365.76" y1="106.68" x2="-378.46" y2="106.68" width="0.1524" layer="91"/>
 <label x="-378.46" y="106.68" size="1.778" layer="95" rot="R180" xref="yes"/>
@@ -21211,6 +21610,11 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <pinref part="J5" gate="G$1" pin="P$5"/>
 <wire x1="-368.3" y1="35.56" x2="-378.46" y2="35.56" width="0.1524" layer="91"/>
 <label x="-378.46" y="35.56" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<label x="-304.8" y="15.24" size="1.27" layer="95" rot="R270" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="P$5"/>
+<wire x1="-304.8" y1="15.24" x2="-304.8" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="XTAL1" class="0">
@@ -21665,30 +22069,6 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <wire x1="-160.02" y1="193.04" x2="-154.94" y2="193.04" width="0.1524" layer="91"/>
 <pinref part="LED3" gate="G$1" pin="A"/>
 <pinref part="R9" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="D-" class="0">
-<segment>
-<wire x1="-210.82" y1="218.44" x2="-205.74" y2="218.44" width="0.1524" layer="91"/>
-<label x="-210.82" y="218.44" size="1.778" layer="95"/>
-<pinref part="IC5" gate="G$1" pin="USBDM"/>
-</segment>
-<segment>
-<pinref part="J1" gate="G$1" pin="D-"/>
-<wire x1="-299.72" y1="-2.54" x2="-297.18" y2="-2.54" width="0.1524" layer="91"/>
-<label x="-294.64" y="-2.54" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="D+" class="0">
-<segment>
-<wire x1="-205.74" y1="215.9" x2="-210.82" y2="215.9" width="0.1524" layer="91"/>
-<label x="-210.82" y="215.9" size="1.778" layer="95"/>
-<pinref part="IC5" gate="G$1" pin="USBDP"/>
-</segment>
-<segment>
-<pinref part="J1" gate="G$1" pin="D+"/>
-<wire x1="-320.04" y1="0" x2="-322.58" y2="0" width="0.1524" layer="91"/>
-<label x="-327.66" y="0" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VCC3O" class="0">
@@ -22939,6 +23319,30 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <pinref part="R50" gate="G$1" pin="1"/>
 </segment>
 </net>
+<net name="D_P" class="1">
+<segment>
+<label x="-309.88" y="15.24" size="1.27" layer="95" rot="R270" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="P$3"/>
+<wire x1="-309.88" y1="15.24" x2="-309.88" y2="20.32" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="-205.74" y1="215.9" x2="-210.82" y2="215.9" width="0.1524" layer="91"/>
+<label x="-210.82" y="215.9" size="1.778" layer="95"/>
+<pinref part="IC5" gate="G$1" pin="USBDP"/>
+</segment>
+</net>
+<net name="D_N" class="1">
+<segment>
+<label x="-312.42" y="15.24" size="1.27" layer="95" rot="R270" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="P$2"/>
+<wire x1="-312.42" y1="15.24" x2="-312.42" y2="20.32" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="-210.82" y1="218.44" x2="-205.74" y2="218.44" width="0.1524" layer="91"/>
+<label x="-210.82" y="218.44" size="1.778" layer="95"/>
+<pinref part="IC5" gate="G$1" pin="USBDM"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
@@ -22975,6 +23379,12 @@ will not be understood (or retained) with this version.
 Since Version 8.3, EAGLE supports the association of 3D packages
 with devices in libraries, schematics, and board files. Those 3D
 packages will not be understood (or retained) with this version.
+</note>
+<note version="8.4" severity="warning">
+Since Version 8.4, EAGLE supports properties for SPICE simulation. 
+Probes in schematics and SPICE mapping objects found in parts and library devices
+will not be understood with this version. Update EAGLE to the latest version
+for full support of SPICE simulation. 
 </note>
 </compatibility>
 </eagle>
