@@ -1,0 +1,258 @@
+Removed Pin From Net: NetName=POS1 Pin=S1_ROT1-13
+Removed Pin From Net: NetName=POS2 Pin=S1_ROT2-13
+Removed Pin From Net: NetName=POS3 Pin=S1_ROT3-13
+Removed Pin From Net: NetName=SCLK Pin=U1-3
+Removed Pin From Net: NetName=MISO Pin=U1-4
+Removed Pin From Net: NetName=MOSI Pin=U1-5
+Removed Pin From Net: NetName=S\S\ Pin=U1-6
+Removed Pin From Net: NetName=GND Pin=U1-10
+Removed Pin From Net: NetName=NetC23_2 Pin=U1-12
+Removed Pin From Net: NetName=GND Pin=U1-13
+Removed Pin From Net: NetName=D_EN Pin=U1-25
+Removed Pin From Net: NetName=VSYNC Pin=U1-26
+Removed Pin From Net: NetName=HSYNC Pin=U1-27
+Removed Pin From Net: NetName=DISP_EN Pin=U1-28
+Removed Pin From Net: NetName=DCLK Pin=U1-29
+Removed Pin From Net: NetName=B7 Pin=U1-30
+Removed Pin From Net: NetName=B6 Pin=U1-31
+Removed Pin From Net: NetName=B5 Pin=U1-32
+Removed Pin From Net: NetName=B4 Pin=U1-33
+Removed Pin From Net: NetName=B3 Pin=U1-34
+Removed Pin From Net: NetName=B2 Pin=U1-35
+Removed Pin From Net: NetName=G7 Pin=U1-37
+Removed Pin From Net: NetName=G6 Pin=U1-38
+Removed Pin From Net: NetName=G5 Pin=U1-39
+Removed Pin From Net: NetName=G4 Pin=U1-40
+Removed Pin From Net: NetName=G3 Pin=U1-41
+Removed Pin From Net: NetName=G2 Pin=U1-42
+Removed Pin From Net: NetName=R7 Pin=U1-43
+Removed Pin From Net: NetName=R6 Pin=U1-44
+Removed Pin From Net: NetName=R5 Pin=U1-45
+Removed Pin From Net: NetName=R4 Pin=U1-46
+Removed Pin From Net: NetName=R3 Pin=U1-47
+Removed Pin From Net: NetName=R2 Pin=U1-48
+Removed Member From Class: ClassName=Dashboard Member=U3
+Change Component Designator: OldDesignator=C1 NewDesignator=C5
+Change Component Designator: OldDesignator=C2 NewDesignator=C6
+Change Component Designator: OldDesignator=C3 NewDesignator=C7
+Change Component Designator: OldDesignator=C4 NewDesignator=C1
+Change Component Designator: OldDesignator=C5 NewDesignator=C2
+Change Component Designator: OldDesignator=C6 NewDesignator=C3
+Change Component Designator: OldDesignator=C7 NewDesignator=C4
+Change Component Designator: OldDesignator=C8 NewDesignator=C9
+Change Component Designator: OldDesignator=C9 NewDesignator=C8
+Change Component Designator: OldDesignator=D2 NewDesignator=D3
+Change Component Designator: OldDesignator=D3 NewDesignator=D2
+Change Component Designator: OldDesignator=F1_HD1 NewDesignator=F1
+Change Component Designator: OldDesignator=F1_HD2 NewDesignator=F1
+Change Component Designator: OldDesignator=F1_HD3 NewDesignator=F1
+Change Component Designator: OldDesignator=LED1 NewDesignator=LED3
+Change Component Designator: OldDesignator=LED2 NewDesignator=LED1
+Change Component Designator: OldDesignator=LED3 NewDesignator=LED2
+Change Component Designator: OldDesignator=Q1_HD1 NewDesignator=Q1
+Change Component Designator: OldDesignator=Q1_HD2 NewDesignator=Q1
+Change Component Designator: OldDesignator=Q1_HD3 NewDesignator=Q1
+Change Component Designator: OldDesignator=Q2_HD1 NewDesignator=Q2
+Change Component Designator: OldDesignator=Q2_HD2 NewDesignator=Q2
+Change Component Designator: OldDesignator=Q2_HD3 NewDesignator=Q2
+Change Component Designator: OldDesignator=R1_HD1 NewDesignator=R1
+Change Component Designator: OldDesignator=R1_HD2 NewDesignator=R1
+Change Component Designator: OldDesignator=R1_HD3 NewDesignator=R1
+Change Component Designator: OldDesignator=R2_HD1 NewDesignator=R2
+Change Component Designator: OldDesignator=R2_HD2 NewDesignator=R2
+Change Component Designator: OldDesignator=R2_HD3 NewDesignator=R2
+Change Component Designator: OldDesignator=R5 NewDesignator=R13
+Change Component Designator: OldDesignator=R6 NewDesignator=R11
+Change Component Designator: OldDesignator=R7 NewDesignator=R5
+Change Component Designator: OldDesignator=R8 NewDesignator=R6
+Change Component Designator: OldDesignator=R9 NewDesignator=R7
+Change Component Designator: OldDesignator=R10 NewDesignator=R8
+Change Component Designator: OldDesignator=R11 NewDesignator=R9
+Change Component Designator: OldDesignator=R12 NewDesignator=R10
+Change Component Designator: OldDesignator=R13 NewDesignator=R12
+Change Component Designator: OldDesignator=R15_ROT1 NewDesignator=R15
+Change Component Designator: OldDesignator=R15_ROT2 NewDesignator=R15
+Change Component Designator: OldDesignator=R15_ROT3 NewDesignator=R15
+Change Component Designator: OldDesignator=R16_ROT1 NewDesignator=R16
+Change Component Designator: OldDesignator=R16_ROT2 NewDesignator=R16
+Change Component Designator: OldDesignator=R16_ROT3 NewDesignator=R16
+Change Component Designator: OldDesignator=R17_ROT1 NewDesignator=R17
+Change Component Designator: OldDesignator=R17_ROT2 NewDesignator=R17
+Change Component Designator: OldDesignator=R17_ROT3 NewDesignator=R17
+Change Component Designator: OldDesignator=R18_ROT1 NewDesignator=R18
+Change Component Designator: OldDesignator=R18_ROT2 NewDesignator=R18
+Change Component Designator: OldDesignator=R18_ROT3 NewDesignator=R18
+Change Component Designator: OldDesignator=R19_ROT1 NewDesignator=R19
+Change Component Designator: OldDesignator=R19_ROT2 NewDesignator=R19
+Change Component Designator: OldDesignator=R19_ROT3 NewDesignator=R19
+Change Component Designator: OldDesignator=R20_ROT1 NewDesignator=R20
+Change Component Designator: OldDesignator=R20_ROT2 NewDesignator=R20
+Change Component Designator: OldDesignator=R20_ROT3 NewDesignator=R20
+Change Component Designator: OldDesignator=R21_ROT1 NewDesignator=R21
+Change Component Designator: OldDesignator=R21_ROT2 NewDesignator=R21
+Change Component Designator: OldDesignator=R21_ROT3 NewDesignator=R21
+Change Component Designator: OldDesignator=R22_ROT1 NewDesignator=R22
+Change Component Designator: OldDesignator=R22_ROT2 NewDesignator=R22
+Change Component Designator: OldDesignator=R22_ROT3 NewDesignator=R22
+Change Component Designator: OldDesignator=R23_ROT1 NewDesignator=R23
+Change Component Designator: OldDesignator=R23_ROT2 NewDesignator=R23
+Change Component Designator: OldDesignator=R23_ROT3 NewDesignator=R23
+Change Component Designator: OldDesignator=R24_ROT1 NewDesignator=R24
+Change Component Designator: OldDesignator=R24_ROT2 NewDesignator=R24
+Change Component Designator: OldDesignator=R24_ROT3 NewDesignator=R24
+Change Component Designator: OldDesignator=R25_ROT1 NewDesignator=R25
+Change Component Designator: OldDesignator=R25_ROT2 NewDesignator=R25
+Change Component Designator: OldDesignator=R25_ROT3 NewDesignator=R25
+Change Component Designator: OldDesignator=S1_ROT1 NewDesignator=S1
+Change Component Designator: OldDesignator=S1_ROT2 NewDesignator=S1
+Change Component Designator: OldDesignator=S1_ROT3 NewDesignator=S1
+Change Component Designator: OldDesignator=U1 NewDesignator=U4
+Change Component Designator: OldDesignator=U2 NewDesignator=U3
+Change Component Designator: OldDesignator=U3 NewDesignator=U1
+Change Component Designator: OldDesignator=U4 NewDesignator=U2
+Change Component Designator: OldDesignator=U5 NewDesignator=U6
+Change Component Designator: OldDesignator=U6 NewDesignator=U5
+Change Component Designator: OldDesignator=U7 NewDesignator=U8
+Added Component: Designator=U7(WQFN-48)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.ftdichip.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT801.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "ver 1.0, Jul-2014"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "FTDI"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "48-Pin Quad Flat No-Lead, 7 x 7 mm Body, 0.5 mm Pitch, 5.36 x 5.36 mm Exposed Pad"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "WQFN-48"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=SCLK Pin=U7-3
+Added Pin To Net: NetName=MISO Pin=U7-4
+Added Pin To Net: NetName=MOSI Pin=U7-5
+Added Pin To Net: NetName=S\S\ Pin=U7-6
+Added Pin To Net: NetName=GND Pin=U7-10
+Added Pin To Net: NetName=NetC23_2 Pin=U7-12
+Added Pin To Net: NetName=GND Pin=U7-13
+Added Pin To Net: NetName=D_EN Pin=U7-25
+Added Pin To Net: NetName=VSYNC Pin=U7-26
+Added Pin To Net: NetName=HSYNC Pin=U7-27
+Added Pin To Net: NetName=DISP_EN Pin=U7-28
+Added Pin To Net: NetName=DCLK Pin=U7-29
+Added Pin To Net: NetName=B7 Pin=U7-30
+Added Pin To Net: NetName=B6 Pin=U7-31
+Added Pin To Net: NetName=B5 Pin=U7-32
+Added Pin To Net: NetName=B4 Pin=U7-33
+Added Pin To Net: NetName=B3 Pin=U7-34
+Added Pin To Net: NetName=B2 Pin=U7-35
+Added Pin To Net: NetName=G7 Pin=U7-37
+Added Pin To Net: NetName=G6 Pin=U7-38
+Added Pin To Net: NetName=G5 Pin=U7-39
+Added Pin To Net: NetName=G4 Pin=U7-40
+Added Pin To Net: NetName=G3 Pin=U7-41
+Added Pin To Net: NetName=G2 Pin=U7-42
+Added Pin To Net: NetName=R7 Pin=U7-43
+Added Pin To Net: NetName=R6 Pin=U7-44
+Added Pin To Net: NetName=R5 Pin=U7-45
+Added Pin To Net: NetName=R4 Pin=U7-46
+Added Pin To Net: NetName=R3 Pin=U7-47
+Added Pin To Net: NetName=R2 Pin=U7-48
+Change Net Name : Old Net Name=NetC2_2 New Net Name=NetC6_2
+Change Net Name : Old Net Name=NetC3_2 New Net Name=NetC7_2
+Change Net Name : Old Net Name=NetC7_1 New Net Name=NetC4_1
+Change Net Name : Old Net Name=NetC8_2 New Net Name=NetC9_2
+Change Net Name : Old Net Name=NetC9_2 New Net Name=NetC8_2
+Change Net Name : Old Net Name=NetD3_1 New Net Name=NetD2_1
+Change Net Name : Old Net Name=NetD3_2 New Net Name=NetD2_2
+Change Net Name : Old Net Name=NetF1_HD1_2 New Net Name=NetF1_2
+Change Net Name : Old Net Name=NetF1_HD2_2 New Net Name=NetF1_2
+Change Net Name : Old Net Name=NetF1_HD3_2 New Net Name=NetF1_2
+Change Net Name : Old Net Name=NetLED1_1 New Net Name=NetLED3_1
+Change Net Name : Old Net Name=NetLED2_1 New Net Name=NetLED1_1
+Change Net Name : Old Net Name=NetLED2_2 New Net Name=NetLED1_2
+Change Net Name : Old Net Name=NetLED3_1 New Net Name=NetLED2_1
+Change Net Name : Old Net Name=NetLED3_2 New Net Name=NetLED2_2
+Change Net Name : Old Net Name=NetQ1_HD1_1 New Net Name=NetQ1_1
+Change Net Name : Old Net Name=NetQ1_HD2_1 New Net Name=NetQ1_1
+Change Net Name : Old Net Name=NetQ1_HD3_1 New Net Name=NetQ1_1
+Change Net Name : Old Net Name=NetQ2_HD1_1 New Net Name=NetQ2_1
+Change Net Name : Old Net Name=NetQ2_HD1_3 New Net Name=NetQ2_3
+Change Net Name : Old Net Name=NetQ2_HD2_1 New Net Name=NetQ2_1
+Change Net Name : Old Net Name=NetQ2_HD2_3 New Net Name=NetQ2_3
+Change Net Name : Old Net Name=NetQ2_HD3_1 New Net Name=NetQ2_1
+Change Net Name : Old Net Name=NetQ2_HD3_3 New Net Name=NetQ2_3
+Change Net Name : Old Net Name=NetR6_2 New Net Name=NetR11_2
+Change Net Name : Old Net Name=NetR15_ROT1_2 New Net Name=NetR15_2
+Change Net Name : Old Net Name=NetR15_ROT2_2 New Net Name=NetR15_2
+Change Net Name : Old Net Name=NetR15_ROT3_2 New Net Name=NetR15_2
+Change Net Name : Old Net Name=NetR16_ROT1_1 New Net Name=NetR16_1
+Change Net Name : Old Net Name=NetR16_ROT2_1 New Net Name=NetR16_1
+Change Net Name : Old Net Name=NetR16_ROT3_1 New Net Name=NetR16_1
+Change Net Name : Old Net Name=NetR17_ROT1_2 New Net Name=NetR17_2
+Change Net Name : Old Net Name=NetR17_ROT2_2 New Net Name=NetR17_2
+Change Net Name : Old Net Name=NetR17_ROT3_2 New Net Name=NetR17_2
+Change Net Name : Old Net Name=NetR18_ROT1_1 New Net Name=NetR18_1
+Change Net Name : Old Net Name=NetR18_ROT2_1 New Net Name=NetR18_1
+Change Net Name : Old Net Name=NetR18_ROT3_1 New Net Name=NetR18_1
+Change Net Name : Old Net Name=NetR19_ROT1_2 New Net Name=NetR19_2
+Change Net Name : Old Net Name=NetR19_ROT2_2 New Net Name=NetR19_2
+Change Net Name : Old Net Name=NetR19_ROT3_2 New Net Name=NetR19_2
+Change Net Name : Old Net Name=NetR20_ROT1_1 New Net Name=NetR20_1
+Change Net Name : Old Net Name=NetR20_ROT2_1 New Net Name=NetR20_1
+Change Net Name : Old Net Name=NetR20_ROT3_1 New Net Name=NetR20_1
+Change Net Name : Old Net Name=NetR21_ROT1_2 New Net Name=NetR21_2
+Change Net Name : Old Net Name=NetR21_ROT2_2 New Net Name=NetR21_2
+Change Net Name : Old Net Name=NetR21_ROT3_2 New Net Name=NetR21_2
+Change Net Name : Old Net Name=NetR22_ROT1_1 New Net Name=NetR22_1
+Change Net Name : Old Net Name=NetR22_ROT2_1 New Net Name=NetR22_1
+Change Net Name : Old Net Name=NetR22_ROT3_1 New Net Name=NetR22_1
+Change Net Name : Old Net Name=NetR23_ROT1_2 New Net Name=NetR23_2
+Change Net Name : Old Net Name=NetR23_ROT2_2 New Net Name=NetR23_2
+Change Net Name : Old Net Name=NetR23_ROT3_2 New Net Name=NetR23_2
+Change Net Name : Old Net Name=NetR24_ROT1_1 New Net Name=NetR24_1
+Change Net Name : Old Net Name=NetR24_ROT2_1 New Net Name=NetR24_1
+Change Net Name : Old Net Name=NetR24_ROT3_1 New Net Name=NetR24_1
+Change Net Name : Old Net Name=NetU1_4 New Net Name=NetU4_4
+Change Net Name : Old Net Name=NetU1_5 New Net Name=NetU4_5
+Change Net Name : Old Net Name=NetU1_6 New Net Name=NetU4_6
+Change Net Name : Old Net Name=NetU1_7 New Net Name=NetU4_7
+Change Net Name : Old Net Name=NetU1_8 New Net Name=NetU4_8
+Change Net Name : Old Net Name=NetU1_9 New Net Name=NetU4_9
+Change Net Name : Old Net Name=NetU1_17 New Net Name=NetU4_17
+Change Net Name : Old Net Name=NetU1_18 New Net Name=NetU4_18
+Change Net Name : Old Net Name=NetU1_19 New Net Name=NetU4_19
+Change Net Name : Old Net Name=NetU1_25 New Net Name=NetU4_25
+Change Net Name : Old Net Name=NetU1_26 New Net Name=NetU4_26
+Change Net Name : Old Net Name=NetU1_27 New Net Name=NetU4_27
+Change Net Name : Old Net Name=NetU1_28 New Net Name=NetU4_28
+Change Net Name : Old Net Name=NetU1_29 New Net Name=NetU4_29
+Change Net Name : Old Net Name=NetU1_32 New Net Name=NetU4_32
+Change Net Name : Old Net Name=NetU1_33 New Net Name=NetU4_33
+Change Net Name : Old Net Name=NetU1_34 New Net Name=NetU4_34
+Change Net Name : Old Net Name=NetU1_35 New Net Name=NetU4_35
+Change Net Name : Old Net Name=NetU1_36 New Net Name=NetU4_36
+Change Net Name : Old Net Name=NetU1_37 New Net Name=NetU4_37
+Change Net Name : Old Net Name=NetU1_38 New Net Name=NetU4_38
+Change Net Name : Old Net Name=NetU1_39 New Net Name=NetU4_39
+Change Net Name : Old Net Name=NetU1_40 New Net Name=NetU4_40
+Change Net Name : Old Net Name=NetU1_41 New Net Name=NetU4_41
+Change Net Name : Old Net Name=NetU1_42 New Net Name=NetU4_42
+Change Net Name : Old Net Name=NetU1_43 New Net Name=NetU4_43
+Change Net Name : Old Net Name=NetU1_44 New Net Name=NetU4_44
+Change Net Name : Old Net Name=NetU1_45 New Net Name=NetU4_45
+Change Net Name : Old Net Name=NetU1_46 New Net Name=NetU4_46
+Change Net Name : Old Net Name=NetU1_47 New Net Name=NetU4_47
+Change Net Name : Old Net Name=NetU1_48 New Net Name=NetU4_48
+Change Net Name : Old Net Name=NetU1_49 New Net Name=NetU4_49
+Change Net Name : Old Net Name=NetU1_50 New Net Name=NetU4_50
+Change Net Name : Old Net Name=NetU1_51 New Net Name=NetU4_51
+Change Net Name : Old Net Name=NetU1_54 New Net Name=NetU4_54
+Change Net Name : Old Net Name=NetU1_55 New Net Name=NetU4_55
+Change Net Name : Old Net Name=NetU1_56 New Net Name=NetU4_56
+Change Net Name : Old Net Name=NetU1_57 New Net Name=NetU4_57
+Change Net Name : Old Net Name=NetU1_58 New Net Name=NetU4_58
+Change Net Name : Old Net Name=NetU1_62 New Net Name=NetU4_62
+Change Net Name : Old Net Name=NetU2_15 New Net Name=NetU3_15
+Change Net Name : Old Net Name=NetU2_16 New Net Name=NetU3_16
+Added Pin To Net: NetName=NetS1_13 Pin=S1-13
+Added Net: Name=NetS1_13
+Added Member To Class: ClassName=LCD Member=Component U8 74LCS125M
+Added Room: Name=AT90
+Added Room: Name=Dashboard
+Added Room: Name=LCD
