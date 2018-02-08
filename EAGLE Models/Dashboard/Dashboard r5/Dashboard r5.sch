@@ -12681,59 +12681,6 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="tdk">
-<packages>
-<package name="2-SMD">
-<smd name="1" x="-2.075" y="0" dx="1.35" dy="1.5" layer="1"/>
-<smd name="2" x="2.075" y="0" dx="1.35" dy="1.5" layer="1"/>
-<text x="-3" y="5" size="0.8128" layer="25">&gt;NAME</text>
-<text x="-3" y="-6" size="0.8128" layer="27">&gt;VALUE</text>
-<wire x1="-2.032" y1="1.016" x2="-1.016" y2="2.032" width="0.127" layer="21"/>
-<wire x1="1.016" y1="2.032" x2="2.032" y2="1.016" width="0.127" layer="21"/>
-<wire x1="2.032" y1="-1.016" x2="1.016" y2="-2.032" width="0.127" layer="21"/>
-<wire x1="-2.032" y1="-1.016" x2="-1.016" y2="-2.032" width="0.127" layer="21"/>
-<wire x1="-2.032" y1="-1.016" x2="-2.032" y2="1.016" width="0.127" layer="21"/>
-<wire x1="-1.016" y1="2.032" x2="1.016" y2="2.032" width="0.127" layer="21"/>
-<wire x1="2.032" y1="1.016" x2="2.032" y2="-1.016" width="0.127" layer="21"/>
-<wire x1="-1.016" y1="-2.032" x2="1.016" y2="-2.032" width="0.127" layer="21"/>
-</package>
-</packages>
-<symbols>
-<symbol name="INDUCTOR">
-<wire x1="0" y1="5.08" x2="1.27" y2="3.81" width="0.254" layer="94" curve="-90" cap="flat"/>
-<wire x1="0" y1="2.54" x2="1.27" y2="3.81" width="0.254" layer="94" curve="90" cap="flat"/>
-<wire x1="0" y1="2.54" x2="1.27" y2="1.27" width="0.254" layer="94" curve="-90" cap="flat"/>
-<wire x1="0" y1="0" x2="1.27" y2="1.27" width="0.254" layer="94" curve="90" cap="flat"/>
-<wire x1="0" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94" curve="-90" cap="flat"/>
-<wire x1="0" y1="-2.54" x2="1.27" y2="-1.27" width="0.254" layer="94" curve="90" cap="flat"/>
-<wire x1="0" y1="-2.54" x2="1.27" y2="-3.81" width="0.254" layer="94" curve="-90" cap="flat"/>
-<wire x1="0" y1="-5.08" x2="1.27" y2="-3.81" width="0.254" layer="94" curve="90" cap="flat"/>
-<text x="2.54" y="5.08" size="1.778" layer="95">&gt;NAME</text>
-<text x="2.54" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="1" x="0" y="7.62" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
-<pin name="2" x="0" y="-7.62" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="LTF4022-D" uservalue="yes">
-<description>LTF4022</description>
-<gates>
-<gate name="A" symbol="INDUCTOR" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="2-SMD">
-<connects>
-<connect gate="A" pin="1" pad="1"/>
-<connect gate="A" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="SparkFun-Passives">
 <description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
 In this library you'll find resistors, capacitors, inductors, test points, jumper pads, etc.&lt;br&gt;&lt;br&gt;
@@ -20397,6 +20344,20 @@ at 14/06/2012 11:09:42</description>
 <text x="3.81" y="12.7" size="1.27" layer="25">&gt;NAME</text>
 <text x="2.54" y="-5.08" size="1.27" layer="27">&gt;VALUE</text>
 </package>
+<package name="043650-0409">
+<hole x="-6.65" y="0" drill="2.41"/>
+<hole x="6.65" y="0" drill="2.41"/>
+<smd name="P$1" x="-4.5" y="5.47" dx="1.27" dy="2.92" layer="1" rot="R180"/>
+<smd name="P$2" x="-1.5" y="5.47" dx="1.27" dy="2.92" layer="1" rot="R180"/>
+<smd name="P$3" x="1.5" y="5.47" dx="1.27" dy="2.92" layer="1" rot="R180"/>
+<smd name="P$4" x="4.5" y="5.47" dx="1.27" dy="2.92" layer="1" rot="R180"/>
+<wire x1="7.825" y1="6.1" x2="7.825" y2="-4.6" width="0.1524" layer="21"/>
+<wire x1="-7.825" y1="6.1" x2="-7.825" y2="-4.6" width="0.1524" layer="21"/>
+<wire x1="-7.825" y1="6.1" x2="7.825" y2="6.1" width="0.1524" layer="21"/>
+<wire x1="-7.825" y1="-4.6" x2="7.825" y2="-4.6" width="0.1524" layer="21"/>
+<text x="-7.62" y="7.62" size="1.778" layer="25">&gt;NAME</text>
+<text x="-8.001" y="-6.731" size="1.778" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="EN3C12M26X">
@@ -20428,6 +20389,16 @@ at 14/06/2012 11:09:42</description>
 <pin name="P$4" x="2.54" y="-5.08" length="short" rot="R90"/>
 <pin name="P$5" x="5.08" y="-5.08" length="short" rot="R90"/>
 <text x="-7.62" y="7.62" size="1.27" layer="95">&gt;NAME</text>
+</symbol>
+<symbol name="504050-0491">
+<wire x1="-7.62" y1="12.7" x2="7.62" y2="12.7" width="0.254" layer="94"/>
+<wire x1="7.62" y1="12.7" x2="7.62" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-12.7" x2="-7.62" y2="12.7" width="0.254" layer="94"/>
+<pin name="P$1" x="-12.7" y="7.62" length="middle"/>
+<pin name="P$2" x="-12.7" y="2.54" length="middle"/>
+<pin name="P$3" x="-12.7" y="-2.54" length="middle"/>
+<pin name="P$4" x="-12.7" y="-7.62" length="middle"/>
+<wire x1="7.62" y1="-12.7" x2="-7.62" y2="-12.7" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -20470,6 +20441,24 @@ at 14/06/2012 11:09:42</description>
 <connect gate="G$1" pin="P$3" pad="P$3"/>
 <connect gate="G$1" pin="P$4" pad="P$4"/>
 <connect gate="G$1" pin="P$5" pad="GND1 GND2 GND3 GND4 P$5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="043650-0409">
+<gates>
+<gate name="G$1" symbol="504050-0491" x="33.02" y="-5.08"/>
+</gates>
+<devices>
+<device name="" package="043650-0409">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+<connect gate="G$1" pin="P$3" pad="P$3"/>
+<connect gate="G$1" pin="P$4" pad="P$4"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -20633,6 +20622,48 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="inductors">
+<description>&lt;b&gt;Inductors and Filters&lt;/b&gt;&lt;p&gt;
+Based on the previous library ind-a.lbr&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="DEM8045C">
+<wire x1="-0.5" y1="-0.5" x2="-0.5" y2="8.8" width="0.1524" layer="21"/>
+<wire x1="-0.5" y1="8.8" x2="9" y2="8.8" width="0.1524" layer="21"/>
+<wire x1="9" y1="8.8" x2="9" y2="-0.5" width="0.1524" layer="21"/>
+<wire x1="9" y1="-0.5" x2="-0.5" y2="-0.5" width="0.1524" layer="21"/>
+<smd name="P$1" x="0.875" y="4.15" dx="1.75" dy="3" layer="1"/>
+<smd name="P$2" x="7.6" y="4.15" dx="1.75" dy="3" layer="1"/>
+</package>
+</packages>
+<symbols>
+<symbol name="L">
+<text x="-3.81" y="1.3716" size="1.778" layer="95">&gt;NAME</text>
+<text x="-3.81" y="-2.921" size="1.778" layer="96">&gt;VALUE</text>
+<rectangle x1="-2.54" y1="-0.889" x2="2.54" y2="0.889" layer="94"/>
+<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="DEM8045C">
+<gates>
+<gate name="G$1" symbol="L" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DEM8045C">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -20767,7 +20798,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <part name="C15" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="4.7uF"/>
 <part name="C6" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="10uF"/>
 <part name="C17" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1uF"/>
-<part name="L2" library="tdk" deviceset="LTF4022-D" device="" value="15uH"/>
+<part name="L2" library="inductors" deviceset="DEM8045C" device="" value="15uH"/>
 <part name="GND21" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C21" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="100 pF"/>
 <part name="IC7" library="texas" deviceset="LM5000" device=""/>
@@ -20784,9 +20815,6 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <part name="C4" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="3.3uF"/>
 <part name="D2" library="diodes-inc-e14" deviceset="B160-FDICT_NB" device=""/>
 <part name="J2" library="molex" deviceset="EN3C12M26X" device=""/>
-<part name="J3" library="molex" deviceset="67503-1020" device=""/>
-<part name="J4" library="molex" deviceset="67503-1020" device=""/>
-<part name="J5" library="molex" deviceset="67503-1020" device=""/>
 <part name="D3" library="diode" deviceset="1N581*" device="SOD123" technology="9-B" value="1N5819"/>
 <part name="IC8" library="on-semiconductor" deviceset="NCP1117" device=""/>
 <part name="C23" library="rcl" deviceset="C-US" device="C0603" value="10uF"/>
@@ -20794,6 +20822,9 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <part name="C9" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="10uF"/>
 <part name="R50" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="17.2k"/>
 <part name="U$1" library="molex" deviceset="67503-1020" device=""/>
+<part name="U$2" library="molex" deviceset="043650-0409" device=""/>
+<part name="U$3" library="molex" deviceset="043650-0409" device=""/>
+<part name="U$4" library="molex" deviceset="043650-0409" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -20981,7 +21012,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <instance part="C15" gate="G$1" x="64.77" y="81.28"/>
 <instance part="C6" gate="G$1" x="184.15" y="73.914" rot="R90"/>
 <instance part="C17" gate="G$1" x="183.896" y="68.58" rot="R90"/>
-<instance part="L2" gate="A" x="146.05" y="118.11" rot="R90"/>
+<instance part="L2" gate="G$1" x="143.51" y="118.11"/>
 <instance part="GND21" gate="1" x="119.38" y="60.96"/>
 <instance part="C21" gate="G$1" x="124.714" y="88.9" rot="R90"/>
 <instance part="IC7" gate="G$1" x="154.94" y="86.36"/>
@@ -20998,9 +21029,6 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <instance part="C4" gate="G$1" x="246.38" y="83.82" rot="R180"/>
 <instance part="D2" gate="G$1" x="206.502" y="118.11"/>
 <instance part="J2" gate="G$1" x="-304.8" y="124.46" rot="R90"/>
-<instance part="J3" gate="G$1" x="-360.68" y="111.76" rot="R270"/>
-<instance part="J4" gate="G$1" x="-360.68" y="71.12" rot="R270"/>
-<instance part="J5" gate="G$1" x="-363.22" y="40.64" rot="R270"/>
 <instance part="D3" gate="G$1" x="-238.76" y="68.58"/>
 <instance part="IC8" gate="G$1" x="-205.74" y="68.58"/>
 <instance part="C23" gate="G$1" x="-233.68" y="60.96"/>
@@ -21008,6 +21036,9 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <instance part="C9" gate="G$1" x="-379.73" y="193.04"/>
 <instance part="R50" gate="G$1" x="111.76" y="81.28" rot="R90"/>
 <instance part="U$1" gate="G$1" x="-309.88" y="25.4"/>
+<instance part="U$2" gate="G$1" x="-350.52" y="109.22"/>
+<instance part="U$3" gate="G$1" x="-350.52" y="68.58"/>
+<instance part="U$4" gate="G$1" x="-350.52" y="40.64"/>
 </instances>
 <busses>
 </busses>
@@ -21597,19 +21628,19 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <label x="-513.08" y="236.22" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J3" gate="G$1" pin="P$5"/>
-<wire x1="-365.76" y1="106.68" x2="-378.46" y2="106.68" width="0.1524" layer="91"/>
-<label x="-378.46" y="106.68" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="-363.22" y1="101.6" x2="-378.46" y2="101.6" width="0.1524" layer="91"/>
+<label x="-378.46" y="101.6" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$2" gate="G$1" pin="P$4"/>
 </segment>
 <segment>
-<pinref part="J4" gate="G$1" pin="P$5"/>
-<wire x1="-365.76" y1="66.04" x2="-381" y2="66.04" width="0.1524" layer="91"/>
-<label x="-381" y="66.04" size="1.778" layer="95" rot="R180" xref="yes"/>
+<label x="-368.3" y="66.04" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$3" gate="G$1" pin="P$3"/>
+<wire x1="-368.3" y1="66.04" x2="-363.22" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J5" gate="G$1" pin="P$5"/>
-<wire x1="-368.3" y1="35.56" x2="-378.46" y2="35.56" width="0.1524" layer="91"/>
-<label x="-378.46" y="35.56" size="1.778" layer="95" rot="R180" xref="yes"/>
+<label x="-370.84" y="33.02" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$4" gate="G$1" pin="P$4"/>
+<wire x1="-370.84" y1="33.02" x2="-363.22" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <label x="-304.8" y="15.24" size="1.27" layer="95" rot="R270" xref="yes"/>
@@ -21836,9 +21867,9 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </net>
 <net name="12V" class="2">
 <segment>
-<pinref part="J3" gate="G$1" pin="P$1"/>
-<wire x1="-365.76" y1="116.84" x2="-378.46" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="-363.22" y1="116.84" x2="-378.46" y2="116.84" width="0.1524" layer="91"/>
 <label x="-378.46" y="116.84" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$2" gate="G$1" pin="P$1"/>
 </segment>
 <segment>
 <pinref part="D3" gate="G$1" pin="A"/>
@@ -21866,7 +21897,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <pinref part="R51" gate="G$1" pin="2"/>
 <wire x1="95.25" y1="115.824" x2="95.25" y2="118.11" width="0.1524" layer="91"/>
 <junction x="95.25" y="118.11"/>
-<pinref part="L2" gate="A" pin="1"/>
+<pinref part="L2" gate="G$1" pin="1"/>
 <pinref part="C15" gate="G$1" pin="1"/>
 <junction x="64.77" y="86.36"/>
 <pinref part="C22" gate="G$1" pin="1"/>
@@ -22558,9 +22589,9 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </net>
 <net name="DRV1" class="3">
 <segment>
-<pinref part="J5" gate="G$1" pin="P$2"/>
-<wire x1="-368.3" y1="43.18" x2="-370.84" y2="43.18" width="0.1524" layer="91"/>
-<label x="-370.84" y="43.18" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="-370.84" y="48.26" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$4" gate="G$1" pin="P$1"/>
+<wire x1="-370.84" y1="48.26" x2="-363.22" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="F4" gate="G$1" pin="2"/>
@@ -22662,16 +22693,16 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <label x="-495.3" y="25.4" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J5" gate="G$1" pin="P$4"/>
-<wire x1="-368.3" y1="38.1" x2="-370.84" y2="38.1" width="0.1524" layer="91"/>
 <label x="-370.84" y="38.1" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$4" gate="G$1" pin="P$3"/>
+<wire x1="-370.84" y1="38.1" x2="-363.22" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DRV2" class="3">
 <segment>
-<pinref part="J5" gate="G$1" pin="P$3"/>
-<wire x1="-368.3" y1="40.64" x2="-378.46" y2="40.64" width="0.1524" layer="91"/>
-<label x="-378.46" y="40.64" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="-363.22" y1="43.18" x2="-370.84" y2="43.18" width="0.1524" layer="91"/>
+<label x="-370.84" y="43.18" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$4" gate="G$1" pin="P$2"/>
 </segment>
 <segment>
 <pinref part="F5" gate="G$1" pin="2"/>
@@ -23176,8 +23207,8 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <pinref part="IC7" gate="G$1" pin="SW2"/>
 <wire x1="172.72" y1="99.06" x2="187.706" y2="99.06" width="0.1524" layer="91"/>
 <junction x="187.706" y="99.06"/>
-<pinref part="L2" gate="A" pin="2"/>
-<wire x1="153.67" y1="118.11" x2="187.706" y2="118.11" width="0.1524" layer="91"/>
+<pinref part="L2" gate="G$1" pin="2"/>
+<wire x1="148.59" y1="118.11" x2="187.706" y2="118.11" width="0.1524" layer="91"/>
 <wire x1="187.706" y1="118.11" x2="191.262" y2="118.11" width="0.1524" layer="91"/>
 <junction x="187.706" y="118.11"/>
 <pinref part="D2" gate="G$1" pin="P$1"/>
@@ -23212,9 +23243,9 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </net>
 <net name="CAN_1L" class="0">
 <segment>
-<pinref part="J3" gate="G$1" pin="P$4"/>
-<wire x1="-365.76" y1="109.22" x2="-368.3" y2="109.22" width="0.1524" layer="91"/>
-<label x="-368.3" y="109.22" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="-363.22" y1="106.68" x2="-368.3" y2="106.68" width="0.1524" layer="91"/>
+<label x="-368.3" y="106.68" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$2" gate="G$1" pin="P$3"/>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="P$8"/>
@@ -23224,9 +23255,9 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </net>
 <net name="CAN_1H" class="0">
 <segment>
-<pinref part="J3" gate="G$1" pin="P$3"/>
-<wire x1="-365.76" y1="111.76" x2="-378.46" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="-363.22" y1="111.76" x2="-378.46" y2="111.76" width="0.1524" layer="91"/>
 <label x="-378.46" y="111.76" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$2" gate="G$1" pin="P$2"/>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="P$7"/>
@@ -23253,9 +23284,9 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <label x="-302.26" y="109.22" size="0.8128" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J4" gate="G$1" pin="P$4"/>
-<wire x1="-365.76" y1="68.58" x2="-368.3" y2="68.58" width="0.1524" layer="91"/>
-<label x="-368.3" y="68.58" size="1.778" layer="95" rot="R180" xref="yes"/>
+<label x="-368.3" y="71.12" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="-368.3" y1="71.12" x2="-363.22" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="U$3" gate="G$1" pin="P$2"/>
 </segment>
 </net>
 <net name="DOWN_SH" class="0">
@@ -23265,9 +23296,9 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <label x="-299.72" y="109.22" size="0.8128" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J4" gate="G$1" pin="P$3"/>
-<wire x1="-365.76" y1="71.12" x2="-378.46" y2="71.12" width="0.1524" layer="91"/>
-<label x="-378.46" y="71.12" size="1.778" layer="95" rot="R180" xref="yes"/>
+<label x="-373.38" y="76.2" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$3" gate="G$1" pin="P$1"/>
+<wire x1="-373.38" y1="76.2" x2="-363.22" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CAN_0L" class="1">
