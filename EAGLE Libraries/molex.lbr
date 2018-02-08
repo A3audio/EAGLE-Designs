@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.5.0">
+<eagle version="8.6.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -4173,6 +4173,15 @@ WM4926-ND</description>
 <wire x1="-2.54" y1="10.16" x2="-2.54" y2="-2.54" width="0.127" layer="21"/>
 <text x="3.81" y="12.7" size="1.27" layer="25">&gt;NAME</text>
 <text x="2.54" y="-5.08" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="MOLEX_43650-0200">
+<pad name="P$1" x="-1.5" y="4.32" drill="1.02" shape="square"/>
+<pad name="P$2" x="1.5" y="4.32" drill="1.02" shape="square"/>
+<hole x="0" y="0" drill="3"/>
+<wire x1="-4.825" y1="7.62" x2="-4.825" y2="-4.6" width="0.1524" layer="21"/>
+<wire x1="-4.825" y1="-4.6" x2="4.825" y2="-4.6" width="0.1524" layer="21"/>
+<wire x1="4.825" y1="-4.6" x2="4.825" y2="7.62" width="0.1524" layer="21"/>
+<wire x1="4.825" y1="7.62" x2="-4.825" y2="7.62" width="0.1524" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -10287,6 +10296,22 @@ WM4926-ND</description>
 <connect gate="G$1" pin="P$3" pad="P$3"/>
 <connect gate="G$1" pin="P$4" pad="P$4"/>
 <connect gate="G$1" pin="P$5" pad="GND1 GND2 GND3 GND4 P$5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="43650-0200">
+<gates>
+<gate name="G$1" symbol="39-30-1020" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MOLEX_43650-0200">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
