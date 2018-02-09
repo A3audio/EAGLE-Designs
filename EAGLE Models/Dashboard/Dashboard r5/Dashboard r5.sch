@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.5.0">
+<eagle version="8.5.1">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
@@ -20358,6 +20358,15 @@ at 14/06/2012 11:09:42</description>
 <text x="-7.62" y="7.62" size="1.778" layer="25">&gt;NAME</text>
 <text x="-8.001" y="-6.731" size="1.778" layer="27">&gt;VALUE</text>
 </package>
+<package name="MOLEX_43650-0200">
+<pad name="P$1" x="-1.5" y="4.32" drill="1.02"/>
+<pad name="P$2" x="1.5" y="4.32" drill="1.02"/>
+<hole x="0" y="0" drill="3"/>
+<wire x1="-4.825" y1="7.62" x2="-4.825" y2="-4.6" width="0.1524" layer="21"/>
+<wire x1="-4.825" y1="-4.6" x2="4.825" y2="-4.6" width="0.1524" layer="21"/>
+<wire x1="4.825" y1="-4.6" x2="4.825" y2="7.62" width="0.1524" layer="21"/>
+<wire x1="4.825" y1="7.62" x2="-4.825" y2="7.62" width="0.1524" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="EN3C12M26X">
@@ -20399,6 +20408,16 @@ at 14/06/2012 11:09:42</description>
 <pin name="P$3" x="-12.7" y="-2.54" length="middle"/>
 <pin name="P$4" x="-12.7" y="-7.62" length="middle"/>
 <wire x1="7.62" y1="-12.7" x2="-7.62" y2="-12.7" width="0.254" layer="94"/>
+</symbol>
+<symbol name="39-30-1020">
+<pin name="1" x="-7.62" y="2.54" length="middle"/>
+<pin name="2" x="-7.62" y="-2.54" length="middle"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
+<text x="-2.54" y="5.08" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -20459,6 +20478,22 @@ at 14/06/2012 11:09:42</description>
 <connect gate="G$1" pin="P$2" pad="P$2"/>
 <connect gate="G$1" pin="P$3" pad="P$3"/>
 <connect gate="G$1" pin="P$4" pad="P$4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="43650-0200">
+<gates>
+<gate name="G$1" symbol="39-30-1020" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MOLEX_43650-0200">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -20821,10 +20856,12 @@ Based on the previous library ind-a.lbr&lt;p&gt;
 <part name="C24" library="rcl" deviceset="C-US" device="C0603" value="10uF"/>
 <part name="C9" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="10uF"/>
 <part name="R50" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="17.2k"/>
-<part name="U$1" library="molex" deviceset="67503-1020" device=""/>
-<part name="U$2" library="molex" deviceset="043650-0409" device=""/>
-<part name="U$3" library="molex" deviceset="043650-0409" device=""/>
-<part name="U$4" library="molex" deviceset="043650-0409" device=""/>
+<part name="USB" library="molex" deviceset="67503-1020" device=""/>
+<part name="CAN1" library="molex" deviceset="043650-0409" device=""/>
+<part name="SHIFT" library="molex" deviceset="043650-0409" device=""/>
+<part name="LED" library="molex" deviceset="043650-0409" device=""/>
+<part name="B0" library="molex" deviceset="43650-0200" device=""/>
+<part name="B1" library="molex" deviceset="43650-0200" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -21035,10 +21072,12 @@ Based on the previous library ind-a.lbr&lt;p&gt;
 <instance part="C24" gate="G$1" x="-182.88" y="60.96"/>
 <instance part="C9" gate="G$1" x="-379.73" y="193.04"/>
 <instance part="R50" gate="G$1" x="111.76" y="81.28" rot="R90"/>
-<instance part="U$1" gate="G$1" x="-309.88" y="25.4"/>
-<instance part="U$2" gate="G$1" x="-350.52" y="109.22"/>
-<instance part="U$3" gate="G$1" x="-350.52" y="68.58"/>
-<instance part="U$4" gate="G$1" x="-350.52" y="40.64"/>
+<instance part="USB" gate="G$1" x="-309.88" y="25.4"/>
+<instance part="CAN1" gate="G$1" x="-350.52" y="109.22"/>
+<instance part="SHIFT" gate="G$1" x="-350.52" y="68.58"/>
+<instance part="LED" gate="G$1" x="-350.52" y="40.64"/>
+<instance part="B0" gate="G$1" x="-304.8" y="78.74"/>
+<instance part="B1" gate="G$1" x="-304.8" y="60.96"/>
 </instances>
 <busses>
 </busses>
@@ -21084,12 +21123,22 @@ Based on the previous library ind-a.lbr&lt;p&gt;
 <label x="-22.86" y="114.3" size="1.778" layer="95"/>
 <pinref part="IC1" gate="G$1" pin="(A9)PC1"/>
 </segment>
+<segment>
+<pinref part="B1" gate="G$1" pin="1"/>
+<wire x1="-312.42" y1="63.5" x2="-314.96" y2="63.5" width="0.1524" layer="91"/>
+<label x="-314.96" y="63.5" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="PC0" class="0">
 <segment>
 <wire x1="-20.32" y1="111.76" x2="-25.4" y2="111.76" width="0.1524" layer="91"/>
 <label x="-22.86" y="111.76" size="1.778" layer="95"/>
 <pinref part="IC1" gate="G$1" pin="(A8)PC0"/>
+</segment>
+<segment>
+<pinref part="B0" gate="G$1" pin="1"/>
+<wire x1="-312.42" y1="81.28" x2="-314.96" y2="81.28" width="0.1524" layer="91"/>
+<label x="-314.96" y="81.28" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="RXCAN" class="0">
@@ -21281,7 +21330,7 @@ Based on the previous library ind-a.lbr&lt;p&gt;
 </segment>
 <segment>
 <label x="-314.96" y="15.24" size="1.27" layer="95" rot="R270" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="P$1"/>
+<pinref part="USB" gate="G$1" pin="P$1"/>
 <wire x1="-314.96" y1="15.24" x2="-314.96" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -21630,22 +21679,32 @@ Based on the previous library ind-a.lbr&lt;p&gt;
 <segment>
 <wire x1="-363.22" y1="101.6" x2="-378.46" y2="101.6" width="0.1524" layer="91"/>
 <label x="-378.46" y="101.6" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$2" gate="G$1" pin="P$4"/>
+<pinref part="CAN1" gate="G$1" pin="P$4"/>
 </segment>
 <segment>
 <label x="-368.3" y="66.04" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$3" gate="G$1" pin="P$3"/>
+<pinref part="SHIFT" gate="G$1" pin="P$3"/>
 <wire x1="-368.3" y1="66.04" x2="-363.22" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <label x="-370.84" y="33.02" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$4" gate="G$1" pin="P$4"/>
+<pinref part="LED" gate="G$1" pin="P$4"/>
 <wire x1="-370.84" y1="33.02" x2="-363.22" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <label x="-304.8" y="15.24" size="1.27" layer="95" rot="R270" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="P$5"/>
+<pinref part="USB" gate="G$1" pin="P$5"/>
 <wire x1="-304.8" y1="15.24" x2="-304.8" y2="20.32" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="B0" gate="G$1" pin="2"/>
+<wire x1="-312.42" y1="76.2" x2="-314.96" y2="76.2" width="0.1524" layer="91"/>
+<label x="-314.96" y="76.2" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="B1" gate="G$1" pin="2"/>
+<wire x1="-312.42" y1="58.42" x2="-314.96" y2="58.42" width="0.1524" layer="91"/>
+<label x="-314.96" y="58.42" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="XTAL1" class="0">
@@ -21869,7 +21928,7 @@ Based on the previous library ind-a.lbr&lt;p&gt;
 <segment>
 <wire x1="-363.22" y1="116.84" x2="-378.46" y2="116.84" width="0.1524" layer="91"/>
 <label x="-378.46" y="116.84" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$2" gate="G$1" pin="P$1"/>
+<pinref part="CAN1" gate="G$1" pin="P$1"/>
 </segment>
 <segment>
 <pinref part="D3" gate="G$1" pin="A"/>
@@ -22590,7 +22649,7 @@ Based on the previous library ind-a.lbr&lt;p&gt;
 <net name="DRV1" class="3">
 <segment>
 <label x="-370.84" y="48.26" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$4" gate="G$1" pin="P$1"/>
+<pinref part="LED" gate="G$1" pin="P$1"/>
 <wire x1="-370.84" y1="48.26" x2="-363.22" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -22694,7 +22753,7 @@ Based on the previous library ind-a.lbr&lt;p&gt;
 </segment>
 <segment>
 <label x="-370.84" y="38.1" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$4" gate="G$1" pin="P$3"/>
+<pinref part="LED" gate="G$1" pin="P$3"/>
 <wire x1="-370.84" y1="38.1" x2="-363.22" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -22702,7 +22761,7 @@ Based on the previous library ind-a.lbr&lt;p&gt;
 <segment>
 <wire x1="-363.22" y1="43.18" x2="-370.84" y2="43.18" width="0.1524" layer="91"/>
 <label x="-370.84" y="43.18" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$4" gate="G$1" pin="P$2"/>
+<pinref part="LED" gate="G$1" pin="P$2"/>
 </segment>
 <segment>
 <pinref part="F5" gate="G$1" pin="2"/>
@@ -23245,7 +23304,7 @@ Based on the previous library ind-a.lbr&lt;p&gt;
 <segment>
 <wire x1="-363.22" y1="106.68" x2="-368.3" y2="106.68" width="0.1524" layer="91"/>
 <label x="-368.3" y="106.68" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$2" gate="G$1" pin="P$3"/>
+<pinref part="CAN1" gate="G$1" pin="P$3"/>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="P$8"/>
@@ -23257,7 +23316,7 @@ Based on the previous library ind-a.lbr&lt;p&gt;
 <segment>
 <wire x1="-363.22" y1="111.76" x2="-378.46" y2="111.76" width="0.1524" layer="91"/>
 <label x="-378.46" y="111.76" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$2" gate="G$1" pin="P$2"/>
+<pinref part="CAN1" gate="G$1" pin="P$2"/>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="P$7"/>
@@ -23286,7 +23345,7 @@ Based on the previous library ind-a.lbr&lt;p&gt;
 <segment>
 <label x="-368.3" y="71.12" size="1.778" layer="95" rot="R180" xref="yes"/>
 <wire x1="-368.3" y1="71.12" x2="-363.22" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="P$2"/>
+<pinref part="SHIFT" gate="G$1" pin="P$2"/>
 </segment>
 </net>
 <net name="DOWN_SH" class="0">
@@ -23297,7 +23356,7 @@ Based on the previous library ind-a.lbr&lt;p&gt;
 </segment>
 <segment>
 <label x="-373.38" y="76.2" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$3" gate="G$1" pin="P$1"/>
+<pinref part="SHIFT" gate="G$1" pin="P$1"/>
 <wire x1="-373.38" y1="76.2" x2="-363.22" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -23353,7 +23412,7 @@ Based on the previous library ind-a.lbr&lt;p&gt;
 <net name="D_P" class="1">
 <segment>
 <label x="-309.88" y="15.24" size="1.27" layer="95" rot="R270" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="P$3"/>
+<pinref part="USB" gate="G$1" pin="P$3"/>
 <wire x1="-309.88" y1="15.24" x2="-309.88" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -23365,7 +23424,7 @@ Based on the previous library ind-a.lbr&lt;p&gt;
 <net name="D_N" class="1">
 <segment>
 <label x="-312.42" y="15.24" size="1.27" layer="95" rot="R270" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="P$2"/>
+<pinref part="USB" gate="G$1" pin="P$2"/>
 <wire x1="-312.42" y1="15.24" x2="-312.42" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
