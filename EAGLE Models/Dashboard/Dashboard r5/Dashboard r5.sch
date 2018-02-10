@@ -22068,7 +22068,6 @@ Source: &lt;a href="http://www.littelfuse.com/products/resettable-ptcs.aspx"&gt;
 <part name="U$2" library="molex" deviceset="043650-0409" device=""/>
 <part name="U$3" library="molex" deviceset="043650-0409" device=""/>
 <part name="U$4" library="molex" deviceset="043650-0409" device=""/>
-<<<<<<< HEAD
 <part name="F1" library="LittleFuse" deviceset="PTC_FUSE" device="0805L" technology="010/24" value="0805_.75trip"/>
 <part name="D4" library="adafruit" deviceset="DIODE" device="SOD-123" value="1N4148"/>
 <part name="GND7" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -22076,8 +22075,6 @@ Source: &lt;a href="http://www.littelfuse.com/products/resettable-ptcs.aspx"&gt;
 <part name="D6" library="texas-boosterpack" deviceset="TVS_" device="-0603" technology="24VM-150VC" value="24VM, 150VC, 0603"/>
 <part name="GND15" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND18" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-=======
->>>>>>> parent of a9b2068... Added Molex 2 pin connectors, Fixed molex 4 pin connectors
 </parts>
 <sheets>
 <sheet>
@@ -22290,7 +22287,6 @@ Source: &lt;a href="http://www.littelfuse.com/products/resettable-ptcs.aspx"&gt;
 <instance part="R50" gate="G$1" x="111.76" y="81.28" rot="R90"/>
 <instance part="U$1" gate="G$1" x="-309.88" y="25.4"/>
 <instance part="U$2" gate="G$1" x="-350.52" y="109.22"/>
-<<<<<<< HEAD
 <instance part="U$3" gate="G$1" x="-350.52" y="81.28"/>
 <instance part="U$4" gate="G$1" x="-350.52" y="53.34"/>
 <instance part="F1" gate="G$1" x="-363.22" y="15.24" rot="R180"/>
@@ -22300,10 +22296,6 @@ Source: &lt;a href="http://www.littelfuse.com/products/resettable-ptcs.aspx"&gt;
 <instance part="D6" gate="G$1" x="-304.038" y="2.667"/>
 <instance part="GND15" gate="1" x="-332.105" y="-0.635"/>
 <instance part="GND18" gate="1" x="-294.767" y="-0.635"/>
-=======
-<instance part="U$3" gate="G$1" x="-350.52" y="68.58"/>
-<instance part="U$4" gate="G$1" x="-350.52" y="40.64"/>
->>>>>>> parent of a9b2068... Added Molex 2 pin connectors, Fixed molex 4 pin connectors
 </instances>
 <busses>
 </busses>
@@ -22895,7 +22887,6 @@ Source: &lt;a href="http://www.littelfuse.com/products/resettable-ptcs.aspx"&gt;
 <pinref part="U$2" gate="G$1" pin="P$4"/>
 </segment>
 <segment>
-<<<<<<< HEAD
 <label x="-368.3" y="78.74" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="U$3" gate="G$1" pin="P$3"/>
 <wire x1="-368.3" y1="78.74" x2="-363.22" y2="78.74" width="0.1524" layer="91"/>
@@ -22904,23 +22895,12 @@ Source: &lt;a href="http://www.littelfuse.com/products/resettable-ptcs.aspx"&gt;
 <label x="-370.84" y="45.72" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="U$4" gate="G$1" pin="P$4"/>
 <wire x1="-370.84" y1="45.72" x2="-363.22" y2="45.72" width="0.1524" layer="91"/>
-=======
-<label x="-368.3" y="66.04" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$3" gate="G$1" pin="P$3"/>
-<wire x1="-368.3" y1="66.04" x2="-363.22" y2="66.04" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<label x="-370.84" y="33.02" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$4" gate="G$1" pin="P$4"/>
-<wire x1="-370.84" y1="33.02" x2="-363.22" y2="33.02" width="0.1524" layer="91"/>
->>>>>>> parent of a9b2068... Added Molex 2 pin connectors, Fixed molex 4 pin connectors
 </segment>
 <segment>
 <label x="-304.8" y="15.24" size="1.27" layer="95" rot="R270" xref="yes"/>
 <pinref part="U$1" gate="G$1" pin="P$5"/>
 <wire x1="-304.8" y1="15.24" x2="-304.8" y2="20.32" width="0.1524" layer="91"/>
 </segment>
-<<<<<<< HEAD
 <segment>
 <pinref part="F1" gate="G$1" pin="2"/>
 <pinref part="D4" gate="G$1" pin="A"/>
@@ -22941,8 +22921,6 @@ Source: &lt;a href="http://www.littelfuse.com/products/resettable-ptcs.aspx"&gt;
 <wire x1="-298.958" y1="2.667" x2="-294.767" y2="2.667" width="0.1524" layer="91"/>
 <wire x1="-294.767" y1="2.667" x2="-294.767" y2="1.905" width="0.1524" layer="91"/>
 </segment>
-=======
->>>>>>> parent of a9b2068... Added Molex 2 pin connectors, Fixed molex 4 pin connectors
 </net>
 <net name="XTAL1" class="0">
 <segment>
@@ -23891,15 +23869,9 @@ Source: &lt;a href="http://www.littelfuse.com/products/resettable-ptcs.aspx"&gt;
 </net>
 <net name="DRV1" class="3">
 <segment>
-<<<<<<< HEAD
 <label x="-370.84" y="60.96" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="U$4" gate="G$1" pin="P$1"/>
 <wire x1="-370.84" y1="60.96" x2="-363.22" y2="60.96" width="0.1524" layer="91"/>
-=======
-<label x="-370.84" y="48.26" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$4" gate="G$1" pin="P$1"/>
-<wire x1="-370.84" y1="48.26" x2="-363.22" y2="48.26" width="0.1524" layer="91"/>
->>>>>>> parent of a9b2068... Added Molex 2 pin connectors, Fixed molex 4 pin connectors
 </segment>
 <segment>
 <pinref part="F4" gate="G$1" pin="2"/>
@@ -24001,26 +23973,15 @@ Source: &lt;a href="http://www.littelfuse.com/products/resettable-ptcs.aspx"&gt;
 <label x="-495.3" y="25.4" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
-<<<<<<< HEAD
 <label x="-370.84" y="50.8" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="U$4" gate="G$1" pin="P$3"/>
 <wire x1="-370.84" y1="50.8" x2="-363.22" y2="50.8" width="0.1524" layer="91"/>
-=======
-<label x="-370.84" y="38.1" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$4" gate="G$1" pin="P$3"/>
-<wire x1="-370.84" y1="38.1" x2="-363.22" y2="38.1" width="0.1524" layer="91"/>
->>>>>>> parent of a9b2068... Added Molex 2 pin connectors, Fixed molex 4 pin connectors
 </segment>
 </net>
 <net name="DRV2" class="3">
 <segment>
-<<<<<<< HEAD
 <wire x1="-363.22" y1="55.88" x2="-370.84" y2="55.88" width="0.1524" layer="91"/>
 <label x="-370.84" y="55.88" size="1.27" layer="95" rot="R180" xref="yes"/>
-=======
-<wire x1="-363.22" y1="43.18" x2="-370.84" y2="43.18" width="0.1524" layer="91"/>
-<label x="-370.84" y="43.18" size="1.27" layer="95" rot="R180" xref="yes"/>
->>>>>>> parent of a9b2068... Added Molex 2 pin connectors, Fixed molex 4 pin connectors
 <pinref part="U$4" gate="G$1" pin="P$2"/>
 </segment>
 <segment>
@@ -24603,13 +24564,8 @@ Source: &lt;a href="http://www.littelfuse.com/products/resettable-ptcs.aspx"&gt;
 <label x="-302.26" y="109.22" size="0.8128" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
-<<<<<<< HEAD
 <label x="-368.3" y="83.82" size="1.778" layer="95" rot="R180" xref="yes"/>
 <wire x1="-368.3" y1="83.82" x2="-363.22" y2="83.82" width="0.1524" layer="91"/>
-=======
-<label x="-368.3" y="71.12" size="1.778" layer="95" rot="R180" xref="yes"/>
-<wire x1="-368.3" y1="71.12" x2="-363.22" y2="71.12" width="0.1524" layer="91"/>
->>>>>>> parent of a9b2068... Added Molex 2 pin connectors, Fixed molex 4 pin connectors
 <pinref part="U$3" gate="G$1" pin="P$2"/>
 </segment>
 </net>
@@ -24620,15 +24576,9 @@ Source: &lt;a href="http://www.littelfuse.com/products/resettable-ptcs.aspx"&gt;
 <label x="-299.72" y="109.22" size="0.8128" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
-<<<<<<< HEAD
 <label x="-373.38" y="88.9" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="U$3" gate="G$1" pin="P$1"/>
 <wire x1="-373.38" y1="88.9" x2="-363.22" y2="88.9" width="0.1524" layer="91"/>
-=======
-<label x="-373.38" y="76.2" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$3" gate="G$1" pin="P$1"/>
-<wire x1="-373.38" y1="76.2" x2="-363.22" y2="76.2" width="0.1524" layer="91"/>
->>>>>>> parent of a9b2068... Added Molex 2 pin connectors, Fixed molex 4 pin connectors
 </segment>
 </net>
 <net name="CAN_0L" class="1">
@@ -24682,7 +24632,6 @@ Source: &lt;a href="http://www.littelfuse.com/products/resettable-ptcs.aspx"&gt;
 </net>
 <net name="D_P" class="1">
 <segment>
-<<<<<<< HEAD
 <label x="-309.88" y="-3.429" size="1.27" layer="95" rot="R270" xref="yes"/>
 <pinref part="U$1" gate="G$1" pin="P$3"/>
 <wire x1="-309.88" y1="-3.429" x2="-309.88" y2="20.32" width="0.1524" layer="91"/>
@@ -24690,11 +24639,6 @@ Source: &lt;a href="http://www.littelfuse.com/products/resettable-ptcs.aspx"&gt;
 <wire x1="-309.118" y1="2.667" x2="-309.88" y2="2.667" width="0.1524" layer="91"/>
 <wire x1="-309.88" y1="2.667" x2="-309.88" y2="20.32" width="0.1524" layer="91"/>
 <junction x="-309.88" y="20.32"/>
-=======
-<label x="-309.88" y="15.24" size="1.27" layer="95" rot="R270" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="P$3"/>
-<wire x1="-309.88" y1="15.24" x2="-309.88" y2="20.32" width="0.1524" layer="91"/>
->>>>>>> parent of a9b2068... Added Molex 2 pin connectors, Fixed molex 4 pin connectors
 </segment>
 <segment>
 <wire x1="-205.74" y1="215.9" x2="-210.82" y2="215.9" width="0.1524" layer="91"/>
@@ -24704,7 +24648,6 @@ Source: &lt;a href="http://www.littelfuse.com/products/resettable-ptcs.aspx"&gt;
 </net>
 <net name="D_N" class="1">
 <segment>
-<<<<<<< HEAD
 <label x="-312.42" y="-3.429" size="1.27" layer="95" rot="R270" xref="yes"/>
 <pinref part="U$1" gate="G$1" pin="P$2"/>
 <wire x1="-312.42" y1="-3.429" x2="-312.42" y2="20.32" width="0.1524" layer="91"/>
@@ -24712,11 +24655,6 @@ Source: &lt;a href="http://www.littelfuse.com/products/resettable-ptcs.aspx"&gt;
 <wire x1="-314.96" y1="2.667" x2="-312.42" y2="2.667" width="0.1524" layer="91"/>
 <wire x1="-312.42" y1="2.667" x2="-312.42" y2="20.32" width="0.1524" layer="91"/>
 <junction x="-312.42" y="20.32"/>
-=======
-<label x="-312.42" y="15.24" size="1.27" layer="95" rot="R270" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="P$2"/>
-<wire x1="-312.42" y1="15.24" x2="-312.42" y2="20.32" width="0.1524" layer="91"/>
->>>>>>> parent of a9b2068... Added Molex 2 pin connectors, Fixed molex 4 pin connectors
 </segment>
 <segment>
 <wire x1="-210.82" y1="218.44" x2="-205.74" y2="218.44" width="0.1524" layer="91"/>
