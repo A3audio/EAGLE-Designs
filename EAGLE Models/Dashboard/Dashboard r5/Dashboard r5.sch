@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.5.1">
+<eagle version="8.5.0">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.105" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -65,6 +65,8 @@
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
 <layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -101,9 +103,12 @@
 <layer number="126" name="_bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="127" name="_tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="128" name="_bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="129" name="Mask" color="7" fill="1" visible="no" active="yes"/>
+<layer number="130" name="130bmp" color="2" fill="1" visible="no" active="yes"/>
 <layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="yes"/>
 <layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="yes"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="yes"/>
+<layer number="145" name="DrillLegend_01-16" color="2" fill="9" visible="no" active="yes"/>
 <layer number="150" name="Notes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="152" name="_bDocu" color="7" fill="1" visible="no" active="yes"/>
@@ -20358,15 +20363,6 @@ at 14/06/2012 11:09:42</description>
 <text x="-7.62" y="7.62" size="1.778" layer="25">&gt;NAME</text>
 <text x="-8.001" y="-6.731" size="1.778" layer="27">&gt;VALUE</text>
 </package>
-<package name="MOLEX_43650-0200">
-<pad name="P$1" x="-1.5" y="4.32" drill="1.02"/>
-<pad name="P$2" x="1.5" y="4.32" drill="1.02"/>
-<hole x="0" y="0" drill="3"/>
-<wire x1="-4.825" y1="7.62" x2="-4.825" y2="-4.6" width="0.1524" layer="21"/>
-<wire x1="-4.825" y1="-4.6" x2="4.825" y2="-4.6" width="0.1524" layer="21"/>
-<wire x1="4.825" y1="-4.6" x2="4.825" y2="7.62" width="0.1524" layer="21"/>
-<wire x1="4.825" y1="7.62" x2="-4.825" y2="7.62" width="0.1524" layer="21"/>
-</package>
 </packages>
 <symbols>
 <symbol name="EN3C12M26X">
@@ -20408,16 +20404,6 @@ at 14/06/2012 11:09:42</description>
 <pin name="P$3" x="-12.7" y="-2.54" length="middle"/>
 <pin name="P$4" x="-12.7" y="-7.62" length="middle"/>
 <wire x1="7.62" y1="-12.7" x2="-7.62" y2="-12.7" width="0.254" layer="94"/>
-</symbol>
-<symbol name="39-30-1020">
-<pin name="1" x="-7.62" y="2.54" length="middle"/>
-<pin name="2" x="-7.62" y="-2.54" length="middle"/>
-<wire x1="-2.54" y1="5.08" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
-<wire x1="5.08" y1="5.08" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
-<text x="-2.54" y="5.08" size="1.778" layer="95">&gt;NAME</text>
-<text x="-2.54" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -20478,22 +20464,6 @@ at 14/06/2012 11:09:42</description>
 <connect gate="G$1" pin="P$2" pad="P$2"/>
 <connect gate="G$1" pin="P$3" pad="P$3"/>
 <connect gate="G$1" pin="P$4" pad="P$4"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="43650-0200">
-<gates>
-<gate name="G$1" symbol="39-30-1020" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="MOLEX_43650-0200">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -20699,6 +20669,1244 @@ Based on the previous library ind-a.lbr&lt;p&gt;
 </deviceset>
 </devicesets>
 </library>
+<library name="LittleFuse">
+<description>&lt;b&gt;Littelfuse Polyfuse Devices&lt;/b&gt;&lt;br&gt;
+(SMD components)&lt;br&gt;
+&lt;br&gt;
+Version 1.0&lt;br&gt;
+&amp;copy; 2015 Samuel Lourenço</description>
+<packages>
+<package name="0402L">
+<description>&lt;b&gt;0402L Series&lt;/b&gt; Polyfuse Resettable PTC&lt;br&gt;
+&lt;br&gt;
+Source: &lt;a href="http://www.littelfuse.com/~/media/electronics/datasheets/resettable_ptcs/littelfuse_ptc_0402l_datasheet.pdf.pdf"&gt;http://www.littelfuse.com/~/media/electronics/datasheets/resettable_ptcs/littelfuse_ptc_0402l_datasheet.pdf.pdf&lt;/a&gt;</description>
+<smd name="1" x="-0.5" y="0" dx="0.6" dy="0.7" layer="1"/>
+<smd name="2" x="0.5" y="0" dx="0.6" dy="0.7" layer="1"/>
+<text x="-0.45" y="0.75" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.45" y="-2.05" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-0.3" y1="0.25" x2="-0.5" y2="0.05" width="0.1016" layer="51" curve="-90"/>
+<wire x1="-0.5" y1="0.05" x2="-0.5" y2="-0.05" width="0.1016" layer="51"/>
+<wire x1="-0.3" y1="-0.25" x2="-0.5" y2="-0.05" width="0.1016" layer="51" curve="90"/>
+<wire x1="0.3" y1="-0.25" x2="0.5" y2="-0.05" width="0.1016" layer="51" curve="-90"/>
+<wire x1="0.3" y1="0.25" x2="0.5" y2="0.05" width="0.1016" layer="51" curve="90"/>
+<wire x1="0.5" y1="0.05" x2="0.5" y2="-0.05" width="0.1016" layer="51"/>
+<wire x1="-0.3" y1="0.25" x2="-0.2" y2="0.25" width="0.1016" layer="51"/>
+<wire x1="-0.3" y1="-0.25" x2="-0.2" y2="-0.25" width="0.1016" layer="51"/>
+<wire x1="0.3" y1="0.25" x2="0.2" y2="0.25" width="0.1016" layer="51"/>
+<wire x1="0.3" y1="-0.25" x2="0.2" y2="-0.25" width="0.1016" layer="51"/>
+<wire x1="-0.2" y1="0.25" x2="-0.2" y2="-0.25" width="0.1016" layer="51"/>
+<wire x1="0.2" y1="0.25" x2="0.2" y2="-0.25" width="0.1016" layer="51"/>
+<wire x1="0.2" y1="-0.25" x2="0.04" y2="-0.25" width="0.1016" layer="51"/>
+<wire x1="-0.04" y1="-0.25" x2="0.04" y2="-0.25" width="0.1016" layer="21"/>
+<wire x1="-0.04" y1="0.25" x2="0.04" y2="0.25" width="0.1016" layer="21"/>
+<wire x1="-0.2" y1="-0.25" x2="-0.04" y2="-0.25" width="0.1016" layer="51"/>
+<wire x1="-0.2" y1="0.25" x2="-0.04" y2="0.25" width="0.1016" layer="51"/>
+<wire x1="0.2" y1="0.25" x2="0.04" y2="0.25" width="0.1016" layer="51"/>
+</package>
+<package name="0603L">
+<description>&lt;b&gt;0603L Series&lt;/b&gt; Polyfuse Resettable PTC&lt;br&gt;
+&lt;br&gt;
+Source: &lt;a href="http://www.littelfuse.com/~/media/electronics/datasheets/resettable_ptcs/littelfuse_ptc_0603l_datasheet.pdf.pdf"&gt;http://www.littelfuse.com/~/media/electronics/datasheets/resettable_ptcs/littelfuse_ptc_0603l_datasheet.pdf.pdf&lt;/a&gt;</description>
+<smd name="1" x="-0.9" y="0" dx="1" dy="1" layer="1"/>
+<smd name="2" x="0.9" y="0" dx="1" dy="1" layer="1"/>
+<text x="-0.75" y="0.9" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.75" y="-2.2" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="0.8" y1="0.4" x2="0.8" y2="0.2" width="0.1016" layer="51"/>
+<wire x1="-0.8" y1="0.4" x2="-0.8" y2="0.2" width="0.1016" layer="51"/>
+<wire x1="-0.8" y1="0.4" x2="-0.4" y2="0.4" width="0.1016" layer="51"/>
+<wire x1="-0.4" y1="0.4" x2="-0.24" y2="0.4" width="0.1016" layer="51"/>
+<wire x1="-0.8" y1="-0.4" x2="-0.4" y2="-0.4" width="0.1016" layer="51"/>
+<wire x1="-0.4" y1="-0.4" x2="-0.24" y2="-0.4" width="0.1016" layer="51"/>
+<wire x1="0.8" y1="0.4" x2="0.4" y2="0.4" width="0.1016" layer="51"/>
+<wire x1="0.4" y1="0.4" x2="0.24" y2="0.4" width="0.1016" layer="51"/>
+<wire x1="0.8" y1="-0.4" x2="0.4" y2="-0.4" width="0.1016" layer="51"/>
+<wire x1="0.4" y1="-0.4" x2="0.24" y2="-0.4" width="0.1016" layer="51"/>
+<wire x1="-0.24" y1="0.4" x2="0.24" y2="0.4" width="0.1016" layer="21"/>
+<wire x1="-0.24" y1="-0.4" x2="0.24" y2="-0.4" width="0.1016" layer="21"/>
+<wire x1="-0.4" y1="0.4" x2="-0.4" y2="-0.4" width="0.1016" layer="51"/>
+<wire x1="0.4" y1="0.4" x2="0.4" y2="-0.4" width="0.1016" layer="51"/>
+<wire x1="0.8" y1="-0.2" x2="0.8" y2="0.2" width="0.1016" layer="51" curve="-180"/>
+<wire x1="-0.8" y1="0.2" x2="-0.8" y2="-0.2" width="0.1016" layer="51" curve="-180"/>
+<wire x1="-0.8" y1="-0.2" x2="-0.8" y2="-0.4" width="0.1016" layer="51"/>
+<wire x1="0.8" y1="-0.2" x2="0.8" y2="-0.4" width="0.1016" layer="51"/>
+</package>
+<package name="0805L">
+<description>&lt;b&gt;0805L Series&lt;/b&gt; Polyfuse Resettable PTC&lt;br&gt;
+&lt;br&gt;
+Source: &lt;a href="http://www.littelfuse.com/~/media/electronics/datasheets/resettable_ptcs/littelfuse_ptc_0805l_datasheet.pdf.pdf"&gt;http://www.littelfuse.com/~/media/electronics/datasheets/resettable_ptcs/littelfuse_ptc_0805l_datasheet.pdf.pdf&lt;/a&gt;</description>
+<smd name="1" x="-1.1" y="0" dx="1" dy="1.5" layer="1"/>
+<smd name="2" x="1.1" y="0" dx="1" dy="1.5" layer="1"/>
+<text x="-1" y="1.15" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1" y="-2.45" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="1.05" y1="0.65" x2="1.05" y2="0.2" width="0.1524" layer="51"/>
+<wire x1="-1.05" y1="0.65" x2="-1.05" y2="0.2" width="0.1524" layer="51"/>
+<wire x1="-1.05" y1="0.65" x2="-0.6" y2="0.65" width="0.1524" layer="51"/>
+<wire x1="-0.6" y1="0.65" x2="-0.42" y2="0.65" width="0.1524" layer="51"/>
+<wire x1="-1.05" y1="-0.65" x2="-0.6" y2="-0.65" width="0.1524" layer="51"/>
+<wire x1="-0.6" y1="-0.65" x2="-0.42" y2="-0.65" width="0.1524" layer="51"/>
+<wire x1="1.05" y1="0.65" x2="0.6" y2="0.65" width="0.1524" layer="51"/>
+<wire x1="0.6" y1="0.65" x2="0.42" y2="0.65" width="0.1524" layer="51"/>
+<wire x1="1.05" y1="-0.65" x2="0.6" y2="-0.65" width="0.1524" layer="51"/>
+<wire x1="0.6" y1="-0.65" x2="0.42" y2="-0.65" width="0.1524" layer="51"/>
+<wire x1="-0.42" y1="0.65" x2="0.42" y2="0.65" width="0.1524" layer="21"/>
+<wire x1="-0.42" y1="-0.65" x2="0.42" y2="-0.65" width="0.1524" layer="21"/>
+<wire x1="-0.6" y1="0.65" x2="-0.6" y2="-0.65" width="0.1524" layer="51"/>
+<wire x1="0.6" y1="0.65" x2="0.6" y2="-0.65" width="0.1524" layer="51"/>
+<wire x1="1.05" y1="-0.2" x2="1.05" y2="0.2" width="0.1524" layer="51" curve="-180"/>
+<wire x1="-1.05" y1="0.2" x2="-1.05" y2="-0.2" width="0.1524" layer="51" curve="-180"/>
+<wire x1="-1.05" y1="-0.2" x2="-1.05" y2="-0.65" width="0.1524" layer="51"/>
+<wire x1="1.05" y1="-0.2" x2="1.05" y2="-0.65" width="0.1524" layer="51"/>
+</package>
+<package name="1206L">
+<description>&lt;b&gt;1206L Series&lt;/b&gt; Polyfuse Resettable PTC&lt;br&gt;
+&lt;br&gt;
+Source: &lt;a href="http://www.littelfuse.com/~/media/electronics/datasheets/resettable_ptcs/littelfuse_ptc_1206l_datasheet.pdf.pdf"&gt;http://www.littelfuse.com/~/media/electronics/datasheets/resettable_ptcs/littelfuse_ptc_1206l_datasheet.pdf.pdf&lt;/a&gt;</description>
+<smd name="1" x="-1.4" y="0" dx="1" dy="1.8" layer="1"/>
+<smd name="2" x="1.4" y="0" dx="1" dy="1.8" layer="1"/>
+<text x="-1.55" y="1.3" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.55" y="-2.6" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="1.6" y1="0.8" x2="1.6" y2="0.25" width="0.1524" layer="51"/>
+<wire x1="-1.6" y1="0.8" x2="-1.6" y2="0.25" width="0.1524" layer="51"/>
+<wire x1="-1.6" y1="0.8" x2="-1.1" y2="0.8" width="0.1524" layer="51"/>
+<wire x1="-1.1" y1="0.8" x2="-0.72" y2="0.8" width="0.1524" layer="51"/>
+<wire x1="-1.6" y1="-0.8" x2="-1.1" y2="-0.8" width="0.1524" layer="51"/>
+<wire x1="-1.1" y1="-0.8" x2="-0.72" y2="-0.8" width="0.1524" layer="51"/>
+<wire x1="1.6" y1="0.8" x2="1.1" y2="0.8" width="0.1524" layer="51"/>
+<wire x1="1.1" y1="0.8" x2="0.72" y2="0.8" width="0.1524" layer="51"/>
+<wire x1="1.6" y1="-0.8" x2="1.1" y2="-0.8" width="0.1524" layer="51"/>
+<wire x1="1.1" y1="-0.8" x2="0.72" y2="-0.8" width="0.1524" layer="51"/>
+<wire x1="-0.72" y1="0.8" x2="0.72" y2="0.8" width="0.1524" layer="21"/>
+<wire x1="-0.72" y1="-0.8" x2="0.72" y2="-0.8" width="0.1524" layer="21"/>
+<wire x1="-1.1" y1="0.8" x2="-1.1" y2="-0.8" width="0.1524" layer="51"/>
+<wire x1="1.1" y1="0.8" x2="1.1" y2="-0.8" width="0.1524" layer="51"/>
+<wire x1="1.6" y1="-0.25" x2="1.6" y2="0.25" width="0.1524" layer="51" curve="-180"/>
+<wire x1="-1.6" y1="0.25" x2="-1.6" y2="-0.25" width="0.1524" layer="51" curve="-180"/>
+<wire x1="-1.6" y1="-0.25" x2="-1.6" y2="-0.8" width="0.1524" layer="51"/>
+<wire x1="1.6" y1="-0.25" x2="1.6" y2="-0.8" width="0.1524" layer="51"/>
+</package>
+<package name="1210L">
+<description>&lt;b&gt;1210L Series&lt;/b&gt; Polyfuse Resettable PTC&lt;br&gt;
+&lt;br&gt;
+Source: &lt;a href="http://www.littelfuse.com/~/media/electronics/datasheets/resettable_ptcs/littelfuse_ptc_1210l_datasheet.pdf.pdf"&gt;http://www.littelfuse.com/~/media/electronics/datasheets/resettable_ptcs/littelfuse_ptc_1210l_datasheet.pdf.pdf&lt;/a&gt;</description>
+<smd name="1" x="-1.4" y="0" dx="1" dy="2.5" layer="1"/>
+<smd name="2" x="1.4" y="0" dx="1" dy="2.5" layer="1"/>
+<text x="-1.55" y="1.65" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.55" y="-2.95" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="1.6" y1="1.25" x2="1.6" y2="0.25" width="0.1524" layer="51"/>
+<wire x1="-1.6" y1="1.25" x2="-1.6" y2="0.25" width="0.1524" layer="51"/>
+<wire x1="-1.6" y1="1.25" x2="-1.1" y2="1.25" width="0.1524" layer="51"/>
+<wire x1="-1.1" y1="1.25" x2="-0.72" y2="1.25" width="0.1524" layer="51"/>
+<wire x1="-1.6" y1="-1.25" x2="-1.1" y2="-1.25" width="0.1524" layer="51"/>
+<wire x1="-1.1" y1="-1.25" x2="-0.72" y2="-1.25" width="0.1524" layer="51"/>
+<wire x1="1.6" y1="1.25" x2="1.1" y2="1.25" width="0.1524" layer="51"/>
+<wire x1="1.1" y1="1.25" x2="0.72" y2="1.25" width="0.1524" layer="51"/>
+<wire x1="1.6" y1="-1.25" x2="1.1" y2="-1.25" width="0.1524" layer="51"/>
+<wire x1="1.1" y1="-1.25" x2="0.72" y2="-1.25" width="0.1524" layer="51"/>
+<wire x1="-0.72" y1="1.25" x2="0.72" y2="1.25" width="0.1524" layer="21"/>
+<wire x1="-0.72" y1="-1.25" x2="0.72" y2="-1.25" width="0.1524" layer="21"/>
+<wire x1="-1.1" y1="1.25" x2="-1.1" y2="-1.25" width="0.1524" layer="51"/>
+<wire x1="1.1" y1="1.25" x2="1.1" y2="-1.25" width="0.1524" layer="51"/>
+<wire x1="1.6" y1="-0.25" x2="1.6" y2="0.25" width="0.1524" layer="51" curve="-180"/>
+<wire x1="-1.6" y1="0.25" x2="-1.6" y2="-0.25" width="0.1524" layer="51" curve="-180"/>
+<wire x1="-1.6" y1="-0.25" x2="-1.6" y2="-1.25" width="0.1524" layer="51"/>
+<wire x1="1.6" y1="-0.25" x2="1.6" y2="-1.25" width="0.1524" layer="51"/>
+</package>
+<package name="1812L">
+<description>&lt;b&gt;1812L Series&lt;/b&gt; Polyfuse Resettable PTC&lt;br&gt;
+&lt;br&gt;
+Source: &lt;a href="http://www.littelfuse.com/~/media/electronics/datasheets/resettable_ptcs/littelfuse_ptc_1812l_datasheet.pdf.pdf"&gt;http://www.littelfuse.com/~/media/electronics/datasheets/resettable_ptcs/littelfuse_ptc_1812l_datasheet.pdf.pdf&lt;/a&gt;</description>
+<smd name="1" x="-2.62" y="0" dx="1.78" dy="3.15" layer="1"/>
+<smd name="2" x="2.62" y="0" dx="1.78" dy="3.15" layer="1"/>
+<text x="-2.2" y="2" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.2" y="-3.3" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="2.25" y1="1.6" x2="2.25" y2="0.4" width="0.1524" layer="51"/>
+<wire x1="-2.25" y1="1.6" x2="-2.25" y2="0.4" width="0.1524" layer="51"/>
+<wire x1="-2.25" y1="1.6" x2="-1.55" y2="1.6" width="0.1524" layer="51"/>
+<wire x1="-2.25" y1="-1.6" x2="-1.55" y2="-1.6" width="0.1524" layer="51"/>
+<wire x1="2.25" y1="1.6" x2="1.55" y2="1.6" width="0.1524" layer="51"/>
+<wire x1="2.25" y1="-1.6" x2="1.55" y2="-1.6" width="0.1524" layer="51"/>
+<wire x1="-1.5" y1="1.6" x2="1.5" y2="1.6" width="0.1524" layer="21"/>
+<wire x1="-1.5" y1="-1.6" x2="1.5" y2="-1.6" width="0.1524" layer="21"/>
+<wire x1="-1.5" y1="1.6" x2="-1.5" y2="-1.6" width="0.1524" layer="21"/>
+<wire x1="1.5" y1="1.6" x2="1.5" y2="-1.6" width="0.1524" layer="21"/>
+<wire x1="2.25" y1="-0.4" x2="2.25" y2="0.4" width="0.1524" layer="51" curve="-180"/>
+<wire x1="-2.25" y1="0.4" x2="-2.25" y2="-0.4" width="0.1524" layer="51" curve="-180"/>
+<wire x1="-2.25" y1="-0.4" x2="-2.25" y2="-1.6" width="0.1524" layer="51"/>
+<wire x1="2.25" y1="-0.4" x2="2.25" y2="-1.6" width="0.1524" layer="51"/>
+<wire x1="-1.55" y1="1.6" x2="-1.5" y2="1.6" width="0.1524" layer="21"/>
+<wire x1="1.5" y1="1.6" x2="1.55" y2="1.6" width="0.1524" layer="21"/>
+<wire x1="-1.55" y1="-1.6" x2="-1.5" y2="-1.6" width="0.1524" layer="21"/>
+<wire x1="1.5" y1="-1.6" x2="1.55" y2="-1.6" width="0.1524" layer="21"/>
+</package>
+<package name="2920L">
+<description>&lt;b&gt;2920L Series&lt;/b&gt; Polyfuse Resettable PTC&lt;br&gt;
+&lt;br&gt;
+Source: &lt;a href="http://www.littelfuse.com/~/media/electronics/datasheets/resettable_ptcs/littelfuse_ptc_2920l_datasheet.pdf.pdf"&gt;http://www.littelfuse.com/~/media/electronics/datasheets/resettable_ptcs/littelfuse_ptc_2920l_datasheet.pdf.pdf&lt;/a&gt;</description>
+<smd name="1" x="-3.3" y="0" dx="2" dy="5.3" layer="1"/>
+<smd name="2" x="3.3" y="0" dx="2" dy="5.3" layer="1"/>
+<text x="-3.65" y="3.05" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.65" y="-4.35" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="3.7" y1="2.5" x2="3.7" y2="1" width="0.1524" layer="51"/>
+<wire x1="-3.7" y1="2.5" x2="-3.7" y2="1" width="0.1524" layer="51"/>
+<wire x1="-3.7" y1="2.5" x2="-2.3" y2="2.5" width="0.1524" layer="51"/>
+<wire x1="-2.3" y1="2.5" x2="-2.12" y2="2.5" width="0.1524" layer="51"/>
+<wire x1="-3.7" y1="-2.5" x2="-2.3" y2="-2.5" width="0.1524" layer="51"/>
+<wire x1="-2.3" y1="-2.5" x2="-2.12" y2="-2.5" width="0.1524" layer="51"/>
+<wire x1="3.7" y1="2.5" x2="2.3" y2="2.5" width="0.1524" layer="51"/>
+<wire x1="2.3" y1="2.5" x2="2.12" y2="2.5" width="0.1524" layer="51"/>
+<wire x1="3.7" y1="-2.5" x2="2.3" y2="-2.5" width="0.1524" layer="51"/>
+<wire x1="2.3" y1="-2.5" x2="2.12" y2="-2.5" width="0.1524" layer="51"/>
+<wire x1="-2.12" y1="2.5" x2="2.12" y2="2.5" width="0.1524" layer="21"/>
+<wire x1="-2.12" y1="-2.5" x2="2.12" y2="-2.5" width="0.1524" layer="21"/>
+<wire x1="-2.3" y1="2.5" x2="-2.3" y2="-2.5" width="0.1524" layer="51"/>
+<wire x1="2.3" y1="2.5" x2="2.3" y2="-2.5" width="0.1524" layer="51"/>
+<wire x1="3.7" y1="-1" x2="3.7" y2="1" width="0.1524" layer="51" curve="-180"/>
+<wire x1="-3.7" y1="1" x2="-3.7" y2="-1" width="0.1524" layer="51" curve="-180"/>
+<wire x1="-3.7" y1="-1" x2="-3.7" y2="-2.5" width="0.1524" layer="51"/>
+<wire x1="3.7" y1="-1" x2="3.7" y2="-2.5" width="0.1524" layer="51"/>
+</package>
+<package name="2016L">
+<description>&lt;b&gt;2016L Series&lt;/b&gt; Polyfuse Resettable PTC&lt;br&gt;
+&lt;br&gt;
+Source: &lt;a href="http://www.littelfuse.com/~/media/electronics/datasheets/resettable_ptcs/littelfuse_ptc_2016l_datasheet.pdf.pdf"&gt;http://www.littelfuse.com/~/media/electronics/datasheets/resettable_ptcs/littelfuse_ptc_2016l_datasheet.pdf.pdf&lt;/a&gt;</description>
+<smd name="1" x="-2.45" y="0" dx="1.5" dy="4.6" layer="1"/>
+<smd name="2" x="2.45" y="0" dx="1.5" dy="4.6" layer="1"/>
+<text x="-2.45" y="2.7" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.45" y="-4" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="2.5" y1="2.1" x2="2.5" y2="0.6" width="0.1524" layer="51"/>
+<wire x1="-2.5" y1="2.1" x2="-2.5" y2="0.6" width="0.1524" layer="51"/>
+<wire x1="-2.5" y1="2.1" x2="-1.6" y2="2.1" width="0.1524" layer="51"/>
+<wire x1="-1.6" y1="2.1" x2="-1.52" y2="2.1" width="0.1524" layer="51"/>
+<wire x1="-2.5" y1="-2.1" x2="-1.6" y2="-2.1" width="0.1524" layer="51"/>
+<wire x1="-1.6" y1="-2.1" x2="-1.52" y2="-2.1" width="0.1524" layer="51"/>
+<wire x1="2.5" y1="2.1" x2="1.6" y2="2.1" width="0.1524" layer="51"/>
+<wire x1="1.6" y1="2.1" x2="1.52" y2="2.1" width="0.1524" layer="51"/>
+<wire x1="2.5" y1="-2.1" x2="1.6" y2="-2.1" width="0.1524" layer="51"/>
+<wire x1="1.6" y1="-2.1" x2="1.52" y2="-2.1" width="0.1524" layer="51"/>
+<wire x1="-1.52" y1="2.1" x2="1.52" y2="2.1" width="0.1524" layer="21"/>
+<wire x1="-1.52" y1="-2.1" x2="1.52" y2="-2.1" width="0.1524" layer="21"/>
+<wire x1="-1.6" y1="2.1" x2="-1.6" y2="-2.1" width="0.1524" layer="51"/>
+<wire x1="1.6" y1="2.1" x2="1.6" y2="-2.1" width="0.1524" layer="51"/>
+<wire x1="2.5" y1="-0.6" x2="2.5" y2="0.6" width="0.1524" layer="51" curve="-180"/>
+<wire x1="-2.5" y1="0.6" x2="-2.5" y2="-0.6" width="0.1524" layer="51" curve="-180"/>
+<wire x1="-2.5" y1="-0.6" x2="-2.5" y2="-2.1" width="0.1524" layer="51"/>
+<wire x1="2.5" y1="-0.6" x2="2.5" y2="-2.1" width="0.1524" layer="51"/>
+</package>
+<package name="250S">
+<description>&lt;b&gt;250S Series&lt;/b&gt; Polyfuse Resettable PTC&lt;br&gt;
+&lt;br&gt;
+Source: &lt;a href="http://www.littelfuse.com/~/media/electronics/datasheets/resettable_ptcs/littelfuse_ptc_250s_datasheet.pdf.pdf"&gt;http://www.littelfuse.com/~/media/electronics/datasheets/resettable_ptcs/littelfuse_ptc_250s_datasheet.pdf.pdf&lt;/a&gt;</description>
+<smd name="1" x="-3.95" y="0" dx="1.8" dy="4.6" layer="1"/>
+<smd name="2" x="3.95" y="0" dx="1.8" dy="4.6" layer="1"/>
+<text x="-4.65" y="4.1" size="1.27" layer="25">&gt;NAME</text>
+<text x="-4.65" y="-5.4" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-4.7" y1="3.7" x2="4.7" y2="3.7" width="0.1524" layer="21"/>
+<wire x1="-4.7" y1="-3.7" x2="4.7" y2="-3.7" width="0.1524" layer="21"/>
+<wire x1="-4.7" y1="2.48" x2="-4.7" y2="-2.48" width="0.1524" layer="51"/>
+<wire x1="4.7" y1="2.48" x2="4.7" y2="-2.48" width="0.1524" layer="51"/>
+<wire x1="-4.7" y1="2.48" x2="-4.7" y2="3.7" width="0.1524" layer="21"/>
+<wire x1="4.7" y1="3.7" x2="4.7" y2="2.48" width="0.1524" layer="21"/>
+<wire x1="-4.7" y1="-2.48" x2="-4.7" y2="-3.7" width="0.1524" layer="21"/>
+<wire x1="4.7" y1="-2.48" x2="4.7" y2="-3.7" width="0.1524" layer="21"/>
+</package>
+<package name="RGEF1100">
+<pad name="P$1" x="-2.54" y="0.6" drill="1.1"/>
+<pad name="P$2" x="2.54" y="-0.6" drill="1.1"/>
+<wire x1="-8.255" y1="1.905" x2="6.985" y2="1.905" width="0.127" layer="21"/>
+<wire x1="6.985" y1="1.905" x2="7.62" y2="1.27" width="0.127" layer="21" curve="-90"/>
+<wire x1="7.62" y1="1.27" x2="7.62" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-8.255" y1="1.905" x2="-8.89" y2="1.27" width="0.127" layer="21" curve="90"/>
+<wire x1="-8.89" y1="1.27" x2="-8.89" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-8.89" y1="-1.27" x2="-8.255" y2="-1.905" width="0.127" layer="21" curve="90"/>
+<wire x1="-8.255" y1="-1.905" x2="6.985" y2="-1.905" width="0.127" layer="21"/>
+<wire x1="6.985" y1="-1.905" x2="7.62" y2="-1.27" width="0.127" layer="21" curve="90"/>
+<text x="-7.62" y="2.54" size="1.016" layer="25" font="vector">&gt;NAME</text>
+<text x="-7.62" y="-3.81" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="PPTC">
+<wire x1="2.54" y1="0.889" x2="-2.54" y2="0.889" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-0.889" x2="2.54" y2="-0.889" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0.889" x2="-2.54" y2="-0.889" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0.889" x2="2.54" y2="-0.889" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.778" x2="-1.27" y2="-1.778" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="-1.778" x2="-2.286" y2="-1.778" width="0.1524" layer="94"/>
+<text x="-3.81" y="2.54" size="1.778" layer="95">&gt;NAME</text>
+<text x="-3.81" y="-3.81" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="2" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="1" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<wire x1="1.27" y1="1.778" x2="2.286" y2="1.778" width="0.1524" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="PTC_FUSE" prefix="F">
+<description>&lt;b&gt;Polyfuse Resettable PTC&lt;br&gt;
+&lt;br&gt;
+Source: &lt;a href="http://www.littelfuse.com/products/resettable-ptcs.aspx"&gt;http://www.littelfuse.com/products/resettable-ptcs.aspx&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="PPTC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="0402L" package="0402L">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="010SL">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="0402L010SL" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="69W6433" constant="no"/>
+</technology>
+<technology name="020SL">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="0402L020SL" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="69W6434" constant="no"/>
+</technology>
+<technology name="035SL">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="0402L035SL" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="69W6435" constant="no"/>
+</technology>
+<technology name="050SL">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="0402L050SL" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="69W6436" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="0603L" package="0603L">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="004">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="0603L004" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="44W7447" constant="no"/>
+</technology>
+<technology name="010">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="0603L010" constant="no"/>
+<attribute name="OC_FARNELL" value="1832095" constant="no"/>
+<attribute name="OC_NEWARK" value="01P9425" constant="no"/>
+</technology>
+<technology name="020">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="0603L020" constant="no"/>
+<attribute name="OC_FARNELL" value="2411232" constant="no"/>
+<attribute name="OC_NEWARK" value="01P9426" constant="no"/>
+</technology>
+<technology name="025">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="0603L025" constant="no"/>
+<attribute name="OC_FARNELL" value="1832097RL" constant="no"/>
+<attribute name="OC_NEWARK" value="01P9427" constant="no"/>
+</technology>
+<technology name="035">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="0603L035" constant="no"/>
+<attribute name="OC_FARNELL" value="1832099" constant="no"/>
+<attribute name="OC_NEWARK" value="01P9428" constant="no"/>
+</technology>
+<technology name="050">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="0603L050" constant="no"/>
+<attribute name="OC_FARNELL" value="2125904" constant="no"/>
+<attribute name="OC_NEWARK" value="88T7683" constant="no"/>
+</technology>
+<technology name="050SL">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="0603L050SL" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="69W6437" constant="no"/>
+</technology>
+<technology name="075SL">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="0603L075SL" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="69W6438" constant="no"/>
+</technology>
+<technology name="100SL">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="0603L100SL" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="69W6439" constant="no"/>
+</technology>
+<technology name="150SL">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="0603L150SL" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="91T3126" constant="no"/>
+</technology>
+<technology name="175SL">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="0603L175SL" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="69W6440" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="0805L" package="0805L">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="010">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="0805L010" constant="no"/>
+<attribute name="OC_FARNELL" value="1832100" constant="no"/>
+<attribute name="OC_NEWARK" value="18M4774" constant="no"/>
+</technology>
+<technology name="010/24">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="0805L010/24" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="23X4297" constant="no"/>
+</technology>
+<technology name="020">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="0805L020" constant="no"/>
+<attribute name="OC_FARNELL" value="1832107" constant="no"/>
+<attribute name="OC_NEWARK" value="05M2226" constant="no"/>
+</technology>
+<technology name="035">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="0805L035" constant="no"/>
+<attribute name="OC_FARNELL" value="1832102RL" constant="no"/>
+<attribute name="OC_NEWARK" value="18M4775" constant="no"/>
+</technology>
+<technology name="050">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="0805L050" constant="no"/>
+<attribute name="OC_FARNELL" value="1832103" constant="no"/>
+<attribute name="OC_NEWARK" value="18M4776" constant="no"/>
+</technology>
+<technology name="075">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="0805L075" constant="no"/>
+<attribute name="OC_FARNELL" value="1832105RL" constant="no"/>
+<attribute name="OC_NEWARK" value="18M4777" constant="no"/>
+</technology>
+<technology name="075SL">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="0805L075SL" constant="no"/>
+<attribute name="OC_FARNELL" value="2125905" constant="no"/>
+<attribute name="OC_NEWARK" value="88T7684" constant="no"/>
+</technology>
+<technology name="100">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="0805L100" constant="no"/>
+<attribute name="OC_FARNELL" value="1832106" constant="no"/>
+<attribute name="OC_NEWARK" value="23T1551" constant="no"/>
+</technology>
+<technology name="110">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="0805L110" constant="no"/>
+<attribute name="OC_FARNELL" value="1832663" constant="no"/>
+<attribute name="OC_NEWARK" value="64R8127" constant="no"/>
+</technology>
+<technology name="110SL">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="0805L110SL" constant="no"/>
+<attribute name="OC_FARNELL" value="1832663" constant="no"/>
+<attribute name="OC_NEWARK" value="64R8127" constant="no"/>
+</technology>
+<technology name="150SL">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="0805L150SL" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="91T3129" constant="no"/>
+</technology>
+<technology name="175SL">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="0805L175SL" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="69W6441" constant="no"/>
+</technology>
+<technology name="200SLTH">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="0805L200SLTH" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="69W6442" constant="no"/>
+</technology>
+<technology name="260SLTH">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="0805L260SLTH" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="69W6443" constant="no"/>
+</technology>
+<technology name="300SL">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="0805L300SL" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="69W6444" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="1206L" package="1206L">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="012">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="1206L012" constant="no"/>
+<attribute name="OC_FARNELL" value="1596988" constant="no"/>
+<attribute name="OC_NEWARK" value="05M2298" constant="no"/>
+</technology>
+<technology name="016">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="1206L016" constant="no"/>
+<attribute name="OC_FARNELL" value="1822201" constant="no"/>
+<attribute name="OC_NEWARK" value="05M2299" constant="no"/>
+</technology>
+<technology name="020">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="1206L020" constant="no"/>
+<attribute name="OC_FARNELL" value="2072173" constant="no"/>
+<attribute name="OC_NEWARK" value="05M2300" constant="no"/>
+</technology>
+<technology name="025">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="1206L025" constant="no"/>
+<attribute name="OC_FARNELL" value="1596990" constant="no"/>
+<attribute name="OC_NEWARK" value="05M2301" constant="no"/>
+</technology>
+<technology name="035">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="1206L035" constant="no"/>
+<attribute name="OC_FARNELL" value="1596991" constant="no"/>
+<attribute name="OC_NEWARK" value="05M2302" constant="no"/>
+</technology>
+<technology name="035/16">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="1206L035/16" constant="no"/>
+<attribute name="OC_FARNELL" value="1822203" constant="no"/>
+<attribute name="OC_NEWARK" value="01P9665" constant="no"/>
+</technology>
+<technology name="050">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="1206L050" constant="no"/>
+<attribute name="OC_FARNELL" value="1596993" constant="no"/>
+<attribute name="OC_NEWARK" value="53M6118" constant="no"/>
+</technology>
+<technology name="050/15">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="1206L050/15" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="05M2305" constant="no"/>
+</technology>
+<technology name="075/13.2">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="1206L075/13.2" constant="no"/>
+<attribute name="OC_FARNELL" value="2119629" constant="no"/>
+<attribute name="OC_NEWARK" value="64R8191" constant="no"/>
+</technology>
+<technology name="075/16">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="1206L075/16" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="075SL">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="1206L075SL" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="91T3236" constant="no"/>
+</technology>
+<technology name="075TH">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="1206L075TH" constant="no"/>
+<attribute name="OC_FARNELL" value="1822204" constant="no"/>
+<attribute name="OC_NEWARK" value="64R8192" constant="no"/>
+</technology>
+<technology name="110/12SL">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="1206L110/12SL" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="69W6445" constant="no"/>
+</technology>
+<technology name="110SL">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="1206L110SL" constant="no"/>
+<attribute name="OC_FARNELL" value="1834358" constant="no"/>
+<attribute name="OC_NEWARK" value="64R8193" constant="no"/>
+</technology>
+<technology name="110TH">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="1206L110TH" constant="no"/>
+<attribute name="OC_FARNELL" value="2383294" constant="no"/>
+<attribute name="OC_NEWARK" value="64R8194" constant="no"/>
+</technology>
+<technology name="150/12SL">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="1206L150/12SL" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="69W6446" constant="no"/>
+</technology>
+<technology name="150SL">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="1206L150SL" constant="no"/>
+<attribute name="OC_FARNELL" value="2383295" constant="no"/>
+<attribute name="OC_NEWARK" value="64R8195" constant="no"/>
+</technology>
+<technology name="150TH">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="1206L150SL" constant="no"/>
+<attribute name="OC_FARNELL" value="2383295" constant="no"/>
+<attribute name="OC_NEWARK" value="64R8195" constant="no"/>
+</technology>
+<technology name="175">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="1206L175" constant="no"/>
+<attribute name="OC_FARNELL" value="2120074" constant="no"/>
+<attribute name="OC_NEWARK" value="81R0491" constant="no"/>
+</technology>
+<technology name="175SL">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="1206L175SL" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="69W6447" constant="no"/>
+</technology>
+<technology name="200">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="1206L200" constant="no"/>
+<attribute name="OC_FARNELL" value="2383297" constant="no"/>
+<attribute name="OC_NEWARK" value="64R8197" constant="no"/>
+</technology>
+<technology name="200SL">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="1206L200SL" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="69W6448" constant="no"/>
+</technology>
+<technology name="260SLTH">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="1206L260SLTH" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="91T3237" constant="no"/>
+</technology>
+<technology name="300SLTH">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="1206L300SLTH" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="69W6449" constant="no"/>
+</technology>
+<technology name="350SLTH">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="1206L350SLTH" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="69W6450" constant="no"/>
+</technology>
+<technology name="380SLTH">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="1206L380SLTH" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="91T3240" constant="no"/>
+</technology>
+<technology name="400SL">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="1206L400SL" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="69W6451" constant="no"/>
+</technology>
+<technology name="450SL">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="1206L450SL" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="69W6452" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="1210L" package="1210L">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="005">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="1210L005" constant="no"/>
+<attribute name="OC_FARNELL" value="1822205" constant="no"/>
+<attribute name="OC_NEWARK" value="18M4780" constant="no"/>
+</technology>
+<technology name="010">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="1210L010" constant="no"/>
+<attribute name="OC_FARNELL" value="1822206" constant="no"/>
+<attribute name="OC_NEWARK" value="18M4781" constant="no"/>
+</technology>
+<technology name="020">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="1210L020" constant="no"/>
+<attribute name="OC_FARNELL" value="1596997" constant="no"/>
+<attribute name="OC_NEWARK" value="05M2313" constant="no"/>
+</technology>
+<technology name="035">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="1210L035" constant="no"/>
+<attribute name="OC_FARNELL" value="1822207" constant="no"/>
+<attribute name="OC_NEWARK" value="18M4782" constant="no"/>
+</technology>
+<technology name="050">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="1210L050" constant="no"/>
+<attribute name="OC_FARNELL" value="1822208" constant="no"/>
+<attribute name="OC_NEWARK" value="18M4783" constant="no"/>
+</technology>
+<technology name="075">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="1210L075" constant="no"/>
+<attribute name="OC_FARNELL" value="1822209" constant="no"/>
+<attribute name="OC_NEWARK" value="78R5546" constant="no"/>
+</technology>
+<technology name="075/24">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="1210L075/24" constant="no"/>
+<attribute name="OC_FARNELL" value="2383298" constant="no"/>
+<attribute name="OC_NEWARK" value="88T7687" constant="no"/>
+</technology>
+<technology name="110/12">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="1210L110/12" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="110/16">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="1210L110/16" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="110TH">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="1210L110TH" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="64R8198" constant="no"/>
+</technology>
+<technology name="150TH">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="1210L150TH" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="175">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="1210L175" constant="no"/>
+<attribute name="OC_FARNELL" value="2119631" constant="no"/>
+<attribute name="OC_NEWARK" value="64R8200" constant="no"/>
+</technology>
+<technology name="175SL">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="1210L175SL" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="69W6453" constant="no"/>
+</technology>
+<technology name="200">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="1210L200" constant="no"/>
+<attribute name="OC_FARNELL" value="2383300" constant="no"/>
+<attribute name="OC_NEWARK" value="64R8202" constant="no"/>
+</technology>
+<technology name="200SL">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="1210L200SL" constant="no"/>
+<attribute name="OC_FARNELL" value="1832664" constant="no"/>
+<attribute name="OC_NEWARK" value="64R8202" constant="no"/>
+</technology>
+<technology name="260SL">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="1210L260SL" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="69W6454" constant="no"/>
+</technology>
+<technology name="300SL">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="1210L300SL" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="69W6455" constant="no"/>
+</technology>
+<technology name="350SL">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="1210L350SL" constant="no"/>
+<attribute name="OC_FARNELL" value="2125909" constant="no"/>
+<attribute name="OC_NEWARK" value="88T7688" constant="no"/>
+</technology>
+<technology name="380SL">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="1210L380SL" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="91T3241" constant="no"/>
+</technology>
+<technology name="400SL">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="1210L400SL" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="91T3242" constant="no"/>
+</technology>
+<technology name="450SL">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="1210L450SL" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="69W6456" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="1812L" package="1812L">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="010">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="1812L010" constant="no"/>
+<attribute name="OC_FARNELL" value="1822210" constant="no"/>
+<attribute name="OC_NEWARK" value="78R5551" constant="no"/>
+</technology>
+<technology name="010/60">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="1812L010/60" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="014">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="1812L014" constant="no"/>
+<attribute name="OC_FARNELL" value="1822211" constant="no"/>
+<attribute name="OC_NEWARK" value="18M4784" constant="no"/>
+</technology>
+<technology name="020">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="1812L020" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="18M4785" constant="no"/>
+</technology>
+<technology name="020/60">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="1812L020/60" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="91T3501" constant="no"/>
+</technology>
+<technology name="035/30">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="1812L035/30" constant="no"/>
+<attribute name="OC_FARNELL" value="2119633" constant="no"/>
+<attribute name="OC_NEWARK" value="64R8224" constant="no"/>
+</technology>
+<technology name="050">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="1812L050" constant="no"/>
+<attribute name="OC_FARNELL" value="1653478" constant="no"/>
+<attribute name="OC_NEWARK" value="18M4786" constant="no"/>
+</technology>
+<technology name="050/30">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="1812L050/30" constant="no"/>
+<attribute name="OC_FARNELL" value="2383301" constant="no"/>
+<attribute name="OC_NEWARK" value="64R8225" constant="no"/>
+</technology>
+<technology name="075">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="1812L075" constant="no"/>
+<attribute name="OC_FARNELL" value="1597003" constant="no"/>
+<attribute name="OC_NEWARK" value="25R5656" constant="no"/>
+</technology>
+<technology name="075/24">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="1812L075/24" constant="no"/>
+<attribute name="OC_FARNELL" value="1597002" constant="no"/>
+<attribute name="OC_NEWARK" value="05M2399" constant="no"/>
+</technology>
+<technology name="075/33">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="1812L075/33" constant="no"/>
+<attribute name="OC_FARNELL" value="1822212" constant="no"/>
+<attribute name="OC_NEWARK" value="05M2400" constant="no"/>
+</technology>
+<technology name="110">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="1812L110" constant="no"/>
+<attribute name="OC_FARNELL" value="1597005" constant="no"/>
+<attribute name="OC_NEWARK" value="18M4788" constant="no"/>
+</technology>
+<technology name="110/16">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="1812L110/16" constant="no"/>
+<attribute name="OC_FARNELL" value="1597004" constant="no"/>
+<attribute name="OC_NEWARK" value="05M2402" constant="no"/>
+</technology>
+<technology name="110/24">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="1812L110/24" constant="no"/>
+<attribute name="OC_FARNELL" value="2383302" constant="no"/>
+<attribute name="OC_NEWARK" value="39X0319" constant="no"/>
+</technology>
+<technology name="110/33">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="1812L110/33" constant="no"/>
+<attribute name="OC_FARNELL" value="1822213" constant="no"/>
+<attribute name="OC_NEWARK" value="05M2403" constant="no"/>
+</technology>
+<technology name="125/16">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="1812L125/16" constant="no"/>
+<attribute name="OC_FARNELL" value="1836775" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="125/6">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="1812L125/6" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="150">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="1812L150" constant="no"/>
+<attribute name="OC_FARNELL" value="1597007" constant="no"/>
+<attribute name="OC_NEWARK" value="94B6280" constant="no"/>
+</technology>
+<technology name="150/12">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="1812L150/12" constant="no"/>
+<attribute name="OC_FARNELL" value="1597006" constant="no"/>
+<attribute name="OC_NEWARK" value="25R5659" constant="no"/>
+</technology>
+<technology name="150/24">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="1812L150/24" constant="no"/>
+<attribute name="OC_FARNELL" value="2133084" constant="no"/>
+<attribute name="OC_NEWARK" value="05M2407" constant="no"/>
+</technology>
+<technology name="160">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="1812L160" constant="no"/>
+<attribute name="OC_FARNELL" value="1597008" constant="no"/>
+<attribute name="OC_NEWARK" value="25R5661" constant="no"/>
+</technology>
+<technology name="160/12">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="1812L160/12" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="190SL">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="1812L190SL" constant="no"/>
+<attribute name="OC_FARNELL" value="1826569" constant="no"/>
+<attribute name="OC_NEWARK" value="64R8228" constant="no"/>
+</technology>
+<technology name="200TH">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="1812L200TH" constant="no"/>
+<attribute name="OC_FARNELL" value="1822216" constant="no"/>
+<attribute name="OC_NEWARK" value="78R5556" constant="no"/>
+</technology>
+<technology name="260SL">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="1812L260SL" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="69W6457" constant="no"/>
+</technology>
+<technology name="270SL">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="1812L270SL" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="69W6458" constant="no"/>
+</technology>
+<technology name="300SL">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="1812L300SL" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="69W6459" constant="no"/>
+</technology>
+<technology name="350SL">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="1812L350SL" constant="no"/>
+<attribute name="OC_FARNELL" value="2125911" constant="no"/>
+<attribute name="OC_NEWARK" value="88T7690" constant="no"/>
+</technology>
+<technology name="370SL">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="1812L370SL" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="69W6460" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="2920L" package="2920L">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="030">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="2920L030" constant="no"/>
+<attribute name="OC_FARNELL" value="1822222" constant="no"/>
+<attribute name="OC_NEWARK" value="18M4789" constant="no"/>
+</technology>
+<technology name="050">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="2920L050" constant="no"/>
+<attribute name="OC_FARNELL" value="1822223" constant="no"/>
+<attribute name="OC_NEWARK" value="18M4790" constant="no"/>
+</technology>
+<technology name="075">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="2920L075" constant="no"/>
+<attribute name="OC_FARNELL" value="1822224" constant="no"/>
+<attribute name="OC_NEWARK" value="18M4791" constant="no"/>
+</technology>
+<technology name="075/60">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="2920L075/60" constant="no"/>
+<attribute name="OC_FARNELL" value="2383303" constant="no"/>
+<attribute name="OC_NEWARK" value="39X0323" constant="no"/>
+</technology>
+<technology name="100">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="2920L100" constant="no"/>
+<attribute name="OC_FARNELL" value="1822225" constant="no"/>
+<attribute name="OC_NEWARK" value="18M4792" constant="no"/>
+</technology>
+<technology name="125">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="2920L125" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="18M4793" constant="no"/>
+</technology>
+<technology name="150">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="2920L150" constant="no"/>
+<attribute name="OC_FARNELL" value="1822227" constant="no"/>
+<attribute name="OC_NEWARK" value="18M4794" constant="no"/>
+</technology>
+<technology name="185">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="2920L185" constant="no"/>
+<attribute name="OC_FARNELL" value="1822228" constant="no"/>
+<attribute name="OC_NEWARK" value="05M2795" constant="no"/>
+</technology>
+<technology name="200">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="2920L200" constant="no"/>
+<attribute name="OC_FARNELL" value="1822229" constant="no"/>
+<attribute name="OC_NEWARK" value="18M4796" constant="no"/>
+</technology>
+<technology name="200/24">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="2920L200/24" constant="no"/>
+<attribute name="OC_FARNELL" value="2309127" constant="no"/>
+<attribute name="OC_NEWARK" value="05M2797" constant="no"/>
+</technology>
+<technology name="250">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="2920L250" constant="no"/>
+<attribute name="OC_FARNELL" value="1822230" constant="no"/>
+<attribute name="OC_NEWARK" value="18M4797" constant="no"/>
+</technology>
+<technology name="260">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="2920L260" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="05M2799" constant="no"/>
+</technology>
+<technology name="300">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="2920L300" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="300/15">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="2920L300/15" constant="no"/>
+<attribute name="OC_FARNELL" value="1822231" constant="no"/>
+<attribute name="OC_NEWARK" value="05M2801" constant="no"/>
+</technology>
+<technology name="500/16">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="2920L500/16" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="700SL">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="2920L700SL" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="69W6461" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="2016L" package="2016L">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="030">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="2016L030" constant="no"/>
+<attribute name="OC_FARNELL" value="1822218" constant="no"/>
+<attribute name="OC_NEWARK" value="05M2620" constant="no"/>
+</technology>
+<technology name="050">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="2016L050" constant="no"/>
+<attribute name="OC_FARNELL" value="1822219" constant="no"/>
+<attribute name="OC_NEWARK" value="05M2621" constant="no"/>
+</technology>
+<technology name="075/60">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="2016L075/60" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="64R8238" constant="no"/>
+</technology>
+<technology name="100">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="2016L100" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="100/33">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="2016L100/33" constant="no"/>
+<attribute name="OC_FARNELL" value="1822220" constant="no"/>
+<attribute name="OC_NEWARK" value="05M2623" constant="no"/>
+</technology>
+<technology name="150">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="2016L150" constant="no"/>
+<attribute name="OC_FARNELL" value="1822221" constant="no"/>
+<attribute name="OC_NEWARK" value="78R5561" constant="no"/>
+</technology>
+<technology name="200">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="2016L200" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="250S" package="250S">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="130">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="250S130" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="64R8245" constant="no"/>
+</technology>
+<technology name="130-RA">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="250S130-RA" constant="no"/>
+<attribute name="OC_FARNELL" value="1824099" constant="no"/>
+<attribute name="OC_NEWARK" value="64R8242" constant="no"/>
+</technology>
+<technology name="130-RB">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="250S130-RB" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="64R8243" constant="no"/>
+</technology>
+<technology name="130-RC">
+<attribute name="MF" value="Littelfuse" constant="no"/>
+<attribute name="MPN" value="250S130-RC" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="64R8244" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="" package="RGEF1100">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="texas-boosterpack">
+<packages>
+<package name="0603">
+<wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
+<wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
+<rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
+<rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
+<smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
+<smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
+<text x="-0.889" y="1.016" size="0.4064" layer="25" font="vector">&gt;NAME</text>
+<wire x1="-1.651" y1="0.762" x2="-0.254" y2="0.762" width="0.127" layer="21"/>
+<wire x1="0.254" y1="0.762" x2="1.651" y2="0.762" width="0.127" layer="21"/>
+<wire x1="1.651" y1="-0.762" x2="0.254" y2="-0.762" width="0.127" layer="21"/>
+<wire x1="-0.254" y1="-0.762" x2="-1.651" y2="-0.762" width="0.127" layer="21"/>
+<wire x1="-1.651" y1="0.762" x2="-1.651" y2="0.254" width="0.127" layer="21"/>
+<wire x1="-1.651" y1="-0.254" x2="-1.651" y2="-0.762" width="0.127" layer="21"/>
+<wire x1="1.651" y1="-0.762" x2="1.651" y2="-0.254" width="0.127" layer="21"/>
+<wire x1="1.651" y1="0.762" x2="1.651" y2="0.254" width="0.127" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="TVS">
+<wire x1="-2.54" y1="1.27" x2="2.54" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-1.27" x2="2.54" y2="1.27" width="0.254" layer="94"/>
+<wire x1="2.54" y1="1.27" x2="-2.54" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-1.27" x2="-2.54" y2="1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="0" y2="1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="1.27" x2="0" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.27" x2="-1.27" y2="-2.54" width="0.254" layer="94"/>
+<pin name="P$1" x="-5.08" y="0" visible="off" length="short"/>
+<pin name="P$2" x="5.08" y="0" visible="off" length="short" rot="R180"/>
+<text x="-2.54" y="2.54" size="1.778" layer="95">&gt;NAME</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="TVS_" prefix="D" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="TVS" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-0603" package="0603">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CCO" value="" constant="no"/>
+<attribute name="DESCRIPTION" value="" constant="no"/>
+<attribute name="MAN" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+<technology name="24VM-150VC">
+<attribute name="CCO" value="130-0001371" constant="no"/>
+<attribute name="DESCRIPTION" value="TVS DIODE 24VWM 150VC 0603" constant="no"/>
+<attribute name="MAN" value="LITTLEFUSE" constant="no"/>
+<attribute name="VALUE" value="24VM, 150VC, 0603" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -20856,12 +22064,17 @@ Based on the previous library ind-a.lbr&lt;p&gt;
 <part name="C24" library="rcl" deviceset="C-US" device="C0603" value="10uF"/>
 <part name="C9" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="10uF"/>
 <part name="R50" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="17.2k"/>
-<part name="USB" library="molex" deviceset="67503-1020" device=""/>
-<part name="CAN1" library="molex" deviceset="043650-0409" device=""/>
-<part name="SHIFT" library="molex" deviceset="043650-0409" device=""/>
-<part name="LED" library="molex" deviceset="043650-0409" device=""/>
-<part name="B0" library="molex" deviceset="43650-0200" device=""/>
-<part name="B1" library="molex" deviceset="43650-0200" device=""/>
+<part name="U$1" library="molex" deviceset="67503-1020" device=""/>
+<part name="U$2" library="molex" deviceset="043650-0409" device=""/>
+<part name="U$3" library="molex" deviceset="043650-0409" device=""/>
+<part name="U$4" library="molex" deviceset="043650-0409" device=""/>
+<part name="F1" library="LittleFuse" deviceset="PTC_FUSE" device="0805L" technology="010/24" value="0805_.75trip"/>
+<part name="D4" library="adafruit" deviceset="DIODE" device="SOD-123" value="1N4148"/>
+<part name="GND7" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="D5" library="texas-boosterpack" deviceset="TVS_" device="-0603" technology="24VM-150VC" value="24VM, 150VC, 0603"/>
+<part name="D6" library="texas-boosterpack" deviceset="TVS_" device="-0603" technology="24VM-150VC" value="24VM, 150VC, 0603"/>
+<part name="GND15" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="GND18" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -21072,12 +22285,17 @@ Based on the previous library ind-a.lbr&lt;p&gt;
 <instance part="C24" gate="G$1" x="-182.88" y="60.96"/>
 <instance part="C9" gate="G$1" x="-379.73" y="193.04"/>
 <instance part="R50" gate="G$1" x="111.76" y="81.28" rot="R90"/>
-<instance part="USB" gate="G$1" x="-309.88" y="25.4"/>
-<instance part="CAN1" gate="G$1" x="-350.52" y="109.22"/>
-<instance part="SHIFT" gate="G$1" x="-350.52" y="68.58"/>
-<instance part="LED" gate="G$1" x="-350.52" y="40.64"/>
-<instance part="B0" gate="G$1" x="-304.8" y="78.74"/>
-<instance part="B1" gate="G$1" x="-304.8" y="60.96"/>
+<instance part="U$1" gate="G$1" x="-309.88" y="25.4"/>
+<instance part="U$2" gate="G$1" x="-350.52" y="109.22"/>
+<instance part="U$3" gate="G$1" x="-350.52" y="81.28"/>
+<instance part="U$4" gate="G$1" x="-350.52" y="53.34"/>
+<instance part="F1" gate="G$1" x="-363.22" y="15.24" rot="R180"/>
+<instance part="D4" gate="G$1" x="-358.14" y="22.86" rot="R90"/>
+<instance part="GND7" gate="1" x="-345.44" y="12.7"/>
+<instance part="D5" gate="G$1" x="-320.04" y="2.667"/>
+<instance part="D6" gate="G$1" x="-304.038" y="2.667"/>
+<instance part="GND15" gate="1" x="-332.105" y="-0.635"/>
+<instance part="GND18" gate="1" x="-294.767" y="-0.635"/>
 </instances>
 <busses>
 </busses>
@@ -21123,22 +22341,12 @@ Based on the previous library ind-a.lbr&lt;p&gt;
 <label x="-22.86" y="114.3" size="1.778" layer="95"/>
 <pinref part="IC1" gate="G$1" pin="(A9)PC1"/>
 </segment>
-<segment>
-<pinref part="B1" gate="G$1" pin="1"/>
-<wire x1="-312.42" y1="63.5" x2="-314.96" y2="63.5" width="0.1524" layer="91"/>
-<label x="-314.96" y="63.5" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
 </net>
 <net name="PC0" class="0">
 <segment>
 <wire x1="-20.32" y1="111.76" x2="-25.4" y2="111.76" width="0.1524" layer="91"/>
 <label x="-22.86" y="111.76" size="1.778" layer="95"/>
 <pinref part="IC1" gate="G$1" pin="(A8)PC0"/>
-</segment>
-<segment>
-<pinref part="B0" gate="G$1" pin="1"/>
-<wire x1="-312.42" y1="81.28" x2="-314.96" y2="81.28" width="0.1524" layer="91"/>
-<label x="-314.96" y="81.28" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="RXCAN" class="0">
@@ -21270,13 +22478,15 @@ Based on the previous library ind-a.lbr&lt;p&gt;
 <segment>
 <pinref part="P+6" gate="VCC" pin="VCC"/>
 <pinref part="IC6" gate="G$1" pin="IN"/>
-<wire x1="-237.49" y1="36.83" x2="-231.14" y2="36.83" width="0.1524" layer="91"/>
+<wire x1="-237.49" y1="36.83" x2="-233.68" y2="36.83" width="0.1524" layer="91"/>
 <pinref part="IC6" gate="G$1" pin="EN"/>
+<wire x1="-233.68" y1="36.83" x2="-231.14" y2="36.83" width="0.1524" layer="91"/>
 <wire x1="-231.14" y1="36.83" x2="-222.25" y2="36.83" width="0.1524" layer="91"/>
 <wire x1="-222.25" y1="29.21" x2="-222.25" y2="36.83" width="0.1524" layer="91"/>
 <junction x="-222.25" y="36.83"/>
 <pinref part="C13" gate="G$1" pin="1"/>
 <junction x="-231.14" y="36.83"/>
+<wire x1="-240.03" y1="36.83" x2="-233.68" y2="36.83" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R6" gate="G$1" pin="2"/>
@@ -21330,7 +22540,7 @@ Based on the previous library ind-a.lbr&lt;p&gt;
 </segment>
 <segment>
 <label x="-314.96" y="15.24" size="1.27" layer="95" rot="R270" xref="yes"/>
-<pinref part="USB" gate="G$1" pin="P$1"/>
+<pinref part="U$1" gate="G$1" pin="P$1"/>
 <wire x1="-314.96" y1="15.24" x2="-314.96" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -21641,11 +22851,6 @@ Based on the previous library ind-a.lbr&lt;p&gt;
 <junction x="198.12" y="68.58"/>
 </segment>
 <segment>
-<pinref part="J2" gate="G$1" pin="P$1"/>
-<wire x1="-312.42" y1="111.76" x2="-312.42" y2="109.22" width="0.1524" layer="91"/>
-<label x="-312.42" y="109.22" size="0.8128" layer="95" rot="R270" xref="yes"/>
-</segment>
-<segment>
 <pinref part="C23" gate="G$1" pin="2"/>
 <wire x1="-233.68" y1="55.88" x2="-233.68" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="C24" gate="G$1" pin="2"/>
@@ -21679,32 +22884,42 @@ Based on the previous library ind-a.lbr&lt;p&gt;
 <segment>
 <wire x1="-363.22" y1="101.6" x2="-378.46" y2="101.6" width="0.1524" layer="91"/>
 <label x="-378.46" y="101.6" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="CAN1" gate="G$1" pin="P$4"/>
+<pinref part="U$2" gate="G$1" pin="P$4"/>
 </segment>
 <segment>
-<label x="-368.3" y="66.04" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="SHIFT" gate="G$1" pin="P$3"/>
-<wire x1="-368.3" y1="66.04" x2="-363.22" y2="66.04" width="0.1524" layer="91"/>
+<label x="-368.3" y="78.74" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$3" gate="G$1" pin="P$3"/>
+<wire x1="-368.3" y1="78.74" x2="-363.22" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<label x="-370.84" y="33.02" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="LED" gate="G$1" pin="P$4"/>
-<wire x1="-370.84" y1="33.02" x2="-363.22" y2="33.02" width="0.1524" layer="91"/>
+<label x="-370.84" y="45.72" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$4" gate="G$1" pin="P$4"/>
+<wire x1="-370.84" y1="45.72" x2="-363.22" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <label x="-304.8" y="15.24" size="1.27" layer="95" rot="R270" xref="yes"/>
-<pinref part="USB" gate="G$1" pin="P$5"/>
+<pinref part="U$1" gate="G$1" pin="P$5"/>
 <wire x1="-304.8" y1="15.24" x2="-304.8" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="B0" gate="G$1" pin="2"/>
-<wire x1="-312.42" y1="76.2" x2="-314.96" y2="76.2" width="0.1524" layer="91"/>
-<label x="-314.96" y="76.2" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="F1" gate="G$1" pin="2"/>
+<pinref part="D4" gate="G$1" pin="A"/>
+<wire x1="-358.14" y1="15.24" x2="-358.14" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="-358.14" y1="15.24" x2="-345.44" y2="15.24" width="0.1524" layer="91"/>
+<junction x="-358.14" y="15.24"/>
+<pinref part="GND7" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="B1" gate="G$1" pin="2"/>
-<wire x1="-312.42" y1="58.42" x2="-314.96" y2="58.42" width="0.1524" layer="91"/>
-<label x="-314.96" y="58.42" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="D5" gate="G$1" pin="P$1"/>
+<pinref part="GND15" gate="1" pin="GND"/>
+<wire x1="-325.12" y1="2.667" x2="-332.105" y2="2.667" width="0.1524" layer="91"/>
+<wire x1="-332.105" y1="2.667" x2="-332.105" y2="1.905" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="D6" gate="G$1" pin="P$2"/>
+<pinref part="GND18" gate="1" pin="GND"/>
+<wire x1="-298.958" y1="2.667" x2="-294.767" y2="2.667" width="0.1524" layer="91"/>
+<wire x1="-294.767" y1="2.667" x2="-294.767" y2="1.905" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="XTAL1" class="0">
@@ -21928,7 +23143,7 @@ Based on the previous library ind-a.lbr&lt;p&gt;
 <segment>
 <wire x1="-363.22" y1="116.84" x2="-378.46" y2="116.84" width="0.1524" layer="91"/>
 <label x="-378.46" y="116.84" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="CAN1" gate="G$1" pin="P$1"/>
+<pinref part="U$2" gate="G$1" pin="P$1"/>
 </segment>
 <segment>
 <pinref part="D3" gate="G$1" pin="A"/>
@@ -21977,6 +23192,12 @@ Based on the previous library ind-a.lbr&lt;p&gt;
 <pinref part="Q7" gate="G$1" pin="E"/>
 <wire x1="-430.53" y1="55.88" x2="-430.53" y2="62.23" width="0.1524" layer="91"/>
 <label x="-430.53" y="62.23" size="1.778" layer="95" rot="R90" xref="yes"/>
+</segment>
+<segment>
+<pinref part="D4" gate="G$1" pin="C"/>
+<wire x1="-358.14" y1="25.4" x2="-358.14" y2="29.337" width="0.1524" layer="91"/>
+<wire x1="-358.14" y1="29.337" x2="-373.38" y2="29.337" width="0.1524" layer="91"/>
+<label x="-373.38" y="29.337" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$11" class="0">
@@ -22648,9 +23869,9 @@ Based on the previous library ind-a.lbr&lt;p&gt;
 </net>
 <net name="DRV1" class="3">
 <segment>
-<label x="-370.84" y="48.26" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="LED" gate="G$1" pin="P$1"/>
-<wire x1="-370.84" y1="48.26" x2="-363.22" y2="48.26" width="0.1524" layer="91"/>
+<label x="-370.84" y="60.96" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$4" gate="G$1" pin="P$1"/>
+<wire x1="-370.84" y1="60.96" x2="-363.22" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="F4" gate="G$1" pin="2"/>
@@ -22752,16 +23973,16 @@ Based on the previous library ind-a.lbr&lt;p&gt;
 <label x="-495.3" y="25.4" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
-<label x="-370.84" y="38.1" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="LED" gate="G$1" pin="P$3"/>
-<wire x1="-370.84" y1="38.1" x2="-363.22" y2="38.1" width="0.1524" layer="91"/>
+<label x="-370.84" y="50.8" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$4" gate="G$1" pin="P$3"/>
+<wire x1="-370.84" y1="50.8" x2="-363.22" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DRV2" class="3">
 <segment>
-<wire x1="-363.22" y1="43.18" x2="-370.84" y2="43.18" width="0.1524" layer="91"/>
-<label x="-370.84" y="43.18" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="LED" gate="G$1" pin="P$2"/>
+<wire x1="-363.22" y1="55.88" x2="-370.84" y2="55.88" width="0.1524" layer="91"/>
+<label x="-370.84" y="55.88" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$4" gate="G$1" pin="P$2"/>
 </segment>
 <segment>
 <pinref part="F5" gate="G$1" pin="2"/>
@@ -23304,7 +24525,7 @@ Based on the previous library ind-a.lbr&lt;p&gt;
 <segment>
 <wire x1="-363.22" y1="106.68" x2="-368.3" y2="106.68" width="0.1524" layer="91"/>
 <label x="-368.3" y="106.68" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="CAN1" gate="G$1" pin="P$3"/>
+<pinref part="U$2" gate="G$1" pin="P$3"/>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="P$8"/>
@@ -23316,7 +24537,7 @@ Based on the previous library ind-a.lbr&lt;p&gt;
 <segment>
 <wire x1="-363.22" y1="111.76" x2="-378.46" y2="111.76" width="0.1524" layer="91"/>
 <label x="-378.46" y="111.76" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="CAN1" gate="G$1" pin="P$2"/>
+<pinref part="U$2" gate="G$1" pin="P$2"/>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="P$7"/>
@@ -23343,9 +24564,9 @@ Based on the previous library ind-a.lbr&lt;p&gt;
 <label x="-302.26" y="109.22" size="0.8128" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
-<label x="-368.3" y="71.12" size="1.778" layer="95" rot="R180" xref="yes"/>
-<wire x1="-368.3" y1="71.12" x2="-363.22" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="SHIFT" gate="G$1" pin="P$2"/>
+<label x="-368.3" y="83.82" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="-368.3" y1="83.82" x2="-363.22" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="U$3" gate="G$1" pin="P$2"/>
 </segment>
 </net>
 <net name="DOWN_SH" class="0">
@@ -23355,9 +24576,9 @@ Based on the previous library ind-a.lbr&lt;p&gt;
 <label x="-299.72" y="109.22" size="0.8128" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
-<label x="-373.38" y="76.2" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="SHIFT" gate="G$1" pin="P$1"/>
-<wire x1="-373.38" y1="76.2" x2="-363.22" y2="76.2" width="0.1524" layer="91"/>
+<label x="-373.38" y="88.9" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$3" gate="G$1" pin="P$1"/>
+<wire x1="-373.38" y1="88.9" x2="-363.22" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CAN_0L" class="1">
@@ -23411,9 +24632,13 @@ Based on the previous library ind-a.lbr&lt;p&gt;
 </net>
 <net name="D_P" class="1">
 <segment>
-<label x="-309.88" y="15.24" size="1.27" layer="95" rot="R270" xref="yes"/>
-<pinref part="USB" gate="G$1" pin="P$3"/>
-<wire x1="-309.88" y1="15.24" x2="-309.88" y2="20.32" width="0.1524" layer="91"/>
+<label x="-309.88" y="-3.429" size="1.27" layer="95" rot="R270" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="P$3"/>
+<wire x1="-309.88" y1="-3.429" x2="-309.88" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="D6" gate="G$1" pin="P$1"/>
+<wire x1="-309.118" y1="2.667" x2="-309.88" y2="2.667" width="0.1524" layer="91"/>
+<wire x1="-309.88" y1="2.667" x2="-309.88" y2="20.32" width="0.1524" layer="91"/>
+<junction x="-309.88" y="20.32"/>
 </segment>
 <segment>
 <wire x1="-205.74" y1="215.9" x2="-210.82" y2="215.9" width="0.1524" layer="91"/>
@@ -23423,14 +24648,30 @@ Based on the previous library ind-a.lbr&lt;p&gt;
 </net>
 <net name="D_N" class="1">
 <segment>
-<label x="-312.42" y="15.24" size="1.27" layer="95" rot="R270" xref="yes"/>
-<pinref part="USB" gate="G$1" pin="P$2"/>
-<wire x1="-312.42" y1="15.24" x2="-312.42" y2="20.32" width="0.1524" layer="91"/>
+<label x="-312.42" y="-3.429" size="1.27" layer="95" rot="R270" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="P$2"/>
+<wire x1="-312.42" y1="-3.429" x2="-312.42" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="D5" gate="G$1" pin="P$2"/>
+<wire x1="-314.96" y1="2.667" x2="-312.42" y2="2.667" width="0.1524" layer="91"/>
+<wire x1="-312.42" y1="2.667" x2="-312.42" y2="20.32" width="0.1524" layer="91"/>
+<junction x="-312.42" y="20.32"/>
 </segment>
 <segment>
 <wire x1="-210.82" y1="218.44" x2="-205.74" y2="218.44" width="0.1524" layer="91"/>
 <label x="-210.82" y="218.44" size="1.778" layer="95"/>
 <pinref part="IC5" gate="G$1" pin="USBDM"/>
+</segment>
+</net>
+<net name="GND_UF" class="0">
+<segment>
+<pinref part="F1" gate="G$1" pin="1"/>
+<wire x1="-368.3" y1="15.24" x2="-375.92" y2="15.24" width="0.1524" layer="91"/>
+<label x="-375.92" y="15.24" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J2" gate="G$1" pin="P$1"/>
+<wire x1="-312.42" y1="111.76" x2="-312.42" y2="109.22" width="0.1524" layer="91"/>
+<label x="-312.42" y="109.22" size="0.8128" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 </nets>
