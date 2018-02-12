@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.5.0">
+<eagle version="8.5.1">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mil" altunit="mil"/>
@@ -13,12 +13,12 @@
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
 <layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
-<layer number="6" name="Route6" color="13" fill="1" visible="yes" active="yes"/>
+<layer number="6" name="Route6" color="13" fill="1" visible="no" active="yes"/>
 <layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
 <layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
 <layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
 <layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
-<layer number="11" name="Route11" color="11" fill="1" visible="yes" active="yes"/>
+<layer number="11" name="Route11" color="11" fill="1" visible="no" active="yes"/>
 <layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
@@ -5652,10 +5652,10 @@
 <rectangle x1="38.5484" y1="21.3693625" x2="38.5890375" y2="21.38968125" layer="201"/>
 <rectangle x1="38.812559375" y1="21.3693625" x2="38.832878125" y2="21.38968125" layer="201"/>
 <rectangle x1="38.97511875" y1="21.3693625" x2="38.9954375" y2="21.38968125" layer="201"/>
-<text x="43.464" y="30.15488125" size="1.27" layer="25" font="vector" ratio="10" rot="R180">DASHBOARD Rev. 5 - 2018</text>
-<text x="43.4030375" y="35.47871875" size="1.27" layer="25" font="vector" ratio="10" rot="R180">N. Luong, A. Painter, N. Mah
-J. Singh, D. Zusalim, 
-D. Baron, T. Willson</text>
+<text x="42.448" y="29.13888125" size="1.27" layer="25" font="vector" ratio="10" rot="R180">DASHBOARD Rev. 5 - 2018</text>
+<text x="45.6890375" y="35.73271875" size="1.27" layer="25" font="vector" ratio="10" rot="R180">N. Luong, A. Painter, N. Mah
+J. Singh, D. Zusalim, E. Sernas
+A. Delgado, D. Baron, T. Willson</text>
 <polygon width="0.254" layer="41">
 <vertex x="85.127840625" y="71.025759375"/>
 <vertex x="85.249759375" y="71.025759375"/>
