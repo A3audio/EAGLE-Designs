@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.5.1">
+<eagle version="8.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -11345,11 +11345,11 @@ design rules under a new name.</description>
 <attribute name="NAME" x="123.40388125" y="37.362921875" size="1.27" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="122.586" y="37.9268" size="1.27" layer="27" font="vector" rot="R90"/>
 </element>
-<element name="R52" library="SparkFun-Resistors" package="0603-RES" value="10k" x="111.5624" y="30.4338" smashed="yes">
+<element name="R52" library="SparkFun-Resistors" package="0603-RES" value="1k" x="111.5624" y="30.4338" smashed="yes">
 <attribute name="NAME" x="109.53548125" y="31.0332375" size="1.27" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="110.0384" y="29.2908" size="1.27" layer="27" font="vector"/>
 </element>
-<element name="R53" library="SparkFun-Resistors" package="0603-RES" value="182k" x="111.5624" y="32.7198" smashed="yes">
+<element name="R53" library="SparkFun-Resistors" package="0603-RES" value="14.7k" x="111.5624" y="32.7198" smashed="yes">
 <attribute name="NAME" x="109.5558" y="33.237959375" size="1.27" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="110.5464" y="31.5768" size="1.27" layer="27" font="vector"/>
 </element>

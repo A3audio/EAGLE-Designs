@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.5.1">
+<eagle version="8.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -22094,10 +22094,10 @@ Source: &lt;a href="http://www.littelfuse.com/products/resettable-ptcs.aspx"&gt;
 <part name="C11" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="4.7uF"/>
 <part name="C12" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="4.7uF"/>
 <part name="R51" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="10"/>
-<part name="R52" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="10k"/>
+<part name="R52" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="1k"/>
 <part name="GND22" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND23" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="R53" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="182k"/>
+<part name="R53" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="14.7k"/>
 <part name="C3" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="3.3uF"/>
 <part name="C4" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="3.3uF"/>
 <part name="D2" library="diodes-inc-e14" deviceset="B160-FDICT_NB" device=""/>
